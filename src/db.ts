@@ -1,10 +1,17 @@
 import type { Site } from './types';
+import { defaultSites } from './defaultData';
 
 const DB_KEY = 'coordinate_helper_sites';
 
 export const getSites = (): Site[] => {
   const data = localStorage.getItem(DB_KEY);
-  return data ? JSON.parse(data) : [];
+  if (data) {
+    return JSON.parse(data);
+  }
+  
+  // If no data exists, initialize with default sites from KML.csv
+  saveSites(defaultSites);
+  return defaultSites;
 };
 
 export const saveSites = (sites: Site[]) => {
