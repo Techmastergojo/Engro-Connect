@@ -1,4 +1,4 @@
-import { Site } from './types';
+import type { Site } from './types';
 
 export const defaultSites: Site[] = [
   {
