@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import Papa from 'papaparse';
 import { Search, Plus, Upload, MapPin } from 'lucide-react';
 import type { Site } from './types';
-import { getSites, addSite, updateSite, deleteSite, saveSites } from './db';
+import { getSites, addSite, updateSite, deleteSite, saveSites, initializeDb } from './db';
 import { SiteCard } from './components/SiteCard';
 import { SiteModal } from './components/SiteModal';
 
@@ -14,7 +14,9 @@ function App() {
   const fileInputRef = useRef<HTMLInputElement>(null);
 
   useEffect(() => {
-    setSites(getSites());
+    initializeDb().then(loadedSites => {
+      setSites(loadedSites);
+    });
   }, []);
 
   const handleAddOrUpdate = (siteData: Partial<Site>) => {

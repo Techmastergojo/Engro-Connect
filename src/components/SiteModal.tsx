@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { MapPin, X, Loader2 } from 'lucide-react';
 import type { Site } from '../types';
-
+import { Geolocation } from '@capacitor/geolocation';
 interface Props {
   isOpen: boolean;
   onClose: () => void;
@@ -35,21 +35,29 @@ export const SiteModal: React.FC<Props> = ({ isOpen, onClose, onSave, site }) =>
     onSave({ name, lat: parseFloat(lat), lng: parseFloat(lng) });
     onClose();
   };
-
-  const getCurrentLocation = () => {
+  const getCurrentLocation = async () => {
     setLoadingLocation(true);
-    navigator.geolocation.getCurrentPosition(
-      (position) => {
-        setLat(position.coords.latitude.toString());
-        setLng(position.coords.longitude.toString());
-        setLoadingLocation(false);
-      },
-      (_error) => {
-        alert('Could not get location. Please ensure location services are enabled on your device.');
-        setLoadingLocation(false);
-      },
-      { enableHighAccuracy: true }
-    );
+    try {
+      // Check/request permissions for Android
+      const permission = await Geolocation.checkPermissions();
+      if (permission.location !== 'granted') {
+        const req = await Geolocation.requestPermissions();
+        if (req.location !== 'granted') {
+          alert('Location permission was denied. Cannot fetch GPS.');
+          setLoadingLocation(false);
+          return;
+        }
+      }
+
+      const position = await Geolocation.getCurrentPosition({ enableHighAccuracy: true });
+      setLat(position.coords.latitude.toString());
+      setLng(position.coords.longitude.toString());
+    } catch (error) {
+      console.error(error);
+      alert('Could not get location. Please ensure location services (GPS) are enabled on your device.');
+    } finally {
+      setLoadingLocation(false);
+    }
   };
 
   return (
