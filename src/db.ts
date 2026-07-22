@@ -5,6 +5,8 @@ import Papa from 'papaparse';
 
 const DB_KEY = 'coordinate_helper_sites';
 const BACKUP_FILE = 'CoordinateHelperBackup.csv';
+const DATA_VERSION_KEY = 'coordinate_helper_data_version';
+const CURRENT_DATA_VERSION = 'GUJ-2'; // bump this whenever you replace site data
 
 const backupToCsv = async (sites: Site[]) => {
   try {
@@ -31,6 +33,13 @@ export const saveSites = (sites: Site[]) => {
 };
 
 export const initializeDb = async (): Promise<Site[]> => {
+  // If data version changed, wipe old sites so new defaults load cleanly
+  const storedVersion = localStorage.getItem(DATA_VERSION_KEY);
+  if (storedVersion !== CURRENT_DATA_VERSION) {
+    localStorage.removeItem(DB_KEY);
+    localStorage.setItem(DATA_VERSION_KEY, CURRENT_DATA_VERSION);
+  }
+
   const data = localStorage.getItem(DB_KEY);
   if (data && JSON.parse(data).length > 0) {
     return JSON.parse(data);
