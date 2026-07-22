@@ -42,19 +42,8 @@ jobs:
         chmod +x ./gradlew
         ./gradlew assembleDebug
 
-    - name: Upload Debug APK
+    - name: Upload APK Artifact
       uses: actions/upload-artifact@v4
       with:
-        name: Coordinate-Helper-Debug-APK
+        name: Coordinate-Helper-APK
         path: android/app/build/outputs/apk/debug/app-debug.apk
-
-    - name: Build Release APK (minified + shrunk)
-      run: |
-        cd android
-        ./gradlew assembleRelease
-
-    - name: Upload Release APK
-      uses: actions/upload-artifact@v4
-      with:
-        name: Coordinate-Helper-Release-APK
-        path: android/app/build/outputs/apk/release/app-release-unsigned.apk
