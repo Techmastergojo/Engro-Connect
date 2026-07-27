@@ -6,7 +6,7 @@ import Papa from 'papaparse';
 const DB_KEY = 'coordinate_helper_sites';
 const BACKUP_FILE = 'CoordinateHelperBackup.csv';
 const DATA_VERSION_KEY = 'coordinate_helper_data_version';
-const CURRENT_DATA_VERSION = 'GUJ-2'; // bump this whenever you replace site data
+const CURRENT_DATA_VERSION = 'Deodar-SKT'; // bump this whenever you replace site data
 
 const backupToCsv = async (sites: Site[]) => {
   try {
