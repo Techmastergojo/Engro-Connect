@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import Papa from 'papaparse';
-import { Search, Plus, Upload, MapPin, Smartphone } from 'lucide-react';
+import { Search, Plus, Upload, Smartphone } from 'lucide-react';
 import type { Site } from './types';
 import { getSites, addSite, updateSite, deleteSite, saveSites, initializeDb } from './db';
 import { SiteCard } from './components/SiteCard';

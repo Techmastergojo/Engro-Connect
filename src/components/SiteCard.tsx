@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Map, Edit2, Trash2, Phone, MessageSquare, ChevronDown, ChevronUp } from 'lucide-react';
+import { Map, Edit2, Trash2, MessageSquare, ChevronDown, ChevronUp } from 'lucide-react';
 import type { Site } from '../types';
 
 interface Props {
