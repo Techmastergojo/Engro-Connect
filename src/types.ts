@@ -3,5 +3,10 @@ export interface Site {
   name: string;
   lat: number;
   lng: number;
+  mbuNumber: string;
+  mbuName: string;
+  cellNumber: string;
+  networkPortfolio: string;
+  zonalManager: string;
   createdAt: number;
 }

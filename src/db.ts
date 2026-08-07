@@ -3,14 +3,15 @@ import { defaultSites } from './defaultData';
 import { Filesystem, Directory, Encoding } from '@capacitor/filesystem';
 import Papa from 'papaparse';
 
-const DB_KEY = 'coordinate_helper_sites';
-const BACKUP_FILE = 'CoordinateHelperBackup.csv';
-const DATA_VERSION_KEY = 'coordinate_helper_data_version';
-const CURRENT_DATA_VERSION = 'Deodar-GRW1'; // bump this whenever you replace site data
+const DB_KEY = 'engro_connect_sites';
+const BACKUP_FILE = 'EngroConnectBackup.csv';
+const DATA_VERSION_KEY = 'engro_connect_data_version';
+const CURRENT_DATA_VERSION = 'Engro-Connect-v1'; // bump this whenever you replace site data
 
 const backupToCsv = async (sites: Site[]) => {
   try {
-    const csvContent = 'Site ID,Latitude,Longitude\n' + sites.map(s => `"${s.name}",${s.lat},${s.lng}`).join('\n');
+    const csvContent = 'Site ID,Latitude,Longitude,MBU Number,MBU Name,Cell Number,Network portofolio,Zonal Manager\n' +
+      sites.map(s => `"${s.name}",${s.lat},${s.lng},"${s.mbuNumber}","${s.mbuName}","${s.cellNumber}","${s.networkPortfolio}","${s.zonalManager}"`).join('\n');
     await Filesystem.writeFile({
       path: BACKUP_FILE,
       data: csvContent,
@@ -56,11 +57,19 @@ export const initializeDb = async (): Promise<Site[]> => {
     if (typeof contents.data === 'string') {
       const results = Papa.parse(contents.data, { header: true, skipEmptyLines: true });
       const restoredSites = results.data.map((row: any) => {
-        const name = row['Site ID'] || row.name || row.Name || row.location || row.Location || '';
-        const lat = parseFloat((row.Latitude || row.lat || row.latitude || row.Lat || '0').toString().replace(/\.\./g, '.'));
-        const lng = parseFloat((row.Longitude || row.lng || row.longitude || row.Lng || '0').toString().replace(/\.\./g, '.'));
+        const name = row['Site ID'] || row.name || row.Name || '';
+        const lat = parseFloat((row.Latitude || row.lat || '0').toString().replace(/\.\./g, '.'));
+        const lng = parseFloat((row.Longitude || row.lng || '0').toString().replace(/\.\./g, '.'));
         if (name && !isNaN(lat) && !isNaN(lng)) {
-          return { id: crypto.randomUUID(), name, lat, lng, createdAt: Date.now() };
+          return {
+            id: crypto.randomUUID(), name, lat, lng,
+            mbuNumber: row['MBU Number'] || '',
+            mbuName: row['MBU Name'] || '',
+            cellNumber: row['Cell Number'] || '',
+            networkPortfolio: row['Network portofolio'] || '',
+            zonalManager: row['Zonal Manager'] || '',
+            createdAt: Date.now()
+          };
         }
         return null;
       }).filter(Boolean) as Site[];

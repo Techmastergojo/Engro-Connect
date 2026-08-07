@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import Papa from 'papaparse';
-import { Search, Plus, Upload, MapPin } from 'lucide-react';
+import { Search, Plus, Upload, MapPin, Smartphone } from 'lucide-react';
 import type { Site } from './types';
 import { getSites, addSite, updateSite, deleteSite, saveSites, initializeDb } from './db';
 import { SiteCard } from './components/SiteCard';
@@ -45,12 +45,10 @@ function App() {
       complete: (results) => {
         const newSites = results.data
           .map((row: any) => {
-            // Support different column name variations from the user's specific KML.csv
             const name = row['Site ID'] || row.name || row.Name || row.location || row.Location || '';
             const latStr = row.Latitude || row.lat || row.latitude || row.Lat || '0';
             const lngStr = row.Longitude || row.lng || row.longitude || row.Lng || '0';
             
-            // Clean any typos like double dots "32..333" before parsing
             const lat = parseFloat(latStr.toString().replace(/\.\./g, '.'));
             const lng = parseFloat(lngStr.toString().replace(/\.\./g, '.'));
             
@@ -60,6 +58,11 @@ function App() {
                 name,
                 lat,
                 lng,
+                mbuNumber: row['MBU Number'] || '',
+                mbuName: row['MBU Name'] || '',
+                cellNumber: row['Cell Number'] || '',
+                networkPortfolio: row['Network portofolio'] || row['Network Portfolio'] || '',
+                zonalManager: row['Zonal Manager'] || '',
                 createdAt: Date.now()
               };
             }
@@ -69,58 +72,74 @@ function App() {
 
         if (newSites.length > 0) {
           const current = getSites();
-          const combined = [...newSites, ...current]; // put new on top
+          const combined = [...newSites, ...current];
           saveSites(combined);
           setSites(combined);
           alert(`Successfully imported ${newSites.length} sites!`);
         } else {
-          alert('Could not parse any valid coordinates from CSV. Please ensure you have columns for Name, Lat, and Lng.');
+          alert('Could not parse any valid coordinates from CSV.');
         }
         
-        // Reset file input
         if (fileInputRef.current) fileInputRef.current.value = '';
       }
     });
   };
 
-  const filteredSites = sites.filter(s => 
-    s.name.toLowerCase().includes(searchQuery.toLowerCase())
-  );
+  // Improved search supporting Site ID, MBU Name, MBU Number, Network Portfolio, and Zonal Manager
+  const filteredSites = sites.filter(s => {
+    const query = searchQuery.toLowerCase();
+    return (
+      s.name.toLowerCase().includes(query) ||
+      (s.mbuNumber && s.mbuNumber.toLowerCase().includes(query)) ||
+      (s.mbuName && s.mbuName.toLowerCase().includes(query)) ||
+      (s.networkPortfolio && s.networkPortfolio.toLowerCase().includes(query)) ||
+      (s.zonalManager && s.zonalManager.toLowerCase().includes(query))
+    );
+  });
 
   return (
-    <div style={{ maxWidth: '600px', margin: '0 auto', padding: '24px 16px' }}>
-      <header style={{ marginBottom: '32px', textAlign: 'center' }}>
+    <div style={{ maxWidth: '600px', margin: '0 auto', padding: '32px 16px' }}>
+      <header style={{ marginBottom: '32px', textAlign: 'center', position: 'relative' }}>
         <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '16px' }}>
-          <div style={{ background: 'var(--accent-color)', padding: '16px', borderRadius: '50%', boxShadow: '0 8px 32px rgba(91,114,255,0.3)' }}>
-            <MapPin size={32} color="#fff" />
+          <div style={{ 
+            background: 'linear-gradient(135deg, var(--accent), var(--accent-dark))', 
+            padding: '16px', 
+            borderRadius: '24px', 
+            boxShadow: '0 8px 32px rgba(0, 200, 140, 0.25)',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center'
+          }}>
+            <Smartphone size={36} color="#fff" />
           </div>
         </div>
-        <h1 style={{ fontSize: '2rem', fontWeight: 700, marginBottom: '8px' }}>Coordinate Helper</h1>
-        <p style={{ color: 'var(--text-secondary)' }}>Manage and map your locations</p>
+        <h1 style={{ fontSize: '2.2rem', fontWeight: 800, marginBottom: '6px', letterSpacing: '-0.03em', background: 'linear-gradient(180deg, #fff, var(--text-secondary))', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>Engro Connect</h1>
+        <p style={{ color: 'var(--text-secondary)', fontSize: '0.95rem', fontWeight: 500 }}>Portfolio & Coordinate Helper</p>
       </header>
 
-      <div style={{ display: 'flex', gap: '12px', marginBottom: '24px' }}>
+      <div style={{ display: 'flex', gap: '10px', marginBottom: '24px' }}>
         <div style={{ position: 'relative', flex: 1 }}>
-          <Search size={20} style={{ position: 'absolute', left: '16px', top: '50%', transform: 'translateY(-50%)', color: 'var(--text-secondary)' }} />
+          <Search size={18} style={{ position: 'absolute', left: '16px', top: '50%', transform: 'translateY(-50%)', color: 'var(--text-muted)' }} />
           <input 
-            className="glass-input" 
+            className="input" 
             style={{ paddingLeft: '48px' }} 
-            placeholder="Search locations..." 
+            placeholder="Search by Site ID, MBU, Portfolio, ZM..." 
             value={searchQuery}
             onChange={e => setSearchQuery(e.target.value)}
           />
         </div>
         <button 
-          className="btn-primary" 
-          style={{ display: 'flex', alignItems: 'center', gap: '8px' }}
+          className="btn-accent" 
+          style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '12px 16px' }}
           onClick={() => { setEditingSite(null); setIsModalOpen(true); }}
+          title="Add New Site"
         >
-          <Plus size={20} />
+          <Plus size={22} />
         </button>
       </div>
 
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '16px' }}>
-        <h2 style={{ fontSize: '1.2rem', fontWeight: 600 }}>Your Sites ({filteredSites.length})</h2>
+        <h2 style={{ fontSize: '1.1rem', fontWeight: 700, color: 'var(--text-primary)', letterSpacing: '-0.01em' }}>Engro Sites ({filteredSites.length})</h2>
         
         <div>
           <input 
@@ -131,29 +150,28 @@ function App() {
             style={{ display: 'none' }} 
           />
           <button 
-            className="btn-icon" 
-            style={{ fontSize: '0.9rem', padding: '8px 12px' }}
+            className="btn-ghost" 
             onClick={() => fileInputRef.current?.click()}
           >
-            <Upload size={16} style={{ marginRight: '6px' }} /> Import CSV
+            <Upload size={16} /> Import CSV
           </button>
         </div>
       </div>
 
       {filteredSites.length === 0 ? (
-        <div className="glass-panel" style={{ padding: '40px 20px', textAlign: 'center' }}>
-          <p style={{ color: 'var(--text-secondary)' }}>No sites found.</p>
+        <div className="glass" style={{ padding: '48px 24px', textAlign: 'center' }}>
+          <p style={{ color: 'var(--text-secondary)', fontSize: '0.95rem' }}>No matching Engro sites found.</p>
           <button 
-            className="btn-primary" 
+            className="btn-accent" 
             style={{ marginTop: '16px' }}
             onClick={() => { setEditingSite(null); setIsModalOpen(true); }}
           >
-            Add Your First Site
+            Add New Site Manually
           </button>
         </div>
       ) : (
-        <div>
-          {filteredSites.map(site => (
+        <div style={{ display: 'flex', flexDirection: 'column', gap: '4px' }}>
+          {filteredSites.slice(0, 100).map(site => (
             <SiteCard 
               key={site.id} 
               site={site} 
@@ -161,6 +179,11 @@ function App() {
               onDelete={handleDelete}
             />
           ))}
+          {filteredSites.length > 100 && (
+            <p style={{ textAlign: 'center', color: 'var(--text-muted)', fontSize: '0.85rem', marginTop: '12px' }}>
+              Showing first 100 sites. Use search to find specific sites.
+            </p>
+          )}
         </div>
       )}
 
@@ -175,3 +198,4 @@ function App() {
 }
 
 export default App;
+export { App };

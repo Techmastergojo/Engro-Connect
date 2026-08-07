@@ -1,8 +1,8 @@
 import type { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'com.coordinate.helper',
-  appName: 'Deodar-GRW1',
+  appId: 'com.coordinate.helper.engroconnect',
+  appName: 'Engro Connect',
   webDir: 'dist'
 };
 
