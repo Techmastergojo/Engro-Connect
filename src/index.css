@@ -1,19 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
 
 :root {
-  --bg:            #05080f;
-  --surface:       rgba(12, 22, 38, 0.85);
-  --surface-hover: rgba(16, 30, 52, 0.95);
-  --border:        rgba(0, 200, 140, 0.12);
-  --border-hover:  rgba(0, 200, 140, 0.28);
-  --text-primary:  #e8f0fe;
-  --text-secondary:#8fa8c8;
-  --text-muted:    #4a6080;
-  --accent:        #00c88c;
-  --accent-light:  #00e8a8;
-  --accent-dark:   #008f64;
-  --accent-glow:   rgba(0, 200, 140, 0.18);
-  --accent-bg:     rgba(0, 200, 140, 0.08);
+  --bg:            #090d0a;
+  --surface:       rgba(18, 25, 20, 0.88);
+  --surface-hover: rgba(25, 35, 28, 0.96);
+  --border:        rgba(0, 168, 107, 0.15);
+  --border-hover:  rgba(0, 168, 107, 0.35);
+  --text-primary:  #ffffff;
+  --text-secondary:#c2dacb;
+  --text-muted:    #779c83;
+  --accent:        #00a86b;
+  --accent-light:  #00d485;
+  --accent-dark:   #007d50;
+  --accent-glow:   rgba(0, 168, 107, 0.2);
+  --accent-bg:     rgba(0, 168, 107, 0.08);
   --danger:        #ff4d6d;
   --warning:       #ffa94d;
   --wa-green:      #25d366;
@@ -21,8 +21,8 @@
   --radius-sm:     10px;
   --radius-md:     16px;
   --radius-lg:     22px;
-  --shadow-card:   0 4px 32px rgba(0,0,0,0.45), 0 1px 0 rgba(0,200,140,0.06);
-  --shadow-glow:   0 0 40px rgba(0,200,140,0.12);
+  --shadow-card:   0 4px 32px rgba(0,0,0,0.5), 0 1px 0 rgba(0,168,107,0.06);
+  --shadow-glow:   0 0 40px rgba(0,168,107,0.12);
 }
 
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -37,9 +37,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-image:
-    radial-gradient(ellipse 70% 50% at 50% -10%, rgba(0,200,140,0.07), transparent),
-    radial-gradient(ellipse 40% 30% at 90% 80%, rgba(0,120,80,0.05), transparent),
-    radial-gradient(ellipse 30% 20% at 10% 60%, rgba(0,80,180,0.04), transparent);
+    radial-gradient(ellipse 70% 50% at 50% -10%, rgba(0,168,107,0.09), transparent),
+    radial-gradient(ellipse 40% 30% at 90% 80%, rgba(0,100,60,0.05), transparent),
+    radial-gradient(ellipse 30% 20% at 10% 60%, rgba(0,60,120,0.04), transparent);
   background-attachment: fixed;
 }
 

@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import Papa from 'papaparse';
-import { Search, Plus, Upload, Smartphone } from 'lucide-react';
+import { Search, Plus, Upload } from 'lucide-react';
 import type { Site } from './types';
 import { getSites, addSite, updateSite, deleteSite, saveSites, initializeDb } from './db';
 import { SiteCard } from './components/SiteCard';
@@ -101,17 +101,15 @@ function App() {
     <div style={{ maxWidth: '600px', margin: '0 auto', padding: '32px 16px' }}>
       <header style={{ marginBottom: '32px', textAlign: 'center', position: 'relative' }}>
         <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '16px' }}>
-          <div style={{ 
-            background: 'linear-gradient(135deg, var(--accent), var(--accent-dark))', 
-            padding: '16px', 
-            borderRadius: '24px', 
-            boxShadow: '0 8px 32px rgba(0, 200, 140, 0.25)',
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center'
-          }}>
-            <Smartphone size={36} color="#fff" />
-          </div>
+          <img 
+            src="/logo.png" 
+            alt="Engro Connect Logo" 
+            style={{ 
+              height: '80px', 
+              objectFit: 'contain',
+              filter: 'drop-shadow(0 8px 24px rgba(0, 168, 107, 0.2))'
+            }} 
+          />
         </div>
         <h1 style={{ fontSize: '2.2rem', fontWeight: 800, marginBottom: '6px', letterSpacing: '-0.03em', background: 'linear-gradient(180deg, #fff, var(--text-secondary))', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>Engro Connect</h1>
         <p style={{ color: 'var(--text-secondary)', fontSize: '0.95rem', fontWeight: 500 }}>Portfolio & Coordinate Helper</p>
@@ -138,9 +136,7 @@ function App() {
         </button>
       </div>
 
-      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '16px' }}>
-        <h2 style={{ fontSize: '1.1rem', fontWeight: 700, color: 'var(--text-primary)', letterSpacing: '-0.01em' }}>Engro Sites ({filteredSites.length})</h2>
-        
+      <div style={{ display: 'flex', justifyContent: 'flex-end', alignItems: 'center', marginBottom: '16px' }}>
         <div>
           <input 
             type="file" 
