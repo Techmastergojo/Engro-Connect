@@ -19,6 +19,10 @@ export const SiteModal: React.FC<Props> = ({ isOpen, onClose, onSave, site }) =>
   const [cellNumber, setCellNumber] = useState('');
   const [networkPortfolio, setNetworkPortfolio] = useState('');
   const [zonalManager, setZonalManager] = useState('');
+  const [jazzId, setJazzId] = useState('');
+  const [telenorId, setTelenorId] = useState('');
+  const [zongId, setZongId] = useState('');
+  const [ufoneId, setUfoneId] = useState('');
   const [loadingLocation, setLoadingLocation] = useState(false);
 
   useEffect(() => {
@@ -31,6 +35,10 @@ export const SiteModal: React.FC<Props> = ({ isOpen, onClose, onSave, site }) =>
       setCellNumber(site.cellNumber || '');
       setNetworkPortfolio(site.networkPortfolio || '');
       setZonalManager(site.zonalManager || '');
+      setJazzId(site.jazzId || '');
+      setTelenorId(site.telenorId || '');
+      setZongId(site.zongId || '');
+      setUfoneId(site.ufoneId || '');
     } else {
       setName('');
       setLat('');
@@ -40,6 +48,10 @@ export const SiteModal: React.FC<Props> = ({ isOpen, onClose, onSave, site }) =>
       setCellNumber('');
       setNetworkPortfolio('');
       setZonalManager('');
+      setJazzId('');
+      setTelenorId('');
+      setZongId('');
+      setUfoneId('');
     }
   }, [site, isOpen]);
 
@@ -56,7 +68,11 @@ export const SiteModal: React.FC<Props> = ({ isOpen, onClose, onSave, site }) =>
       mbuName,
       cellNumber,
       networkPortfolio,
-      zonalManager
+      zonalManager,
+      jazzId,
+      telenorId,
+      zongId,
+      ufoneId
     });
     onClose();
   };
@@ -146,6 +162,25 @@ export const SiteModal: React.FC<Props> = ({ isOpen, onClose, onSave, site }) =>
           <div>
             <label style={{ display: 'block', marginBottom: '6px', fontSize: '0.8rem', color: 'var(--text-secondary)', fontWeight: 600 }}>Zonal Manager</label>
             <input className="input" value={zonalManager} onChange={e => setZonalManager(e.target.value)} placeholder="e.g. Ovais Ali Khan" />
+          </div>
+
+          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '12px' }}>
+            <div>
+              <label style={{ display: 'block', marginBottom: '6px', fontSize: '0.8rem', color: 'var(--text-secondary)', fontWeight: 600 }}>Jazz ID</label>
+              <input className="input" value={jazzId} onChange={e => setJazzId(e.target.value)} placeholder="e.g. JZ-123" />
+            </div>
+            <div>
+              <label style={{ display: 'block', marginBottom: '6px', fontSize: '0.8rem', color: 'var(--text-secondary)', fontWeight: 600 }}>Telenor ID</label>
+              <input className="input" value={telenorId} onChange={e => setTelenorId(e.target.value)} placeholder="e.g. TL-123" />
+            </div>
+            <div>
+              <label style={{ display: 'block', marginBottom: '6px', fontSize: '0.8rem', color: 'var(--text-secondary)', fontWeight: 600 }}>Zong ID</label>
+              <input className="input" value={zongId} onChange={e => setZongId(e.target.value)} placeholder="e.g. ZG-123" />
+            </div>
+            <div>
+              <label style={{ display: 'block', marginBottom: '6px', fontSize: '0.8rem', color: 'var(--text-secondary)', fontWeight: 600 }}>Ufone ID</label>
+              <input className="input" value={ufoneId} onChange={e => setUfoneId(e.target.value)} placeholder="e.g. UF-123" />
+            </div>
           </div>
 
           <button type="submit" className="btn-accent" style={{ marginTop: '8px' }}>

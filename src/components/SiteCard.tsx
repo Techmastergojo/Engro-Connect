@@ -73,6 +73,22 @@ export const SiteCard: React.FC<Props> = ({ site, onEdit, onDelete }) => {
             <div className="detail-label">Zonal Manager</div>
             <div className="detail-value">{site.zonalManager || 'N/A'}</div>
           </div>
+          <div className="detail-item">
+            <div className="detail-label">Jazz ID</div>
+            <div className="detail-value">{site.jazzId || '-'}</div>
+          </div>
+          <div className="detail-item">
+            <div className="detail-label">Telenor ID</div>
+            <div className="detail-value">{site.telenorId || '-'}</div>
+          </div>
+          <div className="detail-item">
+            <div className="detail-label">Zong ID</div>
+            <div className="detail-value">{site.zongId || '-'}</div>
+          </div>
+          <div className="detail-item">
+            <div className="detail-label">Ufone ID</div>
+            <div className="detail-value">{site.ufoneId || '-'}</div>
+          </div>
 
           <div className="detail-full" style={{ display: 'flex', gap: '8px', marginTop: '8px' }}>
             <button className="btn-map" onClick={openInMap} style={{ flex: 1 }}>

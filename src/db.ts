@@ -6,12 +6,12 @@ import Papa from 'papaparse';
 const DB_KEY = 'engro_connect_sites';
 const BACKUP_FILE = 'EngroConnectBackup.csv';
 const DATA_VERSION_KEY = 'engro_connect_data_version';
-const CURRENT_DATA_VERSION = 'Engro-Connect-v1'; // bump this whenever you replace site data
+const CURRENT_DATA_VERSION = 'Engro-Connect-v2'; // bump this whenever you replace site data
 
 const backupToCsv = async (sites: Site[]) => {
   try {
-    const csvContent = 'Site ID,Latitude,Longitude,MBU Number,MBU Name,Cell Number,Network portofolio,Zonal Manager\n' +
-      sites.map(s => `"${s.name}",${s.lat},${s.lng},"${s.mbuNumber}","${s.mbuName}","${s.cellNumber}","${s.networkPortfolio}","${s.zonalManager}"`).join('\n');
+    const csvContent = 'Site ID,Latitude,Longitude,MBU Number,MBU Name,Cell Number,Network portofolio,Zonal Manager,Jazz id,Telenor id,Zong id,Ufone id\n' +
+      sites.map(s => `"${s.name}",${s.lat},${s.lng},"${s.mbuNumber}","${s.mbuName}","${s.cellNumber}","${s.networkPortfolio}","${s.zonalManager}","${s.jazzId}","${s.telenorId}","${s.zongId}","${s.ufoneId}"`).join('\n');
     await Filesystem.writeFile({
       path: BACKUP_FILE,
       data: csvContent,
@@ -68,6 +68,10 @@ export const initializeDb = async (): Promise<Site[]> => {
             cellNumber: row['Cell Number'] || '',
             networkPortfolio: row['Network portofolio'] || '',
             zonalManager: row['Zonal Manager'] || '',
+            jazzId: row['Jazz id'] || '',
+            telenorId: row['Telenor id'] || '',
+            zongId: row['Zong id'] || '',
+            ufoneId: row['Ufone id'] || '',
             createdAt: Date.now()
           };
         }

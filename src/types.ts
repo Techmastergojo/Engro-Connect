@@ -8,5 +8,9 @@ export interface Site {
   cellNumber: string;
   networkPortfolio: string;
   zonalManager: string;
+  jazzId: string;
+  telenorId: string;
+  zongId: string;
+  ufoneId: string;
   createdAt: number;
 }
