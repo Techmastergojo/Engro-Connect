@@ -18,10 +18,16 @@ export const SiteCard: React.FC<Props> = ({ site, onEdit, onDelete }) => {
 
   const openWhatsApp = (e: React.MouseEvent) => {
     e.stopPropagation();
-    // Clean phone number (remove spaces, dashes, leading 0 to international format if needed)
+    // Strip everything except digits
     let phone = site.cellNumber.replace(/\D/g, '');
-    if (phone.startsWith('0')) {
-      phone = '92' + phone.substring(1); // Standard Pakistan country code fallback
+    // Pakistani numbers in CSV are stored without leading 0, e.g. "3008560206" (10 digits starting with 3)
+    // Correct international format for WhatsApp is 923XXXXXXXXX
+    if (phone.length === 10 && phone.startsWith('3')) {
+      phone = '92' + phone; // e.g. 3008560206 -> 923008560206
+    } else if (phone.startsWith('0') && phone.length === 11) {
+      phone = '92' + phone.substring(1); // e.g. 03008560206 -> 923008560206
+    } else if (!phone.startsWith('92')) {
+      phone = '92' + phone; // fallback: prepend country code
     }
     const message = encodeURIComponent(`Hi ${site.mbuName}, regarding Site: ${site.name} (${site.mbuNumber})`);
     window.open(`https://wa.me/${phone}?text=${message}`, '_blank');
