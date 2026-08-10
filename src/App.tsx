@@ -40,7 +40,7 @@ function App() {
   const checkForNewBugs = async () => {
     try {
       const res = await fetch(
-        'https://api.github.com/repos/Techmastergojo/Coordinate-helper/issues?labels=bug-report&state=open&per_page=1',
+        'https://api.github.com/repos/Techmastergojo/Engro-Connect/issues?labels=bug-report&state=open&per_page=1',
         { headers: { 'Accept': 'application/vnd.github.v3+json' } }
       );
       if (res.ok) {
@@ -56,7 +56,7 @@ function App() {
     setHasNewBugs(false);
     // Mark current latest as seen
     fetch(
-      'https://api.github.com/repos/Techmastergojo/Coordinate-helper/issues?labels=bug-report&state=open&per_page=1',
+      'https://api.github.com/repos/Techmastergojo/Engro-Connect/issues?labels=bug-report&state=open&per_page=1',
       { headers: { 'Accept': 'application/vnd.github.v3+json' } }
     ).then(r => r.json()).then(data => {
       if (data.length > 0) localStorage.setItem('last_seen_bug_id', data[0].number.toString());

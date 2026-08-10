@@ -62,7 +62,7 @@ jobs:
     # ── Update version.json so devices know to download this release ─────────
     - name: Update version.json
       run: |
-        DOWNLOAD_URL="https://github.com/Techmastergojo/Coordinate-helper/releases/download/${{ steps.version.outputs.TAG }}/dist.zip"
+        DOWNLOAD_URL="https://github.com/Techmastergojo/Engro-Connect/releases/download/${{ steps.version.outputs.TAG }}/dist.zip"
         echo "{\"version\":\"${{ steps.version.outputs.VERSION }}\",\"url\":\"$DOWNLOAD_URL\"}" > version.json
         git config user.email "github-actions@github.com"
         git config user.name "GitHub Actions"

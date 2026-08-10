@@ -49,7 +49,7 @@ export const applyTheme = (themeId: string) => {
 // ── GitHub config ─────────────────────────────────────────────────────────────
 // Public repo — anyone can READ issues without auth
 // Token only needed to WRITE (create) issues — public_repo scope only (low risk)
-const GITHUB_REPO = 'Techmastergojo/Coordinate-helper';
+const GITHUB_REPO = 'Techmastergojo/Engro-Connect';
 const GITHUB_TOKEN_KEY = 'gh_issues_token'; // stored in localStorage after first entry
 
 interface BugReport {
