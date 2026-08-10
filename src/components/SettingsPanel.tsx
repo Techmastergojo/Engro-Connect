@@ -92,8 +92,12 @@ export const SettingsPanel: React.FC<Props> = ({ isOpen, onClose, hasNewBugs, on
   const fetchBugs = async () => {
     setLoadingBugs(true);
     try {
+      const token = localStorage.getItem(GITHUB_TOKEN_KEY) || '';
+      const headers: Record<string, string> = { 'Accept': 'application/vnd.github.v3+json' };
+      if (token) headers['Authorization'] = `Bearer ${token}`;
+
       const res = await fetch(`https://api.github.com/repos/${GITHUB_REPO}/issues?labels=bug-report&state=open&per_page=20`, {
-        headers: { 'Accept': 'application/vnd.github.v3+json' }
+        headers
       });
       if (res.ok) {
         const data = await res.json();
