@@ -84,10 +84,19 @@ a { color: inherit; text-decoration: none; }
   opacity: 0;
   transition: opacity 0.2s;
 }
-.site-card:hover { border-color: var(--border-hover); box-shadow: var(--shadow-glow); transform: translateY(-1px); }
-.site-card:hover::before { opacity: 1; }
+.site-card:hover { 
+  border-color: var(--border-hover); 
+  box-shadow: var(--shadow-glow); 
+  animation: cardWiggle 0.3s ease-in-out;
+}
 .site-card.expanded { border-color: var(--border-hover); box-shadow: var(--shadow-glow); }
 .site-card.expanded::before { opacity: 1; }
+
+@keyframes cardWiggle {
+  0%, 100% { transform: rotate(0deg) translateY(-1px); }
+  25% { transform: rotate(-0.5deg) translateY(-1px); }
+  75% { transform: rotate(0.5deg) translateY(-1px); }
+}
 
 /* ── Detail grid ─────────────────────────────────────────── */
 .detail-grid {
