@@ -26,6 +26,8 @@ function App() {
   const [isSettingsOpen, setIsSettingsOpen] = useState(false);
   const [hasNewBugs, setHasNewBugs] = useState(false);
   const [isChangelogOpen, setIsChangelogOpen] = useState(false);
+  const [updateProgress, setUpdateProgress] = useState<number | null>(null);
+  const [updateStatus, setUpdateStatus] = useState('');
   const fileInputRef = useRef<HTMLInputElement>(null);
 
   useEffect(() => {
@@ -47,7 +49,7 @@ function App() {
 
     // Fire custom background updater silently with a 3-second delay to ensure Capacitor bridge is fully ready
     const bootTimeout = setTimeout(() => {
-      silentCheckForUpdates();
+      silentCheckForUpdates(false);
     }, 3000);
 
     // Also check for updates every time the app is resumed from background
@@ -55,7 +57,7 @@ function App() {
       if (document.visibilityState === 'visible') {
         // Wait 1 second after resume to ensure connection is restored
         setTimeout(() => {
-          silentCheckForUpdates();
+          silentCheckForUpdates(false);
           checkForNewBugs();
         }, 1000);
       }
@@ -68,8 +70,13 @@ function App() {
     };
   }, []);
 
-  const silentCheckForUpdates = async () => {
+  const silentCheckForUpdates = async (isManual = false) => {
     try {
+      if (isManual) {
+        setUpdateStatus('Checking for updates...');
+        setUpdateProgress(0);
+      }
+      
       const res = await fetch('https://raw.githubusercontent.com/Techmastergojo/Engro-Connect/main/version.json');
       const data = await res.json();
       
@@ -85,16 +92,38 @@ function App() {
 
       if (data.version && data.version !== currentVersion) {
         console.log('Update found! Downloading silently...', data.version);
-        const bundle = await CapacitorUpdater.download({
-          url: data.url,
-          version: data.version
-        });
         
-        console.log('Update downloaded. Applying instantly.');
-        await CapacitorUpdater.set(bundle);
+        setUpdateStatus('Downloading updates...');
+        setUpdateProgress(0);
+
+        const listener = await CapacitorUpdater.addListener('download', (state) => {
+          setUpdateProgress(state.percent);
+        });
+
+        try {
+          const bundle = await CapacitorUpdater.download({
+            url: data.url,
+            version: data.version
+          });
+          
+          setUpdateStatus('Installing and restarting...');
+          await CapacitorUpdater.set(bundle);
+        } catch (downloadErr: any) {
+          alert(`Download failed: ${downloadErr.message || downloadErr}`);
+          setUpdateProgress(null);
+        } finally {
+          listener.remove();
+        }
+      } else if (isManual) {
+        setUpdateProgress(null);
+        alert('You are already running the latest version!');
       }
     } catch (e) {
       console.error('Silent update failed:', e);
+      if (isManual) {
+        setUpdateProgress(null);
+        alert('Failed to check for updates. Please try again.');
+      }
     }
   };
 
@@ -289,6 +318,10 @@ function App() {
         onClose={() => setIsSettingsOpen(false)}
         hasNewBugs={hasNewBugs}
         onBugsViewed={handleBugsViewed}
+        onForceUpdateCheck={() => {
+          setIsSettingsOpen(false); // Close panel so progress screen overlay is visible
+          silentCheckForUpdates(true);
+        }}
       />
       
       <ChangelogModal 
@@ -298,6 +331,45 @@ function App() {
           localStorage.setItem('has_seen_changelog_v4', 'true');
         }} 
       />
+
+      {/* Visual Update Progress Splash Screen */}
+      {updateProgress !== null && (
+        <div 
+          style={{
+            position: 'fixed', inset: 0,
+            background: '#090d0a', zIndex: 9999,
+            display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center',
+            padding: '24px', textAlign: 'center'
+          }}
+        >
+          <img
+            src="/logo.png"
+            alt="Engro Connect Logo"
+            style={{ height: '80px', marginBottom: '24px', filter: 'drop-shadow(0 8px 24px rgba(0, 168, 107, 0.2))' }}
+          />
+          <h2 style={{ fontSize: '1.4rem', fontWeight: 800, marginBottom: '8px', color: '#fff' }}>
+            Updating Engro Connect
+          </h2>
+          <p style={{ color: 'var(--text-secondary)', fontSize: '0.9rem', marginBottom: '32px', maxWidth: '300px', lineHeight: 1.5 }}>
+            {updateStatus}
+          </p>
+
+          <div style={{ width: '100%', maxWidth: '280px', background: 'rgba(255,255,255,0.05)', height: '6px', borderRadius: '3px', overflow: 'hidden', marginBottom: '12px' }}>
+            <div 
+              style={{ 
+                width: `${updateProgress}%`, 
+                height: '100%', 
+                background: 'var(--accent)', 
+                transition: 'width 0.2s ease-out',
+                boxShadow: '0 0 12px var(--accent)'
+              }} 
+            />
+          </div>
+          <span style={{ fontSize: '0.85rem', fontWeight: 700, color: 'var(--accent)' }}>
+            {updateProgress}%
+          </span>
+        </div>
+      )}
     </div>
   );
 }

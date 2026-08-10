@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { X, Palette, Bug, CheckCircle, AlertCircle, Loader2, RefreshCw, DownloadCloud } from 'lucide-react';
-import { CapacitorUpdater } from '@capgo/capacitor-updater';
 
 // ── Theme definitions ────────────────────────────────────────────────────────
 export const THEMES = [
@@ -68,9 +67,10 @@ interface Props {
   onClose: () => void;
   hasNewBugs: boolean;
   onBugsViewed: () => void;
+  onForceUpdateCheck: () => void;
 }
 
-export const SettingsPanel: React.FC<Props> = ({ isOpen, onClose, hasNewBugs, onBugsViewed }) => {
+export const SettingsPanel: React.FC<Props> = ({ isOpen, onClose, hasNewBugs, onBugsViewed, onForceUpdateCheck }) => {
   const [activeTab, setActiveTab] = useState<'theme' | 'bugs'>('theme');
   const [currentTheme, setCurrentTheme] = useState(() => localStorage.getItem('app_theme') || 'engro-green');
   
@@ -254,24 +254,7 @@ export const SettingsPanel: React.FC<Props> = ({ isOpen, onClose, hasNewBugs, on
                   <button
                     className="btn-accent"
                     style={{ width: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '8px' }}
-                    onClick={async () => {
-                      try {
-                        alert('Checking for updates from GitHub...');
-                        const res = await fetch('https://raw.githubusercontent.com/Techmastergojo/Engro-Connect/main/version.json');
-                        const data = await res.json();
-                        alert(`Found version: ${data.version}\nURL: ${data.url}\n\nDownloading now...`);
-                        
-                        const bundle = await CapacitorUpdater.download({
-                          url: data.url,
-                          version: data.version
-                        });
-                        
-                        alert('Download complete! Installing update and restarting app...');
-                        await CapacitorUpdater.set(bundle);
-                      } catch (err: any) {
-                        alert(`Update failed: ${err.message || JSON.stringify(err)}`);
-                      }
-                    }}
+                    onClick={onForceUpdateCheck}
                   >
                     <DownloadCloud size={18} /> Force OTA Update
                   </button>
