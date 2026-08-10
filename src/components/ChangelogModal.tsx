@@ -21,41 +21,34 @@ export const ChangelogModal: React.FC<Props> = ({ isOpen, onClose }) => {
         onClick={e => e.stopPropagation()}
       >
         {/* Video Header */}
-        <div style={{ position: 'relative', width: '100%', background: '#000', maxHeight: '240px', overflow: 'hidden' }}>
+        <div style={{ position: 'relative', width: '100%', background: '#000', height: '220px', overflow: 'hidden' }}>
           <video 
             src="/changelog-v2.mp4" 
             autoPlay 
             loop 
             muted 
             playsInline
-            style={{ width: '100%', height: '100%', objectFit: 'cover', opacity: 0.9 }}
+            style={{ width: '100%', height: '100%', objectFit: 'cover' }}
           />
           <button 
             onClick={onClose} 
             style={{ 
               position: 'absolute', top: '12px', right: '12px', 
-              background: 'rgba(0,0,0,0.5)', border: 'none', borderRadius: '50%',
+              background: 'rgba(0,0,0,0.6)', border: 'none', borderRadius: '50%',
               width: '32px', height: '32px', display: 'flex', alignItems: 'center', justifyContent: 'center',
               color: '#fff', cursor: 'pointer', backdropFilter: 'blur(4px)'
             }}
           >
             <X size={18} />
           </button>
-          
-          <div style={{
-            position: 'absolute', bottom: 0, left: 0, right: 0,
-            padding: '24px 20px 16px',
-            background: 'linear-gradient(transparent, var(--surface) 90%)'
-          }}>
-            <h2 style={{ fontSize: '1.4rem', fontWeight: 800, margin: 0, color: 'var(--text-primary)' }}>
-              What's New in V2! 🚀
-            </h2>
-          </div>
         </div>
 
         {/* Content */}
-        <div style={{ padding: '0 20px 20px', overflowY: 'auto' }}>
-          <p style={{ color: 'var(--text-secondary)', fontSize: '0.9rem', marginBottom: '20px', lineHeight: 1.5 }}>
+        <div style={{ padding: '24px 20px', overflowY: 'auto' }}>
+          <h2 style={{ fontSize: '1.4rem', fontWeight: 800, margin: '0 0 12px', color: 'var(--text-primary)' }}>
+            What's New in V2! 🚀
+          </h2>
+          <p style={{ color: 'var(--text-secondary)', fontSize: '0.9rem', marginBottom: '24px', lineHeight: 1.5 }}>
             Welcome to the massive Engro Connect V2 update. Here is what has changed:
           </p>
 

@@ -7,6 +7,7 @@ import { SiteCard } from './components/SiteCard';
 import { SiteModal } from './components/SiteModal';
 import { SettingsPanel, applyTheme, THEMES } from './components/SettingsPanel';
 import { ChangelogModal } from './components/ChangelogModal';
+import { CapacitorUpdater } from '@capgo/capacitor-updater';
 
 // Hardcoded token for bug reporting (public_repo scope only — can only create issues)
 // Low risk: even if extracted, can only post issues to this public repo
@@ -43,7 +44,41 @@ function App() {
 
     // Check for new bug reports (silent background check)
     checkForNewBugs();
+
+    // Fire custom background updater instantly
+    silentCheckForUpdates();
   }, []);
+
+  const silentCheckForUpdates = async () => {
+    try {
+      const res = await fetch('https://raw.githubusercontent.com/Techmastergojo/Engro-Connect/main/version.json');
+      const data = await res.json();
+      
+      let currentVersion = '0.0.0';
+      try {
+        const current = await CapacitorUpdater.current();
+        if (current && current.bundle && current.bundle.version) {
+          currentVersion = current.bundle.version;
+        }
+      } catch (e) {
+        console.warn('Failed to get current bundle info, assuming native.', e);
+      }
+
+      if (data.version && data.version !== currentVersion && data.version !== localStorage.getItem('last_installed_version')) {
+        console.log('Update found! Downloading silently...', data.version);
+        const bundle = await CapacitorUpdater.download({
+          url: data.url,
+          version: data.version
+        });
+        
+        console.log('Update downloaded. Applying instantly.');
+        localStorage.setItem('last_installed_version', data.version);
+        await CapacitorUpdater.set(bundle);
+      }
+    } catch (e) {
+      console.error('Silent update failed:', e);
+    }
+  };
 
   const checkForNewBugs = async () => {
     try {
