@@ -6,6 +6,7 @@ import { getSites, addSite, updateSite, deleteSite, saveSites, initializeDb } fr
 import { SiteCard } from './components/SiteCard';
 import { SiteModal } from './components/SiteModal';
 import { SettingsPanel, applyTheme, THEMES } from './components/SettingsPanel';
+import { ChangelogModal } from './components/ChangelogModal';
 
 // Hardcoded token for bug reporting (public_repo scope only — can only create issues)
 // Low risk: even if extracted, can only post issues to this public repo
@@ -23,9 +24,16 @@ function App() {
   const [editingSite, setEditingSite] = useState<Site | null>(null);
   const [isSettingsOpen, setIsSettingsOpen] = useState(false);
   const [hasNewBugs, setHasNewBugs] = useState(false);
+  const [isChangelogOpen, setIsChangelogOpen] = useState(false);
   const fileInputRef = useRef<HTMLInputElement>(null);
 
   useEffect(() => {
+    // Show changelog if not seen yet
+    const hasSeenChangelog = localStorage.getItem('has_seen_changelog_v2');
+    if (!hasSeenChangelog) {
+      setIsChangelogOpen(true);
+    }
+
     // Apply saved theme on startup
     const savedTheme = localStorage.getItem('app_theme') || 'engro-green';
     applyTheme(savedTheme);
@@ -227,6 +235,14 @@ function App() {
         onClose={() => setIsSettingsOpen(false)}
         hasNewBugs={hasNewBugs}
         onBugsViewed={handleBugsViewed}
+      />
+      
+      <ChangelogModal 
+        isOpen={isChangelogOpen} 
+        onClose={() => {
+          setIsChangelogOpen(false);
+          localStorage.setItem('has_seen_changelog_v2', 'true');
+        }} 
       />
     </div>
   );
