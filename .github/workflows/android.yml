@@ -8,12 +8,14 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write   # required to create releases and push version.json
 
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
       with:
-        token: ${{ secrets.GH_PAT }}
+        token: ${{ secrets.GITHUB_TOKEN }}
         fetch-depth: 0
 
     - name: Setup Node.js
@@ -55,7 +57,7 @@ jobs:
         body: "Auto-generated OTA update bundle"
         files: dist.zip
       env:
-        GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
     # ── Update version.json so devices know to download this release ─────────
     - name: Update version.json
@@ -68,7 +70,7 @@ jobs:
         git diff --staged --quiet || git commit -m "chore: update OTA version to ${{ steps.version.outputs.TAG }} [skip ci]"
         git push
       env:
-        GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
     # ── Build Android APK ────────────────────────────────────────────────────
     - name: Setup Java
