@@ -6,8 +6,6 @@ import { getSites, addSite, updateSite, deleteSite, saveSites, initializeDb } fr
 import { SiteCard } from './components/SiteCard';
 import { SiteModal } from './components/SiteModal';
 import { SettingsPanel, applyTheme, THEMES } from './components/SettingsPanel';
-import { CapacitorUpdater } from '@capgo/capacitor-updater';
-import { APP_VERSION } from './version';
 
 // Hardcoded token for bug reporting (public_repo scope only — can only create issues)
 // Low risk: even if extracted, can only post issues to this public repo
@@ -37,49 +35,13 @@ function App() {
 
     // Check for new bug reports (silent background check)
     checkForNewBugs();
-    
-    // Check for OTA updates securely
-    checkForOTAUpdates();
   }, []);
-
-  const checkForOTAUpdates = async () => {
-    try {
-      const res = await fetch('https://api.github.com/repos/Techmastergojo/Coordinate-helper/releases/latest', {
-        headers: {
-          'Authorization': `Bearer ${BUG_TOKEN}`,
-          'Accept': 'application/vnd.github.v3+json'
-        }
-      });
-      if (!res.ok) return;
-      const release = await res.json();
-      
-      if (release.tag_name && release.tag_name !== APP_VERSION && release.assets && release.assets.length > 0) {
-        console.log('Update found! Downloading...', release.tag_name);
-        // We use the direct API URL for the asset which allows Bearer token auth
-        const assetUrl = release.assets[0].url;
-        
-        const bundle = await CapacitorUpdater.download({
-          url: assetUrl,
-          version: release.tag_name,
-          headers: {
-            'Authorization': `Bearer ${BUG_TOKEN}`,
-            'Accept': 'application/octet-stream'
-          }
-        });
-        
-        // This will restart the app immediately with the new bundle
-        await CapacitorUpdater.set(bundle);
-      }
-    } catch (e) {
-      console.error('OTA Update check failed', e);
-    }
-  };
 
   const checkForNewBugs = async () => {
     try {
       const res = await fetch(
         'https://api.github.com/repos/Techmastergojo/Coordinate-helper/issues?labels=bug-report&state=open&per_page=1',
-        { headers: { 'Authorization': `Bearer ${BUG_TOKEN}`, 'Accept': 'application/vnd.github.v3+json' } }
+        { headers: { 'Accept': 'application/vnd.github.v3+json' } }
       );
       if (res.ok) {
         const data = await res.json();
@@ -95,7 +57,7 @@ function App() {
     // Mark current latest as seen
     fetch(
       'https://api.github.com/repos/Techmastergojo/Coordinate-helper/issues?labels=bug-report&state=open&per_page=1',
-      { headers: { 'Authorization': `Bearer ${BUG_TOKEN}`, 'Accept': 'application/vnd.github.v3+json' } }
+      { headers: { 'Accept': 'application/vnd.github.v3+json' } }
     ).then(r => r.json()).then(data => {
       if (data.length > 0) localStorage.setItem('last_seen_bug_id', data[0].number.toString());
     }).catch(() => {});

@@ -34,7 +34,6 @@ jobs:
         echo "VERSION=$VERSION" >> $GITHUB_OUTPUT
         echo "TAG=v$VERSION" >> $GITHUB_OUTPUT
         echo "Building version: $VERSION"
-        echo "export const APP_VERSION = 'v$VERSION';" > src/version.ts
 
     # ── Build web bundle ─────────────────────────────────────────────────────
     - name: Build Web App
@@ -60,8 +59,18 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-    # We removed version.json commit because we now fetch directly from GitHub Releases API
-
+    # ── Update version.json so devices know to download this release ─────────
+    - name: Update version.json
+      run: |
+        DOWNLOAD_URL="https://github.com/Techmastergojo/Coordinate-helper/releases/download/${{ steps.version.outputs.TAG }}/dist.zip"
+        echo "{\"version\":\"${{ steps.version.outputs.VERSION }}\",\"url\":\"$DOWNLOAD_URL\"}" > version.json
+        git config user.email "github-actions@github.com"
+        git config user.name "GitHub Actions"
+        git add version.json
+        git diff --staged --quiet || git commit -m "chore: update OTA version to ${{ steps.version.outputs.TAG }} [skip ci]"
+        git push
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
     # ── Build Android APK ────────────────────────────────────────────────────
     - name: Setup Java
