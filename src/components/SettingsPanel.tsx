@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { X, Palette, Bug, ChevronRight, CheckCircle, AlertCircle, Loader2, RefreshCw } from 'lucide-react';
+import { X, Palette, Bug, CheckCircle, AlertCircle, Loader2, RefreshCw } from 'lucide-react';
 
 // ── Theme definitions ────────────────────────────────────────────────────────
 export const THEMES = [
