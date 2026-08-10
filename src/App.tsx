@@ -30,7 +30,7 @@ function App() {
 
   useEffect(() => {
     // Show changelog if not seen yet
-    const hasSeenChangelog = localStorage.getItem('has_seen_changelog_v2');
+    const hasSeenChangelog = localStorage.getItem('has_seen_changelog_v3');
     if (!hasSeenChangelog) {
       setIsChangelogOpen(true);
     }
@@ -276,7 +276,7 @@ function App() {
         isOpen={isChangelogOpen} 
         onClose={() => {
           setIsChangelogOpen(false);
-          localStorage.setItem('has_seen_changelog_v2', 'true');
+          localStorage.setItem('has_seen_changelog_v3', 'true');
         }} 
       />
     </div>

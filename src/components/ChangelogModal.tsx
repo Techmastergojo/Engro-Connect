@@ -10,86 +10,107 @@ export const ChangelogModal: React.FC<Props> = ({ isOpen, onClose }) => {
   if (!isOpen) return null;
 
   return (
-    <div className="modal-overlay" style={{ zIndex: 1000 }} onClick={onClose}>
+    <div className="modal-overlay" style={{ zIndex: 1000, padding: '16px' }} onClick={onClose}>
       <div 
         className="glass modal-box" 
         style={{ 
-          maxWidth: '440px', width: '100%', 
+          maxWidth: '600px', width: '100%', 
           padding: 0, overflow: 'hidden',
-          display: 'flex', flexDirection: 'column' 
+          display: 'flex', flexDirection: 'row',
+          background: 'var(--surface)',
+          boxShadow: '0 24px 48px rgba(0,0,0,0.2)'
         }}
         onClick={e => e.stopPropagation()}
       >
-        {/* Video Header */}
-        <div style={{ position: 'relative', width: '100%', background: '#000', height: '220px', overflow: 'hidden' }}>
+        {/* Left Side: Video (35% width on mobile) */}
+        <div style={{ 
+          width: '35%', 
+          minWidth: '110px', 
+          position: 'relative', 
+          background: '#000',
+          display: 'flex'
+        }}>
           <video 
             src="/changelog-v2.mp4" 
             autoPlay 
             loop 
             muted 
             playsInline
-            style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+            style={{ width: '100%', height: '100%', objectFit: 'cover', opacity: 0.85 }}
           />
+          {/* Gradient fade to blend into the right side smoothly */}
+          <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to right, transparent 60%, var(--surface) 100%)' }} />
+        </div>
+
+        {/* Right Side: Corporate Formal Content */}
+        <div style={{ 
+          width: '65%', 
+          padding: '24px 20px', 
+          display: 'flex', flexDirection: 'column', 
+          position: 'relative', overflowY: 'auto', maxHeight: '80vh'
+        }}>
           <button 
             onClick={onClose} 
             style={{ 
               position: 'absolute', top: '12px', right: '12px', 
-              background: 'rgba(0,0,0,0.6)', border: 'none', borderRadius: '50%',
-              width: '32px', height: '32px', display: 'flex', alignItems: 'center', justifyContent: 'center',
-              color: '#fff', cursor: 'pointer', backdropFilter: 'blur(4px)'
+              background: 'rgba(128,128,128,0.1)', border: 'none', borderRadius: '50%',
+              width: '28px', height: '28px', display: 'flex', alignItems: 'center', justifyContent: 'center',
+              color: 'var(--text-secondary)', cursor: 'pointer', transition: 'all 0.2s'
             }}
           >
-            <X size={18} />
+            <X size={16} />
           </button>
-        </div>
 
-        {/* Content */}
-        <div style={{ padding: '24px 20px', overflowY: 'auto' }}>
-          <h2 style={{ fontSize: '1.4rem', fontWeight: 800, margin: '0 0 12px', color: 'var(--text-primary)' }}>
-            What's New in V2! 🚀
+          <h2 style={{ fontSize: '1.25rem', fontWeight: 700, margin: '0 0 8px', color: 'var(--text-primary)', letterSpacing: '-0.02em' }}>
+            Release Notes V2
           </h2>
-          <p style={{ color: 'var(--text-secondary)', fontSize: '0.9rem', marginBottom: '24px', lineHeight: 1.5 }}>
-            Welcome to the massive Engro Connect V2 update. Here is what has changed:
+          <p style={{ color: 'var(--text-secondary)', fontSize: '0.85rem', marginBottom: '24px', lineHeight: 1.5 }}>
+            Engro Connect has been updated with enterprise-grade features to streamline operations.
           </p>
 
-          <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '20px', marginBottom: '32px' }}>
             <div style={{ display: 'flex', gap: '12px' }}>
-              <div style={{ color: 'var(--accent)', marginTop: '2px' }}><Zap size={20} /></div>
+              <div style={{ color: 'var(--accent)', marginTop: '2px' }}><Zap size={18} /></div>
               <div>
-                <h4 style={{ fontWeight: 700, margin: '0 0 4px', fontSize: '0.95rem' }}>Magic Auto-Updates</h4>
-                <p style={{ color: 'var(--text-secondary)', margin: 0, fontSize: '0.85rem', lineHeight: 1.4 }}>
-                  You will never have to install an APK again. The app now silently downloads new updates in the background!
+                <h4 style={{ fontWeight: 600, margin: '0 0 2px', fontSize: '0.9rem', color: 'var(--text-primary)' }}>Automated Provisioning</h4>
+                <p style={{ color: 'var(--text-muted)', margin: 0, fontSize: '0.8rem', lineHeight: 1.4 }}>
+                  Seamless background installation of the latest software updates via OTA deployment.
                 </p>
               </div>
             </div>
 
             <div style={{ display: 'flex', gap: '12px' }}>
-              <div style={{ color: 'var(--accent)', marginTop: '2px' }}><Settings2 size={20} /></div>
+              <div style={{ color: 'var(--accent)', marginTop: '2px' }}><Settings2 size={18} /></div>
               <div>
-                <h4 style={{ fontWeight: 700, margin: '0 0 4px', fontSize: '0.95rem' }}>10 New Themes</h4>
-                <p style={{ color: 'var(--text-secondary)', margin: 0, fontSize: '0.85rem', lineHeight: 1.4 }}>
-                  Tap the gear icon on the top right to switch between 10 beautiful color themes.
+                <h4 style={{ fontWeight: 600, margin: '0 0 2px', fontSize: '0.9rem', color: 'var(--text-primary)' }}>Interface Customization</h4>
+                <p style={{ color: 'var(--text-muted)', margin: 0, fontSize: '0.8rem', lineHeight: 1.4 }}>
+                  Support for comprehensive UI personalization with 10 corporate color pallets.
                 </p>
               </div>
             </div>
 
             <div style={{ display: 'flex', gap: '12px' }}>
-              <div style={{ color: 'var(--accent)', marginTop: '2px' }}><ShieldCheck size={20} /></div>
+              <div style={{ color: 'var(--accent)', marginTop: '2px' }}><ShieldCheck size={18} /></div>
               <div>
-                <h4 style={{ fontWeight: 700, margin: '0 0 4px', fontSize: '0.95rem' }}>Community Bug Reports & Backups</h4>
-                <p style={{ color: 'var(--text-secondary)', margin: 0, fontSize: '0.85rem', lineHeight: 1.4 }}>
-                  Report bugs directly from settings. Plus, all your custom sites now safely backup to your Downloads folder to survive uninstalls!
+                <h4 style={{ fontWeight: 600, margin: '0 0 2px', fontSize: '0.9rem', color: 'var(--text-primary)' }}>Telemetry & Redundancy</h4>
+                <p style={{ color: 'var(--text-muted)', margin: 0, fontSize: '0.8rem', lineHeight: 1.4 }}>
+                  Integrated issue reporting architecture and automated local database backups.
                 </p>
               </div>
             </div>
           </div>
 
           <button 
-            className="btn-accent" 
-            style={{ width: '100%', marginTop: '24px', padding: '12px', fontSize: '1rem' }}
+            style={{ 
+              marginTop: 'auto', 
+              background: 'var(--accent)', color: '#fff', 
+              padding: '12px', borderRadius: 'var(--radius-sm)', 
+              textAlign: 'center', fontWeight: 600, fontSize: '0.9rem',
+              border: 'none', cursor: 'pointer', transition: 'opacity 0.2s'
+            }}
             onClick={onClose}
           >
-            Got it, let's go!
+            Acknowledge
           </button>
         </div>
       </div>
