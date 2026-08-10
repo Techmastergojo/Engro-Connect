@@ -200,6 +200,7 @@ function App() {
         {/* ⚙ Settings gear top-right */}
         <button
           onClick={() => setIsSettingsOpen(true)}
+          className="settings-button"
           style={{
             position: 'absolute', top: 0, right: 0,
             background: 'var(--surface)', border: '1px solid var(--border)',
@@ -209,7 +210,7 @@ function App() {
           }}
           title="Settings"
         >
-          <Settings size={20} color="var(--text-secondary)" />
+          <Settings size={20} color="var(--text-secondary)" className="settings-gear-icon" />
           {/* Yellow dot for new bug reports */}
           {hasNewBugs && (
             <span style={{
