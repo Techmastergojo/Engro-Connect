@@ -30,7 +30,7 @@ function App() {
 
   useEffect(() => {
     // Show changelog if not seen yet
-    const hasSeenChangelog = localStorage.getItem('has_seen_changelog_v3');
+    const hasSeenChangelog = localStorage.getItem('has_seen_changelog_v4');
     if (!hasSeenChangelog) {
       setIsChangelogOpen(true);
     }
@@ -45,8 +45,21 @@ function App() {
     // Check for new bug reports (silent background check)
     checkForNewBugs();
 
-    // Fire custom background updater instantly
+    // Fire custom background updater instantly on cold start
     silentCheckForUpdates();
+
+    // Also check for updates every time the app is resumed from background
+    const handleVisibilityChange = () => {
+      if (document.visibilityState === 'visible') {
+        silentCheckForUpdates();
+        checkForNewBugs();
+      }
+    };
+    document.addEventListener('visibilitychange', handleVisibilityChange);
+
+    return () => {
+      document.removeEventListener('visibilitychange', handleVisibilityChange);
+    };
   }, []);
 
   const silentCheckForUpdates = async () => {
@@ -276,7 +289,7 @@ function App() {
         isOpen={isChangelogOpen} 
         onClose={() => {
           setIsChangelogOpen(false);
-          localStorage.setItem('has_seen_changelog_v3', 'true');
+          localStorage.setItem('has_seen_changelog_v4', 'true');
         }} 
       />
     </div>
