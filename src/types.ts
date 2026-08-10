@@ -13,4 +13,5 @@ export interface Site {
   zongId: string;
   ufoneId: string;
   createdAt: number;
+  isUserCreated?: boolean; // true = added by user, survives all app updates
 }
