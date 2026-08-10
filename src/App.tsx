@@ -45,19 +45,25 @@ function App() {
     // Check for new bug reports (silent background check)
     checkForNewBugs();
 
-    // Fire custom background updater instantly on cold start
-    silentCheckForUpdates();
+    // Fire custom background updater silently with a 3-second delay to ensure Capacitor bridge is fully ready
+    const bootTimeout = setTimeout(() => {
+      silentCheckForUpdates();
+    }, 3000);
 
     // Also check for updates every time the app is resumed from background
     const handleVisibilityChange = () => {
       if (document.visibilityState === 'visible') {
-        silentCheckForUpdates();
-        checkForNewBugs();
+        // Wait 1 second after resume to ensure connection is restored
+        setTimeout(() => {
+          silentCheckForUpdates();
+          checkForNewBugs();
+        }, 1000);
       }
     };
     document.addEventListener('visibilitychange', handleVisibilityChange);
 
     return () => {
+      clearTimeout(bootTimeout);
       document.removeEventListener('visibilitychange', handleVisibilityChange);
     };
   }, []);
@@ -77,7 +83,7 @@ function App() {
         console.warn('Failed to get current bundle info, assuming native.', e);
       }
 
-      if (data.version && data.version !== currentVersion && data.version !== localStorage.getItem('last_installed_version')) {
+      if (data.version && data.version !== currentVersion) {
         console.log('Update found! Downloading silently...', data.version);
         const bundle = await CapacitorUpdater.download({
           url: data.url,
@@ -85,7 +91,6 @@ function App() {
         });
         
         console.log('Update downloaded. Applying instantly.');
-        localStorage.setItem('last_installed_version', data.version);
         await CapacitorUpdater.set(bundle);
       }
     } catch (e) {
