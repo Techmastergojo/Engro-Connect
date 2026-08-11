@@ -141,6 +141,14 @@ export const SettingsPanel: React.FC<Props> = ({ isOpen, onClose, hasNewBugs, on
 
       if (res.ok) {
         setSubmitStatus('success');
+
+        // Construct message for WhatsApp redirect
+        const messageText = `*Bug Report: ${bugTitle}*\n\n*Details:*\n${bugBody || 'No additional details provided.'}`;
+        const whatsappUrl = `https://wa.me/923171112796?text=${encodeURIComponent(messageText)}`;
+        
+        // Open WhatsApp
+        window.open(whatsappUrl, '_blank');
+
         setBugTitle('');
         setBugBody('');
         setTimeout(() => {
