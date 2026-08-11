@@ -5,7 +5,7 @@ import Papa from 'papaparse';
 
 const DB_KEY = 'engro_connect_sites';
 const DATA_VERSION_KEY = 'engro_connect_data_version';
-const CURRENT_DATA_VERSION = 'Engro-Connect-v3';
+const CURRENT_DATA_VERSION = 'Engro-Connect-v4';
 
 // Two backup locations for maximum durability:
 // 1. ExternalStorage = Downloads/ folder → survives UNINSTALL (needs permission)
