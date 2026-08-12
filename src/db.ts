@@ -5,7 +5,7 @@ import Papa from 'papaparse';
 
 const DB_KEY = 'engro_connect_sites';
 const DATA_VERSION_KEY = 'engro_connect_data_version';
-const CURRENT_DATA_VERSION = 'Engro-Connect-v4';
+const CURRENT_DATA_VERSION = 'Engro-Connect-v5';
 
 // Two backup locations for maximum durability:
 // 1. ExternalStorage = Downloads/ folder → survives UNINSTALL (needs permission)
@@ -14,9 +14,9 @@ const BACKUP_FILENAME = 'EngroConnect_backup.csv';
 
 // ── CSV helpers ──────────────────────────────────────────────────────────────
 const sitesToCsv = (sites: Site[]): string => {
-  const header = 'Site ID,Latitude,Longitude,MBU Number,MBU Name,Cell Number,Network portofolio,Zonal Manager,Jazz id,Telenor id,Zong id,Ufone id,isUserCreated';
+  const header = 'Site ID,Latitude,Longitude,MBU Number,MBU Name,Cell Number,Network portofolio,Zonal Manager,Jazz id,Telenor id,Zong id,Ufone id,Site status,Category,Power status,Security Vendor,Guest OMO,DG shared,DC shared,Solar,DG status,isUserCreated';
   const rows = sites.map(s =>
-    `"${s.name}",${s.lat},${s.lng},"${s.mbuNumber}","${s.mbuName}","${s.cellNumber}","${s.networkPortfolio}","${s.zonalManager}","${s.jazzId}","${s.telenorId}","${s.zongId}","${s.ufoneId}",${s.isUserCreated ? 'true' : 'false'}`
+    `"${s.name}",${s.lat},${s.lng},"${s.mbuNumber}","${s.mbuName}","${s.cellNumber}","${s.networkPortfolio}","${s.zonalManager}","${s.jazzId}","${s.telenorId}","${s.zongId}","${s.ufoneId}","${s.siteStatus || ''}","${s.category || ''}","${s.powerStatus || ''}","${s.securityVendor || ''}","${s.guestOmo || ''}","${s.dgShared || ''}","${s.dcShared || ''}","${s.solar || ''}","${s.dgStatus || ''}",${s.isUserCreated ? 'true' : 'false'}`
   );
   return [header, ...rows].join('\n');
 };
@@ -38,10 +38,20 @@ const parseCsvRow = (row: any): Site | null => {
     telenorId: row['Telenor id'] || '',
     zongId: row['Zong id'] || '',
     ufoneId: row['Ufone id'] || '',
+    siteStatus: row['Site status'] || row.siteStatus || undefined,
+    category: row['Category'] || row.category || undefined,
+    powerStatus: row['Power status'] || row.powerStatus || undefined,
+    securityVendor: row['Security Vendor'] || row.securityVendor || undefined,
+    guestOmo: row['Guest OMO'] || row.guestOmo || undefined,
+    dgShared: row['DG shared'] || row.dgShared || undefined,
+    dcShared: row['DC shared'] || row.dcShared || undefined,
+    solar: row['Solar'] || row.solar || undefined,
+    dgStatus: row['DG status'] || row.dgStatus || undefined,
     createdAt: row.createdAt ? parseInt(row.createdAt) : Date.now(),
     isUserCreated: row.isUserCreated === 'true' || row.isUserCreated === true,
   };
 };
+
 
 // ── Silent auto-backup (fire & forget) ──────────────────────────────────────
 const autoBackup = async (sites: Site[]) => {

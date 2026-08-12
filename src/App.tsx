@@ -185,10 +185,19 @@ function App() {
               id: crypto.randomUUID(), name, lat, lng,
               mbuNumber: row['MBU Number'] || '', mbuName: row['MBU Name'] || '',
               cellNumber: row['Cell Number'] || '',
-              networkPortfolio: row['Network portofolio'] || '',
+              networkPortfolio: row['Network portofolio'] || row['Network Portfolio'] || '',
               zonalManager: row['Zonal Manager'] || '',
               jazzId: row['Jazz id'] || '', telenorId: row['Telenor id'] || '',
               zongId: row['Zong id'] || '', ufoneId: row['Ufone id'] || '',
+              siteStatus: row['Site status'] || row.siteStatus || undefined,
+              category: row['Category'] || row.category || undefined,
+              powerStatus: row['Power status'] || row.powerStatus || undefined,
+              securityVendor: row['Security Vendor'] || row.securityVendor || undefined,
+              guestOmo: row['Guest OMO'] || row.guestOmo || undefined,
+              dgShared: row['DG shared'] || row.dgShared || undefined,
+              dcShared: row['DC shared'] || row.dcShared || undefined,
+              solar: row['Solar'] || row.solar || undefined,
+              dgStatus: row['DG status'] || row.dgStatus || undefined,
               createdAt: Date.now(), isUserCreated: true,
             };
           }
@@ -214,9 +223,15 @@ function App() {
       (s.mbuNumber && s.mbuNumber.toLowerCase().includes(q)) ||
       (s.mbuName && s.mbuName.toLowerCase().includes(q)) ||
       (s.networkPortfolio && s.networkPortfolio.toLowerCase().includes(q)) ||
-      (s.zonalManager && s.zonalManager.toLowerCase().includes(q))
+      (s.zonalManager && s.zonalManager.toLowerCase().includes(q)) ||
+      (s.siteStatus && s.siteStatus.toLowerCase().includes(q)) ||
+      (s.category && s.category.toLowerCase().includes(q)) ||
+      (s.securityVendor && s.securityVendor.toLowerCase().includes(q)) ||
+      (s.powerStatus && s.powerStatus.toLowerCase().includes(q)) ||
+      (s.guestOmo && s.guestOmo.toLowerCase().includes(q))
     );
   });
+
 
   // Get accent color for current theme
   const savedTheme = localStorage.getItem('app_theme') || 'engro-green';

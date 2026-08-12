@@ -23,6 +23,15 @@ export const SiteModal: React.FC<Props> = ({ isOpen, onClose, onSave, site }) =>
   const [telenorId, setTelenorId] = useState('');
   const [zongId, setZongId] = useState('');
   const [ufoneId, setUfoneId] = useState('');
+  const [siteStatus, setSiteStatus] = useState('');
+  const [category, setCategory] = useState('');
+  const [powerStatus, setPowerStatus] = useState('');
+  const [securityVendor, setSecurityVendor] = useState('');
+  const [guestOmo, setGuestOmo] = useState('');
+  const [dgShared, setDgShared] = useState('');
+  const [dcShared, setDcShared] = useState('');
+  const [solar, setSolar] = useState('');
+  const [dgStatus, setDgStatus] = useState('');
   const [loadingLocation, setLoadingLocation] = useState(false);
 
   useEffect(() => {
@@ -39,6 +48,15 @@ export const SiteModal: React.FC<Props> = ({ isOpen, onClose, onSave, site }) =>
       setTelenorId(site.telenorId || '');
       setZongId(site.zongId || '');
       setUfoneId(site.ufoneId || '');
+      setSiteStatus(site.siteStatus || '');
+      setCategory(site.category || '');
+      setPowerStatus(site.powerStatus || '');
+      setSecurityVendor(site.securityVendor || '');
+      setGuestOmo(site.guestOmo || '');
+      setDgShared(site.dgShared || '');
+      setDcShared(site.dcShared || '');
+      setSolar(site.solar || '');
+      setDgStatus(site.dgStatus || '');
     } else {
       setName('');
       setLat('');
@@ -52,6 +70,15 @@ export const SiteModal: React.FC<Props> = ({ isOpen, onClose, onSave, site }) =>
       setTelenorId('');
       setZongId('');
       setUfoneId('');
+      setSiteStatus('');
+      setCategory('');
+      setPowerStatus('');
+      setSecurityVendor('');
+      setGuestOmo('');
+      setDgShared('');
+      setDcShared('');
+      setSolar('');
+      setDgStatus('');
     }
   }, [site, isOpen]);
 
@@ -72,7 +99,16 @@ export const SiteModal: React.FC<Props> = ({ isOpen, onClose, onSave, site }) =>
       jazzId,
       telenorId,
       zongId,
-      ufoneId
+      ufoneId,
+      siteStatus,
+      category,
+      powerStatus,
+      securityVendor,
+      guestOmo,
+      dgShared,
+      dcShared,
+      solar,
+      dgStatus
     });
     onClose();
   };
@@ -166,6 +202,46 @@ export const SiteModal: React.FC<Props> = ({ isOpen, onClose, onSave, site }) =>
 
           <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '12px' }}>
             <div>
+              <label style={{ display: 'block', marginBottom: '6px', fontSize: '0.8rem', color: 'var(--text-secondary)', fontWeight: 600 }}>Site Status</label>
+              <input className="input" value={siteStatus} onChange={e => setSiteStatus(e.target.value)} placeholder="e.g. Single / Shared" />
+            </div>
+            <div>
+              <label style={{ display: 'block', marginBottom: '6px', fontSize: '0.8rem', color: 'var(--text-secondary)', fontWeight: 600 }}>Category</label>
+              <input className="input" value={category} onChange={e => setCategory(e.target.value)} placeholder="e.g. Gold / Silver" />
+            </div>
+            <div>
+              <label style={{ display: 'block', marginBottom: '6px', fontSize: '0.8rem', color: 'var(--text-secondary)', fontWeight: 600 }}>Power Status</label>
+              <input className="input" value={powerStatus} onChange={e => setPowerStatus(e.target.value)} placeholder="e.g. Poor Grid" />
+            </div>
+            <div>
+              <label style={{ display: 'block', marginBottom: '6px', fontSize: '0.8rem', color: 'var(--text-secondary)', fontWeight: 600 }}>DG Status</label>
+              <input className="input" value={dgStatus} onChange={e => setDgStatus(e.target.value)} placeholder="e.g. Operational" />
+            </div>
+            <div>
+              <label style={{ display: 'block', marginBottom: '6px', fontSize: '0.8rem', color: 'var(--text-secondary)', fontWeight: 600 }}>Security Vendor</label>
+              <input className="input" value={securityVendor} onChange={e => setSecurityVendor(e.target.value)} placeholder="e.g. Al-Safeena" />
+            </div>
+            <div>
+              <label style={{ display: 'block', marginBottom: '6px', fontSize: '0.8rem', color: 'var(--text-secondary)', fontWeight: 600 }}>Guest OMO</label>
+              <input className="input" value={guestOmo} onChange={e => setGuestOmo(e.target.value)} placeholder="e.g. UFONE/TELENOR" />
+            </div>
+            <div>
+              <label style={{ display: 'block', marginBottom: '6px', fontSize: '0.8rem', color: 'var(--text-secondary)', fontWeight: 600 }}>DG Shared</label>
+              <input className="input" value={dgShared} onChange={e => setDgShared(e.target.value)} placeholder="e.g. TELENOR" />
+            </div>
+            <div>
+              <label style={{ display: 'block', marginBottom: '6px', fontSize: '0.8rem', color: 'var(--text-secondary)', fontWeight: 600 }}>DC Shared</label>
+              <input className="input" value={dcShared} onChange={e => setDcShared(e.target.value)} placeholder="e.g. UFONE/TELENOR" />
+            </div>
+          </div>
+
+          <div>
+            <label style={{ display: 'block', marginBottom: '6px', fontSize: '0.8rem', color: 'var(--text-secondary)', fontWeight: 600 }}>Solar Installed</label>
+            <input className="input" value={solar} onChange={e => setSolar(e.target.value)} placeholder="e.g. Yes / No" />
+          </div>
+
+          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '12px' }}>
+            <div>
               <label style={{ display: 'block', marginBottom: '6px', fontSize: '0.8rem', color: 'var(--text-secondary)', fontWeight: 600 }}>Jazz ID</label>
               <input className="input" value={jazzId} onChange={e => setJazzId(e.target.value)} placeholder="e.g. JZ-123" />
             </div>
@@ -191,3 +267,4 @@ export const SiteModal: React.FC<Props> = ({ isOpen, onClose, onSave, site }) =>
     </div>
   );
 };
+

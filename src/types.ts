@@ -12,6 +12,16 @@ export interface Site {
   telenorId: string;
   zongId: string;
   ufoneId: string;
+  siteStatus?: string;
+  category?: string;
+  powerStatus?: string;
+  securityVendor?: string;
+  guestOmo?: string;
+  dgShared?: string;
+  dcShared?: string;
+  solar?: string;
+  dgStatus?: string;
   createdAt: number;
   isUserCreated?: boolean; // true = added by user, survives all app updates
 }
+

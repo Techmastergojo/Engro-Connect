@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Map, Edit2, Trash2, MessageSquare, ChevronDown, ChevronUp } from 'lucide-react';
+import { Map, Edit2, Trash2, MessageSquare, ChevronDown, ChevronUp, Sun, Zap, Shield, Radio, Activity } from 'lucide-react';
 import type { Site } from '../types';
 
 interface Props {
@@ -18,16 +18,13 @@ export const SiteCard: React.FC<Props> = ({ site, onEdit, onDelete }) => {
 
   const openWhatsApp = (e: React.MouseEvent) => {
     e.stopPropagation();
-    // Strip everything except digits
     let phone = site.cellNumber.replace(/\D/g, '');
-    // Pakistani numbers in CSV are stored without leading 0, e.g. "3008560206" (10 digits starting with 3)
-    // Correct international format for WhatsApp is 923XXXXXXXXX
     if (phone.length === 10 && phone.startsWith('3')) {
-      phone = '92' + phone; // e.g. 3008560206 -> 923008560206
+      phone = '92' + phone;
     } else if (phone.startsWith('0') && phone.length === 11) {
-      phone = '92' + phone.substring(1); // e.g. 03008560206 -> 923008560206
+      phone = '92' + phone.substring(1);
     } else if (!phone.startsWith('92')) {
-      phone = '92' + phone; // fallback: prepend country code
+      phone = '92' + phone;
     }
     const message = encodeURIComponent(`Hi ${site.mbuName}, regarding Site: ${site.name} (${site.mbuNumber})`);
     window.open(`https://wa.me/${phone}?text=${message}`, '_blank');
@@ -43,14 +40,34 @@ export const SiteCard: React.FC<Props> = ({ site, onEdit, onDelete }) => {
     onDelete(site.id);
   };
 
+  const hasSolar = site.solar && site.solar.toLowerCase() === 'yes';
+
   return (
     <div 
       className={`site-card animate-slide-up ${isExpanded ? 'expanded' : ''}`}
       onClick={() => setIsExpanded(!isExpanded)}
     >
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}>
-        <div>
-          <span className="badge" style={{ marginBottom: '8px' }}>{site.mbuNumber || 'NO MBU'}</span>
+        <div style={{ flex: 1 }}>
+          <div style={{ display: 'flex', gap: '6px', flexWrap: 'wrap', marginBottom: '8px', alignItems: 'center' }}>
+            <span className="badge">{site.mbuNumber || 'NO MBU'}</span>
+            {site.siteStatus && site.siteStatus !== '-' && (
+              <span className="badge" style={{ background: 'rgba(59, 130, 246, 0.15)', color: '#60a5fa', border: '1px solid rgba(59, 130, 246, 0.3)' }}>
+                {site.siteStatus}
+              </span>
+            )}
+            {site.category && site.category !== '-' && (
+              <span className="badge" style={{ background: 'rgba(168, 85, 247, 0.15)', color: '#c084fc', border: '1px solid rgba(168, 85, 247, 0.3)' }}>
+                {site.category}
+              </span>
+            )}
+            {hasSolar && (
+              <span className="badge" style={{ background: 'rgba(234, 179, 8, 0.15)', color: '#facc15', border: '1px solid rgba(234, 179, 8, 0.3)', display: 'inline-flex', alignItems: 'center', gap: '4px' }}>
+                <Sun size={12} /> Solar
+              </span>
+            )}
+          </div>
+
           <h3 style={{ fontSize: '1.25rem', fontWeight: 700, letterSpacing: '-0.02em', color: 'var(--text-primary)' }}>{site.name}</h3>
           <p style={{ color: 'var(--text-secondary)', fontSize: '0.85rem', marginTop: '4px' }}>
             {site.lat.toFixed(6)}, {site.lng.toFixed(6)}
@@ -79,6 +96,60 @@ export const SiteCard: React.FC<Props> = ({ site, onEdit, onDelete }) => {
             <div className="detail-label">Zonal Manager</div>
             <div className="detail-value">{site.zonalManager || 'N/A'}</div>
           </div>
+
+          {/* Operational & Power Specs */}
+          {site.powerStatus && site.powerStatus !== '-' && (
+            <div className="detail-item">
+              <div className="detail-label" style={{ display: 'flex', alignItems: 'center', gap: '4px' }}>
+                <Zap size={13} color="var(--accent)" /> Power Status
+              </div>
+              <div className="detail-value">{site.powerStatus}</div>
+            </div>
+          )}
+          {site.dgStatus && site.dgStatus !== '-' && (
+            <div className="detail-item">
+              <div className="detail-label" style={{ display: 'flex', alignItems: 'center', gap: '4px' }}>
+                <Activity size={13} color="var(--accent)" /> DG Status
+              </div>
+              <div className="detail-value">{site.dgStatus}</div>
+            </div>
+          )}
+          {site.securityVendor && site.securityVendor !== '-' && (
+            <div className="detail-item">
+              <div className="detail-label" style={{ display: 'flex', alignItems: 'center', gap: '4px' }}>
+                <Shield size={13} color="var(--accent)" /> Security Vendor
+              </div>
+              <div className="detail-value">{site.securityVendor}</div>
+            </div>
+          )}
+          {site.guestOmo && site.guestOmo !== '-' && (
+            <div className="detail-item">
+              <div className="detail-label" style={{ display: 'flex', alignItems: 'center', gap: '4px' }}>
+                <Radio size={13} color="var(--accent)" /> Guest OMO
+              </div>
+              <div className="detail-value">{site.guestOmo}</div>
+            </div>
+          )}
+          {site.dgShared && site.dgShared !== '-' && (
+            <div className="detail-item">
+              <div className="detail-label">DG Shared</div>
+              <div className="detail-value">{site.dgShared}</div>
+            </div>
+          )}
+          {site.dcShared && site.dcShared !== '-' && (
+            <div className="detail-item">
+              <div className="detail-label">DC Shared</div>
+              <div className="detail-value">{site.dcShared}</div>
+            </div>
+          )}
+          {site.solar && (
+            <div className="detail-item">
+              <div className="detail-label">Solar Installed</div>
+              <div className="detail-value">{site.solar}</div>
+            </div>
+          )}
+
+          {/* Tenant IDs */}
           <div className="detail-item">
             <div className="detail-label">Jazz ID</div>
             <div className="detail-value">{site.jazzId || '-'}</div>
@@ -117,3 +188,4 @@ export const SiteCard: React.FC<Props> = ({ site, onEdit, onDelete }) => {
     </div>
   );
 };
+
