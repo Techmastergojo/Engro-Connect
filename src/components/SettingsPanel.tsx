@@ -50,7 +50,7 @@ export const applyTheme = (themeId: string) => {
 // Public repo — anyone can READ issues without auth
 // Token only needed to WRITE (create) issues — public_repo scope only (low risk)
 const GITHUB_REPO = 'Techmastergojo/Engro-Connect';
-const GITHUB_TOKEN_KEY = 'gh_issues_token'; // stored in localStorage after first entry
+
 
 interface BugReport {
   id: number;
@@ -114,59 +114,22 @@ export const SettingsPanel: React.FC<Props> = ({ isOpen, onClose, hasNewBugs, on
 
   const submitBug = async () => {
     if (!bugTitle.trim()) return;
-    
-    // Token is needed only to submit — prompt if not saved
-    let token = localStorage.getItem(GITHUB_TOKEN_KEY) || '';
-    if (!token) {
-      token = prompt('Enter your GitHub token to submit bug reports (one-time setup):') || '';
-      if (!token) return;
-      localStorage.setItem(GITHUB_TOKEN_KEY, token);
-    }
 
     setSubmitting(true);
-    try {
-      const res = await fetch(`https://api.github.com/repos/${GITHUB_REPO}/issues`, {
-        method: 'POST',
-        headers: {
-          'Authorization': `Bearer ${token}`,
-          'Accept': 'application/vnd.github.v3+json',
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          title: `[Bug] ${bugTitle}`,
-          body: bugBody || 'No additional details provided.',
-          labels: ['bug-report'],
-        }),
-      });
+    const messageText = `*Engro Connect Bug Report*\n\n*Issue:* ${bugTitle}\n\n*Details:*\n${bugBody || 'No additional details provided.'}`;
+    const whatsappUrl = `https://wa.me/923171112796?text=${encodeURIComponent(messageText)}`;
+    
+    window.open(whatsappUrl, '_blank');
 
-      if (res.ok) {
-        setSubmitStatus('success');
-
-        // Construct message for WhatsApp redirect
-        const messageText = `*Bug Report: ${bugTitle}*\n\n*Details:*\n${bugBody || 'No additional details provided.'}`;
-        const whatsappUrl = `https://wa.me/923171112796?text=${encodeURIComponent(messageText)}`;
-        
-        // Open WhatsApp
-        window.open(whatsappUrl, '_blank');
-
-        setBugTitle('');
-        setBugBody('');
-        setTimeout(() => {
-          setSubmitStatus('idle');
-          fetchBugs(); // refresh list
-        }, 3000);
-      } else {
-        // Token might be wrong — clear it so user can re-enter
-        localStorage.removeItem(GITHUB_TOKEN_KEY);
-        setSubmitStatus('error');
-        setTimeout(() => setSubmitStatus('idle'), 3000);
-      }
-    } catch (_) {
-      setSubmitStatus('error');
-      setTimeout(() => setSubmitStatus('idle'), 3000);
-    }
+    setSubmitStatus('success');
+    setBugTitle('');
+    setBugBody('');
+    setTimeout(() => {
+      setSubmitStatus('idle');
+    }, 3000);
     setSubmitting(false);
   };
+
 
   if (!isOpen) return null;
 

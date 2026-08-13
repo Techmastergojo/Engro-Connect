@@ -217,29 +217,43 @@ function App() {
   };
 
   const filteredSites = sites.filter(s => {
-    const q = searchQuery.toLowerCase();
-    return (
-      s.name.toLowerCase().includes(q) ||
-      (s.mbuNumber && s.mbuNumber.toLowerCase().includes(q)) ||
-      (s.mbuName && s.mbuName.toLowerCase().includes(q)) ||
-      (s.networkPortfolio && s.networkPortfolio.toLowerCase().includes(q)) ||
-      (s.zonalManager && s.zonalManager.toLowerCase().includes(q)) ||
-      (s.siteStatus && s.siteStatus.toLowerCase().includes(q)) ||
-      (s.category && s.category.toLowerCase().includes(q)) ||
-      (s.securityVendor && s.securityVendor.toLowerCase().includes(q)) ||
-      (s.powerStatus && s.powerStatus.toLowerCase().includes(q)) ||
-      (s.guestOmo && s.guestOmo.toLowerCase().includes(q))
-    );
-  });
+    if (!searchQuery.trim()) return true;
+    const tokens = searchQuery.trim().toLowerCase().split(/\s+/).filter(Boolean);
+    if (tokens.length === 0) return true;
 
+    const searchableText = [
+      s.name, s.mbuNumber, s.mbuName, s.cellNumber, s.networkPortfolio,
+      s.zonalManager, s.jazzId, s.telenorId, s.zongId, s.ufoneId,
+      s.siteStatus, s.category, s.powerStatus, s.securityVendor,
+      s.guestOmo, s.dgShared, s.dcShared, s.solar, s.dgStatus,
+      s.solarKwa, s.neLocation, s.noOfSites, s.dcSharedWith,
+      s.ufoneApprovedServices, s.tpId, s.tpApprovedServices, s.zongApprovedServices
+    ].filter(Boolean).join(' ').toLowerCase();
+
+    return tokens.every(token => searchableText.includes(token));
+  });
 
   // Get accent color for current theme
   const savedTheme = localStorage.getItem('app_theme') || 'engro-green';
   const themeAccent = THEMES.find(t => t.id === savedTheme)?.accent || '#00a86b';
 
   return (
-    <div style={{ maxWidth: '600px', margin: '0 auto', padding: '32px 16px' }}>
+    <div style={{ maxWidth: '600px', margin: '0 auto', padding: '32px 16px', position: 'relative' }}>
       <header style={{ marginBottom: '32px', textAlign: 'center', position: 'relative' }}>
+
+        {/* ⚡ Powered by HTC corner tag top-left */}
+        <div 
+          style={{ 
+            position: 'absolute', top: 0, left: 0,
+            background: 'var(--surface)', border: '1px solid var(--border)',
+            padding: '6px 12px', borderRadius: '16px',
+            fontSize: '0.75rem', fontWeight: 700,
+            color: 'var(--accent)', letterSpacing: '0.03em',
+            boxShadow: '0 4px 12px rgba(0,0,0,0.1)'
+          }}
+        >
+          Powered by HTC
+        </div>
 
         {/* ⚙ Settings gear top-right */}
         <button
@@ -275,7 +289,7 @@ function App() {
           />
         </div>
         <h1 style={{ fontSize: '2.2rem', fontWeight: 800, marginBottom: '6px', letterSpacing: '-0.03em', background: 'linear-gradient(180deg, #fff, var(--text-secondary))', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>Engro Connect</h1>
-        <p style={{ color: 'var(--text-secondary)', fontSize: '0.95rem', fontWeight: 500 }}>Portfolio & Coordinate Helper</p>
+        <p style={{ color: 'var(--text-secondary)', fontSize: '0.95rem', fontWeight: 600, letterSpacing: '0.01em' }}>Pakistan Leading Tower Co.</p>
       </header>
 
       <div style={{ display: 'flex', gap: '10px', marginBottom: '24px' }}>
@@ -284,7 +298,7 @@ function App() {
           <input
             className="input"
             style={{ paddingLeft: '48px' }}
-            placeholder="Search by Site ID, MBU, Portfolio, ZM..."
+            placeholder="Search by Site ID, MBU, Telenor, Jazz, Platinum..."
             value={searchQuery}
             onChange={e => setSearchQuery(e.target.value)}
           />
@@ -325,6 +339,12 @@ function App() {
           )}
         </div>
       )}
+
+      {/* Footer Branding */}
+      <footer style={{ textAlign: 'center', marginTop: '40px', padding: '16px 0', color: 'var(--text-muted)', fontSize: '0.8rem', fontWeight: 600 }}>
+        Powered by HTC
+      </footer>
+
 
       <SiteModal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} site={editingSite} onSave={handleAddOrUpdate} />
 

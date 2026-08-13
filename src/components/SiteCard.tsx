@@ -149,6 +149,56 @@ export const SiteCard: React.FC<Props> = ({ site, onEdit, onDelete }) => {
             </div>
           )}
 
+          {/* Tenant & Tower Specs */}
+          {site.noOfSites && site.noOfSites !== '-' && (
+            <div className="detail-item">
+              <div className="detail-label">No of Sites</div>
+              <div className="detail-value">{site.noOfSites}</div>
+            </div>
+          )}
+          {site.dcSharedWith && site.dcSharedWith !== '-' && (
+            <div className="detail-item">
+              <div className="detail-label">DC Shared With</div>
+              <div className="detail-value">{site.dcSharedWith}</div>
+            </div>
+          )}
+          {site.solarKwa && site.solarKwa !== '-' && (
+            <div className="detail-item">
+              <div className="detail-label">Solar KWA</div>
+              <div className="detail-value">{site.solarKwa}</div>
+            </div>
+          )}
+          {site.neLocation && site.neLocation !== '-' && (
+            <div className="detail-item">
+              <div className="detail-label">NE Location</div>
+              <div className="detail-value">{site.neLocation}</div>
+            </div>
+          )}
+          {site.tpId && site.tpId !== '-' && (
+            <div className="detail-item">
+              <div className="detail-label">TP ID</div>
+              <div className="detail-value">{site.tpId}</div>
+            </div>
+          )}
+          {site.tpApprovedServices && site.tpApprovedServices !== '-' && (
+            <div className="detail-item">
+              <div className="detail-label">TP Approved Services</div>
+              <div className="detail-value">{site.tpApprovedServices}</div>
+            </div>
+          )}
+          {site.zongApprovedServices && site.zongApprovedServices !== '-' && (
+            <div className="detail-item">
+              <div className="detail-label">Zong Approved Services</div>
+              <div className="detail-value">{site.zongApprovedServices}</div>
+            </div>
+          )}
+          {site.ufoneApprovedServices && site.ufoneApprovedServices !== '-' && (
+            <div className="detail-item">
+              <div className="detail-label">Ufone Approved Services</div>
+              <div className="detail-value">{site.ufoneApprovedServices}</div>
+            </div>
+          )}
+
           {/* Tenant IDs */}
           <div className="detail-item">
             <div className="detail-label">Jazz ID</div>
@@ -166,6 +216,7 @@ export const SiteCard: React.FC<Props> = ({ site, onEdit, onDelete }) => {
             <div className="detail-label">Ufone ID</div>
             <div className="detail-value">{site.ufoneId || '-'}</div>
           </div>
+
 
           <div className="detail-full" style={{ display: 'flex', gap: '8px', marginTop: '8px' }}>
             <button className="btn-map" onClick={openInMap} style={{ flex: 1 }}>

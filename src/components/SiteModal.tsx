@@ -259,12 +259,46 @@ export const SiteModal: React.FC<Props> = ({ isOpen, onClose, onSave, site }) =>
             </div>
           </div>
 
-          <button type="submit" className="btn-accent" style={{ marginTop: '8px' }}>
-            {site ? 'Update Site' : 'Add Site'}
-          </button>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '10px', marginTop: '12px' }}>
+            <button 
+              type="submit" 
+              className="btn-accent"
+              style={{ width: '100%', padding: '12px', fontWeight: 700 }}
+            >
+              💾 Update Locally (This Device Only)
+            </button>
+            <button 
+              type="button" 
+              className="btn-ghost"
+              style={{ 
+                width: '100%', padding: '12px', fontWeight: 700, 
+                border: '1px solid var(--accent)', color: 'var(--accent)',
+                display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '8px'
+              }}
+              onClick={(e) => {
+                handleSave(e);
+                const msg = encodeURIComponent(
+                  `Hi HTC Admin! Requesting Global Site Update for Engro Connect:\n\n` +
+                  `Site ID: ${name}\n` +
+                  `Lat/Lng: ${lat}, ${lng}\n` +
+                  `MBU: ${mbuNumber} (${mbuName})\n` +
+                  `Cell: ${cellNumber}\n` +
+                  `Portfolio: ${networkPortfolio}\n` +
+                  `Zonal Manager: ${zonalManager}\n` +
+                  `Status: ${siteStatus} | Category: ${category}\n` +
+                  `Power: ${powerStatus} | Solar: ${solar}\n\n` +
+                  `Please update in master dataset for everyone!`
+                );
+                window.open(`https://wa.me/923171112796?text=${msg}`, '_blank');
+              }}
+            >
+              🌐 Update for Everyone (Submit to Admin via WhatsApp)
+            </button>
+          </div>
         </form>
       </div>
     </div>
   );
 };
+
 

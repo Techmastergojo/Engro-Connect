@@ -12,9 +12,15 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
-    "zongId": "-",
+    "telenorId": "LKM003",
+    "zongId": "40682",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "TP/ZONG",
+    "noOfSites": "5",
+    "tpId": "LKM003",
+    "tpApprovedServices": "DG",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -28,9 +34,16 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
-    "zongId": "-",
+    "telenorId": "LGWR08",
+    "zongId": "45120",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "TP/ZONG",
+    "noOfSites": "1",
+    "dcSharedWith": "ZONG",
+    "tpId": "LGWR08",
+    "tpApprovedServices": "CP",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -44,9 +57,15 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LGW219",
     "zongId": "-",
-    "ufoneId": "-",
+    "ufoneId": "3916",
+    "category": "Platinum",
+    "guestOmo": "TP/Ufone",
+    "noOfSites": "1",
+    "ufoneApprovedServices": "DG",
+    "tpId": "LGW219",
+    "tpApprovedServices": "DG",
     "createdAt": 1700000000000
   },
   {
@@ -63,6 +82,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "3",
     "createdAt": 1700000000000
   },
   {
@@ -79,6 +100,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "4",
     "createdAt": 1700000000000
   },
   {
@@ -93,8 +116,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "42633",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "4",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -111,6 +139,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "2",
     "createdAt": 1700000000000
   },
   {
@@ -124,9 +154,14 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LGW381",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "TP",
+    "noOfSites": "5",
+    "tpId": "LGW381",
+    "tpApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -142,7 +177,11 @@ export const defaultSites: Site[] = [
     "jazzId": "-",
     "telenorId": "-",
     "zongId": "-",
-    "ufoneId": "-",
+    "ufoneId": "3547",
+    "category": "Platinum",
+    "guestOmo": "Ufone",
+    "noOfSites": "1",
+    "ufoneApprovedServices": "DG",
     "createdAt": 1700000000000
   },
   {
@@ -157,8 +196,12 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "42949",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "4",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -174,7 +217,11 @@ export const defaultSites: Site[] = [
     "jazzId": "-",
     "telenorId": "-",
     "zongId": "-",
-    "ufoneId": "-",
+    "ufoneId": "CI-1540",
+    "category": "General",
+    "guestOmo": "Ufone",
+    "noOfSites": "1",
+    "ufoneApprovedServices": "DG",
     "createdAt": 1700000000000
   },
   {
@@ -188,9 +235,14 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LGW450",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "TP",
+    "noOfSites": "1",
+    "tpId": "LGW450",
+    "tpApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -207,6 +259,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -223,6 +277,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "2",
     "createdAt": 1700000000000
   },
   {
@@ -236,9 +292,14 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LGW336",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "TP",
+    "noOfSites": "1",
+    "tpId": "LGW336",
+    "tpApprovedServices": "DG",
     "createdAt": 1700000000000
   },
   {
@@ -255,6 +316,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "2",
     "createdAt": 1700000000000
   },
   {
@@ -268,9 +331,14 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LGW205",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "TP",
+    "noOfSites": "1",
+    "tpId": "LGW205",
+    "tpApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -287,6 +355,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -300,9 +370,14 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LGW340",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "TP",
+    "noOfSites": "1",
+    "tpId": "LGW340",
+    "tpApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -319,6 +394,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -335,6 +412,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -351,6 +430,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -365,8 +446,12 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "42745",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -383,6 +468,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -398,7 +485,11 @@ export const defaultSites: Site[] = [
     "jazzId": "-",
     "telenorId": "-",
     "zongId": "-",
-    "ufoneId": "-",
+    "ufoneId": "3918",
+    "category": "Platinum",
+    "guestOmo": "Ufone",
+    "noOfSites": "1",
+    "ufoneApprovedServices": "DG",
     "createdAt": 1700000000000
   },
   {
@@ -415,6 +506,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -431,6 +524,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -447,6 +542,9 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Hub",
+    "neLocation": "NE",
+    "noOfSites": "23",
     "createdAt": 1700000000000
   },
   {
@@ -460,9 +558,13 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LGW215",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "TP",
+    "noOfSites": "1",
+    "tpId": "LGW215",
     "createdAt": 1700000000000
   },
   {
@@ -479,6 +581,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -495,6 +599,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -508,9 +614,14 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LGW222",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "TP",
+    "noOfSites": "1",
+    "tpId": "LGW222",
+    "tpApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -527,6 +638,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -542,7 +655,11 @@ export const defaultSites: Site[] = [
     "jazzId": "-",
     "telenorId": "-",
     "zongId": "-",
-    "ufoneId": "-",
+    "ufoneId": "3929",
+    "category": "General",
+    "guestOmo": "Ufone",
+    "noOfSites": "1",
+    "ufoneApprovedServices": "DG",
     "createdAt": 1700000000000
   },
   {
@@ -559,6 +676,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -575,6 +694,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -591,6 +712,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -604,9 +727,14 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LGW216",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "TP",
+    "noOfSites": "1",
+    "tpId": "LGW216",
+    "tpApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -623,6 +751,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -639,6 +769,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -655,6 +787,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -671,6 +805,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "3",
     "createdAt": 1700000000000
   },
   {
@@ -686,7 +822,11 @@ export const defaultSites: Site[] = [
     "jazzId": "-",
     "telenorId": "-",
     "zongId": "-",
-    "ufoneId": "-",
+    "ufoneId": "CI-1008",
+    "category": "Platinum",
+    "guestOmo": "Ufone",
+    "noOfSites": "1",
+    "ufoneApprovedServices": "DG",
     "createdAt": 1700000000000
   },
   {
@@ -702,7 +842,11 @@ export const defaultSites: Site[] = [
     "jazzId": "-",
     "telenorId": "-",
     "zongId": "-",
-    "ufoneId": "-",
+    "ufoneId": "CI-1841",
+    "category": "Platinum",
+    "guestOmo": "Ufone",
+    "noOfSites": "1",
+    "ufoneApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -719,6 +863,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -735,6 +881,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -751,6 +899,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Hub",
+    "noOfSites": "21",
     "createdAt": 1700000000000
   },
   {
@@ -767,6 +917,9 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Hub",
+    "neLocation": "NE",
+    "noOfSites": "18",
     "createdAt": 1700000000000
   },
   {
@@ -783,6 +936,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -796,9 +951,14 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LGW208",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "TP",
+    "noOfSites": "2",
+    "tpId": "LGW208",
+    "tpApprovedServices": "DG",
     "createdAt": 1700000000000
   },
   {
@@ -814,7 +974,11 @@ export const defaultSites: Site[] = [
     "jazzId": "-",
     "telenorId": "-",
     "zongId": "-",
-    "ufoneId": "-",
+    "ufoneId": "3928",
+    "category": "Platinum",
+    "guestOmo": "Ufone",
+    "noOfSites": "1",
+    "ufoneApprovedServices": "DG",
     "createdAt": 1700000000000
   },
   {
@@ -831,6 +995,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -847,6 +1013,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -863,6 +1031,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -879,6 +1049,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -895,6 +1067,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -911,6 +1085,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -924,9 +1100,14 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LGW365",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "TP",
+    "noOfSites": "1",
+    "tpId": "LGW365",
+    "tpApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -940,9 +1121,14 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LGW224",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "TP",
+    "noOfSites": "1",
+    "tpId": "LGW224",
+    "tpApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -959,6 +1145,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -972,9 +1160,14 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LGW433",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "TP",
+    "noOfSites": "1",
+    "tpId": "LGW433",
+    "tpApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -991,6 +1184,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "3",
     "createdAt": 1700000000000
   },
   {
@@ -1007,6 +1202,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -1020,9 +1217,16 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
-    "zongId": "-",
+    "telenorId": "LGW468",
+    "zongId": "42623",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "TP/ZONG",
+    "noOfSites": "1",
+    "dcSharedWith": "ZONG",
+    "tpId": "LGW468",
+    "tpApprovedServices": "CP",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -1037,8 +1241,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "41983",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -1055,6 +1264,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "3",
     "createdAt": 1700000000000
   },
   {
@@ -1071,6 +1282,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -1087,6 +1300,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "2",
     "createdAt": 1700000000000
   },
   {
@@ -1103,6 +1318,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -1117,8 +1334,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "42468",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -1132,9 +1354,14 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LHMK01",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "TP",
+    "noOfSites": "1",
+    "tpId": "LHMK01",
+    "tpApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -1151,6 +1378,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "solar": "Yes",
+    "solarKwa": "11.6",
+    "noOfSites": "2",
     "createdAt": 1700000000000
   },
   {
@@ -1165,8 +1396,12 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "40785",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -1181,8 +1416,12 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "41217",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -1197,8 +1436,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "40817",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "2",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -1213,8 +1457,16 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
-    "ufoneId": "-",
+    "zongId": "44783",
+    "ufoneId": "3374",
+    "category": "Platinum",
+    "guestOmo": "ZONG/Ufone",
+    "solar": "Yes",
+    "solarKwa": "15.08",
+    "noOfSites": "1",
+    "dcSharedWith": "ZONG",
+    "ufoneApprovedServices": "CP",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -1230,7 +1482,11 @@ export const defaultSites: Site[] = [
     "jazzId": "-",
     "telenorId": "-",
     "zongId": "-",
-    "ufoneId": "-",
+    "ufoneId": "3G-CI-1003",
+    "category": "Platinum",
+    "guestOmo": "Ufone",
+    "noOfSites": "4",
+    "ufoneApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -1247,6 +1503,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -1263,6 +1521,9 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Hub",
+    "neLocation": "NE",
+    "noOfSites": "39",
     "createdAt": 1700000000000
   },
   {
@@ -1279,6 +1540,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Hub",
     "createdAt": 1700000000000
   },
   {
@@ -1292,9 +1554,15 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LKM008",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "TP",
+    "noOfSites": "1",
+    "dcSharedWith": "Telenor",
+    "tpId": "LKM008",
+    "tpApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -1311,6 +1579,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "2",
     "createdAt": 1700000000000
   },
   {
@@ -1325,8 +1595,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "C-KMK-6740",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -1340,9 +1615,15 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LKM005",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "TP",
+    "noOfSites": "1",
+    "dcSharedWith": "Telenor",
+    "tpId": "LKM005",
+    "tpApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -1357,8 +1638,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
-    "ufoneId": "-",
+    "zongId": "C-RUR-7494",
+    "ufoneId": "3746",
+    "category": "Platinum",
+    "guestOmo": "ZONG/Ufone",
+    "noOfSites": "1",
+    "ufoneApprovedServices": "DG",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -1375,6 +1661,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -1391,6 +1679,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -1407,6 +1697,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -1423,6 +1715,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "3",
     "createdAt": 1700000000000
   },
   {
@@ -1439,6 +1733,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "2",
     "createdAt": 1700000000000
   },
   {
@@ -1455,6 +1751,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -1471,6 +1769,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "3",
     "createdAt": 1700000000000
   },
   {
@@ -1484,9 +1784,15 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LKM007",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "TP",
+    "noOfSites": "1",
+    "dcSharedWith": "Telenor",
+    "tpId": "LKM007",
+    "tpApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -1503,6 +1809,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "2",
     "createdAt": 1700000000000
   },
   {
@@ -1519,6 +1827,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -1535,6 +1845,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "solar": "Yes",
+    "solarKwa": "9.28",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -1551,6 +1865,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -1567,6 +1883,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -1581,8 +1899,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "45007",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "4",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -1599,6 +1922,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "2",
     "createdAt": 1700000000000
   },
   {
@@ -1615,6 +1940,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "4",
     "createdAt": 1700000000000
   },
   {
@@ -1631,6 +1958,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "solar": "Yes",
+    "solarKwa": "16.24",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -1647,6 +1978,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "2",
     "createdAt": 1700000000000
   },
   {
@@ -1663,6 +1996,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -1679,6 +2014,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -1695,6 +2032,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -1711,6 +2050,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -1727,6 +2068,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -1741,8 +2084,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "C-RUR-4153",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -1759,6 +2107,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "3",
     "createdAt": 1700000000000
   },
   {
@@ -1772,9 +2122,15 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LPSR29",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "TP",
+    "noOfSites": "6",
+    "dcSharedWith": "Telenor",
+    "tpId": "LPSR29",
+    "tpApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -1791,6 +2147,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "solar": "Yes",
+    "solarKwa": "10.44",
+    "noOfSites": "2",
     "createdAt": 1700000000000
   },
   {
@@ -1807,6 +2167,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -1823,6 +2185,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "NRO B2S",
     "createdAt": 1700000000000
   },
   {
@@ -1839,6 +2202,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "NRO B2S",
     "createdAt": 1700000000000
   },
   {
@@ -1855,6 +2219,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "NRO B2S",
     "createdAt": 1700000000000
   },
   {
@@ -1887,6 +2252,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "5593",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
     "createdAt": 1700000000000
   },
   {
@@ -1903,6 +2269,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "42746",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
     "createdAt": 1700000000000
   },
   {
@@ -1919,6 +2286,7 @@ export const defaultSites: Site[] = [
     "telenorId": "LAT003",
     "zongId": "42794",
     "ufoneId": "-",
+    "guestOmo": "TP/ZONG",
     "createdAt": 1700000000000
   },
   {
@@ -1935,6 +2303,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "4174",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
     "createdAt": 1700000000000
   },
   {
@@ -1951,6 +2320,7 @@ export const defaultSites: Site[] = [
     "telenorId": "LGW214",
     "zongId": "4164",
     "ufoneId": "-",
+    "guestOmo": "TP/ZONG",
     "createdAt": 1700000000000
   },
   {
@@ -1967,6 +2337,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "42738",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
     "createdAt": 1700000000000
   },
   {
@@ -1983,6 +2354,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "43085",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
     "createdAt": 1700000000000
   },
   {
@@ -1999,6 +2371,7 @@ export const defaultSites: Site[] = [
     "telenorId": "LGW430",
     "zongId": "42961",
     "ufoneId": "CI-1843",
+    "guestOmo": "TP/ZONG/Ufone",
     "createdAt": 1700000000000
   },
   {
@@ -2015,6 +2388,7 @@ export const defaultSites: Site[] = [
     "telenorId": "LGW370",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
     "createdAt": 1700000000000
   },
   {
@@ -2063,6 +2437,7 @@ export const defaultSites: Site[] = [
     "telenorId": "LAT007",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
     "createdAt": 1700000000000
   },
   {
@@ -2111,6 +2486,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "44790",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
     "createdAt": 1700000000000
   },
   {
@@ -2127,6 +2503,7 @@ export const defaultSites: Site[] = [
     "telenorId": "LGW220",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
     "createdAt": 1700000000000
   },
   {
@@ -2143,6 +2520,7 @@ export const defaultSites: Site[] = [
     "telenorId": "LGW113",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
     "createdAt": 1700000000000
   },
   {
@@ -2159,6 +2537,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "3744",
+    "guestOmo": "Ufone",
     "createdAt": 1700000000000
   },
   {
@@ -2178,7 +2557,7 @@ export const defaultSites: Site[] = [
     "siteStatus": "Single",
     "powerStatus": "Poor Grid",
     "securityVendor": "Al-Safeena",
-    "guestOmo": "UFONE/TELENOR",
+    "guestOmo": "TP/Ufone",
     "dgShared": "TELENOR",
     "dcShared": "UFONE/TELENOR",
     "solar": "No",
@@ -2199,6 +2578,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "44722",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
     "createdAt": 1700000000000
   },
   {
@@ -2247,6 +2627,7 @@ export const defaultSites: Site[] = [
     "telenorId": "LDGR01",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
     "createdAt": 1700000000000
   },
   {
@@ -2279,6 +2660,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "43956",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
     "createdAt": 1700000000000
   },
   {
@@ -2314,7 +2696,7 @@ export const defaultSites: Site[] = [
     "siteStatus": "Single",
     "powerStatus": "Goodgrid",
     "securityVendor": "Al-Safeena",
-    "guestOmo": "CMPAK",
+    "guestOmo": "ZONG",
     "dcShared": "CMPAK",
     "solar": "No",
     "createdAt": 1700000000000
@@ -2397,6 +2779,7 @@ export const defaultSites: Site[] = [
     "telenorId": "LGW429",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
     "createdAt": 1700000000000
   },
   {
@@ -2413,6 +2796,7 @@ export const defaultSites: Site[] = [
     "telenorId": "LAP006",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
     "createdAt": 1700000000000
   },
   {
@@ -2427,8 +2811,14 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
-    "ufoneId": "-",
+    "zongId": "41124",
+    "ufoneId": "CI-1794",
+    "category": "Platinum",
+    "guestOmo": "ZONG/Ufone",
+    "noOfSites": "1",
+    "dcSharedWith": "ZONG",
+    "ufoneApprovedServices": "CP",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -2443,8 +2833,14 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
-    "ufoneId": "-",
+    "zongId": "C-WRD-7924",
+    "ufoneId": "CI-1854",
+    "category": "Platinum",
+    "guestOmo": "ZONG/Ufone",
+    "noOfSites": "1",
+    "dcSharedWith": "ZONG",
+    "ufoneApprovedServices": "CP",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -2458,9 +2854,15 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
-    "zongId": "-",
+    "telenorId": "LDK009",
+    "zongId": "40919",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "TP/ZONG",
+    "noOfSites": "3",
+    "tpId": "LDK009",
+    "tpApprovedServices": "DG",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -2474,9 +2876,16 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
-    "zongId": "-",
+    "telenorId": "LZFR08",
+    "zongId": "40757",
     "ufoneId": "-",
+    "category": "Hub",
+    "guestOmo": "TP/ZONG",
+    "neLocation": "NE",
+    "noOfSites": "20",
+    "tpId": "LZFR08",
+    "tpApprovedServices": "CP",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -2490,9 +2899,15 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
-    "zongId": "-",
+    "telenorId": "LJR001",
+    "zongId": "41060",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "TP/ZONG",
+    "noOfSites": "1",
+    "tpId": "LJR001",
+    "tpApprovedServices": "CP",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -2506,9 +2921,15 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LSKR05",
     "zongId": "-",
-    "ufoneId": "-",
+    "ufoneId": "3G-CI-2027",
+    "category": "Platinum",
+    "guestOmo": "TP/Ufone",
+    "noOfSites": "3",
+    "ufoneApprovedServices": "CP",
+    "tpId": "LSKR05",
+    "tpApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -2525,6 +2946,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -2541,6 +2964,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -2555,8 +2980,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "40847",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -2570,9 +3000,14 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LDLK01",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "TP",
+    "noOfSites": "2",
+    "tpId": "LDLK01",
+    "tpApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -2587,8 +3022,12 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "40894",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -2602,9 +3041,14 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LDPR06",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "TP",
+    "noOfSites": "3",
+    "tpId": "LDPR06",
+    "tpApprovedServices": "DG",
     "createdAt": 1700000000000
   },
   {
@@ -2621,6 +3065,9 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Hub",
+    "neLocation": "NE",
+    "noOfSites": "42",
     "createdAt": 1700000000000
   },
   {
@@ -2637,6 +3084,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -2650,9 +3099,15 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LDK014",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "TP",
+    "noOfSites": "1",
+    "dcSharedWith": "Telenor",
+    "tpId": "LDK014",
+    "tpApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -2669,6 +3124,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -2683,8 +3140,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "42848",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -2701,6 +3163,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -2717,6 +3181,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -2733,6 +3199,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "2",
     "createdAt": 1700000000000
   },
   {
@@ -2749,6 +3217,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "solar": "Yes",
+    "solarKwa": "13.92",
+    "noOfSites": "2",
     "createdAt": 1700000000000
   },
   {
@@ -2765,6 +3237,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -2779,8 +3253,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "C-DSK-3606",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "6",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -2797,6 +3276,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -2813,6 +3294,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "solar": "Yes",
+    "solarKwa": "12.18",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -2827,8 +3312,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "C-RUR-4798",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "ZONG",
+    "noOfSites": "3",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -2842,9 +3332,14 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LSKR09",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "TP",
+    "noOfSites": "1",
+    "tpId": "LSKR09",
+    "tpApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -2861,6 +3356,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -2874,9 +3371,14 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LWZR14",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Hub",
+    "guestOmo": "TP",
+    "noOfSites": "5",
+    "tpId": "LWZR14",
+    "tpApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -2893,6 +3395,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -2907,8 +3411,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "40907",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -2925,6 +3434,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -2938,9 +3449,16 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
-    "zongId": "-",
+    "telenorId": "LWZR02",
+    "zongId": "41126",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "TP/ZONG",
+    "noOfSites": "1",
+    "dcSharedWith": "Telenor",
+    "tpId": "LWZR02",
+    "tpApprovedServices": "DC",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -2957,6 +3475,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -2973,6 +3493,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -2989,6 +3511,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "solar": "Yes",
+    "solarKwa": "12.18",
+    "noOfSites": "4",
     "createdAt": 1700000000000
   },
   {
@@ -3003,8 +3529,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "40805",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "ZONG",
+    "noOfSites": "3",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -3019,8 +3550,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "44802",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -3035,8 +3571,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "41052",
     "ufoneId": "-",
+    "category": "Hub",
+    "guestOmo": "ZONG",
+    "neLocation": "NE",
+    "noOfSites": "8",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -3053,6 +3594,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -3069,6 +3612,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -3082,9 +3627,17 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
-    "zongId": "-",
-    "ufoneId": "-",
+    "telenorId": "LMSR05",
+    "zongId": "40753",
+    "ufoneId": "3G-CI-2022",
+    "category": "Platinum",
+    "guestOmo": "TP/ZONG/Ufone",
+    "noOfSites": "1",
+    "dcSharedWith": "Telenor/Zong",
+    "ufoneApprovedServices": "CP",
+    "tpId": "LMSR05",
+    "tpApprovedServices": "DC",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -3099,8 +3652,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "41121",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -3117,6 +3675,9 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Hub",
+    "neLocation": "NE",
+    "noOfSites": "14",
     "createdAt": 1700000000000
   },
   {
@@ -3131,8 +3692,12 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "41066",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -3146,9 +3711,16 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
-    "zongId": "-",
+    "telenorId": "LSKR86",
+    "zongId": "40784",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "TP/ZONG",
+    "noOfSites": "1",
+    "dcSharedWith": "Telenor/Zong",
+    "tpId": "LSKR86",
+    "tpApprovedServices": "DC",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -3162,9 +3734,15 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LWZ009",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "TP",
+    "noOfSites": "2",
+    "dcSharedWith": "Telenor",
+    "tpId": "LWZ009",
+    "tpApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -3179,8 +3757,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "C-RUR-4444",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "5",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -3197,6 +3780,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "solar": "Yes",
+    "solarKwa": "12.76",
+    "noOfSites": "3",
     "createdAt": 1700000000000
   },
   {
@@ -3213,6 +3800,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -3229,6 +3818,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "solar": "Yes",
+    "solarKwa": "13.92",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -3245,6 +3838,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "3",
     "createdAt": 1700000000000
   },
   {
@@ -3261,6 +3856,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "5",
     "createdAt": 1700000000000
   },
   {
@@ -3275,8 +3872,12 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "41130",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "ZONG",
+    "noOfSites": "2",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -3292,7 +3893,11 @@ export const defaultSites: Site[] = [
     "jazzId": "-",
     "telenorId": "-",
     "zongId": "-",
-    "ufoneId": "-",
+    "ufoneId": "3G-CI-4484",
+    "category": "Platinum",
+    "guestOmo": "Ufone",
+    "noOfSites": "1",
+    "ufoneApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -3306,9 +3911,14 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LSK227",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "TP",
+    "noOfSites": "1",
+    "tpId": "LSK227",
+    "tpApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -3325,6 +3935,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -3339,8 +3951,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "41013",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "ZONG",
+    "noOfSites": "2",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -3357,6 +3974,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "solar": "Yes",
+    "solarKwa": "11.6",
+    "noOfSites": "3",
     "createdAt": 1700000000000
   },
   {
@@ -3373,6 +3994,9 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Hub",
+    "neLocation": "NE",
+    "noOfSites": "14",
     "createdAt": 1700000000000
   },
   {
@@ -3389,6 +4013,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -3405,6 +4031,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -3421,6 +4049,9 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Hub",
+    "neLocation": "NE",
+    "noOfSites": "19",
     "createdAt": 1700000000000
   },
   {
@@ -3437,6 +4068,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "2",
     "createdAt": 1700000000000
   },
   {
@@ -3453,6 +4086,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "solar": "Yes",
+    "solarKwa": "10.44",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -3466,9 +4103,14 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LWZ013",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "TP",
+    "noOfSites": "1",
+    "tpId": "LWZ013",
+    "tpApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -3485,6 +4127,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "5",
     "createdAt": 1700000000000
   },
   {
@@ -3501,6 +4145,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -3517,6 +4163,9 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Hub",
+    "neLocation": "NE",
+    "noOfSites": "31",
     "createdAt": 1700000000000
   },
   {
@@ -3530,9 +4179,14 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LWZ006",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "TP",
+    "noOfSites": "1",
+    "tpId": "LWZ006",
+    "tpApprovedServices": "DG",
     "createdAt": 1700000000000
   },
   {
@@ -3546,9 +4200,15 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LWZR44",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "TP",
+    "noOfSites": "1",
+    "dcSharedWith": "Telenor",
+    "tpId": "LWZR44",
+    "tpApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -3563,8 +4223,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "C-WRD-3654",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -3580,7 +4245,11 @@ export const defaultSites: Site[] = [
     "jazzId": "-",
     "telenorId": "-",
     "zongId": "-",
-    "ufoneId": "-",
+    "ufoneId": "CI-1717",
+    "category": "Platinum",
+    "guestOmo": "Ufone",
+    "noOfSites": "1",
+    "ufoneApprovedServices": "DG",
     "createdAt": 1700000000000
   },
   {
@@ -3597,6 +4266,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -3613,6 +4284,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -3627,8 +4300,12 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "C-WRD-3655",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "3",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -3645,6 +4322,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -3661,6 +4340,7 @@ export const defaultSites: Site[] = [
     "telenorId": "LAC001",
     "zongId": "40995",
     "ufoneId": "-",
+    "guestOmo": "TP/ZONG",
     "createdAt": 1700000000000
   },
   {
@@ -3677,6 +4357,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "43084",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
     "createdAt": 1700000000000
   },
   {
@@ -3693,6 +4374,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "43350",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
     "createdAt": 1700000000000
   },
   {
@@ -3709,13 +4391,14 @@ export const defaultSites: Site[] = [
     "telenorId": "LWZ012",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
     "createdAt": 1700000000000
   },
   {
     "id": "d4e5f6a7-00e8-0000-0000-0000000000e8",
     "name": "EC1-GUJ-04255",
-    "lat": 29.694679,
-    "lng": 72.551366,
+    "lat": 32.053,
+    "lng": 74.217,
     "mbuNumber": "C4-GUJ-01",
     "mbuName": "Fida Ur Rehman",
     "cellNumber": "3008560206",
@@ -3725,6 +4408,7 @@ export const defaultSites: Site[] = [
     "telenorId": "LGWR11",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
     "createdAt": 1700000000000
   },
   {
@@ -3741,6 +4425,7 @@ export const defaultSites: Site[] = [
     "telenorId": "LSKR83",
     "zongId": "43257",
     "ufoneId": "-",
+    "guestOmo": "TP/ZONG",
     "createdAt": 1700000000000
   },
   {
@@ -3757,6 +4442,7 @@ export const defaultSites: Site[] = [
     "telenorId": "LAD005",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
     "createdAt": 1700000000000
   },
   {
@@ -3773,6 +4459,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "42775",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
     "createdAt": 1700000000000
   },
   {
@@ -3789,6 +4476,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "43102",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
     "createdAt": 1700000000000
   },
   {
@@ -3805,6 +4493,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "42755",
     "ufoneId": "CI-1856",
+    "guestOmo": "ZONG/Ufone",
     "createdAt": 1700000000000
   },
   {
@@ -3821,6 +4510,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "45365",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
     "createdAt": 1700000000000
   },
   {
@@ -3837,6 +4527,7 @@ export const defaultSites: Site[] = [
     "telenorId": "LSV003",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
     "createdAt": 1700000000000
   },
   {
@@ -3853,6 +4544,7 @@ export const defaultSites: Site[] = [
     "telenorId": "LKKR05",
     "zongId": "44948",
     "ufoneId": "-",
+    "guestOmo": "TP/ZONG",
     "createdAt": 1700000000000
   },
   {
@@ -3885,6 +4577,7 @@ export const defaultSites: Site[] = [
     "telenorId": "LSM012",
     "zongId": "43637",
     "ufoneId": "CI-1857",
+    "guestOmo": "TP/ZONG/Ufone",
     "createdAt": 1700000000000
   },
   {
@@ -3917,6 +4610,7 @@ export const defaultSites: Site[] = [
     "telenorId": "LSK280",
     "zongId": "42560",
     "ufoneId": "CI-1795",
+    "guestOmo": "TP/ZONG/Ufone",
     "createdAt": 1700000000000
   },
   {
@@ -3933,6 +4627,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "43154",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
     "createdAt": 1700000000000
   },
   {
@@ -3949,6 +4644,7 @@ export const defaultSites: Site[] = [
     "telenorId": "LSK284",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
     "createdAt": 1700000000000
   },
   {
@@ -3965,6 +4661,7 @@ export const defaultSites: Site[] = [
     "telenorId": "LSKR35",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
     "createdAt": 1700000000000
   },
   {
@@ -3981,6 +4678,7 @@ export const defaultSites: Site[] = [
     "telenorId": "LJM001",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
     "createdAt": 1700000000000
   },
   {
@@ -3997,6 +4695,7 @@ export const defaultSites: Site[] = [
     "telenorId": "LWZ007",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
     "createdAt": 1700000000000
   },
   {
@@ -4013,6 +4712,7 @@ export const defaultSites: Site[] = [
     "telenorId": "LAD004",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
     "createdAt": 1700000000000
   },
   {
@@ -4029,6 +4729,7 @@ export const defaultSites: Site[] = [
     "telenorId": "LDPR11",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
     "createdAt": 1700000000000
   },
   {
@@ -4045,6 +4746,7 @@ export const defaultSites: Site[] = [
     "telenorId": "LAD006",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
     "createdAt": 1700000000000
   },
   {
@@ -4061,6 +4763,7 @@ export const defaultSites: Site[] = [
     "telenorId": "LSV002",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
     "createdAt": 1700000000000
   },
   {
@@ -4077,6 +4780,7 @@ export const defaultSites: Site[] = [
     "telenorId": "LPSR40",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
     "createdAt": 1700000000000
   },
   {
@@ -4093,6 +4797,7 @@ export const defaultSites: Site[] = [
     "telenorId": "LSKR38",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
     "createdAt": 1700000000000
   },
   {
@@ -4109,6 +4814,7 @@ export const defaultSites: Site[] = [
     "telenorId": "LDK005",
     "zongId": "-",
     "ufoneId": "3475",
+    "guestOmo": "TP/Ufone",
     "createdAt": 1700000000000
   },
   {
@@ -4125,6 +4831,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "CI-1861",
+    "guestOmo": "Ufone",
     "createdAt": 1700000000000
   },
   {
@@ -4141,6 +4848,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "CI-1945",
+    "guestOmo": "Ufone",
     "createdAt": 1700000000000
   },
   {
@@ -4173,6 +4881,7 @@ export const defaultSites: Site[] = [
     "telenorId": "LSKR72",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
     "createdAt": 1700000000000
   },
   {
@@ -4189,6 +4898,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "43340",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
     "createdAt": 1700000000000
   },
   {
@@ -4205,6 +4915,7 @@ export const defaultSites: Site[] = [
     "telenorId": "LBU001",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
     "createdAt": 1700000000000
   },
   {
@@ -4221,6 +4932,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "43865",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
     "createdAt": 1700000000000
   },
   {
@@ -4237,6 +4949,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "43960",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
     "createdAt": 1700000000000
   },
   {
@@ -4253,6 +4966,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "43959",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
     "createdAt": 1700000000000
   },
   {
@@ -4301,6 +5015,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "44371",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
     "createdAt": 1700000000000
   },
   {
@@ -4347,8 +5062,14 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
-    "ufoneId": "-",
+    "zongId": "C-RUR-4801",
+    "ufoneId": "7869",
+    "category": "Platinum",
+    "guestOmo": "ZONG/Ufone",
+    "noOfSites": "1",
+    "dcSharedWith": "ZONG",
+    "ufoneApprovedServices": "CP",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -4363,8 +5084,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
-    "ufoneId": "-",
+    "zongId": "40931",
+    "ufoneId": "CI-1925",
+    "category": "General",
+    "guestOmo": "ZONG/Ufone",
+    "noOfSites": "1",
+    "ufoneApprovedServices": "CP",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -4378,9 +5104,15 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
-    "zongId": "-",
+    "telenorId": "IKL003",
+    "zongId": "43090",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "TP/ZONG",
+    "dcSharedWith": "ZONG",
+    "tpId": "IKL003",
+    "tpApprovedServices": "CP",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -4394,9 +5126,15 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LDNR07",
     "zongId": "-",
-    "ufoneId": "-",
+    "ufoneId": "CI-1331",
+    "category": "General",
+    "guestOmo": "TP/Ufone",
+    "noOfSites": "1",
+    "ufoneApprovedServices": "DG",
+    "tpId": "LDNR07",
+    "tpApprovedServices": "DG",
     "createdAt": 1700000000000
   },
   {
@@ -4410,9 +5148,14 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LMKH01",
     "zongId": "-",
-    "ufoneId": "-",
+    "ufoneId": "CI-1337",
+    "category": "Platinum",
+    "guestOmo": "TP/Ufone",
+    "noOfSites": "2",
+    "ufoneApprovedServices": "DG",
+    "tpId": "LMKH01",
     "createdAt": 1700000000000
   },
   {
@@ -4426,9 +5169,15 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
-    "zongId": "-",
+    "telenorId": "IASM02",
+    "zongId": "40983",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "TP/ZONG",
+    "dcSharedWith": "Telenor/Zong",
+    "tpId": "IASM02",
+    "tpApprovedServices": "DC",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -4442,9 +5191,13 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "IMHR01",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "TP",
+    "tpId": "IMHR01",
+    "tpApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -4458,9 +5211,14 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "IGL005",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "TP",
+    "dcSharedWith": "Telenor",
+    "tpId": "IGL005",
+    "tpApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -4477,6 +5235,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "solar": "Yes",
+    "solarKwa": "12.76",
+    "noOfSites": "3",
     "createdAt": 1700000000000
   },
   {
@@ -4493,6 +5255,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -4507,8 +5271,11 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "40928",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -4522,9 +5289,13 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LKAS01",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "TP",
+    "tpId": "LKAS01",
+    "tpApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -4541,6 +5312,9 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Hub",
+    "neLocation": "NE",
+    "noOfSites": "21",
     "createdAt": 1700000000000
   },
   {
@@ -4555,8 +5329,12 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "41020",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -4571,8 +5349,12 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "40802",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -4587,8 +5369,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "40789",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -4603,8 +5390,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "42559",
     "ufoneId": "-",
+    "category": "Hub",
+    "guestOmo": "ZONG",
+    "noOfSites": "14",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -4621,6 +5413,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "2",
     "createdAt": 1700000000000
   },
   {
@@ -4637,6 +5431,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -4653,6 +5449,9 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Hub",
+    "neLocation": "NE",
+    "noOfSites": "5",
     "createdAt": 1700000000000
   },
   {
@@ -4666,9 +5465,15 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LGT117",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "TP",
+    "noOfSites": "2",
+    "dcSharedWith": "Telenor",
+    "tpId": "LGT117",
+    "tpApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -4685,6 +5490,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "2",
     "createdAt": 1700000000000
   },
   {
@@ -4701,6 +5508,9 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Hub",
+    "neLocation": "NE",
+    "noOfSites": "13",
     "createdAt": 1700000000000
   },
   {
@@ -4714,9 +5524,14 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LGT011",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "TP",
+    "noOfSites": "1",
+    "tpId": "LGT011",
+    "tpApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -4733,6 +5548,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -4749,6 +5566,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -4765,6 +5584,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "2",
     "createdAt": 1700000000000
   },
   {
@@ -4778,9 +5599,14 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LGT116",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "TP",
+    "noOfSites": "1",
+    "tpId": "LGT116",
+    "tpApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -4795,8 +5621,12 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "40671",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "ZONG",
+    "noOfSites": "2",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -4810,9 +5640,17 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
-    "zongId": "-",
-    "ufoneId": "-",
+    "telenorId": "LGT003",
+    "zongId": "41082",
+    "ufoneId": "3G-CI-4679",
+    "category": "General",
+    "guestOmo": "TP/ZONG/Ufone",
+    "noOfSites": "4",
+    "dcSharedWith": "ZONG",
+    "ufoneApprovedServices": "CP",
+    "tpId": "LGT003",
+    "tpApprovedServices": "CP",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -4829,6 +5667,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -4845,6 +5685,9 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Hub",
+    "neLocation": "NE",
+    "noOfSites": "5",
     "createdAt": 1700000000000
   },
   {
@@ -4858,9 +5701,13 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LGT114",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "TP",
+    "noOfSites": "1",
+    "tpId": "LGT114",
     "createdAt": 1700000000000
   },
   {
@@ -4877,6 +5724,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -4893,6 +5742,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -4909,6 +5760,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "2",
     "createdAt": 1700000000000
   },
   {
@@ -4925,6 +5778,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -4941,6 +5796,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "2",
     "createdAt": 1700000000000
   },
   {
@@ -4957,6 +5814,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -4973,6 +5832,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -4986,9 +5847,15 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
-    "zongId": "-",
+    "telenorId": "LGT115",
+    "zongId": "C-GJT-7136",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "TP/ZONG",
+    "noOfSites": "1",
+    "tpId": "LGT115",
+    "tpApprovedServices": "CP",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -5004,7 +5871,11 @@ export const defaultSites: Site[] = [
     "jazzId": "-",
     "telenorId": "-",
     "zongId": "-",
-    "ufoneId": "-",
+    "ufoneId": "7802",
+    "category": "Platinum",
+    "guestOmo": "Ufone",
+    "noOfSites": "1",
+    "ufoneApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -5019,8 +5890,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "C-GJT-4454",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -5034,9 +5910,14 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LGT009",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "TP",
+    "noOfSites": "1",
+    "tpId": "LGT009",
+    "tpApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -5053,6 +5934,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -5069,6 +5952,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -5085,6 +5970,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -5098,9 +5985,16 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
-    "zongId": "-",
+    "telenorId": "LGT018",
+    "zongId": "40672",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "TP/ZONG",
+    "noOfSites": "1",
+    "dcSharedWith": "Telenor/Zong",
+    "tpId": "LGT018",
+    "tpApprovedServices": "DC",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -5115,8 +6009,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "43335",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -5133,6 +6032,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -5148,7 +6049,12 @@ export const defaultSites: Site[] = [
     "jazzId": "-",
     "telenorId": "-",
     "zongId": "-",
-    "ufoneId": "-",
+    "ufoneId": "3G-CI-1002",
+    "category": "Hub",
+    "guestOmo": "Ufone",
+    "neLocation": "NE",
+    "noOfSites": "26",
+    "ufoneApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -5165,6 +6071,9 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Hub",
+    "neLocation": "NE",
+    "noOfSites": "7",
     "createdAt": 1700000000000
   },
   {
@@ -5181,6 +6090,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -5195,8 +6106,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "43650",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -5211,8 +6127,12 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "42471",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -5227,8 +6147,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "41067",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "4",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -5244,7 +6169,12 @@ export const defaultSites: Site[] = [
     "jazzId": "-",
     "telenorId": "-",
     "zongId": "-",
-    "ufoneId": "-",
+    "ufoneId": "7887",
+    "category": "Hub",
+    "guestOmo": "Ufone",
+    "neLocation": "NE",
+    "noOfSites": "2",
+    "ufoneApprovedServices": "DG",
     "createdAt": 1700000000000
   },
   {
@@ -5258,9 +6188,13 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LGTR37",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "TP",
+    "noOfSites": "4",
+    "tpId": "LGTR37",
     "createdAt": 1700000000000
   },
   {
@@ -5274,9 +6208,13 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LLNG01",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "TP",
+    "tpId": "LLNG01",
+    "tpApprovedServices": "DG",
     "createdAt": 1700000000000
   },
   {
@@ -5293,6 +6231,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
     "createdAt": 1700000000000
   },
   {
@@ -5309,6 +6248,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -5325,6 +6266,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -5341,6 +6284,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "5",
     "createdAt": 1700000000000
   },
   {
@@ -5357,6 +6302,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -5373,6 +6320,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -5389,6 +6338,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "5",
     "createdAt": 1700000000000
   },
   {
@@ -5403,8 +6354,14 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
-    "ufoneId": "-",
+    "zongId": "45429",
+    "ufoneId": "3659",
+    "category": "Platinum",
+    "guestOmo": "ZONG/Ufone",
+    "noOfSites": "1",
+    "dcSharedWith": "ZONG",
+    "ufoneApprovedServices": "CP",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -5421,6 +6378,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -5435,8 +6394,12 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "40678",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -5453,6 +6416,9 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Hub",
+    "neLocation": "NE",
+    "noOfSites": "23",
     "createdAt": 1700000000000
   },
   {
@@ -5469,6 +6435,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -5483,8 +6451,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "C-RUR-4958",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -5499,8 +6472,12 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "41084",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -5517,6 +6494,11 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Hub",
+    "solar": "Yes",
+    "solarKwa": "10.44",
+    "neLocation": "NE",
+    "noOfSites": "11",
     "createdAt": 1700000000000
   },
   {
@@ -5533,6 +6515,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -5549,6 +6533,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -5565,6 +6551,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -5581,6 +6569,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -5597,6 +6587,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -5610,9 +6602,16 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LLM003",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Hub",
+    "guestOmo": "TP",
+    "neLocation": "NE",
+    "noOfSites": "22",
+    "dcSharedWith": "Telenor",
+    "tpId": "LLM003",
+    "tpApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -5629,6 +6628,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "solar": "Yes",
+    "solarKwa": "10.44",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -5644,7 +6647,11 @@ export const defaultSites: Site[] = [
     "jazzId": "-",
     "telenorId": "-",
     "zongId": "-",
-    "ufoneId": "-",
+    "ufoneId": "3628",
+    "category": "General",
+    "guestOmo": "Ufone",
+    "noOfSites": "1",
+    "ufoneApprovedServices": "DG",
     "createdAt": 1700000000000
   },
   {
@@ -5661,6 +6668,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -5677,6 +6686,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "2",
     "createdAt": 1700000000000
   },
   {
@@ -5692,7 +6703,11 @@ export const defaultSites: Site[] = [
     "jazzId": "-",
     "telenorId": "-",
     "zongId": "-",
-    "ufoneId": "-",
+    "ufoneId": "3625",
+    "category": "General",
+    "guestOmo": "Ufone",
+    "noOfSites": "1",
+    "ufoneApprovedServices": "DG",
     "createdAt": 1700000000000
   },
   {
@@ -5709,6 +6724,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -5723,8 +6740,12 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "40925",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "ZONG",
+    "noOfSites": "3",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -5741,6 +6762,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -5754,9 +6777,14 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LDNR12",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "TP",
+    "noOfSites": "1",
+    "tpId": "LDNR12",
+    "tpApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -5773,6 +6801,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -5789,6 +6819,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
     "createdAt": 1700000000000
   },
   {
@@ -5805,6 +6836,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
     "createdAt": 1700000000000
   },
   {
@@ -5821,6 +6853,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "3",
     "createdAt": 1700000000000
   },
   {
@@ -5837,6 +6871,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "8",
     "createdAt": 1700000000000
   },
   {
@@ -5853,6 +6889,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -5869,6 +6907,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "3",
     "createdAt": 1700000000000
   },
   {
@@ -5885,6 +6925,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -5901,6 +6943,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -5917,6 +6961,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -5933,6 +6979,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -5949,6 +6997,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "USF",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -5962,9 +7012,14 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LJPR22",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "TP",
+    "noOfSites": "2",
+    "tpId": "LJPR22",
+    "tpApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -5981,6 +7036,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "4",
     "createdAt": 1700000000000
   },
   {
@@ -5997,6 +7054,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -6011,8 +7070,12 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "41019",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -6026,9 +7089,16 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
-    "zongId": "-",
+    "telenorId": "LLMR12",
+    "zongId": "40851",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "TP/ZONG",
+    "noOfSites": "4",
+    "dcSharedWith": "ZONG",
+    "tpId": "LLMR12",
+    "tpApprovedServices": "CP",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -6045,6 +7115,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "4",
     "createdAt": 1700000000000
   },
   {
@@ -6061,6 +7133,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "2",
     "createdAt": 1700000000000
   },
   {
@@ -6077,6 +7151,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -6093,6 +7169,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "solar": "Yes",
+    "solarKwa": "13.92",
+    "noOfSites": "6",
     "createdAt": 1700000000000
   },
   {
@@ -6109,6 +7189,9 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Hub",
+    "neLocation": "NE",
+    "noOfSites": "20",
     "createdAt": 1700000000000
   },
   {
@@ -6125,6 +7208,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "4",
     "createdAt": 1700000000000
   },
   {
@@ -6141,6 +7226,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -6157,6 +7244,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "42783",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -6173,6 +7262,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "3614",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -6189,6 +7280,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LSW003",
     "zongId": "43338",
     "ufoneId": "-",
+    "guestOmo": "TP/ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -6205,6 +7298,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "43250",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -6221,6 +7316,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LGTR47",
     "zongId": "43656",
     "ufoneId": "-",
+    "guestOmo": "TP/ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -6237,6 +7334,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -6253,6 +7351,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -6269,6 +7368,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -6285,6 +7385,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -6301,6 +7402,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -6317,6 +7419,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "43242",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -6333,6 +7437,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -6349,6 +7454,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -6365,6 +7471,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "44598",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -6381,6 +7489,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LLM005",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -6397,6 +7507,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LSWR04",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -6413,6 +7525,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LGT138",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -6429,6 +7543,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LJP007",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -6445,6 +7561,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LGTR44",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -6461,6 +7579,8 @@ export const defaultSites: Site[] = [
     "telenorId": "ICRN02",
     "zongId": "44358",
     "ufoneId": "-",
+    "guestOmo": "TP/ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -6477,6 +7597,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LJPR16",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -6493,6 +7615,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LDNR10",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -6509,6 +7633,8 @@ export const defaultSites: Site[] = [
     "telenorId": "ISHL02",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -6525,6 +7651,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LMBR64",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -6541,6 +7669,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LKU006",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -6557,6 +7687,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LMG008",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -6573,6 +7705,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LKU004",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -6589,6 +7723,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LMG009",
     "zongId": "45096",
     "ufoneId": "-",
+    "guestOmo": "TP/ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -6605,6 +7741,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LGT148",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -6621,6 +7759,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LGTR43",
     "zongId": "-",
     "ufoneId": "CI-1906",
+    "guestOmo": "TP/Ufone",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -6637,6 +7777,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "7924",
+    "guestOmo": "Ufone",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -6653,6 +7795,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "CI-1792",
+    "guestOmo": "Ufone",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -6669,6 +7813,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "CI-1189",
+    "guestOmo": "Ufone",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -6685,6 +7831,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LLMR08",
     "zongId": "-",
     "ufoneId": "CI-1202",
+    "guestOmo": "TP/Ufone",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -6701,6 +7849,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "45144",
     "ufoneId": "CI-1200",
+    "guestOmo": "ZONG/Ufone",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -6717,6 +7867,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "3604",
+    "guestOmo": "Ufone",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -6733,6 +7885,8 @@ export const defaultSites: Site[] = [
     "telenorId": "IKL005",
     "zongId": "43647",
     "ufoneId": "-",
+    "guestOmo": "TP/ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -6749,6 +7903,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "43806",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -6765,6 +7921,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "43972",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -6781,6 +7939,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -6797,6 +7956,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "44376",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -6813,6 +7974,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -6829,6 +7991,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "43659",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -6845,6 +8009,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "43804",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -6861,6 +8027,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "43688",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -6877,6 +8045,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "43848",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -6893,6 +8063,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -6909,6 +8080,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LAJ001",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -6925,6 +8098,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "43966",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -6941,6 +8116,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "44362",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -6957,6 +8134,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LGTR36",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -6973,6 +8152,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LJPR15",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -6989,6 +8170,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -7005,6 +8187,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -7021,6 +8204,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -7035,15 +8219,18 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
-    "ufoneId": "-",
+    "zongId": "C-GRN-4660",
+    "ufoneId": "3G-CI-1935",
     "siteStatus": "Single",
     "category": "Platinum",
     "powerStatus": "Standby--",
     "securityVendor": "ZIMS",
-    "guestOmo": "2",
+    "guestOmo": "ZONG/Ufone",
     "solar": "No",
     "dgStatus": "Operational",
+    "noOfSites": "1",
+    "ufoneApprovedServices": "CP",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -7057,18 +8244,23 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LGW218",
     "zongId": "-",
-    "ufoneId": "-",
+    "ufoneId": "CI-1085",
     "siteStatus": "Single",
     "category": "Platinum",
     "powerStatus": "Standby--",
     "securityVendor": "ZIMS",
-    "guestOmo": "2",
+    "guestOmo": "TP/Ufone",
     "dgShared": "1",
     "dcShared": "Telenor",
     "solar": "No",
     "dgStatus": "Operational",
+    "noOfSites": "1",
+    "dcSharedWith": "Telenor",
+    "ufoneApprovedServices": "DG",
+    "tpId": "LGW218",
+    "tpApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -7082,16 +8274,20 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LGW223",
     "zongId": "-",
-    "ufoneId": "-",
+    "ufoneId": "3474",
     "siteStatus": "Single",
     "category": "Platinum",
     "powerStatus": "Standby--",
     "securityVendor": "ZIMS",
-    "guestOmo": "2",
+    "guestOmo": "TP/Ufone",
     "solar": "No",
     "dgStatus": "Operational",
+    "noOfSites": "1",
+    "ufoneApprovedServices": "CP",
+    "tpId": "LGW223",
+    "tpApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -7112,9 +8308,9 @@ export const defaultSites: Site[] = [
     "category": "Platinum",
     "powerStatus": "Standby--",
     "securityVendor": "ZIMS",
-    "guestOmo": "0",
     "solar": "No",
     "dgStatus": "Operational",
+    "noOfSites": "2",
     "createdAt": 1700000000000
   },
   {
@@ -7135,9 +8331,9 @@ export const defaultSites: Site[] = [
     "category": "Platinum",
     "powerStatus": "Standby--",
     "securityVendor": "ZIMS",
-    "guestOmo": "0",
     "solar": "No",
     "dgStatus": "Operational",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -7158,9 +8354,11 @@ export const defaultSites: Site[] = [
     "category": "Hub",
     "powerStatus": "Standby--",
     "securityVendor": "ZIMS",
-    "guestOmo": "0",
     "solar": "Yes",
     "dgStatus": "Operational",
+    "solarKwa": "13.92",
+    "neLocation": "NE",
+    "noOfSites": "10",
     "createdAt": 1700000000000
   },
   {
@@ -7176,13 +8374,15 @@ export const defaultSites: Site[] = [
     "jazzId": "-",
     "telenorId": "-",
     "zongId": "-",
-    "ufoneId": "-",
+    "ufoneId": "7836",
     "siteStatus": "Single",
     "category": "Platinum",
     "powerStatus": "CP Prime-",
     "securityVendor": "ZIMS",
-    "guestOmo": "1",
+    "guestOmo": "Ufone",
     "solar": "No",
+    "noOfSites": "1",
+    "ufoneApprovedServices": "DG",
     "createdAt": 1700000000000
   },
   {
@@ -7203,9 +8403,10 @@ export const defaultSites: Site[] = [
     "category": "Hub",
     "powerStatus": "Standby--",
     "securityVendor": "ZIMS",
-    "guestOmo": "0",
     "solar": "No",
     "dgStatus": "Operational",
+    "neLocation": "NE",
+    "noOfSites": "17",
     "createdAt": 1700000000000
   },
   {
@@ -7226,9 +8427,9 @@ export const defaultSites: Site[] = [
     "category": "Platinum",
     "powerStatus": "Standby--",
     "securityVendor": "ZIMS",
-    "guestOmo": "0",
     "solar": "No",
     "dgStatus": "Operational",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -7249,9 +8450,10 @@ export const defaultSites: Site[] = [
     "category": "Hub",
     "powerStatus": "Standby--",
     "securityVendor": "ZIMS",
-    "guestOmo": "0",
     "solar": "No",
     "dgStatus": "Operational",
+    "neLocation": "NE",
+    "noOfSites": "21",
     "createdAt": 1700000000000
   },
   {
@@ -7267,14 +8469,16 @@ export const defaultSites: Site[] = [
     "jazzId": "-",
     "telenorId": "-",
     "zongId": "-",
-    "ufoneId": "-",
+    "ufoneId": "3G-CI-1924",
     "siteStatus": "Single",
     "category": "Platinum",
     "powerStatus": "Standby--",
     "securityVendor": "ZIMS",
-    "guestOmo": "1",
+    "guestOmo": "Ufone",
     "solar": "No",
     "dgStatus": "Operational",
+    "noOfSites": "3",
+    "ufoneApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -7295,9 +8499,9 @@ export const defaultSites: Site[] = [
     "category": "Platinum",
     "powerStatus": "Standby--",
     "securityVendor": "ZIMS",
-    "guestOmo": "0",
     "solar": "No",
     "dgStatus": "Operational",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -7318,9 +8522,9 @@ export const defaultSites: Site[] = [
     "category": "Platinum",
     "powerStatus": "Standby--",
     "securityVendor": "ZIMS",
-    "guestOmo": "0",
     "solar": "No",
     "dgStatus": "Operational",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -7341,9 +8545,10 @@ export const defaultSites: Site[] = [
     "category": "Hub",
     "powerStatus": "Standby--",
     "securityVendor": "ZIMS",
-    "guestOmo": "0",
     "solar": "No",
     "dgStatus": "Operational",
+    "neLocation": "NE",
+    "noOfSites": "20",
     "createdAt": 1700000000000
   },
   {
@@ -7364,9 +8569,9 @@ export const defaultSites: Site[] = [
     "category": "Platinum",
     "powerStatus": "Standby--",
     "securityVendor": "ZIMS",
-    "guestOmo": "0",
     "solar": "No",
     "dgStatus": "Operational",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -7387,9 +8592,9 @@ export const defaultSites: Site[] = [
     "category": "Platinum",
     "powerStatus": "Standby--",
     "securityVendor": "ZIMS",
-    "guestOmo": "0",
     "solar": "No",
     "dgStatus": "Weak condition",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -7410,9 +8615,9 @@ export const defaultSites: Site[] = [
     "category": "Platinum",
     "powerStatus": "Standby-GLO",
     "securityVendor": "ZIMS",
-    "guestOmo": "0",
     "solar": "No",
     "dgStatus": "Non-Operational",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -7433,9 +8638,10 @@ export const defaultSites: Site[] = [
     "category": "Platinum",
     "powerStatus": "Standby--",
     "securityVendor": "ZIMS",
-    "guestOmo": "0",
     "solar": "Yes",
     "dgStatus": "Weak condition",
+    "solarKwa": "13.92",
+    "noOfSites": "5",
     "createdAt": 1700000000000
   },
   {
@@ -7456,9 +8662,9 @@ export const defaultSites: Site[] = [
     "category": "Platinum",
     "powerStatus": "Standby--",
     "securityVendor": "ZIMS",
-    "guestOmo": "0",
     "solar": "No",
     "dgStatus": "Operational",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -7479,9 +8685,9 @@ export const defaultSites: Site[] = [
     "category": "Platinum",
     "powerStatus": "Standby--",
     "securityVendor": "ZIMS",
-    "guestOmo": "0",
     "solar": "No",
     "dgStatus": "Operational",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -7502,9 +8708,9 @@ export const defaultSites: Site[] = [
     "category": "Platinum",
     "powerStatus": "Standby--",
     "securityVendor": "ZIMS",
-    "guestOmo": "0",
     "solar": "No",
     "dgStatus": "Operational",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -7525,9 +8731,9 @@ export const defaultSites: Site[] = [
     "category": "Platinum",
     "powerStatus": "Standby--",
     "securityVendor": "ZIMS",
-    "guestOmo": "0",
     "solar": "No",
     "dgStatus": "Weak condition",
+    "noOfSites": "2",
     "createdAt": 1700000000000
   },
   {
@@ -7548,9 +8754,9 @@ export const defaultSites: Site[] = [
     "category": "Platinum",
     "powerStatus": "Standby--",
     "securityVendor": "ZIMS",
-    "guestOmo": "0",
     "solar": "No",
     "dgStatus": "Operational",
+    "noOfSites": "4",
     "createdAt": 1700000000000
   },
   {
@@ -7571,9 +8777,9 @@ export const defaultSites: Site[] = [
     "category": "Hub",
     "powerStatus": "Standby--",
     "securityVendor": "ZIMS",
-    "guestOmo": "0",
     "solar": "No",
     "dgStatus": "Operational",
+    "noOfSites": "18",
     "createdAt": 1700000000000
   },
   {
@@ -7594,9 +8800,9 @@ export const defaultSites: Site[] = [
     "category": "General",
     "powerStatus": "Standby--",
     "securityVendor": "ZIMS",
-    "guestOmo": "0",
     "solar": "No",
     "dgStatus": "Operational",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -7610,16 +8816,19 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LGW016",
     "zongId": "-",
     "ufoneId": "-",
     "siteStatus": "Single",
     "category": "Platinum",
     "powerStatus": "Standby--",
     "securityVendor": "ZIMS",
-    "guestOmo": "1",
+    "guestOmo": "TP",
     "solar": "No",
     "dgStatus": "Weak condition",
+    "noOfSites": "1",
+    "tpId": "LGW016",
+    "tpApprovedServices": "DG",
     "createdAt": 1700000000000
   },
   {
@@ -7640,9 +8849,9 @@ export const defaultSites: Site[] = [
     "category": "Platinum",
     "powerStatus": "Standby--",
     "securityVendor": "ZIMS",
-    "guestOmo": "0",
     "solar": "No",
     "dgStatus": "Operational",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -7657,15 +8866,17 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "C-GRN-3611",
     "ufoneId": "-",
     "siteStatus": "Single",
     "category": "General",
     "powerStatus": "Standby--",
     "securityVendor": "ZIMS",
-    "guestOmo": "1",
+    "guestOmo": "ZONG",
     "solar": "No",
     "dgStatus": "Operational",
+    "noOfSites": "1",
+    "zongApprovedServices": "DG",
     "createdAt": 1700000000000
   },
   {
@@ -7686,9 +8897,9 @@ export const defaultSites: Site[] = [
     "category": "General",
     "powerStatus": "Standby--",
     "securityVendor": "ZIMS",
-    "guestOmo": "0",
     "solar": "No",
     "dgStatus": "Operational",
+    "noOfSites": "3",
     "createdAt": 1700000000000
   },
   {
@@ -7704,14 +8915,16 @@ export const defaultSites: Site[] = [
     "jazzId": "-",
     "telenorId": "-",
     "zongId": "-",
-    "ufoneId": "-",
+    "ufoneId": "CI-1007",
     "siteStatus": "Single",
     "category": "Platinum",
     "powerStatus": "Wapda Prime-",
     "securityVendor": "ZIMS",
-    "guestOmo": "1",
+    "guestOmo": "Ufone",
     "solar": "No",
     "dgStatus": "Operational",
+    "noOfSites": "1",
+    "ufoneApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -7732,9 +8945,9 @@ export const defaultSites: Site[] = [
     "category": "General",
     "powerStatus": "Standby--",
     "securityVendor": "ZIMS",
-    "guestOmo": "0",
     "solar": "No",
     "dgStatus": "Operational",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -7748,16 +8961,19 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LGW117",
     "zongId": "-",
     "ufoneId": "-",
     "siteStatus": "Single",
     "category": "Platinum",
     "powerStatus": "Standby--",
     "securityVendor": "ZIMS",
-    "guestOmo": "1",
+    "guestOmo": "TP",
     "solar": "No",
     "dgStatus": "Operational",
+    "noOfSites": "1",
+    "tpId": "LGW117",
+    "tpApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -7778,9 +8994,9 @@ export const defaultSites: Site[] = [
     "category": "Platinum",
     "powerStatus": "Standby--",
     "securityVendor": "ZIMS",
-    "guestOmo": "0",
     "solar": "No",
     "dgStatus": "Operational",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -7801,9 +9017,9 @@ export const defaultSites: Site[] = [
     "category": "Platinum",
     "powerStatus": "Standby--",
     "securityVendor": "ZIMS",
-    "guestOmo": "0",
     "solar": "No",
     "dgStatus": "Operational",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -7824,9 +9040,9 @@ export const defaultSites: Site[] = [
     "category": "Platinum",
     "powerStatus": "Standby--",
     "securityVendor": "ZIMS",
-    "guestOmo": "0",
     "solar": "No",
     "dgStatus": "Operational",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -7841,15 +9057,17 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "C-GRN-4274",
     "ufoneId": "-",
     "siteStatus": "Single",
     "category": "Platinum",
     "powerStatus": "Standby--",
     "securityVendor": "ZIMS",
-    "guestOmo": "1",
+    "guestOmo": "ZONG",
     "solar": "No",
     "dgStatus": "Weak condition",
+    "noOfSites": "1",
+    "zongApprovedServices": "DG",
     "createdAt": 1700000000000
   },
   {
@@ -7870,9 +9088,9 @@ export const defaultSites: Site[] = [
     "category": "General",
     "powerStatus": "Wapda Prime-GLO",
     "securityVendor": "ZIMS",
-    "guestOmo": "0",
     "solar": "No",
     "dgStatus": "Operational",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -7886,16 +9104,19 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LGW334",
     "zongId": "-",
     "ufoneId": "-",
     "siteStatus": "Single",
     "category": "Platinum",
     "powerStatus": "Standby--",
     "securityVendor": "ZIMS",
-    "guestOmo": "1",
+    "guestOmo": "TP",
     "solar": "No",
     "dgStatus": "Weak condition",
+    "noOfSites": "1",
+    "tpId": "LGW334",
+    "tpApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -7916,9 +9137,9 @@ export const defaultSites: Site[] = [
     "category": "Platinum",
     "powerStatus": "Standby--",
     "securityVendor": "ZIMS",
-    "guestOmo": "0",
     "solar": "No",
     "dgStatus": "Operational",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -7939,9 +9160,9 @@ export const defaultSites: Site[] = [
     "category": "General",
     "powerStatus": "Standby--",
     "securityVendor": "ZIMS",
-    "guestOmo": "0",
     "solar": "No",
     "dgStatus": "Operational",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -7962,9 +9183,9 @@ export const defaultSites: Site[] = [
     "category": "General",
     "powerStatus": "Standby--",
     "securityVendor": "ZIMS",
-    "guestOmo": "0",
     "solar": "No",
     "dgStatus": "Operational",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -7985,9 +9206,9 @@ export const defaultSites: Site[] = [
     "category": "General",
     "powerStatus": "Standby--",
     "securityVendor": "ZIMS",
-    "guestOmo": "0",
     "solar": "No",
     "dgStatus": "Operational",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -8008,9 +9229,9 @@ export const defaultSites: Site[] = [
     "category": "Platinum",
     "powerStatus": "Wapda Prime-GLO",
     "securityVendor": "ZIMS",
-    "guestOmo": "0",
     "solar": "No",
     "dgStatus": "Operational",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -8031,9 +9252,9 @@ export const defaultSites: Site[] = [
     "category": "General",
     "powerStatus": "Standby--",
     "securityVendor": "ZIMS",
-    "guestOmo": "0",
     "solar": "No",
     "dgStatus": "undercapacity",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -8054,9 +9275,9 @@ export const defaultSites: Site[] = [
     "category": "Platinum",
     "powerStatus": "Standby--",
     "securityVendor": "ZIMS",
-    "guestOmo": "0",
     "solar": "No",
     "dgStatus": "Weak condition",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -8077,9 +9298,9 @@ export const defaultSites: Site[] = [
     "category": "Platinum",
     "powerStatus": "Standby--",
     "securityVendor": "ZIMS",
-    "guestOmo": "0",
     "solar": "No",
     "dgStatus": "Non-Operational (MOH)",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -8100,9 +9321,9 @@ export const defaultSites: Site[] = [
     "category": "Platinum",
     "powerStatus": "Standby--",
     "securityVendor": "ZIMS",
-    "guestOmo": "0",
     "solar": "No",
     "dgStatus": "Operational",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -8116,16 +9337,19 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LGW012",
     "zongId": "-",
     "ufoneId": "-",
     "siteStatus": "Single",
     "category": "Platinum",
     "powerStatus": "Standby--",
     "securityVendor": "ZIMS",
-    "guestOmo": "1",
+    "guestOmo": "TP",
     "solar": "No",
     "dgStatus": "Weak condition",
+    "noOfSites": "1",
+    "tpId": "LGW012",
+    "tpApprovedServices": "DG",
     "createdAt": 1700000000000
   },
   {
@@ -8146,9 +9370,9 @@ export const defaultSites: Site[] = [
     "category": "Platinum",
     "powerStatus": "Standby--",
     "securityVendor": "ZIMS",
-    "guestOmo": "0",
     "solar": "No",
     "dgStatus": "Operational",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -8169,9 +9393,9 @@ export const defaultSites: Site[] = [
     "category": "Platinum",
     "powerStatus": "Standby--",
     "securityVendor": "ZIMS",
-    "guestOmo": "0",
     "solar": "No",
     "dgStatus": "Operational",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -8192,9 +9416,9 @@ export const defaultSites: Site[] = [
     "category": "Platinum",
     "powerStatus": "Standby--",
     "securityVendor": "ZIMS",
-    "guestOmo": "0",
     "solar": "No",
     "dgStatus": "Operational",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -8215,9 +9439,9 @@ export const defaultSites: Site[] = [
     "category": "Platinum",
     "powerStatus": "Standby--",
     "securityVendor": "ZIMS",
-    "guestOmo": "0",
     "solar": "No",
     "dgStatus": "undercapacity",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -8231,16 +9455,19 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LGW470",
     "zongId": "-",
     "ufoneId": "-",
     "siteStatus": "Single",
     "category": "Platinum",
     "powerStatus": "Standby--",
     "securityVendor": "ZIMS",
-    "guestOmo": "0",
+    "guestOmo": "TP",
     "solar": "No",
     "dgStatus": "Operational",
+    "noOfSites": "2",
+    "tpId": "LGW470",
+    "tpApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -8261,9 +9488,9 @@ export const defaultSites: Site[] = [
     "category": "Platinum",
     "powerStatus": "Standby--",
     "securityVendor": "ZIMS",
-    "guestOmo": "0",
     "solar": "No",
     "dgStatus": "Operational",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -8284,9 +9511,9 @@ export const defaultSites: Site[] = [
     "category": "Platinum",
     "powerStatus": "Standby--",
     "securityVendor": "ZIMS",
-    "guestOmo": "0",
     "solar": "No",
     "dgStatus": "Operational",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -8307,9 +9534,9 @@ export const defaultSites: Site[] = [
     "category": "Platinum",
     "powerStatus": "Standby--",
     "securityVendor": "ZIMS",
-    "guestOmo": "0",
     "solar": "No",
     "dgStatus": "Operational",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -8330,9 +9557,9 @@ export const defaultSites: Site[] = [
     "category": "General",
     "powerStatus": "Standby--",
     "securityVendor": "ZIMS",
-    "guestOmo": "0",
     "solar": "No",
     "dgStatus": "Operational",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -8346,16 +9573,19 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LGW339",
     "zongId": "-",
     "ufoneId": "-",
     "siteStatus": "Single",
     "category": "Platinum",
     "powerStatus": "Standby--",
     "securityVendor": "ZIMS",
-    "guestOmo": "1",
+    "guestOmo": "TP",
     "solar": "No",
     "dgStatus": "Operational",
+    "noOfSites": "1",
+    "tpId": "LGW339",
+    "tpApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -8376,9 +9606,9 @@ export const defaultSites: Site[] = [
     "category": "Platinum",
     "powerStatus": "Standby--",
     "securityVendor": "ZIMS",
-    "guestOmo": "0",
     "solar": "No",
     "dgStatus": "Operational",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -8399,9 +9629,9 @@ export const defaultSites: Site[] = [
     "category": "Platinum",
     "powerStatus": "Standby--",
     "securityVendor": "ZIMS",
-    "guestOmo": "0",
     "solar": "No",
     "dgStatus": "Operational",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -8415,16 +9645,20 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LGW335",
     "zongId": "-",
     "ufoneId": "-",
     "siteStatus": "NE Location",
     "category": "Hub",
     "powerStatus": "Standby--",
     "securityVendor": "ZIMS",
-    "guestOmo": "0",
+    "guestOmo": "TP",
     "solar": "No",
     "dgStatus": "Operational",
+    "noOfSites": "17",
+    "dcSharedWith": "Telenor",
+    "tpId": "LGW335",
+    "tpApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -8445,9 +9679,9 @@ export const defaultSites: Site[] = [
     "category": "Platinum",
     "powerStatus": "Standby--",
     "securityVendor": "ZIMS",
-    "guestOmo": "0",
     "solar": "No",
     "dgStatus": "Operational",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -8468,10 +9702,10 @@ export const defaultSites: Site[] = [
     "category": "Platinum",
     "powerStatus": "Standby--",
     "securityVendor": "ZIMS",
-    "guestOmo": "0",
     "dgShared": "0",
     "solar": "No",
     "dgStatus": "Weak condition",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -8486,15 +9720,17 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "C-GRN-7899",
     "ufoneId": "-",
     "siteStatus": "Single",
     "category": "Platinum",
     "powerStatus": "Standby--",
     "securityVendor": "ZIMS",
-    "guestOmo": "1",
+    "guestOmo": "ZONG",
     "solar": "No",
     "dgStatus": "Operational",
+    "noOfSites": "1",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -8515,10 +9751,10 @@ export const defaultSites: Site[] = [
     "category": "Platinum",
     "powerStatus": "Wapda Prime-GLO",
     "securityVendor": "ZIMS",
-    "guestOmo": "0",
     "dgShared": "0",
     "solar": "No",
     "dgStatus": "Non-Operational",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -8532,16 +9768,19 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LGW371",
     "zongId": "-",
     "ufoneId": "-",
     "siteStatus": "Single",
     "category": "Platinum",
     "powerStatus": "Wapda Prime-GLO",
     "securityVendor": "ZIMS",
-    "guestOmo": "1",
+    "guestOmo": "TP",
     "solar": "No",
     "dgStatus": "Operational",
+    "noOfSites": "1",
+    "tpId": "LGW371",
+    "tpApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -8555,18 +9794,23 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
-    "zongId": "-",
+    "telenorId": "LGW324",
+    "zongId": "45434",
     "ufoneId": "-",
     "siteStatus": "Single",
     "category": "Platinum",
     "powerStatus": "Standby--",
     "securityVendor": "ZIMS",
-    "guestOmo": "2",
+    "guestOmo": "TP/ZONG",
     "dgShared": "2",
     "dcShared": "Telenor & Zong",
     "solar": "No",
     "dgStatus": "Operational",
+    "noOfSites": "1",
+    "dcSharedWith": "Telenor/Zong",
+    "tpId": "LGW324",
+    "tpApprovedServices": "DC",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -8580,16 +9824,19 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LGW329",
     "zongId": "-",
     "ufoneId": "-",
     "siteStatus": "Single",
     "category": "Platinum",
     "powerStatus": "Standby--",
     "securityVendor": "ZIMS",
-    "guestOmo": "1",
+    "guestOmo": "TP",
     "solar": "No",
     "dgStatus": "Operational",
+    "noOfSites": "2",
+    "tpId": "LGW329",
+    "tpApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -8604,17 +9851,20 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "44004",
     "ufoneId": "-",
     "siteStatus": "Single",
     "category": "Platinum",
     "powerStatus": "Standby--",
     "securityVendor": "ZIMS",
-    "guestOmo": "1",
+    "guestOmo": "ZONG",
     "dgShared": "0",
     "dcShared": "ZONG",
     "solar": "No",
     "dgStatus": "Weak condition",
+    "noOfSites": "1",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -8635,10 +9885,10 @@ export const defaultSites: Site[] = [
     "category": "Platinum",
     "powerStatus": "Standby--",
     "securityVendor": "ZIMS",
-    "guestOmo": "0",
     "dgShared": "0",
     "solar": "No",
     "dgStatus": "Operational",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -8659,10 +9909,10 @@ export const defaultSites: Site[] = [
     "category": "Platinum",
     "powerStatus": "Standby--",
     "securityVendor": "ZIMS",
-    "guestOmo": "0",
     "dgShared": "0",
     "solar": "No",
     "dgStatus": "Operational",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -8683,10 +9933,10 @@ export const defaultSites: Site[] = [
     "category": "Platinum",
     "powerStatus": "Standby--",
     "securityVendor": "ZIMS",
-    "guestOmo": "0",
     "dgShared": "0",
     "solar": "No",
     "dgStatus": "Operational",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -8707,10 +9957,10 @@ export const defaultSites: Site[] = [
     "category": "Platinum",
     "powerStatus": "Standby--",
     "securityVendor": "ZIMS",
-    "guestOmo": "0",
     "dgShared": "0",
     "solar": "No",
     "dgStatus": "Operational",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -8724,18 +9974,23 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
-    "zongId": "-",
+    "telenorId": "LGWR05",
+    "zongId": "45438",
     "ufoneId": "-",
     "siteStatus": "Single",
     "category": "Platinum",
     "powerStatus": "Standby--",
     "securityVendor": "ZIMS",
-    "guestOmo": "2",
+    "guestOmo": "TP/ZONG",
     "dgShared": "1",
     "dcShared": "Zong",
     "solar": "No",
     "dgStatus": "Operational",
+    "noOfSites": "4",
+    "dcSharedWith": "ZONG",
+    "tpId": "LGWR05",
+    "tpApprovedServices": "CP",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -8751,15 +10006,17 @@ export const defaultSites: Site[] = [
     "jazzId": "-",
     "telenorId": "-",
     "zongId": "-",
-    "ufoneId": "-",
+    "ufoneId": "CI-1183",
     "siteStatus": "Single",
     "category": "General",
     "powerStatus": "Wapda Prime-GLO",
     "securityVendor": "ZIMS",
-    "guestOmo": "1",
+    "guestOmo": "Ufone",
     "dgShared": "1",
     "solar": "No",
     "dgStatus": "Non-Operational",
+    "noOfSites": "2",
+    "ufoneApprovedServices": "DG",
     "createdAt": 1700000000000
   },
   {
@@ -8780,10 +10037,10 @@ export const defaultSites: Site[] = [
     "category": "Platinum",
     "powerStatus": "Standby--",
     "securityVendor": "ZIMS",
-    "guestOmo": "0",
     "dgShared": "0",
     "solar": "No",
     "dgStatus": "Operational",
+    "noOfSites": "5",
     "createdAt": 1700000000000
   },
   {
@@ -8804,10 +10061,10 @@ export const defaultSites: Site[] = [
     "category": "General",
     "powerStatus": "Standby--",
     "securityVendor": "ZIMS",
-    "guestOmo": "0",
     "dgShared": "0",
     "solar": "No",
     "dgStatus": "Weak condition",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -8823,15 +10080,17 @@ export const defaultSites: Site[] = [
     "jazzId": "-",
     "telenorId": "-",
     "zongId": "-",
-    "ufoneId": "-",
+    "ufoneId": "7837",
     "siteStatus": "Single",
     "category": "General",
     "powerStatus": "Standby--",
     "securityVendor": "ZIMS",
-    "guestOmo": "1",
+    "guestOmo": "Ufone",
     "dgShared": "1",
     "solar": "No",
     "dgStatus": "Weak condition",
+    "noOfSites": "2",
+    "ufoneApprovedServices": "DG",
     "createdAt": 1700000000000
   },
   {
@@ -8846,15 +10105,17 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "40860",
     "ufoneId": "-",
     "siteStatus": "Single",
     "category": "Platinum",
     "powerStatus": "Standby--",
     "securityVendor": "ZIMS",
-    "guestOmo": "1",
+    "guestOmo": "ZONG",
     "solar": "No",
     "dgStatus": "Operational",
+    "noOfSites": "1",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -8875,10 +10136,10 @@ export const defaultSites: Site[] = [
     "category": "General",
     "powerStatus": "Standby--",
     "securityVendor": "ZIMS",
-    "guestOmo": "0",
     "dgShared": "0",
     "solar": "No",
     "dgStatus": "Operational",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -8896,12 +10157,12 @@ export const defaultSites: Site[] = [
     "zongId": "-",
     "ufoneId": "-",
     "siteStatus": "Single",
-    "category": "NA",
+    "category": "NRO B2S",
     "powerStatus": "Wapda Prime-",
     "securityVendor": "ZIMS",
-    "guestOmo": "0",
     "dgShared": "0",
     "solar": "No",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -8919,12 +10180,12 @@ export const defaultSites: Site[] = [
     "zongId": "-",
     "ufoneId": "-",
     "siteStatus": "Single",
-    "category": "NA",
+    "category": "NRO B2S",
     "powerStatus": "Wapda Prime-",
     "securityVendor": "ZIMS",
-    "guestOmo": "0",
     "dgShared": "0",
     "solar": "No",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -8942,12 +10203,12 @@ export const defaultSites: Site[] = [
     "zongId": "-",
     "ufoneId": "-",
     "siteStatus": "Single",
-    "category": "NA",
+    "category": "NRO B2S",
     "powerStatus": "Wapda Prime-",
     "securityVendor": "ZIMS",
-    "guestOmo": "0",
     "dgShared": "0",
     "solar": "No",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -8970,6 +10231,7 @@ export const defaultSites: Site[] = [
     "guestOmo": "ZONG",
     "dcShared": "ZONG",
     "solar": "No",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -8992,6 +10254,7 @@ export const defaultSites: Site[] = [
     "guestOmo": "ZONG",
     "dcShared": "ZONG",
     "solar": "No",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -9011,9 +10274,10 @@ export const defaultSites: Site[] = [
     "siteStatus": "Single",
     "powerStatus": "Goodgrid",
     "securityVendor": "Al-Safeena",
-    "guestOmo": "UFONE",
+    "guestOmo": "Ufone",
     "dcShared": "UFONE",
     "solar": "No",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -9033,9 +10297,10 @@ export const defaultSites: Site[] = [
     "siteStatus": "Single",
     "powerStatus": "Goodgrid",
     "securityVendor": "Al-Safeena",
-    "guestOmo": "ZONG/TELENOR/JAZZ",
+    "guestOmo": "TP/ZONG",
     "dcShared": "ZONG/TELENOR/JAZZ",
     "solar": "No",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -9058,6 +10323,7 @@ export const defaultSites: Site[] = [
     "guestOmo": "ZONG",
     "dcShared": "ZONG",
     "solar": "No",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -9077,9 +10343,10 @@ export const defaultSites: Site[] = [
     "siteStatus": "Single",
     "powerStatus": "Goodgrid",
     "securityVendor": "Al-Safeena",
-    "guestOmo": "ZONG/JAZZ",
+    "guestOmo": "ZONG",
     "dcShared": "ZONG/JAZZ",
     "solar": "No",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -9102,6 +10369,7 @@ export const defaultSites: Site[] = [
     "guestOmo": "ZONG",
     "dcShared": "ZONG",
     "solar": "No",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -9118,6 +10386,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LSO003",
     "zongId": "43258",
     "ufoneId": "-",
+    "guestOmo": "TP/ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -9137,9 +10407,10 @@ export const defaultSites: Site[] = [
     "siteStatus": "Single",
     "powerStatus": "Goodgrid",
     "securityVendor": "Al-Safeena",
-    "guestOmo": "JAZZ/UFONE/TELENOR",
+    "guestOmo": "TP/Ufone",
     "dcShared": "JAZZ/UFONE/TELENOR",
     "solar": "No",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -9159,9 +10430,10 @@ export const defaultSites: Site[] = [
     "siteStatus": "Single",
     "powerStatus": "Goodgrid",
     "securityVendor": "Al-Safeena",
-    "guestOmo": "UFONE/JAZZ/ZONG",
+    "guestOmo": "ZONG/Ufone",
     "dcShared": "UFONE/JAZZ/ZONG",
     "solar": "No",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -9181,9 +10453,10 @@ export const defaultSites: Site[] = [
     "siteStatus": "Single",
     "powerStatus": "Goodgrid",
     "securityVendor": "Al-Safeena",
-    "guestOmo": "JAZZ/UFONE",
+    "guestOmo": "Ufone",
     "dcShared": "JAZZ/UFONE",
     "solar": "No",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -9203,9 +10476,10 @@ export const defaultSites: Site[] = [
     "siteStatus": "Single",
     "powerStatus": "Goodgrid",
     "securityVendor": "Al-Safeena",
-    "guestOmo": "JAZZ/UFONE",
+    "guestOmo": "Ufone",
     "dcShared": "JAZZ/UFONE",
     "solar": "No",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -9225,9 +10499,10 @@ export const defaultSites: Site[] = [
     "siteStatus": "Single",
     "powerStatus": "Goodgrid",
     "securityVendor": "Al-Safeena",
-    "guestOmo": "JAZZ/UFONE",
+    "guestOmo": "Ufone",
     "dcShared": "JAZZ/UFONE",
     "solar": "No",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -9247,9 +10522,10 @@ export const defaultSites: Site[] = [
     "siteStatus": "Single",
     "powerStatus": "Goodgrid",
     "securityVendor": "Al-Safeena",
-    "guestOmo": "JAZZ/ZONG",
+    "guestOmo": "ZONG",
     "dcShared": "JAZZ/ZONG",
     "solar": "No",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -9269,9 +10545,9 @@ export const defaultSites: Site[] = [
     "siteStatus": "Single",
     "powerStatus": "Goodgrid",
     "securityVendor": "Al-Safeena",
-    "guestOmo": "JAZZ",
     "dcShared": "JAZZ",
     "solar": "No",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -9291,9 +10567,9 @@ export const defaultSites: Site[] = [
     "siteStatus": "Single",
     "powerStatus": "Goodgrid",
     "securityVendor": "Al-Safeena",
-    "guestOmo": "JAZZ",
     "dcShared": "JAZZ",
     "solar": "No",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -9313,9 +10589,10 @@ export const defaultSites: Site[] = [
     "siteStatus": "Single",
     "powerStatus": "Goodgrid",
     "securityVendor": "Al-Safeena",
-    "guestOmo": "JAZZ/Telenor",
+    "guestOmo": "TP",
     "dcShared": "JAZZ/Telenor",
     "solar": "No",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -9335,9 +10612,10 @@ export const defaultSites: Site[] = [
     "siteStatus": "Single",
     "powerStatus": "Goodgrid",
     "securityVendor": "Al-Safeena",
-    "guestOmo": "TELENOR/ZONG",
+    "guestOmo": "TP/ZONG",
     "dcShared": "TELENOR/ZONG",
     "solar": "No",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -9357,9 +10635,10 @@ export const defaultSites: Site[] = [
     "siteStatus": "Single",
     "powerStatus": "Goodgrid",
     "securityVendor": "Al-Safeena",
-    "guestOmo": "TELENOR/UFONE",
+    "guestOmo": "TP/Ufone",
     "dcShared": "TELENOR/UFONE",
     "solar": "No",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -9379,9 +10658,10 @@ export const defaultSites: Site[] = [
     "siteStatus": "Single",
     "powerStatus": "Goodgrid",
     "securityVendor": "Al-Safeena",
-    "guestOmo": "TELENOR",
+    "guestOmo": "TP",
     "dcShared": "TELENOR",
     "solar": "No",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -9401,9 +10681,10 @@ export const defaultSites: Site[] = [
     "siteStatus": "Single",
     "powerStatus": "Goodgrid",
     "securityVendor": "Al-Safeena",
-    "guestOmo": "TELENOR/UFONE/JAZZ",
+    "guestOmo": "TP/Ufone",
     "dcShared": "TELENOR/UFONE/JAZZ",
     "solar": "No",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -9423,9 +10704,10 @@ export const defaultSites: Site[] = [
     "siteStatus": "Single",
     "powerStatus": "Goodgrid",
     "securityVendor": "Al-Safeena",
-    "guestOmo": "TELENOR/JAZZ",
+    "guestOmo": "TP",
     "dcShared": "TELENOR/JAZZ",
     "solar": "No",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -9445,9 +10727,10 @@ export const defaultSites: Site[] = [
     "siteStatus": "Single",
     "powerStatus": "Goodgrid",
     "securityVendor": "Al-Safeena",
-    "guestOmo": "TELENOR/JAZZ",
+    "guestOmo": "TP",
     "dcShared": "TELENOR/JAZZ",
     "solar": "No",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -9467,9 +10750,10 @@ export const defaultSites: Site[] = [
     "siteStatus": "Single",
     "powerStatus": "Goodgrid",
     "securityVendor": "Al-Safeena",
-    "guestOmo": "UFONE",
+    "guestOmo": "Ufone",
     "dcShared": "UFONE",
     "solar": "No",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -9489,9 +10773,10 @@ export const defaultSites: Site[] = [
     "siteStatus": "Single",
     "powerStatus": "Goodgrid",
     "securityVendor": "Al-Safeena",
-    "guestOmo": "ZONG/Telenor",
+    "guestOmo": "TP/ZONG",
     "dcShared": "ZONG/Telenor",
     "solar": "No",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -9511,9 +10796,9 @@ export const defaultSites: Site[] = [
     "siteStatus": "Single",
     "powerStatus": "Goodgrid",
     "securityVendor": "Al-Safeena",
-    "guestOmo": "JAZZ",
     "dcShared": "JAZZ",
     "solar": "No",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -9533,9 +10818,9 @@ export const defaultSites: Site[] = [
     "siteStatus": "Single",
     "powerStatus": "Goodgrid",
     "securityVendor": "Al-Safeena",
-    "guestOmo": "JAZZ",
     "dcShared": "JAZZ",
     "solar": "No",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -9555,9 +10840,10 @@ export const defaultSites: Site[] = [
     "siteStatus": "Single",
     "powerStatus": "CP only site",
     "securityVendor": "Al-Safeena",
-    "guestOmo": "Zong",
+    "guestOmo": "ZONG",
     "dcShared": "Zong",
     "solar": "No",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -9577,9 +10863,9 @@ export const defaultSites: Site[] = [
     "siteStatus": "Single",
     "powerStatus": "Goodgrid",
     "securityVendor": "Al-Safeena",
-    "guestOmo": "JAZZ",
     "dcShared": "JAZZ",
     "solar": "No",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -9599,9 +10885,9 @@ export const defaultSites: Site[] = [
     "siteStatus": "Single",
     "powerStatus": "Goodgrid",
     "securityVendor": "Al-Safeena",
-    "guestOmo": "JAZZ",
     "dcShared": "JAZZ",
     "solar": "No",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -9621,9 +10907,9 @@ export const defaultSites: Site[] = [
     "siteStatus": "Single",
     "powerStatus": "Goodgrid",
     "securityVendor": "Al-Safeena",
-    "guestOmo": "JAZZ",
     "dcShared": "JAZZ",
     "solar": "No",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -9643,9 +10929,10 @@ export const defaultSites: Site[] = [
     "siteStatus": "Single",
     "powerStatus": "Goodgrid",
     "securityVendor": "Al-Safeena",
-    "guestOmo": "JAZZ/UFONE/TELENOR",
+    "guestOmo": "TP/Ufone",
     "dcShared": "JAZZ/UFONE/TELENOR",
     "solar": "No",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -9659,9 +10946,16 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
-    "zongId": "-",
+    "telenorId": "LNGR23",
+    "zongId": "44800",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "TP/ZONG",
+    "noOfSites": "6",
+    "dcSharedWith": "ZONG",
+    "tpId": "LNGR23",
+    "tpApprovedServices": "CP",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -9675,9 +10969,16 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
-    "zongId": "-",
+    "telenorId": "LSGR06",
+    "zongId": "41177",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "TP/ZONG",
+    "noOfSites": "1",
+    "dcSharedWith": "ZONG",
+    "tpId": "LSGR06",
+    "tpApprovedServices": "DG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -9694,6 +10995,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "3",
     "createdAt": 1700000000000
   },
   {
@@ -9710,6 +11013,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "solar": "Yes",
+    "solarKwa": "15.08",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -9723,9 +11030,14 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LBBK01",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "TP",
+    "noOfSites": "1",
+    "tpId": "LBBK01",
+    "tpApprovedServices": "DG",
     "createdAt": 1700000000000
   },
   {
@@ -9740,8 +11052,16 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
-    "ufoneId": "-",
+    "zongId": "45049",
+    "ufoneId": "3440",
+    "category": "Platinum",
+    "guestOmo": "ZONG/Ufone",
+    "solar": "Yes",
+    "solarKwa": "13.92",
+    "noOfSites": "5",
+    "dcSharedWith": "ZONG",
+    "ufoneApprovedServices": "CP",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -9756,8 +11076,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "45094",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -9774,6 +11099,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -9790,6 +11117,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -9806,6 +11135,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "2",
     "createdAt": 1700000000000
   },
   {
@@ -9822,6 +11153,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -9838,6 +11171,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -9854,6 +11189,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "solar": "Yes",
+    "solarKwa": "13.92",
+    "noOfSites": "6",
     "createdAt": 1700000000000
   },
   {
@@ -9870,6 +11209,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "solar": "Yes",
+    "solarKwa": "13.92",
+    "noOfSites": "3",
     "createdAt": 1700000000000
   },
   {
@@ -9884,8 +11227,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
-    "ufoneId": "-",
+    "zongId": "41102",
+    "ufoneId": "CI-1042",
+    "category": "General",
+    "guestOmo": "ZONG/Ufone",
+    "noOfSites": "1",
+    "ufoneApprovedServices": "DG",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -9902,6 +11250,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -9916,8 +11266,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "C-RUR-4828",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -9932,8 +11287,12 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "40836",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "ZONG",
+    "noOfSites": "2",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -9948,8 +11307,12 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "41005",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "4",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -9964,8 +11327,12 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "41174",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -9982,6 +11349,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "6",
     "createdAt": 1700000000000
   },
   {
@@ -9996,8 +11365,12 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "C-RUR-4805",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -10014,6 +11387,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -10030,6 +11405,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -10046,6 +11423,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "solar": "Yes",
+    "solarKwa": "10.44",
+    "noOfSites": "2",
     "createdAt": 1700000000000
   },
   {
@@ -10062,6 +11443,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "solar": "Yes",
+    "solarKwa": "13.92",
+    "noOfSites": "2",
     "createdAt": 1700000000000
   },
   {
@@ -10078,6 +11463,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "4",
     "createdAt": 1700000000000
   },
   {
@@ -10093,7 +11480,11 @@ export const defaultSites: Site[] = [
     "jazzId": "-",
     "telenorId": "-",
     "zongId": "-",
-    "ufoneId": "-",
+    "ufoneId": "CI-1051",
+    "category": "Platinum",
+    "guestOmo": "Ufone",
+    "noOfSites": "1",
+    "ufoneApprovedServices": "DG",
     "createdAt": 1700000000000
   },
   {
@@ -10110,6 +11501,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -10126,6 +11519,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "solar": "Yes",
+    "solarKwa": "13.92",
+    "noOfSites": "2",
     "createdAt": 1700000000000
   },
   {
@@ -10142,6 +11539,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "solar": "Yes",
+    "solarKwa": "13.92",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -10158,6 +11559,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "2",
     "createdAt": 1700000000000
   },
   {
@@ -10174,6 +11577,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "2",
     "createdAt": 1700000000000
   },
   {
@@ -10190,6 +11595,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "2",
     "createdAt": 1700000000000
   },
   {
@@ -10203,9 +11610,16 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
-    "zongId": "-",
+    "telenorId": "LNW011",
+    "zongId": "C-NAR-3634",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "TP/ZONG",
+    "noOfSites": "1",
+    "dcSharedWith": "Telenor",
+    "tpId": "LNW011",
+    "tpApprovedServices": "DC",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -10219,9 +11633,15 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LNW005",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Hub",
+    "guestOmo": "TP",
+    "neLocation": "NE",
+    "noOfSites": "34",
+    "tpId": "LNW005",
+    "tpApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -10235,9 +11655,15 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LPS007",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Hub",
+    "guestOmo": "TP",
+    "neLocation": "NE",
+    "noOfSites": "35",
+    "tpId": "LPS007",
+    "tpApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -10254,6 +11680,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -10270,6 +11698,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -10286,6 +11716,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "4",
     "createdAt": 1700000000000
   },
   {
@@ -10299,9 +11731,16 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
-    "zongId": "-",
+    "telenorId": "LPS015",
+    "zongId": "C-PSR-4812",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "TP/ZONG",
+    "noOfSites": "1",
+    "dcSharedWith": "Telenor",
+    "tpId": "LPS015",
+    "tpApprovedServices": "DC",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -10315,9 +11754,14 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LPSR31",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "TP",
+    "noOfSites": "3",
+    "tpId": "LPSR31",
+    "tpApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -10331,9 +11775,14 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LPSR55",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "TP",
+    "noOfSites": "1",
+    "tpId": "LPSR55",
+    "tpApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -10350,6 +11799,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "4",
     "createdAt": 1700000000000
   },
   {
@@ -10366,6 +11817,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "4",
     "createdAt": 1700000000000
   },
   {
@@ -10380,8 +11833,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "44927",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -10397,7 +11855,11 @@ export const defaultSites: Site[] = [
     "jazzId": "-",
     "telenorId": "-",
     "zongId": "-",
-    "ufoneId": "-",
+    "ufoneId": "3464",
+    "category": "Platinum",
+    "guestOmo": "Ufone",
+    "noOfSites": "1",
+    "ufoneApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -10412,8 +11874,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "C-RUR-7710",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "ZONG",
+    "noOfSites": "2",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -10428,8 +11895,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "41094",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -10443,9 +11915,14 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LFPR02",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "TP",
+    "noOfSites": "1",
+    "tpId": "LFPR02",
+    "tpApprovedServices": "DG",
     "createdAt": 1700000000000
   },
   {
@@ -10462,6 +11939,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "2",
     "createdAt": 1700000000000
   },
   {
@@ -10478,6 +11957,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -10491,9 +11972,14 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LHBP01",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "TP",
+    "noOfSites": "1",
+    "tpId": "LHBP01",
+    "tpApprovedServices": "DG",
     "createdAt": 1700000000000
   },
   {
@@ -10510,6 +11996,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -10524,8 +12012,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "40809",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -10542,6 +12035,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -10558,6 +12053,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -10572,8 +12069,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "41170",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -10587,9 +12089,14 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LSB002",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "TP",
+    "noOfSites": "1",
+    "tpId": "LSB002",
+    "tpApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -10606,6 +12113,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -10622,6 +12131,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -10638,6 +12149,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -10654,6 +12167,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -10668,8 +12183,12 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "C-RUR-4816",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "5",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -10686,6 +12205,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -10702,6 +12223,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "solar": "Yes",
+    "solarKwa": "12.76",
+    "noOfSites": "5",
     "createdAt": 1700000000000
   },
   {
@@ -10718,6 +12243,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -10734,6 +12261,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -10750,6 +12279,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -10764,8 +12295,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "44789",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "ZONG",
+    "noOfSites": "3",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -10780,8 +12316,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "41984",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -10798,6 +12339,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "solar": "Yes",
+    "solarKwa": "13.92",
+    "noOfSites": "4",
     "createdAt": 1700000000000
   },
   {
@@ -10814,6 +12359,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -10830,6 +12377,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "solar": "Yes",
+    "solarKwa": "6.96",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -10846,6 +12397,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -10862,6 +12415,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -10878,6 +12433,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -10894,6 +12451,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -10907,9 +12466,16 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
-    "zongId": "-",
+    "telenorId": "LZF004",
+    "zongId": "43976",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "TP/ZONG",
+    "noOfSites": "1",
+    "dcSharedWith": "Telenor",
+    "tpId": "LZF004",
+    "tpApprovedServices": "DC",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -10926,6 +12492,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -10942,6 +12510,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "2",
     "createdAt": 1700000000000
   },
   {
@@ -10958,6 +12528,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "5",
     "createdAt": 1700000000000
   },
   {
@@ -10974,6 +12546,9 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Hub",
+    "neLocation": "NE",
+    "noOfSites": "16",
     "createdAt": 1700000000000
   },
   {
@@ -10987,9 +12562,14 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LHFR30",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "TP",
+    "noOfSites": "1",
+    "tpId": "LHFR30",
+    "tpApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -11004,8 +12584,12 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "41090",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -11022,6 +12606,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -11036,8 +12622,14 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "44799",
     "ufoneId": "-",
+    "category": "Hub",
+    "guestOmo": "ZONG",
+    "neLocation": "NE",
+    "noOfSites": "24",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -11052,8 +12644,12 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "40829",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "2",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -11070,6 +12666,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "solar": "Yes",
+    "solarKwa": "11.6",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -11086,6 +12686,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "3",
     "createdAt": 1700000000000
   },
   {
@@ -11102,6 +12704,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "6",
     "createdAt": 1700000000000
   },
   {
@@ -11116,8 +12720,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "43256",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -11134,6 +12743,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "solar": "Yes",
+    "solarKwa": "14.999999999999998",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -11150,6 +12763,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -11166,6 +12781,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "solar": "Yes",
+    "solarKwa": "16.24",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -11179,9 +12798,15 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LMST01",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "TP",
+    "noOfSites": "1",
+    "dcSharedWith": "Telenor",
+    "tpId": "LMST01",
+    "tpApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -11198,6 +12823,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -11214,6 +12841,9 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Hub",
+    "neLocation": "NE",
+    "noOfSites": "35",
     "createdAt": 1700000000000
   },
   {
@@ -11230,6 +12860,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "4",
     "createdAt": 1700000000000
   },
   {
@@ -11246,6 +12878,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -11262,6 +12896,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "3",
     "createdAt": 1700000000000
   },
   {
@@ -11276,8 +12912,14 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "45348",
     "ufoneId": "-",
+    "category": "Hub",
+    "guestOmo": "ZONG",
+    "neLocation": "NE",
+    "noOfSites": "21",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -11291,9 +12933,15 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LWL002",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "TP",
+    "noOfSites": "1",
+    "dcSharedWith": "Telenor",
+    "tpId": "LWL002",
+    "tpApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -11308,8 +12956,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "45350",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -11326,6 +12979,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -11342,6 +12997,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -11358,6 +13015,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -11374,6 +13033,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "solar": "Yes",
+    "solarKwa": "12.76",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -11390,6 +13053,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "2",
     "createdAt": 1700000000000
   },
   {
@@ -11406,6 +13071,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -11422,6 +13089,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "2",
     "createdAt": 1700000000000
   },
   {
@@ -11436,8 +13105,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "C-SHG-3644",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "4",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -11454,6 +13128,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -11470,6 +13146,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "3",
     "createdAt": 1700000000000
   },
   {
@@ -11484,8 +13162,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "44003",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -11502,6 +13185,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "5",
     "createdAt": 1700000000000
   },
   {
@@ -11518,6 +13203,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -11534,6 +13221,9 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Hub",
+    "neLocation": "NE",
+    "noOfSites": "37",
     "createdAt": 1700000000000
   },
   {
@@ -11550,6 +13240,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "4",
     "createdAt": 1700000000000
   },
   {
@@ -11566,6 +13258,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -11582,6 +13276,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "3",
     "createdAt": 1700000000000
   },
   {
@@ -11598,6 +13294,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -11614,6 +13312,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "solar": "Yes",
+    "solarKwa": "13.92",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -11630,22 +13332,9 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
-    "createdAt": 1700000000000
-  },
-  {
-    "id": "d4e5f6a7-02a6-0000-0000-0000000002a6",
-    "name": "SKG2336",
-    "lat": 32.25898,
-    "lng": 75.176023,
-    "mbuNumber": "C4-NRW-05",
-    "mbuName": "Nayyir Ejaz",
-    "cellNumber": "3028480262",
-    "networkPortfolio": "Deodar NRO",
-    "zonalManager": "Ovais Ali Khan",
-    "jazzId": "-",
-    "telenorId": "-",
-    "zongId": "-",
-    "ufoneId": "-",
+    "category": "Hub",
+    "neLocation": "NE",
+    "noOfSites": "11",
     "createdAt": 1700000000000
   },
   {
@@ -11662,6 +13351,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "NRO B2S",
+    "solar": "Yes",
+    "solarKwa": "13.92",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -11678,6 +13371,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "43451",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -11694,6 +13389,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LNW015",
     "zongId": "43326",
     "ufoneId": "-",
+    "guestOmo": "TP/ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -11710,6 +13407,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -11726,6 +13424,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -11742,6 +13441,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -11758,6 +13458,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -11774,6 +13475,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -11790,6 +13492,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "45000",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -11806,6 +13510,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -11822,6 +13527,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -11838,6 +13544,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LNW014",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -11854,6 +13562,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -11870,6 +13579,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "43990",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -11886,6 +13597,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -11902,6 +13614,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LNW013",
     "zongId": "44804",
     "ufoneId": "-",
+    "guestOmo": "TP/ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -11918,6 +13632,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LPSR41",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -11934,6 +13650,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -11950,6 +13667,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -11966,6 +13684,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -11982,6 +13701,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -11998,6 +13718,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LZFR16",
     "zongId": "44689",
     "ufoneId": "-",
+    "guestOmo": "TP/ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -12014,6 +13736,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LNWR13",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -12030,6 +13754,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LTB002",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -12046,6 +13772,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LSU003",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -12062,6 +13790,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LBDR09",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -12078,6 +13808,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LPSR36",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -12094,6 +13826,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LNWR12",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -12110,6 +13844,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LPSR39",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -12126,6 +13862,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LNGR28",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -12142,6 +13880,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LNGR29",
     "zongId": "-",
     "ufoneId": "7719",
+    "guestOmo": "TP/Ufone",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -12158,6 +13898,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -12174,6 +13915,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LNGR32",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -12190,6 +13933,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LNW016",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -12206,6 +13951,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "45392",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -12222,6 +13969,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "40904",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -12238,6 +13987,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LNWR15",
     "zongId": "40629",
     "ufoneId": "-",
+    "guestOmo": "TP/ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -12254,6 +14005,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "41131",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -12270,6 +14023,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LBDR08",
     "zongId": "41262",
     "ufoneId": "-",
+    "guestOmo": "TP/ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -12286,6 +14041,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LHUL01",
     "zongId": "-",
     "ufoneId": "CI-1041",
+    "guestOmo": "TP/Ufone",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -12302,6 +14059,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "40970",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -12318,6 +14077,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "44983",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -12334,6 +14095,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "44399",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -12350,6 +14113,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -12366,6 +14130,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -12382,6 +14147,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LPS008",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -12398,6 +14165,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -12414,6 +14182,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LPS009",
     "zongId": "44945",
     "ufoneId": "-",
+    "guestOmo": "TP/ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -12430,6 +14200,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LSK017",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -12446,6 +14218,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -12462,6 +14235,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LBD005",
     "zongId": "44393",
     "ufoneId": "-",
+    "guestOmo": "TP/ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -12478,6 +14253,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "43152",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -12494,6 +14271,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -12510,6 +14288,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -12526,6 +14305,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LSGR08",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -12542,6 +14323,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LNW018",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -12558,6 +14341,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "44680",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -12574,6 +14359,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -12590,6 +14376,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -12606,6 +14393,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -12622,6 +14410,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -12638,6 +14427,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -12654,6 +14444,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -12670,6 +14461,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LSKR34",
     "zongId": "43963",
     "ufoneId": "-",
+    "guestOmo": "TP/ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -12686,6 +14479,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LRC002",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -12702,6 +14497,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LNGR31",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -12718,6 +14515,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "42784",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -12734,6 +14533,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LSKR30",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -12750,6 +14551,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LCL002",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -12766,6 +14569,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LPS012",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -12782,6 +14587,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LPSR42",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -12798,6 +14605,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LSHW01",
     "zongId": "-",
     "ufoneId": "7732",
+    "guestOmo": "TP/Ufone",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -12814,6 +14623,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LPSR26",
     "zongId": "-",
     "ufoneId": "3469",
+    "guestOmo": "TP/Ufone",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -12830,6 +14641,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "44333",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -12846,6 +14659,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LJD002",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -12862,6 +14677,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LBU002",
     "zongId": "44632",
     "ufoneId": "-",
+    "guestOmo": "TP/ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -12878,6 +14695,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LPSR52",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -12891,9 +14710,15 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LSK220",
     "zongId": "-",
-    "ufoneId": "-",
+    "ufoneId": "CI-1087",
+    "category": "Platinum",
+    "guestOmo": "TP/Ufone",
+    "noOfSites": "1",
+    "ufoneApprovedServices": "CP",
+    "tpId": "LSK220",
+    "tpApprovedServices": "DG",
     "createdAt": 1700000000000
   },
   {
@@ -12907,9 +14732,15 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LSK268",
     "zongId": "-",
-    "ufoneId": "-",
+    "ufoneId": "CI-1831",
+    "category": "Platinum",
+    "guestOmo": "TP/Ufone",
+    "noOfSites": "1",
+    "ufoneApprovedServices": "CP",
+    "tpId": "LSK268",
+    "tpApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -12923,9 +14754,16 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LSKR81",
     "zongId": "-",
-    "ufoneId": "-",
+    "ufoneId": "CI-1035",
+    "category": "Platinum",
+    "guestOmo": "TP/Ufone",
+    "noOfSites": "1",
+    "dcSharedWith": "Telenor",
+    "ufoneApprovedServices": "CP",
+    "tpId": "LSKR81",
+    "tpApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -12939,9 +14777,15 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LJG002",
     "zongId": "-",
-    "ufoneId": "-",
+    "ufoneId": "3385",
+    "category": "Platinum",
+    "guestOmo": "TP/Ufone",
+    "noOfSites": "1",
+    "ufoneApprovedServices": "DG",
+    "tpId": "LJG002",
+    "tpApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -12957,7 +14801,11 @@ export const defaultSites: Site[] = [
     "jazzId": "-",
     "telenorId": "-",
     "zongId": "-",
-    "ufoneId": "-",
+    "ufoneId": "CI-1346",
+    "category": "General",
+    "guestOmo": "Ufone",
+    "noOfSites": "3",
+    "ufoneApprovedServices": "DG",
     "createdAt": 1700000000000
   },
   {
@@ -12971,9 +14819,15 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LDWR02",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "TP",
+    "noOfSites": "1",
+    "dcSharedWith": "Telenor",
+    "tpId": "LDWR02",
+    "tpApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -12990,6 +14844,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "4",
     "createdAt": 1700000000000
   },
   {
@@ -13003,9 +14859,14 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LAA003",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "TP",
+    "noOfSites": "1",
+    "tpId": "LAA003",
+    "tpApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -13019,9 +14880,16 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
-    "zongId": "-",
+    "telenorId": "LDWR04",
+    "zongId": "41145",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "TP/ZONG",
+    "noOfSites": "1",
+    "dcSharedWith": "Telenor/Zong",
+    "tpId": "LDWR04",
+    "tpApprovedServices": "DC",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -13038,6 +14906,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -13052,8 +14922,12 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "40947",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -13070,6 +14944,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "3",
     "createdAt": 1700000000000
   },
   {
@@ -13084,8 +14960,15 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "45282",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "solar": "Yes",
+    "solarKwa": "13.92",
+    "noOfSites": "2",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -13102,6 +14985,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "3",
     "createdAt": 1700000000000
   },
   {
@@ -13115,9 +15000,14 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LPHN01",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "TP",
+    "noOfSites": "1",
+    "tpId": "LPHN01",
+    "tpApprovedServices": "DG",
     "createdAt": 1700000000000
   },
   {
@@ -13131,9 +15021,15 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LSK223",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "TP",
+    "noOfSites": "1",
+    "dcSharedWith": "Telenor",
+    "tpId": "LSK223",
+    "tpApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -13150,6 +15046,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "4",
     "createdAt": 1700000000000
   },
   {
@@ -13163,9 +15061,15 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LRUM01",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "TP",
+    "noOfSites": "1",
+    "dcSharedWith": "Telenor",
+    "tpId": "LRUM01",
+    "tpApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -13179,9 +15083,15 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LSK224",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Hub",
+    "guestOmo": "TP",
+    "noOfSites": "9",
+    "dcSharedWith": "Telenor",
+    "tpId": "LSK224",
+    "tpApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -13198,6 +15108,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "solar": "Yes",
+    "solarKwa": "17.4",
+    "noOfSites": "2",
     "createdAt": 1700000000000
   },
   {
@@ -13214,6 +15128,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -13230,6 +15146,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "8",
     "createdAt": 1700000000000
   },
   {
@@ -13244,8 +15162,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "43239",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -13259,9 +15182,14 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LSKR93",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "TP",
+    "noOfSites": "1",
+    "tpId": "LSKR93",
+    "tpApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -13278,6 +15206,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -13294,6 +15224,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -13310,6 +15242,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "solar": "Yes",
+    "solarKwa": "11.6",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -13324,8 +15260,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "C-RUR-7583",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -13342,6 +15283,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -13358,6 +15301,11 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Hub",
+    "solar": "Yes",
+    "solarKwa": "9.28",
+    "neLocation": "NE",
+    "noOfSites": "35",
     "createdAt": 1700000000000
   },
   {
@@ -13371,9 +15319,17 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LSKR10",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "TP",
+    "solar": "Yes",
+    "solarKwa": "13.92",
+    "noOfSites": "1",
+    "dcSharedWith": "Telenor",
+    "tpId": "LSKR10",
+    "tpApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -13387,9 +15343,15 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LSKR77",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Hub",
+    "guestOmo": "TP",
+    "noOfSites": "15",
+    "dcSharedWith": "Telenor",
+    "tpId": "LSKR77",
+    "tpApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -13406,6 +15368,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -13419,9 +15383,17 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
-    "zongId": "-",
-    "ufoneId": "-",
+    "telenorId": "LSKR19",
+    "zongId": "C-RUR-4415",
+    "ufoneId": "CI-1950",
+    "category": "Platinum",
+    "guestOmo": "TP/ZONG/Ufone",
+    "noOfSites": "1",
+    "dcSharedWith": "Telenor/Zong",
+    "ufoneApprovedServices": "CP",
+    "tpId": "LSKR19",
+    "tpApprovedServices": "DC",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -13438,6 +15410,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -13454,6 +15428,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -13470,6 +15446,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "solar": "Yes",
+    "solarKwa": "10.44",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -13486,6 +15466,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -13499,9 +15481,16 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
-    "zongId": "-",
+    "telenorId": "LSKR29",
+    "zongId": "40863",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "TP/ZONG",
+    "noOfSites": "3",
+    "dcSharedWith": "ZONG",
+    "tpId": "LSKR29",
+    "tpApprovedServices": "CP",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -13518,6 +15507,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -13534,6 +15525,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "2",
     "createdAt": 1700000000000
   },
   {
@@ -13549,7 +15542,12 @@ export const defaultSites: Site[] = [
     "jazzId": "-",
     "telenorId": "-",
     "zongId": "-",
-    "ufoneId": "-",
+    "ufoneId": "CI-1789",
+    "category": "Hub",
+    "guestOmo": "Ufone",
+    "neLocation": "NE",
+    "noOfSites": "14",
+    "ufoneApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -13565,7 +15563,11 @@ export const defaultSites: Site[] = [
     "jazzId": "-",
     "telenorId": "-",
     "zongId": "-",
-    "ufoneId": "-",
+    "ufoneId": "7765",
+    "category": "Platinum",
+    "guestOmo": "Ufone",
+    "noOfSites": "1",
+    "ufoneApprovedServices": "DG",
     "createdAt": 1700000000000
   },
   {
@@ -13582,6 +15584,9 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Hub",
+    "neLocation": "NE",
+    "noOfSites": "12",
     "createdAt": 1700000000000
   },
   {
@@ -13598,6 +15603,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -13614,6 +15621,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "5",
     "createdAt": 1700000000000
   },
   {
@@ -13630,6 +15639,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -13646,6 +15657,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -13661,7 +15674,11 @@ export const defaultSites: Site[] = [
     "jazzId": "-",
     "telenorId": "-",
     "zongId": "-",
-    "ufoneId": "-",
+    "ufoneId": "CI-1143",
+    "category": "Platinum",
+    "guestOmo": "Ufone",
+    "noOfSites": "1",
+    "ufoneApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -13678,6 +15695,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -13694,6 +15713,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -13708,8 +15729,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "44564",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -13725,7 +15751,11 @@ export const defaultSites: Site[] = [
     "jazzId": "-",
     "telenorId": "-",
     "zongId": "-",
-    "ufoneId": "-",
+    "ufoneId": "CI-1218",
+    "category": "Platinum",
+    "guestOmo": "Ufone",
+    "noOfSites": "1",
+    "ufoneApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -13742,6 +15772,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -13756,8 +15788,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "C-SLK-3652",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -13774,6 +15811,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "2",
     "createdAt": 1700000000000
   },
   {
@@ -13788,8 +15827,12 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "42651",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -13804,8 +15847,12 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "42638",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -13822,6 +15869,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "solar": "Yes",
+    "solarKwa": "10.44",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -13838,6 +15889,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -13854,6 +15907,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -13870,6 +15925,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -13886,6 +15943,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -13902,6 +15961,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "9",
     "createdAt": 1700000000000
   },
   {
@@ -13918,6 +15979,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -13934,6 +15997,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -13950,6 +16015,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -13966,6 +16033,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Hub",
+    "noOfSites": "8",
     "createdAt": 1700000000000
   },
   {
@@ -13982,6 +16051,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "solar": "Yes",
+    "solarKwa": "10.44",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -13998,6 +16071,9 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Hub",
+    "neLocation": "NE",
+    "noOfSites": "6",
     "createdAt": 1700000000000
   },
   {
@@ -14014,6 +16090,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "3",
     "createdAt": 1700000000000
   },
   {
@@ -14028,8 +16106,12 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "43961",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "2",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -14046,6 +16128,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -14062,6 +16146,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -14078,6 +16164,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "2",
     "createdAt": 1700000000000
   },
   {
@@ -14094,6 +16182,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -14110,6 +16200,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -14123,9 +16215,14 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LSK117",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "TP",
+    "noOfSites": "1",
+    "tpId": "LSK117",
+    "tpApprovedServices": "DG",
     "createdAt": 1700000000000
   },
   {
@@ -14142,6 +16239,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -14158,6 +16257,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -14172,8 +16273,14 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "45012",
     "ufoneId": "-",
+    "category": "Hub",
+    "guestOmo": "ZONG",
+    "neLocation": "NE",
+    "noOfSites": "8",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -14190,6 +16297,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -14206,6 +16315,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -14219,9 +16330,14 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LSK221",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "TP",
+    "noOfSites": "1",
+    "tpId": "LSK221",
+    "tpApprovedServices": "DG",
     "createdAt": 1700000000000
   },
   {
@@ -14238,6 +16354,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "solar": "Yes",
+    "solarKwa": "10.44",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -14254,6 +16374,9 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Hub",
+    "neLocation": "NE",
+    "noOfSites": "17",
     "createdAt": 1700000000000
   },
   {
@@ -14270,6 +16393,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -14286,6 +16411,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -14302,6 +16429,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "solar": "Yes",
+    "solarKwa": "10.44",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -14318,6 +16449,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -14334,6 +16467,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -14350,6 +16485,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -14366,6 +16503,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -14382,6 +16521,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -14395,9 +16536,14 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LSK115",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "TP",
+    "noOfSites": "1",
+    "tpId": "LSK115",
+    "tpApprovedServices": "DG",
     "createdAt": 1700000000000
   },
   {
@@ -14414,6 +16560,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "3",
     "createdAt": 1700000000000
   },
   {
@@ -14429,7 +16577,11 @@ export const defaultSites: Site[] = [
     "jazzId": "-",
     "telenorId": "-",
     "zongId": "-",
-    "ufoneId": "-",
+    "ufoneId": "7777",
+    "category": "Platinum",
+    "guestOmo": "Ufone",
+    "noOfSites": "2",
+    "ufoneApprovedServices": "DG",
     "createdAt": 1700000000000
   },
   {
@@ -14444,8 +16596,12 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "42485",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -14462,6 +16618,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "3",
     "createdAt": 1700000000000
   },
   {
@@ -14478,6 +16636,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -14494,6 +16654,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -14510,6 +16672,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -14526,6 +16690,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -14542,6 +16708,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -14558,6 +16726,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -14574,6 +16744,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -14590,6 +16762,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -14604,8 +16778,12 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "C-SLK-4429",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "zongApprovedServices": "DG",
     "createdAt": 1700000000000
   },
   {
@@ -14621,7 +16799,11 @@ export const defaultSites: Site[] = [
     "jazzId": "-",
     "telenorId": "-",
     "zongId": "-",
-    "ufoneId": "-",
+    "ufoneId": "CI-1096",
+    "category": "Platinum",
+    "guestOmo": "Ufone",
+    "noOfSites": "1",
+    "ufoneApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -14635,9 +16817,15 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
-    "zongId": "-",
+    "telenorId": "LSK301",
+    "zongId": "42950",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "TP/ZONG",
+    "noOfSites": "4",
+    "tpId": "LSK301",
+    "tpApprovedServices": "CP",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -14652,8 +16840,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "C-SLK-6695",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -14669,7 +16862,11 @@ export const defaultSites: Site[] = [
     "jazzId": "-",
     "telenorId": "-",
     "zongId": "-",
-    "ufoneId": "-",
+    "ufoneId": "7768",
+    "category": "Platinum",
+    "guestOmo": "Ufone",
+    "noOfSites": "4",
+    "ufoneApprovedServices": "DG",
     "createdAt": 1700000000000
   },
   {
@@ -14686,6 +16883,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "solar": "Yes",
+    "solarKwa": "13.92",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -14702,6 +16903,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Hub",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -14718,6 +16921,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "NRO B2S",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -14734,6 +16939,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "42776",
     "ufoneId": "CI-1951",
+    "guestOmo": "ZONG/Ufone",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -14750,6 +16957,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LZFR19",
     "zongId": "43687",
     "ufoneId": "-",
+    "guestOmo": "TP/ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -14766,6 +16975,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "43968",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -14782,6 +16993,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "6718",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -14798,6 +17011,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "43238",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -14814,6 +17029,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "43240",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -14830,6 +17047,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LSK226",
     "zongId": "42992",
     "ufoneId": "CI-1953",
+    "guestOmo": "TP/ZONG/Ufone",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -14846,6 +17065,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "40926",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -14862,6 +17083,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "CI-1206",
+    "guestOmo": "Ufone",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -14878,6 +17101,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "43639",
     "ufoneId": "CI-1191",
+    "guestOmo": "ZONG/Ufone",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -14894,6 +17119,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -14910,6 +17136,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "43648",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -14926,6 +17154,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -14942,6 +17171,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "CI-1838",
+    "guestOmo": "Ufone",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -14958,6 +17189,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -14974,6 +17206,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -14990,6 +17223,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "43345",
     "ufoneId": "CI-1276",
+    "guestOmo": "ZONG/Ufone",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -15006,6 +17241,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -15022,6 +17258,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -15038,6 +17275,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -15054,6 +17292,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LSKR42",
     "zongId": "-",
     "ufoneId": "CI-1239",
+    "guestOmo": "TP/Ufone",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -15070,6 +17310,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LSKR02",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -15086,6 +17328,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LSK218",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -15102,6 +17346,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LSY003",
     "zongId": "45501",
     "ufoneId": "-",
+    "guestOmo": "TP/ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -15118,6 +17364,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LDW003",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -15134,6 +17382,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LSKR37",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -15150,6 +17400,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LKL004",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -15166,6 +17418,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LSKR32",
     "zongId": "-",
     "ufoneId": "CI-1949",
+    "guestOmo": "TP/Ufone",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -15182,6 +17436,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LSK289",
     "zongId": "-",
     "ufoneId": "CI-1956",
+    "guestOmo": "TP/Ufone",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -15198,6 +17454,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "CI-1068",
+    "guestOmo": "Ufone",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -15214,6 +17472,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LSK021",
     "zongId": "-",
     "ufoneId": "CI-1140",
+    "guestOmo": "TP/Ufone",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -15230,6 +17490,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "43784",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -15246,6 +17508,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -15262,6 +17525,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LSK279",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -15278,6 +17543,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "43785",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -15294,6 +17561,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -15310,6 +17578,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LMM002",
     "zongId": "-",
     "ufoneId": "CI-1203",
+    "guestOmo": "TP/Ufone",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -15326,6 +17596,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LSK290",
     "zongId": "43834",
     "ufoneId": "-",
+    "guestOmo": "TP/ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -15342,6 +17614,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LLL002",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -15358,6 +17632,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "45305",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -15374,6 +17650,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -15390,6 +17667,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LSKR65",
     "zongId": "45492",
     "ufoneId": "-",
+    "guestOmo": "TP/ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -15406,6 +17685,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LAA004",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -15422,6 +17703,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LSKR33",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -15438,6 +17721,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LSK283",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -15454,6 +17739,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "CI-1944",
+    "guestOmo": "Ufone",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -15470,6 +17757,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -15484,8 +17772,14 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
-    "ufoneId": "-",
+    "zongId": "3618",
+    "ufoneId": "CI-1070",
+    "category": "Platinum",
+    "guestOmo": "ZONG/Ufone",
+    "noOfSites": "3",
+    "dcSharedWith": "ZONG",
+    "ufoneApprovedServices": "DG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -15499,9 +17793,16 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
-    "zongId": "-",
+    "telenorId": "LPB002",
+    "zongId": "40709",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "TP/ZONG",
+    "noOfSites": "1",
+    "dcSharedWith": "ZONG",
+    "tpId": "LPB002",
+    "tpApprovedServices": "DG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -15515,9 +17816,15 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
-    "zongId": "-",
+    "telenorId": "LHFR29",
+    "zongId": "40881",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "TP/ZONG",
+    "noOfSites": "1",
+    "tpId": "LHFR29",
+    "tpApprovedServices": "CP",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -15532,8 +17839,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "42969",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -15550,6 +17862,9 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Hub",
+    "neLocation": "NE",
+    "noOfSites": "25",
     "createdAt": 1700000000000
   },
   {
@@ -15566,6 +17881,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -15579,9 +17896,14 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LAP004",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "TP",
+    "noOfSites": "1",
+    "tpId": "LAP004",
+    "tpApprovedServices": "DG",
     "createdAt": 1700000000000
   },
   {
@@ -15596,8 +17918,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "40994",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -15614,6 +17941,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -15630,6 +17959,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "solar": "Yes",
+    "solarKwa": "10.44",
+    "noOfSites": "2",
     "createdAt": 1700000000000
   },
   {
@@ -15646,6 +17979,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "6",
     "createdAt": 1700000000000
   },
   {
@@ -15661,7 +17996,11 @@ export const defaultSites: Site[] = [
     "jazzId": "-",
     "telenorId": "-",
     "zongId": "-",
-    "ufoneId": "-",
+    "ufoneId": "CI-1195",
+    "category": "Platinum",
+    "guestOmo": "Ufone",
+    "noOfSites": "1",
+    "ufoneApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -15678,6 +18017,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -15694,6 +18035,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "6",
     "createdAt": 1700000000000
   },
   {
@@ -15709,7 +18052,11 @@ export const defaultSites: Site[] = [
     "jazzId": "-",
     "telenorId": "-",
     "zongId": "-",
-    "ufoneId": "-",
+    "ufoneId": "3656",
+    "category": "Platinum",
+    "guestOmo": "Ufone",
+    "noOfSites": "3",
+    "ufoneApprovedServices": "DG",
     "createdAt": 1700000000000
   },
   {
@@ -15723,9 +18070,16 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LHF110",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Hub",
+    "guestOmo": "TP",
+    "neLocation": "NE",
+    "noOfSites": "48",
+    "dcSharedWith": "Telenor",
+    "tpId": "LHF110",
+    "tpApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -15739,9 +18093,15 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LHF014",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "TP",
+    "noOfSites": "4",
+    "dcSharedWith": "Telenor",
+    "tpId": "LHF014",
+    "tpApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -15758,6 +18118,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -15774,6 +18136,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -15787,9 +18151,15 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LHF010",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "TP",
+    "noOfSites": "1",
+    "dcSharedWith": "Telenor",
+    "tpId": "LHF010",
+    "tpApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -15805,7 +18175,11 @@ export const defaultSites: Site[] = [
     "jazzId": "-",
     "telenorId": "-",
     "zongId": "-",
-    "ufoneId": "-",
+    "ufoneId": "CI-1092",
+    "category": "Platinum",
+    "guestOmo": "Ufone",
+    "noOfSites": "1",
+    "ufoneApprovedServices": "DG",
     "createdAt": 1700000000000
   },
   {
@@ -15822,6 +18196,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -15838,6 +18214,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "solar": "Yes",
+    "solarKwa": "10.44",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -15852,8 +18232,12 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "41141",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -15870,6 +18254,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "2",
     "createdAt": 1700000000000
   },
   {
@@ -15886,6 +18272,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "solar": "Yes",
+    "solarKwa": "15.66",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -15902,6 +18292,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -15918,6 +18310,9 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Hub",
+    "neLocation": "NE",
+    "noOfSites": "20",
     "createdAt": 1700000000000
   },
   {
@@ -15934,6 +18329,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -15950,6 +18347,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -15966,6 +18365,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -15979,9 +18380,14 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LM2R32",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "TP",
+    "noOfSites": "1",
+    "tpId": "LM2R32",
+    "tpApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -15998,6 +18404,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -16011,9 +18419,14 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LM2R19",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "TP",
+    "noOfSites": "2",
+    "tpId": "LM2R19",
+    "tpApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -16030,6 +18443,11 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Hub",
+    "solar": "Yes",
+    "solarKwa": "10.44",
+    "neLocation": "NE",
+    "noOfSites": "11",
     "createdAt": 1700000000000
   },
   {
@@ -16046,6 +18464,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -16062,6 +18482,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -16076,8 +18498,12 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "41731",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -16091,9 +18517,14 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LJN006",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "TP",
+    "noOfSites": "1",
+    "tpId": "LJN006",
+    "tpApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -16107,9 +18538,16 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LJN004",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Hub",
+    "guestOmo": "TP",
+    "neLocation": "NE",
+    "noOfSites": "17",
+    "dcSharedWith": "Telenor",
+    "tpId": "LJN004",
+    "tpApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -16123,9 +18561,15 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LHFR32",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "TP",
+    "noOfSites": "1",
+    "dcSharedWith": "Telenor",
+    "tpId": "LHFR32",
+    "tpApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -16139,9 +18583,15 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LRM002",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "TP",
+    "noOfSites": "1",
+    "dcSharedWith": "Telenor",
+    "tpId": "LRM002",
+    "tpApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -16155,9 +18605,16 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LKW003",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "TP",
+    "solar": "Yes",
+    "solarKwa": "10.44",
+    "noOfSites": "1",
+    "tpId": "LKW003",
+    "tpApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -16174,6 +18631,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "2",
     "createdAt": 1700000000000
   },
   {
@@ -16190,6 +18649,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -16206,6 +18667,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -16222,6 +18685,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "5",
     "createdAt": 1700000000000
   },
   {
@@ -16235,9 +18700,14 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LNVR11",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "TP",
+    "noOfSites": "4",
+    "tpId": "LNVR11",
+    "tpApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -16252,8 +18722,12 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "41238",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -16270,6 +18744,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "solar": "Yes",
+    "solarKwa": "13.92",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -16286,6 +18764,9 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Hub",
+    "neLocation": "NE",
+    "noOfSites": "18",
     "createdAt": 1700000000000
   },
   {
@@ -16302,6 +18783,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -16318,6 +18801,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -16331,9 +18816,15 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LSNR18",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "TP",
+    "noOfSites": "1",
+    "dcSharedWith": "Telenor",
+    "tpId": "LSNR18",
+    "tpApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -16347,9 +18838,17 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LCBH03",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "TP",
+    "solar": "Yes",
+    "solarKwa": "13.92",
+    "noOfSites": "1",
+    "dcSharedWith": "Telenor",
+    "tpId": "LCBH03",
+    "tpApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -16366,6 +18865,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "4",
     "createdAt": 1700000000000
   },
   {
@@ -16379,9 +18880,14 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LKY004",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "TP",
+    "noOfSites": "2",
+    "tpId": "LKY004",
+    "tpApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -16398,6 +18904,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "3",
     "createdAt": 1700000000000
   },
   {
@@ -16412,8 +18920,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "44986",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "5",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -16427,9 +18940,17 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LQL009",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "TP",
+    "solar": "Yes",
+    "solarKwa": "15.08",
+    "noOfSites": "4",
+    "dcSharedWith": "Telenor",
+    "tpId": "LQL009",
+    "tpApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -16443,9 +18964,16 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LQL007",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Hub",
+    "guestOmo": "TP",
+    "neLocation": "NE",
+    "noOfSites": "20",
+    "dcSharedWith": "Telenor",
+    "tpId": "LQL007",
+    "tpApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -16460,8 +18988,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "41044",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -16475,9 +19008,14 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LQL010",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "TP",
+    "noOfSites": "1",
+    "tpId": "LQL010",
+    "tpApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -16492,8 +19030,12 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "43086",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -16507,9 +19049,16 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
-    "zongId": "-",
+    "telenorId": "LNVR14",
+    "zongId": "41210",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "TP/ZONG",
+    "noOfSites": "1",
+    "dcSharedWith": "Telenor",
+    "tpId": "LNVR14",
+    "tpApprovedServices": "DC",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -16523,9 +19072,15 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LFK002",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "TP",
+    "noOfSites": "2",
+    "dcSharedWith": "Telenor",
+    "tpId": "LFK002",
+    "tpApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -16542,6 +19097,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "6",
     "createdAt": 1700000000000
   },
   {
@@ -16558,6 +19115,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "solar": "Yes",
+    "solarKwa": "13.92",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -16572,8 +19133,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "40986",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "ZONG",
+    "noOfSites": "3",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -16587,9 +19153,16 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
-    "zongId": "-",
+    "telenorId": "LHFR42",
+    "zongId": "41135",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "TP/ZONG",
+    "noOfSites": "1",
+    "dcSharedWith": "Telenor",
+    "tpId": "LHFR42",
+    "tpApprovedServices": "DC",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -16606,6 +19179,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -16622,6 +19197,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "5",
     "createdAt": 1700000000000
   },
   {
@@ -16638,6 +19215,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "2",
     "createdAt": 1700000000000
   },
   {
@@ -16654,6 +19233,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -16668,8 +19249,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "40771",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "ZONG",
+    "noOfSites": "2",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -16686,6 +19272,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "solar": "Yes",
+    "solarKwa": "13.92",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -16699,9 +19289,15 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LHFR27",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "TP",
+    "noOfSites": "1",
+    "dcSharedWith": "Telenor",
+    "tpId": "LHFR27",
+    "tpApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -16716,8 +19312,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "41087",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "ZONG",
+    "noOfSites": "2",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -16731,9 +19332,15 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LHFR31",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "TP",
+    "noOfSites": "4",
+    "dcSharedWith": "Telenor",
+    "tpId": "LHFR31",
+    "tpApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -16747,9 +19354,14 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LHFR25",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "TP",
+    "noOfSites": "1",
+    "tpId": "LHFR25",
+    "tpApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -16764,8 +19376,12 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "41251",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -16780,8 +19396,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "41265",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -16796,8 +19417,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "41256",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -16811,9 +19437,16 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LHFR33",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "TP",
+    "solar": "Yes",
+    "solarKwa": "12.54",
+    "noOfSites": "6",
+    "tpId": "LHFR33",
+    "tpApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -16827,9 +19460,14 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LDHN01",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "TP",
+    "noOfSites": "1",
+    "tpId": "LDHN01",
+    "tpApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -16846,6 +19484,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "2",
     "createdAt": 1700000000000
   },
   {
@@ -16862,6 +19502,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "solar": "Yes",
+    "solarKwa": "10.44",
+    "noOfSites": "6",
     "createdAt": 1700000000000
   },
   {
@@ -16878,6 +19522,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -16894,6 +19540,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "3",
     "createdAt": 1700000000000
   },
   {
@@ -16910,6 +19558,9 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "2",
+    "dcSharedWith": "Telenor",
     "createdAt": 1700000000000
   },
   {
@@ -16926,6 +19577,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -16942,6 +19595,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -16958,6 +19613,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "solar": "Yes",
+    "solarKwa": "13.92",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -16971,9 +19630,14 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LHF016",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "TP",
+    "noOfSites": "3",
+    "tpId": "LHF016",
+    "tpApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -16990,6 +19654,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "solar": "Yes",
+    "solarKwa": "13.92",
+    "noOfSites": "2",
     "createdAt": 1700000000000
   },
   {
@@ -17006,6 +19674,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "USF",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -17022,6 +19692,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -17038,6 +19710,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -17054,6 +19728,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -17070,6 +19746,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "solar": "Yes",
+    "solarKwa": "10.44",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -17084,8 +19764,12 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "40992",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -17102,6 +19786,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "3",
     "createdAt": 1700000000000
   },
   {
@@ -17118,6 +19804,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "solar": "Yes",
+    "solarKwa": "10.44",
+    "noOfSites": "3",
     "createdAt": 1700000000000
   },
   {
@@ -17134,6 +19824,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -17147,9 +19839,14 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LJJG01",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "TP",
+    "noOfSites": "3",
+    "tpId": "LJJG01",
+    "tpApprovedServices": "DG",
     "createdAt": 1700000000000
   },
   {
@@ -17166,6 +19863,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "2",
     "createdAt": 1700000000000
   },
   {
@@ -17180,8 +19879,12 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "40815",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "ZONG",
+    "noOfSites": "6",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -17195,9 +19898,15 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LCC004",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "TP",
+    "noOfSites": "1",
+    "dcSharedWith": "Telenor",
+    "tpId": "LCC004",
+    "tpApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -17212,8 +19921,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "44674",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -17230,6 +19944,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -17246,6 +19962,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -17262,6 +19980,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "solar": "Yes",
+    "solarKwa": "13.92",
+    "noOfSites": "2",
     "createdAt": 1700000000000
   },
   {
@@ -17278,6 +20000,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "solar": "Yes",
+    "solarKwa": "11.6",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -17294,6 +20020,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -17310,6 +20038,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "solar": "Yes",
+    "solarKwa": "12.18",
+    "noOfSites": "2",
     "createdAt": 1700000000000
   },
   {
@@ -17326,6 +20058,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -17342,6 +20076,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -17358,6 +20094,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "solar": "Yes",
+    "solarKwa": "16.24",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -17374,6 +20114,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -17389,7 +20131,11 @@ export const defaultSites: Site[] = [
     "jazzId": "-",
     "telenorId": "-",
     "zongId": "-",
-    "ufoneId": "-",
+    "ufoneId": "CI-1022",
+    "category": "Platinum",
+    "guestOmo": "Ufone",
+    "noOfSites": "2",
+    "ufoneApprovedServices": "DG",
     "createdAt": 1700000000000
   },
   {
@@ -17403,9 +20149,17 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LQLR03",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "TP",
+    "solar": "Yes",
+    "solarKwa": "15.08",
+    "noOfSites": "1",
+    "dcSharedWith": "Telenor",
+    "tpId": "LQLR03",
+    "tpApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -17419,9 +20173,15 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LJN002",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "TP",
+    "noOfSites": "2",
+    "dcSharedWith": "Telenor",
+    "tpId": "LJN002",
+    "tpApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -17436,8 +20196,12 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "40820",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "ZONG",
+    "noOfSites": "3",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -17454,6 +20218,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "4",
     "createdAt": 1700000000000
   },
   {
@@ -17467,9 +20233,15 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "FSU008",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "TP",
+    "noOfSites": "1",
+    "dcSharedWith": "Telenor",
+    "tpId": "FSU008",
+    "tpApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -17486,6 +20258,9 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Hub",
+    "neLocation": "NE",
+    "noOfSites": "18",
     "createdAt": 1700000000000
   },
   {
@@ -17502,6 +20277,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "NRO B2S",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -17518,6 +20295,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "NRO B2S",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -17534,6 +20313,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LHF028",
     "zongId": "3617",
     "ufoneId": "-",
+    "guestOmo": "TP/ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -17550,6 +20331,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "42803",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -17566,6 +20349,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LHF025",
     "zongId": "43246",
     "ufoneId": "-",
+    "guestOmo": "TP/ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -17582,6 +20367,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LRB003",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -17598,6 +20385,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -17614,6 +20402,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -17630,6 +20419,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LHF024",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -17646,6 +20437,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -17662,6 +20454,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -17678,6 +20471,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LHF027",
     "zongId": "43244",
     "ufoneId": "-",
+    "guestOmo": "TP/ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -17694,6 +20489,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -17710,6 +20506,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LNV007",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -17726,6 +20524,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LCC003",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -17742,6 +20542,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LJN005",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -17758,22 +20560,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LNVR12",
     "zongId": "-",
     "ufoneId": "-",
-    "createdAt": 1700000000000
-  },
-  {
-    "id": "d4e5f6a7-0425-0000-0000-000000000425",
-    "name": "EC1-HFZ-03538",
-    "lat": 32.068993,
-    "lng": 73.687222,
-    "mbuNumber": "C4-HFZ-06",
-    "mbuName": "Syed Mansoor Hyder Shah",
-    "cellNumber": "3008673770",
-    "networkPortfolio": "Enfrashare",
-    "zonalManager": "Ovais Ali Khan",
-    "jazzId": "-",
-    "telenorId": "LHF020",
-    "zongId": "3618",
-    "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -17790,6 +20578,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LPB004",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -17806,6 +20596,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LNV008",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -17822,6 +20614,8 @@ export const defaultSites: Site[] = [
     "telenorId": "FSU005",
     "zongId": "43901",
     "ufoneId": "-",
+    "guestOmo": "TP/ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -17838,6 +20632,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LAW002",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -17854,6 +20650,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LMA003",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -17870,6 +20668,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LNV009",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -17886,6 +20686,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LHFR41",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -17902,6 +20704,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LHF030",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -17918,6 +20722,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -17934,6 +20739,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -17950,6 +20756,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -17966,6 +20773,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "4834",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -17982,6 +20791,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -17998,6 +20808,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -18014,6 +20825,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "43986",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -18030,6 +20843,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LNH005",
     "zongId": "44386",
     "ufoneId": "-",
+    "guestOmo": "TP/ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -18046,6 +20861,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "44385",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -18062,6 +20879,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -18078,6 +20896,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -18094,6 +20913,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -18110,6 +20930,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LJN007",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -18126,6 +20948,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -18142,6 +20965,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LKE002",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -18158,6 +20983,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LHFR39",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -18174,6 +21001,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LPB005",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -18190,6 +21019,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -18206,6 +21036,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LHFR45",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -18222,6 +21054,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LHF032",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -18238,6 +21072,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -18254,6 +21089,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "44946",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -18268,8 +21105,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
-    "ufoneId": "-",
+    "zongId": "43045",
+    "ufoneId": "CI-1874",
+    "category": "Platinum",
+    "guestOmo": "ZONG/Ufone",
+    "dcSharedWith": "ZONG",
+    "ufoneApprovedServices": "CP",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -18283,9 +21125,15 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
-    "zongId": "-",
+    "telenorId": "LPHR04",
+    "zongId": "40923",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "TP/ZONG",
+    "noOfSites": "5",
+    "tpId": "LPHR04",
+    "tpApprovedServices": "DG",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -18299,9 +21147,16 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
-    "zongId": "-",
+    "telenorId": "LMI002",
+    "zongId": "45225",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "TP/ZONG",
+    "noOfSites": "4",
+    "dcSharedWith": "ZONG",
+    "tpId": "LMI002",
+    "tpApprovedServices": "DG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -18315,9 +21170,16 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
-    "zongId": "-",
+    "telenorId": "LBMR11",
+    "zongId": "41275",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "TP/ZONG",
+    "noOfSites": "1",
+    "dcSharedWith": "Telenor",
+    "tpId": "LBMR11",
+    "tpApprovedServices": "DC",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -18331,9 +21193,15 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
-    "zongId": "-",
+    "telenorId": "LPH014",
+    "zongId": "40940",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "TP/ZONG",
+    "noOfSites": "1",
+    "tpId": "LPH014",
+    "tpApprovedServices": "DG",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -18347,9 +21215,16 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
-    "zongId": "-",
+    "telenorId": "LMBR29",
+    "zongId": "40797",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "TP/ZONG",
+    "noOfSites": "1",
+    "dcSharedWith": "Telenor",
+    "tpId": "LMBR29",
+    "tpApprovedServices": "DC",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -18363,9 +21238,15 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
-    "zongId": "-",
+    "telenorId": "LPHR14",
+    "zongId": "40924",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "TP/ZONG",
+    "noOfSites": "1",
+    "tpId": "LPHR14",
+    "tpApprovedServices": "CP",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -18379,9 +21260,16 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
-    "zongId": "-",
+    "telenorId": "LMB014",
+    "zongId": "44161",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "TP/ZONG",
+    "noOfSites": "1",
+    "dcSharedWith": "Telenor",
+    "tpId": "LMB014",
+    "tpApprovedServices": "DC",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -18398,6 +21286,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -18413,7 +21303,11 @@ export const defaultSites: Site[] = [
     "jazzId": "-",
     "telenorId": "-",
     "zongId": "-",
-    "ufoneId": "-",
+    "ufoneId": "CI-1327",
+    "category": "General",
+    "guestOmo": "Ufone",
+    "noOfSites": "2",
+    "ufoneApprovedServices": "DG",
     "createdAt": 1700000000000
   },
   {
@@ -18427,9 +21321,15 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
-    "zongId": "-",
+    "telenorId": "LMBR42",
+    "zongId": "41096",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "TP/ZONG",
+    "noOfSites": "1",
+    "tpId": "LMBR42",
+    "tpApprovedServices": "CP",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -18444,8 +21344,12 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "40803",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -18459,9 +21363,15 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LPBH01",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Hub",
+    "guestOmo": "TP",
+    "noOfSites": "9",
+    "dcSharedWith": "Telenor",
+    "tpId": "LPBH01",
+    "tpApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -18478,6 +21388,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
     "createdAt": 1700000000000
   },
   {
@@ -18492,8 +21403,14 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
-    "ufoneId": "-",
+    "zongId": "41093",
+    "ufoneId": "7949",
+    "category": "General",
+    "guestOmo": "ZONG/Ufone",
+    "noOfSites": "1",
+    "dcSharedWith": "ZONG",
+    "ufoneApprovedServices": "DG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -18507,9 +21424,15 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LNJ003",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "TP",
+    "noOfSites": "2",
+    "dcSharedWith": "Telenor",
+    "tpId": "LNJ003",
+    "tpApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -18524,8 +21447,11 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "40936",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "ZONG",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -18542,6 +21468,9 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Hub",
+    "neLocation": "NE",
+    "noOfSites": "20",
     "createdAt": 1700000000000
   },
   {
@@ -18555,9 +21484,16 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
-    "zongId": "-",
+    "telenorId": "LDI002",
+    "zongId": "C-DGA-4946",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "TP/ZONG",
+    "noOfSites": "7",
+    "dcSharedWith": "ZONG",
+    "tpId": "LDI002",
+    "tpApprovedServices": "CP",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -18573,7 +21509,11 @@ export const defaultSites: Site[] = [
     "jazzId": "-",
     "telenorId": "-",
     "zongId": "-",
-    "ufoneId": "-",
+    "ufoneId": "3675",
+    "category": "Platinum",
+    "guestOmo": "Ufone",
+    "noOfSites": "3",
+    "ufoneApprovedServices": "DG",
     "createdAt": 1700000000000
   },
   {
@@ -18590,6 +21530,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -18606,6 +21548,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -18619,9 +21563,15 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LQD004",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "TP",
+    "noOfSites": "1",
+    "dcSharedWith": "Telenor",
+    "tpId": "LQD004",
+    "tpApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -18638,6 +21588,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "2",
     "createdAt": 1700000000000
   },
   {
@@ -18654,6 +21606,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "solar": "Yes",
+    "solarKwa": "11.6",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -18668,8 +21624,12 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "41257",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -18683,9 +21643,14 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LQDR04",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "TP",
+    "noOfSites": "3",
+    "tpId": "LQDR04",
+    "tpApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -18702,6 +21667,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "solar": "Yes",
+    "solarKwa": "12.76",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -18718,6 +21687,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -18731,9 +21702,14 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LRBR01",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "TP",
+    "noOfSites": "1",
+    "tpId": "LRBR01",
+    "tpApprovedServices": "DG",
     "createdAt": 1700000000000
   },
   {
@@ -18750,6 +21726,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
     "createdAt": 1700000000000
   },
   {
@@ -18766,6 +21743,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "solar": "Yes",
+    "solarKwa": "16.24",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -18779,9 +21760,14 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LPHR13",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "TP",
+    "noOfSites": "2",
+    "tpId": "LPHR13",
+    "tpApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -18795,9 +21781,14 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LSWR05",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "TP",
+    "noOfSites": "1",
+    "tpId": "LSWR05",
+    "tpApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -18811,9 +21802,18 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
-    "zongId": "-",
+    "telenorId": "LSWR06",
+    "zongId": "43964",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "TP/ZONG",
+    "solar": "Yes",
+    "solarKwa": "10.44",
+    "noOfSites": "1",
+    "dcSharedWith": "Telenor",
+    "tpId": "LSWR06",
+    "tpApprovedServices": "DC",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -18830,6 +21830,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
     "createdAt": 1700000000000
   },
   {
@@ -18846,6 +21847,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
     "createdAt": 1700000000000
   },
   {
@@ -18862,6 +21864,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Hub",
+    "neLocation": "NE",
     "createdAt": 1700000000000
   },
   {
@@ -18878,6 +21882,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
     "createdAt": 1700000000000
   },
   {
@@ -18894,6 +21899,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Hub",
+    "neLocation": "NE",
     "createdAt": 1700000000000
   },
   {
@@ -18910,6 +21917,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
     "createdAt": 1700000000000
   },
   {
@@ -18923,9 +21931,15 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
-    "zongId": "-",
+    "telenorId": "IKH006",
+    "zongId": "44928",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "TP/ZONG",
+    "dcSharedWith": "ZONG",
+    "tpId": "IKH006",
+    "tpApprovedServices": "CP",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -18942,6 +21956,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "dcSharedWith": "Telenor",
     "createdAt": 1700000000000
   },
   {
@@ -18958,6 +21974,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
     "createdAt": 1700000000000
   },
   {
@@ -18974,6 +21991,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
     "createdAt": 1700000000000
   },
   {
@@ -18988,8 +22006,11 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "C-KHA-3625",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "ZONG",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -19006,6 +22027,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
     "createdAt": 1700000000000
   },
   {
@@ -19020,8 +22042,11 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "C-RUR-4945",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "zongApprovedServices": "DG",
     "createdAt": 1700000000000
   },
   {
@@ -19038,6 +22063,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -19054,6 +22081,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -19070,6 +22099,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -19086,6 +22117,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -19102,6 +22135,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -19117,7 +22152,11 @@ export const defaultSites: Site[] = [
     "jazzId": "-",
     "telenorId": "-",
     "zongId": "-",
-    "ufoneId": "-",
+    "ufoneId": "3651",
+    "category": "General",
+    "guestOmo": "Ufone",
+    "noOfSites": "1",
+    "ufoneApprovedServices": "DG",
     "createdAt": 1700000000000
   },
   {
@@ -19134,6 +22173,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -19150,6 +22191,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "7",
     "createdAt": 1700000000000
   },
   {
@@ -19165,7 +22208,11 @@ export const defaultSites: Site[] = [
     "jazzId": "-",
     "telenorId": "-",
     "zongId": "-",
-    "ufoneId": "-",
+    "ufoneId": "3653",
+    "category": "Platinum",
+    "guestOmo": "Ufone",
+    "noOfSites": "1",
+    "ufoneApprovedServices": "DG",
     "createdAt": 1700000000000
   },
   {
@@ -19182,6 +22229,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -19198,6 +22247,9 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Hub",
+    "neLocation": "NE",
+    "noOfSites": "46",
     "createdAt": 1700000000000
   },
   {
@@ -19211,9 +22263,15 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LMB026",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "TP",
+    "noOfSites": "1",
+    "dcSharedWith": "Telenor",
+    "tpId": "LMB026",
+    "tpApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -19228,8 +22286,12 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "C-MBN-3626",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "zongApprovedServices": "DG",
     "createdAt": 1700000000000
   },
   {
@@ -19246,6 +22308,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "solar": "Yes",
+    "solarKwa": "11.6",
+    "noOfSites": "2",
     "createdAt": 1700000000000
   },
   {
@@ -19262,6 +22328,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "solar": "Yes",
+    "solarKwa": "9.28",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -19276,8 +22346,12 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "41120",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -19294,6 +22368,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
     "createdAt": 1700000000000
   },
   {
@@ -19310,6 +22385,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
     "createdAt": 1700000000000
   },
   {
@@ -19326,6 +22402,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
     "createdAt": 1700000000000
   },
   {
@@ -19342,6 +22419,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -19355,9 +22434,14 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LMK005",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "TP",
+    "noOfSites": "7",
+    "tpId": "LMK005",
+    "tpApprovedServices": "DG",
     "createdAt": 1700000000000
   },
   {
@@ -19374,6 +22458,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -19390,6 +22476,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -19406,6 +22494,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "solar": "Yes",
+    "solarKwa": "13.92",
+    "noOfSites": "5",
     "createdAt": 1700000000000
   },
   {
@@ -19422,6 +22514,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -19435,9 +22529,15 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LNA002",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "TP",
+    "noOfSites": "1",
+    "dcSharedWith": "Telenor",
+    "tpId": "LNA002",
+    "tpApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -19452,8 +22552,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "C-PHL-4947",
     "ufoneId": "-",
+    "category": "Hub",
+    "guestOmo": "ZONG",
+    "neLocation": "NE",
+    "noOfSites": "18",
+    "zongApprovedServices": "DG",
     "createdAt": 1700000000000
   },
   {
@@ -19467,9 +22572,15 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LPH017",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "TP",
+    "noOfSites": "1",
+    "dcSharedWith": "Telenor",
+    "tpId": "LPH017",
+    "tpApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -19483,9 +22594,15 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LKWL01",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "TP",
+    "noOfSites": "1",
+    "dcSharedWith": "Telenor",
+    "tpId": "LKWL01",
+    "tpApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -19502,6 +22619,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "4",
     "createdAt": 1700000000000
   },
   {
@@ -19515,9 +22634,15 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LMJ003",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "TP",
+    "noOfSites": "1",
+    "dcSharedWith": "Telenor",
+    "tpId": "LMJ003",
+    "tpApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -19534,6 +22659,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -19550,6 +22677,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "4",
     "createdAt": 1700000000000
   },
   {
@@ -19566,6 +22695,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
     "createdAt": 1700000000000
   },
   {
@@ -19579,9 +22709,13 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LMBR46",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "TP",
+    "tpId": "LMBR46",
+    "tpApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -19598,6 +22732,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -19611,9 +22747,14 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LCO004",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "TP",
+    "noOfSites": "1",
+    "tpId": "LCO004",
+    "tpApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -19628,8 +22769,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "41230",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "ZONG",
+    "noOfSites": "3",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -19644,8 +22790,11 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "41021",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "ZONG",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -19662,6 +22811,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -19678,6 +22829,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -19692,8 +22845,12 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "41078",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -19707,9 +22864,15 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LMW006",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "TP",
+    "noOfSites": "1",
+    "dcSharedWith": "Telenor",
+    "tpId": "LMW006",
+    "tpApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -19723,9 +22886,16 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
-    "zongId": "-",
+    "telenorId": "LPH028",
+    "zongId": "C-RUR-4813",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "TP/ZONG",
+    "noOfSites": "4",
+    "dcSharedWith": "Telenor/Zong",
+    "tpId": "LPH028",
+    "tpApprovedServices": "DC",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -19739,9 +22909,14 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LPHR36",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "TP",
+    "noOfSites": "1",
+    "tpId": "LPHR36",
+    "tpApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -19755,9 +22930,16 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
-    "zongId": "-",
+    "telenorId": "LPHR17",
+    "zongId": "41240",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "TP/ZONG",
+    "noOfSites": "1",
+    "dcSharedWith": "Telenor",
+    "tpId": "LPHR17",
+    "tpApprovedServices": "DC",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -19771,9 +22953,16 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
-    "zongId": "-",
+    "telenorId": "LMBR40",
+    "zongId": "40838",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "TP/ZONG",
+    "noOfSites": "1",
+    "dcSharedWith": "ZONG",
+    "tpId": "LMBR40",
+    "tpApprovedServices": "CP",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -19788,8 +22977,12 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "40872",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -19804,8 +22997,12 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "44180",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "ZONG",
+    "noOfSites": "#N/A",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -19822,6 +23019,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -19838,6 +23037,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
     "createdAt": 1700000000000
   },
   {
@@ -19854,6 +23054,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
     "createdAt": 1700000000000
   },
   {
@@ -19870,6 +23071,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
     "createdAt": 1700000000000
   },
   {
@@ -19886,6 +23088,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "solar": "Yes",
+    "solarKwa": "13.92",
+    "noOfSites": "5",
     "createdAt": 1700000000000
   },
   {
@@ -19902,6 +23108,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "3",
     "createdAt": 1700000000000
   },
   {
@@ -19918,6 +23126,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "2",
     "createdAt": 1700000000000
   },
   {
@@ -19931,9 +23141,16 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
-    "zongId": "-",
+    "telenorId": "LKUT02",
+    "zongId": "44176",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "TP/ZONG",
+    "noOfSites": "1",
+    "dcSharedWith": "Telenor",
+    "tpId": "LKUT02",
+    "tpApprovedServices": "DC",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -19950,6 +23167,9 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Hub",
+    "neLocation": "NE",
+    "noOfSites": "20",
     "createdAt": 1700000000000
   },
   {
@@ -19966,6 +23186,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "4",
     "createdAt": 1700000000000
   },
   {
@@ -19982,6 +23204,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "5",
     "createdAt": 1700000000000
   },
   {
@@ -19995,9 +23219,17 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LMG010",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "TP",
+    "solar": "Yes",
+    "solarKwa": "12.54",
+    "noOfSites": "2",
+    "dcSharedWith": "Telenor",
+    "tpId": "LMG010",
+    "tpApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -20014,6 +23246,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Hub",
+    "solar": "Yes",
+    "solarKwa": "8.7",
+    "noOfSites": "4",
     "createdAt": 1700000000000
   },
   {
@@ -20027,9 +23263,16 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
-    "zongId": "-",
+    "telenorId": "LQDR08",
+    "zongId": "41264",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "TP/ZONG",
+    "noOfSites": "1",
+    "dcSharedWith": "Telenor",
+    "tpId": "LQDR08",
+    "tpApprovedServices": "DC",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -20046,6 +23289,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "2",
     "createdAt": 1700000000000
   },
   {
@@ -20060,8 +23305,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "41163",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -20078,6 +23328,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "USF",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -20094,6 +23346,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "5",
     "createdAt": 1700000000000
   },
   {
@@ -20110,6 +23364,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -20126,6 +23382,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -20140,8 +23398,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "C-RUR-7592",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -20156,8 +23419,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "41009",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "ZONG",
+    "noOfSites": "6",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -20174,6 +23442,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -20190,6 +23460,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "2",
     "createdAt": 1700000000000
   },
   {
@@ -20206,6 +23478,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -20219,9 +23493,14 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LMK015",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "TP",
+    "noOfSites": "6",
+    "tpId": "LMK015",
+    "tpApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -20238,6 +23517,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -20254,6 +23535,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -20270,6 +23553,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -20284,8 +23569,12 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "C-RUR-4928",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -20302,6 +23591,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "USF",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -20318,6 +23609,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -20332,8 +23625,12 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "43786",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -20350,6 +23647,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Hub",
+    "solar": "Yes",
+    "solarKwa": "13.92",
+    "noOfSites": "6",
     "createdAt": 1700000000000
   },
   {
@@ -20363,9 +23664,13 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LPR002",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "TP",
+    "noOfSites": "1",
+    "tpId": "LPR002",
     "createdAt": 1700000000000
   },
   {
@@ -20379,9 +23684,14 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "IKH008",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
+    "tpId": "IKH008",
+    "tpApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -20398,6 +23708,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "NRO B2S",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -20414,6 +23726,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "NRO B2S",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -20430,6 +23744,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LHN002",
     "zongId": "4865",
     "ufoneId": "-",
+    "guestOmo": "TP/ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -20446,6 +23762,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "42968",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -20462,6 +23780,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "43036",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -20478,6 +23798,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -20494,6 +23815,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LCO002",
     "zongId": "44178",
     "ufoneId": "-",
+    "guestOmo": "TP/ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -20510,6 +23833,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LMB010",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -20526,6 +23851,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LMK009",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -20542,6 +23869,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LPHR29",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -20558,6 +23887,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LPHR27",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -20574,6 +23905,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LPH024",
     "zongId": "44163",
     "ufoneId": "-",
+    "guestOmo": "TP/ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -20590,6 +23923,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LPHR30",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -20606,6 +23941,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LAG002",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -20622,6 +23959,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LPHR34",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -20638,6 +23977,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LPHR33",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -20654,6 +23995,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LPHR31",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -20670,6 +24013,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LPHR35",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -20686,6 +24031,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LSRK02",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -20702,6 +24049,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LPH026",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -20718,6 +24067,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LPH025",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -20734,6 +24085,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LMBR63",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -20750,6 +24103,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LJU002",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -20766,6 +24121,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LMBR66",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -20782,6 +24139,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LMK012",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -20798,6 +24157,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LMB032",
     "zongId": "44146",
     "ufoneId": "-",
+    "guestOmo": "TP/ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -20814,6 +24175,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LMK013",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -20830,6 +24193,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LMK014",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -20846,6 +24211,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LMR005",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -20862,6 +24229,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LRE003",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -20878,6 +24247,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LMB033",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -20894,6 +24265,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LMBR62",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -20910,6 +24283,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LPH027",
     "zongId": "44162",
     "ufoneId": "-",
+    "guestOmo": "TP/ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -20926,6 +24301,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LTH003",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -20942,6 +24319,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LQD006",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -20958,6 +24337,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LMR006",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -20974,6 +24355,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LBMR27",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -20990,6 +24373,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LMBR69",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -21006,6 +24391,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LMBR68",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -21022,6 +24409,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LJU003",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -21038,6 +24427,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LDI005",
     "zongId": "44683",
     "ufoneId": "-",
+    "guestOmo": "TP/ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -21054,6 +24445,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LBMR24",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -21070,6 +24463,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LMB029",
     "zongId": "43447",
     "ufoneId": "CI-1264",
+    "guestOmo": "TP/ZONG/Ufone",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -21086,6 +24481,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LMB035",
     "zongId": "-",
     "ufoneId": "CI-1942",
+    "guestOmo": "TP/Ufone",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -21102,6 +24499,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LMB036",
     "zongId": "-",
     "ufoneId": "CI-1940",
+    "guestOmo": "TP/Ufone",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -21118,6 +24517,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LMB016",
     "zongId": "-",
     "ufoneId": "3650",
+    "guestOmo": "TP/Ufone",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -21134,6 +24535,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LMK008",
     "zongId": "4460",
     "ufoneId": "3792",
+    "guestOmo": "TP/ZONG/Ufone",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -21150,6 +24553,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "CI-1964",
+    "guestOmo": "Ufone",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -21166,6 +24571,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "CI-1890",
+    "guestOmo": "Ufone",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -21182,6 +24589,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "CI-1886",
+    "guestOmo": "Ufone",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -21198,6 +24607,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "43808",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -21214,6 +24625,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LISH01",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -21230,6 +24643,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LMW005",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -21246,6 +24661,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LPH013",
     "zongId": "41206",
     "ufoneId": "-",
+    "guestOmo": "TP/ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -21262,6 +24679,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LPHR10",
     "zongId": "4849",
     "ufoneId": "-",
+    "guestOmo": "TP/ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -21278,6 +24697,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LPHR11",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -21294,6 +24715,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LPWR01",
     "zongId": "41233",
     "ufoneId": "-",
+    "guestOmo": "TP/ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -21310,6 +24733,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LRE001",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -21326,6 +24751,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LRL002",
     "zongId": "41043",
     "ufoneId": "-",
+    "guestOmo": "TP/ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -21342,6 +24769,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LRNS01",
     "zongId": "41205",
     "ufoneId": "-",
+    "guestOmo": "TP/ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -21358,6 +24787,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LSWR02",
     "zongId": "41142",
     "ufoneId": "-",
+    "guestOmo": "TP/ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -21374,6 +24805,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LDS003",
     "zongId": "44165",
     "ufoneId": "-",
+    "guestOmo": "TP/ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -21390,6 +24823,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "44172",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -21406,6 +24841,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LBMR18",
     "zongId": "44169",
     "ufoneId": "-",
+    "guestOmo": "TP/ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -21422,6 +24859,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "44186",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -21438,6 +24877,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "44174",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -21454,6 +24895,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "44145",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -21470,6 +24913,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "44171",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -21486,6 +24931,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "44179",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -21502,6 +24949,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "44185",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -21518,6 +24967,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LCO005",
     "zongId": "44168",
     "ufoneId": "-",
+    "guestOmo": "TP/ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -21534,22 +24985,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "44158",
     "ufoneId": "-",
-    "createdAt": 1700000000000
-  },
-  {
-    "id": "d4e5f6a7-0511-0000-0000-000000000511",
-    "name": "EC1-MBD-09467",
-    "lat": 32.694962,
-    "lng": 73.6238151,
-    "mbuNumber": "C4-GRT-04",
-    "mbuName": "Muhammad Asjad Jalib",
-    "cellNumber": "3006255758",
-    "networkPortfolio": "Enfrashare",
-    "zonalManager": "Ovais Ali Khan",
-    "jazzId": "-",
-    "telenorId": "-",
-    "zongId": "44420",
-    "ufoneId": "-",
+    "guestOmo": "ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -21566,6 +25003,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "44153",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -21582,6 +25021,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "44164",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -21598,6 +25039,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LQDR07",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -21614,6 +25057,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LBMR20",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -21630,6 +25075,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LBMR22",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -21646,6 +25093,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LBS004",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -21662,6 +25111,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LBMR26",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -21678,6 +25129,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LMK016",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -21694,6 +25147,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "43764",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -21710,6 +25165,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LHN004",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -21726,6 +25183,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LBMR17",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -21742,6 +25201,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LPHR18",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -21758,22 +25219,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
-    "createdAt": 1700000000000
-  },
-  {
-    "id": "d4e5f6a7-051f-0000-0000-00000000051f",
-    "name": "EC2-BHR-01773",
-    "lat": 32.53,
-    "lng": 73.08,
-    "mbuNumber": "C4-MBD-08",
-    "mbuName": "Waqas Ahmed",
-    "cellNumber": "3028463897",
-    "networkPortfolio": "Enfrashare",
-    "zonalManager": "Ovais Ali Khan",
-    "jazzId": "-",
-    "telenorId": "LMI004",
-    "zongId": "-",
-    "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -21790,6 +25236,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LMI005",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -21806,6 +25254,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "42997",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -21822,6 +25272,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "40909",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -21838,6 +25290,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LMX002",
     "zongId": "43367",
     "ufoneId": "-",
+    "guestOmo": "TP/ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -21854,6 +25308,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "42977",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -21870,6 +25326,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "43297",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -21886,6 +25344,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LMX003",
     "zongId": "43571",
     "ufoneId": "-",
+    "guestOmo": "TP/ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -21902,6 +25362,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "42907",
     "ufoneId": "CI-1226",
+    "guestOmo": "ZONG/Ufone",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -21918,6 +25380,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "43575",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -21934,6 +25398,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LNS005",
     "zongId": "43524",
     "ufoneId": "CI-1158",
+    "guestOmo": "TP/ZONG/Ufone",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -21950,6 +25416,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "43547",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -21966,6 +25434,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "43052",
     "ufoneId": "CI-1943",
+    "guestOmo": "ZONG/Ufone",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -21982,6 +25452,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "43531",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -21998,6 +25470,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "42720",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -22014,6 +25488,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "43196",
     "ufoneId": "CI-1152",
+    "guestOmo": "ZONG/Ufone",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -22030,6 +25506,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "43568",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -22046,6 +25524,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "42953",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -22062,6 +25542,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "43558",
     "ufoneId": "CI-1173",
+    "guestOmo": "ZONG/Ufone",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -22078,6 +25560,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "43581",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -22094,6 +25578,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "43175",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -22110,6 +25596,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LBJ002",
     "zongId": "42978",
     "ufoneId": "-",
+    "guestOmo": "TP/ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -22126,6 +25614,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "43576",
     "ufoneId": "CI-1234",
+    "guestOmo": "ZONG/Ufone",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -22142,6 +25632,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -22158,6 +25649,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -22174,6 +25666,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -22190,6 +25683,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -22206,6 +25700,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -22222,6 +25717,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -22238,6 +25734,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -22254,6 +25751,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -22270,6 +25768,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -22286,6 +25785,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "43088",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -22302,6 +25803,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -22318,6 +25820,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -22334,6 +25837,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "42984",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -22350,6 +25855,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -22366,6 +25872,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -22382,6 +25889,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -22398,6 +25906,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -22414,6 +25923,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -22430,6 +25940,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "43564",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -22446,6 +25958,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -22462,6 +25975,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -22478,6 +25992,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -22494,6 +26009,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -22510,6 +26026,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -22526,6 +26043,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "43433",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -22542,6 +26061,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LSH031",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -22558,6 +26079,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -22574,6 +26096,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "43858",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -22590,6 +26114,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -22606,6 +26131,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -22622,6 +26148,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -22638,6 +26165,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -22654,6 +26182,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LPKR05",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -22670,6 +26200,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -22686,6 +26217,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -22702,6 +26234,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -22718,6 +26251,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -22734,6 +26268,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -22750,6 +26285,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "43862",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -22766,6 +26303,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -22782,6 +26320,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -22798,6 +26337,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -22814,6 +26354,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -22830,6 +26371,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "45008",
     "ufoneId": "7612",
+    "guestOmo": "ZONG/Ufone",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -22846,6 +26389,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -22862,6 +26406,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LLR840",
     "zongId": "-",
     "ufoneId": "CI-1802",
+    "guestOmo": "TP/Ufone",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -22878,6 +26424,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -22894,6 +26441,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -22910,6 +26458,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -22926,6 +26475,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LNS008",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -22942,6 +26493,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -22958,6 +26510,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -22974,6 +26527,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -22990,6 +26544,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -23006,6 +26561,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -23022,6 +26578,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -23038,6 +26595,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -23054,6 +26612,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "44692",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -23070,6 +26630,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -23086,6 +26647,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -23102,6 +26664,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -23118,6 +26681,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LRJ002",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -23134,6 +26699,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "44112",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -23150,6 +26717,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "44623",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -23166,6 +26735,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -23182,6 +26752,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LLH231",
     "zongId": "44963",
     "ufoneId": "-",
+    "guestOmo": "TP/ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -23198,6 +26770,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -23214,6 +26787,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "43553",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -23230,6 +26805,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "45023",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -23246,6 +26823,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "CI-1005",
+    "guestOmo": "Ufone",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -23262,6 +26841,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -23278,6 +26858,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -23294,6 +26875,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -23310,6 +26892,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -23326,22 +26909,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LSP014",
     "zongId": "-",
     "ufoneId": "-",
-    "createdAt": 1700000000000
-  },
-  {
-    "id": "d4e5f6a7-0582-0000-0000-000000000582",
-    "name": "EC1-MNW-03925",
-    "lat": 31.606623,
-    "lng": 73.715282,
-    "mbuNumber": "C2-NNK-05",
-    "mbuName": "Adeel Arshad",
-    "cellNumber": "3065652222",
-    "networkPortfolio": "Enfrashare",
-    "zonalManager": "Ovais Ali Khan",
-    "jazzId": "-",
-    "telenorId": "LHTW01",
-    "zongId": "-",
-    "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -23358,6 +26927,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LM2R02",
     "zongId": "43728",
     "ufoneId": "3646",
+    "guestOmo": "TP/ZONG/Ufone",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -23374,6 +26945,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "CI-1069",
+    "guestOmo": "Ufone",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -23390,6 +26963,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "CI-1630",
+    "guestOmo": "Ufone",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -23406,6 +26981,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "CI-1631",
+    "guestOmo": "Ufone",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -23422,6 +26999,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "3654",
+    "guestOmo": "Ufone",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -23438,6 +27017,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -23454,6 +27034,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "43775",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -23470,6 +27052,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "43815",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -23486,6 +27070,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -23502,38 +27087,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
-    "createdAt": 1700000000000
-  },
-  {
-    "id": "d4e5f6a7-058d-0000-0000-00000000058d",
-    "name": "EC1-MKR-07799",
-    "lat": 31.319243,
-    "lng": 73.768119,
-    "mbuNumber": "C2-NNK-05",
-    "mbuName": "Adeel Arshad",
-    "cellNumber": "3065652222",
-    "networkPortfolio": "Enfrashare",
-    "zonalManager": "Ovais Ali Khan",
-    "jazzId": "MKN6655",
-    "telenorId": "-",
-    "zongId": "-",
-    "ufoneId": "-",
-    "createdAt": 1700000000000
-  },
-  {
-    "id": "d4e5f6a7-058e-0000-0000-00000000058e",
-    "name": "EC1-RWN-07876",
-    "lat": 31.261095,
-    "lng": 74.128108,
-    "mbuNumber": "C2-RWD-01",
-    "mbuName": "Akmal Shahzad",
-    "cellNumber": "3028432537",
-    "networkPortfolio": "Enfrashare",
-    "zonalManager": "Ovais Ali Khan",
-    "jazzId": "RUR6653",
-    "telenorId": "-",
-    "zongId": "-",
-    "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -23550,38 +27104,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
-    "createdAt": 1700000000000
-  },
-  {
-    "id": "d4e5f6a7-0591-0000-0000-000000000591",
-    "name": "EC1-PNG-07797",
-    "lat": 31.244152,
-    "lng": 74.018097,
-    "mbuNumber": "C2-NNK-05",
-    "mbuName": "Adeel Arshad",
-    "cellNumber": "3065652222",
-    "networkPortfolio": "Enfrashare",
-    "zonalManager": "Ovais Ali Khan",
-    "jazzId": "RUR6676",
-    "telenorId": "-",
-    "zongId": "44670",
-    "ufoneId": "-",
-    "createdAt": 1700000000000
-  },
-  {
-    "id": "d4e5f6a7-0592-0000-0000-000000000592",
-    "name": "EC1-PNG-07798",
-    "lat": 31.2237,
-    "lng": 73.926601,
-    "mbuNumber": "C2-NNK-05",
-    "mbuName": "Adeel Arshad",
-    "cellNumber": "3065652222",
-    "networkPortfolio": "Enfrashare",
-    "zonalManager": "Ovais Ali Khan",
-    "jazzId": "RUR6654",
-    "telenorId": "-",
-    "zongId": "-",
-    "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -23598,6 +27121,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "45017",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -23614,6 +27139,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -23630,6 +27156,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "CI-1386",
+    "guestOmo": "Ufone",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -23646,6 +27174,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "44335",
     "ufoneId": "CI-1212",
+    "guestOmo": "ZONG/Ufone",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -23662,6 +27192,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LNS007",
     "zongId": "43526",
     "ufoneId": "-",
+    "guestOmo": "TP/ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -23678,6 +27210,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "43555",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -23694,6 +27228,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "43787",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -23710,6 +27246,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "4289",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -23726,6 +27264,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -23742,6 +27281,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "7442",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -23758,6 +27299,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -23774,6 +27316,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LCNK01",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -23790,6 +27334,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LGA001",
     "zongId": "40946",
     "ufoneId": "-",
+    "guestOmo": "TP/ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -23806,6 +27352,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "41247",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -23822,6 +27370,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LKSM01",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -23838,6 +27388,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LKVS01",
     "zongId": "-",
     "ufoneId": "3576",
+    "guestOmo": "TP/Ufone",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -23854,6 +27406,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LHFR35",
     "zongId": "-",
     "ufoneId": "-",
+    "guestOmo": "TP",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -23870,6 +27424,8 @@ export const defaultSites: Site[] = [
     "telenorId": "LMDR02",
     "zongId": "40964",
     "ufoneId": "-",
+    "guestOmo": "TP/ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -23886,6 +27442,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -23902,6 +27459,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -23918,6 +27476,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -23934,6 +27493,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "43979",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -23950,6 +27511,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "45018",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -23966,6 +27529,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -23982,6 +27546,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "44514",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -23998,6 +27564,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "44576",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -24014,6 +27582,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "43546",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -24030,6 +27600,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "44115",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -24046,6 +27618,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "44697",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -24062,6 +27636,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "43665",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -24078,6 +27654,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "44404",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -24094,6 +27672,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "44381",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -24110,6 +27690,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "44390",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -24126,6 +27708,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "44338",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -24142,6 +27726,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "44337",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -24158,6 +27744,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "43977",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -24174,6 +27762,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "44395",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -24190,6 +27780,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "43578",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -24206,6 +27798,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "43886",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -24222,6 +27816,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -24238,6 +27833,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -24254,6 +27850,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "43536",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -24270,6 +27868,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -24286,6 +27885,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -24302,6 +27902,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -24318,6 +27919,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -24334,6 +27936,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -24350,6 +27953,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -24366,6 +27970,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -24382,6 +27987,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -24398,6 +28004,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -24414,6 +28021,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -24430,6 +28038,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -24446,6 +28055,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -24462,6 +28072,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "44380",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -24478,6 +28090,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -24494,6 +28107,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -24510,6 +28124,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -24526,6 +28141,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -24542,6 +28158,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -24558,6 +28175,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -24574,6 +28192,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -24590,22 +28209,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
-    "createdAt": 1700000000000
-  },
-  {
-    "id": "d4e5f6a7-05d2-0000-0000-0000000005d2",
-    "name": "EC1-PNG-09979",
-    "lat": 31.204617,
-    "lng": 73.979597,
-    "mbuNumber": "C2-NNK-05",
-    "mbuName": "Adeel Arshad",
-    "cellNumber": "3065652222",
-    "networkPortfolio": "Enfrashare",
-    "zonalManager": "Ovais Ali Khan",
-    "jazzId": "RUR7552",
-    "telenorId": "-",
-    "zongId": "-",
-    "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -24622,6 +28226,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -24638,6 +28243,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -24654,6 +28260,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -24670,6 +28277,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "44629",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -24686,6 +28295,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -24702,6 +28312,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -24718,6 +28329,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -24734,6 +28346,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -24750,6 +28363,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -24766,6 +28380,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -24782,6 +28397,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -24798,6 +28414,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -24814,6 +28431,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -24830,6 +28448,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -24846,6 +28465,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -24862,6 +28482,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -24878,6 +28499,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -24894,6 +28516,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -24910,6 +28533,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -24926,6 +28550,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -24942,6 +28567,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -24958,6 +28584,7 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -24974,6 +28601,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -24990,6 +28619,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -25004,8 +28635,12 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "40726",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -25019,9 +28654,14 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LKRR08",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "TP",
+    "noOfSites": "1",
+    "tpId": "LKRR08",
+    "tpApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -25038,6 +28678,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "solar": "Yes",
+    "solarKwa": "10.44",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -25054,6 +28698,9 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Hub",
+    "neLocation": "NE",
+    "noOfSites": "8",
     "createdAt": 1700000000000
   },
   {
@@ -25070,6 +28717,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "2",
     "createdAt": 1700000000000
   },
   {
@@ -25086,6 +28735,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "5",
     "createdAt": 1700000000000
   },
   {
@@ -25102,6 +28753,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "7",
     "createdAt": 1700000000000
   },
   {
@@ -25115,9 +28768,15 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LSPR11",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "TP",
+    "noOfSites": "2",
+    "dcSharedWith": "Telenor",
+    "tpId": "LSPR11",
+    "tpApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -25132,8 +28791,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "40755",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -25150,6 +28814,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "3",
     "createdAt": 1700000000000
   },
   {
@@ -25165,7 +28831,11 @@ export const defaultSites: Site[] = [
     "jazzId": "-",
     "telenorId": "-",
     "zongId": "-",
-    "ufoneId": "-",
+    "ufoneId": "3592",
+    "category": "Platinum",
+    "guestOmo": "Ufone",
+    "noOfSites": "7",
+    "ufoneApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -25182,6 +28852,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -25198,6 +28870,9 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Hub",
+    "neLocation": "NE",
+    "noOfSites": "20",
     "createdAt": 1700000000000
   },
   {
@@ -25214,6 +28889,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -25230,6 +28907,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -25246,6 +28925,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -25262,6 +28943,9 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Hub",
+    "neLocation": "NE",
+    "noOfSites": "29",
     "createdAt": 1700000000000
   },
   {
@@ -25278,6 +28962,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -25294,6 +28980,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "4",
     "createdAt": 1700000000000
   },
   {
@@ -25310,6 +28998,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -25325,7 +29015,11 @@ export const defaultSites: Site[] = [
     "jazzId": "-",
     "telenorId": "-",
     "zongId": "-",
-    "ufoneId": "-",
+    "ufoneId": "3814",
+    "category": "General",
+    "guestOmo": "Ufone",
+    "noOfSites": "1",
+    "ufoneApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -25340,8 +29034,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "45020",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -25355,9 +29054,15 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LSP011",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "TP",
+    "noOfSites": "1",
+    "dcSharedWith": "Telenor",
+    "tpId": "LSP011",
+    "tpApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -25372,8 +29077,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "C-SHK-4292",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -25390,6 +29100,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -25404,8 +29116,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "C-HWY-7339",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -25422,6 +29139,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -25438,6 +29157,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "4",
     "createdAt": 1700000000000
   },
   {
@@ -25454,6 +29175,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -25470,6 +29193,9 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Hub",
+    "neLocation": "NE",
+    "noOfSites": "14",
     "createdAt": 1700000000000
   },
   {
@@ -25486,6 +29212,9 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Hub",
+    "neLocation": "NE",
+    "noOfSites": "17",
     "createdAt": 1700000000000
   },
   {
@@ -25502,6 +29231,9 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Hub",
+    "neLocation": "NE",
+    "noOfSites": "20",
     "createdAt": 1700000000000
   },
   {
@@ -25515,9 +29247,16 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
-    "zongId": "-",
-    "ufoneId": "-",
+    "telenorId": "LSP035",
+    "zongId": "c-shk-3521",
+    "ufoneId": "3G-CI-1917",
+    "category": "Platinum",
+    "guestOmo": "TP/ZONG/Ufone",
+    "noOfSites": "1",
+    "ufoneApprovedServices": "CP",
+    "tpId": "LSP035",
+    "tpApprovedServices": "CP",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -25534,6 +29273,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "4",
     "createdAt": 1700000000000
   },
   {
@@ -25547,9 +29288,17 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
-    "zongId": "-",
-    "ufoneId": "-",
+    "telenorId": "LSP038",
+    "zongId": "42620",
+    "ufoneId": "3G-CI-1916",
+    "category": "Platinum",
+    "guestOmo": "TP/ZONG/Ufone",
+    "noOfSites": "1",
+    "dcSharedWith": "Telenor/Zong",
+    "ufoneApprovedServices": "CP",
+    "tpId": "LSP038",
+    "tpApprovedServices": "DC",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -25566,6 +29315,11 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Hub",
+    "solar": "Yes",
+    "solarKwa": "13.92",
+    "neLocation": "NE",
+    "noOfSites": "8",
     "createdAt": 1700000000000
   },
   {
@@ -25581,7 +29335,11 @@ export const defaultSites: Site[] = [
     "jazzId": "-",
     "telenorId": "-",
     "zongId": "-",
-    "ufoneId": "-",
+    "ufoneId": "CI-1063",
+    "category": "General",
+    "guestOmo": "Ufone",
+    "noOfSites": "2",
+    "ufoneApprovedServices": "DG",
     "createdAt": 1700000000000
   },
   {
@@ -25595,9 +29353,16 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
-    "zongId": "-",
+    "telenorId": "LKP001",
+    "zongId": "41069",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "TP/ZONG",
+    "noOfSites": "1",
+    "dcSharedWith": "Telenor/Zong",
+    "tpId": "LKP001",
+    "tpApprovedServices": "DC",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -25612,8 +29377,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "C-RUR-4479",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "3",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -25630,6 +29400,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "2",
     "createdAt": 1700000000000
   },
   {
@@ -25644,8 +29416,12 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "40730",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "2",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -25660,8 +29436,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "40879",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "ZONG",
+    "noOfSites": "3",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -25676,8 +29457,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "45027",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -25692,8 +29478,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "C-LHR-4731",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -25709,7 +29500,11 @@ export const defaultSites: Site[] = [
     "jazzId": "-",
     "telenorId": "-",
     "zongId": "-",
-    "ufoneId": "-",
+    "ufoneId": "CI-1873",
+    "category": "General",
+    "guestOmo": "Ufone",
+    "noOfSites": "1",
+    "ufoneApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -25724,8 +29519,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "41010",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "2",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -25742,6 +29542,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -25756,8 +29558,12 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "41132",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -25774,6 +29580,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "4",
     "createdAt": 1700000000000
   },
   {
@@ -25790,6 +29598,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -25806,6 +29616,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -25820,8 +29632,12 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "41056",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -25838,6 +29654,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "2",
     "createdAt": 1700000000000
   },
   {
@@ -25851,9 +29669,15 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LKAT01",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "TP",
+    "noOfSites": "3",
+    "dcSharedWith": "Telenor",
+    "tpId": "LKAT01",
+    "tpApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -25868,8 +29692,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "C-RUR-4409",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -25886,6 +29715,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "solar": "Yes",
+    "solarKwa": "13.92",
+    "noOfSites": "3",
     "createdAt": 1700000000000
   },
   {
@@ -25902,6 +29735,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "3",
     "createdAt": 1700000000000
   },
   {
@@ -25918,6 +29753,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "solar": "Yes",
+    "solarKwa": "13.92",
+    "noOfSites": "3",
     "createdAt": 1700000000000
   },
   {
@@ -25934,6 +29773,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "2",
     "createdAt": 1700000000000
   },
   {
@@ -25950,6 +29791,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -25966,6 +29809,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -25982,6 +29827,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "3",
     "createdAt": 1700000000000
   },
   {
@@ -25997,7 +29844,11 @@ export const defaultSites: Site[] = [
     "jazzId": "-",
     "telenorId": "-",
     "zongId": "-",
-    "ufoneId": "-",
+    "ufoneId": "CI-1972",
+    "category": "General",
+    "guestOmo": "Ufone",
+    "noOfSites": "3",
+    "ufoneApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -26012,8 +29863,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "C-RUR-4858",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -26030,6 +29886,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "5",
     "createdAt": 1700000000000
   },
   {
@@ -26046,6 +29904,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "solar": "Yes",
+    "solarKwa": "10.44",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -26062,6 +29924,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -26078,6 +29942,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "2",
     "createdAt": 1700000000000
   },
   {
@@ -26094,6 +29960,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -26110,6 +29978,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "solar": "Yes",
+    "solarKwa": "13.92",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -26124,8 +29996,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "45052",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -26142,6 +30019,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "solar": "Yes",
+    "solarKwa": "10.44",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -26155,9 +30036,14 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LSP012",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "TP",
+    "noOfSites": "1",
+    "tpId": "LSP012",
+    "tpApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -26174,6 +30060,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -26190,6 +30078,9 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Hub",
+    "neLocation": "NE",
+    "noOfSites": "23",
     "createdAt": 1700000000000
   },
   {
@@ -26206,6 +30097,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -26222,6 +30115,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "3",
     "createdAt": 1700000000000
   },
   {
@@ -26238,6 +30133,9 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Hub",
+    "neLocation": "NE",
+    "noOfSites": "19",
     "createdAt": 1700000000000
   },
   {
@@ -26251,9 +30149,14 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LSP018",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "TP",
+    "noOfSites": "1",
+    "tpId": "LSP018",
+    "tpApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -26267,9 +30170,15 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LSP015",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "TP",
+    "noOfSites": "3",
+    "dcSharedWith": "Telenor",
+    "tpId": "LSP015",
+    "tpApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -26283,9 +30192,14 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LSP020",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "TP",
+    "noOfSites": "1",
+    "tpId": "LSP020",
+    "tpApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -26302,6 +30216,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -26318,6 +30234,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -26332,8 +30250,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
-    "ufoneId": "-",
+    "zongId": "C-SHK-3647",
+    "ufoneId": "3519",
+    "category": "Platinum",
+    "guestOmo": "ZONG/Ufone",
+    "noOfSites": "1",
+    "ufoneApprovedServices": "CP",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -26350,6 +30273,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -26364,8 +30289,14 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
-    "ufoneId": "-",
+    "zongId": "C-SHK-3650",
+    "ufoneId": "CI-1673",
+    "category": "Platinum",
+    "guestOmo": "ZONG/Ufone",
+    "noOfSites": "2",
+    "dcSharedWith": "ZONG",
+    "ufoneApprovedServices": "CP",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -26382,6 +30313,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -26398,6 +30331,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "2",
     "createdAt": 1700000000000
   },
   {
@@ -26412,8 +30347,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
-    "ufoneId": "-",
+    "zongId": "40721",
+    "ufoneId": "3504",
+    "category": "Platinum",
+    "guestOmo": "ZONG/Ufone",
+    "noOfSites": "1",
+    "ufoneApprovedServices": "CP",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -26430,6 +30370,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -26444,8 +30386,12 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "C-SHK-7926",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -26461,7 +30407,11 @@ export const defaultSites: Site[] = [
     "jazzId": "-",
     "telenorId": "-",
     "zongId": "-",
-    "ufoneId": "-",
+    "ufoneId": "CI-1672",
+    "category": "Platinum",
+    "guestOmo": "Ufone",
+    "noOfSites": "1",
+    "ufoneApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -26478,6 +30428,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -26492,8 +30444,12 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "C-SHK-3649",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -26509,7 +30465,11 @@ export const defaultSites: Site[] = [
     "jazzId": "-",
     "telenorId": "-",
     "zongId": "-",
-    "ufoneId": "-",
+    "ufoneId": "3G-CI-1912",
+    "category": "General",
+    "guestOmo": "Ufone",
+    "noOfSites": "1",
+    "ufoneApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -26524,8 +30484,12 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "C-SHK-7927",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -26542,6 +30506,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "solar": "Yes",
+    "solarKwa": "13.92",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -26558,6 +30526,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -26574,6 +30544,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "3",
     "createdAt": 1700000000000
   },
   {
@@ -26587,9 +30559,15 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LSH015",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Hub",
+    "guestOmo": "TP",
+    "neLocation": "NE",
+    "noOfSites": "25",
+    "tpId": "LSH015",
+    "tpApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -26606,6 +30584,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "2",
     "createdAt": 1700000000000
   },
   {
@@ -26620,8 +30600,12 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "C-LHR-7567",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -26638,6 +30622,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -26654,6 +30640,9 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
+    "dcSharedWith": "ZONG",
     "createdAt": 1700000000000
   },
   {
@@ -26670,6 +30659,9 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Hub",
+    "neLocation": "NE",
+    "noOfSites": "27",
     "createdAt": 1700000000000
   },
   {
@@ -26686,6 +30678,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -26702,6 +30696,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -26717,7 +30713,11 @@ export const defaultSites: Site[] = [
     "jazzId": "-",
     "telenorId": "-",
     "zongId": "-",
-    "ufoneId": "-",
+    "ufoneId": "3197",
+    "category": "Platinum",
+    "guestOmo": "Ufone",
+    "noOfSites": "1",
+    "ufoneApprovedServices": "DG",
     "createdAt": 1700000000000
   },
   {
@@ -26734,6 +30734,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -26748,8 +30750,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "C-SDR-4318",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -26766,6 +30773,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "4",
     "createdAt": 1700000000000
   },
   {
@@ -26780,8 +30789,15 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "C-SDR-7858",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "solar": "Yes",
+    "solarKwa": "12.54",
+    "noOfSites": "1",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -26798,6 +30814,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -26814,6 +30832,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -26830,6 +30850,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -26846,6 +30868,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -26862,6 +30886,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -26876,8 +30902,12 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "42657",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -26891,9 +30921,14 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LSH014",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "TP",
+    "noOfSites": "1",
+    "tpId": "LSH014",
+    "tpApprovedServices": "DG",
     "createdAt": 1700000000000
   },
   {
@@ -26907,9 +30942,14 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LSH026",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "TP",
+    "noOfSites": "1",
+    "tpId": "LSH026",
+    "tpApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -26926,6 +30966,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -26942,6 +30984,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -26958,6 +31002,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -26974,6 +31020,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -26990,6 +31038,9 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Hub",
+    "neLocation": "NE",
+    "noOfSites": "13",
     "createdAt": 1700000000000
   },
   {
@@ -27005,7 +31056,11 @@ export const defaultSites: Site[] = [
     "jazzId": "-",
     "telenorId": "-",
     "zongId": "-",
-    "ufoneId": "-",
+    "ufoneId": "7664",
+    "category": "General",
+    "guestOmo": "Ufone",
+    "noOfSites": "1",
+    "ufoneApprovedServices": "DG",
     "createdAt": 1700000000000
   },
   {
@@ -27022,6 +31077,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -27038,6 +31095,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -27053,7 +31112,11 @@ export const defaultSites: Site[] = [
     "jazzId": "-",
     "telenorId": "-",
     "zongId": "-",
-    "ufoneId": "-",
+    "ufoneId": "CI-1632",
+    "category": "Platinum",
+    "guestOmo": "Ufone",
+    "noOfSites": "1",
+    "ufoneApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -27068,8 +31131,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "C-SDR-3523",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -27086,6 +31154,9 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Hub",
+    "neLocation": "NE",
+    "noOfSites": "9",
     "createdAt": 1700000000000
   },
   {
@@ -27102,6 +31173,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "2",
     "createdAt": 1700000000000
   },
   {
@@ -27115,9 +31188,16 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
-    "zongId": "-",
+    "telenorId": "LSH018",
+    "zongId": "C-SDR-4530",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "TP/ZONG",
+    "noOfSites": "1",
+    "dcSharedWith": "Telenor",
+    "tpId": "LSH018",
+    "tpApprovedServices": "DC",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -27134,6 +31214,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -27147,9 +31229,15 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
-    "zongId": "-",
+    "telenorId": "LSH021",
+    "zongId": "C-LHR-7563",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "TP/ZONG",
+    "noOfSites": "1",
+    "tpId": "LSH021",
+    "tpApprovedServices": "DG",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -27166,6 +31254,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -27182,6 +31272,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -27198,6 +31290,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -27212,8 +31306,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "41046",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -27230,6 +31329,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "solar": "Yes",
+    "solarKwa": "13.92",
+    "noOfSites": "4",
     "createdAt": 1700000000000
   },
   {
@@ -27246,6 +31349,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "solar": "Yes",
+    "solarKwa": "13.92",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -27259,9 +31366,15 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LCH003",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "TP",
+    "noOfSites": "1",
+    "dcSharedWith": "Telenor",
+    "tpId": "LCH003",
+    "tpApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -27278,6 +31391,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -27292,8 +31407,12 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "42370",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -27310,6 +31429,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "5",
     "createdAt": 1700000000000
   },
   {
@@ -27326,6 +31447,9 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Hub",
+    "neLocation": "NE",
+    "noOfSites": "47",
     "createdAt": 1700000000000
   },
   {
@@ -27342,6 +31466,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -27355,9 +31481,15 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LRW002",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "TP",
+    "noOfSites": "1",
+    "dcSharedWith": "Telenor",
+    "tpId": "LRW002",
+    "tpApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -27374,6 +31506,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -27387,9 +31521,15 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LLR826",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "TP",
+    "noOfSites": "5",
+    "dcSharedWith": "Telenor",
+    "tpId": "LLR826",
+    "tpApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -27406,6 +31546,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -27421,7 +31563,11 @@ export const defaultSites: Site[] = [
     "jazzId": "-",
     "telenorId": "-",
     "zongId": "-",
-    "ufoneId": "-",
+    "ufoneId": "7618",
+    "category": "Platinum",
+    "guestOmo": "Ufone",
+    "noOfSites": "1",
+    "ufoneApprovedServices": "DG",
     "createdAt": 1700000000000
   },
   {
@@ -27438,6 +31584,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -27454,6 +31602,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -27470,6 +31620,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -27486,6 +31638,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -27502,6 +31656,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -27515,9 +31671,16 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
-    "zongId": "-",
+    "telenorId": "LSPR04",
+    "zongId": "44583",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "TP/ZONG",
+    "noOfSites": "1",
+    "dcSharedWith": "ZONG",
+    "tpId": "LSPR04",
+    "tpApprovedServices": "CP",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -27534,6 +31697,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "2",
     "createdAt": 1700000000000
   },
   {
@@ -27550,6 +31715,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "solar": "Yes",
+    "solarKwa": "10.44",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -27566,6 +31735,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -27582,6 +31753,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -27598,6 +31771,9 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Hub",
+    "neLocation": "NE",
+    "noOfSites": "16",
     "createdAt": 1700000000000
   },
   {
@@ -27614,6 +31790,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -27630,6 +31808,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "solar": "Yes",
+    "solarKwa": "13.92",
+    "noOfSites": "2",
     "createdAt": 1700000000000
   },
   {
@@ -27646,6 +31828,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -27660,8 +31844,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "C-HWY-4410",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "5",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -27678,6 +31867,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -27691,9 +31882,15 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
-    "zongId": "-",
+    "telenorId": "LPK006",
+    "zongId": "C-RUR-4414",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "TP/ZONG",
+    "noOfSites": "1",
+    "tpId": "LPK006",
+    "tpApprovedServices": "CP",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -27710,6 +31907,9 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Hub",
+    "neLocation": "NE",
+    "noOfSites": "31",
     "createdAt": 1700000000000
   },
   {
@@ -27726,6 +31926,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -27742,6 +31944,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -27755,9 +31959,14 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LPK004",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "TP",
+    "noOfSites": "1",
+    "tpId": "LPK004",
+    "tpApprovedServices": "DG",
     "createdAt": 1700000000000
   },
   {
@@ -27773,7 +31982,11 @@ export const defaultSites: Site[] = [
     "jazzId": "-",
     "telenorId": "-",
     "zongId": "-",
-    "ufoneId": "-",
+    "ufoneId": "CI-1146",
+    "category": "Platinum",
+    "guestOmo": "Ufone",
+    "noOfSites": "1",
+    "ufoneApprovedServices": "DG",
     "createdAt": 1700000000000
   },
   {
@@ -27790,6 +32003,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -27803,9 +32018,15 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LPK007",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "TP",
+    "noOfSites": "5",
+    "dcSharedWith": "Telenor",
+    "tpId": "LPK007",
+    "tpApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -27822,6 +32043,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -27836,8 +32059,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "C-PTK-3544",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -27852,8 +32080,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "43428",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -27868,8 +32101,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "41966",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -27884,8 +32122,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "41970",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -27899,9 +32142,15 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LPDH01",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "TP",
+    "noOfSites": "1",
+    "dcSharedWith": "Telenor",
+    "tpId": "LPDH01",
+    "tpApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -27918,6 +32167,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -27934,6 +32185,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -27950,6 +32203,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "solar": "Yes",
+    "solarKwa": "10.44",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -27966,6 +32223,11 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Hub",
+    "solar": "Yes",
+    "solarKwa": "11.6",
+    "neLocation": "NE",
+    "noOfSites": "15",
     "createdAt": 1700000000000
   },
   {
@@ -27980,8 +32242,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "41968",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -27998,6 +32265,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -28012,8 +32281,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "41973",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -28030,6 +32304,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -28046,6 +32322,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -28062,6 +32340,9 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Hub",
+    "neLocation": "NE",
+    "noOfSites": "13",
     "createdAt": 1700000000000
   },
   {
@@ -28075,9 +32356,16 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LNG006",
     "zongId": "-",
-    "ufoneId": "-",
+    "ufoneId": "3534",
+    "category": "Platinum",
+    "guestOmo": "TP/Ufone",
+    "noOfSites": "1",
+    "dcSharedWith": "Telenor",
+    "ufoneApprovedServices": "DG",
+    "tpId": "LNG006",
+    "tpApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -28094,6 +32382,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -28108,8 +32398,12 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "40704",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -28126,6 +32420,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "solar": "Yes",
+    "solarKwa": "6.96",
+    "noOfSites": "3",
     "createdAt": 1700000000000
   },
   {
@@ -28140,8 +32438,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "40703",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -28155,9 +32458,16 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
-    "zongId": "-",
+    "telenorId": "LNK007",
+    "zongId": "C-NNS-4317",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "TP/ZONG",
+    "noOfSites": "1",
+    "dcSharedWith": "ZONG",
+    "tpId": "LNK007",
+    "tpApprovedServices": "CP",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -28174,6 +32484,9 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Hub",
+    "neLocation": "NE",
+    "noOfSites": "21",
     "createdAt": 1700000000000
   },
   {
@@ -28190,6 +32503,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -28206,6 +32521,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "solar": "Yes",
+    "solarKwa": "13.92",
+    "noOfSites": "2",
     "createdAt": 1700000000000
   },
   {
@@ -28220,8 +32539,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "41038",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "ZONG",
+    "noOfSites": "5",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -28238,6 +32562,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -28252,8 +32578,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "40884",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "ZONG",
+    "noOfSites": "3",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -28270,6 +32601,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "solar": "Yes",
+    "solarKwa": "10.44",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -28286,6 +32621,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -28300,8 +32637,12 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "41115",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -28318,6 +32659,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "solar": "Yes",
+    "solarKwa": "8.12",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -28334,6 +32679,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -28350,6 +32697,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -28366,6 +32715,9 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Hub",
+    "neLocation": "NE",
+    "noOfSites": "20",
     "createdAt": 1700000000000
   },
   {
@@ -28382,6 +32734,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "4",
     "createdAt": 1700000000000
   },
   {
@@ -28398,6 +32752,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "2",
     "createdAt": 1700000000000
   },
   {
@@ -28414,6 +32770,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -28430,6 +32788,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "solar": "Yes",
+    "solarKwa": "10.44",
+    "noOfSites": "3",
     "createdAt": 1700000000000
   },
   {
@@ -28446,6 +32808,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -28462,6 +32826,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "5",
     "createdAt": 1700000000000
   },
   {
@@ -28478,6 +32844,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -28494,6 +32862,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -28510,6 +32880,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "3",
     "createdAt": 1700000000000
   },
   {
@@ -28526,6 +32898,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -28542,6 +32916,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "USF",
+    "solar": "Yes",
+    "solarKwa": "9.999999999999998",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -28558,6 +32936,9 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Hub",
+    "neLocation": "NE",
+    "noOfSites": "10",
     "createdAt": 1700000000000
   },
   {
@@ -28574,6 +32955,9 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Hub",
+    "neLocation": "NE",
+    "noOfSites": "39",
     "createdAt": 1700000000000
   },
   {
@@ -28590,6 +32974,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -28606,6 +32992,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -28620,8 +33008,12 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "C-MUD-7918",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "2",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -28638,6 +33030,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -28653,7 +33047,11 @@ export const defaultSites: Site[] = [
     "jazzId": "-",
     "telenorId": "-",
     "zongId": "-",
-    "ufoneId": "-",
+    "ufoneId": "3541",
+    "category": "Platinum",
+    "guestOmo": "Ufone",
+    "noOfSites": "1",
+    "ufoneApprovedServices": "DG",
     "createdAt": 1700000000000
   },
   {
@@ -28670,6 +33068,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -28684,8 +33084,12 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "C-MUD-3632",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "4",
+    "zongApprovedServices": "DG",
     "createdAt": 1700000000000
   },
   {
@@ -28700,8 +33104,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "C-MUD-3631",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "3",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -28715,9 +33124,15 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LMD005",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "TP",
+    "noOfSites": "1",
+    "dcSharedWith": "Telenor",
+    "tpId": "LMD005",
+    "tpApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -28732,8 +33147,12 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "C-MUD-4905",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -28747,9 +33166,14 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LMD004",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "TP",
+    "noOfSites": "3",
+    "tpId": "LMD004",
+    "tpApprovedServices": "DG",
     "createdAt": 1700000000000
   },
   {
@@ -28764,8 +33188,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "40831",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -28782,6 +33211,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "solar": "Yes",
+    "solarKwa": "12.76",
+    "noOfSites": "2",
     "createdAt": 1700000000000
   },
   {
@@ -28798,6 +33231,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -28814,6 +33249,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "2",
     "createdAt": 1700000000000
   },
   {
@@ -28830,6 +33267,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -28846,6 +33285,9 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Hub",
+    "neLocation": "NE",
+    "noOfSites": "20",
     "createdAt": 1700000000000
   },
   {
@@ -28862,6 +33304,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "solar": "Yes",
+    "solarKwa": "16.24",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -28878,6 +33324,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -28894,6 +33342,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "solar": "Yes",
+    "solarKwa": "20.88",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -28910,6 +33362,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -28926,6 +33380,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -28942,6 +33398,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -28958,6 +33416,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -28974,6 +33434,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -28990,6 +33452,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -29006,6 +33470,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "2",
     "createdAt": 1700000000000
   },
   {
@@ -29022,6 +33488,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -29038,6 +33506,9 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Hub",
+    "neLocation": "NE",
+    "noOfSites": "19",
     "createdAt": 1700000000000
   },
   {
@@ -29054,6 +33525,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "solar": "Yes",
+    "solarKwa": "15.08",
+    "noOfSites": "2",
     "createdAt": 1700000000000
   },
   {
@@ -29070,6 +33545,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "solar": "Yes",
+    "solarKwa": "10",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -29086,6 +33565,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -29102,6 +33583,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -29118,6 +33601,9 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Hub",
+    "neLocation": "NE",
+    "noOfSites": "15",
     "createdAt": 1700000000000
   },
   {
@@ -29134,6 +33620,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -29150,6 +33638,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "solar": "Yes",
+    "solarKwa": "13.92",
+    "noOfSites": "3",
     "createdAt": 1700000000000
   },
   {
@@ -29166,6 +33658,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -29182,6 +33676,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -29198,6 +33694,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -29212,8 +33710,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "C-HWY-4293",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -29230,6 +33733,11 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Hub",
+    "solar": "Yes",
+    "solarKwa": "13.92",
+    "neLocation": "NE",
+    "noOfSites": "23",
     "createdAt": 1700000000000
   },
   {
@@ -29244,8 +33752,14 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "42676",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "dcSharedWith": "Telenor/Zong",
+    "tpApprovedServices": "DC",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -29260,8 +33774,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "C-RUR-4141",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -29276,8 +33795,12 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "C-RUR-7443",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -29291,9 +33814,14 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LKN006",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "TP",
+    "noOfSites": "1",
+    "tpId": "LKN006",
+    "tpApprovedServices": "DG",
     "createdAt": 1700000000000
   },
   {
@@ -29310,6 +33838,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -29323,9 +33853,15 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LLR842",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "TP",
+    "noOfSites": "1",
+    "dcSharedWith": "Telenor",
+    "tpId": "LLR842",
+    "tpApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -29340,8 +33876,14 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
-    "ufoneId": "-",
+    "zongId": "40125",
+    "ufoneId": "CI-1103",
+    "category": "Platinum",
+    "guestOmo": "ZONG/Ufone",
+    "noOfSites": "1",
+    "dcSharedWith": "ZONG",
+    "ufoneApprovedServices": "DG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -29358,6 +33900,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -29374,6 +33918,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "6",
     "createdAt": 1700000000000
   },
   {
@@ -29388,8 +33934,12 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "4290",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "4",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -29406,6 +33956,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "3",
     "createdAt": 1700000000000
   },
   {
@@ -29422,6 +33974,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "2",
     "createdAt": 1700000000000
   },
   {
@@ -29436,8 +33990,12 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "42547",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -29454,6 +34012,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -29470,6 +34030,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -29486,6 +34048,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -29499,9 +34063,16 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LLR829",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Hub",
+    "guestOmo": "TP",
+    "neLocation": "NE",
+    "noOfSites": "10",
+    "dcSharedWith": "Telenor",
+    "tpId": "LLR829",
+    "tpApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -29515,9 +34086,16 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
-    "zongId": "-",
+    "telenorId": "LLR754",
+    "zongId": "44639",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "TP/ZONG",
+    "noOfSites": "1",
+    "dcSharedWith": "Telenor/Zong",
+    "tpId": "LLR754",
+    "tpApprovedServices": "DC",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -29534,6 +34112,9 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Hub",
+    "neLocation": "NE",
+    "noOfSites": "21",
     "createdAt": 1700000000000
   },
   {
@@ -29550,6 +34131,9 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Hub",
+    "neLocation": "NE",
+    "noOfSites": "20",
     "createdAt": 1700000000000
   },
   {
@@ -29563,9 +34147,15 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LLR751",
     "zongId": "-",
-    "ufoneId": "-",
+    "ufoneId": "7215",
+    "category": "Platinum",
+    "guestOmo": "TP/Ufone",
+    "noOfSites": "1",
+    "ufoneApprovedServices": "DG",
+    "tpId": "LLR751",
+    "tpApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -29582,6 +34172,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -29595,9 +34187,14 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LLH138",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "TP",
+    "noOfSites": "1",
+    "tpId": "LLH138",
+    "tpApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -29614,6 +34211,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -29627,9 +34226,15 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LLR667",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "TP",
+    "noOfSites": "1",
+    "dcSharedWith": "Telenor",
+    "tpId": "LLR667",
+    "tpApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -29646,6 +34251,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -29660,8 +34267,12 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "41412",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -29678,6 +34289,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -29693,7 +34306,11 @@ export const defaultSites: Site[] = [
     "jazzId": "-",
     "telenorId": "-",
     "zongId": "-",
-    "ufoneId": "-",
+    "ufoneId": "7046",
+    "category": "Platinum",
+    "guestOmo": "Ufone",
+    "noOfSites": "1",
+    "ufoneApprovedServices": "DG",
     "createdAt": 1700000000000
   },
   {
@@ -29710,6 +34327,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -29726,6 +34345,9 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Hub",
+    "neLocation": "NE",
+    "noOfSites": "35",
     "createdAt": 1700000000000
   },
   {
@@ -29740,8 +34362,12 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "40768",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -29756,8 +34382,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "43994",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "5",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -29772,8 +34403,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "41077",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -29788,8 +34424,12 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "40890",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -29806,6 +34446,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -29822,6 +34464,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -29838,6 +34482,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -29854,6 +34500,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -29870,6 +34518,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -29886,6 +34536,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -29902,6 +34554,11 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Hub",
+    "solar": "Yes",
+    "solarKwa": "10.44",
+    "neLocation": "NE",
+    "noOfSites": "18",
     "createdAt": 1700000000000
   },
   {
@@ -29918,6 +34575,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -29931,9 +34590,14 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LLR852",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "TP",
+    "noOfSites": "4",
+    "tpId": "LLR852",
+    "tpApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -29948,8 +34612,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "44114",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -29964,8 +34633,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "44105",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -29980,8 +34654,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "C-RUR-4408",
     "ufoneId": "-",
+    "category": "Hub",
+    "guestOmo": "ZONG",
+    "neLocation": "NE",
+    "noOfSites": "11",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -29996,8 +34675,12 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "C-RUR-4162",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "8",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -30014,6 +34697,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -30030,6 +34715,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -30046,6 +34733,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -30062,6 +34751,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -30078,6 +34769,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -30094,6 +34787,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -30110,6 +34805,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -30126,6 +34823,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -30142,6 +34841,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -30158,6 +34859,9 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Hub",
+    "neLocation": "NE",
+    "noOfSites": "20",
     "createdAt": 1700000000000
   },
   {
@@ -30174,6 +34878,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "solar": "Yes",
+    "solarKwa": "17.4",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -30190,6 +34898,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "5",
     "createdAt": 1700000000000
   },
   {
@@ -30204,8 +34914,12 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "C-RUR-4144",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -30222,6 +34936,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -30238,6 +34954,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "2",
     "createdAt": 1700000000000
   },
   {
@@ -30254,6 +34972,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -30270,6 +34990,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Hub",
+    "noOfSites": "13",
     "createdAt": 1700000000000
   },
   {
@@ -30286,6 +35008,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -30302,6 +35026,9 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Hub",
+    "neLocation": "NE",
+    "noOfSites": "22",
     "createdAt": 1700000000000
   },
   {
@@ -30318,6 +35045,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "solar": "Yes",
+    "solarKwa": "10.44",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -30334,6 +35065,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "4",
     "createdAt": 1700000000000
   },
   {
@@ -30347,9 +35080,15 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LMTR91",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "TP",
+    "noOfSites": "1",
+    "dcSharedWith": "Telenor",
+    "tpId": "LMTR91",
+    "tpApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -30366,6 +35105,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -30382,6 +35123,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "solar": "Yes",
+    "solarKwa": "12.54",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -30396,8 +35141,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "45019",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -30414,6 +35164,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -30430,6 +35182,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "solar": "Yes",
+    "solarKwa": "10.44",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -30446,6 +35202,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -30460,8 +35218,14 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "41375",
     "ufoneId": "-",
+    "category": "Hub",
+    "guestOmo": "ZONG",
+    "neLocation": "NE",
+    "noOfSites": "14",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -30476,8 +35240,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "41239",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -30494,6 +35263,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "4",
     "createdAt": 1700000000000
   },
   {
@@ -30510,6 +35281,11 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Hub",
+    "solar": "Yes",
+    "solarKwa": "17.4",
+    "neLocation": "NE",
+    "noOfSites": "10",
     "createdAt": 1700000000000
   },
   {
@@ -30526,6 +35302,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "2",
     "createdAt": 1700000000000
   },
   {
@@ -30540,8 +35318,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "44677",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -30558,6 +35341,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "2",
     "createdAt": 1700000000000
   },
   {
@@ -30574,6 +35359,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "5",
     "createdAt": 1700000000000
   },
   {
@@ -30590,6 +35377,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -30606,6 +35395,9 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Hub",
+    "neLocation": "NE",
+    "noOfSites": "12",
     "createdAt": 1700000000000
   },
   {
@@ -30622,6 +35414,9 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Hub",
+    "neLocation": "NE",
+    "noOfSites": "26",
     "createdAt": 1700000000000
   },
   {
@@ -30636,8 +35431,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "41197",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -30652,8 +35452,12 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "6525",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -30669,7 +35473,11 @@ export const defaultSites: Site[] = [
     "jazzId": "-",
     "telenorId": "-",
     "zongId": "-",
-    "ufoneId": "-",
+    "ufoneId": "CI-1099",
+    "category": "General",
+    "guestOmo": "Ufone",
+    "noOfSites": "1",
+    "ufoneApprovedServices": "DG",
     "createdAt": 1700000000000
   },
   {
@@ -30684,8 +35492,12 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "C-KSR-4263",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -30702,6 +35514,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -30717,7 +35531,11 @@ export const defaultSites: Site[] = [
     "jazzId": "-",
     "telenorId": "-",
     "zongId": "-",
-    "ufoneId": "-",
+    "ufoneId": "3559",
+    "category": "Platinum",
+    "guestOmo": "Ufone",
+    "noOfSites": "1",
+    "ufoneApprovedServices": "DG",
     "createdAt": 1700000000000
   },
   {
@@ -30731,9 +35549,15 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
-    "zongId": "-",
+    "telenorId": "LKS017",
+    "zongId": "C-KSR-4286",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "TP/ZONG",
+    "noOfSites": "1",
+    "tpId": "LKS017",
+    "tpApprovedServices": "CP",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -30750,6 +35574,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -30766,6 +35592,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -30782,6 +35610,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -30798,6 +35628,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -30814,6 +35646,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -30830,6 +35664,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -30845,7 +35681,11 @@ export const defaultSites: Site[] = [
     "jazzId": "-",
     "telenorId": "-",
     "zongId": "-",
-    "ufoneId": "-",
+    "ufoneId": "3561",
+    "category": "General",
+    "guestOmo": "Ufone",
+    "noOfSites": "1",
+    "ufoneApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -30859,9 +35699,15 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
-    "zongId": "-",
+    "telenorId": "LKS008",
+    "zongId": "C-KSR-3620",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "TP/ZONG",
+    "noOfSites": "1",
+    "tpId": "LKS008",
+    "tpApprovedServices": "DG",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -30878,6 +35724,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -30894,6 +35742,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -30910,6 +35760,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -30925,7 +35777,11 @@ export const defaultSites: Site[] = [
     "jazzId": "-",
     "telenorId": "-",
     "zongId": "-",
-    "ufoneId": "-",
+    "ufoneId": "3582",
+    "category": "Platinum",
+    "guestOmo": "Ufone",
+    "noOfSites": "1",
+    "ufoneApprovedServices": "DG",
     "createdAt": 1700000000000
   },
   {
@@ -30940,8 +35796,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "42521",
     "ufoneId": "-",
+    "category": "Hub",
+    "guestOmo": "ZONG",
+    "neLocation": "NE",
+    "noOfSites": "3",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -30956,8 +35817,12 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "C-RUR-7641",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -30972,8 +35837,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "41972",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "2",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -30988,8 +35858,12 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "40876",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "5",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -31004,8 +35878,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "44699",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "4",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -31020,8 +35899,12 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "40813",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -31037,7 +35920,11 @@ export const defaultSites: Site[] = [
     "jazzId": "-",
     "telenorId": "-",
     "zongId": "-",
-    "ufoneId": "-",
+    "ufoneId": "CI-1358",
+    "category": "Platinum",
+    "guestOmo": "Ufone",
+    "noOfSites": "1",
+    "ufoneApprovedServices": "DG",
     "createdAt": 1700000000000
   },
   {
@@ -31052,8 +35939,12 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "C-RUR-7719",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -31070,6 +35961,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -31086,6 +35979,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -31102,6 +35997,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "solar": "Yes",
+    "solarKwa": "11.6",
+    "noOfSites": "2",
     "createdAt": 1700000000000
   },
   {
@@ -31116,8 +36015,12 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "41148",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "2",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -31134,6 +36037,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "solar": "Yes",
+    "solarKwa": "6.96",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -31150,6 +36057,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -31166,6 +36075,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -31182,6 +36093,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "solar": "Yes",
+    "solarKwa": "8.12",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -31198,6 +36113,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -31214,6 +36131,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -31230,6 +36149,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "solar": "Yes",
+    "solarKwa": "6.96",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -31246,6 +36169,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -31262,6 +36187,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -31278,6 +36205,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -31294,6 +36223,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "solar": "Yes",
+    "solarKwa": "8.7",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -31310,6 +36243,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -31323,9 +36258,18 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LSKR87",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Hub",
+    "guestOmo": "TP",
+    "solar": "Yes",
+    "solarKwa": "13.92",
+    "neLocation": "NE",
+    "noOfSites": "15",
+    "dcSharedWith": "Telenor",
+    "tpId": "LSKR87",
+    "tpApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -31342,6 +36286,11 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Hub",
+    "solar": "Yes",
+    "solarKwa": "13.92",
+    "neLocation": "NE",
+    "noOfSites": "14",
     "createdAt": 1700000000000
   },
   {
@@ -31358,6 +36307,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "4",
     "createdAt": 1700000000000
   },
   {
@@ -31374,6 +36325,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -31390,6 +36343,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "2",
     "createdAt": 1700000000000
   },
   {
@@ -31406,6 +36361,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -31420,8 +36377,12 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "40951",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -31438,6 +36399,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -31454,6 +36417,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -31470,6 +36435,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "4",
     "createdAt": 1700000000000
   },
   {
@@ -31486,6 +36453,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "solar": "Yes",
+    "solarKwa": "13.92",
+    "noOfSites": "2",
     "createdAt": 1700000000000
   },
   {
@@ -31502,6 +36473,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -31518,6 +36491,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "solar": "Yes",
+    "solarKwa": "10.44",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -31534,6 +36511,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "solar": "Yes",
+    "solarKwa": "10.44",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -31550,6 +36531,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "solar": "Yes",
+    "solarKwa": "13.92",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -31566,6 +36551,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "solar": "Yes",
+    "solarKwa": "12.76",
+    "noOfSites": "2",
     "createdAt": 1700000000000
   },
   {
@@ -31580,8 +36569,12 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "41152",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -31596,8 +36589,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "44113",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -31614,6 +36612,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "3",
     "createdAt": 1700000000000
   },
   {
@@ -31628,8 +36628,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "C-RUR-4779",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -31646,6 +36651,9 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Hub",
+    "neLocation": "NE",
+    "noOfSites": "12",
     "createdAt": 1700000000000
   },
   {
@@ -31662,6 +36670,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -31678,6 +36688,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -31694,6 +36706,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -31710,6 +36724,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "solar": "Yes",
+    "solarKwa": "10.44",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -31726,6 +36744,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "solar": "Yes",
+    "solarKwa": "13.92",
+    "noOfSites": "2",
     "createdAt": 1700000000000
   },
   {
@@ -31742,6 +36764,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -31758,6 +36782,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "solar": "Yes",
+    "solarKwa": "15.08",
+    "noOfSites": "3",
     "createdAt": 1700000000000
   },
   {
@@ -31771,9 +36799,15 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LLR850",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "TP",
+    "noOfSites": "1",
+    "dcSharedWith": "Telenor",
+    "tpId": "LLR850",
+    "tpApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -31788,8 +36822,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "41548",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -31806,6 +36845,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -31822,6 +36863,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "3",
     "createdAt": 1700000000000
   },
   {
@@ -31838,6 +36881,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -31852,8 +36897,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "44336",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -31870,6 +36920,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -31886,6 +36938,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -31900,8 +36954,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "45029",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -31918,6 +36977,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -31934,6 +36995,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -31950,6 +37013,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -31964,8 +37029,16 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "44934",
     "ufoneId": "-",
+    "category": "Hub",
+    "guestOmo": "ZONG",
+    "solar": "Yes",
+    "solarKwa": "13.92",
+    "neLocation": "NE",
+    "noOfSites": "21",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -31980,8 +37053,12 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "40658",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -31998,6 +37075,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -32014,6 +37093,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "2",
     "createdAt": 1700000000000
   },
   {
@@ -32030,6 +37111,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -32046,6 +37129,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -32062,6 +37147,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -32078,6 +37165,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "2",
     "createdAt": 1700000000000
   },
   {
@@ -32094,6 +37183,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "solar": "Yes",
+    "solarKwa": "17.4",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -32110,6 +37203,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "3",
     "createdAt": 1700000000000
   },
   {
@@ -32126,6 +37221,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -32142,6 +37239,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "solar": "Yes",
+    "solarKwa": "10.44",
+    "noOfSites": "5",
     "createdAt": 1700000000000
   },
   {
@@ -32156,8 +37257,12 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "41137",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -32174,6 +37279,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "solar": "Yes",
+    "solarKwa": "13.92",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -32190,6 +37299,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -32206,6 +37317,9 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Hub",
+    "neLocation": "NE",
+    "noOfSites": "26",
     "createdAt": 1700000000000
   },
   {
@@ -32219,9 +37333,15 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
-    "zongId": "-",
+    "telenorId": "LSPR98",
+    "zongId": "45191",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "TP/ZONG",
+    "noOfSites": "1",
+    "dcSharedWith": "ZONG",
+    "tpId": "LSPR98",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -32235,9 +37355,14 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LFW002",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "TP",
+    "noOfSites": "1",
+    "tpId": "LFW002",
+    "tpApprovedServices": "DG",
     "createdAt": 1700000000000
   },
   {
@@ -32254,6 +37379,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -32268,8 +37395,14 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
-    "ufoneId": "-",
+    "zongId": "45206",
+    "ufoneId": "3581",
+    "category": "Platinum",
+    "guestOmo": "ZONG/Ufone",
+    "noOfSites": "1",
+    "dcSharedWith": "ZONG",
+    "ufoneApprovedServices": "DG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -32286,6 +37419,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "4",
     "createdAt": 1700000000000
   },
   {
@@ -32300,8 +37435,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "40661",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "ZONG",
+    "noOfSites": "3",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -32318,6 +37458,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -32334,6 +37476,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -32350,6 +37494,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -32366,6 +37512,9 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Hub",
+    "neLocation": "NE",
+    "noOfSites": "15",
     "createdAt": 1700000000000
   },
   {
@@ -32382,6 +37531,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "solar": "Yes",
+    "solarKwa": "13.92",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -32398,6 +37551,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "solar": "Yes",
+    "solarKwa": "15.66",
+    "noOfSites": "2",
     "createdAt": 1700000000000
   },
   {
@@ -32414,6 +37571,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -32430,6 +37589,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "solar": "Yes",
+    "solarKwa": "6.96",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -32446,6 +37609,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -32459,9 +37624,14 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "FMB002",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "TP",
+    "noOfSites": "1",
+    "tpId": "FMB002",
+    "tpApprovedServices": "DG",
     "createdAt": 1700000000000
   },
   {
@@ -32478,6 +37648,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -32494,6 +37666,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -32510,6 +37684,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "2",
     "createdAt": 1700000000000
   },
   {
@@ -32526,6 +37702,9 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Hub",
+    "neLocation": "NE",
+    "noOfSites": "13",
     "createdAt": 1700000000000
   },
   {
@@ -32539,9 +37718,14 @@ export const defaultSites: Site[] = [
     "networkPortfolio": "Deodar",
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
-    "telenorId": "-",
+    "telenorId": "LCN005",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "guestOmo": "TP",
+    "noOfSites": "2",
+    "tpId": "LCN005",
+    "tpApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -32558,6 +37742,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -32574,6 +37760,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -32590,6 +37778,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -32606,6 +37796,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -32622,6 +37814,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "solar": "Yes",
+    "solarKwa": "13.92",
+    "noOfSites": "5",
     "createdAt": 1700000000000
   },
   {
@@ -32638,6 +37834,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "solar": "Yes",
+    "solarKwa": "10.44",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -32654,6 +37854,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -32668,8 +37870,12 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "C-RUR-4837",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "zongApprovedServices": "CP",
     "createdAt": 1700000000000
   },
   {
@@ -32686,6 +37892,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -32702,6 +37910,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "5",
     "createdAt": 1700000000000
   },
   {
@@ -32718,6 +37928,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -32734,6 +37946,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "solar": "Yes",
+    "solarKwa": "13.92",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -32750,6 +37966,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "solar": "Yes",
+    "solarKwa": "8.12",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -32766,6 +37986,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Platinum",
+    "noOfSites": "4",
     "createdAt": 1700000000000
   },
   {
@@ -32782,6 +38004,9 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "Hub",
+    "neLocation": "NE",
+    "noOfSites": "13",
     "createdAt": 1700000000000
   },
   {
@@ -32796,8 +38021,13 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "41173",
     "ufoneId": "-",
+    "category": "General",
+    "guestOmo": "ZONG",
+    "noOfSites": "1",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -32814,6 +38044,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "1",
     "createdAt": 1700000000000
   },
   {
@@ -32830,6 +38062,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -32846,6 +38080,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "General",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -32862,6 +38098,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "NRO B2S",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -32878,6 +38116,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "NRO B2S",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -32894,6 +38134,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "NRO B2S",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -32910,6 +38152,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "NRO B2S",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -32926,6 +38170,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "NRO B2S",
+    "solar": "Yes",
+    "solarKwa": "13.92",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -32942,6 +38190,8 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "NRO B2S",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -32958,6 +38208,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "NRO B2S",
+    "solar": "Yes",
+    "solarKwa": "13.92",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -32974,6 +38228,10 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "category": "NRO B2S",
+    "solar": "Yes",
+    "solarKwa": "13.92",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   },
   {
@@ -32988,8 +38246,12 @@ export const defaultSites: Site[] = [
     "zonalManager": "Ovais Ali Khan",
     "jazzId": "-",
     "telenorId": "-",
-    "zongId": "-",
+    "zongId": "44447",
     "ufoneId": "-",
+    "guestOmo": "ZONG",
+    "noOfSites": "#N/A",
+    "dcSharedWith": "ZONG",
+    "zongApprovedServices": "DC",
     "createdAt": 1700000000000
   },
   {
@@ -33006,6 +38268,26 @@ export const defaultSites: Site[] = [
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
+    "solar": "Yes",
+    "solarKwa": "12",
+    "noOfSites": "#N/A",
+    "createdAt": 1700000000000
+  },
+  {
+    "id": "d4e5f6a7-07e0-0000-0000-0000000007e0",
+    "name": "EC1-GUT-10382",
+    "lat": 33.615,
+    "lng": 73.168,
+    "mbuNumber": "C4-GRT-04",
+    "mbuName": "Muhammad Asjad Jalib",
+    "cellNumber": "3006255758",
+    "networkPortfolio": "Enfrashare",
+    "zonalManager": "Ovais Ali Khan",
+    "jazzId": "",
+    "telenorId": "",
+    "zongId": "",
+    "ufoneId": "",
+    "noOfSites": "#N/A",
     "createdAt": 1700000000000
   }
 ];

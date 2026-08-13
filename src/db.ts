@@ -5,7 +5,7 @@ import Papa from 'papaparse';
 
 const DB_KEY = 'engro_connect_sites';
 const DATA_VERSION_KEY = 'engro_connect_data_version';
-const CURRENT_DATA_VERSION = 'Engro-Connect-v5';
+const CURRENT_DATA_VERSION = 'Engro-Connect-v6';
 
 // Two backup locations for maximum durability:
 // 1. ExternalStorage = Downloads/ folder → survives UNINSTALL (needs permission)
@@ -14,9 +14,9 @@ const BACKUP_FILENAME = 'EngroConnect_backup.csv';
 
 // ── CSV helpers ──────────────────────────────────────────────────────────────
 const sitesToCsv = (sites: Site[]): string => {
-  const header = 'Site ID,Latitude,Longitude,MBU Number,MBU Name,Cell Number,Network portofolio,Zonal Manager,Jazz id,Telenor id,Zong id,Ufone id,Site status,Category,Power status,Security Vendor,Guest OMO,DG shared,DC shared,Solar,DG status,isUserCreated';
+  const header = 'Site ID,Latitude,Longitude,MBU Number,MBU Name,Cell Number,Network portofolio,Zonal Manager,Jazz id,Telenor id,Zong id,Ufone id,Site status,Category,Power status,Security Vendor,Guest OMO,DG shared,DC shared,Solar,DG status,Solar KWA,NE location,No of Sites,DC Shared With,Ufone Approved Services,TP ID,TP Approved Services,Zong Approved Services,isUserCreated';
   const rows = sites.map(s =>
-    `"${s.name}",${s.lat},${s.lng},"${s.mbuNumber}","${s.mbuName}","${s.cellNumber}","${s.networkPortfolio}","${s.zonalManager}","${s.jazzId}","${s.telenorId}","${s.zongId}","${s.ufoneId}","${s.siteStatus || ''}","${s.category || ''}","${s.powerStatus || ''}","${s.securityVendor || ''}","${s.guestOmo || ''}","${s.dgShared || ''}","${s.dcShared || ''}","${s.solar || ''}","${s.dgStatus || ''}",${s.isUserCreated ? 'true' : 'false'}`
+    `"${s.name}",${s.lat},${s.lng},"${s.mbuNumber}","${s.mbuName}","${s.cellNumber}","${s.networkPortfolio}","${s.zonalManager}","${s.jazzId}","${s.telenorId}","${s.zongId}","${s.ufoneId}","${s.siteStatus || ''}","${s.category || ''}","${s.powerStatus || ''}","${s.securityVendor || ''}","${s.guestOmo || ''}","${s.dgShared || ''}","${s.dcShared || ''}","${s.solar || ''}","${s.dgStatus || ''}","${s.solarKwa || ''}","${s.neLocation || ''}","${s.noOfSites || ''}","${s.dcSharedWith || ''}","${s.ufoneApprovedServices || ''}","${s.tpId || ''}","${s.tpApprovedServices || ''}","${s.zongApprovedServices || ''}",${s.isUserCreated ? 'true' : 'false'}`
   );
   return [header, ...rows].join('\n');
 };
@@ -42,15 +42,24 @@ const parseCsvRow = (row: any): Site | null => {
     category: row['Category'] || row.category || undefined,
     powerStatus: row['Power status'] || row.powerStatus || undefined,
     securityVendor: row['Security Vendor'] || row.securityVendor || undefined,
-    guestOmo: row['Guest OMO'] || row.guestOmo || undefined,
-    dgShared: row['DG shared'] || row.dgShared || undefined,
+    guestOmo: row['Guest OMOs'] || row['Guest OMO'] || row.guestOmo || undefined,
+    dgShared: row['DG shared '] || row['DG shared'] || row.dgShared || undefined,
     dcShared: row['DC shared'] || row.dcShared || undefined,
     solar: row['Solar'] || row.solar || undefined,
     dgStatus: row['DG status'] || row.dgStatus || undefined,
+    solarKwa: row['Solar KWA'] || row.solarKwa || undefined,
+    neLocation: row['NE location'] || row.neLocation || undefined,
+    noOfSites: row['No of Sites'] || row.noOfSites || undefined,
+    dcSharedWith: row['DC Shared With'] || row.dcSharedWith || undefined,
+    ufoneApprovedServices: row['Ufone Approved Services'] || row.ufoneApprovedServices || undefined,
+    tpId: row['TP ID'] || row.tpId || undefined,
+    tpApprovedServices: row['TP Approved Services'] || row.tpApprovedServices || undefined,
+    zongApprovedServices: row['Zong Approved Services'] || row.zongApprovedServices || undefined,
     createdAt: row.createdAt ? parseInt(row.createdAt) : Date.now(),
     isUserCreated: row.isUserCreated === 'true' || row.isUserCreated === true,
   };
 };
+
 
 
 // ── Silent auto-backup (fire & forget) ──────────────────────────────────────
