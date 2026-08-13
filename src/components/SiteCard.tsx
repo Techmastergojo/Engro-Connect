@@ -185,6 +185,10 @@ export const SiteCard: React.FC<Props> = ({ site, onEdit, onDelete }) => {
 
           {/* Operator Approved Services */}
           <div className="detail-item">
+            <div className="detail-label">Jazz Approved Services</div>
+            <div className="detail-value">{v(site.jazzApprovedServices)}</div>
+          </div>
+          <div className="detail-item">
             <div className="detail-label">TP Approved Services</div>
             <div className="detail-value">{v(site.tpApprovedServices)}</div>
           </div>

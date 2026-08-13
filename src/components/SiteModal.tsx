@@ -40,6 +40,7 @@ export const SiteModal: React.FC<Props> = ({ isOpen, onClose, onSave, site }) =>
   const [tpApprovedServices, setTpApprovedServices] = useState('');
   const [zongApprovedServices, setZongApprovedServices] = useState('');
   const [ufoneApprovedServices, setUfoneApprovedServices] = useState('');
+  const [jazzApprovedServices, setJazzApprovedServices] = useState('');
   const [loadingLocation, setLoadingLocation] = useState(false);
 
   useEffect(() => {
@@ -73,6 +74,7 @@ export const SiteModal: React.FC<Props> = ({ isOpen, onClose, onSave, site }) =>
       setTpApprovedServices(site.tpApprovedServices || '');
       setZongApprovedServices(site.zongApprovedServices || '');
       setUfoneApprovedServices(site.ufoneApprovedServices || '');
+      setJazzApprovedServices(site.jazzApprovedServices || '');
     } else {
       setName('');
       setLat('');
@@ -103,6 +105,7 @@ export const SiteModal: React.FC<Props> = ({ isOpen, onClose, onSave, site }) =>
       setTpApprovedServices('');
       setZongApprovedServices('');
       setUfoneApprovedServices('');
+      setJazzApprovedServices('');
     }
   }, [site, isOpen]);
 
@@ -141,7 +144,8 @@ export const SiteModal: React.FC<Props> = ({ isOpen, onClose, onSave, site }) =>
       tpId,
       tpApprovedServices,
       zongApprovedServices,
-      ufoneApprovedServices
+      ufoneApprovedServices,
+      jazzApprovedServices
     });
     onClose();
   };
@@ -311,6 +315,10 @@ export const SiteModal: React.FC<Props> = ({ isOpen, onClose, onSave, site }) =>
             <div>
               <label style={{ display: 'block', marginBottom: '6px', fontSize: '0.8rem', color: 'var(--text-secondary)', fontWeight: 600 }}>TP ID</label>
               <input className="input" value={tpId} onChange={e => setTpId(e.target.value)} placeholder="e.g. LKM003" />
+            </div>
+            <div>
+              <label style={{ display: 'block', marginBottom: '6px', fontSize: '0.8rem', color: 'var(--text-secondary)', fontWeight: 600 }}>Jazz Approved Services</label>
+              <input className="input" value={jazzApprovedServices} onChange={e => setJazzApprovedServices(e.target.value)} placeholder="e.g. DC" />
             </div>
             <div>
               <label style={{ display: 'block', marginBottom: '6px', fontSize: '0.8rem', color: 'var(--text-secondary)', fontWeight: 600 }}>TP Approved Services</label>
