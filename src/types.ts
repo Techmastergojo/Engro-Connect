@@ -21,9 +21,10 @@ export interface Site {
   dcShared?: string;
   solar?: string;
   dgStatus?: string;
+  dependentSites?: string;
+  noOfSites?: string;
   solarKwa?: string;
   neLocation?: string;
-  noOfSites?: string;
   dcSharedWith?: string;
   ufoneApprovedServices?: string;
   tpId?: string;
@@ -32,5 +33,6 @@ export interface Site {
   createdAt: number;
   isUserCreated?: boolean; // true = added by user, survives all app updates
 }
+
 
 

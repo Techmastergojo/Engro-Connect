@@ -42,6 +42,13 @@ export const SiteCard: React.FC<Props> = ({ site, onEdit, onDelete }) => {
 
   const hasSolar = site.solar && site.solar.toLowerCase() === 'yes';
 
+  const v = (val?: string | number) => {
+    if (val === undefined || val === null) return '-';
+    const s = String(val).trim();
+    if (s === '' || s.toLowerCase() === 'nan' || s === 'null' || s === 'undefined') return '-';
+    return s;
+  };
+
   return (
     <div 
       className={`site-card animate-slide-up ${isExpanded ? 'expanded' : ''}`}
@@ -80,143 +87,115 @@ export const SiteCard: React.FC<Props> = ({ site, onEdit, onDelete }) => {
 
       {isExpanded && (
         <div className="detail-grid">
+          {/* MBU & Contact */}
           <div className="detail-item">
             <div className="detail-label">MBU Name</div>
-            <div className="detail-value">{site.mbuName || 'N/A'}</div>
+            <div className="detail-value">{v(site.mbuName)}</div>
           </div>
           <div className="detail-item">
             <div className="detail-label">MBU Cell Number</div>
-            <div className="detail-value">{site.cellNumber || 'N/A'}</div>
+            <div className="detail-value">{v(site.cellNumber)}</div>
           </div>
           <div className="detail-item">
             <div className="detail-label">Network Portfolio</div>
-            <div className="detail-value">{site.networkPortfolio || 'N/A'}</div>
+            <div className="detail-value">{v(site.networkPortfolio)}</div>
           </div>
           <div className="detail-item">
             <div className="detail-label">Zonal Manager</div>
-            <div className="detail-value">{site.zonalManager || 'N/A'}</div>
+            <div className="detail-value">{v(site.zonalManager)}</div>
           </div>
 
           {/* Operational & Power Specs */}
-          {site.powerStatus && site.powerStatus !== '-' && (
-            <div className="detail-item">
-              <div className="detail-label" style={{ display: 'flex', alignItems: 'center', gap: '4px' }}>
-                <Zap size={13} color="var(--accent)" /> Power Status
-              </div>
-              <div className="detail-value">{site.powerStatus}</div>
+          <div className="detail-item">
+            <div className="detail-label" style={{ display: 'flex', alignItems: 'center', gap: '4px' }}>
+              <Zap size={13} color="var(--accent)" /> Power Status
             </div>
-          )}
-          {site.dgStatus && site.dgStatus !== '-' && (
-            <div className="detail-item">
-              <div className="detail-label" style={{ display: 'flex', alignItems: 'center', gap: '4px' }}>
-                <Activity size={13} color="var(--accent)" /> DG Status
-              </div>
-              <div className="detail-value">{site.dgStatus}</div>
+            <div className="detail-value">{v(site.powerStatus)}</div>
+          </div>
+          <div className="detail-item">
+            <div className="detail-label" style={{ display: 'flex', alignItems: 'center', gap: '4px' }}>
+              <Activity size={13} color="var(--accent)" /> DG Status
             </div>
-          )}
-          {site.securityVendor && site.securityVendor !== '-' && (
-            <div className="detail-item">
-              <div className="detail-label" style={{ display: 'flex', alignItems: 'center', gap: '4px' }}>
-                <Shield size={13} color="var(--accent)" /> Security Vendor
-              </div>
-              <div className="detail-value">{site.securityVendor}</div>
+            <div className="detail-value">{v(site.dgStatus)}</div>
+          </div>
+          <div className="detail-item">
+            <div className="detail-label" style={{ display: 'flex', alignItems: 'center', gap: '4px' }}>
+              <Shield size={13} color="var(--accent)" /> Security Vendor
             </div>
-          )}
-          {site.guestOmo && site.guestOmo !== '-' && (
-            <div className="detail-item">
-              <div className="detail-label" style={{ display: 'flex', alignItems: 'center', gap: '4px' }}>
-                <Radio size={13} color="var(--accent)" /> Guest OMO
-              </div>
-              <div className="detail-value">{site.guestOmo}</div>
+            <div className="detail-value">{v(site.securityVendor)}</div>
+          </div>
+          <div className="detail-item">
+            <div className="detail-label" style={{ display: 'flex', alignItems: 'center', gap: '4px' }}>
+              <Radio size={13} color="var(--accent)" /> Guest OMOs
             </div>
-          )}
-          {site.dgShared && site.dgShared !== '-' && (
-            <div className="detail-item">
-              <div className="detail-label">DG Shared</div>
-              <div className="detail-value">{site.dgShared}</div>
-            </div>
-          )}
-          {site.dcShared && site.dcShared !== '-' && (
-            <div className="detail-item">
-              <div className="detail-label">DC Shared</div>
-              <div className="detail-value">{site.dcShared}</div>
-            </div>
-          )}
-          {site.solar && (
-            <div className="detail-item">
-              <div className="detail-label">Solar Installed</div>
-              <div className="detail-value">{site.solar}</div>
-            </div>
-          )}
+            <div className="detail-value">{v(site.guestOmo)}</div>
+          </div>
+          <div className="detail-item">
+            <div className="detail-label">DG Shared</div>
+            <div className="detail-value">{v(site.dgShared)}</div>
+          </div>
+          <div className="detail-item">
+            <div className="detail-label">DC Shared</div>
+            <div className="detail-value">{v(site.dcShared)}</div>
+          </div>
+          <div className="detail-item">
+            <div className="detail-label">Solar Installed</div>
+            <div className="detail-value">{v(site.solar)}</div>
+          </div>
+          <div className="detail-item">
+            <div className="detail-label">Solar KWA</div>
+            <div className="detail-value">{v(site.solarKwa)}</div>
+          </div>
 
-          {/* Tenant & Tower Specs */}
-          {site.noOfSites && site.noOfSites !== '-' && (
-            <div className="detail-item">
-              <div className="detail-label">No of Sites</div>
-              <div className="detail-value">{site.noOfSites}</div>
-            </div>
-          )}
-          {site.dcSharedWith && site.dcSharedWith !== '-' && (
-            <div className="detail-item">
-              <div className="detail-label">DC Shared With</div>
-              <div className="detail-value">{site.dcSharedWith}</div>
-            </div>
-          )}
-          {site.solarKwa && site.solarKwa !== '-' && (
-            <div className="detail-item">
-              <div className="detail-label">Solar KWA</div>
-              <div className="detail-value">{site.solarKwa}</div>
-            </div>
-          )}
-          {site.neLocation && site.neLocation !== '-' && (
-            <div className="detail-item">
-              <div className="detail-label">NE Location</div>
-              <div className="detail-value">{site.neLocation}</div>
-            </div>
-          )}
-          {site.tpId && site.tpId !== '-' && (
-            <div className="detail-item">
-              <div className="detail-label">TP ID</div>
-              <div className="detail-value">{site.tpId}</div>
-            </div>
-          )}
-          {site.tpApprovedServices && site.tpApprovedServices !== '-' && (
-            <div className="detail-item">
-              <div className="detail-label">TP Approved Services</div>
-              <div className="detail-value">{site.tpApprovedServices}</div>
-            </div>
-          )}
-          {site.zongApprovedServices && site.zongApprovedServices !== '-' && (
-            <div className="detail-item">
-              <div className="detail-label">Zong Approved Services</div>
-              <div className="detail-value">{site.zongApprovedServices}</div>
-            </div>
-          )}
-          {site.ufoneApprovedServices && site.ufoneApprovedServices !== '-' && (
-            <div className="detail-item">
-              <div className="detail-label">Ufone Approved Services</div>
-              <div className="detail-value">{site.ufoneApprovedServices}</div>
-            </div>
-          )}
+          {/* Tower & Site Specs */}
+          <div className="detail-item">
+            <div className="detail-label">Dependent Sites</div>
+            <div className="detail-value">{v(site.dependentSites || site.noOfSites)}</div>
+          </div>
+          <div className="detail-item">
+            <div className="detail-label">NE Location</div>
+            <div className="detail-value">{v(site.neLocation)}</div>
+          </div>
+          <div className="detail-item">
+            <div className="detail-label">DC Shared With</div>
+            <div className="detail-value">{v(site.dcSharedWith)}</div>
+          </div>
 
-          {/* Tenant IDs */}
+          {/* Operator IDs */}
           <div className="detail-item">
             <div className="detail-label">Jazz ID</div>
-            <div className="detail-value">{site.jazzId || '-'}</div>
+            <div className="detail-value">{v(site.jazzId)}</div>
           </div>
           <div className="detail-item">
             <div className="detail-label">Telenor ID</div>
-            <div className="detail-value">{site.telenorId || '-'}</div>
+            <div className="detail-value">{v(site.telenorId)}</div>
           </div>
           <div className="detail-item">
             <div className="detail-label">Zong ID</div>
-            <div className="detail-value">{site.zongId || '-'}</div>
+            <div className="detail-value">{v(site.zongId)}</div>
           </div>
           <div className="detail-item">
             <div className="detail-label">Ufone ID</div>
-            <div className="detail-value">{site.ufoneId || '-'}</div>
+            <div className="detail-value">{v(site.ufoneId)}</div>
+          </div>
+          <div className="detail-item">
+            <div className="detail-label">TP ID</div>
+            <div className="detail-value">{v(site.tpId)}</div>
           </div>
 
+          {/* Operator Approved Services */}
+          <div className="detail-item">
+            <div className="detail-label">TP Approved Services</div>
+            <div className="detail-value">{v(site.tpApprovedServices)}</div>
+          </div>
+          <div className="detail-item">
+            <div className="detail-label">Zong Approved Services</div>
+            <div className="detail-value">{v(site.zongApprovedServices)}</div>
+          </div>
+          <div className="detail-item">
+            <div className="detail-label">Ufone Approved Services</div>
+            <div className="detail-value">{v(site.ufoneApprovedServices)}</div>
+          </div>
 
           <div className="detail-full" style={{ display: 'flex', gap: '8px', marginTop: '8px' }}>
             <button className="btn-map" onClick={openInMap} style={{ flex: 1 }}>

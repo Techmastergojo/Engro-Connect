@@ -32,6 +32,14 @@ export const SiteModal: React.FC<Props> = ({ isOpen, onClose, onSave, site }) =>
   const [dcShared, setDcShared] = useState('');
   const [solar, setSolar] = useState('');
   const [dgStatus, setDgStatus] = useState('');
+  const [dependentSites, setDependentSites] = useState('');
+  const [solarKwa, setSolarKwa] = useState('');
+  const [neLocation, setNeLocation] = useState('');
+  const [dcSharedWith, setDcSharedWith] = useState('');
+  const [tpId, setTpId] = useState('');
+  const [tpApprovedServices, setTpApprovedServices] = useState('');
+  const [zongApprovedServices, setZongApprovedServices] = useState('');
+  const [ufoneApprovedServices, setUfoneApprovedServices] = useState('');
   const [loadingLocation, setLoadingLocation] = useState(false);
 
   useEffect(() => {
@@ -57,6 +65,14 @@ export const SiteModal: React.FC<Props> = ({ isOpen, onClose, onSave, site }) =>
       setDcShared(site.dcShared || '');
       setSolar(site.solar || '');
       setDgStatus(site.dgStatus || '');
+      setDependentSites(site.dependentSites || site.noOfSites || '');
+      setSolarKwa(site.solarKwa || '');
+      setNeLocation(site.neLocation || '');
+      setDcSharedWith(site.dcSharedWith || '');
+      setTpId(site.tpId || '');
+      setTpApprovedServices(site.tpApprovedServices || '');
+      setZongApprovedServices(site.zongApprovedServices || '');
+      setUfoneApprovedServices(site.ufoneApprovedServices || '');
     } else {
       setName('');
       setLat('');
@@ -79,6 +95,14 @@ export const SiteModal: React.FC<Props> = ({ isOpen, onClose, onSave, site }) =>
       setDcShared('');
       setSolar('');
       setDgStatus('');
+      setDependentSites('');
+      setSolarKwa('');
+      setNeLocation('');
+      setDcSharedWith('');
+      setTpId('');
+      setTpApprovedServices('');
+      setZongApprovedServices('');
+      setUfoneApprovedServices('');
     }
   }, [site, isOpen]);
 
@@ -108,7 +132,16 @@ export const SiteModal: React.FC<Props> = ({ isOpen, onClose, onSave, site }) =>
       dgShared,
       dcShared,
       solar,
-      dgStatus
+      dgStatus,
+      dependentSites,
+      noOfSites: dependentSites,
+      solarKwa,
+      neLocation,
+      dcSharedWith,
+      tpId,
+      tpApprovedServices,
+      zongApprovedServices,
+      ufoneApprovedServices
     });
     onClose();
   };
@@ -235,9 +268,27 @@ export const SiteModal: React.FC<Props> = ({ isOpen, onClose, onSave, site }) =>
             </div>
           </div>
 
-          <div>
-            <label style={{ display: 'block', marginBottom: '6px', fontSize: '0.8rem', color: 'var(--text-secondary)', fontWeight: 600 }}>Solar Installed</label>
-            <input className="input" value={solar} onChange={e => setSolar(e.target.value)} placeholder="e.g. Yes / No" />
+          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '12px' }}>
+            <div>
+              <label style={{ display: 'block', marginBottom: '6px', fontSize: '0.8rem', color: 'var(--text-secondary)', fontWeight: 600 }}>Solar Installed</label>
+              <input className="input" value={solar} onChange={e => setSolar(e.target.value)} placeholder="e.g. Yes / No" />
+            </div>
+            <div>
+              <label style={{ display: 'block', marginBottom: '6px', fontSize: '0.8rem', color: 'var(--text-secondary)', fontWeight: 600 }}>Solar KWA</label>
+              <input className="input" value={solarKwa} onChange={e => setSolarKwa(e.target.value)} placeholder="e.g. 5 KWA" />
+            </div>
+            <div>
+              <label style={{ display: 'block', marginBottom: '6px', fontSize: '0.8rem', color: 'var(--text-secondary)', fontWeight: 600 }}>Dependent Sites</label>
+              <input className="input" value={dependentSites} onChange={e => setDependentSites(e.target.value)} placeholder="e.g. 5" />
+            </div>
+            <div>
+              <label style={{ display: 'block', marginBottom: '6px', fontSize: '0.8rem', color: 'var(--text-secondary)', fontWeight: 600 }}>NE Location</label>
+              <input className="input" value={neLocation} onChange={e => setNeLocation(e.target.value)} placeholder="e.g. Indoor" />
+            </div>
+            <div>
+              <label style={{ display: 'block', marginBottom: '6px', fontSize: '0.8rem', color: 'var(--text-secondary)', fontWeight: 600 }}>DC Shared With</label>
+              <input className="input" value={dcSharedWith} onChange={e => setDcSharedWith(e.target.value)} placeholder="e.g. Telenor" />
+            </div>
           </div>
 
           <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '12px' }}>
@@ -256,6 +307,22 @@ export const SiteModal: React.FC<Props> = ({ isOpen, onClose, onSave, site }) =>
             <div>
               <label style={{ display: 'block', marginBottom: '6px', fontSize: '0.8rem', color: 'var(--text-secondary)', fontWeight: 600 }}>Ufone ID</label>
               <input className="input" value={ufoneId} onChange={e => setUfoneId(e.target.value)} placeholder="e.g. UF-123" />
+            </div>
+            <div>
+              <label style={{ display: 'block', marginBottom: '6px', fontSize: '0.8rem', color: 'var(--text-secondary)', fontWeight: 600 }}>TP ID</label>
+              <input className="input" value={tpId} onChange={e => setTpId(e.target.value)} placeholder="e.g. LKM003" />
+            </div>
+            <div>
+              <label style={{ display: 'block', marginBottom: '6px', fontSize: '0.8rem', color: 'var(--text-secondary)', fontWeight: 600 }}>TP Approved Services</label>
+              <input className="input" value={tpApprovedServices} onChange={e => setTpApprovedServices(e.target.value)} placeholder="e.g. DG" />
+            </div>
+            <div>
+              <label style={{ display: 'block', marginBottom: '6px', fontSize: '0.8rem', color: 'var(--text-secondary)', fontWeight: 600 }}>Zong Approved Services</label>
+              <input className="input" value={zongApprovedServices} onChange={e => setZongApprovedServices(e.target.value)} placeholder="e.g. CP" />
+            </div>
+            <div>
+              <label style={{ display: 'block', marginBottom: '6px', fontSize: '0.8rem', color: 'var(--text-secondary)', fontWeight: 600 }}>Ufone Approved Services</label>
+              <input className="input" value={ufoneApprovedServices} onChange={e => setUfoneApprovedServices(e.target.value)} placeholder="e.g. CP" />
             </div>
           </div>
 

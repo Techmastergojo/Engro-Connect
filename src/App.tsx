@@ -181,6 +181,7 @@ function App() {
           const lat = parseFloat((row.Latitude || row.lat || '0').toString().replace(/\.\./g, '.'));
           const lng = parseFloat((row.Longitude || row.lng || '0').toString().replace(/\.\./g, '.'));
           if (name && !isNaN(lat) && !isNaN(lng)) {
+            const depSites = row['Dependent sites'] || row.dependentSites || row['No of Sites'] || row.noOfSites || undefined;
             return {
               id: crypto.randomUUID(), name, lat, lng,
               mbuNumber: row['MBU Number'] || '', mbuName: row['MBU Name'] || '',
@@ -188,16 +189,25 @@ function App() {
               networkPortfolio: row['Network portofolio'] || row['Network Portfolio'] || '',
               zonalManager: row['Zonal Manager'] || '',
               jazzId: row['Jazz id'] || '', telenorId: row['Telenor id'] || '',
-              zongId: row['Zong id'] || '', ufoneId: row['Ufone id'] || '',
+              zongId: row['Zong id'] || row['ZONG ID'] || '', ufoneId: row['Ufone id'] || row['Ufone ID'] || '',
               siteStatus: row['Site status'] || row.siteStatus || undefined,
               category: row['Category'] || row.category || undefined,
               powerStatus: row['Power status'] || row.powerStatus || undefined,
               securityVendor: row['Security Vendor'] || row.securityVendor || undefined,
-              guestOmo: row['Guest OMO'] || row.guestOmo || undefined,
-              dgShared: row['DG shared'] || row.dgShared || undefined,
+              guestOmo: row['Guest OMOs'] || row['Guest OMO'] || row.guestOmo || undefined,
+              dgShared: row['DG shared '] || row['DG shared'] || row.dgShared || undefined,
               dcShared: row['DC shared'] || row.dcShared || undefined,
               solar: row['Solar'] || row.solar || undefined,
               dgStatus: row['DG status'] || row.dgStatus || undefined,
+              dependentSites: depSites,
+              noOfSites: row['No of Sites'] || row.noOfSites || depSites || undefined,
+              solarKwa: row['Solar KWA'] || row.solarKwa || undefined,
+              neLocation: row['NE location'] || row.neLocation || undefined,
+              dcSharedWith: row['DC Shared With'] || row.dcSharedWith || undefined,
+              tpId: row['TP ID'] || row.tpId || undefined,
+              tpApprovedServices: row['TP Approved Services'] || row.tpApprovedServices || undefined,
+              zongApprovedServices: row['Zong Approved Services'] || row.zongApprovedServices || undefined,
+              ufoneApprovedServices: row['Ufone Approved Services'] || row.ufoneApprovedServices || undefined,
               createdAt: Date.now(), isUserCreated: true,
             };
           }
@@ -226,7 +236,7 @@ function App() {
       s.zonalManager, s.jazzId, s.telenorId, s.zongId, s.ufoneId,
       s.siteStatus, s.category, s.powerStatus, s.securityVendor,
       s.guestOmo, s.dgShared, s.dcShared, s.solar, s.dgStatus,
-      s.solarKwa, s.neLocation, s.noOfSites, s.dcSharedWith,
+      s.solarKwa, s.neLocation, s.noOfSites, s.dependentSites, s.dcSharedWith,
       s.ufoneApprovedServices, s.tpId, s.tpApprovedServices, s.zongApprovedServices
     ].filter(Boolean).join(' ').toLowerCase();
 
@@ -241,20 +251,6 @@ function App() {
     <div style={{ maxWidth: '600px', margin: '0 auto', padding: '32px 16px', position: 'relative' }}>
       <header style={{ marginBottom: '32px', textAlign: 'center', position: 'relative' }}>
 
-        {/* ⚡ Powered by HTC corner tag top-left */}
-        <div 
-          style={{ 
-            position: 'absolute', top: 0, left: 0,
-            background: 'var(--surface)', border: '1px solid var(--border)',
-            padding: '6px 12px', borderRadius: '16px',
-            fontSize: '0.75rem', fontWeight: 700,
-            color: 'var(--accent)', letterSpacing: '0.03em',
-            boxShadow: '0 4px 12px rgba(0,0,0,0.1)'
-          }}
-        >
-          Powered by HTC
-        </div>
-
         {/* ⚙ Settings gear top-right */}
         <button
           onClick={() => setIsSettingsOpen(true)}
@@ -265,6 +261,7 @@ function App() {
             borderRadius: '50%', width: '42px', height: '42px',
             display: 'flex', alignItems: 'center', justifyContent: 'center',
             cursor: 'pointer', transition: 'all 0.2s',
+            zIndex: 2,
           }}
           title="Settings"
         >
@@ -280,6 +277,21 @@ function App() {
             }} />
           )}
         </button>
+
+        {/* ⚡ Powered by HTC badge centered */}
+        <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '16px' }}>
+          <span 
+            style={{ 
+              background: 'var(--surface)', border: '1px solid var(--border)',
+              padding: '6px 16px', borderRadius: '20px',
+              fontSize: '0.75rem', fontWeight: 700,
+              color: 'var(--accent)', letterSpacing: '0.04em',
+              boxShadow: '0 4px 12px rgba(0,0,0,0.15)'
+            }}
+          >
+            Powered by HTC
+          </span>
+        </div>
 
         <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '16px' }}>
           <img
