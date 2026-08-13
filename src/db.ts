@@ -5,7 +5,7 @@ import Papa from 'papaparse';
 
 const DB_KEY = 'engro_connect_sites';
 const DATA_VERSION_KEY = 'engro_connect_data_version';
-const CURRENT_DATA_VERSION = 'Engro-Connect-v7';
+const CURRENT_DATA_VERSION = 'Engro-Connect-v8';
 
 // Two backup locations for maximum durability:
 // 1. ExternalStorage = Downloads/ folder → survives UNINSTALL (needs permission)
@@ -14,9 +14,9 @@ const BACKUP_FILENAME = 'EngroConnect_backup.csv';
 
 // ── CSV helpers ──────────────────────────────────────────────────────────────
 const sitesToCsv = (sites: Site[]): string => {
-  const header = 'Site ID,Latitude,Longitude,MBU Number,MBU Name,Cell Number,Network portofolio,Zonal Manager,Jazz id,Telenor id,Zong id,Ufone id,Site status,Category,Power status,Security Vendor,Guest OMO,DG shared,DC shared,Solar,DG status,Dependent sites,Solar KWA,NE location,No of Sites,DC Shared With,Ufone Approved Services,TP ID,TP Approved Services,Zong Approved Services,isUserCreated';
+  const header = 'Site ID,Latitude,Longitude,MBU Number,MBU Name,Cell Number,Network portofolio,Zonal Manager,Jazz id,Telenor id,Zong id,Ufone id,Site status,Category,Power status,Security Vendor,Guest OMO,DG shared,DC shared,Solar,DG status,Dependent sites,Solar KWA,NE location,No of Sites,DC Shared With,Ufone Approved Services,TP ID,TP Approved Services,Zong Approved Services,Jazz Approved Services,isUserCreated';
   const rows = sites.map(s =>
-    `"${s.name}",${s.lat},${s.lng},"${s.mbuNumber}","${s.mbuName}","${s.cellNumber}","${s.networkPortfolio}","${s.zonalManager}","${s.jazzId}","${s.telenorId}","${s.zongId}","${s.ufoneId}","${s.siteStatus || ''}","${s.category || ''}","${s.powerStatus || ''}","${s.securityVendor || ''}","${s.guestOmo || ''}","${s.dgShared || ''}","${s.dcShared || ''}","${s.solar || ''}","${s.dgStatus || ''}","${s.dependentSites || ''}","${s.solarKwa || ''}","${s.neLocation || ''}","${s.noOfSites || ''}","${s.dcSharedWith || ''}","${s.ufoneApprovedServices || ''}","${s.tpId || ''}","${s.tpApprovedServices || ''}","${s.zongApprovedServices || ''}",${s.isUserCreated ? 'true' : 'false'}`
+    `"${s.name}",${s.lat},${s.lng},"${s.mbuNumber}","${s.mbuName}","${s.cellNumber}","${s.networkPortfolio}","${s.zonalManager}","${s.jazzId}","${s.telenorId}","${s.zongId}","${s.ufoneId}","${s.siteStatus || ''}","${s.category || ''}","${s.powerStatus || ''}","${s.securityVendor || ''}","${s.guestOmo || ''}","${s.dgShared || ''}","${s.dcShared || ''}","${s.solar || ''}","${s.dgStatus || ''}","${s.dependentSites || ''}","${s.solarKwa || ''}","${s.neLocation || ''}","${s.noOfSites || ''}","${s.dcSharedWith || ''}","${s.ufoneApprovedServices || ''}","${s.tpId || ''}","${s.tpApprovedServices || ''}","${s.zongApprovedServices || ''}","${s.jazzApprovedServices || ''}",${s.isUserCreated ? 'true' : 'false'}`
   );
   return [header, ...rows].join('\n');
 };
@@ -26,7 +26,7 @@ const parseCsvRow = (row: any): Site | null => {
   const lat = parseFloat((row.Latitude || row.lat || '0').toString().replace(/\.\./g, '.'));
   const lng = parseFloat((row.Longitude || row.lng || '0').toString().replace(/\.\./g, '.'));
   if (!name || isNaN(lat) || isNaN(lng)) return null;
-  const depSites = row['Dependent sites'] || row.dependentSites || row['No of Sites'] || row.noOfSites || undefined;
+  const depSites = row['Dependent site'] || row['Dependent sites'] || row.dependentSites || row['No of Sites'] || row.noOfSites || undefined;
   return {
     id: row.id || crypto.randomUUID(),
     name, lat, lng,
@@ -57,6 +57,7 @@ const parseCsvRow = (row: any): Site | null => {
     tpId: row['TP ID'] || row.tpId || undefined,
     tpApprovedServices: row['TP Approved Services'] || row.tpApprovedServices || undefined,
     zongApprovedServices: row['Zong Approved Services'] || row.zongApprovedServices || undefined,
+    jazzApprovedServices: row['Jazz Approved Services'] || row.jazzApprovedServices || undefined,
     createdAt: row.createdAt ? parseInt(row.createdAt) : Date.now(),
     isUserCreated: row.isUserCreated === 'true' || row.isUserCreated === true,
   };

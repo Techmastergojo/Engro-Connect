@@ -278,21 +278,6 @@ function App() {
           )}
         </button>
 
-        {/* ⚡ Powered by HTC badge centered */}
-        <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '16px' }}>
-          <span 
-            style={{ 
-              background: 'var(--surface)', border: '1px solid var(--border)',
-              padding: '6px 16px', borderRadius: '20px',
-              fontSize: '0.75rem', fontWeight: 700,
-              color: 'var(--accent)', letterSpacing: '0.04em',
-              boxShadow: '0 4px 12px rgba(0,0,0,0.15)'
-            }}
-          >
-            Powered by HTC
-          </span>
-        </div>
-
         <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '16px' }}>
           <img
             src="/logo.png"
@@ -353,8 +338,8 @@ function App() {
       )}
 
       {/* Footer Branding */}
-      <footer style={{ textAlign: 'center', marginTop: '40px', padding: '16px 0', color: 'var(--text-muted)', fontSize: '0.8rem', fontWeight: 600 }}>
-        Powered by HTC
+      <footer style={{ textAlign: 'center', marginTop: '40px', padding: '16px 0', color: 'var(--text-muted)', fontSize: '0.85rem', fontWeight: 600 }}>
+        Powered by Hamza Tehseen Cheema
       </footer>
 
 

@@ -30,6 +30,7 @@ export interface Site {
   tpId?: string;
   tpApprovedServices?: string;
   zongApprovedServices?: string;
+  jazzApprovedServices?: string;
   createdAt: number;
   isUserCreated?: boolean; // true = added by user, survives all app updates
 }
