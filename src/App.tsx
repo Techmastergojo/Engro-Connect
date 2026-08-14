@@ -77,7 +77,13 @@ function App() {
         setUpdateProgress(0);
       }
       
-      const res = await fetch('https://raw.githubusercontent.com/Techmastergojo/Engro-Connect/main/version.json');
+      const res = await fetch(`https://raw.githubusercontent.com/Techmastergojo/Engro-Connect/main/version.json?t=${Date.now()}`, {
+        cache: 'no-store',
+        headers: {
+          'Cache-Control': 'no-cache',
+          'Pragma': 'no-cache'
+        }
+      });
       const data = await res.json();
       
       let currentVersion = '0.0.0';

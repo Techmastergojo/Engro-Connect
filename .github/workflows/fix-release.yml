@@ -1,0 +1,17 @@
+name: Fix Release
+on: [push]
+jobs:
+  fix:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Create Release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh release create v1.0.202608141010 --title "v1.0.202608141010" --notes "Fix stuck updates" || echo "Release exists"
+          # Upload the dist.zip from the latest release to this one
+          curl -L -o dist.zip https://github.com/Techmastergojo/Engro-Connect/releases/download/v1.0.202608140513/dist.zip
+          gh release upload v1.0.202608141010 dist.zip --clobber
