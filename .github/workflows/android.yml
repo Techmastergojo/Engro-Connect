@@ -39,28 +39,13 @@ jobs:
     - name: Build Web App
       run: npm run build
 
-    # ── Commit web bundle for OTA delivery ──────────────────────────────────
-    - name: Commit dist.zip to repo
+    # ── Zip web bundle for OTA delivery ─────────────────────────────────────
+    - name: Zip web bundle for OTA
       run: |
         cd dist
         zip -r ../dist.zip .
         cd ..
         echo "Bundle size: $(du -sh dist.zip | cut -f1)"
-        git config user.email "github-actions@github.com"
-        git config user.name "GitHub Actions"
-        git add dist.zip
-        git diff --staged --quiet || git commit -m "chore: push new OTA dist.zip [skip ci]"
-
-    # ── Update version.json so devices know to download this zip ─────────
-    - name: Update version.json
-      run: |
-        DOWNLOAD_URL="https://cdn.jsdelivr.net/gh/Techmastergojo/Engro-Connect@main/dist.zip"
-        echo "{\"version\":\"${{ steps.version.outputs.VERSION }}\",\"url\":\"$DOWNLOAD_URL\"}" > version.json
-        git add version.json
-        git diff --staged --quiet || git commit -m "chore: update OTA version to ${{ steps.version.outputs.TAG }} [skip ci]"
-        git push
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
     # ── Build Android APK ────────────────────────────────────────────────────
     - name: Setup Java
@@ -69,20 +54,42 @@ jobs:
         distribution: 'zulu'
         java-version: '21'
 
-    - name: Setup Android SDK
-      uses: android-actions/setup-android@v3
+    - name: Setup Gradle
+      uses: gradle/gradle-build-action@v2
 
     - name: Sync Capacitor
       run: npx cap sync android
 
-    - name: Build Debug APK
+    - name: Build APK
       run: |
         cd android
         chmod +x ./gradlew
         ./gradlew assembleDebug
+        cd ..
 
-    - name: Upload APK Artifact
-      uses: actions/upload-artifact@v4
+    # ── Create GitHub Release with bundle and APK ────────────────────────────
+    - name: Create GitHub Release
+      id: release
+      uses: softprops/action-gh-release@v2
       with:
-        name: Engro-Connect-APK
-        path: android/app/build/outputs/apk/debug/app-debug.apk
+        tag_name: ${{ steps.version.outputs.TAG }}
+        name: "Engro Connect ${{ steps.version.outputs.TAG }}"
+        body: "Auto-generated OTA update bundle and APK"
+        files: |
+          dist.zip
+          android/app/build/outputs/apk/debug/app-debug.apk
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    # ── Update version.json so devices know to download this release ─────────
+    - name: Update version.json
+      run: |
+        DOWNLOAD_URL="https://github.com/Techmastergojo/Engro-Connect/releases/download/${{ steps.version.outputs.TAG }}/dist.zip"
+        echo "{\"version\":\"${{ steps.version.outputs.VERSION }}\",\"url\":\"$DOWNLOAD_URL\"}" > version.json
+        git config user.email "github-actions@github.com"
+        git config user.name "GitHub Actions"
+        git add version.json
+        git diff --staged --quiet || git commit -m "chore: update OTA version to ${{ steps.version.outputs.TAG }} [skip ci]"
+        git push
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
