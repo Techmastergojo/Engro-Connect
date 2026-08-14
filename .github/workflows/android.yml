@@ -2,94 +2,127 @@ name: Build Android APK
 
 on:
   push:
-    branches: [ "main" ]
+    branches:
+      - main
   workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     permissions:
-      contents: write   # required to create releases and push version.json
+      contents: write
 
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v4
-      with:
-        token: ${{ secrets.GITHUB_TOKEN }}
-        fetch-depth: 0
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
 
-    - name: Setup Node.js
-      uses: actions/setup-node@v4
-      with:
-        node-version: 22
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
 
-    - name: Install dependencies
-      run: npm install
+      - name: Install dependencies
+        run: npm ci
 
-    # ── Generate build version from timestamp ────────────────────────────────
-    - name: Generate build version
-      id: version
-      run: |
-        VERSION="1.0.$(date +%Y%m%d%H%M)"
-        echo "VERSION=$VERSION" >> $GITHUB_OUTPUT
-        echo "TAG=v$VERSION" >> $GITHUB_OUTPUT
-        echo "Building version: $VERSION"
+      - name: Generate build version
+        id: version
+        run: |
+          VERSION="1.0.$(date +%Y%m%d%H%M)"
+          TAG="v$VERSION"
 
-    # ── Build web bundle ─────────────────────────────────────────────────────
-    - name: Build Web App
-      run: npm run build
+          echo "VERSION=$VERSION" >> "$GITHUB_OUTPUT"
+          echo "TAG=$TAG" >> "$GITHUB_OUTPUT"
 
-    # ── Zip web bundle for OTA delivery ─────────────────────────────────────
-    - name: Zip web bundle for OTA
-      run: |
-        cd dist
-        zip -r ../dist.zip .
-        cd ..
-        echo "Bundle size: $(du -sh dist.zip | cut -f1)"
+          echo "Building version: $VERSION"
+          echo "Release tag: $TAG"
 
-    # ── Build Android APK ────────────────────────────────────────────────────
-    - name: Setup Java
-      uses: actions/setup-java@v4
-      with:
-        distribution: 'zulu'
-        java-version: '21'
+      - name: Build Web App
+        run: npm run build
 
-    - name: Setup Gradle
-      uses: gradle/gradle-build-action@v2
+      - name: Zip web bundle for OTA
+        run: |
+          cd dist
+          zip -r ../dist.zip .
+          cd ..
+          echo "Bundle size:"
+          ls -lh dist.zip
 
-    - name: Sync Capacitor
-      run: npx cap sync android
+      - name: Setup Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: zulu
+          java-version: "21"
 
-    - name: Build APK
-      run: |
-        cd android
-        chmod +x ./gradlew
-        ./gradlew assembleDebug
-        cd ..
+      - name: Setup Gradle
+        uses: gradle/actions/setup-gradle@v4
 
-    # ── Create GitHub Release with bundle and APK ────────────────────────────
-    - name: Create GitHub Release
-      id: release
-      uses: softprops/action-gh-release@v2
-      with:
-        tag_name: ${{ steps.version.outputs.TAG }}
-        name: "Engro Connect ${{ steps.version.outputs.TAG }}"
-        body: "Auto-generated OTA update bundle and APK"
-        files: |
-          dist.zip
-          android/app/build/outputs/apk/debug/app-debug.apk
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Sync Capacitor
+        run: npx cap sync android
 
-    # ── Update version.json so devices know to download this release ─────────
-    - name: Update version.json
-      run: |
-        DOWNLOAD_URL="https://github.com/Techmastergojo/Engro-Connect/releases/download/${{ steps.version.outputs.TAG }}/dist.zip"
-        echo "{\"version\":\"${{ steps.version.outputs.VERSION }}\",\"url\":\"$DOWNLOAD_URL\"}" > version.json
-        git config user.email "github-actions@github.com"
-        git config user.name "GitHub Actions"
-        git add version.json
-        git diff --staged --quiet || git commit -m "chore: update OTA version to ${{ steps.version.outputs.TAG }} [skip ci]"
-        git push
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Build APK
+        run: |
+          cd android
+          chmod +x ./gradlew
+          ./gradlew assembleDebug --no-daemon
+          cd ..
+
+      - name: Verify build output
+        run: |
+          echo "Checking APK..."
+          ls -lh android/app/build/outputs/apk/debug/app-debug.apk
+
+          echo "Checking OTA bundle..."
+          ls -lh dist.zip
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ steps.version.outputs.TAG }}
+          name: "Engro Connect ${{ steps.version.outputs.TAG }}"
+          body: |
+            Auto-generated Engro Connect release.
+
+            Version: ${{ steps.version.outputs.VERSION }}
+
+            Includes:
+            - Android APK
+            - OTA web bundle
+          files: |
+            dist.zip
+            android/app/build/outputs/apk/debug/app-debug.apk
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Update version.json
+        run: |
+          VERSION="${{ steps.version.outputs.VERSION }}"
+          TAG="${{ steps.version.outputs.TAG }}"
+          DOWNLOAD_URL="https://github.com/Techmastergojo/Engro-Connect/releases/download/${TAG}/dist.zip"
+
+          echo "Version: $VERSION"
+          echo "Download URL: $DOWNLOAD_URL"
+
+          printf '{"version":"%s","url":"%s"}\n' "$VERSION" "$DOWNLOAD_URL" > version.json
+
+          echo "Generated version.json:"
+          cat version.json
+
+          git config user.email "github-actions@github.com"
+          git config user.name "GitHub Actions"
+
+          git add version.json
+
+          if git diff --staged --quiet; then
+            echo "No changes to version.json"
+          else
+            git commit -m "chore: update OTA version to $TAG [skip ci]"
+            git push
+          fi
+
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
