@@ -31,6 +31,9 @@ function App() {
   const fileInputRef = useRef<HTMLInputElement>(null);
 
   useEffect(() => {
+    // Notify Capgo that the app booted successfully so it doesn't rollback OTA updates
+    CapacitorUpdater.notifyAppReady();
+
     // Show changelog if not seen yet
     const hasSeenChangelog = localStorage.getItem('has_seen_changelog_v4');
     if (!hasSeenChangelog) {
