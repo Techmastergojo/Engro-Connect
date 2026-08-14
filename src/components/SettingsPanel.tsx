@@ -116,7 +116,7 @@ export const SettingsPanel: React.FC<Props> = ({ isOpen, onClose, hasNewBugs, on
     if (!bugTitle.trim()) return;
 
     setSubmitting(true);
-    const messageText = `*Engro Connect Bug Report*\n\n*Issue:* ${bugTitle}\n\n*Details:*\n${bugBody || 'No additional details provided.'}`;
+    const messageText = `*Engro Enfrashare Bug Report*\n\n*Issue:* ${bugTitle}\n\n*Details:*\n${bugBody || 'No additional details provided.'}`;
     const whatsappUrl = `https://wa.me/923171112796?text=${encodeURIComponent(messageText)}`;
     
     window.open(whatsappUrl, '_blank');
@@ -243,7 +243,7 @@ export const SettingsPanel: React.FC<Props> = ({ isOpen, onClose, hasNewBugs, on
                   <CheckCircle size={40} color="#00c850" style={{ margin: '0 auto 12px' }} />
                   <h3 style={{ fontSize: '1.1rem', fontWeight: 700, marginBottom: '8px' }}>We heard you! 🙌</h3>
                   <p style={{ color: 'var(--text-secondary)', fontSize: '0.88rem' }}>
-                    Your bug report has been submitted. We'll get it fixed as soon as possible — thank you for helping us improve Engro Connect!
+                    Your bug report has been submitted. We'll get it fixed as soon as possible — thank you for helping us improve Engro Enfrashare!
                   </p>
                 </div>
               ) : submitStatus === 'error' ? (

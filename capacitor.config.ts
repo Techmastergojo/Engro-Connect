@@ -2,7 +2,7 @@ import type { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
   appId: 'com.coordinate.helper.engroconnect',
-  appName: 'Engro Connect',
+  appName: 'Engro Enfrashare',
   webDir: 'dist',
   plugins: {
     CapacitorUpdater: {

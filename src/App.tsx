@@ -275,11 +275,11 @@ function App() {
         <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '16px' }}>
           <img
             src="/logo.png"
-            alt="Engro Connect Logo"
+            alt="Engro Enfrashare Logo"
             style={{ height: '80px', objectFit: 'contain', filter: `drop-shadow(0 8px 24px ${themeAccent}33)` }}
           />
         </div>
-        <h1 style={{ fontSize: '2.2rem', fontWeight: 800, marginBottom: '6px', letterSpacing: '-0.03em', background: 'linear-gradient(180deg, #fff, var(--text-secondary))', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>Engro Connect</h1>
+        <h1 style={{ fontSize: '2.2rem', fontWeight: 800, marginBottom: '6px', letterSpacing: '-0.03em', background: 'linear-gradient(180deg, #fff, var(--text-secondary))', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>Engro Enfrashare</h1>
         <p style={{ color: 'var(--text-secondary)', fontSize: '0.95rem', fontWeight: 600, letterSpacing: '0.01em' }}>Pakistan Leading Tower Co.</p>
       </header>
 
@@ -370,11 +370,11 @@ function App() {
         >
           <img
             src="/logo.png"
-            alt="Engro Connect Logo"
+            alt="Engro Enfrashare Logo"
             style={{ height: '80px', marginBottom: '24px', filter: 'drop-shadow(0 8px 24px rgba(0, 168, 107, 0.2))' }}
           />
           <h2 style={{ fontSize: '1.4rem', fontWeight: 800, marginBottom: '8px', color: '#fff' }}>
-            Updating Engro Connect
+            Updating Engro Enfrashare
           </h2>
           <p style={{ color: 'var(--text-secondary)', fontSize: '0.9rem', marginBottom: '32px', maxWidth: '300px', lineHeight: 1.5 }}>
             {updateStatus}

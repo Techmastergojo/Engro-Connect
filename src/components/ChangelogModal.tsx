@@ -65,7 +65,7 @@ export const ChangelogModal: React.FC<Props> = ({ isOpen, onClose }) => {
             Release Notes V2
           </h2>
           <p style={{ color: 'var(--text-secondary)', fontSize: '0.85rem', marginBottom: '24px', lineHeight: 1.5 }}>
-            Engro Connect has been updated with enterprise-grade features to streamline operations.
+            Engro Enfrashare has been updated with enterprise-grade features to streamline operations.
           </p>
 
           <div style={{ display: 'flex', flexDirection: 'column', gap: '20px', marginBottom: '32px' }}>
