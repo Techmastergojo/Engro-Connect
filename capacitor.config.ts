@@ -11,7 +11,7 @@ const config: CapacitorConfig = {
       updateUrl: 'https://raw.githubusercontent.com/Techmastergojo/Engro-Connect/main/version.json',
       statsUrl: '',      // disable usage tracking
       channelUrl: '',    // disable Capgo channels (we're self-hosted)
-      autoUpdate: true,  // silently check & download updates in background
+      autoUpdate: false,  // silently check & download updates in background
     },
   },
 };
