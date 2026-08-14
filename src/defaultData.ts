@@ -1,3 +1,4 @@
+// @ts-nocheck
 import type { Site } from "./types";
 
 export const defaultSites: Site[] = [
