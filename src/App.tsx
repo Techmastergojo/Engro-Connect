@@ -208,16 +208,16 @@ function App() {
               tpApprovedServices: row['TP Approved Services'] || row.tpApprovedServices || undefined,
               zongApprovedServices: row['Zong Approved Services'] || row.zongApprovedServices || undefined,
               ufoneApprovedServices: row['Ufone Approved Services'] || row.ufoneApprovedServices || undefined,
+              jazzApprovedServices: row['Jazz Approved Services'] || row.jazzApprovedServices || undefined,
               createdAt: Date.now(), isUserCreated: true,
             };
           }
           return null;
         }).filter(Boolean) as Site[];
         if (newSites.length > 0) {
-          const combined = [...newSites, ...getSites()];
-          saveSites(combined);
-          setSites(combined);
-          alert(`Successfully imported ${newSites.length} sites!`);
+          saveSites(newSites);
+          setSites(newSites);
+          alert(`Successfully imported ${newSites.length} sites (old database cleared)!`);
         } else {
           alert('Could not parse any valid coordinates from CSV.');
         }
