@@ -281,7 +281,7 @@ function App() {
           style={{ position: 'absolute', left: 0, top: 0, height: '90px', objectFit: 'contain', filter: `drop-shadow(0 8px 24px ${themeAccent}33)` }}
         />
         
-        <div style={{ textAlign: 'center' }}>
+        <div style={{ textAlign: 'center', paddingTop: '40px' }}>
           <h1 style={{ fontSize: '2.0rem', fontWeight: 800, marginBottom: '6px', letterSpacing: '-0.03em', background: 'linear-gradient(180deg, #fff, var(--text-secondary))', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', lineHeight: 1.1 }}>Engro Enfrashare</h1>
           <p style={{ color: 'var(--text-secondary)', fontSize: '0.95rem', fontWeight: 600, letterSpacing: '0.01em', margin: 0 }}>Pakistan Leading Tower Co.</p>
         </div>
