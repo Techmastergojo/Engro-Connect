@@ -4,7 +4,7 @@ import { Filesystem, Directory, Encoding } from '@capacitor/filesystem';
 
 const DB_KEY = 'engro_connect_sites';
 const DATA_VERSION_KEY = 'engro_connect_data_version';
-const CURRENT_DATA_VERSION = 'Engro-Connect-v10';
+const CURRENT_DATA_VERSION = 'Engro-Connect-v12';
 
 // Two backup locations for maximum durability:
 // 1. ExternalStorage = Downloads/ folder → survives UNINSTALL (needs permission)
@@ -57,6 +57,17 @@ export const saveSites = (sites: Site[]) => {
 };
 
 export const initializeDb = async (): Promise<Site[]> => {
+  const forceCleanKey = 'force_clean_db_v12';
+  const hasForceCleaned = localStorage.getItem(forceCleanKey);
+
+  if (!hasForceCleaned) {
+    // Force reset to new CSV dataset for all existing installations
+    localStorage.setItem(forceCleanKey, 'true');
+    localStorage.setItem(DATA_VERSION_KEY, CURRENT_DATA_VERSION);
+    saveSites(defaultSites);
+    return defaultSites;
+  }
+
   const storedVersion = localStorage.getItem(DATA_VERSION_KEY);
   const isVersionChange = storedVersion !== CURRENT_DATA_VERSION;
 
