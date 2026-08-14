@@ -25,18 +25,12 @@ export const SiteModal: React.FC<Props> = ({ isOpen, onClose, onSave, site }) =>
   const [ufoneId, setUfoneId] = useState('');
   const [siteStatus, setSiteStatus] = useState('');
   const [category, setCategory] = useState('');
-  const [powerStatus, setPowerStatus] = useState('');
   const [securityVendor, setSecurityVendor] = useState('');
   const [guestOmo, setGuestOmo] = useState('');
-  const [dgShared, setDgShared] = useState('');
-  const [dcShared, setDcShared] = useState('');
   const [solar, setSolar] = useState('');
-  const [dgStatus, setDgStatus] = useState('');
   const [dependentSites, setDependentSites] = useState('');
   const [solarKwa, setSolarKwa] = useState('');
   const [neLocation, setNeLocation] = useState('');
-  const [dcSharedWith, setDcSharedWith] = useState('');
-  const [tpId, setTpId] = useState('');
   const [tpApprovedServices, setTpApprovedServices] = useState('');
   const [zongApprovedServices, setZongApprovedServices] = useState('');
   const [ufoneApprovedServices, setUfoneApprovedServices] = useState('');
@@ -59,18 +53,12 @@ export const SiteModal: React.FC<Props> = ({ isOpen, onClose, onSave, site }) =>
       setUfoneId(site.ufoneId || '');
       setSiteStatus(site.siteStatus || '');
       setCategory(site.category || '');
-      setPowerStatus(site.powerStatus || '');
       setSecurityVendor(site.securityVendor || '');
       setGuestOmo(site.guestOmo || '');
-      setDgShared(site.dgShared || '');
-      setDcShared(site.dcShared || '');
       setSolar(site.solar || '');
-      setDgStatus(site.dgStatus || '');
       setDependentSites(site.dependentSites || site.noOfSites || '');
       setSolarKwa(site.solarKwa || '');
       setNeLocation(site.neLocation || '');
-      setDcSharedWith(site.dcSharedWith || '');
-      setTpId(site.tpId || '');
       setTpApprovedServices(site.tpApprovedServices || '');
       setZongApprovedServices(site.zongApprovedServices || '');
       setUfoneApprovedServices(site.ufoneApprovedServices || '');
@@ -90,18 +78,12 @@ export const SiteModal: React.FC<Props> = ({ isOpen, onClose, onSave, site }) =>
       setUfoneId('');
       setSiteStatus('');
       setCategory('');
-      setPowerStatus('');
       setSecurityVendor('');
       setGuestOmo('');
-      setDgShared('');
-      setDcShared('');
       setSolar('');
-      setDgStatus('');
       setDependentSites('');
       setSolarKwa('');
       setNeLocation('');
-      setDcSharedWith('');
-      setTpId('');
       setTpApprovedServices('');
       setZongApprovedServices('');
       setUfoneApprovedServices('');
@@ -129,19 +111,13 @@ export const SiteModal: React.FC<Props> = ({ isOpen, onClose, onSave, site }) =>
       ufoneId,
       siteStatus,
       category,
-      powerStatus,
       securityVendor,
       guestOmo,
-      dgShared,
-      dcShared,
       solar,
-      dgStatus,
       dependentSites,
       noOfSites: dependentSites,
       solarKwa,
       neLocation,
-      dcSharedWith,
-      tpId,
       tpApprovedServices,
       zongApprovedServices,
       ufoneApprovedServices,
@@ -247,28 +223,12 @@ export const SiteModal: React.FC<Props> = ({ isOpen, onClose, onSave, site }) =>
               <input className="input" value={category} onChange={e => setCategory(e.target.value)} placeholder="e.g. Gold / Silver" />
             </div>
             <div>
-              <label style={{ display: 'block', marginBottom: '6px', fontSize: '0.8rem', color: 'var(--text-secondary)', fontWeight: 600 }}>Power Status</label>
-              <input className="input" value={powerStatus} onChange={e => setPowerStatus(e.target.value)} placeholder="e.g. Poor Grid" />
-            </div>
-            <div>
-              <label style={{ display: 'block', marginBottom: '6px', fontSize: '0.8rem', color: 'var(--text-secondary)', fontWeight: 600 }}>DG Status</label>
-              <input className="input" value={dgStatus} onChange={e => setDgStatus(e.target.value)} placeholder="e.g. Operational" />
-            </div>
-            <div>
               <label style={{ display: 'block', marginBottom: '6px', fontSize: '0.8rem', color: 'var(--text-secondary)', fontWeight: 600 }}>Security Vendor</label>
               <input className="input" value={securityVendor} onChange={e => setSecurityVendor(e.target.value)} placeholder="e.g. Al-Safeena" />
             </div>
             <div>
               <label style={{ display: 'block', marginBottom: '6px', fontSize: '0.8rem', color: 'var(--text-secondary)', fontWeight: 600 }}>Guest OMO</label>
               <input className="input" value={guestOmo} onChange={e => setGuestOmo(e.target.value)} placeholder="e.g. UFONE/TELENOR" />
-            </div>
-            <div>
-              <label style={{ display: 'block', marginBottom: '6px', fontSize: '0.8rem', color: 'var(--text-secondary)', fontWeight: 600 }}>DG Shared</label>
-              <input className="input" value={dgShared} onChange={e => setDgShared(e.target.value)} placeholder="e.g. TELENOR" />
-            </div>
-            <div>
-              <label style={{ display: 'block', marginBottom: '6px', fontSize: '0.8rem', color: 'var(--text-secondary)', fontWeight: 600 }}>DC Shared</label>
-              <input className="input" value={dcShared} onChange={e => setDcShared(e.target.value)} placeholder="e.g. UFONE/TELENOR" />
             </div>
           </div>
 
@@ -289,10 +249,6 @@ export const SiteModal: React.FC<Props> = ({ isOpen, onClose, onSave, site }) =>
               <label style={{ display: 'block', marginBottom: '6px', fontSize: '0.8rem', color: 'var(--text-secondary)', fontWeight: 600 }}>NE Location</label>
               <input className="input" value={neLocation} onChange={e => setNeLocation(e.target.value)} placeholder="e.g. Indoor" />
             </div>
-            <div>
-              <label style={{ display: 'block', marginBottom: '6px', fontSize: '0.8rem', color: 'var(--text-secondary)', fontWeight: 600 }}>DC Shared With</label>
-              <input className="input" value={dcSharedWith} onChange={e => setDcSharedWith(e.target.value)} placeholder="e.g. Telenor" />
-            </div>
           </div>
 
           <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '12px' }}>
@@ -311,10 +267,6 @@ export const SiteModal: React.FC<Props> = ({ isOpen, onClose, onSave, site }) =>
             <div>
               <label style={{ display: 'block', marginBottom: '6px', fontSize: '0.8rem', color: 'var(--text-secondary)', fontWeight: 600 }}>Ufone ID</label>
               <input className="input" value={ufoneId} onChange={e => setUfoneId(e.target.value)} placeholder="e.g. UF-123" />
-            </div>
-            <div>
-              <label style={{ display: 'block', marginBottom: '6px', fontSize: '0.8rem', color: 'var(--text-secondary)', fontWeight: 600 }}>TP ID</label>
-              <input className="input" value={tpId} onChange={e => setTpId(e.target.value)} placeholder="e.g. LKM003" />
             </div>
             <div>
               <label style={{ display: 'block', marginBottom: '6px', fontSize: '0.8rem', color: 'var(--text-secondary)', fontWeight: 600 }}>Jazz Approved Services</label>

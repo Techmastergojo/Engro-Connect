@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Map, Edit2, Trash2, MessageSquare, ChevronDown, ChevronUp, Sun, Zap, Shield, Radio, Activity } from 'lucide-react';
+import { Map, Edit2, Trash2, MessageSquare, ChevronDown, ChevronUp, Sun, Radio } from 'lucide-react';
 import type { Site } from '../types';
 
 interface Props {
@@ -105,25 +105,7 @@ export const SiteCard: React.FC<Props> = ({ site, onEdit, onDelete }) => {
             <div className="detail-value">{v(site.zonalManager)}</div>
           </div>
 
-          {/* Operational & Power Specs */}
-          <div className="detail-item">
-            <div className="detail-label" style={{ display: 'flex', alignItems: 'center', gap: '4px' }}>
-              <Zap size={13} color="var(--accent)" /> Power Status
-            </div>
-            <div className="detail-value">{v(site.powerStatus)}</div>
-          </div>
-          <div className="detail-item">
-            <div className="detail-label" style={{ display: 'flex', alignItems: 'center', gap: '4px' }}>
-              <Activity size={13} color="var(--accent)" /> DG Status
-            </div>
-            <div className="detail-value">{v(site.dgStatus)}</div>
-          </div>
-          <div className="detail-item">
-            <div className="detail-label" style={{ display: 'flex', alignItems: 'center', gap: '4px' }}>
-              <Shield size={13} color="var(--accent)" /> Security Vendor
-            </div>
-            <div className="detail-value">{v(site.securityVendor)}</div>
-          </div>
+          {/* Operational & Site Specs */}
           <div className="detail-item">
             <div className="detail-label" style={{ display: 'flex', alignItems: 'center', gap: '4px' }}>
               <Radio size={13} color="var(--accent)" /> Guest OMOs
@@ -131,12 +113,8 @@ export const SiteCard: React.FC<Props> = ({ site, onEdit, onDelete }) => {
             <div className="detail-value">{v(site.guestOmo)}</div>
           </div>
           <div className="detail-item">
-            <div className="detail-label">DG Shared</div>
-            <div className="detail-value">{v(site.dgShared)}</div>
-          </div>
-          <div className="detail-item">
-            <div className="detail-label">DC Shared</div>
-            <div className="detail-value">{v(site.dcShared)}</div>
+            <div className="detail-label">Security Vendor</div>
+            <div className="detail-value">{v(site.securityVendor)}</div>
           </div>
           <div className="detail-item">
             <div className="detail-label">Solar Installed</div>
@@ -156,10 +134,6 @@ export const SiteCard: React.FC<Props> = ({ site, onEdit, onDelete }) => {
             <div className="detail-label">NE Location</div>
             <div className="detail-value">{v(site.neLocation)}</div>
           </div>
-          <div className="detail-item">
-            <div className="detail-label">DC Shared With</div>
-            <div className="detail-value">{v(site.dcSharedWith)}</div>
-          </div>
 
           {/* Operator IDs */}
           <div className="detail-item">
@@ -177,10 +151,6 @@ export const SiteCard: React.FC<Props> = ({ site, onEdit, onDelete }) => {
           <div className="detail-item">
             <div className="detail-label">Ufone ID</div>
             <div className="detail-value">{v(site.ufoneId)}</div>
-          </div>
-          <div className="detail-item">
-            <div className="detail-label">TP ID</div>
-            <div className="detail-value">{v(site.tpId)}</div>
           </div>
 
           {/* Operator Approved Services */}

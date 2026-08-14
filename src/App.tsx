@@ -228,19 +228,7 @@ function App() {
 
   const filteredSites = sites.filter(s => {
     if (!searchQuery.trim()) return true;
-    const tokens = searchQuery.trim().toLowerCase().split(/\s+/).filter(Boolean);
-    if (tokens.length === 0) return true;
-
-    const searchableText = [
-      s.name, s.mbuNumber, s.mbuName, s.cellNumber, s.networkPortfolio,
-      s.zonalManager, s.jazzId, s.telenorId, s.zongId, s.ufoneId,
-      s.siteStatus, s.category, s.powerStatus, s.securityVendor,
-      s.guestOmo, s.dgShared, s.dcShared, s.solar, s.dgStatus,
-      s.solarKwa, s.neLocation, s.noOfSites, s.dependentSites, s.dcSharedWith,
-      s.ufoneApprovedServices, s.tpId, s.tpApprovedServices, s.zongApprovedServices
-    ].filter(Boolean).join(' ').toLowerCase();
-
-    return tokens.every(token => searchableText.includes(token));
+    return s.name.toLowerCase().includes(searchQuery.trim().toLowerCase());
   });
 
   // Get accent color for current theme
@@ -295,7 +283,7 @@ function App() {
           <input
             className="input"
             style={{ paddingLeft: '48px' }}
-            placeholder="Search by Site ID, MBU, Telenor, Jazz, Platinum..."
+            placeholder="Search by Site ID..."
             value={searchQuery}
             onChange={e => setSearchQuery(e.target.value)}
           />
