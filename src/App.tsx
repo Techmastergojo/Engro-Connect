@@ -243,7 +243,7 @@ function App() {
 
   return (
     <div style={{ maxWidth: '600px', margin: '0 auto', padding: '32px 16px', position: 'relative' }}>
-      <header style={{ marginBottom: '32px', textAlign: 'center', position: 'relative' }}>
+      <header style={{ marginBottom: '32px', position: 'relative' }}>
 
         {/* ⚙ Settings gear top-right */}
         <button
@@ -272,15 +272,17 @@ function App() {
           )}
         </button>
 
-        <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '16px' }}>
+        <div style={{ display: 'flex', alignItems: 'center', textAlign: 'left' }}>
           <img
             src="/logo.png"
             alt="Engro Enfrashare Logo"
-            style={{ height: '80px', objectFit: 'contain', filter: `drop-shadow(0 8px 24px ${themeAccent}33)` }}
+            style={{ height: '110px', objectFit: 'contain', filter: `drop-shadow(0 8px 24px ${themeAccent}33)`, marginRight: '16px' }}
           />
+          <div>
+            <h1 style={{ fontSize: '2.0rem', fontWeight: 800, marginBottom: '6px', letterSpacing: '-0.03em', background: 'linear-gradient(180deg, #fff, var(--text-secondary))', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', lineHeight: 1.1 }}>Engro Enfrashare</h1>
+            <p style={{ color: 'var(--text-secondary)', fontSize: '0.95rem', fontWeight: 600, letterSpacing: '0.01em', margin: 0 }}>Pakistan Leading Tower Co.</p>
+          </div>
         </div>
-        <h1 style={{ fontSize: '2.2rem', fontWeight: 800, marginBottom: '6px', letterSpacing: '-0.03em', background: 'linear-gradient(180deg, #fff, var(--text-secondary))', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>Engro Enfrashare</h1>
-        <p style={{ color: 'var(--text-secondary)', fontSize: '0.95rem', fontWeight: 600, letterSpacing: '0.01em' }}>Pakistan Leading Tower Co.</p>
       </header>
 
       <div style={{ display: 'flex', gap: '10px', marginBottom: '24px' }}>
