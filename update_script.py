@@ -51,7 +51,7 @@ try:
             name = get(["Site ID", "name", "Name"])
             if not name: continue
 
-            depSites = get(["Dependent sites", "dependentSites", "No of Sites", "noOfSites"])
+            depSites = get(["Dependent sites", "Dependent site", "dependentSites", "No of Sites", "noOfSites"])
             
             site = {
                 "id": str(uuid.uuid4()),

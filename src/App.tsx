@@ -190,7 +190,7 @@ function App() {
           const lat = parseFloat((row.Latitude || row.lat || '0').toString().replace(/\.\./g, '.'));
           const lng = parseFloat((row.Longitude || row.lng || '0').toString().replace(/\.\./g, '.'));
           if (name && !isNaN(lat) && !isNaN(lng)) {
-            const depSites = row['Dependent sites'] || row.dependentSites || row['No of Sites'] || row.noOfSites || undefined;
+            const depSites = row['Dependent sites'] || row['Dependent site'] || row.dependentSites || row['No of Sites'] || row.noOfSites || undefined;
             return {
               id: crypto.randomUUID(), name, lat, lng,
               mbuNumber: row['MBU Number'] || '', mbuName: row['MBU Name'] || '',
@@ -362,29 +362,21 @@ function App() {
         }} 
       />
 
-      {/* Visual Update Progress Splash Screen */}
       {updateProgress !== null && (
         <div 
           style={{
-            position: 'fixed', inset: 0,
-            background: '#090d0a', zIndex: 9999,
-            display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center',
-            padding: '24px', textAlign: 'center'
+            position: 'fixed', top: 16, left: '50%', transform: 'translateX(-50%)',
+            background: 'var(--surface)', border: '1px solid var(--accent)', borderRadius: '12px',
+            zIndex: 9999, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center',
+            padding: '16px 24px', textAlign: 'center', boxShadow: '0 8px 32px rgba(0,0,0,0.4)',
+            minWidth: '280px'
           }}
         >
-          <img
-            src="/logo.png"
-            alt="Engro Enfrashare Logo"
-            style={{ height: '80px', marginBottom: '24px', filter: 'drop-shadow(0 8px 24px rgba(0, 168, 107, 0.2))' }}
-          />
-          <h2 style={{ fontSize: '1.4rem', fontWeight: 800, marginBottom: '8px', color: '#fff' }}>
-            Updating Engro Enfrashare
-          </h2>
-          <p style={{ color: 'var(--text-secondary)', fontSize: '0.9rem', marginBottom: '32px', maxWidth: '300px', lineHeight: 1.5 }}>
+          <h2 style={{ fontSize: '1rem', fontWeight: 700, marginBottom: '6px', color: '#fff' }}>
             {updateStatus}
-          </p>
+          </h2>
 
-          <div style={{ width: '100%', maxWidth: '280px', background: 'rgba(255,255,255,0.05)', height: '6px', borderRadius: '3px', overflow: 'hidden', marginBottom: '12px' }}>
+          <div style={{ width: '100%', background: 'rgba(255,255,255,0.1)', height: '6px', borderRadius: '3px', overflow: 'hidden', marginTop: '8px' }}>
             <div 
               style={{ 
                 width: `${updateProgress}%`, 
@@ -395,9 +387,6 @@ function App() {
               }} 
             />
           </div>
-          <span style={{ fontSize: '0.85rem', fontWeight: 700, color: 'var(--accent)' }}>
-            {updateProgress}%
-          </span>
         </div>
       )}
     </div>
