@@ -11,11 +11,12 @@ const config: CapacitorConfig = {
       updateUrl: 'https://raw.githubusercontent.com/Techmastergojo/Engro-Connect/main/version.json',
       statsUrl: '',      // disable usage tracking
       channelUrl: '',    // disable Capgo channels (we're self-hosted)
-      autoUpdate: false,  // silently check & download updates in background
+      autoUpdate: 'onLaunch',  // natively check & apply updates on launch
+      autoSplashscreen: true, // let Capgo manage the splash screen natively
     },
     SplashScreen: {
-      launchShowDuration: 0,
-      launchAutoHide: true,
+      launchShowDuration: 3000,
+      launchAutoHide: false, // REQUIRED for Capgo autoSplashscreen
       backgroundColor: "#090d0a", // Engro Green theme bg
       androidSplashResourceName: "splash",
       androidScaleType: "CENTER_CROP",

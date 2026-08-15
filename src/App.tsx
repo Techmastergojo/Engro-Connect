@@ -130,11 +130,11 @@ function App() {
         setUpdateProgress(null);
         alert('You are already running the latest version!');
       }
-    } catch (e) {
+    } catch (e: any) {
       console.error('Silent update failed:', e);
       if (isManual) {
         setUpdateProgress(null);
-        alert('Failed to check for updates. Please try again.');
+        alert(`Failed to check for updates: ${e.message || e}`);
       }
     }
   };
