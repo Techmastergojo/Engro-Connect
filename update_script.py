@@ -29,7 +29,7 @@ img_dest = r"c:\Users\hamza\OneDrive\Desktop\Engro Connect\public\logo.png"
 remove_white_bg(img_src, img_dest)
 
 # 2. Parse CSV to defaultData.ts
-csv_file = r"c:\Users\hamza\OneDrive\Desktop\Engro Connect\Engro Connect1 App (2).csv"
+csv_file = r"c:\Users\hamza\OneDrive\Desktop\Engro Connect\Engro Enfrashare.csv"
 out_file = r"c:\Users\hamza\OneDrive\Desktop\Engro Connect\src\defaultData.ts"
 
 sites = []
