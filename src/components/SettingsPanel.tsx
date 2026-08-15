@@ -14,7 +14,10 @@ export const THEMES = [
   { id: 'arctic-white',   name: 'Arctic White',  accent: '#0ea5e9', bg: '#f0f4f8', surface: 'rgba(255,255,255,0.9)',text: '#0f172a', secondary: '#475569' },
   { id: 'matrix-green',   name: 'Matrix',        accent: '#00ff41', bg: '#000000', surface: 'rgba(0,20,5,0.92)',    text: '#00ff41', secondary: '#00cc33' },
   { id: 'sunset-orange',  name: '🌅 Sunset',     accent: '#ff6b35', bg: '#0d0704', surface: 'rgba(30,14,6,0.90)',   text: '#ffffff', secondary: '#ffc4a8' },
+  { id: 'ocean-deep',     name: '🌊 Ocean Deep', accent: '#0891b2', bg: '#020b0e', surface: 'rgba(2,20,30,0.92)',   text: '#ffffff', secondary: '#7dd3fc' },
+  { id: 'neon-pink',      name: '💜 Neon Pink',  accent: '#e879f9', bg: '#0d0210', surface: 'rgba(25,5,35,0.92)',   text: '#ffffff', secondary: '#f0abfc' },
 ];
+
 
 export const applyTheme = (themeId: string) => {
   const theme = THEMES.find(t => t.id === themeId) || THEMES[0];
