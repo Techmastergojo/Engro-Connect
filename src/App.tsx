@@ -255,7 +255,7 @@ function App() {
         <img
           src="/logo.png"
           alt="Engro Enfrashare Logo"
-          style={{ height: '68px', width: '68px', objectFit: 'contain', flexShrink: 0, filter: `drop-shadow(0 4px 16px ${themeAccent}55)` }}
+          style={{ height: '60px', width: 'auto', objectFit: 'contain', flexShrink: 0, filter: `drop-shadow(0 4px 16px ${themeAccent}55)` }}
         />
 
         {/* Heading — centred in remaining space */}
