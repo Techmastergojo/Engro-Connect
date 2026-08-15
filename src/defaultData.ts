@@ -4,7 +4,11 @@ import type { Site } from "./types";
 export const defaultSites: Site[] = [
   {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "id": "9e5a157b-ad41-4e03-82aa-7e9c3d70730b",
+=======
+    "id": "9e84c0ec-458e-4182-8cfc-29219da3c7d3",
+>>>>>>> Stashed changes
 =======
     "id": "9e84c0ec-458e-4182-8cfc-29219da3c7d3",
 >>>>>>> Stashed changes
@@ -33,10 +37,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "f36b9f51-76d9-4a3e-8b4a-7a786fd52203",
+=======
+    "createdAt": 1786777921594
+  },
+  {
+    "id": "b92bc13d-a84f-40d9-adc8-5ce03437ab91",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921594
   },
@@ -68,10 +79,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "bf8a00b7-c07f-4c9c-8348-1cea995d6e18",
+=======
+    "createdAt": 1786777921594
+  },
+  {
+    "id": "0ec1d5cb-9529-443a-8d1f-ae43dbb4cf74",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921594
   },
@@ -103,10 +121,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "DG",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "534ba311-04d2-4660-86ca-65d073e08f83",
+=======
+    "createdAt": 1786777921594
+  },
+  {
+    "id": "c94a3dc9-92f2-4c1e-8f6d-6458af28ea13",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921594
   },
@@ -138,10 +163,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "ae38f930-699b-4815-b3d6-b1cc31d18fad",
+=======
+    "createdAt": 1786777921595
+  },
+  {
+    "id": "8d7637a9-3161-42f3-a00f-89a32a3f15d2",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921595
   },
@@ -173,10 +205,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "9320992b-c1a4-4f2d-bd71-eb72d288bfc0",
+=======
+    "createdAt": 1786777921595
+  },
+  {
+    "id": "0129fd43-8f91-45ab-95b7-bf071b3e53e5",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921595
   },
@@ -208,10 +247,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "0938ef54-65ab-4191-84f0-ded40f4e9279",
+=======
+    "createdAt": 1786777921595
+  },
+  {
+    "id": "23c85a3f-4437-4e86-9138-7fff73757fb8",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921595
   },
@@ -243,10 +289,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "5593e874-8577-4a01-b386-5664fc872289",
+=======
+    "createdAt": 1786777921595
+  },
+  {
+    "id": "956ddf05-004e-4ac9-9c2d-ff313b2dc574",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921595
   },
@@ -278,10 +331,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "dc612948-3226-4661-b345-346ed52ff87f",
+=======
+    "createdAt": 1786777921595
+  },
+  {
+    "id": "11252924-f50f-4a29-a512-fc35aa3e0079",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921595
   },
@@ -313,10 +373,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "DG",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "13b1eda1-826e-40f3-81d7-f0dba91d106b",
+=======
+    "createdAt": 1786777921595
+  },
+  {
+    "id": "288a5700-ab09-438d-89f5-d7b5eb48a312",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921595
   },
@@ -348,10 +415,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "15915d82-5e2b-4c67-86f0-ef867a2048ac",
+=======
+    "createdAt": 1786777921596
+  },
+  {
+    "id": "d4db24bd-379b-43a4-b82e-9f182c638ce3",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921596
   },
@@ -383,10 +457,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "DG",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "79f8b475-63ca-41d6-9618-8d545ec90b0a",
+=======
+    "createdAt": 1786777921596
+  },
+  {
+    "id": "2fb04b03-b7ee-426d-a37b-bbc5719b5f1f",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921596
   },
@@ -418,10 +499,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "a00e13b0-7a35-4819-bcad-0c60e152d623",
+=======
+    "createdAt": 1786777921596
+  },
+  {
+    "id": "e7a09f8c-46d8-4852-b6a5-3a0ad4cfbf7f",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921596
   },
@@ -453,10 +541,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "daa8d5dc-26c2-41cd-8b99-bb56dc271e8f",
+=======
+    "createdAt": 1786777921596
+  },
+  {
+    "id": "af69efcb-8b70-429c-a70a-0a19c9f712ac",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921596
   },
@@ -488,10 +583,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "68c48cb5-3c72-4af6-b097-d6811a2da7a8",
+=======
+    "createdAt": 1786777921596
+  },
+  {
+    "id": "e5da7c39-e775-465b-9f23-8c3d8fc679d9",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921596
   },
@@ -523,10 +625,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "18ebc5c7-dfb5-485e-a8c3-c281caeb4898",
+=======
+    "createdAt": 1786777921596
+  },
+  {
+    "id": "d58b5953-0f7d-46da-9e9c-2bf816d5a17f",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921596
   },
@@ -558,10 +667,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "19373fa7-37d6-4245-a852-f4dfd070ce50",
+=======
+    "createdAt": 1786777921596
+  },
+  {
+    "id": "26279e24-b518-4ec4-96ba-77a44479d2f4",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921596
   },
@@ -593,10 +709,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "6237763c-7de1-4e1a-944f-a8061570b7b7",
+=======
+    "createdAt": 1786777921596
+  },
+  {
+    "id": "03347a73-b3fa-4a4d-9265-a1bf0a48de78",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921596
   },
@@ -628,10 +751,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "8b6008e9-aadf-4c83-930b-601fe5934803",
+=======
+    "createdAt": 1786777921597
+  },
+  {
+    "id": "9729026f-c8a2-4424-8a1b-56e467f1c96e",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921597
   },
@@ -663,10 +793,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "a3a119ae-6d15-4d10-a914-3edf16a48b4e",
+=======
+    "createdAt": 1786777921597
+  },
+  {
+    "id": "62114546-83ed-420f-9c18-ac1a98de28c0",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921597
   },
@@ -698,10 +835,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "9524fb20-f6b0-4391-a7f2-b928b0f392c5",
+=======
+    "createdAt": 1786777921597
+  },
+  {
+    "id": "170113c9-2f65-4680-8629-b68aac4ad493",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921597
   },
@@ -733,10 +877,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "76e1a086-99b5-4933-8f71-7d92b35a1226",
+=======
+    "createdAt": 1786777921597
+  },
+  {
+    "id": "d28cc36a-5b91-4167-9c4c-1fbc251e5c7b",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921597
   },
@@ -768,10 +919,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "41b24f80-56d2-4434-92fe-9b5ae043849f",
+=======
+    "createdAt": 1786777921597
+  },
+  {
+    "id": "7d12d22f-4e99-4227-aa08-1358389bdac7",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921597
   },
@@ -803,10 +961,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "142eb354-1f35-4b5b-a9cf-c91e7c22179a",
+=======
+    "createdAt": 1786777921597
+  },
+  {
+    "id": "229f52d1-fb83-4298-9a22-95b7ed30a268",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921597
   },
@@ -838,10 +1003,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "da847457-12a1-4a97-8aeb-b4dc19958543",
+=======
+    "createdAt": 1786777921597
+  },
+  {
+    "id": "46c7466a-cb8e-451c-bdf8-3b606e331e72",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921597
   },
@@ -873,10 +1045,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "DG",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "4b10a359-a134-48f4-ba85-58d125722a6b",
+=======
+    "createdAt": 1786777921597
+  },
+  {
+    "id": "c6943940-1c96-4fe0-a098-c7249953a364",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921597
   },
@@ -908,10 +1087,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "89573e53-54d4-4b9a-8d4c-9a6812ad76fc",
+=======
+    "createdAt": 1786777921597
+  },
+  {
+    "id": "4412a799-bc3f-491b-9a75-0ed6f8cd54b5",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921597
   },
@@ -943,10 +1129,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "ed83e0fb-1533-4ea3-8ec7-94e99137c769",
+=======
+    "createdAt": 1786777921598
+  },
+  {
+    "id": "8f20956f-af26-465e-bf21-893b7849109c",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921598
   },
@@ -978,10 +1171,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "724efa05-595f-4a33-b6d1-bf4123950986",
+=======
+    "createdAt": 1786777921598
+  },
+  {
+    "id": "0e2ad52d-1957-4fc2-a661-1fedbe4b2e1a",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921598
   },
@@ -1013,10 +1213,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "fa919197-bed9-4c84-81e0-26907957a5bc",
+=======
+    "createdAt": 1786777921598
+  },
+  {
+    "id": "cb8935a1-0596-421e-8562-3c5da3ccc370",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921598
   },
@@ -1048,10 +1255,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "93fae24f-f1d2-40ae-a07a-7e8c213b8e92",
+=======
+    "createdAt": 1786777921598
+  },
+  {
+    "id": "73ad7848-d520-4708-acdf-af917c6dfb12",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921598
   },
@@ -1083,10 +1297,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "69202f2f-3253-43bd-9981-02150f03e734",
+=======
+    "createdAt": 1786777921598
+  },
+  {
+    "id": "bbdab01b-dec7-48b2-927a-dab36dbf865a",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921598
   },
@@ -1118,10 +1339,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "8f8ccf2e-c916-489e-923b-580fcec32596",
+=======
+    "createdAt": 1786777921598
+  },
+  {
+    "id": "eb7e701a-b708-4aa3-887d-e453b7db1064",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921598
   },
@@ -1153,10 +1381,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "f7a8a67c-3015-485a-b04b-6550627df5c2",
+=======
+    "createdAt": 1786777921598
+  },
+  {
+    "id": "4b99b03a-08c8-4c38-92c1-bea286d97c14",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921598
   },
@@ -1188,10 +1423,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "DG",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "d0fc2c16-6b67-4e25-9834-667fc74c5d71",
+=======
+    "createdAt": 1786777921598
+  },
+  {
+    "id": "b2d850cb-8a7c-4b9e-a7ee-bf8bbbf49cf1",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921598
   },
@@ -1223,10 +1465,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "797dd157-23e8-4118-92e6-9a49a077ce05",
+=======
+    "createdAt": 1786777921599
+  },
+  {
+    "id": "91cd6782-de39-41fb-912e-d66413686ce3",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921599
   },
@@ -1258,10 +1507,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "3c1d9655-c6d0-408c-92ee-99bbc1c020e9",
+=======
+    "createdAt": 1786777921599
+  },
+  {
+    "id": "f5c121c1-e314-4891-8b2c-f14dbaa747f7",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921599
   },
@@ -1293,10 +1549,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "89090902-7d14-44b2-8a09-7b67b2f36752",
+=======
+    "createdAt": 1786777921599
+  },
+  {
+    "id": "c0da3d8d-a9f6-4bbc-aa7b-d83fe063f829",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921599
   },
@@ -1328,10 +1591,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "b872ffdd-4fe2-4e02-818d-7869ed8c6cde",
+=======
+    "createdAt": 1786777921599
+  },
+  {
+    "id": "75bd8aba-b7aa-4cc2-93f4-4399752b34e0",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921599
   },
@@ -1363,10 +1633,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "7e699731-54c3-42b6-aed2-9b2b5acb55b3",
+=======
+    "createdAt": 1786777921599
+  },
+  {
+    "id": "635a8b4b-61cf-4a8a-a8ab-2119fccba2ba",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921599
   },
@@ -1398,10 +1675,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "f5a2c989-193b-47c0-9a90-d18074441faf",
+=======
+    "createdAt": 1786777921599
+  },
+  {
+    "id": "3f644c4e-ec54-4e1a-abc5-efa5e1527a50",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921599
   },
@@ -1433,10 +1717,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "b855f9cf-f8f1-4114-a8d9-88601963ac80",
+=======
+    "createdAt": 1786777921599
+  },
+  {
+    "id": "f33ae418-8655-4f29-a6a4-aaafa327112e",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921599
   },
@@ -1468,10 +1759,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "ec11ff8b-af3a-4a22-8fc3-9e878ff31586",
+=======
+    "createdAt": 1786777921599
+  },
+  {
+    "id": "2f80e1d3-9908-4a5e-bf00-f71319841c43",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921599
   },
@@ -1503,10 +1801,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "DG",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "656a03e8-5aa2-4d3d-8ac2-313e7190a54a",
+=======
+    "createdAt": 1786777921600
+  },
+  {
+    "id": "898687b8-1dea-446f-aa99-6552f9fe26ec",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921600
   },
@@ -1538,10 +1843,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "CP",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "d6a6ab54-01e5-4c36-84c2-c79f84493d52",
+=======
+    "createdAt": 1786777921600
+  },
+  {
+    "id": "e679781b-25b8-4422-a1b1-2448c50b2598",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921600
   },
@@ -1573,10 +1885,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "cc042852-e02a-47a6-bc32-c15856d66959",
+=======
+    "createdAt": 1786777921600
+  },
+  {
+    "id": "78d9aec5-2acf-4635-b529-01b2179e6c89",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921600
   },
@@ -1608,10 +1927,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "ad9f7454-10f1-47c3-97fc-be41e04dc28e",
+=======
+    "createdAt": 1786777921600
+  },
+  {
+    "id": "0b132b7e-0ef0-4ddd-8693-73a71d6a4da2",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921600
   },
@@ -1643,10 +1969,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "0c861146-35d3-4370-b845-1d950b8418c3",
+=======
+    "createdAt": 1786777921600
+  },
+  {
+    "id": "82d2faeb-ad70-43d8-acac-d7009cf46a87",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921600
   },
@@ -1678,10 +2011,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "724e78e2-0c8f-4f0f-b44b-04aead45b3ba",
+=======
+    "createdAt": 1786777921600
+  },
+  {
+    "id": "54d4d9a3-730e-4990-a99a-f6ac0de71f1c",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921600
   },
@@ -1713,10 +2053,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "a518c796-d589-417c-85ad-91f678bc4c0a",
+=======
+    "createdAt": 1786777921600
+  },
+  {
+    "id": "e81c1d49-5e37-428b-88ae-aaa7418156d4",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921600
   },
@@ -1748,10 +2095,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "8dcab47d-f21f-4892-8c34-cc8b2e8b664b",
+=======
+    "createdAt": 1786777921600
+  },
+  {
+    "id": "dc1c3079-73d4-4f7a-bd70-f37dc3a30adc",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921600
   },
@@ -1783,10 +2137,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "DG",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "2964d223-a5df-4a6b-aedb-d637001c7cb9",
+=======
+    "createdAt": 1786777921600
+  },
+  {
+    "id": "b333c75b-60ca-491d-9fbe-c5ecf73ddf75",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921600
   },
@@ -1818,10 +2179,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "fbe828cb-e53b-41b7-bc9c-e9be20a3342b",
+=======
+    "createdAt": 1786777921600
+  },
+  {
+    "id": "b4315adb-582b-4b4c-afd1-940c9808392b",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921600
   },
@@ -1853,10 +2221,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "b895422e-7978-448e-a75e-a1eb7d1ebf27",
+=======
+    "createdAt": 1786777921601
+  },
+  {
+    "id": "a7ff228e-9682-486a-ad86-c015511ef7e0",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921601
   },
@@ -1888,10 +2263,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "d9a007ef-c669-4058-bfce-469d613a7561",
+=======
+    "createdAt": 1786777921601
+  },
+  {
+    "id": "dad5a178-f49a-4a44-ba64-cbfaf0d9ba40",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921601
   },
@@ -1923,10 +2305,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "a3e9040c-78a5-4169-aec6-afaf015c959f",
+=======
+    "createdAt": 1786777921601
+  },
+  {
+    "id": "6acde91f-b9f8-4f2b-92a6-e1465af161c8",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921601
   },
@@ -1958,10 +2347,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "5fe62707-dffd-405f-8874-b7b332eb91e8",
+=======
+    "createdAt": 1786777921601
+  },
+  {
+    "id": "f5044cbf-1c48-4191-a3da-fdb21fa48d60",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921601
   },
@@ -1993,10 +2389,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "08f3de17-70ff-4739-b340-aa50fd9fa8b3",
+=======
+    "createdAt": 1786777921601
+  },
+  {
+    "id": "24bf1cd2-3869-4c13-a3eb-dfb18db777de",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921601
   },
@@ -2028,10 +2431,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "23b42466-cffa-4d3f-8e8e-d57f2aaeb1c1",
+=======
+    "createdAt": 1786777921601
+  },
+  {
+    "id": "599bec41-f5ee-440c-9ccb-d98b04dc1dfc",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921601
   },
@@ -2063,10 +2473,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "907c1c30-2dcc-45c4-90aa-5aedbe17f2b7",
+=======
+    "createdAt": 1786777921602
+  },
+  {
+    "id": "b795f6da-5b71-4e3d-8b8f-d6a729079140",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921602
   },
@@ -2098,10 +2515,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "8cad2964-4016-46a0-8143-344e37980f89",
+=======
+    "createdAt": 1786777921602
+  },
+  {
+    "id": "cbb6ff77-1ee5-4ee2-9b1c-da02411d517a",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921602
   },
@@ -2133,10 +2557,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "55950e24-48b5-432c-9e9c-a406bc0eee2b",
+=======
+    "createdAt": 1786777921602
+  },
+  {
+    "id": "c4e794cf-46c3-41dd-9c2b-35ea888f1b93",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921602
   },
@@ -2168,10 +2599,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "bd1fe404-4b77-4c1d-8b75-ecf09654cd54",
+=======
+    "createdAt": 1786777921602
+  },
+  {
+    "id": "f8c1438b-40c7-4eec-85fb-ff3457bd7ec6",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921602
   },
@@ -2203,10 +2641,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "209f209a-cbd9-4c26-b7c1-e5a35e5c9555",
+=======
+    "createdAt": 1786777921602
+  },
+  {
+    "id": "62df7e30-626b-4729-9338-634353eec427",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921602
   },
@@ -2238,10 +2683,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "79b9c1e7-4273-4907-a9ff-76fbd9ad44cc",
+=======
+    "createdAt": 1786777921603
+  },
+  {
+    "id": "796ac5e4-f51a-4a38-bd60-7d5bd719ab2b",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921603
   },
@@ -2273,10 +2725,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "f09471a4-7d53-4896-a540-bbbd7e9bfe98",
+=======
+    "createdAt": 1786777921603
+  },
+  {
+    "id": "4db59e5d-1c97-4e69-8266-1e57024bff2c",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921603
   },
@@ -2308,10 +2767,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "582dd4ad-3cc6-468f-9f6a-b829bd53a481",
+=======
+    "createdAt": 1786777921603
+  },
+  {
+    "id": "cb85240a-a6e5-4dfb-8a3f-10f5c318927d",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921603
   },
@@ -2343,10 +2809,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "0ad38308-22ee-4171-befa-df477954c8b1",
+=======
+    "createdAt": 1786777921603
+  },
+  {
+    "id": "4f028de9-a67b-447d-8c34-7ae52566f9b0",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921603
   },
@@ -2378,10 +2851,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "08ab0329-bc54-4456-82d7-5a9edf13db53",
+=======
+    "createdAt": 1786777921603
+  },
+  {
+    "id": "8c4c1592-319d-4e5f-ba5e-2ea1b93b0b2c",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921603
   },
@@ -2413,10 +2893,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "dd0d576b-58ad-4ee9-9ff9-5e13bd35ef2e",
+=======
+    "createdAt": 1786777921603
+  },
+  {
+    "id": "48b5eaff-30b5-4593-93e8-05c33c2736e8",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921603
   },
@@ -2448,10 +2935,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "1f32630f-6f31-40ca-9412-8f7015ddd0a4",
+=======
+    "createdAt": 1786777921603
+  },
+  {
+    "id": "697ed3a9-1a87-41e2-8ee5-aad9b1cb52a2",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921603
   },
@@ -2483,10 +2977,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "9eaff4cb-9281-4523-800e-d863bcfa98e2",
+=======
+    "createdAt": 1786777921603
+  },
+  {
+    "id": "af49d5f6-e869-4bbe-857d-2012f1ba802e",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921603
   },
@@ -2518,10 +3019,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "bca7d3bd-3099-4c1f-b1c9-672910430344",
+=======
+    "createdAt": 1786777921604
+  },
+  {
+    "id": "8cc6dd21-58b5-400a-8c9b-ac62c02f1398",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921604
   },
@@ -2553,10 +3061,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "83803c4c-5d38-4c90-82fa-28df0dd26378",
+=======
+    "createdAt": 1786777921604
+  },
+  {
+    "id": "8551c5dd-d523-4e66-a9ea-be5f06f2ab65",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921604
   },
@@ -2588,10 +3103,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "79c0a743-c06d-47cb-978a-eee7ebc9ae2d",
+=======
+    "createdAt": 1786777921604
+  },
+  {
+    "id": "5183518f-283e-4d03-96dc-d5ec86e6116a",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921604
   },
@@ -2623,10 +3145,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "b5122368-12c7-41eb-a23c-b29901f31b6d",
+=======
+    "createdAt": 1786777921604
+  },
+  {
+    "id": "eb5eeafb-f7fa-4dc0-af20-80102b9f4957",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921604
   },
@@ -2658,10 +3187,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "CP",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "22531b19-f9ac-42e4-aa9c-575105a6c9e8",
+=======
+    "createdAt": 1786777921604
+  },
+  {
+    "id": "df10fe73-e171-4907-a4f2-5ab7710f92d8",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921604
   },
@@ -2693,10 +3229,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "CP",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "52ae68fa-e654-44bd-a619-522a14856df8",
+=======
+    "createdAt": 1786777921604
+  },
+  {
+    "id": "deac9cc2-eabc-4ca9-92e9-033a6dfa091b",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921604
   },
@@ -2728,10 +3271,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "d96dabd9-78b4-4526-8455-10d48ac52e9a",
+=======
+    "createdAt": 1786777921604
+  },
+  {
+    "id": "36e9ae11-2aec-4dc6-b455-90e15d1e8c8f",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921604
   },
@@ -2763,10 +3313,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "ccbe5d99-4e8b-4761-acb3-07330c85745c",
+=======
+    "createdAt": 1786777921604
+  },
+  {
+    "id": "4020d640-77cb-4bbf-a024-51a64ab4c929",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921604
   },
@@ -2798,10 +3355,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "88cd6da6-eb56-4c5f-a8bc-85c4797d7979",
+=======
+    "createdAt": 1786777921605
+  },
+  {
+    "id": "a5eeb428-559e-403a-84f8-6171758cd802",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921605
   },
@@ -2833,10 +3397,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "e7e24afa-1072-4adf-8dd6-dd53aa590af1",
+=======
+    "createdAt": 1786777921605
+  },
+  {
+    "id": "d37a7b5e-c77f-4d9a-a266-e5614a7466ea",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921605
   },
@@ -2868,10 +3439,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "41121a19-894e-433a-9b95-f61100a3a011",
+=======
+    "createdAt": 1786777921605
+  },
+  {
+    "id": "e131128c-103c-4122-8eff-4a967e779c7f",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921605
   },
@@ -2903,10 +3481,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "220004c7-9f3f-4a9c-9ff5-ec88efc52e6f",
+=======
+    "createdAt": 1786777921605
+  },
+  {
+    "id": "6efab2e9-6d5d-44ea-b80e-0ac69e0fa7f9",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921605
   },
@@ -2938,10 +3523,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "5bf96e6e-8266-43f5-8a35-a4d856e529fd",
+=======
+    "createdAt": 1786777921605
+  },
+  {
+    "id": "345aa7c4-9737-447c-b202-5d134ca9921c",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921605
   },
@@ -2973,10 +3565,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "DG",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "c76bc588-a4f5-4d0f-8221-192ef74cc85f",
+=======
+    "createdAt": 1786777921605
+  },
+  {
+    "id": "f284cb38-c121-426b-a463-d87409d39280",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921605
   },
@@ -3008,10 +3607,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "804b5b81-f8a3-41ba-a8dc-6e1c7e5abdec",
+=======
+    "createdAt": 1786777921605
+  },
+  {
+    "id": "a351871e-465c-4df6-87ef-e05cb41e7bfc",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921605
   },
@@ -3043,10 +3649,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "38fdaa3c-bd48-438e-b2be-8f6142595506",
+=======
+    "createdAt": 1786777921605
+  },
+  {
+    "id": "890751b5-f747-4a15-8798-7d665a9b9599",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921605
   },
@@ -3078,10 +3691,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "a5025be8-08aa-482d-bb99-aea6dc82adfa",
+=======
+    "createdAt": 1786777921606
+  },
+  {
+    "id": "aeec52a1-f6ee-4bbf-99a9-331f98ead43d",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921606
   },
@@ -3113,10 +3733,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "9ff9a906-e399-481d-b827-1acc76de1c1a",
+=======
+    "createdAt": 1786777921606
+  },
+  {
+    "id": "1731b0e6-a8c5-4616-9189-0d65904eb406",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921606
   },
@@ -3148,10 +3775,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "c72e32b1-d251-4a86-a5a5-a72ae7037930",
+=======
+    "createdAt": 1786777921606
+  },
+  {
+    "id": "b7b7f556-002b-4741-a2e8-ca10042ed61f",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921606
   },
@@ -3183,10 +3817,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "bf5bbc28-7b0a-44ac-8b58-58164fa5f977",
+=======
+    "createdAt": 1786777921606
+  },
+  {
+    "id": "82e781f1-b298-42a2-be9a-34f6c6710262",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921606
   },
@@ -3218,10 +3859,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "d354b6af-6ce8-471d-8259-eaf463feb9af",
+=======
+    "createdAt": 1786777921606
+  },
+  {
+    "id": "f267fbca-7379-4cb9-8adf-b863d826d8f7",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921606
   },
@@ -3253,10 +3901,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "b0173a37-b6d5-483d-a27f-a47bfb139a38",
+=======
+    "createdAt": 1786777921606
+  },
+  {
+    "id": "ecafe8b2-d154-4e25-bc4f-f10ccbfd5d44",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921606
   },
@@ -3288,10 +3943,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "30f6bb52-0f1f-4c72-adc0-a01ac639fdd2",
+=======
+    "createdAt": 1786777921607
+  },
+  {
+    "id": "6ca54b9e-37bf-453c-baf1-24d4c2687ac8",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921607
   },
@@ -3323,10 +3985,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "edbbe41f-77a9-43c2-ac3a-ef935bc79097",
+=======
+    "createdAt": 1786777921607
+  },
+  {
+    "id": "557142a8-1b13-430f-8f65-32dba115acd2",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921607
   },
@@ -3358,10 +4027,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "fed779a8-af5d-4bd4-a6a8-99d940161f00",
+=======
+    "createdAt": 1786777921607
+  },
+  {
+    "id": "d33c0926-5a1b-4d74-9fa1-2eda9394743c",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921607
   },
@@ -3393,10 +4069,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "90cf2446-0531-4e4d-abef-fab9c1d886a5",
+=======
+    "createdAt": 1786777921607
+  },
+  {
+    "id": "e8925acf-99a2-4176-babd-8ab6dc09e6bb",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921607
   },
@@ -3428,10 +4111,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "be4d7207-8c1a-44dd-b812-8e0b1ee5ad42",
+=======
+    "createdAt": 1786777921607
+  },
+  {
+    "id": "2676aca1-84ec-48e0-a077-14a1ac0e3982",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921607
   },
@@ -3463,10 +4153,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "b9ed28ff-817e-4684-9ba4-e80cbe4eb1cb",
+=======
+    "createdAt": 1786777921607
+  },
+  {
+    "id": "2c704484-f1d5-4591-821a-2aae108ea621",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921607
   },
@@ -3498,10 +4195,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "661a813e-7c18-4551-8c50-05c928190ed5",
+=======
+    "createdAt": 1786777921607
+  },
+  {
+    "id": "ad84ad7f-1bc0-42ec-af2e-857c4f3bc5fa",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921607
   },
@@ -3533,10 +4237,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "5b022b90-7684-4e01-85be-f6eb05a88d38",
+=======
+    "createdAt": 1786777921608
+  },
+  {
+    "id": "e20fc3e3-17f0-4e03-a487-382583b1bf80",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921608
   },
@@ -3568,10 +4279,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "75bca569-bf34-4f71-9968-c5b27a20f312",
+=======
+    "createdAt": 1786777921608
+  },
+  {
+    "id": "b29ecf67-c708-4382-a2a9-4e7d8e84ae59",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921608
   },
@@ -3603,10 +4321,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "18ac8be4-9189-4206-81d6-5c15b2aa018d",
+=======
+    "createdAt": 1786777921608
+  },
+  {
+    "id": "752b6571-7a9e-48af-93b2-dc72d54f7fb2",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921608
   },
@@ -3638,10 +4363,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "01df9f25-d141-421a-81bf-c31373ebf493",
+=======
+    "createdAt": 1786777921608
+  },
+  {
+    "id": "03abf334-8073-4cac-8c28-306b8e5727d7",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921608
   },
@@ -3673,10 +4405,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "c1dbce7b-d64c-465b-aee8-74c670fb158d",
+=======
+    "createdAt": 1786777921608
+  },
+  {
+    "id": "7acf7904-4a4c-473e-acfc-bdd9b1a66a9e",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921608
   },
@@ -3708,10 +4447,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "cf19daeb-332c-4eb6-a53d-35fc69ece037",
+=======
+    "createdAt": 1786777921608
+  },
+  {
+    "id": "801ba0ba-dc1a-415b-81bb-ceca2924562a",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921608
   },
@@ -3743,10 +4489,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "0528b624-37e2-4903-8c5e-07a6aef0ecf8",
+=======
+    "createdAt": 1786777921608
+  },
+  {
+    "id": "04efa86b-8bd5-4824-bf32-590f49023ee8",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921608
   },
@@ -3778,10 +4531,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "8de41028-db83-4b0c-bd2c-1522e2fd3238",
+=======
+    "createdAt": 1786777921608
+  },
+  {
+    "id": "cea92903-3635-4147-84a3-0936aac00ece",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921608
   },
@@ -3813,10 +4573,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "e06d01f6-d5ba-4efa-9bc5-f39a5275820b",
+=======
+    "createdAt": 1786777921608
+  },
+  {
+    "id": "495dca11-ca5d-43b5-a56c-f9dc7df50e3f",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921608
   },
@@ -3848,10 +4615,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "0ae451cd-04ca-470d-8e6a-816193fe0080",
+=======
+    "createdAt": 1786777921608
+  },
+  {
+    "id": "b499cb19-71ba-416b-b4f4-614ff8d4f8f2",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921608
   },
@@ -3883,10 +4657,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "d9fc6dac-c8be-40b8-a41d-50fd00fe9d1c",
+=======
+    "createdAt": 1786777921608
+  },
+  {
+    "id": "96871924-0cb6-47c7-bd26-dee3a2d600ef",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921608
   },
@@ -3918,10 +4699,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "82ccdebb-d7b5-466a-9330-9c00763b72d5",
+=======
+    "createdAt": 1786777921608
+  },
+  {
+    "id": "cd099d92-6e22-483b-81f5-ac437a95a93c",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921608
   },
@@ -3953,6 +4741,7 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
@@ -3961,6 +4750,11 @@ export const defaultSites: Site[] = [
     "createdAt": 1786777921608
   },
   {
+=======
+    "createdAt": 1786777921608
+  },
+  {
+>>>>>>> Stashed changes
     "id": "099cc285-91ca-43e0-b49b-7c9409ce1941",
     "name": "RUR5977",
     "lat": 32.3735,
@@ -39550,6 +40344,9 @@ export const defaultSites: Site[] = [
   },
   {
     "id": "b5f829fa-1c52-4f22-ab8f-3a07dd1240c6",
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     "name": "KMK9727",
     "lat": 31.96398,
@@ -39576,10 +40373,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "58e601a1-0ee9-47a3-83a3-c79da2c9bcf9",
+=======
+    "createdAt": 1786777921794
+  },
+  {
+    "id": "c8f55e17-229c-4012-85f6-73589d3e8026",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921794
   },
@@ -39611,10 +40415,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "dc8b6b13-a89e-4a4e-b4e8-249523d5c2f5",
+=======
+    "createdAt": 1786777921794
+  },
+  {
+    "id": "8f6daa21-3c77-45eb-bf6f-da243a263a1e",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921794
   },
@@ -39646,6 +40457,7 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
@@ -39654,6 +40466,11 @@ export const defaultSites: Site[] = [
     "createdAt": 1786777921794
   },
   {
+=======
+    "createdAt": 1786777921794
+  },
+  {
+>>>>>>> Stashed changes
     "id": "71004428-7bec-4227-9093-1d8c42a871da",
     "name": "GUJ9829",
     "lat": 32.192994,
@@ -39907,6 +40724,9 @@ export const defaultSites: Site[] = [
   },
   {
     "id": "161c8623-3548-43c6-a3ed-0e89645860e5",
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     "name": "EC1-KMK-10150",
     "lat": 31.961507,
@@ -39930,11 +40750,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "cba36f0a-3ad3-48bb-9ef7-91b4db381801",
+=======
+    "jazzApprovedServices": "CP+DC",
+    "createdAt": 1786777921795
+  },
+  {
+    "id": "9c988e7c-cefa-430d-a9c9-57ab28d8e80d",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "CP+DC",
     "createdAt": 1786777921795
@@ -39964,11 +40792,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP Only",
     "ufoneApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "CP+DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "2d2c2e08-b76d-4847-8e90-1cbf0adecac1",
+=======
+    "jazzApprovedServices": "-",
+    "createdAt": 1786777921795
+  },
+  {
+    "id": "666dfdd9-8fe4-422b-95b9-1f91c0ab4476",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "-",
     "createdAt": 1786777921795
@@ -39998,11 +40834,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP Only",
     "ufoneApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "CP+DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "95a6b568-e25c-48cd-98ef-e7f6e088933a",
+=======
+    "jazzApprovedServices": "-",
+    "createdAt": 1786777921795
+  },
+  {
+    "id": "7f58c07e-13e8-4677-884a-aa6518d10874",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "-",
     "createdAt": 1786777921795
@@ -40032,11 +40876,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP Only",
     "ufoneApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "CP+DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "e381701a-cf2d-41a1-a5b3-7092ee13f638",
+=======
+    "jazzApprovedServices": "-",
+    "createdAt": 1786777921796
+  },
+  {
+    "id": "a36d8016-2325-4f88-a1ac-e66db35fc7d0",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "-",
     "createdAt": 1786777921796
@@ -40066,11 +40918,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP Only",
     "ufoneApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "CP+DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "32886577-b2ba-4ec3-a27c-1c3144c26b2e",
+=======
+    "jazzApprovedServices": "-",
+    "createdAt": 1786777921796
+  },
+  {
+    "id": "1934119f-23a7-4dce-876d-e4243c707f20",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "-",
     "createdAt": 1786777921796
@@ -40100,11 +40960,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DG",
     "ufoneApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "CP+DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "58b18172-6ccd-4af7-ab21-0eb432190625",
+=======
+    "jazzApprovedServices": "-",
+    "createdAt": 1786777921796
+  },
+  {
+    "id": "e1817a88-980b-439b-acd5-24c1c7f982ab",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "-",
     "createdAt": 1786777921796
@@ -40134,11 +41002,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "CP+DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "98ce720d-de3f-4b2e-a8b9-16edb7ad452c",
+=======
+    "jazzApprovedServices": "-",
+    "createdAt": 1786777921796
+  },
+  {
+    "id": "8b655801-4e35-4588-9fb6-ff5202fa472c",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "-",
     "createdAt": 1786777921796
@@ -40168,11 +41044,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "CP+DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "5c9f86a2-68ca-463e-86f7-b37a04fc84a3",
+=======
+    "jazzApprovedServices": "CP+DC",
+    "createdAt": 1786777921796
+  },
+  {
+    "id": "3080c29c-e661-4baa-8799-7ea6678e76aa",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "CP+DC",
     "createdAt": 1786777921796
@@ -40202,11 +41086,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC+DG",
     "ufoneApprovedServices": "DC+DG",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "CP+DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "4928d073-5a52-4c2a-bebb-786c321b0c6d",
+=======
+    "jazzApprovedServices": "DC+DG",
+    "createdAt": 1786777921796
+  },
+  {
+    "id": "b5a1ace1-69d3-44cd-bf47-fe59b2cbd3be",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "DC+DG",
     "createdAt": 1786777921796
@@ -40237,10 +41129,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "04553f81-e1b9-4b99-b0ac-0ccfc68ae14e",
+=======
+    "createdAt": 1786777921796
+  },
+  {
+    "id": "ecf2bc2b-b3b8-40bf-9b80-c63adf4d238f",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921796
   },
@@ -40270,10 +41169,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "4f6c7097-75a9-4140-b6bf-da73783af79b",
+=======
+    "createdAt": 1786777921796
+  },
+  {
+    "id": "0827fa9e-e6f7-45b0-b781-443e872d1d20",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921796
   },
@@ -40303,10 +41209,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "cfe92de6-57a2-42c0-923e-22cb80d48e29",
+=======
+    "createdAt": 1786777921796
+  },
+  {
+    "id": "b0e14807-a0cb-4dd4-a7c9-9ed394a4937b",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921796
   },
@@ -40336,10 +41249,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "3c882726-b810-4504-8539-467e790a25c6",
+=======
+    "createdAt": 1786777921796
+  },
+  {
+    "id": "a2d6c3af-d705-4392-b9e7-1db075324494",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921796
   },
@@ -40369,10 +41289,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "6b6fa8b1-1f24-4855-9d13-26b8c120df0e",
+=======
+    "createdAt": 1786777921796
+  },
+  {
+    "id": "021efb92-1e15-4aa2-945b-37376bc54c2c",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921796
   },
@@ -40402,10 +41329,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "b7a03e66-eb28-45b9-8c93-88b77e33868e",
+=======
+    "createdAt": 1786777921796
+  },
+  {
+    "id": "9d178d20-3aef-4080-91bd-9ceb62de0727",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921796
   },
@@ -40435,10 +41369,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "b23f015f-306f-4f64-957f-54665a054fca",
+=======
+    "createdAt": 1786777921796
+  },
+  {
+    "id": "02927b93-0c44-430e-b743-20884ace9b45",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921796
   },
@@ -40468,10 +41409,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "2b1bc949-a373-4898-8436-1ea60e207585",
+=======
+    "createdAt": 1786777921797
+  },
+  {
+    "id": "f90179aa-7521-45d6-b071-024d2b08db5e",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921797
   },
@@ -40501,10 +41449,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "ff5b3e19-ce30-4bbf-9b6c-14ff2465b84e",
+=======
+    "createdAt": 1786777921797
+  },
+  {
+    "id": "a1fb8a62-af1c-41e1-bcef-2899e51ec96a",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921797
   },
@@ -40534,10 +41489,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "CP+DC",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "20463aaa-2761-4ef5-8410-c382b4697822",
+=======
+    "createdAt": 1786777921797
+  },
+  {
+    "id": "5a645a3a-0dce-496b-acd7-11419c8c26a4",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921797
   },
@@ -40562,6 +41524,7 @@ export const defaultSites: Site[] = [
     "solar": "No",
     "solarKwa": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "tpApprovedServices": "CP+DC",
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "CP+DC",
@@ -40571,6 +41534,8 @@ export const defaultSites: Site[] = [
   {
     "id": "c349ce34-4f59-44f8-ad8d-c5f8347a226a",
 =======
+=======
+>>>>>>> Stashed changes
     "neLocation": "-",
     "tpApprovedServices": "CP+DG+DC",
     "zongApprovedServices": "-",
@@ -40580,6 +41545,9 @@ export const defaultSites: Site[] = [
   },
   {
     "id": "1c1723fc-6549-45c9-be39-9eec7fac3c1d",
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     "name": "EC1-GUJ-07835",
     "lat": 32.11365,
@@ -40603,11 +41571,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "CP+DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "b43af9ec-d22d-43be-ad39-ed5fe41e6e8a",
+=======
+    "jazzApprovedServices": "CP+DC",
+    "createdAt": 1786777921797
+  },
+  {
+    "id": "60085aef-e48c-4caf-93bf-cc4927cbc743",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "CP+DC",
     "createdAt": 1786777921797
@@ -40637,11 +41613,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "CP+DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "680c3264-e5bb-4888-b7fe-71b9ee54b6b8",
+=======
+    "jazzApprovedServices": "CP+DC",
+    "createdAt": 1786777921797
+  },
+  {
+    "id": "4f9f0c14-f566-4850-9d95-f308d8b248b8",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "CP+DC",
     "createdAt": 1786777921797
@@ -40671,11 +41655,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "CP+DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "704c28d3-7f38-46bc-9035-450548305229",
+=======
+    "jazzApprovedServices": "CP+DC",
+    "createdAt": 1786777921797
+  },
+  {
+    "id": "3b441cde-2776-410b-8a1f-6d5aa463d396",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "CP+DC",
     "createdAt": 1786777921797
@@ -40706,10 +41698,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "ba2519a8-d424-4323-b2b2-c2d79ba35265",
+=======
+    "createdAt": 1786777921797
+  },
+  {
+    "id": "df37cd39-3bf8-4168-9ec8-d0e73e939c8e",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921797
   },
@@ -40738,11 +41737,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "93175bc4-0a14-4bd4-8806-c759f78c86a6",
+=======
+    "jazzApprovedServices": "CP+DC",
+    "createdAt": 1786777921797
+  },
+  {
+    "id": "21597101-e817-4f76-94b1-7a4ddba45a28",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "CP+DC",
     "createdAt": 1786777921797
@@ -40773,10 +41780,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "79dfe6cf-4367-4913-a4df-1f3833b54320",
+=======
+    "createdAt": 1786777921797
+  },
+  {
+    "id": "d1befe62-b502-456f-a67a-69a95eee105e",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921797
   },
@@ -40805,11 +41819,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "e87983ec-e191-4c6d-92af-e81d15b81537",
+=======
+    "jazzApprovedServices": "CP+DC",
+    "createdAt": 1786777921797
+  },
+  {
+    "id": "dfa7a758-08ca-4d83-a6fa-01e0bcc73eab",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "CP+DC",
     "createdAt": 1786777921797
@@ -40840,10 +41862,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "eac5cb82-f5a9-4d1b-884d-f87a2ae00999",
+=======
+    "createdAt": 1786777921798
+  },
+  {
+    "id": "cbe9e249-2fdd-45d4-9862-5e9d34a1c3a1",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921798
   },
@@ -40873,10 +41902,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "ef283a5d-e094-412d-bfa1-ead52da4bde7",
+=======
+    "createdAt": 1786777921798
+  },
+  {
+    "id": "8abc38ef-d091-47ed-9cc1-d6645b687672",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921798
   },
@@ -40905,11 +41941,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "da5bdd69-9933-4bc6-9b35-1187e1704456",
+=======
+    "jazzApprovedServices": "CP+DC",
+    "createdAt": 1786777921799
+  },
+  {
+    "id": "092d1176-57e5-492f-b48d-a3a7568ab311",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "CP+DC",
     "createdAt": 1786777921799
@@ -40939,11 +41983,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "ef1964b1-1477-4aca-8ee2-b91e2b84ed59",
+=======
+    "jazzApprovedServices": "CP+DC",
+    "createdAt": 1786777921799
+  },
+  {
+    "id": "62e40925-8c4e-413d-862e-fdb00c7c1940",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "CP+DC",
     "createdAt": 1786777921799
@@ -40974,10 +42026,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "b664bf86-9df8-49b5-97bd-492aec97419f",
+=======
+    "createdAt": 1786777921799
+  },
+  {
+    "id": "cc2efc79-4b10-44b3-9df2-aa65a8395df9",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921799
   },
@@ -41007,10 +42066,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "56e62d3c-8e53-49e8-9234-36bf4db1c5e2",
+=======
+    "createdAt": 1786777921799
+  },
+  {
+    "id": "24e3f627-a5e5-4b0d-872e-a01db198831e",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921799
   },
@@ -41039,6 +42105,7 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
@@ -43206,6 +44273,12 @@ export const defaultSites: Site[] = [
   {
     "id": "999e9a0e-12dd-4a2d-8c30-7f2cd6e59ff5",
 >>>>>>> Stashed changes
+=======
+    "createdAt": 1786777921799
+  },
+  {
+    "id": "999e9a0e-12dd-4a2d-8c30-7f2cd6e59ff5",
+>>>>>>> Stashed changes
     "name": "EC1-WZD-01613",
     "lat": 32.40794,
     "lng": 74.20585,
@@ -43228,11 +44301,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "CP+DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "1524f5b8-b078-4f3c-af11-7263de2b48b1",
+=======
+    "jazzApprovedServices": "-",
+    "createdAt": 1786777921799
+  },
+  {
+    "id": "ddca3d41-306e-4515-b8b7-d7cf2f2545d8",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "-",
     "createdAt": 1786777921799
@@ -43262,11 +44343,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "CP+DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "cd75ea63-14d5-4fa9-a499-230567430188",
+=======
+    "jazzApprovedServices": "-",
+    "createdAt": 1786777921799
+  },
+  {
+    "id": "32124c02-e57d-42d9-9391-7fcf72f86a95",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "-",
     "createdAt": 1786777921799
@@ -43296,11 +44385,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "CP+DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "a02184df-ffd2-4c8e-bf4f-37500ad7d245",
+=======
+    "jazzApprovedServices": "-",
+    "createdAt": 1786777921799
+  },
+  {
+    "id": "a0cdb362-29cd-46bd-9f2e-44110b05cbdf",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "-",
     "createdAt": 1786777921799
@@ -43331,10 +44428,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "57e3f156-b0a9-4e95-a7a1-414a613cd1ec",
+=======
+    "createdAt": 1786777921800
+  },
+  {
+    "id": "230f5ccb-d216-40aa-b3ac-c82d6c8467da",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921800
   },
@@ -43364,10 +44468,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "acdf8862-1686-4e65-98b4-7de099d0ec2b",
+=======
+    "createdAt": 1786777921800
+  },
+  {
+    "id": "24876662-6ecd-4df4-a46e-323fdd4e1309",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921800
   },
@@ -43396,11 +44507,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "CP+DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "764dacb3-fcc5-4ab9-a770-cc88f14855e0",
+=======
+    "jazzApprovedServices": "-",
+    "createdAt": 1786777921800
+  },
+  {
+    "id": "853104da-8dc2-4f66-8c55-3c7527843b16",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "-",
     "createdAt": 1786777921800
@@ -43431,10 +44550,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "40facb7e-d039-4615-8fd6-4e009abc9aac",
+=======
+    "createdAt": 1786777921800
+  },
+  {
+    "id": "b504a059-dc41-425e-867c-c4b0dce96c38",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921800
   },
@@ -43463,11 +44589,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP Only",
     "ufoneApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "CP+DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "4ee82df1-fb4a-473f-8ddc-31037c7d9b73",
+=======
+    "jazzApprovedServices": "-",
+    "createdAt": 1786777921800
+  },
+  {
+    "id": "5f316b3f-8f73-436a-8849-df0a78f3298b",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "-",
     "createdAt": 1786777921800
@@ -43497,11 +44631,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "CP+DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "3e8f71d5-be9b-4527-94a2-bafe9f28d540",
+=======
+    "jazzApprovedServices": "CP+DC",
+    "createdAt": 1786777921800
+  },
+  {
+    "id": "cf7a3328-2246-411a-81ba-71c04ab01602",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "CP+DC",
     "createdAt": 1786777921800
@@ -43532,10 +44674,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "CP+DC",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "99d842ba-4a33-462d-823d-3dd16b23bbb4",
+=======
+    "createdAt": 1786777921800
+  },
+  {
+    "id": "782be3bc-7c9d-47da-941d-53c96ce1e2bc",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921800
   },
@@ -43565,10 +44714,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "48cb9173-2673-417c-842c-028a241d571e",
+=======
+    "createdAt": 1786777921800
+  },
+  {
+    "id": "ccfe0ea7-4c7d-47f5-b71f-032e9eb10dd5",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921800
   },
@@ -43598,10 +44754,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "176b4470-23ee-424c-9ce1-e3cef013c547",
+=======
+    "createdAt": 1786777921801
+  },
+  {
+    "id": "36ae530b-1d7d-4920-b833-6b4dc9291246",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921801
   },
@@ -43631,10 +44794,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "4ebffc90-7159-4cc6-9f41-5dee7560cef2",
+=======
+    "createdAt": 1786777921801
+  },
+  {
+    "id": "1072370b-e607-47ec-bb1c-ce47a7401752",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921801
   },
@@ -43664,10 +44834,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "0d45b5f5-1ba7-44ab-9bc2-16ff399387d1",
+=======
+    "createdAt": 1786777921801
+  },
+  {
+    "id": "38827e9f-2900-457f-8df8-e7c79f43af26",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921801
   },
@@ -43697,10 +44874,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "CP+DC",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "371c1763-d7dc-49df-bc8b-ce324717e841",
+=======
+    "createdAt": 1786777921801
+  },
+  {
+    "id": "3fe93615-768a-476d-aa7b-42c638baf7b4",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921801
   },
@@ -43730,10 +44914,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "455a41e0-bb82-41d6-b8af-8b15d6405faf",
+=======
+    "createdAt": 1786777921801
+  },
+  {
+    "id": "a06e1104-ef0e-46dc-a012-39254f92853b",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921801
   },
@@ -43763,10 +44954,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "CP+DC",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "656aa1b0-d756-4580-b3c1-3c55d3fbb3f9",
+=======
+    "createdAt": 1786777921801
+  },
+  {
+    "id": "198a9afb-247a-4340-b9e1-5b8cb1878c36",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921801
   },
@@ -43796,10 +44994,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "94b8f095-8ba8-4cb6-9996-15c0f61f36c6",
+=======
+    "createdAt": 1786777921801
+  },
+  {
+    "id": "2629758e-f75b-46a5-bdb3-6061147824da",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921801
   },
@@ -43829,10 +45034,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "d5288630-49da-46f7-aee1-b282e5b8ab82",
+=======
+    "createdAt": 1786777921801
+  },
+  {
+    "id": "b3ffec5a-17e5-4f5a-afe6-97e13a442ab9",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921801
   },
@@ -43861,11 +45073,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "CP+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "6489598a-5d25-466e-9c5b-989b099f4e76",
+=======
+    "jazzApprovedServices": "CP+DC",
+    "createdAt": 1786777921802
+  },
+  {
+    "id": "a00a5253-5368-4aad-bbf5-7415019795e8",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "CP+DC",
     "createdAt": 1786777921802
@@ -43896,10 +45116,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "9ca8ade9-1385-412f-98a7-57d6a5c85405",
+=======
+    "createdAt": 1786777921802
+  },
+  {
+    "id": "164a29f6-4f46-4b73-8c9e-76d1381d1b18",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921802
   },
@@ -43929,10 +45156,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "6c4b3de5-35dd-46ab-aac0-4023d6147127",
+=======
+    "createdAt": 1786777921802
+  },
+  {
+    "id": "3ec57bf7-1f19-4641-a245-aff775a68474",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921802
   },
@@ -43962,10 +45196,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "f0370674-4018-445b-9837-b516c4e6b098",
+=======
+    "createdAt": 1786777921802
+  },
+  {
+    "id": "2ba32151-66ba-4d00-b2c2-4921c71349f3",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921802
   },
@@ -43995,10 +45236,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "a68ebeff-a331-4f1a-8a35-16e508048664",
+=======
+    "createdAt": 1786777921802
+  },
+  {
+    "id": "b5f767d0-d828-4bb8-ace8-a441e37bec24",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921802
   },
@@ -44028,10 +45276,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "4f4bad0b-45b4-486d-aaf9-562ca4fa3b8c",
+=======
+    "createdAt": 1786777921802
+  },
+  {
+    "id": "83fe45dd-17d1-408a-bbfd-9c0b35b3e421",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921802
   },
@@ -44061,10 +45316,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "c055a387-c437-4edd-9e76-a57fe56cfbc1",
+=======
+    "createdAt": 1786777921802
+  },
+  {
+    "id": "a6cb1511-b9d8-4188-b8c2-c090ae7ac67e",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921802
   },
@@ -44094,10 +45356,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "2114be20-a007-4c5a-86bc-5c3d9ab2510b",
+=======
+    "createdAt": 1786777921802
+  },
+  {
+    "id": "d007ca86-87ae-4c1b-8616-b20cd3a6978d",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921802
   },
@@ -44127,10 +45396,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "d3afc8bf-b16d-43d7-9766-45fd72e6f9de",
+=======
+    "createdAt": 1786777921802
+  },
+  {
+    "id": "e293b908-7fae-49b8-a139-cbe81ed4f120",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921802
   },
@@ -44160,10 +45436,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "CP+DC",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "7dea1d0a-ed04-46db-8a0b-a07f01f431e5",
+=======
+    "createdAt": 1786777921802
+  },
+  {
+    "id": "9ce4e947-0bcc-497b-a7c7-b7eafb20906d",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921802
   },
@@ -44193,10 +45476,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "CP+DC",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "0c7c486c-a57a-4f22-8e3c-1b10c964186f",
+=======
+    "createdAt": 1786777921803
+  },
+  {
+    "id": "0b0321a8-58b9-481c-a428-d6852921f648",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921803
   },
@@ -44226,10 +45516,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "CP+DC",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "81dc72c4-40f7-4272-8052-f841c283190f",
+=======
+    "createdAt": 1786777921803
+  },
+  {
+    "id": "76110af9-0380-4418-83b9-729fa7f39a3f",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921803
   },
@@ -44258,11 +45555,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "CP+DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "08cf90af-66a6-43f1-9ea5-338a37ec6509",
+=======
+    "jazzApprovedServices": "CP+DC",
+    "createdAt": 1786777921803
+  },
+  {
+    "id": "8b527e86-78bf-4014-8d62-503277b2bf66",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "CP+DC",
     "createdAt": 1786777921803
@@ -44292,11 +45597,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "CP+DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "f69811c4-5943-4efe-8aa7-514b7718e814",
+=======
+    "jazzApprovedServices": "CP+DC",
+    "createdAt": 1786777921803
+  },
+  {
+    "id": "091d1400-cbfa-4f05-9370-b3f8ba5997c4",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "CP+DC",
     "createdAt": 1786777921803
@@ -44326,11 +45639,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "CP+DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "d331184a-83a5-47ec-b22b-542654c1eefd",
+=======
+    "jazzApprovedServices": "-",
+    "createdAt": 1786777921803
+  },
+  {
+    "id": "afb99ae3-80ae-432c-8448-4d594afd2653",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "-",
     "createdAt": 1786777921803
@@ -44361,10 +45682,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "29fe1f98-040a-479e-b512-324ca9f913dc",
+=======
+    "createdAt": 1786777921803
+  },
+  {
+    "id": "1fe01308-c5e7-46e4-ba9b-595bf830eb96",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921803
   },
@@ -44394,10 +45722,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "db4b772e-7cf0-4cc6-8f7d-4b0bc8d7acaf",
+=======
+    "createdAt": 1786777921803
+  },
+  {
+    "id": "c217a182-a07b-436a-9f5f-4d3b72a0925e",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921803
   },
@@ -44427,10 +45762,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "0de7025e-88d9-4264-a335-86aa6cbff4c3",
+=======
+    "createdAt": 1786777921803
+  },
+  {
+    "id": "03e67fb7-6074-4f25-aaeb-534597a4377a",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921803
   },
@@ -44460,10 +45802,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "d049ec5e-784e-49fd-b5c2-64821b1f235d",
+=======
+    "createdAt": 1786777921803
+  },
+  {
+    "id": "6f207780-e680-4a29-a1f8-2dc00613a3c7",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921803
   },
@@ -44492,11 +45841,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "2161a511-6880-4181-b749-be3420660d76",
+=======
+    "jazzApprovedServices": "CP+DC",
+    "createdAt": 1786777921803
+  },
+  {
+    "id": "19d0ff2c-50ef-4e48-9c44-026a774b0a12",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "CP+DC",
     "createdAt": 1786777921803
@@ -44526,11 +45883,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "6ab72ccd-70ea-4bdb-8855-1dc90636fc12",
+=======
+    "jazzApprovedServices": "CP+DC",
+    "createdAt": 1786777921803
+  },
+  {
+    "id": "7d319a5a-1f3a-486f-8cb5-83dd40fd035c",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "CP+DC",
     "createdAt": 1786777921803
@@ -44561,10 +45926,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "dff5c94c-3050-457d-93b9-fe7a5d9e6b08",
+=======
+    "createdAt": 1786777921803
+  },
+  {
+    "id": "0228dde5-08b6-4f5f-97e4-d89b62948c06",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921803
   },
@@ -44593,11 +45965,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "7b79f8c6-3a13-4d09-8ea8-c2059b370479",
+=======
+    "jazzApprovedServices": "CP+DC",
+    "createdAt": 1786777921804
+  },
+  {
+    "id": "e8ff846b-8a1c-4a42-82d5-74a70baf376d",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "CP+DC",
     "createdAt": 1786777921804
@@ -44626,6 +46006,7 @@ export const defaultSites: Site[] = [
     "tpApprovedServices": "-",
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
     "jazzApprovedServices": "DC+DG",
     "createdAt": 1786718902531,
@@ -47803,6 +49184,13 @@ export const defaultSites: Site[] = [
   {
     "id": "37296364-555a-4f1a-b94a-bb106849b48c",
 >>>>>>> Stashed changes
+=======
+    "jazzApprovedServices": "CP+DC",
+    "createdAt": 1786777921804
+  },
+  {
+    "id": "37296364-555a-4f1a-b94a-bb106849b48c",
+>>>>>>> Stashed changes
     "name": "EC1-GMZ-00429",
     "lat": 32.64275,
     "lng": 74.00163,
@@ -47825,11 +49213,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP Only",
     "ufoneApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "CP+DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "67c756bc-e32f-4ff2-9835-6f266a09f32b",
+=======
+    "jazzApprovedServices": "-",
+    "createdAt": 1786777921804
+  },
+  {
+    "id": "ba5147cf-397b-46f6-abd2-8aa8dc92e886",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "-",
     "createdAt": 1786777921804
@@ -47859,11 +49255,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "CP+DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "ea4ff6ce-31c1-4cf9-9b06-2fe70276631b",
+=======
+    "jazzApprovedServices": "-",
+    "createdAt": 1786777921804
+  },
+  {
+    "id": "87758250-88b1-4951-bbdf-195404bcfd7a",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "-",
     "createdAt": 1786777921804
@@ -47893,11 +49297,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "CP+DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "331f2294-36ec-4397-9f8a-310ccab3c4ba",
+=======
+    "jazzApprovedServices": "-",
+    "createdAt": 1786777921804
+  },
+  {
+    "id": "e6d09883-9a03-49e1-89e8-feef8d0ee082",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "-",
     "createdAt": 1786777921804
@@ -47927,11 +49339,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "CP+DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "6e0aad0f-888e-4461-b7ef-659f53aa2417",
+=======
+    "jazzApprovedServices": "-",
+    "createdAt": 1786777921805
+  },
+  {
+    "id": "dabdb886-1914-4446-98be-d8e29b9cfac1",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "-",
     "createdAt": 1786777921805
@@ -47961,11 +49381,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "CP+DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "da6c27c6-fb09-4add-ba56-9e6f4730eba5",
+=======
+    "jazzApprovedServices": "-",
+    "createdAt": 1786777921805
+  },
+  {
+    "id": "c7b3ce17-23e4-4529-93fd-7ef58c10d0a1",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "-",
     "createdAt": 1786777921805
@@ -47996,10 +49424,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "96f75f7b-5a96-4bb1-93c5-87ef3f6a99ef",
+=======
+    "createdAt": 1786777921805
+  },
+  {
+    "id": "18056a92-0a60-4ec2-a812-54dca81eadce",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921805
   },
@@ -48028,11 +49463,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "f810bb80-cf35-4785-9ba1-2da64d2354ad",
+=======
+    "jazzApprovedServices": "DG+DC",
+    "createdAt": 1786777921805
+  },
+  {
+    "id": "d8d22599-f5dc-49af-871e-60020bd5d915",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "DG+DC",
     "createdAt": 1786777921805
@@ -48063,10 +49506,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "12028fb2-33e3-4043-ae18-f154a4c1c11d",
+=======
+    "createdAt": 1786777921805
+  },
+  {
+    "id": "1d2c12a9-0682-48c5-b0d6-8dd56bf96a47",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921805
   },
@@ -48096,10 +49546,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "b3bad697-b8a0-4464-9ada-a63da83be424",
+=======
+    "createdAt": 1786777921805
+  },
+  {
+    "id": "6ea64e08-f836-4c27-8972-f65b0839e658",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921805
   },
@@ -48129,10 +49586,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "30f0e361-25aa-48c0-b1d0-0fff3ad5535d",
+=======
+    "createdAt": 1786777921805
+  },
+  {
+    "id": "672fe87e-155a-4c42-af37-54d303949c22",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921805
   },
@@ -48162,10 +49626,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "1d5b661b-b86a-4306-8dfa-57e3067eca95",
+=======
+    "createdAt": 1786777921805
+  },
+  {
+    "id": "3ffbed4d-80e5-4559-9315-8073e98f86da",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921805
   },
@@ -48195,10 +49666,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "84e4858e-8a49-4196-849a-7662b053b94a",
+=======
+    "createdAt": 1786777921806
+  },
+  {
+    "id": "ece99624-57a5-4a5d-b10d-5f911813b0a7",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921806
   },
@@ -48228,10 +49706,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "ef05c11c-d183-46cd-b239-3ef246565d6e",
+=======
+    "createdAt": 1786777921806
+  },
+  {
+    "id": "baf9e270-a660-482b-8fd2-93689500af9e",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921806
   },
@@ -48261,10 +49746,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "633cb68a-8ec1-4154-b542-a670ca6656c9",
+=======
+    "createdAt": 1786777921806
+  },
+  {
+    "id": "0539c8b8-c2ff-41e6-ad35-ea4cd663f5da",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921806
   },
@@ -48294,10 +49786,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "a1c5b437-d31f-4d12-a986-f1fc133ad423",
+=======
+    "createdAt": 1786777921806
+  },
+  {
+    "id": "b1084437-4a1e-438d-8f60-cc7000343827",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921806
   },
@@ -48327,10 +49826,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "47676b07-0890-435f-a059-37c8ee48a367",
+=======
+    "createdAt": 1786777921806
+  },
+  {
+    "id": "f00a655a-3b68-4082-a86a-590a69a7ffb1",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921806
   },
@@ -48360,10 +49866,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "714df9e6-becf-4415-8a68-913ffc78fa31",
+=======
+    "createdAt": 1786777921806
+  },
+  {
+    "id": "7d75f1a6-de96-4525-9ee8-c9704df13578",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921806
   },
@@ -48393,10 +49906,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "f7d7593b-dba8-46e2-a948-8a2d64ec7d53",
+=======
+    "createdAt": 1786777921806
+  },
+  {
+    "id": "7f819681-f424-4d0c-b1c4-f983cbaf8054",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921806
   },
@@ -48426,10 +49946,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "fbd5dfe0-0851-43e8-aafd-94cd966b69a9",
+=======
+    "createdAt": 1786777921807
+  },
+  {
+    "id": "5ffd30a0-3d91-4d29-9e0c-2c39ddfc4ae4",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921807
   },
@@ -48459,10 +49986,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "132547f0-e635-4c4a-b5d8-7fb30019ffe8",
+=======
+    "createdAt": 1786777921807
+  },
+  {
+    "id": "a4cebde7-72e3-4f8c-9ca0-0d4a19d1c5b7",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921807
   },
@@ -48492,10 +50026,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "1f7c9327-5dee-418b-b015-3e0ca65b85ae",
+=======
+    "createdAt": 1786777921807
+  },
+  {
+    "id": "b25584a1-c7c1-4c40-b972-8c34d8ac2314",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921807
   },
@@ -48520,6 +50061,7 @@ export const defaultSites: Site[] = [
     "solar": "Yes",
     "solarKwa": "6.16",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "tpApprovedServices": "CP+DC",
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
@@ -48529,6 +50071,8 @@ export const defaultSites: Site[] = [
   {
     "id": "fe80a3f2-157f-4336-a3c6-3c86120e6b8a",
 =======
+=======
+>>>>>>> Stashed changes
     "neLocation": "-",
     "tpApprovedServices": "DG+DC",
     "zongApprovedServices": "-",
@@ -48538,6 +50082,9 @@ export const defaultSites: Site[] = [
   },
   {
     "id": "5a569421-ca07-46de-8772-73adcedc71f7",
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     "name": "EC1-LLM-03864",
     "lat": 32.845307,
@@ -48562,10 +50109,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "0c48e122-2c70-4dd2-a468-9d12f8b6f229",
+=======
+    "createdAt": 1786777921807
+  },
+  {
+    "id": "720bdeed-2f7f-4a14-be63-877e8b261f4e",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921807
   },
@@ -48595,10 +50149,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "55b644b8-6770-46da-87bf-231253097ce7",
+=======
+    "createdAt": 1786777921807
+  },
+  {
+    "id": "a2291a8e-92bf-44a0-8a2c-34a51e01b634",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921807
   },
@@ -48628,10 +50189,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "2c3d5e74-c4b1-481b-af4f-b99c8260dbf4",
+=======
+    "createdAt": 1786777921807
+  },
+  {
+    "id": "77dc33a6-bf33-46d7-9ce7-ba902367a08e",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921807
   },
@@ -48661,10 +50229,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "09e59383-40d7-4c4e-9981-61f5ea3c9a75",
+=======
+    "createdAt": 1786777921807
+  },
+  {
+    "id": "e59cf1fc-118d-44be-a702-bbfc63555b53",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921807
   },
@@ -48694,10 +50269,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "7d799768-7c0a-494b-8b26-ea708bf3c9e5",
+=======
+    "createdAt": 1786777921807
+  },
+  {
+    "id": "b16aeb5e-7dda-4afb-9c48-7c5aab1373e6",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921807
   },
@@ -48727,10 +50309,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "ce518327-7484-46e6-b198-55b92b489475",
+=======
+    "createdAt": 1786777921807
+  },
+  {
+    "id": "e826642c-3114-4ab6-90a8-f7148fd7442b",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921807
   },
@@ -48760,10 +50349,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "0fa7cac0-2567-436c-8e70-226d7419fc44",
+=======
+    "createdAt": 1786777921807
+  },
+  {
+    "id": "e28585fd-38c8-4c9c-bba6-8b0087c3269b",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921807
   },
@@ -48793,10 +50389,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "CP+DC",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "0a199288-e891-43ad-a226-594145abe201",
+=======
+    "createdAt": 1786777921807
+  },
+  {
+    "id": "1ac5b3f6-5d3b-4fa3-b5c7-1e643fb7a0b7",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921807
   },
@@ -48826,10 +50429,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "CP+DC",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "df362de7-0b36-4847-9b95-3fcb31a4d01d",
+=======
+    "createdAt": 1786777921807
+  },
+  {
+    "id": "7943b1d0-48f9-47c6-bcef-2a32177b17f0",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921807
   },
@@ -48859,10 +50469,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "CP+DC",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "16a73a87-e5be-4dfb-b74f-5446e006234d",
+=======
+    "createdAt": 1786777921808
+  },
+  {
+    "id": "5095eb8e-7477-4b60-8ae7-29a14fa490a0",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921808
   },
@@ -48892,10 +50509,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "CP+DC",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "adc6c8da-0d6b-4763-abf1-d86adef2725c",
+=======
+    "createdAt": 1786777921808
+  },
+  {
+    "id": "7b2d4321-f42d-4668-8182-8436d61a52db",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921808
   },
@@ -48925,10 +50549,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "CP+DC",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "80474b6f-198a-4f11-b990-7698783f3a4d",
+=======
+    "createdAt": 1786777921808
+  },
+  {
+    "id": "cc7749e3-deef-4d5f-b9d4-55aeb04b302d",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921808
   },
@@ -48958,10 +50589,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "DC+DG",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "d3b16b49-662d-44d7-a77f-4dc0092353f9",
+=======
+    "createdAt": 1786777921808
+  },
+  {
+    "id": "19058d55-7be4-4cc2-991e-8268f00bfc65",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921808
   },
@@ -48991,10 +50629,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "CP+DC",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "6d24f44e-d011-4b0f-8270-ab94719657ac",
+=======
+    "createdAt": 1786777921808
+  },
+  {
+    "id": "9c16f2e6-fef8-49db-91db-2879b924731f",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921808
   },
@@ -49023,11 +50668,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "CP+DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "be045c2c-7334-4f50-83bc-c1a46cd87567",
+=======
+    "jazzApprovedServices": "-",
+    "createdAt": 1786777921808
+  },
+  {
+    "id": "e6e6ae58-317e-4d5d-9689-84d11929399f",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "-",
     "createdAt": 1786777921808
@@ -49057,11 +50710,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC+DG",
     "ufoneApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "CP+DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "ada81db5-9d6d-4eeb-bee9-334123936cbc",
+=======
+    "jazzApprovedServices": "-",
+    "createdAt": 1786777921808
+  },
+  {
+    "id": "06604698-b520-4805-bd30-bbdee363503e",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "-",
     "createdAt": 1786777921808
@@ -49091,11 +50752,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "CP+DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "0501edec-082d-4800-b1bf-9840f10e2a3a",
+=======
+    "jazzApprovedServices": "CP+DC",
+    "createdAt": 1786777921808
+  },
+  {
+    "id": "82b941ed-635b-48d6-94d8-201831b8dfc5",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "CP+DC",
     "createdAt": 1786777921808
@@ -49125,11 +50794,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "CP+DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "3ff44eb6-dfab-40d6-a18d-4053c490e52c",
+=======
+    "jazzApprovedServices": "CP+DC",
+    "createdAt": 1786777921808
+  },
+  {
+    "id": "76f6dc0d-45a2-4fde-8d94-a8ecaa9c654c",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "CP+DC",
     "createdAt": 1786777921808
@@ -49159,11 +50836,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "CP+DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "7b8580cb-daff-41e5-bf10-0469c94c37d7",
+=======
+    "jazzApprovedServices": "CP+DC",
+    "createdAt": 1786777921808
+  },
+  {
+    "id": "1316fb26-dcbc-49df-9b5f-1a24f7365052",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "CP+DC",
     "createdAt": 1786777921808
@@ -49193,11 +50878,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "CP+DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "1d780580-2af4-476f-a71e-8e19862fd2a5",
+=======
+    "jazzApprovedServices": "CP+DC",
+    "createdAt": 1786777921808
+  },
+  {
+    "id": "7a99fe7e-6d86-44ff-a27b-23a9c94c1d8a",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "CP+DC",
     "createdAt": 1786777921808
@@ -49227,11 +50920,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "CP+DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "65bcb174-b79d-4f48-8749-ace5c0f17baa",
+=======
+    "jazzApprovedServices": "-",
+    "createdAt": 1786777921808
+  },
+  {
+    "id": "5b2c231a-51ce-4302-b3ee-c45e84274a55",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "-",
     "createdAt": 1786777921808
@@ -49261,11 +50962,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC+DG",
     "ufoneApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "CP+DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "c01f8481-0ed1-4cb1-8575-b0bd93c62301",
+=======
+    "jazzApprovedServices": "CP+DC",
+    "createdAt": 1786777921808
+  },
+  {
+    "id": "b9568928-aa40-48e1-ac32-74042c83d77f",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "CP+DC",
     "createdAt": 1786777921808
@@ -49295,11 +51004,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "CP+DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "44ebc343-0fa5-4c18-a3c7-067b3763a7a8",
+=======
+    "jazzApprovedServices": "-",
+    "createdAt": 1786777921809
+  },
+  {
+    "id": "9528a8d8-87f3-40a9-915a-0b7e912b6bac",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "-",
     "createdAt": 1786777921809
@@ -49329,11 +51046,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "CP+DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "dc2d9e3b-41d8-48ee-9d88-5656198ae2b1",
+=======
+    "jazzApprovedServices": "-",
+    "createdAt": 1786777921809
+  },
+  {
+    "id": "51e1ef53-b0a1-4d49-8fe6-13f5c2f28329",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "-",
     "createdAt": 1786777921809
@@ -49363,11 +51088,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "b56d6171-723e-4466-b021-e234f0e399e0",
+=======
+    "jazzApprovedServices": "CP+DC",
+    "createdAt": 1786777921809
+  },
+  {
+    "id": "4f5a18fc-7f8d-44e4-8033-b83d99c56823",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "CP+DC",
     "createdAt": 1786777921809
@@ -49393,6 +51126,7 @@ export const defaultSites: Site[] = [
     "solar": "No",
     "solarKwa": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "tpApprovedServices": "CP+DG",
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
@@ -49402,6 +51136,8 @@ export const defaultSites: Site[] = [
   {
     "id": "0ac8e21a-3520-4602-8134-d52965762eba",
 =======
+=======
+>>>>>>> Stashed changes
     "neLocation": "-",
     "tpApprovedServices": "CP+DC",
     "zongApprovedServices": "-",
@@ -49411,6 +51147,9 @@ export const defaultSites: Site[] = [
   },
   {
     "id": "ef56f76a-245d-4cc4-9def-65eeb9db6210",
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     "name": "EC1-GUT-09176",
     "lat": 32.568286,
@@ -49434,11 +51173,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC+DG",
     "ufoneApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "6b864263-3c50-4310-bb07-5810c93c08df",
+=======
+    "jazzApprovedServices": "CP+DC",
+    "createdAt": 1786777921809
+  },
+  {
+    "id": "c2d3b461-94eb-4ac2-ae34-23e128ce750c",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "CP+DC",
     "createdAt": 1786777921809
@@ -49469,10 +51216,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "18ae894a-2181-4dc5-8030-bc2d6cdd2fee",
+=======
+    "createdAt": 1786777921809
+  },
+  {
+    "id": "41ab162e-af65-4d56-8ff1-7423d4d5a006",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921809
   },
@@ -49502,10 +51256,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "b67c677b-75d3-4b21-8d5e-86c01daa25c8",
+=======
+    "createdAt": 1786777921809
+  },
+  {
+    "id": "87a40579-df00-4642-b5f1-3b225a668c28",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921809
   },
@@ -49530,6 +51291,7 @@ export const defaultSites: Site[] = [
     "solar": "No",
     "solarKwa": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "tpApprovedServices": "DC+DG",
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
@@ -49539,6 +51301,8 @@ export const defaultSites: Site[] = [
   {
     "id": "e5586bf4-449d-4f7e-ab11-55bf779f4413",
 =======
+=======
+>>>>>>> Stashed changes
     "neLocation": "-",
     "tpApprovedServices": "CP+DC",
     "zongApprovedServices": "-",
@@ -49548,6 +51312,9 @@ export const defaultSites: Site[] = [
   },
   {
     "id": "01fef5fe-bed4-4214-88f7-5b576dfafc22",
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     "name": "EC1-GUT-10089",
     "lat": 32.65988,
@@ -49571,11 +51338,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "b1fa5fec-d43a-4cc8-880a-acdb532e6930",
+=======
+    "jazzApprovedServices": "CP+DC",
+    "createdAt": 1786777921810
+  },
+  {
+    "id": "60c7049e-1d3c-4c18-bebe-19e5ab415cde",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "CP+DC",
     "createdAt": 1786777921810
@@ -49605,11 +51380,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "a60c256a-4280-4389-8571-4fe64269292d",
+=======
+    "jazzApprovedServices": "CP+DC",
+    "createdAt": 1786777921810
+  },
+  {
+    "id": "c0f746fc-963f-4c81-8e40-f1ee0451af5e",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "CP+DC",
     "createdAt": 1786777921810
@@ -49638,6 +51421,7 @@ export const defaultSites: Site[] = [
     "tpApprovedServices": "-",
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
     "jazzApprovedServices": "DC+DG",
     "createdAt": 1786718902531,
@@ -51975,6 +53759,13 @@ export const defaultSites: Site[] = [
   {
     "id": "6bf05a69-27c6-482a-8125-a468396d9d5d",
 >>>>>>> Stashed changes
+=======
+    "jazzApprovedServices": "CP+DC",
+    "createdAt": 1786777921810
+  },
+  {
+    "id": "6bf05a69-27c6-482a-8125-a468396d9d5d",
+>>>>>>> Stashed changes
     "name": "EC1-GUJ-00350",
     "lat": 32.1527,
     "lng": 74.1756,
@@ -51997,11 +53788,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP Only",
     "ufoneApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "CP+DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "4139c7b4-fa81-4ea3-b829-0b13f132d7a6",
+=======
+    "jazzApprovedServices": "-",
+    "createdAt": 1786777921810
+  },
+  {
+    "id": "d5a8c5f8-6701-489f-8326-acf962130e4a",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "-",
     "createdAt": 1786777921810
@@ -52031,11 +53830,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "CP+DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "3541bd0c-5d5d-4036-9724-8e6511cc245c",
+=======
+    "jazzApprovedServices": "-",
+    "createdAt": 1786777921810
+  },
+  {
+    "id": "87c14d86-14b7-4e7c-bbd9-7f0ea30d807d",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "-",
     "createdAt": 1786777921810
@@ -52066,10 +53873,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "CP Only",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "87e91483-3e47-4eb4-8f0a-82123508d277",
+=======
+    "createdAt": 1786777921810
+  },
+  {
+    "id": "5676defe-959c-466a-b546-73c3633d6389",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921810
   },
@@ -52099,10 +53913,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "333c971c-b718-41d5-9791-f87956b7cdef",
+=======
+    "createdAt": 1786777921810
+  },
+  {
+    "id": "d6570a6a-4287-4169-bb57-82af4357469a",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921810
   },
@@ -52131,11 +53952,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "CP+DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "5770e313-4462-4023-83b7-9922c3666ee4",
+=======
+    "jazzApprovedServices": "-",
+    "createdAt": 1786777921810
+  },
+  {
+    "id": "c2d035f4-6343-416a-a3c0-d54d9e9946e5",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "-",
     "createdAt": 1786777921810
@@ -52166,10 +53995,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC+DG",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "06334700-fc29-4d69-8017-77044c54bf1a",
+=======
+    "createdAt": 1786777921810
+  },
+  {
+    "id": "966e74c6-ff14-407b-93c4-6536ccd0fef5",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921810
   },
@@ -52198,11 +54034,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "CP+DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "2ab6e29b-1395-4ad6-832e-a204ba8caf93",
+=======
+    "jazzApprovedServices": "-",
+    "createdAt": 1786777921810
+  },
+  {
+    "id": "438e0cf0-bef2-4a64-933e-58d47361f321",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "-",
     "createdAt": 1786777921810
@@ -52233,10 +54077,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "1ae37718-fb02-4088-8293-f6f0094a772b",
+=======
+    "createdAt": 1786777921810
+  },
+  {
+    "id": "b00b044b-b4ba-426d-bec0-9df73c620a44",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921810
   },
@@ -52266,10 +54117,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "CP+DC",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "8e7a9523-66f2-42bb-a73b-e615faec7c78",
+=======
+    "createdAt": 1786777921811
+  },
+  {
+    "id": "9be707f1-af90-49be-90fc-3c89db5af738",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921811
   },
@@ -52299,10 +54157,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "CP+DC",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "bb0dfbfe-c5cc-4cfa-a8cb-5ce8bfb6310a",
+=======
+    "createdAt": 1786777921811
+  },
+  {
+    "id": "a6ae6c32-7a11-4930-9a49-eaad76188246",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921811
   },
@@ -52332,10 +54197,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "CP+DC",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "d78892ff-e929-41ca-b6a3-37bdb5c008b4",
+=======
+    "createdAt": 1786777921811
+  },
+  {
+    "id": "b6fea21c-1ee2-4dee-86ed-48c49f8e8647",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921811
   },
@@ -52365,10 +54237,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "CP+DC",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "580cdf78-884c-4ba9-975d-2cbb675f712a",
+=======
+    "createdAt": 1786777921811
+  },
+  {
+    "id": "c8a6e8e4-e266-4f18-a7be-dd2fb133d1b8",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921811
   },
@@ -52398,10 +54277,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "CP+DC",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "47aa4019-352a-4e2e-98d1-fec274f95e48",
+=======
+    "createdAt": 1786777921811
+  },
+  {
+    "id": "4f4c5992-fe60-4439-a9e3-3fd6dc1383a7",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921811
   },
@@ -52431,10 +54317,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "c030e3d7-d881-47a5-8dc8-23490cae7624",
+=======
+    "createdAt": 1786777921811
+  },
+  {
+    "id": "eaa98318-fe8b-48bf-9fab-0f6521f6b30b",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921811
   },
@@ -52464,10 +54357,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "df7c14a9-d0f0-428f-88b9-337c39463ba6",
+=======
+    "createdAt": 1786777921811
+  },
+  {
+    "id": "d6115e47-85e8-409d-810b-d8c2c391464c",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921811
   },
@@ -52497,10 +54397,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "3e714e0b-6cbb-40a6-ba66-accac827b2f6",
+=======
+    "createdAt": 1786777921811
+  },
+  {
+    "id": "8a966774-431f-43b4-a9ba-38b2f976c2e8",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921811
   },
@@ -52530,10 +54437,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "6d96b1e4-0d05-4ecb-8dc4-f52c2620ce8b",
+=======
+    "createdAt": 1786777921811
+  },
+  {
+    "id": "1d4aaf59-6c1a-4c78-a55b-c48e85a93fda",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921811
   },
@@ -52563,10 +54477,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "ce17bd9d-907e-4a02-90e7-dee5f4b8d6f9",
+=======
+    "createdAt": 1786777921812
+  },
+  {
+    "id": "394b8419-5ddf-4a81-815c-2ae2d94b65dd",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921812
   },
@@ -52596,10 +54517,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "CP+DC",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "6da792bd-d04e-44fc-8391-bd46e9de1d8c",
+=======
+    "createdAt": 1786777921812
+  },
+  {
+    "id": "e20ebdfc-818a-4743-9281-8cc93a62e3e6",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921812
   },
@@ -52629,10 +54557,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "a32700a0-b0e2-44e4-b7f5-2bbe2645a66b",
+=======
+    "createdAt": 1786777921812
+  },
+  {
+    "id": "df084d64-4509-4f40-aea0-872fe4d17bc7",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921812
   },
@@ -52662,10 +54597,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "CP+DC",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "601dcafe-fbe0-46ce-81c8-5628be6314b3",
+=======
+    "createdAt": 1786777921812
+  },
+  {
+    "id": "0f7a2082-0152-4e1a-b6d5-2164bfcae327",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921812
   },
@@ -52695,10 +54637,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "25c382c0-20a2-40ae-9dde-a252a161e3ca",
+=======
+    "createdAt": 1786777921812
+  },
+  {
+    "id": "c2f81cf0-0a61-433a-af5e-c65640ab54d2",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921812
   },
@@ -52728,10 +54677,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "0ae9b8af-fecf-45df-986c-a308b66c6067",
+=======
+    "createdAt": 1786777921812
+  },
+  {
+    "id": "ea8671cc-5069-4eed-b12e-e776c9c1bd59",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921812
   },
@@ -52761,10 +54717,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "CP Only",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "29f8ff78-6e59-404c-814a-614ef99722bc",
+=======
+    "createdAt": 1786777921812
+  },
+  {
+    "id": "9ae50be0-c5f7-4c03-a18c-f70673f703e7",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921812
   },
@@ -52793,11 +54756,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "CP+DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "9af97f07-2a91-4f30-b622-1d59f29ec8d7",
+=======
+    "jazzApprovedServices": "-",
+    "createdAt": 1786777921813
+  },
+  {
+    "id": "5bdddf48-4ef7-452c-8187-4236f718a883",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "-",
     "createdAt": 1786777921813
@@ -52828,10 +54799,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC+DG",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "4487c145-2ae1-41a8-b6d9-23ad3385c0f8",
+=======
+    "createdAt": 1786777921813
+  },
+  {
+    "id": "19ea349f-7887-4b75-9ad5-bae09d4ae97f",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921813
   },
@@ -52861,10 +54839,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC+DG",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "bf4c3140-240e-4d7f-aafc-dd8da61b1a9e",
+=======
+    "createdAt": 1786777921813
+  },
+  {
+    "id": "338b6860-5518-4e79-8e33-57d24b1cf3fe",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921813
   },
@@ -52894,10 +54879,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "25d91991-d41c-4b8b-84ce-3373de6089d7",
+=======
+    "createdAt": 1786777921813
+  },
+  {
+    "id": "c054b33d-9920-46b3-97ec-0edde3dabf87",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921813
   },
@@ -52926,11 +54918,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "bdf656f2-3045-4d7f-a03d-cdc22494e2c7",
+=======
+    "jazzApprovedServices": "CP+DC",
+    "createdAt": 1786777921813
+  },
+  {
+    "id": "83938be3-30da-43cb-a40f-761b1c178d3f",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "CP+DC",
     "createdAt": 1786777921813
@@ -52960,11 +54960,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "51c0ac99-820a-4d6c-acc7-cf42bd9b1b99",
+=======
+    "jazzApprovedServices": "CP+DC",
+    "createdAt": 1786777921813
+  },
+  {
+    "id": "23c6f7d5-6007-4c84-aa80-ba3af88fe238",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "CP+DC",
     "createdAt": 1786777921813
@@ -52995,10 +55003,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "c7f2fc69-174c-4c5c-b527-db819938d9da",
+=======
+    "createdAt": 1786777921813
+  },
+  {
+    "id": "3deb4ef4-b472-484b-8c1f-51e8257db430",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921813
   },
@@ -53027,6 +55042,7 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "CP+DC",
     "jazzApprovedServices": "CP+DC",
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
@@ -56566,6 +58582,12 @@ export const defaultSites: Site[] = [
   {
     "id": "b051fcdf-a554-4f50-9451-15c6cdcc3e1f",
 >>>>>>> Stashed changes
+=======
+    "createdAt": 1786777921814
+  },
+  {
+    "id": "b051fcdf-a554-4f50-9451-15c6cdcc3e1f",
+>>>>>>> Stashed changes
     "name": "EC1-SKG-04810",
     "lat": 32.27091,
     "lng": 75.15406,
@@ -56588,11 +58610,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "CP+DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "4d583222-704a-405b-b818-b461acb9b994",
+=======
+    "jazzApprovedServices": "-",
+    "createdAt": 1786777921814
+  },
+  {
+    "id": "3dcf931d-cd3d-46b6-bfdf-a20b9911815d",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "-",
     "createdAt": 1786777921814
@@ -56623,10 +58653,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "8ba9df94-b498-46d6-b8bb-ecd78464e249",
+=======
+    "createdAt": 1786777921814
+  },
+  {
+    "id": "5cb3ce09-dc13-42e2-a5f0-a92471882531",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921814
   },
@@ -56656,10 +58693,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "33edd4ca-6bed-4d10-b3dc-113d37c15f63",
+=======
+    "createdAt": 1786777921814
+  },
+  {
+    "id": "4246a47a-1bfc-49d4-9c60-1618b04505fd",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921814
   },
@@ -56689,10 +58733,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "e2dd71bd-ceaa-4474-a2a4-3a140f5c8d10",
+=======
+    "createdAt": 1786777921814
+  },
+  {
+    "id": "e1bcc692-87a6-4175-b716-1af1aff83aed",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921814
   },
@@ -56722,10 +58773,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "27bd6dc6-f16e-411f-be58-4f430b51aea5",
+=======
+    "createdAt": 1786777921814
+  },
+  {
+    "id": "a442028a-561f-4506-b7fe-78384db90d6f",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921814
   },
@@ -56755,10 +58813,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "248b6ed2-1f90-4dcc-8534-e54918b420a6",
+=======
+    "createdAt": 1786777921815
+  },
+  {
+    "id": "15de875b-9d13-4427-abbd-80089b233881",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921815
   },
@@ -56788,10 +58853,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "7ce190b2-fb5a-42f8-b7df-990da2d9c31d",
+=======
+    "createdAt": 1786777921815
+  },
+  {
+    "id": "0bf7d59f-2513-4e36-9a38-b8cab556d37b",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921815
   },
@@ -56821,10 +58893,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "a5147300-5f7b-40f5-aeb0-b4781574112c",
+=======
+    "createdAt": 1786777921815
+  },
+  {
+    "id": "43807e5e-4f55-487d-b54f-733b7fb6a162",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921815
   },
@@ -56854,10 +58933,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "de454ad3-e9f8-4740-9585-b9d4eb3dd144",
+=======
+    "createdAt": 1786777921815
+  },
+  {
+    "id": "32c83f90-3c3d-4728-8786-74f0836ae524",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921815
   },
@@ -56887,10 +58973,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "4db24672-a3d3-4312-a646-e6553f00670b",
+=======
+    "createdAt": 1786777921815
+  },
+  {
+    "id": "6773d96d-5088-4311-b555-e0e951650604",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921815
   },
@@ -56920,10 +59013,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "b517cf8b-ca9d-46dd-b3f0-727793dcea4a",
+=======
+    "createdAt": 1786777921815
+  },
+  {
+    "id": "7fd85cac-80d7-4c7c-9b32-347cb475bb29",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921815
   },
@@ -56953,10 +59053,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "9d082e55-aa81-4fac-8670-e2ebdff1a8ec",
+=======
+    "createdAt": 1786777921816
+  },
+  {
+    "id": "75424575-3527-463a-8c67-0352e86b742a",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921816
   },
@@ -56986,10 +59093,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "44590785-f501-4527-9c8d-9f9d88bded45",
+=======
+    "createdAt": 1786777921816
+  },
+  {
+    "id": "2e9abb04-d4ae-4063-a21c-da34a785d4fa",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921816
   },
@@ -57019,10 +59133,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "faa624f1-c2b3-4298-bb80-e2156c5d8c57",
+=======
+    "createdAt": 1786777921816
+  },
+  {
+    "id": "36e6dd01-8138-4a68-9370-833c36449d2a",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921816
   },
@@ -57052,10 +59173,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "47640b24-6b9d-4389-9887-2da77aeeab34",
+=======
+    "createdAt": 1786777921817
+  },
+  {
+    "id": "afff90f9-0022-45dd-8498-58306c204137",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921817
   },
@@ -57085,10 +59213,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "3a6a3fec-a1dd-45d8-b041-a5c7aa921544",
+=======
+    "createdAt": 1786777921817
+  },
+  {
+    "id": "e7ec3339-c647-4f0f-97f0-f984ed57a42f",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921817
   },
@@ -57117,11 +59252,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "6b5b537a-d66c-4bdb-9827-54177d163bf5",
+=======
+    "jazzApprovedServices": "CP+DC",
+    "createdAt": 1786777921817
+  },
+  {
+    "id": "6b1be5be-9e11-4fbb-9c33-1370f2cc4074",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "CP+DC",
     "createdAt": 1786777921817
@@ -57152,10 +59295,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "4925d0b3-049b-4d3a-b496-85cd395baee4",
+=======
+    "createdAt": 1786777921817
+  },
+  {
+    "id": "a2eb4b1f-a243-400c-976f-aac53c0fb6ae",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921817
   },
@@ -57185,10 +59335,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "e04008d6-cab5-4ef7-b348-5f9d303fc770",
+=======
+    "createdAt": 1786777921817
+  },
+  {
+    "id": "a65aa34d-b716-4eac-a006-1bfba67d7dae",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921817
   },
@@ -57218,10 +59375,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "f96b2f5a-2f4f-442d-b837-3a97f40ce776",
+=======
+    "createdAt": 1786777921817
+  },
+  {
+    "id": "ad897113-72e5-4c6a-abba-fbeba8bd3156",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921817
   },
@@ -57251,10 +59415,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "b028edcf-fe46-4c11-8aa4-e763f7f1ff66",
+=======
+    "createdAt": 1786777921817
+  },
+  {
+    "id": "2711d895-9e10-465e-a513-63c6a3de2cf2",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921817
   },
@@ -57284,10 +59455,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "08dc90f4-ff63-46bc-962a-e5e4c33c1063",
+=======
+    "createdAt": 1786777921818
+  },
+  {
+    "id": "441050b2-4be8-4f12-8911-50891afac5e4",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921818
   },
@@ -57317,10 +59495,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "69e3d260-6c5b-4f9d-a3a7-18ad6920a545",
+=======
+    "createdAt": 1786777921818
+  },
+  {
+    "id": "d0eaa94c-b085-40a9-a29b-9453ede58ea2",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921818
   },
@@ -57350,10 +59535,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "0585be84-e962-4fc2-92b8-627c0036a0e0",
+=======
+    "createdAt": 1786777921818
+  },
+  {
+    "id": "eb4a81c3-3923-478e-8470-cb9027b837ec",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921818
   },
@@ -57383,10 +59575,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "06da7f01-07f6-4c51-8fc4-fd8bf7f24005",
+=======
+    "createdAt": 1786777921818
+  },
+  {
+    "id": "6a23b051-b910-4dbd-926a-45c89804cec8",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921818
   },
@@ -57416,10 +59615,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "868f37d4-10c2-4dae-9d43-8595284ced36",
+=======
+    "createdAt": 1786777921818
+  },
+  {
+    "id": "b06c010b-d068-49a4-bffa-683b5164e26b",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921818
   },
@@ -57449,10 +59655,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "ded2c2b0-c2b7-42ec-a749-f2f755aefb53",
+=======
+    "createdAt": 1786777921818
+  },
+  {
+    "id": "215585c5-a589-43e4-a56c-45e39c4fd8ab",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921818
   },
@@ -57482,10 +59695,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "72ca4313-38da-455d-a275-46c685f3d699",
+=======
+    "createdAt": 1786777921818
+  },
+  {
+    "id": "87a3714c-a1ea-445d-9682-6fad73c5a606",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921818
   },
@@ -57515,10 +59735,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "56d64edd-2d04-4800-a347-39abef5c8706",
+=======
+    "createdAt": 1786777921819
+  },
+  {
+    "id": "e38a7d65-5931-4c30-996f-23804feb35f5",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921819
   },
@@ -57548,10 +59775,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "CP+DC",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "cb717efc-c86d-4ca2-818b-5ec1473d96a3",
+=======
+    "createdAt": 1786777921819
+  },
+  {
+    "id": "cae31630-80d3-456e-957d-31d8fe19a164",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921819
   },
@@ -57580,11 +59814,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "CP+DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "45a94b41-a0a0-4962-b7fa-bb95fe848597",
+=======
+    "jazzApprovedServices": "DC+DG",
+    "createdAt": 1786777921819
+  },
+  {
+    "id": "c93666e4-eaff-483b-94d9-f259b3a7e8f5",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "DC+DG",
     "createdAt": 1786777921819
@@ -57610,6 +59852,7 @@ export const defaultSites: Site[] = [
     "solar": "Yes",
     "solarKwa": "19.44",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "tpApprovedServices": "DC+DG",
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
@@ -57619,6 +59862,8 @@ export const defaultSites: Site[] = [
   {
     "id": "47f7b270-d065-4873-bb6a-7a96d9cf0c1a",
 =======
+=======
+>>>>>>> Stashed changes
     "neLocation": "-",
     "tpApprovedServices": "DG+DC",
     "zongApprovedServices": "-",
@@ -57628,6 +59873,9 @@ export const defaultSites: Site[] = [
   },
   {
     "id": "d1e62d2c-69ae-4dc1-8ec4-1d0158ff883d",
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     "name": "EC1-NRW-07811",
     "lat": 32.0854432,
@@ -57651,11 +59899,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "CP+DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "9cbbf6b3-75ea-43ec-be70-373bec578bd1",
+=======
+    "jazzApprovedServices": "CP+DC",
+    "createdAt": 1786777921819
+  },
+  {
+    "id": "1270e101-9b9f-4bca-89e2-bdec04316521",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "CP+DC",
     "createdAt": 1786777921819
@@ -57685,11 +59941,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "CP+DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "d7f71c34-23a5-4781-b779-3c46fb1f0ac5",
+=======
+    "jazzApprovedServices": "CP+DC",
+    "createdAt": 1786777921819
+  },
+  {
+    "id": "5c8717f2-a373-45cc-ae10-38d785855490",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "CP+DC",
     "createdAt": 1786777921819
@@ -57720,10 +59984,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "c4c62288-2620-403f-affd-cf1b3e64733c",
+=======
+    "createdAt": 1786777921820
+  },
+  {
+    "id": "740a732f-e301-41eb-b3e4-94fa0740d7d9",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921820
   },
@@ -57748,6 +60019,7 @@ export const defaultSites: Site[] = [
     "solar": "No",
     "solarKwa": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "tpApprovedServices": "CP+DC+DG",
     "zongApprovedServices": "CP only",
     "ufoneApprovedServices": "-",
@@ -57757,6 +60029,8 @@ export const defaultSites: Site[] = [
   {
     "id": "a82074ba-b54a-4e45-b528-eeca87aebc2a",
 =======
+=======
+>>>>>>> Stashed changes
     "neLocation": "-",
     "tpApprovedServices": "CP+DC",
     "zongApprovedServices": "CP only",
@@ -57766,6 +60040,9 @@ export const defaultSites: Site[] = [
   },
   {
     "id": "68d45e9a-cdbf-4e5c-9b8d-79628e3b0d65",
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     "name": "EC1-NRW-08629",
     "lat": 32.26151,
@@ -57790,10 +60067,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "6bbbdfb5-c8af-4598-ac04-68df67471dae",
+=======
+    "createdAt": 1786777921820
+  },
+  {
+    "id": "3202eda0-ef6a-4e61-8eb2-eb43c9936e66",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921820
   },
@@ -57823,10 +60107,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "a7d2d10a-09e5-49bd-ad47-f57d812711bf",
+=======
+    "createdAt": 1786777921820
+  },
+  {
+    "id": "77335fb5-cd98-4b7c-b4ba-eaf4db9ff551",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921820
   },
@@ -57856,10 +60147,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "CP+DG",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "04d659cb-99fb-4cfb-960d-c59c4d3a7cbf",
+=======
+    "createdAt": 1786777921820
+  },
+  {
+    "id": "8e7464f9-2003-485c-bd2e-70edb3a89c05",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921820
   },
@@ -57889,10 +60187,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "7823b1a4-4d5a-4fdc-aa1e-24ffab50e801",
+=======
+    "createdAt": 1786777921820
+  },
+  {
+    "id": "e9896779-a646-467f-8464-89cc5874dac2",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921820
   },
@@ -57922,10 +60227,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "c1de3068-fb27-461d-a4eb-a13a84acac83",
+=======
+    "createdAt": 1786777921820
+  },
+  {
+    "id": "4e1fef1d-d518-45d0-9f93-1f9cdcc5732b",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921820
   },
@@ -57954,11 +60266,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC+DG",
     "ufoneApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "5a677e6d-5444-4236-89c6-f10896900056",
+=======
+    "jazzApprovedServices": "CP+DC",
+    "createdAt": 1786777921821
+  },
+  {
+    "id": "c41a93c3-b567-426b-9927-80ed29adc3d6",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "CP+DC",
     "createdAt": 1786777921821
@@ -57989,10 +60309,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "89a40a93-05eb-4c97-8a1b-1c58f8c3357b",
+=======
+    "createdAt": 1786777921821
+  },
+  {
+    "id": "3bca81b6-f638-4fe1-96d3-ef0cb0e6e5f3",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921821
   },
@@ -58021,11 +60348,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "1467a6f2-d4ca-4db9-8c0c-073880d60221",
+=======
+    "jazzApprovedServices": "CP+DC",
+    "createdAt": 1786777921821
+  },
+  {
+    "id": "0575a180-c18c-4a91-a03d-2e6ac2553d80",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "CP+DC",
     "createdAt": 1786777921821
@@ -58056,10 +60391,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "e1c71f63-6c8b-4c51-aed3-4eeab13c6eea",
+=======
+    "createdAt": 1786777921821
+  },
+  {
+    "id": "f58b0dda-57ed-4ccb-8110-ccb336d122c4",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921821
   },
@@ -58088,11 +60430,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "64423a74-dbc1-4cb5-aea5-894f7740f33d",
+=======
+    "jazzApprovedServices": "CP+DC",
+    "createdAt": 1786777921821
+  },
+  {
+    "id": "19835fe9-099a-4633-90e1-32a4d478d4e9",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "CP+DC",
     "createdAt": 1786777921821
@@ -58122,11 +60472,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "db86bd33-38cf-497f-8385-fb8cb10a4751",
+=======
+    "jazzApprovedServices": "CP+DC",
+    "createdAt": 1786777921821
+  },
+  {
+    "id": "76b8afb4-bc11-475e-a16c-ed06eab74da2",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "CP+DC",
     "createdAt": 1786777921821
@@ -58156,11 +60514,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "4ea4e223-ea53-4e1b-9f13-1710ed6e8a34",
+=======
+    "jazzApprovedServices": "CP+DC",
+    "createdAt": 1786777921822
+  },
+  {
+    "id": "9d68d44a-d79f-43df-97c9-a92c07114ac7",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "CP+DC",
     "createdAt": 1786777921822
@@ -58190,11 +60556,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "7acf2050-0dff-4df4-ba85-f7cb0fbb7756",
+=======
+    "jazzApprovedServices": "CP+DC",
+    "createdAt": 1786777921822
+  },
+  {
+    "id": "342066f2-4f2f-4677-80e8-0ab3bb0a50c2",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "CP+DC",
     "createdAt": 1786777921822
@@ -58225,10 +60599,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "b1c09cb6-a8cb-4f38-9bad-886a941635b2",
+=======
+    "createdAt": 1786777921822
+  },
+  {
+    "id": "0a3f3581-3b9d-4e2b-9ac3-04bd9932845c",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921822
   },
@@ -58257,11 +60638,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "CP+DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "24d2bd48-2fe8-400c-91e3-9fa136671e01",
+=======
+    "jazzApprovedServices": "-",
+    "createdAt": 1786777921822
+  },
+  {
+    "id": "85290702-2334-4a9f-a7f4-567ba9369a63",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "-",
     "createdAt": 1786777921822
@@ -58291,11 +60680,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "CP+DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "6ff2d9a9-9dd5-45d6-a17c-659eb0d8abad",
+=======
+    "jazzApprovedServices": "DG+DC",
+    "createdAt": 1786777921822
+  },
+  {
+    "id": "29086b9a-5f43-4f94-b9de-2c936717ce1c",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "DG+DC",
     "createdAt": 1786777921822
@@ -58325,11 +60722,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "CP+DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "a13f6390-3f7a-42f1-8e35-34b61fbe999f",
+=======
+    "jazzApprovedServices": "CP+DC",
+    "createdAt": 1786777921822
+  },
+  {
+    "id": "fcadad55-8b5f-4bd5-8b7c-a336649173ac",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "CP+DC",
     "createdAt": 1786777921822
@@ -58355,6 +60760,7 @@ export const defaultSites: Site[] = [
     "solar": "No",
     "solarKwa": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "tpApprovedServices": "DC+DG",
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
@@ -58364,6 +60770,8 @@ export const defaultSites: Site[] = [
   {
     "id": "326e2a43-fe28-403f-b631-5d80254b30ea",
 =======
+=======
+>>>>>>> Stashed changes
     "neLocation": "-",
     "tpApprovedServices": "CP+DC",
     "zongApprovedServices": "-",
@@ -58373,6 +60781,9 @@ export const defaultSites: Site[] = [
   },
   {
     "id": "324c030d-ac23-40b1-bfd8-943c31824458",
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     "name": "EC1-NRW-09904",
     "lat": 32.104545,
@@ -58392,6 +60803,7 @@ export const defaultSites: Site[] = [
     "solar": "No",
     "solarKwa": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "tpApprovedServices": "DC+DG",
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
@@ -58401,6 +60813,8 @@ export const defaultSites: Site[] = [
   {
     "id": "93bf4664-611f-41ad-a73c-e8d09acc3d3e",
 =======
+=======
+>>>>>>> Stashed changes
     "neLocation": "-",
     "tpApprovedServices": "CP+DC",
     "zongApprovedServices": "-",
@@ -58410,6 +60824,9 @@ export const defaultSites: Site[] = [
   },
   {
     "id": "6fab513d-26c4-43c2-93b1-4837df2c559c",
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     "name": "EC1-NRW-09925",
     "lat": 32.12817,
@@ -58434,10 +60851,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "6e4ec061-7a77-42fe-aeb1-933d7646e3a4",
+=======
+    "createdAt": 1786777921823
+  },
+  {
+    "id": "f818fb4f-f78d-4de4-806d-15d91fded8d9",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921823
   },
@@ -58466,11 +60890,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "8bfd7fca-ddd7-4380-8d9d-d80bd180031b",
+=======
+    "jazzApprovedServices": "CP+DC",
+    "createdAt": 1786777921823
+  },
+  {
+    "id": "9ad4b968-d95e-4313-a954-a0076f637df9",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "CP+DC",
     "createdAt": 1786777921823
@@ -58500,11 +60932,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "f2962afe-62ba-4767-b5c6-408d58c8c3d5",
+=======
+    "jazzApprovedServices": "CP+DC",
+    "createdAt": 1786777921823
+  },
+  {
+    "id": "542bb11a-d38f-44b7-9c1e-820388730ae6",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "CP+DC",
     "createdAt": 1786777921823
@@ -58534,11 +60974,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "b433b488-5ee6-4514-b80d-ff7dec097415",
+=======
+    "jazzApprovedServices": "CP+DC",
+    "createdAt": 1786777921823
+  },
+  {
+    "id": "b2ff34ff-2dd4-4342-8941-d2399cda334e",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "CP+DC",
     "createdAt": 1786777921823
@@ -58569,10 +61017,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "ab38a7dc-7523-4c02-8ba7-5bf3d735dc4c",
+=======
+    "createdAt": 1786777921823
+  },
+  {
+    "id": "83b1b52f-f07d-45ef-ac88-9c4b738b5366",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921823
   },
@@ -58601,11 +61056,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "3796fc5c-0e03-4697-8e3c-68a478049af0",
+=======
+    "jazzApprovedServices": "CP+DC",
+    "createdAt": 1786777921824
+  },
+  {
+    "id": "efa7b891-9cc0-4461-a48a-1234275fedcb",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "CP+DC",
     "createdAt": 1786777921824
@@ -58636,10 +61099,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "5290ae2e-cd0d-49e1-86f9-be95c7924104",
+=======
+    "createdAt": 1786777921824
+  },
+  {
+    "id": "f9a2e75d-8c82-4b14-b380-132397e6a11b",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921824
   },
@@ -58669,10 +61139,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "5059b7c4-9001-43dd-a2f1-bfe5abf2f9db",
+=======
+    "createdAt": 1786777921824
+  },
+  {
+    "id": "5bb2e570-b845-4f5d-a1be-89e7578ca3ba",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921824
   },
@@ -58702,10 +61179,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "58c8da73-d723-4628-a912-dfe62ee15584",
+=======
+    "createdAt": 1786777921824
+  },
+  {
+    "id": "1dafe810-1ded-46b3-8fba-a1a5115f735e",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921824
   },
@@ -58730,6 +61214,7 @@ export const defaultSites: Site[] = [
     "solar": "No",
     "solarKwa": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "tpApprovedServices": "DC+DG",
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
@@ -58739,6 +61224,8 @@ export const defaultSites: Site[] = [
   {
     "id": "21d90ce2-bb8d-40af-a036-ed8685d8997b",
 =======
+=======
+>>>>>>> Stashed changes
     "neLocation": "-",
     "tpApprovedServices": "CP+DC",
     "zongApprovedServices": "-",
@@ -58748,6 +61235,9 @@ export const defaultSites: Site[] = [
   },
   {
     "id": "7899b4fe-5498-4175-a209-8661e1fd0d22",
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     "name": "EC1-PSR-01306",
     "lat": 32.2681,
@@ -58771,11 +61261,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP Only",
     "ufoneApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "CP+DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "00c220a6-1ce2-4ade-8728-8deb02f10e69",
+=======
+    "jazzApprovedServices": "-",
+    "createdAt": 1786777921824
+  },
+  {
+    "id": "28add2a9-05c7-42f7-9c79-e3cafb9cc9a1",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "-",
     "createdAt": 1786777921824
@@ -58806,10 +61304,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "2544dba3-9c37-4671-bcb2-5d580e492c3c",
+=======
+    "createdAt": 1786777921825
+  },
+  {
+    "id": "85ca20a6-f344-4220-bded-53175becbb80",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921825
   },
@@ -58839,10 +61344,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "9dbe89a4-ac69-4a8d-9e5f-b27dff286033",
+=======
+    "createdAt": 1786777921825
+  },
+  {
+    "id": "e0b89975-7118-4e69-82ef-b7749c35fa80",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921825
   },
@@ -58872,10 +61384,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "8c158786-ba1b-42a4-9b21-7c40ddda6f93",
+=======
+    "createdAt": 1786777921825
+  },
+  {
+    "id": "18c4f565-0747-4ab6-84bd-08ff149d56a3",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921825
   },
@@ -58905,10 +61424,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "2ba7e83a-017e-40e2-8521-4354c1cc1431",
+=======
+    "createdAt": 1786777921825
+  },
+  {
+    "id": "8ae441ba-96c2-4524-8f4e-ffc620c92d71",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921825
   },
@@ -58938,10 +61464,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "CP+DG",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "be62f39d-b9be-48c7-8057-0e49115916bc",
+=======
+    "createdAt": 1786777921825
+  },
+  {
+    "id": "3ea8c038-0dcb-4400-84da-afcb01c7aa04",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921825
   },
@@ -58966,8 +61499,11 @@ export const defaultSites: Site[] = [
     "solar": "No",
     "solarKwa": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "tpApprovedServices": "CP+DG",
 =======
+=======
+>>>>>>> Stashed changes
     "neLocation": "-",
     "tpApprovedServices": "CP+DC",
 >>>>>>> Stashed changes
@@ -58975,10 +61511,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "CP+DG",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "2aea7080-da73-4826-ab8b-5cd635530b31",
+=======
+    "createdAt": 1786777921825
+  },
+  {
+    "id": "b154566c-a96c-4c2b-8100-6e4b087939e3",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921825
   },
@@ -59008,10 +61551,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "e7badbff-85ab-4614-bebd-956ac3b5618a",
+=======
+    "createdAt": 1786777921825
+  },
+  {
+    "id": "b5676310-2f84-4917-b5b3-27adeb7d8af5",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921825
   },
@@ -59041,10 +61591,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "d21b6d2a-c041-4546-8cb8-65ecd2052fbf",
+=======
+    "createdAt": 1786777921826
+  },
+  {
+    "id": "e391b457-b563-47da-8734-e089dc00bfbc",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921826
   },
@@ -59074,10 +61631,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "53ea0267-68a5-461d-84c1-d81e5ce3ac4a",
+=======
+    "createdAt": 1786777921826
+  },
+  {
+    "id": "1d235183-fe2f-4882-b8d4-b09ac95a9675",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921826
   },
@@ -59101,6 +61665,7 @@ export const defaultSites: Site[] = [
     "guestOmo": "TELENOR",
     "solar": "No",
     "solarKwa": "-",
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
     "tpApprovedServices": "DC+DG",
     "zongApprovedServices": "-",
@@ -62331,6 +64896,8 @@ export const defaultSites: Site[] = [
   {
     "id": "a87ddeb1-d90c-4618-b811-18af54e76eb8",
 =======
+=======
+>>>>>>> Stashed changes
     "neLocation": "-",
     "tpApprovedServices": "CP+DC",
     "zongApprovedServices": "-",
@@ -62340,6 +64907,9 @@ export const defaultSites: Site[] = [
   },
   {
     "id": "81ab49cb-24a8-440d-9c95-5d7fc2325ccd",
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     "name": "EC1-SKT-01473",
     "lat": 32.4704,
@@ -62363,11 +64933,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "CP+DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "d65b8e42-1689-4390-8683-e25aceb43234",
+=======
+    "jazzApprovedServices": "-",
+    "createdAt": 1786777921826
+  },
+  {
+    "id": "c92f11e8-931a-4d44-bf31-b7fdeb6ba178",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "-",
     "createdAt": 1786777921826
@@ -62397,11 +64975,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "CP+DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "a0df2899-593c-456b-a3a9-13a52795e59d",
+=======
+    "jazzApprovedServices": "-",
+    "createdAt": 1786777921826
+  },
+  {
+    "id": "6f769b0b-bc37-4e3a-a46e-6dcea215f850",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "-",
     "createdAt": 1786777921826
@@ -62432,10 +65018,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "62c60157-6d7e-4e4f-b7e5-4266ffd6a1b9",
+=======
+    "createdAt": 1786777921826
+  },
+  {
+    "id": "22ad4961-2399-4594-8c94-f9328e18f804",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921826
   },
@@ -62464,11 +65057,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP Only",
     "ufoneApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "CP+DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "99407aa1-c1b0-4a5e-9f8f-b1e21f7cdd5d",
+=======
+    "jazzApprovedServices": "-",
+    "createdAt": 1786777921826
+  },
+  {
+    "id": "e0c00fac-a226-434c-b5ad-ced7394bcd32",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "-",
     "createdAt": 1786777921826
@@ -62498,11 +65099,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "CP+DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "4be12cca-0f0e-441d-b412-4dacd7a3da78",
+=======
+    "jazzApprovedServices": "-",
+    "createdAt": 1786777921826
+  },
+  {
+    "id": "7c12eaee-0115-4781-841c-d6a1a4bbee82",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "-",
     "createdAt": 1786777921826
@@ -62532,11 +65141,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "CP+DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "6757a2a3-57e8-45ff-ba76-ec1c0b84d905",
+=======
+    "jazzApprovedServices": "CP+DC",
+    "createdAt": 1786777921826
+  },
+  {
+    "id": "4000b6b8-aa24-4208-963c-876032c8b36b",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "CP+DC",
     "createdAt": 1786777921826
@@ -62566,11 +65183,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "CP+DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "31a3ae25-99e9-405d-8be3-bf60d36bab25",
+=======
+    "jazzApprovedServices": "CP+DC",
+    "createdAt": 1786777921826
+  },
+  {
+    "id": "d933fa20-b7a2-4a36-9fe9-e1df4829cba2",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "CP+DC",
     "createdAt": 1786777921826
@@ -62601,10 +65226,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "9dfdff8a-9f5b-4425-8d4c-7f52e5d0ab01",
+=======
+    "createdAt": 1786777921826
+  },
+  {
+    "id": "0ab27213-d1e0-48c3-a1d6-b04723ac2d5a",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921826
   },
@@ -62634,10 +65266,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "CP+DC",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "5d6952a3-d6b2-414f-9f2c-d34d9fab09eb",
+=======
+    "createdAt": 1786777921826
+  },
+  {
+    "id": "f2ce275f-d194-4154-9513-5a69f69f4379",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921826
   },
@@ -62667,10 +65306,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "CP+DC",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "9191c15c-26f1-4c9f-999c-cbf258dcfd16",
+=======
+    "createdAt": 1786777921826
+  },
+  {
+    "id": "c5ccef8d-9ad2-4d5d-9462-fc47cfa6d067",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921826
   },
@@ -62700,10 +65346,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "a8035aeb-6ca7-4fda-a3cd-f56bad01f386",
+=======
+    "createdAt": 1786777921827
+  },
+  {
+    "id": "551d77ad-6e16-4a76-b695-3982333a12af",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921827
   },
@@ -62733,10 +65386,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "cddcfc1c-8092-48f7-926e-4329b72a0fa5",
+=======
+    "createdAt": 1786777921827
+  },
+  {
+    "id": "f283aa98-ad2f-4413-9d23-cb58dce3945c",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921827
   },
@@ -62766,10 +65426,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "1c61f9da-1413-4bae-a438-fdee2f2a8bfa",
+=======
+    "createdAt": 1786777921827
+  },
+  {
+    "id": "b6bff095-d0fa-44ea-a89e-6ba839109213",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921827
   },
@@ -62799,10 +65466,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "CP+DC",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "797cb907-ce33-4500-8a54-108e70a2ceb4",
+=======
+    "createdAt": 1786777921827
+  },
+  {
+    "id": "a31272b2-2228-45e4-b21d-3ff07ddb31f2",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921827
   },
@@ -62832,10 +65506,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "95f8bb6e-dc0b-4383-99c9-5cc8d28caec6",
+=======
+    "createdAt": 1786777921827
+  },
+  {
+    "id": "f71e7bc8-df4a-43fe-8af9-e813af854018",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921827
   },
@@ -62865,10 +65546,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "c1c552c6-feeb-48dc-b4f6-6301b0e52c41",
+=======
+    "createdAt": 1786777921827
+  },
+  {
+    "id": "cea60fc3-6b31-432a-9fc7-fdde9f1c28cb",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921827
   },
@@ -62898,10 +65586,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "CP+DC",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "347978a2-1f8c-49f7-ae96-8fad6a364be3",
+=======
+    "createdAt": 1786777921827
+  },
+  {
+    "id": "0fb6bfe4-21d4-4b5d-b5e3-6d0f48d8043f",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921827
   },
@@ -62930,11 +65625,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "b2c1648d-9b10-4860-949f-6f44b02efbf6",
+=======
+    "jazzApprovedServices": "CP+DC",
+    "createdAt": 1786777921827
+  },
+  {
+    "id": "f219ad21-7fa7-48da-b314-37a42c46c546",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "CP+DC",
     "createdAt": 1786777921827
@@ -62964,11 +65667,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "e626d17c-3de9-459c-98aa-ef030c1adfe2",
+=======
+    "jazzApprovedServices": "DG+DC",
+    "createdAt": 1786777921827
+  },
+  {
+    "id": "09535891-5bd8-405d-9dcd-0c16282036b4",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "DG+DC",
     "createdAt": 1786777921827
@@ -62999,10 +65710,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "dbac56e3-ad98-4bcc-ab68-65db0dd54bbe",
+=======
+    "createdAt": 1786777921827
+  },
+  {
+    "id": "a26e82ca-e44f-4884-b5a5-f0318a3b85b6",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921827
   },
@@ -63032,10 +65750,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "CP+DC",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "d93d4dab-04a3-416d-b803-af7a14f17c62",
+=======
+    "createdAt": 1786777921827
+  },
+  {
+    "id": "cef8255c-72c4-408a-9e89-87539b2f1b38",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921827
   },
@@ -63065,10 +65790,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "5326757e-39ce-4d1a-9edc-e5ad31f250aa",
+=======
+    "createdAt": 1786777921827
+  },
+  {
+    "id": "bbc9d0f9-e967-4e64-9092-6b44c2578227",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921827
   },
@@ -63098,10 +65830,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "d829ccbb-922d-49b9-bbfa-847c50e7fcea",
+=======
+    "createdAt": 1786777921827
+  },
+  {
+    "id": "6b81327d-e004-46ae-9707-4da6157d3b74",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921827
   },
@@ -63131,10 +65870,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "d19ba7a1-5a43-4570-9884-7b1e7192f2f5",
+=======
+    "createdAt": 1786777921827
+  },
+  {
+    "id": "8823f78c-cd55-4f63-be53-2c741f1a46fb",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921827
   },
@@ -63164,10 +65910,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "6dfe4912-04c6-45cc-b7bb-dba0f77a724d",
+=======
+    "createdAt": 1786777921828
+  },
+  {
+    "id": "1b1a74e3-1838-4faf-b237-204319c7d04e",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921828
   },
@@ -63197,10 +65950,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "dfb51a82-1577-4d58-9a2d-52e46240887c",
+=======
+    "createdAt": 1786777921828
+  },
+  {
+    "id": "078c3416-e251-4493-9b2f-a1796bbe3ff5",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921828
   },
@@ -63230,10 +65990,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "503e5a38-7de0-4f70-bd3c-fec4641b4f5d",
+=======
+    "createdAt": 1786777921828
+  },
+  {
+    "id": "ed85f369-52d2-42cb-9432-3105ee715c6f",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921828
   },
@@ -63263,10 +66030,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "CP+DC",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "479a1903-9512-4f66-8981-745ec5483e85",
+=======
+    "createdAt": 1786777921828
+  },
+  {
+    "id": "0eab24c8-439b-44a1-94ed-c4bba05e852f",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921828
   },
@@ -63296,10 +66070,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "CP+DC",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "133f622e-7e53-4f2d-b3a0-c2e597d7ba63",
+=======
+    "createdAt": 1786777921828
+  },
+  {
+    "id": "a508ec48-3db1-45d9-bd6e-d60eadaef688",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921828
   },
@@ -63329,10 +66110,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "CP+DC",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "c6be7ce0-d5d4-48cb-842c-b74bb0395757",
+=======
+    "createdAt": 1786777921828
+  },
+  {
+    "id": "2656142d-30c7-432d-8d94-ac8bbd548c66",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921828
   },
@@ -63362,10 +66150,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "CP+DC",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "96e3a58f-cdfc-4ca2-991b-3c03cbf3c9cf",
+=======
+    "createdAt": 1786777921828
+  },
+  {
+    "id": "64e2ec0f-031d-4b8f-a2cd-3b8c4f8068be",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921828
   },
@@ -63394,11 +66189,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "CP+DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "1e97dcdc-32f9-40f9-bf54-0ae36bf2155b",
+=======
+    "jazzApprovedServices": "CP+DC",
+    "createdAt": 1786777921828
+  },
+  {
+    "id": "d66163d3-3dde-4e0d-acaa-4da04acf15e7",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "CP+DC",
     "createdAt": 1786777921828
@@ -63428,11 +66231,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "CP+DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "bf90e33e-c6ee-47c7-8b39-3eb28a88d609",
+=======
+    "jazzApprovedServices": "CP+DC",
+    "createdAt": 1786777921828
+  },
+  {
+    "id": "d1475055-b82c-43bf-a679-dc9b794fd7f4",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "CP+DC",
     "createdAt": 1786777921828
@@ -63462,11 +66273,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "CP+DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "d1a622b2-e462-42f2-89cd-7bb738d08d29",
+=======
+    "jazzApprovedServices": "CP+DC",
+    "createdAt": 1786777921828
+  },
+  {
+    "id": "4714bd56-efc6-485b-b031-f51659ab62d2",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "CP+DC",
     "createdAt": 1786777921828
@@ -63496,11 +66315,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "CP+DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "3923177a-bb20-47a6-b2ae-6f939d3db179",
+=======
+    "jazzApprovedServices": "CP+DC",
+    "createdAt": 1786777921828
+  },
+  {
+    "id": "839ea418-c800-4987-9c5c-cc99b0f5dd27",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "CP+DC",
     "createdAt": 1786777921828
@@ -63530,11 +66357,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "CP+DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "00c975fc-dfc2-412c-b17d-44c225de2177",
+=======
+    "jazzApprovedServices": "CP+DC",
+    "createdAt": 1786777921828
+  },
+  {
+    "id": "fb80aa8b-54fa-40ff-90a5-8829e297782a",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "CP+DC",
     "createdAt": 1786777921828
@@ -63564,11 +66399,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "CP+DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "5b78e23c-9614-4198-995e-079b7461040e",
+=======
+    "jazzApprovedServices": "CP+DC",
+    "createdAt": 1786777921828
+  },
+  {
+    "id": "39acd2f1-ce61-468e-9038-eab74fad9dfb",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "CP+DC",
     "createdAt": 1786777921828
@@ -63598,11 +66441,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "CP+DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "f94b6f16-ed51-4a59-826f-9ec17fcfdb80",
+=======
+    "jazzApprovedServices": "CP+DC",
+    "createdAt": 1786777921828
+  },
+  {
+    "id": "a94a4ac2-6bda-4bba-b957-fe93bcf068ac",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "CP+DC",
     "createdAt": 1786777921828
@@ -63628,6 +66479,7 @@ export const defaultSites: Site[] = [
     "solar": "No",
     "solarKwa": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "tpApprovedServices": "DC+DG",
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
@@ -63637,6 +66489,8 @@ export const defaultSites: Site[] = [
   {
     "id": "128de778-918e-41cf-a111-555a10adc6df",
 =======
+=======
+>>>>>>> Stashed changes
     "neLocation": "-",
     "tpApprovedServices": "CP+DC",
     "zongApprovedServices": "-",
@@ -63646,6 +66500,9 @@ export const defaultSites: Site[] = [
   },
   {
     "id": "8f6f3ca7-e3a2-48a9-992b-62693db53e85",
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     "name": "EC1-SKT-10110",
     "lat": 32.567525,
@@ -63669,11 +66526,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DG+DC",
     "ufoneApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "c8e17bcb-c414-4755-96ad-12570dba9743",
+=======
+    "jazzApprovedServices": "DG+DC",
+    "createdAt": 1786777921829
+  },
+  {
+    "id": "aba7dbec-931d-40ee-a17f-05ef6bd0644a",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "DG+DC",
     "createdAt": 1786777921829
@@ -63703,11 +66568,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "ffe6a8ac-960e-4b65-91dc-5e43da6351ed",
+=======
+    "jazzApprovedServices": "CP+DC",
+    "createdAt": 1786777921829
+  },
+  {
+    "id": "cce7376a-b092-4a18-b9d2-2f76d03b9a6a",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "CP+DC",
     "createdAt": 1786777921829
@@ -63738,10 +66611,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "cacc1c2d-10c8-4b5e-99cb-def80ab2f073",
+=======
+    "createdAt": 1786777921829
+  },
+  {
+    "id": "f51f64f2-2a23-4ad0-8db5-57dac7b84e4f",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921829
   },
@@ -63771,10 +66651,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "79b75b3c-bdde-4b23-80c4-cd9cdbfee9cd",
+=======
+    "createdAt": 1786777921829
+  },
+  {
+    "id": "7afd9d84-05be-49ea-a35b-da74be444031",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921829
   },
@@ -63804,10 +66691,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "1b96b0f0-8eed-4781-bf8a-6224040eeb59",
+=======
+    "createdAt": 1786777921829
+  },
+  {
+    "id": "aa41afeb-adac-4d3c-a593-2bc27e806b47",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921829
   },
@@ -63837,10 +66731,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "6b10e42b-22ce-4dbf-aa07-3dbd494662a8",
+=======
+    "createdAt": 1786777921829
+  },
+  {
+    "id": "0f5cfc33-a406-4215-9b8d-7c0fe8ba8327",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921829
   },
@@ -63870,10 +66771,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "CP+DC",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "09f9ab6f-f802-4bc9-83a9-2f0cd2c778b2",
+=======
+    "createdAt": 1786777921830
+  },
+  {
+    "id": "4fee3051-3fa8-4e9e-bd13-2ec6249a3fe0",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921830
   },
@@ -63901,6 +66809,7 @@ export const defaultSites: Site[] = [
     "tpApprovedServices": "-",
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
     "jazzApprovedServices": "DC+DG",
     "createdAt": 1786718902531,
@@ -67498,6 +70407,13 @@ export const defaultSites: Site[] = [
   {
     "id": "97010b57-3440-4442-b9f0-c006a0b7bbf4",
 >>>>>>> Stashed changes
+=======
+    "jazzApprovedServices": "CP+DC",
+    "createdAt": 1786777921830
+  },
+  {
+    "id": "97010b57-3440-4442-b9f0-c006a0b7bbf4",
+>>>>>>> Stashed changes
     "name": "EC1-HFZ-00436",
     "lat": 32.08076,
     "lng": 73.68719,
@@ -67520,11 +70436,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP Only",
     "ufoneApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "CP+DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "6937659f-5c1a-4d15-8c7e-79fc90049268",
+=======
+    "jazzApprovedServices": "CP+DC",
+    "createdAt": 1786777921830
+  },
+  {
+    "id": "ae097788-3e7b-4de2-a207-2ca83774dbcc",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "CP+DC",
     "createdAt": 1786777921830
@@ -67554,11 +70478,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP Only",
     "ufoneApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "CP+DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "b6572997-8c7d-488d-ac22-90533ce60e12",
+=======
+    "jazzApprovedServices": "-",
+    "createdAt": 1786777921830
+  },
+  {
+    "id": "e15b9010-548a-4f76-93cd-ab65145637d5",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "-",
     "createdAt": 1786777921830
@@ -67588,11 +70520,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "CP+DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "3147198a-d820-4625-bfc9-50f9a59b6b29",
+=======
+    "jazzApprovedServices": "CP+DC",
+    "createdAt": 1786777921830
+  },
+  {
+    "id": "bc60a0f6-7c89-4f9a-996f-f7a8d5a9b56d",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "CP+DC",
     "createdAt": 1786777921830
@@ -67623,10 +70563,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "d2e8dd1a-c1fa-402f-b844-bbd4ea9bef8e",
+=======
+    "createdAt": 1786777921830
+  },
+  {
+    "id": "4c746479-1a1b-44ca-8ab9-67af14e6d596",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921830
   },
@@ -67656,10 +70603,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "4720a1e6-0d74-4472-abe4-bfbbd9a6d7d5",
+=======
+    "createdAt": 1786777921830
+  },
+  {
+    "id": "aa600f88-9cf4-40a6-abdc-f64af88be4b4",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921830
   },
@@ -67689,10 +70643,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "99bda199-7874-4e90-a9da-ec057c2f953f",
+=======
+    "createdAt": 1786777921830
+  },
+  {
+    "id": "fdd493d0-0162-49db-99af-2e73495486d0",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921830
   },
@@ -67722,10 +70683,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "f9b83658-6e82-4a33-bed1-78d39bc44ea9",
+=======
+    "createdAt": 1786777921830
+  },
+  {
+    "id": "7c83c512-1721-4334-86ab-50ed17979cec",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921830
   },
@@ -67755,10 +70723,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "3eea1565-2176-4150-a922-1120790adaeb",
+=======
+    "createdAt": 1786777921830
+  },
+  {
+    "id": "e3b5e46d-4f7c-441f-8873-8f3b52869cb2",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921830
   },
@@ -67788,10 +70763,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "e9c5d0ef-3447-4752-9fcb-281e41b075eb",
+=======
+    "createdAt": 1786777921830
+  },
+  {
+    "id": "2521a12a-bf63-43c7-8c2e-34f839a5b2f7",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921830
   },
@@ -67821,10 +70803,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "c4bed9f1-7534-4a41-af88-2e581f6c2374",
+=======
+    "createdAt": 1786777921830
+  },
+  {
+    "id": "abe5cdbb-5dc1-4bf7-9da0-82fbba967d34",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921830
   },
@@ -67854,10 +70843,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "5c719305-d7ef-40c5-aa29-f6c936faf0e2",
+=======
+    "createdAt": 1786777921830
+  },
+  {
+    "id": "88e7ca3f-dd39-443e-a1ee-07e66f3c29c3",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921830
   },
@@ -67887,10 +70883,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "5a63225f-0458-442c-9adb-590814d103d9",
+=======
+    "createdAt": 1786777921830
+  },
+  {
+    "id": "8c761d7d-d008-41cd-8426-8f5ce70dafd7",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921830
   },
@@ -67920,10 +70923,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "e90a80ff-5746-4794-900c-a10ff25c8aae",
+=======
+    "createdAt": 1786777921831
+  },
+  {
+    "id": "77598f8d-e696-4a11-a882-3a8ddcd948a8",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921831
   },
@@ -67953,10 +70963,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "c87abfdd-dac8-41ca-934c-c92b88c4aa07",
+=======
+    "createdAt": 1786777921831
+  },
+  {
+    "id": "fe154ff6-981e-4b53-9f8b-72b0c4a8fc94",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921831
   },
@@ -67986,10 +71003,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "8492a5a8-174e-4847-acb1-b6ba47fa0ead",
+=======
+    "createdAt": 1786777921831
+  },
+  {
+    "id": "3d87fc68-f7eb-488f-a895-19e1c6b51e05",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921831
   },
@@ -68019,10 +71043,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "03126031-3e54-4854-b120-db00081b10ef",
+=======
+    "createdAt": 1786777921831
+  },
+  {
+    "id": "d7360030-1cda-4edb-937a-d8fab0ea1639",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921831
   },
@@ -68052,10 +71083,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "dfa36960-6aca-4c67-af61-f514d621d3b7",
+=======
+    "createdAt": 1786777921831
+  },
+  {
+    "id": "9d1284ce-36db-4b14-9064-7754b8c1575b",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921831
   },
@@ -68085,10 +71123,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "d07e5131-0f25-4c2f-9432-cf514388a860",
+=======
+    "createdAt": 1786777921831
+  },
+  {
+    "id": "729edfd7-3bc0-45f2-8925-43c0adf5ff6a",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921831
   },
@@ -68118,10 +71163,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "790e329b-f4f1-4d84-8386-6e1d56bab7e5",
+=======
+    "createdAt": 1786777921831
+  },
+  {
+    "id": "99547e8e-4f3d-4823-b788-ccdcdabfe12b",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921831
   },
@@ -68151,10 +71203,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "7744bd9f-f679-4740-8797-a5dd869fd57c",
+=======
+    "createdAt": 1786777921831
+  },
+  {
+    "id": "f55848da-ca84-44de-b378-1cc2cbc5089c",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921831
   },
@@ -68184,10 +71243,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "a932e02b-c6e8-448e-b472-7524dc17a1f6",
+=======
+    "createdAt": 1786777921831
+  },
+  {
+    "id": "166cb0f5-6c18-44a6-8ad9-7a18bd108bb5",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921831
   },
@@ -68217,10 +71283,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "25cfed63-8207-464e-9248-acc1be25a68d",
+=======
+    "createdAt": 1786777921831
+  },
+  {
+    "id": "16df34c0-ded0-47c8-979e-c5a08cf5aa5b",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921831
   },
@@ -68250,10 +71323,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "30c713eb-ef49-488d-80d8-77cd9d93ff83",
+=======
+    "createdAt": 1786777921831
+  },
+  {
+    "id": "72d74710-a26e-4c73-9110-49c073176bb9",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921831
   },
@@ -68282,11 +71362,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "CP+DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "d1620440-9efc-4aa7-8b13-b5c906f43667",
+=======
+    "jazzApprovedServices": "CP+DC",
+    "createdAt": 1786777921831
+  },
+  {
+    "id": "950ac759-aa1b-4640-90f7-103b64cd45f6",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "CP+DC",
     "createdAt": 1786777921831
@@ -68316,11 +71404,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "CP+DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "316105a7-9d43-4b84-a3e7-60ce202040e2",
+=======
+    "jazzApprovedServices": "CP+DC",
+    "createdAt": 1786777921831
+  },
+  {
+    "id": "fb6cb6e2-e656-49bf-abdd-e711fab73148",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "CP+DC",
     "createdAt": 1786777921831
@@ -68350,11 +71446,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "CP+DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "781e5ba3-a8a6-4c46-8fd8-62f273934727",
+=======
+    "jazzApprovedServices": "CP+DC",
+    "createdAt": 1786777921832
+  },
+  {
+    "id": "2f948bc5-57e1-47bb-80a0-65e64cc4405e",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "CP+DC",
     "createdAt": 1786777921832
@@ -68385,10 +71489,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "f4edc2a4-081c-45f2-a453-b8e8e9403998",
+=======
+    "createdAt": 1786777921832
+  },
+  {
+    "id": "0d685f01-df3c-4611-9952-9c9cd1f4e86c",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921832
   },
@@ -68418,10 +71529,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "a575b66a-bf5d-4532-84e4-3ad2fb728d5f",
+=======
+    "createdAt": 1786777921832
+  },
+  {
+    "id": "c58f6d0c-806e-4d61-8dc9-838bcd754120",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921832
   },
@@ -68451,10 +71569,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "2c1a08ff-e2ee-48c4-8359-82653d55d332",
+=======
+    "createdAt": 1786777921832
+  },
+  {
+    "id": "665a3b51-c28e-4207-b4cb-ed120a582ba7",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921832
   },
@@ -68484,10 +71609,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "ecdc2b1f-3a02-4ed2-b57a-cee8ef4f33d5",
+=======
+    "createdAt": 1786777921832
+  },
+  {
+    "id": "523937ac-7ce8-430a-93b4-12c98b0cf5ef",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921832
   },
@@ -68517,10 +71649,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "f98d0df3-1646-4b56-a94c-8e8b45172f8b",
+=======
+    "createdAt": 1786777921832
+  },
+  {
+    "id": "5b6923a9-7a8b-4cce-ae64-74f68526eeb8",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921832
   },
@@ -68550,10 +71689,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "d9dbce47-c744-4b03-9da9-6a69c8321fc7",
+=======
+    "createdAt": 1786777921832
+  },
+  {
+    "id": "60594ba5-c2be-4d04-b0c8-56b60483a01d",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921832
   },
@@ -68583,10 +71729,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "0855e0ba-2ac6-4978-a932-30708d8a4cb7",
+=======
+    "createdAt": 1786777921832
+  },
+  {
+    "id": "ef6aa3c7-4d7e-45bd-b28e-bad0e249bd26",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921832
   },
@@ -68615,11 +71768,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "d090428f-8dda-4b92-8595-7bb87ab31c57",
+=======
+    "jazzApprovedServices": "CP+DC",
+    "createdAt": 1786777921832
+  },
+  {
+    "id": "7daad3e8-063d-4caf-bf7e-06b688e6b005",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "CP+DC",
     "createdAt": 1786777921832
@@ -68650,10 +71811,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "ecd0287f-12a0-4023-973c-8c7496f51ad2",
+=======
+    "createdAt": 1786777921832
+  },
+  {
+    "id": "2f7893f2-dc13-43d3-9599-a94060f9726b",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921832
   },
@@ -68682,11 +71850,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "d06be708-5deb-49cd-b8b9-49723f33a5ef",
+=======
+    "jazzApprovedServices": "CP+DC",
+    "createdAt": 1786777921832
+  },
+  {
+    "id": "ef656cb8-02b6-4217-8bbc-fe38a800a9b9",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "CP+DC",
     "createdAt": 1786777921832
@@ -68717,10 +71893,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "2562fa4a-86cd-40b6-bb3a-615fd5141df4",
+=======
+    "createdAt": 1786777921832
+  },
+  {
+    "id": "e65c354f-cf5e-4bd1-bf89-dc76fd2572da",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921832
   },
@@ -68750,10 +71933,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "bce46a21-38a9-4083-8ff8-7675d01422cd",
+=======
+    "createdAt": 1786777921832
+  },
+  {
+    "id": "843300bd-0fff-465a-a0b7-25a3cda67cb3",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921832
   },
@@ -68778,6 +71968,7 @@ export const defaultSites: Site[] = [
     "solar": "No",
     "solarKwa": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "tpApprovedServices": "CP+DC",
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
@@ -68787,6 +71978,8 @@ export const defaultSites: Site[] = [
   {
     "id": "aac2e0eb-56c8-4c6f-96d4-8361637e5905",
 =======
+=======
+>>>>>>> Stashed changes
     "neLocation": "-",
     "tpApprovedServices": "CP+DC+DG",
     "zongApprovedServices": "-",
@@ -68796,6 +71989,9 @@ export const defaultSites: Site[] = [
   },
   {
     "id": "cbb02878-7757-42ad-ac3f-7fe50d1da9b2",
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     "name": "EC1-PNB-03880",
     "lat": 32.062258,
@@ -68820,10 +72016,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "abcff002-6826-4d82-9099-c2f443350a4e",
+=======
+    "createdAt": 1786777921833
+  },
+  {
+    "id": "d60ba065-4929-4ef3-abbd-e8e082cb7e7f",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921833
   },
@@ -68852,11 +72055,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "CP+DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "76735c1a-e7c3-42a2-bc45-1e38a31e35b2",
+=======
+    "jazzApprovedServices": "CP+DC",
+    "createdAt": 1786777921833
+  },
+  {
+    "id": "9bafe27c-3d8e-4e5b-8012-7c5f490933dc",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "CP+DC",
     "createdAt": 1786777921833
@@ -68886,11 +72097,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "1878b2e9-65d6-479f-987a-b096f3b2196c",
+=======
+    "jazzApprovedServices": "CP+DC",
+    "createdAt": 1786777921833
+  },
+  {
+    "id": "8a628da1-20be-4f21-821f-3b07435395f0",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "CP+DC",
     "createdAt": 1786777921833
@@ -68916,6 +72135,7 @@ export const defaultSites: Site[] = [
     "solar": "No",
     "solarKwa": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "tpApprovedServices": "DC+DG",
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
@@ -68925,6 +72145,8 @@ export const defaultSites: Site[] = [
   {
     "id": "c375d8de-4d9c-4b9f-aae9-8c77285c273c",
 =======
+=======
+>>>>>>> Stashed changes
     "neLocation": "-",
     "tpApprovedServices": "CP+DC+DG",
     "zongApprovedServices": "-",
@@ -68934,6 +72156,9 @@ export const defaultSites: Site[] = [
   },
   {
     "id": "9ea96d6d-6f37-471c-bcc4-94f2715d6459",
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     "name": "EC1-HFZ-09914",
     "lat": 32.080152,
@@ -68953,6 +72178,7 @@ export const defaultSites: Site[] = [
     "solar": "No",
     "solarKwa": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "tpApprovedServices": "DC+DG",
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
@@ -68962,6 +72188,8 @@ export const defaultSites: Site[] = [
   {
     "id": "1838a8b0-9e5e-45d7-9d29-fd24c8474cef",
 =======
+=======
+>>>>>>> Stashed changes
     "neLocation": "-",
     "tpApprovedServices": "CP+DC",
     "zongApprovedServices": "-",
@@ -68971,6 +72199,9 @@ export const defaultSites: Site[] = [
   },
   {
     "id": "3c969443-01e6-42fc-8e85-fa001aa4cb0f",
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     "name": "EC1-HFZ-10114",
     "lat": 32.03722,
@@ -68994,11 +72225,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "c85656e3-2337-4e55-8c38-2f2487748d22",
+=======
+    "jazzApprovedServices": "CP+DC",
+    "createdAt": 1786777921833
+  },
+  {
+    "id": "6a4c487a-11ed-4916-bf34-94fdeeb92695",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "CP+DC",
     "createdAt": 1786777921833
@@ -69028,6 +72267,7 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC+DG",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
@@ -72819,6 +76059,12 @@ export const defaultSites: Site[] = [
   {
     "id": "fae8ce73-292b-498f-97f7-50f96cccce61",
 >>>>>>> Stashed changes
+=======
+    "createdAt": 1786777921834
+  },
+  {
+    "id": "fae8ce73-292b-498f-97f7-50f96cccce61",
+>>>>>>> Stashed changes
     "name": "EC1-DNG-00222",
     "lat": 32.49025,
     "lng": 73.65636111,
@@ -72841,11 +76087,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP Only",
     "ufoneApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "CP+DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "7679e539-06fb-4500-be90-4beb8db3638c",
+=======
+    "jazzApprovedServices": "-",
+    "createdAt": 1786777921834
+  },
+  {
+    "id": "c4a07b1a-74a7-4a1a-8af2-235eed123764",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "-",
     "createdAt": 1786777921834
@@ -72875,11 +76129,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "CP+DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "1365cd0d-ef86-4407-9636-2a4806836a39",
+=======
+    "jazzApprovedServices": "CP+DC",
+    "createdAt": 1786777921834
+  },
+  {
+    "id": "dce13458-f41a-4dbb-85bd-696ecc80a51b",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "CP+DC",
     "createdAt": 1786777921834
@@ -72909,11 +76171,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "CP+DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "072f2640-6343-4409-a158-380bd5a76155",
+=======
+    "jazzApprovedServices": "-",
+    "createdAt": 1786777921834
+  },
+  {
+    "id": "1698308e-018b-4e0c-8770-82a20edb62e6",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "-",
     "createdAt": 1786777921834
@@ -72944,10 +76214,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "e96e6c8c-52a6-4463-b7fd-e09de50837d3",
+=======
+    "createdAt": 1786777921834
+  },
+  {
+    "id": "d82af536-2fad-42e0-bb87-ce5fc5047a66",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921834
   },
@@ -72977,10 +76254,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "73d8e831-44e7-45fc-b5e2-b067e11ec2e1",
+=======
+    "createdAt": 1786777921835
+  },
+  {
+    "id": "a44f14f0-d9dd-45b8-aa50-083fda50e792",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921835
   },
@@ -73010,10 +76294,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "3be4957d-7f95-48c7-b71f-37dddaa2f0d7",
+=======
+    "createdAt": 1786777921835
+  },
+  {
+    "id": "d0525a81-a5f3-4644-ad05-3fa50b53a1df",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921835
   },
@@ -73043,10 +76334,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "ac601aa5-6ba8-466f-b8ae-a42370e05887",
+=======
+    "createdAt": 1786777921835
+  },
+  {
+    "id": "ab7762c9-3c0f-49c7-ba62-542e96bbb9c6",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921835
   },
@@ -73076,10 +76374,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "ef4f3984-21bd-42d9-ab27-c82b3925e6c4",
+=======
+    "createdAt": 1786777921835
+  },
+  {
+    "id": "12ae5cc2-12b4-4a4a-bf68-dd2f4d499112",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921835
   },
@@ -73109,10 +76414,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "807ab0dc-7f49-4a84-afd1-258f14cdf556",
+=======
+    "createdAt": 1786777921835
+  },
+  {
+    "id": "68ee0375-6908-45d4-b98d-0976566f486b",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921835
   },
@@ -73142,10 +76454,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "a1125f35-76c7-42a9-adb6-17ffc41c86b9",
+=======
+    "createdAt": 1786777921836
+  },
+  {
+    "id": "1e94230a-28a3-48dc-9e36-f181ee3ad3a0",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921836
   },
@@ -73175,10 +76494,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "4e1d6339-ab66-476a-b6e3-2dc979259cc2",
+=======
+    "createdAt": 1786777921836
+  },
+  {
+    "id": "0e664a5d-facf-4633-b27e-73ed932b3a27",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921836
   },
@@ -73208,10 +76534,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "cab24f76-5327-48d4-8316-6a665e89172f",
+=======
+    "createdAt": 1786777921836
+  },
+  {
+    "id": "548ca93c-5c9d-4e46-817c-c96921ff0b61",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921836
   },
@@ -73241,10 +76574,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "75b93bce-bc74-4312-b61b-fd752c58acb3",
+=======
+    "createdAt": 1786777921836
+  },
+  {
+    "id": "f44e6023-1a45-4f0e-a1c2-a2640f7f4c5e",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921836
   },
@@ -73274,10 +76614,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "7ccf385c-cef3-44ed-84dd-19f8cbe7d049",
+=======
+    "createdAt": 1786777921836
+  },
+  {
+    "id": "6cbc54fe-fe0a-42b1-b9ef-d1aca07562b3",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921836
   },
@@ -73307,10 +76654,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "fc8c7e5a-46ea-412a-a139-25bd33e89911",
+=======
+    "createdAt": 1786777921836
+  },
+  {
+    "id": "2d7403f0-708f-4fda-8031-f2be5bb74728",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921836
   },
@@ -73340,10 +76694,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "bcce64eb-1e4b-46ed-b87b-a7f4cd0e4064",
+=======
+    "createdAt": 1786777921836
+  },
+  {
+    "id": "a339327e-5678-41e5-8197-66fef18272f3",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921836
   },
@@ -73373,10 +76734,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "8c6881fa-3458-4f23-b8de-ef8a0c151e76",
+=======
+    "createdAt": 1786777921837
+  },
+  {
+    "id": "6c2825b5-fcda-4f3d-82f7-8c4cf73b490a",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921837
   },
@@ -73406,10 +76774,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "5822e850-a82f-4be7-a452-d51df1b6a1b4",
+=======
+    "createdAt": 1786777921837
+  },
+  {
+    "id": "5a171bf7-54bf-4825-828b-fd8d1ea5d026",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921837
   },
@@ -73439,10 +76814,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "a975f6aa-77b2-42ab-986f-3a93f50a4940",
+=======
+    "createdAt": 1786777921837
+  },
+  {
+    "id": "37a71725-f995-4c64-a9ce-de560e029b74",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921837
   },
@@ -73472,10 +76854,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "5fb69466-bb10-4162-872f-fac68133e089",
+=======
+    "createdAt": 1786777921837
+  },
+  {
+    "id": "fc719815-1bd4-4832-9a36-bf11ea60482c",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921837
   },
@@ -73505,10 +76894,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "ef6c6b5f-c976-41db-a311-eef7ff9ab67c",
+=======
+    "createdAt": 1786777921837
+  },
+  {
+    "id": "7783fe12-5ec7-4ade-bda4-d0a76d54f2db",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921837
   },
@@ -73538,10 +76934,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "25111963-61b9-4d4c-849c-d85f8bc0bad6",
+=======
+    "createdAt": 1786777921837
+  },
+  {
+    "id": "48a294ae-637d-4fab-ac0d-6c8719f4b165",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921837
   },
@@ -73571,10 +76974,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "cda9fb61-4195-456d-9f2d-b3febb01e711",
+=======
+    "createdAt": 1786777921837
+  },
+  {
+    "id": "5156b5e5-5ac7-441b-bed1-1d1634572967",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921837
   },
@@ -73604,10 +77014,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "3af0d3ac-2cff-4afc-ae90-e8749de9e1ff",
+=======
+    "createdAt": 1786777921837
+  },
+  {
+    "id": "94e107f4-6ba6-4e58-b408-224e57725ec0",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921837
   },
@@ -73637,10 +77054,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "4ff6f620-928b-434d-8fee-6951ce8e317e",
+=======
+    "createdAt": 1786777921837
+  },
+  {
+    "id": "af94ceab-35a9-417b-bdd9-b555036b69d7",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921837
   },
@@ -73670,10 +77094,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "5f88b8ed-791a-409e-8c73-63b4c6299b0b",
+=======
+    "createdAt": 1786777921838
+  },
+  {
+    "id": "aae3fec2-af88-4822-bc69-69c83b2de9a0",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921838
   },
@@ -73703,10 +77134,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "b1dd4cb4-e22a-49e4-a108-2995e19805f7",
+=======
+    "createdAt": 1786777921838
+  },
+  {
+    "id": "bc34bbf7-fc9f-461d-a059-071233bf5309",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921838
   },
@@ -73736,10 +77174,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "0212affc-4498-4594-983b-0bff7e7222af",
+=======
+    "createdAt": 1786777921838
+  },
+  {
+    "id": "1d3b2f18-8e57-4925-b8a3-ccace4bd9976",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921838
   },
@@ -73769,10 +77214,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "3c705bfd-dfb2-4946-a61e-29adb0582b1e",
+=======
+    "createdAt": 1786777921838
+  },
+  {
+    "id": "029c3af5-4b0e-4802-9192-89a4de0654f1",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921838
   },
@@ -73802,10 +77254,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "8fe3a760-b666-44ac-bd82-a24809a54996",
+=======
+    "createdAt": 1786777921838
+  },
+  {
+    "id": "0fef6a39-e639-4081-8f06-741df6a58a95",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921838
   },
@@ -73835,10 +77294,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "1cce9599-7c3b-4b94-b036-6acc7d0b4b93",
+=======
+    "createdAt": 1786777921838
+  },
+  {
+    "id": "9156445b-50f3-4e3d-a474-a95e51117889",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921838
   },
@@ -73868,10 +77334,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "9e9e76bb-8b41-4971-b115-00e1ad77c143",
+=======
+    "createdAt": 1786777921838
+  },
+  {
+    "id": "37a9bba7-9a84-4f8e-b3ec-6f7282d6db34",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921838
   },
@@ -73901,10 +77374,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "b074324c-dd7d-45f0-a2b3-0d774b5f40d4",
+=======
+    "createdAt": 1786777921838
+  },
+  {
+    "id": "2e87d62f-3460-4e96-8d15-e7856e0a9bfc",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921838
   },
@@ -73934,10 +77414,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "f275e705-2959-4cc9-b56b-3d9ca60dcc01",
+=======
+    "createdAt": 1786777921838
+  },
+  {
+    "id": "e346b931-77e2-4c55-b3d4-f5aa47603c6c",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921838
   },
@@ -73967,10 +77454,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "93d395bb-efbe-47eb-a093-6e0983505663",
+=======
+    "createdAt": 1786777921838
+  },
+  {
+    "id": "60f5916b-5b02-4b44-9e93-f6b61e967a02",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921838
   },
@@ -74000,10 +77494,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "b49201e3-a212-4d9b-922c-1e7e8bf9a3bc",
+=======
+    "createdAt": 1786777921838
+  },
+  {
+    "id": "4b9208f4-7928-42d4-b715-c7e0cafd970a",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921838
   },
@@ -74033,10 +77534,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "4b9539ce-ccde-4db8-8741-3e64f87cba18",
+=======
+    "createdAt": 1786777921838
+  },
+  {
+    "id": "327dc566-b441-4a53-904d-2210f4e37d33",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921838
   },
@@ -74066,10 +77574,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "d0744dd5-6970-4db8-8ee6-647d040f62d5",
+=======
+    "createdAt": 1786777921838
+  },
+  {
+    "id": "7f7d5a21-6de3-41ae-ba49-69d6ebd1d0bc",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921838
   },
@@ -74099,10 +77614,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "58985231-e0b6-4cd6-bfb9-7215e1e983b8",
+=======
+    "createdAt": 1786777921839
+  },
+  {
+    "id": "e624f5e6-25de-4cac-8831-789899559c13",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921839
   },
@@ -74132,10 +77654,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "1363e75e-62fe-4902-903b-a03759c3b8ee",
+=======
+    "createdAt": 1786777921839
+  },
+  {
+    "id": "139d1aac-b9bd-4304-bb5d-50d9cede5923",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921839
   },
@@ -74165,10 +77694,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "CP+DC",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "8df16d6e-1d13-47e5-be54-6f3e0657bf40",
+=======
+    "createdAt": 1786777921839
+  },
+  {
+    "id": "3fe603df-1613-4889-a197-2908beb6fe97",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921839
   },
@@ -74198,10 +77734,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "CP+DC",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "81ab3db3-245a-44b7-a00c-7970bba003e6",
+=======
+    "createdAt": 1786777921839
+  },
+  {
+    "id": "bc0a940e-97d0-4e05-93a1-2b6a8e334a18",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921839
   },
@@ -74231,10 +77774,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "CP+DC",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "9bfd424e-31dc-4b10-8f8d-1d5202981be1",
+=======
+    "createdAt": 1786777921839
+  },
+  {
+    "id": "50e91497-aa4c-4868-990d-015645a59ed5",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921839
   },
@@ -74264,10 +77814,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "CP+DC",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "0a1308d9-c3b4-4ee0-a032-f81d1219fe29",
+=======
+    "createdAt": 1786777921839
+  },
+  {
+    "id": "fd17ec46-ba7d-409c-b9eb-f848b305be73",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921839
   },
@@ -74297,10 +77854,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "CP Only",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "7d73634b-e5b6-45d1-8987-187f8842a56e",
+=======
+    "createdAt": 1786777921839
+  },
+  {
+    "id": "7674ee6d-f746-499a-813e-2a96b744cf69",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921839
   },
@@ -74330,10 +77894,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "CP+DC",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "cfc43df4-3e12-4d29-850b-1fea2be8768f",
+=======
+    "createdAt": 1786777921839
+  },
+  {
+    "id": "a5a76f99-242d-42f9-8c29-732d04d751ac",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921839
   },
@@ -74363,10 +77934,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "CP+DC",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "68cee3a9-ef3e-4355-86fa-8deaab2e79e2",
+=======
+    "createdAt": 1786777921839
+  },
+  {
+    "id": "fe94d037-e8bb-4790-8794-6930a3035e07",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921839
   },
@@ -74396,10 +77974,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "CP+DC",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "c48c322f-ee0c-4cc6-a0dd-98ecc92a44f2",
+=======
+    "createdAt": 1786777921839
+  },
+  {
+    "id": "b1c007c5-10c0-4d58-a0a4-bbf0b37cf41e",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921839
   },
@@ -74428,11 +78013,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "CP+DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "a50575f5-2b32-4808-b359-076c454e435a",
+=======
+    "jazzApprovedServices": "-",
+    "createdAt": 1786777921839
+  },
+  {
+    "id": "cb41ad43-3fac-4681-a98c-d6eb246b5d04",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "-",
     "createdAt": 1786777921839
@@ -74463,10 +78056,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "9e81ca0e-36d7-4c3f-8c3b-e56f81e60757",
+=======
+    "createdAt": 1786777921839
+  },
+  {
+    "id": "0b4ff552-d55b-41e0-9ca4-932652878f81",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921839
   },
@@ -74496,10 +78096,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "5a759a61-8bcc-4ce6-9179-5c9313d6f28a",
+=======
+    "createdAt": 1786777921840
+  },
+  {
+    "id": "816c8091-625a-47c8-9c6a-5dc64b510882",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921840
   },
@@ -74529,10 +78136,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "3aac3a11-f7d7-41e9-ad92-f5110e2e4f65",
+=======
+    "createdAt": 1786777921840
+  },
+  {
+    "id": "ef05cd51-37da-4090-85d6-804dce129bde",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921840
   },
@@ -74562,10 +78176,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "f463f3e1-7581-4924-9e5b-cb189173db13",
+=======
+    "createdAt": 1786777921840
+  },
+  {
+    "id": "71554e5c-3aca-4570-ab7b-2e7155bd2981",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921840
   },
@@ -74594,11 +78215,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "CP+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "8e50e0f2-1a8e-436a-9ee7-62f1d32ed53f",
+=======
+    "jazzApprovedServices": "CP+DC",
+    "createdAt": 1786777921840
+  },
+  {
+    "id": "833bbcc1-23f0-4830-89d3-6163b0b95b2a",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "CP+DC",
     "createdAt": 1786777921840
@@ -74629,10 +78258,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "647db6ca-6ad4-4f2c-acdb-57d0bde882b3",
+=======
+    "createdAt": 1786777921840
+  },
+  {
+    "id": "d2dfbe6f-5171-46ee-a24b-b7064ea67c04",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921840
   },
@@ -74661,11 +78297,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "CP+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "c68b05e1-da1e-410d-b031-ce4812062943",
+=======
+    "jazzApprovedServices": "CP+DC",
+    "createdAt": 1786777921840
+  },
+  {
+    "id": "dac72466-7847-4957-9f9d-8899c97ac84d",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "CP+DC",
     "createdAt": 1786777921840
@@ -74691,6 +78335,7 @@ export const defaultSites: Site[] = [
     "solar": "No",
     "solarKwa": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "tpApprovedServices": "CP+DC+DG",
     "zongApprovedServices": "CP+DG",
     "ufoneApprovedServices": "-",
@@ -74700,6 +78345,8 @@ export const defaultSites: Site[] = [
   {
     "id": "68946f7d-d5a6-433a-8cbc-8e6f7841ea53",
 =======
+=======
+>>>>>>> Stashed changes
     "neLocation": "-",
     "tpApprovedServices": "CP+DC",
     "zongApprovedServices": "CP+DC",
@@ -74709,6 +78356,9 @@ export const defaultSites: Site[] = [
   },
   {
     "id": "e4330e9a-2f1f-4ca5-baae-288f7a9d2d5b",
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     "name": "EC1-MBD-08611",
     "lat": 32.39101,
@@ -74733,10 +78383,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "736ad13d-0fdc-4009-9d8b-85d13827aaaf",
+=======
+    "createdAt": 1786777921841
+  },
+  {
+    "id": "5b8e5b57-39b3-4708-a4d3-a38eadee15dd",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921841
   },
@@ -74766,10 +78423,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "db26145c-f5a7-4a9e-a7a2-a66756265a6b",
+=======
+    "createdAt": 1786777921841
+  },
+  {
+    "id": "d5be8803-1927-4e82-a0dd-5c3fc93e918e",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921841
   },
@@ -74799,10 +78463,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "ba558f81-7886-4d49-8e5e-758d4ad2349c",
+=======
+    "createdAt": 1786777921841
+  },
+  {
+    "id": "1f1fb2f4-c9f8-4bec-97fa-5ed07c2f90f1",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921841
   },
@@ -74832,10 +78503,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "61b466cd-44ab-4a34-8fe3-0211c84c1bd3",
+=======
+    "createdAt": 1786777921841
+  },
+  {
+    "id": "df7de7b7-2fef-4021-ac66-4be4e3a788f6",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921841
   },
@@ -74865,10 +78543,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "5e85f2ef-f2d4-49e8-857c-c6c61eee8bca",
+=======
+    "createdAt": 1786777921841
+  },
+  {
+    "id": "18c8e9db-d6a3-49ab-a5c6-6c37892ca468",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921841
   },
@@ -74898,10 +78583,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "22a56d66-5be1-4b1a-af3b-428d9aef982c",
+=======
+    "createdAt": 1786777921841
+  },
+  {
+    "id": "8a0c8885-6769-47a9-b1c7-be1c6558f532",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921841
   },
@@ -74931,10 +78623,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "04a0ea6d-a84c-4909-8931-423261259f81",
+=======
+    "createdAt": 1786777921842
+  },
+  {
+    "id": "92da87a3-29b8-45e0-ae22-2d7faa4d4cef",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921842
   },
@@ -74964,10 +78663,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "6bb14bee-bbbc-4db0-8909-b960b84f0818",
+=======
+    "createdAt": 1786777921842
+  },
+  {
+    "id": "5e95623b-006d-4c51-971a-9174d49694ec",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921842
   },
@@ -74997,10 +78703,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "c3e2effa-8a42-4758-8f0a-c695cd70681d",
+=======
+    "createdAt": 1786777921842
+  },
+  {
+    "id": "61115677-ec7f-4cd8-95c7-f6981364fba1",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921842
   },
@@ -75030,10 +78743,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "ab794a52-3391-4c98-856a-8dcbca6bb0fe",
+=======
+    "createdAt": 1786777921842
+  },
+  {
+    "id": "4dd5def6-e122-46c6-b15e-f6467c37dc74",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921842
   },
@@ -75063,10 +78783,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "57b540d8-05f0-4c13-a49a-e27e743bc4a5",
+=======
+    "createdAt": 1786777921842
+  },
+  {
+    "id": "dee9b60e-5dc2-4ded-a8a6-666363af2167",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921842
   },
@@ -75096,10 +78823,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "a064b44e-574a-44bd-8c65-6b8f22d1a49f",
+=======
+    "createdAt": 1786777921843
+  },
+  {
+    "id": "746d90f3-027f-4c42-bb0b-0e72239c2d81",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921843
   },
@@ -75129,10 +78863,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "0625b628-b52b-4651-8492-356648e4adc6",
+=======
+    "createdAt": 1786777921843
+  },
+  {
+    "id": "b6f2ce26-6d25-404e-9c1b-cb51e389a760",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921843
   },
@@ -75162,10 +78903,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "f09e81df-48e9-44fb-8b05-0f6bdea7e1d0",
+=======
+    "createdAt": 1786777921843
+  },
+  {
+    "id": "2767f40a-f42f-4a17-9d33-a0b9d0916062",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921843
   },
@@ -75195,10 +78943,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "db634cbe-b3e5-412d-832e-536d299a2a9c",
+=======
+    "createdAt": 1786777921843
+  },
+  {
+    "id": "a7d66b21-6f06-4d95-a28b-4dc1155679f9",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921843
   },
@@ -75228,10 +78983,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "daab95e9-8750-4067-bc0e-f31c1ab2fb72",
+=======
+    "createdAt": 1786777921843
+  },
+  {
+    "id": "6f0c374c-d0be-47bc-98ac-76627373a53d",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921843
   },
@@ -75256,6 +79018,7 @@ export const defaultSites: Site[] = [
     "solar": "No",
     "solarKwa": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "tpApprovedServices": "DC+DG",
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
@@ -75265,6 +79028,8 @@ export const defaultSites: Site[] = [
   {
     "id": "4e59caad-cfb5-45ad-ae12-93034ac67301",
 =======
+=======
+>>>>>>> Stashed changes
     "neLocation": "-",
     "tpApprovedServices": "CP+DC",
     "zongApprovedServices": "-",
@@ -75274,6 +79039,9 @@ export const defaultSites: Site[] = [
   },
   {
     "id": "8603bbd9-8f23-4098-a5a7-bd65a9a1aa3a",
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     "name": "EC1-MLW-03402",
     "lat": 32.403001,
@@ -75298,10 +79066,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "f240d08c-b249-492f-b594-614aebe8b76f",
+=======
+    "createdAt": 1786777921843
+  },
+  {
+    "id": "514f4142-385c-482f-81ed-4c6aba10e9c7",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921843
   },
@@ -75331,10 +79106,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "75b37fcd-cfc7-490d-a151-875940e1369d",
+=======
+    "createdAt": 1786777921844
+  },
+  {
+    "id": "18a00762-56c8-4027-84de-b342d7d9a6ed",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921844
   },
@@ -75364,10 +79146,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "7cd9eb72-b6b3-4eb3-85ac-ae2315c7783e",
+=======
+    "createdAt": 1786777921844
+  },
+  {
+    "id": "d5c03403-dc16-4129-b2cf-13be99fbf0bc",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921844
   },
@@ -75397,10 +79186,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "321a2942-d47f-493d-8d0b-6d3cb9fecaee",
+=======
+    "createdAt": 1786777921844
+  },
+  {
+    "id": "46f0243d-335f-4c3d-9960-d7d7c49cb055",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921844
   },
@@ -75430,10 +79226,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "ceaecc57-8dac-4726-a28a-1a610eb06649",
+=======
+    "createdAt": 1786777921844
+  },
+  {
+    "id": "4569f33b-d4cd-4fca-8ca5-5bb622d344bd",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921844
   },
@@ -75462,11 +79265,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC+DG",
     "ufoneApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "CP+DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "0d56238c-d7d5-4c09-99a1-697e653f8b9c",
+=======
+    "jazzApprovedServices": "-",
+    "createdAt": 1786777921844
+  },
+  {
+    "id": "e98712a9-b277-40f1-abca-949a1bdbac62",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "-",
     "createdAt": 1786777921844
@@ -75492,6 +79303,7 @@ export const defaultSites: Site[] = [
     "solar": "No",
     "solarKwa": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "tpApprovedServices": "DC+DG",
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
@@ -75501,6 +79313,8 @@ export const defaultSites: Site[] = [
   {
     "id": "5037d11a-f217-414e-8007-ebe2e901e389",
 =======
+=======
+>>>>>>> Stashed changes
     "neLocation": "-",
     "tpApprovedServices": "CP+DC",
     "zongApprovedServices": "-",
@@ -75510,6 +79324,9 @@ export const defaultSites: Site[] = [
   },
   {
     "id": "38804e63-3721-4b72-bd23-a750ae7957d3",
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     "name": "EC1-MBD-09899",
     "lat": 32.456617,
@@ -75529,6 +79346,7 @@ export const defaultSites: Site[] = [
     "solar": "No",
     "solarKwa": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "tpApprovedServices": "DC+DG",
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
@@ -75538,6 +79356,8 @@ export const defaultSites: Site[] = [
   {
     "id": "dd747f63-a04e-4301-bd5b-232c456b8ed6",
 =======
+=======
+>>>>>>> Stashed changes
     "neLocation": "-",
     "tpApprovedServices": "CP+DC",
     "zongApprovedServices": "-",
@@ -75547,6 +79367,9 @@ export const defaultSites: Site[] = [
   },
   {
     "id": "b743eb4b-0984-4755-999c-c0e3d74321ab",
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     "name": "EC1-PHL-09891",
     "lat": 32.452064,
@@ -75566,6 +79389,7 @@ export const defaultSites: Site[] = [
     "solar": "No",
     "solarKwa": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "tpApprovedServices": "DC+DG",
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
@@ -75575,6 +79399,8 @@ export const defaultSites: Site[] = [
   {
     "id": "b64a88d4-8494-4f89-aff9-029783824e7f",
 =======
+=======
+>>>>>>> Stashed changes
     "neLocation": "-",
     "tpApprovedServices": "CP+DC",
     "zongApprovedServices": "-",
@@ -75584,6 +79410,9 @@ export const defaultSites: Site[] = [
   },
   {
     "id": "a3c4c41d-9a61-488f-8573-79157e571a33",
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     "name": "EUN-JLM-04467",
     "lat": 32.683562,
@@ -75607,11 +79436,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "CP+DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "de67b5a5-417a-4cdc-a288-27b71c382328",
+=======
+    "jazzApprovedServices": "CP+DC",
+    "createdAt": 1786777921845
+  },
+  {
+    "id": "1b4b9565-11d9-4c3a-8196-67526ceb1cae",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "CP+DC",
     "createdAt": 1786777921845
@@ -75642,10 +79479,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "8a23d3ae-6e3b-4738-bc6a-a2c95d3c887b",
+=======
+    "createdAt": 1786777921845
+  },
+  {
+    "id": "06791e26-9e11-46c7-a815-295a57febd3f",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921845
   },
@@ -75675,10 +79519,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "7b407ecf-1cea-47ec-8c31-d1ae070b75cf",
+=======
+    "createdAt": 1786777921845
+  },
+  {
+    "id": "76a41103-662e-43bc-8808-8657626a1471",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921845
   },
@@ -75707,11 +79558,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP Only",
     "ufoneApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "CP+DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "f67275b7-d8ca-49b5-8045-612699406d1a",
+=======
+    "jazzApprovedServices": "-",
+    "createdAt": 1786777921845
+  },
+  {
+    "id": "843b7922-8e45-4774-8b5b-b98b47089151",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "-",
     "createdAt": 1786777921845
@@ -75742,10 +79601,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC+DG",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "e73b9763-e9b5-41fd-8dfc-c08de6b3b646",
+=======
+    "createdAt": 1786777921845
+  },
+  {
+    "id": "cb149764-e663-47ba-9532-6c66307097c0",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921845
   },
@@ -75775,10 +79641,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC+DG",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "66b9712a-8439-42d4-bd98-b3d20cbc62a0",
+=======
+    "createdAt": 1786777921845
+  },
+  {
+    "id": "24730c07-6aa9-4775-84cd-01904cde69bd",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921845
   },
@@ -75808,10 +79681,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC+DG",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "2a9c59dd-2809-43bd-9c2e-80a702136e50",
+=======
+    "createdAt": 1786777921846
+  },
+  {
+    "id": "1938ed7e-cbd9-4b7b-9952-d6d949b5e6cb",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921846
   },
@@ -75840,11 +79720,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "CP+DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "dd6e4976-2341-4ce0-b720-8f2e65077972",
+=======
+    "jazzApprovedServices": "-",
+    "createdAt": 1786777921846
+  },
+  {
+    "id": "0d134717-dc39-4bcf-addf-592875147ea4",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "-",
     "createdAt": 1786777921846
@@ -75875,10 +79763,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "CP+DC",
     "jazzApprovedServices": "CP+DC+DG",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "371dd854-cbd5-4207-af1e-0c26c90dfbf0",
+=======
+    "createdAt": 1786777921846
+  },
+  {
+    "id": "9c384670-da90-4db4-b0c5-bc87c8b0fe36",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921846
   },
@@ -75907,11 +79802,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "CP+DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "ea8c52ce-d953-4b0c-ad9f-6203c12424f2",
+=======
+    "jazzApprovedServices": "-",
+    "createdAt": 1786777921846
+  },
+  {
+    "id": "bc12c23a-f402-433f-9b5b-88bdfaefc559",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "-",
     "createdAt": 1786777921846
@@ -75942,10 +79845,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "CP+DC",
     "jazzApprovedServices": "CP+DC+DG",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "bab97189-759c-4d03-bcb8-5aad0443aeb4",
+=======
+    "createdAt": 1786777921846
+  },
+  {
+    "id": "026b3216-16da-416d-bc39-8e22046527ff",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921846
   },
@@ -75975,10 +79885,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC+DG",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "aaead054-c95d-4335-8e0d-5090dcc7fd15",
+=======
+    "createdAt": 1786777921846
+  },
+  {
+    "id": "0733c9f3-6b7a-4d29-a404-258896c857ec",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921846
   },
@@ -76007,11 +79924,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "CP+DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "77c193cf-a457-4485-8088-ab6a0e76ca59",
+=======
+    "jazzApprovedServices": "-",
+    "createdAt": 1786777921846
+  },
+  {
+    "id": "b76a38ba-33bf-4555-b95e-4916ed2c5924",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "-",
     "createdAt": 1786777921846
@@ -76042,10 +79967,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "5026b28d-bc32-49d0-b24f-3489a45d41fa",
+=======
+    "createdAt": 1786777921847
+  },
+  {
+    "id": "bb7439e4-410b-4e41-8338-8cc889065297",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921847
   },
@@ -76075,10 +80007,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "8fb7278f-1f0a-47e3-bbb8-e3b884ab7513",
+=======
+    "createdAt": 1786777921847
+  },
+  {
+    "id": "d18b42d9-f1b6-42a4-81b3-8629ac81372f",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921847
   },
@@ -76108,10 +80047,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "CP+DC",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "15f88767-fd7d-45c1-9714-6b3e581d8d4d",
+=======
+    "createdAt": 1786777921847
+  },
+  {
+    "id": "a4caf4e4-7bf1-45c3-9a7a-9a6f2fc9208a",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921847
   },
@@ -76141,10 +80087,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "943b86c5-b2ea-4901-8a58-5c00fb3bf35c",
+=======
+    "createdAt": 1786777921847
+  },
+  {
+    "id": "761f52b1-3ee5-4757-84dc-5c05bd9094cb",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921847
   },
@@ -76174,10 +80127,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "0d3d6564-be34-4198-9077-35baa478a1fc",
+=======
+    "createdAt": 1786777921847
+  },
+  {
+    "id": "eaf64f02-660b-4615-8880-ba40f9acaeb3",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921847
   },
@@ -76207,10 +80167,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "CP+DC",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "617e39c2-3d00-4c33-b491-fdbb9d87a912",
+=======
+    "createdAt": 1786777921848
+  },
+  {
+    "id": "8813c811-4c32-4233-a80d-d016591d6c61",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921848
   },
@@ -76240,10 +80207,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "13e1eda0-c2f8-4fe7-a267-6d1a7cba9e2b",
+=======
+    "createdAt": 1786777921848
+  },
+  {
+    "id": "cd861dc9-f718-4695-a095-e21d45928e5e",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921848
   },
@@ -76273,10 +80247,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "20d1beab-b862-45ea-af41-4a14ac23e47e",
+=======
+    "createdAt": 1786777921848
+  },
+  {
+    "id": "17b4cbca-990b-4817-aa66-c37a50c0ea10",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921848
   },
@@ -76306,10 +80287,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC+DG",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "ed57ffaa-2164-4b32-baab-c9cd0a6565cf",
+=======
+    "createdAt": 1786777921848
+  },
+  {
+    "id": "118ffdfe-fb5c-47df-b031-16cf3362b876",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921848
   },
@@ -76339,10 +80327,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "CP+DC",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "14525357-4d26-48d9-8bc7-cab37ef44dec",
+=======
+    "createdAt": 1786777921848
+  },
+  {
+    "id": "6ae82be9-3c30-4bd1-9c35-8e96c51c543e",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921848
   },
@@ -76372,10 +80367,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "211dab7b-155f-425d-af98-1e3752d76941",
+=======
+    "createdAt": 1786777921849
+  },
+  {
+    "id": "a5a5769c-eba9-41ec-bd22-ef0729ba5c26",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921849
   },
@@ -76405,10 +80407,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "047180d5-5a00-4586-b10d-233e073000ab",
+=======
+    "createdAt": 1786777921849
+  },
+  {
+    "id": "87554a0b-f157-4c14-851c-86db0864cbbd",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921849
   },
@@ -76438,10 +80447,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "d208d49d-cad9-4b6c-a7e8-5bf6932796d0",
+=======
+    "createdAt": 1786777921849
+  },
+  {
+    "id": "566fc169-bc81-439a-b8e0-88e977eddceb",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921849
   },
@@ -76471,10 +80487,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "da5047d3-48ad-4cb7-bb52-9b6265ebf0b6",
+=======
+    "createdAt": 1786777921849
+  },
+  {
+    "id": "734b5dcb-5069-4158-8aae-832b9811e0f7",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921849
   },
@@ -76504,10 +80527,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "acf69a6d-12ad-4bad-9d70-eb0541760435",
+=======
+    "createdAt": 1786777921849
+  },
+  {
+    "id": "8cdd147f-395f-4cec-9a49-4bfd7a22fca1",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921849
   },
@@ -76537,10 +80567,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "b51ed541-e814-44d9-9bd8-95c22674fc31",
+=======
+    "createdAt": 1786777921849
+  },
+  {
+    "id": "e2be98c8-86f4-4009-9bc2-a7d3d04cc2b7",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921849
   },
@@ -76570,10 +80607,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "d2896840-e63e-410c-ab35-607d9b99a953",
+=======
+    "createdAt": 1786777921849
+  },
+  {
+    "id": "c02de334-e924-42c0-b5c4-b90f6363335c",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921849
   },
@@ -76603,10 +80647,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "f9f7499c-2adb-4565-b6aa-93393eaa2d66",
+=======
+    "createdAt": 1786777921850
+  },
+  {
+    "id": "cb136227-2dc1-447b-b718-e3d12087430c",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921850
   },
@@ -76636,10 +80687,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "883e39c8-b8a7-4739-9e64-0a4bc2acfaba",
+=======
+    "createdAt": 1786777921850
+  },
+  {
+    "id": "78dac678-0471-461a-9749-a1a3a2e9468b",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921850
   },
@@ -76669,10 +80727,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "eb540d15-5ae2-4078-8890-610a3e594827",
+=======
+    "createdAt": 1786777921850
+  },
+  {
+    "id": "ba979f4d-a013-4557-9f80-89964024c55a",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921850
   },
@@ -76702,10 +80767,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "8d49224e-ef2b-449e-8f7f-9305d57bd7bb",
+=======
+    "createdAt": 1786777921850
+  },
+  {
+    "id": "19946d20-2af0-4dbb-8636-c8ca11cb7a59",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921850
   },
@@ -76735,10 +80807,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "f856da92-533f-4ff4-afdd-169174e42691",
+=======
+    "createdAt": 1786777921850
+  },
+  {
+    "id": "b33c4720-93ac-43be-a7c4-7f22874d6d4a",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921850
   },
@@ -76768,10 +80847,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "f69659ec-2634-4f1a-b119-bda9ae7e27a8",
+=======
+    "createdAt": 1786777921850
+  },
+  {
+    "id": "59be1146-81a8-48a7-874b-95860a13646b",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921850
   },
@@ -76801,10 +80887,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "a42e4808-1ea4-4a12-a1a4-154a3be70cfc",
+=======
+    "createdAt": 1786777921851
+  },
+  {
+    "id": "b80586b4-b259-4a1d-b60c-6a2117bf3c04",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921851
   },
@@ -76834,10 +80927,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "88e1463d-9976-406d-a4b7-305650873171",
+=======
+    "createdAt": 1786777921851
+  },
+  {
+    "id": "9c298d3c-febc-460e-a12c-70f40196e84d",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921851
   },
@@ -76867,10 +80967,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "fe993a6d-d86d-4827-891a-53ce234be871",
+=======
+    "createdAt": 1786777921851
+  },
+  {
+    "id": "3779a63c-8654-453b-847d-ed3ab94815ee",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921851
   },
@@ -76900,10 +81007,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "e9030355-0abc-4235-8669-c89dcfdbabc8",
+=======
+    "createdAt": 1786777921851
+  },
+  {
+    "id": "a7acddfc-b94d-4919-8a9c-383ac60a5058",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921851
   },
@@ -76933,10 +81047,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "870074ff-d121-409b-8f93-a03b2afca905",
+=======
+    "createdAt": 1786777921851
+  },
+  {
+    "id": "07b45c7a-5977-4f0d-8b00-3442c760e6b4",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921851
   },
@@ -76966,10 +81087,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "3c1f7407-f93f-4a78-a26e-6aef45728a3e",
+=======
+    "createdAt": 1786777921852
+  },
+  {
+    "id": "4407d6ed-6a7c-4bdd-b59e-f2ee10f9bf1d",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921852
   },
@@ -76999,10 +81127,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "1ec3954d-9ade-44ee-a934-6439d7908b5e",
+=======
+    "createdAt": 1786777921852
+  },
+  {
+    "id": "dd93322f-bd5d-420e-8f19-2eb53a2e4984",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921852
   },
@@ -77032,10 +81167,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "cf49021c-e14a-4832-a09f-c8c3a5b5c70b",
+=======
+    "createdAt": 1786777921852
+  },
+  {
+    "id": "6da05f48-32b0-4ced-b5b5-93e767e20741",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921852
   },
@@ -77065,10 +81207,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "564fd14f-f916-4e25-99db-b9ac28e8b752",
+=======
+    "createdAt": 1786777921852
+  },
+  {
+    "id": "c50741ea-32c5-4ba8-b89c-e163a42c1de0",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921852
   },
@@ -77098,10 +81247,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "ae5ec198-2693-4c19-a4f7-0187855ed53a",
+=======
+    "createdAt": 1786777921852
+  },
+  {
+    "id": "c6988dd3-1636-4c93-a6b7-0d17fbb902e4",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921852
   },
@@ -77131,10 +81287,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "36a33d95-f782-493a-ad1e-1c48c5dde539",
+=======
+    "createdAt": 1786777921852
+  },
+  {
+    "id": "c0231761-6c29-4126-aba7-8b18badf194c",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921852
   },
@@ -77164,10 +81327,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "658d12d3-c869-403d-904f-9e44ee76dc75",
+=======
+    "createdAt": 1786777921853
+  },
+  {
+    "id": "8ed9bc30-24a5-4d17-ab6b-bcd4998492d4",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921853
   },
@@ -77197,10 +81367,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "98a3da48-cfb4-4a0f-9b51-0ee049e91181",
+=======
+    "createdAt": 1786777921853
+  },
+  {
+    "id": "43e27cb6-fa6e-4f46-b8cf-58c31b8318f1",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921853
   },
@@ -77230,10 +81407,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "d3fae803-0b04-4f65-a494-b7d5c4dd4446",
+=======
+    "createdAt": 1786777921853
+  },
+  {
+    "id": "dc38198f-fce5-4387-a3d9-78889afd3170",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921853
   },
@@ -77263,10 +81447,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "7090d08a-8560-4704-8246-fa4f99ab8157",
+=======
+    "createdAt": 1786777921853
+  },
+  {
+    "id": "7d1c4b4e-0d62-4cf1-bc63-45d5a3fa66af",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921853
   },
@@ -77296,10 +81487,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "e594799f-ccfb-421a-a54d-0e4a75249265",
+=======
+    "createdAt": 1786777921853
+  },
+  {
+    "id": "7976642f-94e2-49b0-b970-3193cfdb1f9b",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921853
   },
@@ -77329,10 +81527,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "86ad6904-5822-4fcc-bf3c-d816ae04058f",
+=======
+    "createdAt": 1786777921853
+  },
+  {
+    "id": "9b983480-916b-48d2-9978-2941e06c9b72",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921853
   },
@@ -77362,10 +81567,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "9254160b-d0e4-4e1d-b8ef-b6e7dea4095a",
+=======
+    "createdAt": 1786777921853
+  },
+  {
+    "id": "36bfea90-a8b3-4d63-a564-6ef45569334d",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921853
   },
@@ -77395,10 +81607,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "503251dd-d182-4298-8bb8-ba2aa4aec5cf",
+=======
+    "createdAt": 1786777921853
+  },
+  {
+    "id": "4b04d252-354a-4b35-a9c6-c20a32f32454",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921853
   },
@@ -77428,10 +81647,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "36c3c553-6895-4ac6-85d1-2c700a5ed5ae",
+=======
+    "createdAt": 1786777921853
+  },
+  {
+    "id": "58b867c3-508e-45f0-84b5-49ab32516a5f",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921853
   },
@@ -77461,10 +81687,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "ebe477f3-94f0-4007-9fc7-27cac8ecd2b9",
+=======
+    "createdAt": 1786777921854
+  },
+  {
+    "id": "148c2d03-b606-4d66-b0b4-a884128e61ee",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921854
   },
@@ -77494,10 +81727,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "60cff3cd-2ff6-4d03-9edf-4ede675149c7",
+=======
+    "createdAt": 1786777921854
+  },
+  {
+    "id": "fad9a667-8faf-41c8-b193-f540059c5c75",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921854
   },
@@ -77527,10 +81767,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "f3e7d204-58d0-40c8-83ea-8ed2ed49f30f",
+=======
+    "createdAt": 1786777921854
+  },
+  {
+    "id": "41fe9649-061a-42e2-b241-f52dcd24a4f2",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921854
   },
@@ -77560,10 +81807,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "9d5febdd-ed4c-404c-a2cc-8c39ba4389e8",
+=======
+    "createdAt": 1786777921854
+  },
+  {
+    "id": "77329a0f-925f-47a6-8b6a-c1cf1015cef7",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921854
   },
@@ -77593,10 +81847,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "3ae1b266-1170-431e-8a2a-7a8f4d9432aa",
+=======
+    "createdAt": 1786777921854
+  },
+  {
+    "id": "a3294d7a-a792-41f1-89f1-757980e26431",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921854
   },
@@ -77626,10 +81887,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "91fd1f06-2ddb-4871-a9a8-fff2c091d275",
+=======
+    "createdAt": 1786777921854
+  },
+  {
+    "id": "83ab42ed-3c9e-4f52-a11b-0f816f0869a7",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921854
   },
@@ -77659,10 +81927,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "55ddd938-daa9-43db-ba24-4a4ecd11207a",
+=======
+    "createdAt": 1786777921854
+  },
+  {
+    "id": "d7050cd8-2f9c-48a3-8c00-ffa2c26d3e52",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921854
   },
@@ -77692,10 +81967,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "577d6ade-43a9-4c28-829b-4cc5084c6556",
+=======
+    "createdAt": 1786777921854
+  },
+  {
+    "id": "5c85ddc7-23c2-44d1-a94f-879aff6623aa",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921854
   },
@@ -77725,10 +82007,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "0c30ca24-f2ea-45e2-a760-45d7f2de95ed",
+=======
+    "createdAt": 1786777921854
+  },
+  {
+    "id": "a9b3dae7-1ae8-4598-9cd6-c47d5459fe37",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921854
   },
@@ -77758,10 +82047,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "54fa0760-a31f-49d4-a0c1-0388fab42cd5",
+=======
+    "createdAt": 1786777921854
+  },
+  {
+    "id": "506d8fde-86e6-4d35-ba53-b4675ac59f20",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921854
   },
@@ -77791,10 +82087,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "CP+DC",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "5acb51d4-a05c-48e3-9f87-1d74fb50850b",
+=======
+    "createdAt": 1786777921854
+  },
+  {
+    "id": "16fad0e1-b171-49ef-b209-93a3c24281c0",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921854
   },
@@ -77824,10 +82127,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "54a9f7ba-7831-4092-9a3c-fcf2a9bff79e",
+=======
+    "createdAt": 1786777921854
+  },
+  {
+    "id": "418b8ba7-34c7-4a51-b038-7c30aa22ec2e",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921854
   },
@@ -77857,10 +82167,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "CP+DC",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "bcaf39ac-94dd-4e01-bcb3-c449bb04106e",
+=======
+    "createdAt": 1786777921855
+  },
+  {
+    "id": "e041349b-3aa3-4e96-ab63-c4c09596f9e1",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921855
   },
@@ -77890,10 +82207,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "bdbd26d2-c868-46c1-a7f3-c9a72ce7b11b",
+=======
+    "createdAt": 1786777921855
+  },
+  {
+    "id": "2446b590-fc1a-498d-9091-1a7f4c0fc1bc",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921855
   },
@@ -77923,10 +82247,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "c4b78673-fc72-4537-97c1-d6b853363eed",
+=======
+    "createdAt": 1786777921855
+  },
+  {
+    "id": "a614f1b3-9af3-4ec8-955f-6ae695799bb8",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921855
   },
@@ -77956,10 +82287,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "d00d9fb2-5805-41f7-a859-edb3fdf82997",
+=======
+    "createdAt": 1786777921855
+  },
+  {
+    "id": "c5041b52-dad5-4cc0-b51f-19366b635833",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921855
   },
@@ -77989,10 +82327,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "b77627fb-12df-479c-b536-80315d29e1a8",
+=======
+    "createdAt": 1786777921855
+  },
+  {
+    "id": "279fab5e-ce14-4513-b209-aa2d7451eec8",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921855
   },
@@ -78022,10 +82367,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "73bc50ae-f123-4463-ab94-f96bb1ec2996",
+=======
+    "createdAt": 1786777921856
+  },
+  {
+    "id": "e194e64e-5e72-4b8a-b189-e1de1a591b03",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921856
   },
@@ -78055,10 +82407,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "0fe266ad-ecea-4f62-97cc-bd72479b7ae6",
+=======
+    "createdAt": 1786777921856
+  },
+  {
+    "id": "81b91291-9e58-4209-9229-6a51d2e4ff0d",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921856
   },
@@ -78088,10 +82447,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "bf290d43-3cb5-485b-857b-11e90e9d0056",
+=======
+    "createdAt": 1786777921856
+  },
+  {
+    "id": "a7a6468e-6e73-4f49-9e13-7e3ec0033f7c",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921856
   },
@@ -78121,10 +82487,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "6a270b3b-e46d-478c-83ba-1ad074ab47f5",
+=======
+    "createdAt": 1786777921856
+  },
+  {
+    "id": "761d6da4-7834-4d4a-b254-5e2ed4638c8b",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921856
   },
@@ -78154,10 +82527,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "5ae64f63-f3dd-4c34-8116-722e58371ef8",
+=======
+    "createdAt": 1786777921856
+  },
+  {
+    "id": "9ccbedbd-437e-400f-a5af-bbbdf1c12003",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921856
   },
@@ -78187,10 +82567,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "a856fb9a-df20-4485-a365-e94166fc1ad3",
+=======
+    "createdAt": 1786777921856
+  },
+  {
+    "id": "a3a2334e-f660-44fd-90a9-378d184f6746",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921856
   },
@@ -78220,10 +82607,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "9e5ac6cb-1194-464e-80e2-971be032d279",
+=======
+    "createdAt": 1786777921856
+  },
+  {
+    "id": "9918171e-5535-4e57-87ee-2f65be0e59b1",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921856
   },
@@ -78253,10 +82647,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "c1a3cde9-e5e8-4b59-aade-a0c9d1cb01a4",
+=======
+    "createdAt": 1786777921856
+  },
+  {
+    "id": "83aeb63a-8e7d-4e12-aaa0-3c6ea00966ac",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921856
   },
@@ -78286,10 +82687,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "4cb85da4-0b94-4f9a-a354-0c9e392cc414",
+=======
+    "createdAt": 1786777921856
+  },
+  {
+    "id": "abad5383-88d2-4839-986f-4cc902992bc6",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921856
   },
@@ -78319,10 +82727,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "ff5487e7-9c26-4088-bec2-f4fbeb071f0d",
+=======
+    "createdAt": 1786777921856
+  },
+  {
+    "id": "1e8e186c-a3b8-4fe3-a989-f0de3684ac8c",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921856
   },
@@ -78352,10 +82767,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "6acd3a64-30f5-4c91-8588-66cc40f68b32",
+=======
+    "createdAt": 1786777921856
+  },
+  {
+    "id": "094ad40f-56b8-4f35-8961-8c6863a0086e",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921856
   },
@@ -78385,10 +82807,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "339de0a7-3d1e-46db-9e17-96f6160fd266",
+=======
+    "createdAt": 1786777921856
+  },
+  {
+    "id": "bed8a9b5-54e7-4d25-8905-753d58a2e636",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921856
   },
@@ -78468,6 +82897,7 @@ export const defaultSites: Site[] = [
     "guestOmo": "CMPAK   JAZZ",
     "solar": "No",
     "solarKwa": "-",
+    "neLocation": "-",
     "tpApprovedServices": "-",
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
@@ -78524,10 +82954,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "03cc190a-5d44-43ff-837a-3b05075803d1",
+=======
+    "createdAt": 1786777921857
+  },
+  {
+    "id": "5c00c342-2c5b-4c1c-8504-0c232c906b5c",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921857
   },
@@ -78557,10 +82994,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "0d94796f-a903-4209-ab64-a91743f38a53",
+=======
+    "createdAt": 1786777921857
+  },
+  {
+    "id": "f812b0ff-fabe-4caf-8538-207a0ba6d031",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921857
   },
@@ -78590,10 +83034,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "a50e56b9-2625-4380-812b-fc3939f04126",
+=======
+    "createdAt": 1786777921857
+  },
+  {
+    "id": "d6fcd69f-b5cb-41b5-8533-37a57759662d",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921857
   },
@@ -78623,10 +83074,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "b5a03469-0813-453f-b311-5e48e67a7264",
+=======
+    "createdAt": 1786777921857
+  },
+  {
+    "id": "509b290c-60f4-4f5f-bd22-e98982d14362",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921857
   },
@@ -78656,10 +83114,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "1f72b6f1-eb7c-4834-b18d-478ebb68e9fb",
+=======
+    "createdAt": 1786777921857
+  },
+  {
+    "id": "477abd41-27f2-47a6-a433-59c51028d633",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921857
   },
@@ -78689,10 +83154,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "f91015b5-a94d-4c30-b79f-c4c055bee039",
+=======
+    "createdAt": 1786777921857
+  },
+  {
+    "id": "b02fe3a1-5538-430f-8a5b-998e872c389b",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921857
   },
@@ -78722,10 +83194,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "CP+DC",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "bca8fdf2-936b-4597-9300-6dd434fe1e97",
+=======
+    "createdAt": 1786777921857
+  },
+  {
+    "id": "cb487bb9-90ce-4e44-a891-e155be41fb18",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921857
   },
@@ -78755,10 +83234,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "312169da-b9b2-4362-9976-9a43fab7635e",
+=======
+    "createdAt": 1786777921857
+  },
+  {
+    "id": "c993ddee-fd0e-420a-bdfc-4aa21d3cc371",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921857
   },
@@ -78788,10 +83274,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "56dd7733-f505-4bfc-a4ab-5e823d2fbdd9",
+=======
+    "createdAt": 1786777921857
+  },
+  {
+    "id": "463c7eae-c3e2-4ce9-974d-66999c5e088a",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921857
   },
@@ -78821,10 +83314,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "3a2ce92d-0d6d-4717-9c34-695bf659977e",
+=======
+    "createdAt": 1786777921857
+  },
+  {
+    "id": "ec141499-593e-45d0-b9c2-a5914006699f",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921857
   },
@@ -78854,10 +83354,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "f720df5c-25b5-403b-839a-0e29489abff7",
+=======
+    "createdAt": 1786777921857
+  },
+  {
+    "id": "419844bc-1a79-4c6b-9363-5a4511bf95db",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921857
   },
@@ -78887,10 +83394,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "8aa89e31-69d7-486c-9354-77318fcbf6ab",
+=======
+    "createdAt": 1786777921858
+  },
+  {
+    "id": "e946f39a-89fd-4f1e-b36a-0c402be7ed8a",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921858
   },
@@ -78920,10 +83434,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "12a9cb92-196a-49e0-b8f7-64cd3606aa7d",
+=======
+    "createdAt": 1786777921858
+  },
+  {
+    "id": "f0207d95-6d26-4e5b-a2bc-fbd467c4d1e1",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921858
   },
@@ -78953,10 +83474,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "CP+DG",
     "jazzApprovedServices": "CP+DG",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "bc2c20b6-c75b-41b6-8f2d-65ca975718df",
+=======
+    "createdAt": 1786777921858
+  },
+  {
+    "id": "3b38b880-d3b6-4802-9603-9b076bf8985a",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921858
   },
@@ -78986,6 +83514,7 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "CP Only",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
@@ -78996,24 +83525,92 @@ export const defaultSites: Site[] = [
   {
     "id": "65e764fc-6e5a-41ab-8772-2a5975adbb96",
 >>>>>>> Stashed changes
+=======
+    "createdAt": 1786777921858
+  },
+  {
+    "id": "65e764fc-6e5a-41ab-8772-2a5975adbb96",
+>>>>>>> Stashed changes
     "name": "EC1-LHR-01079",
     "lat": 31.614054,
     "lng": 74.294329,
     "mbuNumber": "C2-MKR-02",
+<<<<<<< Updated upstream
     "mbuName": "Hannan Ashraf",
+=======
+    "mbuName": "Hannan Ashraf ",
     "cellNumber": "3018450105",
     "networkPortfolio": "Enfrashare",
     "zonalManager": "Ovais Ali Khan",
-    "jazzId": "-",
+    "jazzId": "SHD6667",
     "telenorId": "-",
-    "zongId": "CI-1630",
-    "ufoneId": "-",
+    "zongId": "-",
+    "ufoneId": "CI-1630",
     "category": "-",
     "securityVendor": "Al-Safeena",
     "guestOmo": "JAZZ   UFONE",
     "solar": "No",
     "solarKwa": "-",
     "neLocation": "-",
+    "tpApprovedServices": "-",
+    "zongApprovedServices": "-",
+    "ufoneApprovedServices": "CP Only",
+    "jazzApprovedServices": "CP+DC",
+    "createdAt": 1786777921858
+  },
+  {
+    "id": "fd6abe19-cec4-48f5-b38b-14d8d1f891e5",
+    "name": "EC1-LHR-01075",
+    "lat": 31.62226,
+    "lng": 74.28912,
+    "mbuNumber": "C2-MKR-02",
+    "mbuName": "Hannan Ashraf ",
+>>>>>>> Stashed changes
+    "cellNumber": "3018450105",
+    "networkPortfolio": "Enfrashare",
+    "zonalManager": "Ovais Ali Khan",
+    "jazzId": "-",
+    "telenorId": "-",
+<<<<<<< Updated upstream
+    "zongId": "CI-1630",
+    "ufoneId": "-",
+=======
+    "zongId": "-",
+    "ufoneId": "CI-1631",
+    "category": "-",
+    "securityVendor": "Al-Safeena",
+    "guestOmo": "   UFONE",
+    "solar": "No",
+    "solarKwa": "-",
+    "neLocation": "-",
+    "tpApprovedServices": "-",
+    "zongApprovedServices": "-",
+    "ufoneApprovedServices": "CP Only",
+    "jazzApprovedServices": "-",
+    "createdAt": 1786777921858
+  },
+  {
+    "id": "dc4dcba5-e441-4384-b502-b8f60345fad3",
+    "name": "EC1-SKP-07158",
+    "lat": 31.710021,
+    "lng": 73.983047,
+    "mbuNumber": "C2-SKP-04",
+    "mbuName": "Muhammad Mohsin ",
+    "cellNumber": "3065597555",
+    "networkPortfolio": "Enfrashare",
+    "zonalManager": "Ovais Ali Khan",
+    "jazzId": "SHK9386",
+    "telenorId": "-",
+    "zongId": "-",
+    "ufoneId": "3654",
+>>>>>>> Stashed changes
+    "category": "-",
+    "securityVendor": "Al-Safeena",
+    "guestOmo": "JAZZ   UFONE",
+    "solar": "No",
+    "solarKwa": "-",
+    "neLocation": "-",
+<<<<<<< Updated upstream
     "tpApprovedServices": "-",
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "CP Only",
@@ -79080,15 +83677,24 @@ export const defaultSites: Site[] = [
     "solar": "No",
     "solarKwa": "-",
     "neLocation": "-",
+=======
+>>>>>>> Stashed changes
     "tpApprovedServices": "-",
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "CP+DC",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "791ae8a1-1330-455d-bd3e-3e32d7148d0b",
+=======
+    "createdAt": 1786777921858
+  },
+  {
+    "id": "5901919f-c61f-4365-b9e3-76232d5d9109",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921858
   },
@@ -79118,10 +83724,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC+DG",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "534882c8-2475-4830-87a8-077f7ac53c27",
+=======
+    "createdAt": 1786777921858
+  },
+  {
+    "id": "a9f6043f-e238-40e3-b0c9-def0d96a91d0",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921858
   },
@@ -79151,10 +83764,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC+DG",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "37d811b7-023c-4f0f-8799-e1977e536810",
+=======
+    "createdAt": 1786777921858
+  },
+  {
+    "id": "77602664-1719-4bb3-9540-e4d091afae81",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921858
   },
@@ -79183,11 +83803,19 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "jazzApprovedServices": "CP+DC+DG",
     "createdAt": 1786718902531,
   },
   {
     "id": "3f4fe0a6-8246-4002-9f00-7e520eb081b4",
+=======
+    "jazzApprovedServices": "-",
+    "createdAt": 1786777921858
+  },
+  {
+    "id": "d8380ebb-6539-455d-a5dc-0f9da5a2a876",
+>>>>>>> Stashed changes
 =======
     "jazzApprovedServices": "-",
     "createdAt": 1786777921858
@@ -79218,10 +83846,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC+DG",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "431e6b11-3a98-4e46-9070-0ac5612a9070",
+=======
+    "createdAt": 1786777921858
+  },
+  {
+    "id": "68170dab-ed09-4664-9999-4db5362b20d4",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921858
   },
@@ -79251,10 +83886,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC+DG",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "76daea39-ed25-4420-9210-a66d785dde1c",
+=======
+    "createdAt": 1786777921858
+  },
+  {
+    "id": "cb8e9191-e20d-40aa-9006-4d0d0c83e777",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921858
   },
@@ -79284,10 +83926,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC+DG",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "1e1a3051-57bf-49cf-8058-bab88bdb7182",
+=======
+    "createdAt": 1786777921858
+  },
+  {
+    "id": "0436d070-0274-48d8-89fa-eab7fc6f716f",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921858
   },
@@ -79317,10 +83966,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC+DG",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "1205ee39-4465-4bfe-80ec-fb7c89a72dc9",
+=======
+    "createdAt": 1786777921858
+  },
+  {
+    "id": "f0a4b0a1-28bd-44d9-ac12-ddfeeff0ff2c",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921858
   },
@@ -79350,10 +84006,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC+DG",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "ce6b7550-30bf-4f2b-9c92-0fcc17b77dc6",
+=======
+    "createdAt": 1786777921859
+  },
+  {
+    "id": "ca2cd5f6-a788-4011-9e17-dc150fb56006",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921859
   },
@@ -79383,10 +84046,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC+DG",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "85e57cc3-514e-48f9-b238-ccc1f93a2dad",
+=======
+    "createdAt": 1786777921859
+  },
+  {
+    "id": "49f58013-0020-4a77-b7c1-fab7f4a68114",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921859
   },
@@ -79401,7 +84071,37 @@ export const defaultSites: Site[] = [
     "cellNumber": "3065652222",
     "networkPortfolio": "Enfrashare",
     "zonalManager": "Ovais Ali Khan",
+<<<<<<< Updated upstream
     "jazzId": "44670",
+=======
+    "jazzId": "RUR6676",
+    "telenorId": "-",
+    "zongId": "44670",
+    "ufoneId": "-",
+    "category": "-",
+    "securityVendor": "Al-Safeena",
+    "guestOmo": "CMPAK   JAZZ",
+    "solar": "No",
+    "solarKwa": "-",
+    "neLocation": "-",
+    "tpApprovedServices": "-",
+    "zongApprovedServices": "CP+DC",
+    "ufoneApprovedServices": "-",
+    "jazzApprovedServices": "CP+DC+DG",
+    "createdAt": 1786777921859
+  },
+  {
+    "id": "208d875c-c68a-4165-a944-7a0ba3759aed",
+    "name": "EC1-PNG-07798",
+    "lat": 31.2237,
+    "lng": 73.926601,
+    "mbuNumber": "C2-NNK-05",
+    "mbuName": "Adeel Arshad ",
+    "cellNumber": "3065652222",
+    "networkPortfolio": "Enfrashare",
+    "zonalManager": "Ovais Ali Khan",
+    "jazzId": "RUR6654",
+>>>>>>> Stashed changes
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
@@ -79411,6 +84111,7 @@ export const defaultSites: Site[] = [
     "solar": "No",
     "solarKwa": "-",
     "neLocation": "-",
+<<<<<<< Updated upstream
     "tpApprovedServices": "-",
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
@@ -79444,15 +84145,24 @@ export const defaultSites: Site[] = [
     "solar": "No",
     "solarKwa": "-",
     "neLocation": "-",
+=======
+>>>>>>> Stashed changes
     "tpApprovedServices": "-",
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC+DG",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "dc8a8d3c-8f4d-449b-a56e-d1d86ece6c0d",
+=======
+    "createdAt": 1786777921859
+  },
+  {
+    "id": "eaf3273f-5abd-4b6f-bb90-da60ae152748",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921859
   },
@@ -79482,10 +84192,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC+DG",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "f80b711d-0c28-4ce9-b4c5-ee09233ccb33",
+=======
+    "createdAt": 1786777921859
+  },
+  {
+    "id": "9e5474ff-ed80-4b3d-8972-447ce9d3ec51",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921859
   },
@@ -79539,8 +84256,10 @@ export const defaultSites: Site[] = [
     "guestOmo": "JAZZ",
     "solar": "No",
     "solarKwa": "-",
+    "neLocation": "-",
     "tpApprovedServices": "-",
     "zongApprovedServices": "-",
+<<<<<<< Updated upstream
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC+DG",
     "createdAt": 1786718902531,
@@ -79581,6 +84300,14 @@ export const defaultSites: Site[] = [
   {
     "id": "ae79e864-b31e-4437-8d11-6119e92c4bcd",
 >>>>>>> Stashed changes
+=======
+    "ufoneApprovedServices": "CP+DC",
+    "jazzApprovedServices": "-",
+    "createdAt": 1786777921859
+  },
+  {
+    "id": "ae79e864-b31e-4437-8d11-6119e92c4bcd",
+>>>>>>> Stashed changes
     "name": "EC1-RWN-07965",
     "lat": 31.26408,
     "lng": 74.221653,
@@ -79604,10 +84331,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "CP+DC",
     "jazzApprovedServices": "CP+DC+DG",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "f6cc9311-cb8d-42c5-bc04-a5910eee471b",
+=======
+    "createdAt": 1786777921859
+  },
+  {
+    "id": "f711937f-9c7d-45dc-9010-fa4ec256d084",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921859
   },
@@ -79637,10 +84371,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC+DG",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "a738cb31-e79e-4573-a708-d5b720fc9810",
+=======
+    "createdAt": 1786777921859
+  },
+  {
+    "id": "83abeb76-18e6-401e-8ceb-eb5752ea2081",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921859
   },
@@ -79670,10 +84411,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC+DG",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "8b6209df-1352-4693-ab17-170ddae1a187",
+=======
+    "createdAt": 1786777921860
+  },
+  {
+    "id": "f0796fde-6df2-4e38-bba9-9bffb33f0035",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921860
   },
@@ -79688,7 +84436,63 @@ export const defaultSites: Site[] = [
     "cellNumber": "3028432537",
     "networkPortfolio": "Enfrashare",
     "zonalManager": "Ovais Ali Khan",
+<<<<<<< Updated upstream
     "jazzId": "43787",
+=======
+    "jazzId": "-",
+    "telenorId": "-",
+    "zongId": "43787",
+    "ufoneId": "-",
+    "category": "-",
+    "securityVendor": "Al-Safeena",
+    "guestOmo": "   CMPAK",
+    "solar": "No",
+    "solarKwa": "-",
+    "neLocation": "-",
+    "tpApprovedServices": "-",
+    "zongApprovedServices": "DC+DG",
+    "ufoneApprovedServices": "-",
+    "jazzApprovedServices": "-",
+    "createdAt": 1786777921860
+  },
+  {
+    "id": "3f867c07-7a99-4ad9-9218-57dc25554a8e",
+    "name": "EC1-KSR-08676",
+    "lat": 31.07755,
+    "lng": 74.49197,
+    "mbuNumber": "C2-KSR-03",
+    "mbuName": "Muhammad Qasim ",
+    "cellNumber": "3028423296",
+    "networkPortfolio": "Enfrashare",
+    "zonalManager": "Ovais Ali Khan",
+    "jazzId": "-",
+    "telenorId": "-",
+    "zongId": "4289",
+    "ufoneId": "-",
+    "category": "-",
+    "securityVendor": "Al-Safeena",
+    "guestOmo": "   CMPAK",
+    "solar": "No",
+    "solarKwa": "-",
+    "neLocation": "-",
+    "tpApprovedServices": "-",
+    "zongApprovedServices": "CP only",
+    "ufoneApprovedServices": "-",
+    "jazzApprovedServices": "-",
+    "createdAt": 1786777921860
+  },
+  {
+    "id": "4c2b1bb2-c851-46c2-875a-e798bf450f4e",
+    "name": "EC2-NKN-08595",
+    "lat": 31.18417,
+    "lng": 73.64251,
+    "mbuNumber": "C2-NNK-05",
+    "mbuName": "Adeel Arshad ",
+    "cellNumber": "3065652222",
+    "networkPortfolio": "Enfrashare",
+    "zonalManager": "Ovais Ali Khan",
+    "jazzId": "RUR0518",
+>>>>>>> Stashed changes
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
@@ -79698,6 +84502,7 @@ export const defaultSites: Site[] = [
     "solar": "No",
     "solarKwa": "-",
     "neLocation": "-",
+<<<<<<< Updated upstream
     "tpApprovedServices": "-",
     "zongApprovedServices": "DC+DG",
     "ufoneApprovedServices": "-",
@@ -79765,15 +84570,24 @@ export const defaultSites: Site[] = [
     "solar": "No",
     "solarKwa": "-",
     "neLocation": "-",
+=======
+>>>>>>> Stashed changes
     "tpApprovedServices": "-",
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "8cae3f84-47f4-4524-be14-95b5db2d7399",
+=======
+    "createdAt": 1786777921860
+  },
+  {
+    "id": "80e5314c-d4bd-4892-b06c-af8da8859926",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921860
   },
@@ -79803,10 +84617,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "50fad172-e7cc-447b-94b0-730c77da8b7e",
+=======
+    "createdAt": 1786777921860
+  },
+  {
+    "id": "5ee1fd38-2aed-4062-92a3-1aab3b14596a",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921860
   },
@@ -79836,10 +84657,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "1b0018bf-b821-46ac-8e23-54c75afc6ba2",
+=======
+    "createdAt": 1786777921860
+  },
+  {
+    "id": "574f83f4-3b41-4335-b882-eb27a5b36c79",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921860
   },
@@ -79869,10 +84697,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "bb1b5e85-0726-45b9-bde3-bb8b943e3fa3",
+=======
+    "createdAt": 1786777921860
+  },
+  {
+    "id": "84619460-d488-4186-b416-c488cb70a892",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921860
   },
@@ -79902,10 +84737,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "24530d76-8e17-43fc-93a3-dab827f4cd8a",
+=======
+    "createdAt": 1786777921860
+  },
+  {
+    "id": "cc0e5734-e4cd-42af-912f-900e37a55b9d",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921860
   },
@@ -79935,10 +84777,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "519b3f9f-3252-4ede-8ef5-029eafa6f7d3",
+=======
+    "createdAt": 1786777921860
+  },
+  {
+    "id": "9f54ba65-e991-44aa-891a-9440e1eac0d1",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921860
   },
@@ -79968,10 +84817,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "a36caf38-f701-4bc1-b915-49daed1d8bb5",
+=======
+    "createdAt": 1786777921860
+  },
+  {
+    "id": "7c975455-2e66-434a-951e-11803513662c",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921860
   },
@@ -80001,10 +84857,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "CP only",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "2ac6ce3b-0453-47ae-84bd-ed31790be4eb",
+=======
+    "createdAt": 1786777921860
+  },
+  {
+    "id": "ca100237-1ac9-4420-bd0e-1dfd7123944c",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921860
   },
@@ -80034,10 +84897,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC+DG",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "c8bdf1e8-3e97-48bf-ae5f-a3dfffb41e43",
+=======
+    "createdAt": 1786777921861
+  },
+  {
+    "id": "996161f3-aac8-47d7-8c99-7ecc19a49f96",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921861
   },
@@ -80067,10 +84937,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "787544a2-c1bb-4ad1-96db-80cb3e4bfc38",
+=======
+    "createdAt": 1786777921861
+  },
+  {
+    "id": "4f83f7c1-7d9a-4cc6-b591-73547bdd5e7e",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921861
   },
@@ -80100,10 +84977,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "80449dcb-ed1d-461f-bc03-da3b29b07fbd",
+=======
+    "createdAt": 1786777921861
+  },
+  {
+    "id": "5fa22aee-0e1f-4603-a78a-704092527e51",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921861
   },
@@ -80133,10 +85017,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "ee263e07-217f-487e-99ac-916b3fbff8eb",
+=======
+    "createdAt": 1786777921861
+  },
+  {
+    "id": "cf47e28d-ab9f-49c6-8331-c1a4db0b7a31",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921861
   },
@@ -80166,10 +85057,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "4d2d6b34-6906-4f99-89e2-df5bb3daa70d",
+=======
+    "createdAt": 1786777921861
+  },
+  {
+    "id": "ae9169cd-b5e2-49f1-a81e-db9d1f3ed02c",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921861
   },
@@ -80199,10 +85097,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "70595d7d-499f-41c2-b3d1-5350a27654e0",
+=======
+    "createdAt": 1786777921861
+  },
+  {
+    "id": "af9f54d6-7ac7-44ee-a968-42d89561a95b",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921861
   },
@@ -80232,10 +85137,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "c6219cb8-7a8e-4061-af62-cee633e4a858",
+=======
+    "createdAt": 1786777921861
+  },
+  {
+    "id": "1a2fcbd8-ebdb-40f8-8f67-133102469efe",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921861
   },
@@ -80265,10 +85177,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "25bbe306-4b75-4582-b9a2-03e250d340b8",
+=======
+    "createdAt": 1786777921861
+  },
+  {
+    "id": "ccbaaedc-c9d6-4edf-b327-e7eba22e26e8",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921861
   },
@@ -80283,7 +85202,401 @@ export const defaultSites: Site[] = [
     "cellNumber": "3028423296",
     "networkPortfolio": "Enfrashare",
     "zonalManager": "Ovais Ali Khan",
+<<<<<<< Updated upstream
     "jazzId": "44514",
+=======
+    "jazzId": "RUR9021",
+    "telenorId": "-",
+    "zongId": "44514",
+    "ufoneId": "-",
+    "category": "-",
+    "securityVendor": "Al-Safeena",
+    "guestOmo": "CMPAK   JAZZ",
+    "solar": "No",
+    "solarKwa": "-",
+    "neLocation": "-",
+    "tpApprovedServices": "-",
+    "zongApprovedServices": "DC+DG",
+    "ufoneApprovedServices": "-",
+    "jazzApprovedServices": "DC+DG",
+    "createdAt": 1786777921861
+  },
+  {
+    "id": "f22451cd-41e0-4e7c-8442-181348e11717",
+    "name": "EC1-SKP-09014",
+    "lat": 31.65909,
+    "lng": 74.26658,
+    "mbuNumber": "C2-MKR-02",
+    "mbuName": "Hannan Ashraf ",
+    "cellNumber": "3018450105",
+    "networkPortfolio": "Enfrashare",
+    "zonalManager": "Ovais Ali Khan",
+    "jazzId": "SHD9046",
+    "telenorId": "-",
+    "zongId": "44576",
+    "ufoneId": "-",
+    "category": "-",
+    "securityVendor": "Al-Safeena",
+    "guestOmo": "CMPAK   JAZZ",
+    "solar": "No",
+    "solarKwa": "-",
+    "neLocation": "-",
+    "tpApprovedServices": "-",
+    "zongApprovedServices": "CP+DC",
+    "ufoneApprovedServices": "-",
+    "jazzApprovedServices": "CP+DC",
+    "createdAt": 1786777921861
+  },
+  {
+    "id": "81f0e9be-d6ff-4f9d-b3e3-caf27fb39ad9",
+    "name": "EC1-SRQ-08917",
+    "lat": 31.458733,
+    "lng": 74.097674,
+    "mbuNumber": "C2-NNK-05",
+    "mbuName": "Adeel Arshad ",
+    "cellNumber": "3065652222",
+    "networkPortfolio": "Enfrashare",
+    "zonalManager": "Ovais Ali Khan",
+    "jazzId": "SRK8447",
+    "telenorId": "-",
+    "zongId": "43546",
+    "ufoneId": "-",
+    "category": "-",
+    "securityVendor": "Al-Safeena",
+    "guestOmo": "JAZZ   CMPAK",
+    "solar": "No",
+    "solarKwa": "-",
+    "neLocation": "-",
+    "tpApprovedServices": "-",
+    "zongApprovedServices": "DC+DG",
+    "ufoneApprovedServices": "-",
+    "jazzApprovedServices": "DC+DG",
+    "createdAt": 1786777921861
+  },
+  {
+    "id": "7db3f3ba-fb43-4498-9477-a91620bed38f",
+    "name": "EC1-LHR-09242",
+    "lat": 31.343314,
+    "lng": 74.367918,
+    "mbuNumber": "C2-KSR-03",
+    "mbuName": "Muhammad Qasim ",
+    "cellNumber": "3028423296",
+    "networkPortfolio": "Enfrashare",
+    "zonalManager": "Ovais Ali Khan",
+    "jazzId": "-",
+    "telenorId": "-",
+    "zongId": "44115",
+    "ufoneId": "-",
+    "category": "-",
+    "securityVendor": "Al-Safeena",
+    "guestOmo": "   CMPAK",
+    "solar": "Yes",
+    "solarKwa": "10.8",
+    "neLocation": "-",
+    "tpApprovedServices": "-",
+    "zongApprovedServices": "DC+DG",
+    "ufoneApprovedServices": "-",
+    "jazzApprovedServices": "-",
+    "createdAt": 1786777921861
+  },
+  {
+    "id": "dc3b4b7b-fbeb-454d-a8bf-a08c48ff3747",
+    "name": "EC1-SKP-09039",
+    "lat": 31.692381,
+    "lng": 74.293846,
+    "mbuNumber": "C2-MKR-02",
+    "mbuName": "Hannan Ashraf ",
+    "cellNumber": "3018450105",
+    "networkPortfolio": "Enfrashare",
+    "zonalManager": "Ovais Ali Khan",
+    "jazzId": "RUR9075",
+    "telenorId": "-",
+    "zongId": "44697",
+    "ufoneId": "-",
+    "category": "-",
+    "securityVendor": "Al-Safeena",
+    "guestOmo": "CMPAK   JAZZ",
+    "solar": "No",
+    "solarKwa": "-",
+    "neLocation": "-",
+    "tpApprovedServices": "-",
+    "zongApprovedServices": "CP+DC",
+    "ufoneApprovedServices": "-",
+    "jazzApprovedServices": "DC+DG",
+    "createdAt": 1786777921861
+  },
+  {
+    "id": "95d30420-4875-465e-ae31-8c8b7ec74638",
+    "name": "EC1-SKP-08918",
+    "lat": 31.636463,
+    "lng": 74.212827,
+    "mbuNumber": "C2-MKR-02",
+    "mbuName": "Hannan Ashraf ",
+    "cellNumber": "3018450105",
+    "networkPortfolio": "Enfrashare",
+    "zonalManager": "Ovais Ali Khan",
+    "jazzId": "-",
+    "telenorId": "-",
+    "zongId": "43665",
+    "ufoneId": "-",
+    "category": "-",
+    "securityVendor": "Al-Safeena",
+    "guestOmo": "   CMPAK",
+    "solar": "No",
+    "solarKwa": "-",
+    "neLocation": "-",
+    "tpApprovedServices": "-",
+    "zongApprovedServices": "DC+DG",
+    "ufoneApprovedServices": "-",
+    "jazzApprovedServices": "-",
+    "createdAt": 1786777921862
+  },
+  {
+    "id": "f38183a6-4843-4556-9acc-ce89249f87bf",
+    "name": "EC1-SKP-09395",
+    "lat": 31.72645,
+    "lng": 73.95757,
+    "mbuNumber": "C2-SKP-04",
+    "mbuName": "Muhammad Mohsin ",
+    "cellNumber": "3065597555",
+    "networkPortfolio": "Enfrashare",
+    "zonalManager": "Ovais Ali Khan",
+    "jazzId": "-",
+    "telenorId": "-",
+    "zongId": "44404",
+    "ufoneId": "-",
+    "category": "-",
+    "securityVendor": "Al-Safeena",
+    "guestOmo": "   CMPAK",
+    "solar": "No",
+    "solarKwa": "-",
+    "neLocation": "-",
+    "tpApprovedServices": "-",
+    "zongApprovedServices": "DC+DG",
+    "ufoneApprovedServices": "-",
+    "jazzApprovedServices": "-",
+    "createdAt": 1786777921862
+  },
+  {
+    "id": "b55bea95-f518-442e-b672-3fb6b01520fb",
+    "name": "EC1-SKP-09387",
+    "lat": 31.734679,
+    "lng": 73.976784,
+    "mbuNumber": "C2-SKP-04",
+    "mbuName": "Muhammad Mohsin ",
+    "cellNumber": "3065597555",
+    "networkPortfolio": "Enfrashare",
+    "zonalManager": "Ovais Ali Khan",
+    "jazzId": "-",
+    "telenorId": "-",
+    "zongId": "44381",
+    "ufoneId": "-",
+    "category": "-",
+    "securityVendor": "Al-Safeena",
+    "guestOmo": "   CMPAK",
+    "solar": "No",
+    "solarKwa": "-",
+    "neLocation": "-",
+    "tpApprovedServices": "-",
+    "zongApprovedServices": "DC+DG",
+    "ufoneApprovedServices": "-",
+    "jazzApprovedServices": "-",
+    "createdAt": 1786777921862
+  },
+  {
+    "id": "471f76fc-498f-42b7-883e-9ccf58271f54",
+    "name": "EC1-KSR-09390",
+    "lat": 31.244843,
+    "lng": 74.22806,
+    "mbuNumber": "C2-RWD-01",
+    "mbuName": "Akmal Shahzad ",
+    "cellNumber": "3028432537",
+    "networkPortfolio": "Enfrashare",
+    "zonalManager": "Ovais Ali Khan",
+    "jazzId": "-",
+    "telenorId": "-",
+    "zongId": "44390",
+    "ufoneId": "-",
+    "category": "-",
+    "securityVendor": "Al-Safeena",
+    "guestOmo": "   CMPAK",
+    "solar": "No",
+    "solarKwa": "-",
+    "neLocation": "-",
+    "tpApprovedServices": "-",
+    "zongApprovedServices": "DC+DG",
+    "ufoneApprovedServices": "-",
+    "jazzApprovedServices": "-",
+    "createdAt": 1786777921862
+  },
+  {
+    "id": "0cd0e871-ab6e-493c-868e-089caa42feff",
+    "name": "EC2-NKN-09359",
+    "lat": 31.41208,
+    "lng": 73.98018,
+    "mbuNumber": "C2-NNK-05",
+    "mbuName": "Adeel Arshad ",
+    "cellNumber": "3065652222",
+    "networkPortfolio": "Enfrashare",
+    "zonalManager": "Ovais Ali Khan",
+    "jazzId": "-",
+    "telenorId": "-",
+    "zongId": "44338",
+    "ufoneId": "-",
+    "category": "-",
+    "securityVendor": "Al-Safeena",
+    "guestOmo": "   CMPAK",
+    "solar": "No",
+    "solarKwa": "-",
+    "neLocation": "-",
+    "tpApprovedServices": "-",
+    "zongApprovedServices": "DC+DG",
+    "ufoneApprovedServices": "-",
+    "jazzApprovedServices": "-",
+    "createdAt": 1786777921862
+  },
+  {
+    "id": "2d23e6ea-2385-4be4-b052-8b479b6352a4",
+    "name": "EC1-KSR-09412",
+    "lat": 31.139368,
+    "lng": 74.439135,
+    "mbuNumber": "C2-KSR-03",
+    "mbuName": "Muhammad Qasim ",
+    "cellNumber": "3028423296",
+    "networkPortfolio": "Enfrashare",
+    "zonalManager": "Ovais Ali Khan",
+    "jazzId": "-",
+    "telenorId": "-",
+    "zongId": "44337",
+    "ufoneId": "-",
+    "category": "-",
+    "securityVendor": "Al-Safeena",
+    "guestOmo": "   CMPAK",
+    "solar": "No",
+    "solarKwa": "-",
+    "neLocation": "-",
+    "tpApprovedServices": "-",
+    "zongApprovedServices": "DC+DG",
+    "ufoneApprovedServices": "-",
+    "jazzApprovedServices": "-",
+    "createdAt": 1786777921862
+  },
+  {
+    "id": "b9440fcf-2df1-431c-bc0c-4f95b39582e5",
+    "name": "EC1-LHR-09179",
+    "lat": 31.344631,
+    "lng": 74.38047,
+    "mbuNumber": "C2-KSR-03",
+    "mbuName": "Muhammad Qasim ",
+    "cellNumber": "3028423296",
+    "networkPortfolio": "Enfrashare",
+    "zonalManager": "Ovais Ali Khan",
+    "jazzId": "-",
+    "telenorId": "-",
+    "zongId": "43977",
+    "ufoneId": "-",
+    "category": "-",
+    "securityVendor": "Al-Safeena",
+    "guestOmo": "   CMPAK",
+    "solar": "No",
+    "solarKwa": "-",
+    "neLocation": "-",
+    "tpApprovedServices": "-",
+    "zongApprovedServices": "DC+DG",
+    "ufoneApprovedServices": "-",
+    "jazzApprovedServices": "-",
+    "createdAt": 1786777921862
+  },
+  {
+    "id": "a6df8b82-1020-4d00-a72c-0eff303fe498",
+    "name": "EC1-SHD-09475",
+    "lat": 31.6479,
+    "lng": 74.27092,
+    "mbuNumber": "C2-MKR-02",
+    "mbuName": "Hannan Ashraf ",
+    "cellNumber": "3018450105",
+    "networkPortfolio": "Enfrashare",
+    "zonalManager": "Ovais Ali Khan",
+    "jazzId": "SHD9217",
+    "telenorId": "-",
+    "zongId": "44395",
+    "ufoneId": "-",
+    "category": "-",
+    "securityVendor": "Al-Safeena",
+    "guestOmo": "JAZZ   CMPAK",
+    "solar": "No",
+    "solarKwa": "-",
+    "neLocation": "-",
+    "tpApprovedServices": "-",
+    "zongApprovedServices": "DC+DG",
+    "ufoneApprovedServices": "-",
+    "jazzApprovedServices": "CP+DG+DC",
+    "createdAt": 1786777921862
+  },
+  {
+    "id": "ef194885-2ebb-4860-b247-62faa1d3e338",
+    "name": "EC1-SKP-09391",
+    "lat": 31.864356,
+    "lng": 73.85991,
+    "mbuNumber": "C2-SKP-04",
+    "mbuName": "Muhammad Mohsin ",
+    "cellNumber": "3065597555",
+    "networkPortfolio": "Enfrashare",
+    "zonalManager": "Ovais Ali Khan",
+    "jazzId": "-",
+    "telenorId": "-",
+    "zongId": "43578",
+    "ufoneId": "-",
+    "category": "-",
+    "securityVendor": "Al-Safeena",
+    "guestOmo": "   CMPAK",
+    "solar": "No",
+    "solarKwa": "-",
+    "neLocation": "-",
+    "tpApprovedServices": "-",
+    "zongApprovedServices": "DC+DG",
+    "ufoneApprovedServices": "-",
+    "jazzApprovedServices": "-",
+    "createdAt": 1786777921862
+  },
+  {
+    "id": "228624bf-b937-4d05-97fc-6848eedc628c",
+    "name": "EC1-RWN-09321",
+    "lat": 31.252161,
+    "lng": 74.21032,
+    "mbuNumber": "C2-RWD-01",
+    "mbuName": "Akmal Shahzad ",
+    "cellNumber": "3028432537",
+    "networkPortfolio": "Enfrashare",
+    "zonalManager": "Ovais Ali Khan",
+    "jazzId": "RWD8251",
+    "telenorId": "-",
+    "zongId": "43886",
+    "ufoneId": "-",
+    "category": "-",
+    "securityVendor": "Al-Safeena",
+    "guestOmo": "JAZZ   CMPAK",
+    "solar": "No",
+    "solarKwa": "-",
+    "neLocation": "-",
+    "tpApprovedServices": "-",
+    "zongApprovedServices": "CP+DC",
+    "ufoneApprovedServices": "-",
+    "jazzApprovedServices": "CP+DC",
+    "createdAt": 1786777921862
+  },
+  {
+    "id": "39eaed31-da14-4d3b-921b-7bf1a0fd548f",
+    "name": "EC1-KSR-09425",
+    "lat": 31.125144,
+    "lng": 74.441466,
+    "mbuNumber": "C2-KSR-03",
+    "mbuName": "Muhammad Qasim ",
+    "cellNumber": "3028423296",
+    "networkPortfolio": "Enfrashare",
+    "zonalManager": "Ovais Ali Khan",
+    "jazzId": "KSR8475",
+>>>>>>> Stashed changes
     "telenorId": "-",
     "zongId": "-",
     "ufoneId": "-",
@@ -80293,6 +85606,7 @@ export const defaultSites: Site[] = [
     "solar": "No",
     "solarKwa": "-",
     "neLocation": "-",
+<<<<<<< Updated upstream
     "tpApprovedServices": "-",
     "zongApprovedServices": "DC+DG",
     "ufoneApprovedServices": "-",
@@ -80788,15 +86102,24 @@ export const defaultSites: Site[] = [
     "solar": "No",
     "solarKwa": "-",
     "neLocation": "-",
+=======
+>>>>>>> Stashed changes
     "tpApprovedServices": "-",
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "46dbffb5-5a74-405d-9456-e574b4d331d3",
+=======
+    "createdAt": 1786777921862
+  },
+  {
+    "id": "3028b91a-8441-4c70-9cf1-7cac34a82c66",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921862
   },
@@ -80850,6 +86173,7 @@ export const defaultSites: Site[] = [
     "guestOmo": "JAZZ",
     "solar": "No",
     "solarKwa": "-",
+    "neLocation": "-",
     "tpApprovedServices": "-",
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
@@ -80881,10 +86205,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "d03c6f2b-7c78-4012-9dcd-9bfd30c4b089",
+=======
+    "createdAt": 1786777921862
+  },
+  {
+    "id": "7a014bb6-c4f2-40c1-9d47-89e2ea8766a4",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921862
   },
@@ -80914,10 +86245,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "4af9a2b5-5381-49b9-98ae-2bae103b18f4",
+=======
+    "createdAt": 1786777921862
+  },
+  {
+    "id": "59d55ded-c8e0-4c5a-b242-f65e8f280433",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921862
   },
@@ -80942,6 +86280,7 @@ export const defaultSites: Site[] = [
     "solar": "No",
     "solarKwa": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "tpApprovedServices": "-",
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
@@ -80950,6 +86289,17 @@ export const defaultSites: Site[] = [
   },
   {
     "id": "a7b89698-27d4-49ea-9a59-786b731e7b39",
+=======
+    "neLocation": "-",
+    "tpApprovedServices": "-",
+    "zongApprovedServices": "-",
+    "ufoneApprovedServices": " -",
+    "jazzApprovedServices": "DC+DG",
+    "createdAt": 1786777921862
+  },
+  {
+    "id": "ee3a9bec-5ff4-498e-81e0-05bb1954a273",
+>>>>>>> Stashed changes
 =======
     "neLocation": "-",
     "tpApprovedServices": "-",
@@ -80979,6 +86329,7 @@ export const defaultSites: Site[] = [
     "solar": "No",
     "solarKwa": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "tpApprovedServices": "-",
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
@@ -80987,6 +86338,17 @@ export const defaultSites: Site[] = [
   },
   {
     "id": "39f026e3-5eca-49d3-b608-2a1a663ca045",
+=======
+    "neLocation": "-",
+    "tpApprovedServices": "-",
+    "zongApprovedServices": "-",
+    "ufoneApprovedServices": " -",
+    "jazzApprovedServices": "DC+DG",
+    "createdAt": 1786777921863
+  },
+  {
+    "id": "74bacaf1-0113-4eb0-adec-b7c10a75a38a",
+>>>>>>> Stashed changes
 =======
     "neLocation": "-",
     "tpApprovedServices": "-",
@@ -81016,6 +86378,7 @@ export const defaultSites: Site[] = [
     "solar": "No",
     "solarKwa": "-",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "tpApprovedServices": "-",
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
@@ -81024,6 +86387,17 @@ export const defaultSites: Site[] = [
   },
   {
     "id": "7f3dd356-a5a5-49a5-8e4b-bc66d2553ad2",
+=======
+    "neLocation": "-",
+    "tpApprovedServices": "-",
+    "zongApprovedServices": "-",
+    "ufoneApprovedServices": " -",
+    "jazzApprovedServices": "DC+DG",
+    "createdAt": 1786777921863
+  },
+  {
+    "id": "0ca67ea0-337b-4587-b453-9df62b6b20e7",
+>>>>>>> Stashed changes
 =======
     "neLocation": "-",
     "tpApprovedServices": "-",
@@ -81058,10 +86432,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "6af16a52-d93f-45da-91b2-27fc2a8a7834",
+=======
+    "createdAt": 1786777921863
+  },
+  {
+    "id": "387455aa-b9e5-4dfc-941c-1b7c187ea433",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921863
   },
@@ -81091,10 +86472,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "168ea2b0-b393-49d6-8a18-49c59cb6b59f",
+=======
+    "createdAt": 1786777921863
+  },
+  {
+    "id": "d5ece780-658d-48ed-9ca3-ab1fdd9b1c04",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921863
   },
@@ -81124,10 +86512,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "f811d44b-b5fe-481f-a262-8f25bc0ec076",
+=======
+    "createdAt": 1786777921863
+  },
+  {
+    "id": "563acac5-a600-495f-8e45-4ae10c95261d",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921863
   },
@@ -81157,10 +86552,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "74f2d62c-cee6-4e61-8568-1bef0df9b00e",
+=======
+    "createdAt": 1786777921863
+  },
+  {
+    "id": "25d517af-d7f4-4dec-868e-54b0d08a22fd",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921863
   },
@@ -81190,10 +86592,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "d6404f35-7f4f-45b8-85c4-ee71cc2581bd",
+=======
+    "createdAt": 1786777921863
+  },
+  {
+    "id": "e5991fcc-e29c-4f35-b293-e910c1a47cb5",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921863
   },
@@ -81223,10 +86632,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "980bf4b6-81b5-4c53-8a6e-9f709a58595b",
+=======
+    "createdAt": 1786777921863
+  },
+  {
+    "id": "f938ab58-234e-476e-9bd8-a8c5c7b392ba",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921863
   },
@@ -81256,10 +86672,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "6dce557c-a8da-4ac5-9443-6521e9bd0bb2",
+=======
+    "createdAt": 1786777921863
+  },
+  {
+    "id": "c434133a-5837-4b12-a1a5-6fadf6eaa5f4",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921863
   },
@@ -81289,10 +86712,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "824e17b1-dc94-4b48-8d62-2e79ab5039e4",
+=======
+    "createdAt": 1786777921863
+  },
+  {
+    "id": "bfa3a193-7bc8-496e-b989-1e7af473ec23",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921863
   },
@@ -81322,10 +86752,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "37cb8d28-fc54-442f-9abf-234023dbe9b6",
+=======
+    "createdAt": 1786777921864
+  },
+  {
+    "id": "08b3267d-5da4-4093-a290-29bd45774971",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921864
   },
@@ -81355,10 +86792,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "97e57672-702d-4c1a-b7be-cff4d1f79d37",
+=======
+    "createdAt": 1786777921864
+  },
+  {
+    "id": "32337a6e-4742-4800-a948-624a3e37f0b2",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921864
   },
@@ -81388,10 +86832,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "d5588040-d7b8-487c-b00b-d3e4607e33af",
+=======
+    "createdAt": 1786777921864
+  },
+  {
+    "id": "17e35f0f-d039-454e-9191-15783a4dd7a2",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921864
   },
@@ -81421,10 +86872,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "16db73bc-7523-4a6a-a0fe-b8be6e41b459",
+=======
+    "createdAt": 1786777921865
+  },
+  {
+    "id": "f5136ba6-83be-4ae1-beab-8f49d39cc1ec",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921865
   },
@@ -81454,10 +86912,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "c81dfcc0-def1-4f0a-aa4a-8a1ecab2ce22",
+=======
+    "createdAt": 1786777921865
+  },
+  {
+    "id": "ccd2e8f2-4217-45f2-8ddf-4e57a3f5d4cb",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921865
   },
@@ -81487,10 +86952,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "f2b2502e-c96f-4db7-8ac9-9995babee73f",
+=======
+    "createdAt": 1786777921865
+  },
+  {
+    "id": "cbfc6451-bf0c-488b-9be1-d3d8173703e1",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921865
   },
@@ -81520,10 +86992,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "4fd2c244-e190-4f25-a73f-79a08174bf45",
+=======
+    "createdAt": 1786777921865
+  },
+  {
+    "id": "b81e4a25-349b-44c3-b371-75dbb7004b83",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921865
   },
@@ -81553,10 +87032,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "41ff1414-8653-48da-b71c-10bd25a26e6d",
+=======
+    "createdAt": 1786777921865
+  },
+  {
+    "id": "45743987-c929-4f7a-8d6e-1724682c4935",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921865
   },
@@ -81586,10 +87072,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "f4ddee4d-4f10-456f-833b-f254ca7652e9",
+=======
+    "createdAt": 1786777921865
+  },
+  {
+    "id": "f1714ae3-0a4c-4cd3-9bf5-92f3d5d7d139",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921865
   },
@@ -81619,10 +87112,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "602537e7-5ff2-40c0-b1ef-5910b11dc99d",
+=======
+    "createdAt": 1786777921865
+  },
+  {
+    "id": "23129bc9-e57d-4bed-9729-214c9b343bee",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921865
   },
@@ -81652,10 +87152,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "19457fcb-2c45-4677-a6c2-dadc9a7cc772",
+=======
+    "createdAt": 1786777921865
+  },
+  {
+    "id": "6b67ef80-94f1-4a2d-9f2a-15c3f8f262d6",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921865
   },
@@ -81685,10 +87192,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "ce8e7c07-f347-447e-b053-a9f56c8ff1eb",
+=======
+    "createdAt": 1786777921865
+  },
+  {
+    "id": "aa11f378-bb21-4f6b-9b06-ac9f345a8d52",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921865
   },
@@ -81718,10 +87232,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "b97fe8c0-c2cc-4606-a68d-8afa6102c932",
+=======
+    "createdAt": 1786777921865
+  },
+  {
+    "id": "fc87e88e-b04f-4d9a-bb4e-d7ac35a53540",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921865
   },
@@ -81751,10 +87272,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "78e1304c-9c3b-4d1c-8b81-06d95b4b072e",
+=======
+    "createdAt": 1786777921865
+  },
+  {
+    "id": "297c4123-79e0-4421-a8c5-831d5caa3fce",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921865
   },
@@ -81784,10 +87312,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "e8586613-f14c-4416-bc65-e6f36d7a1a16",
+=======
+    "createdAt": 1786777921866
+  },
+  {
+    "id": "89b1bd44-3ab9-45ae-ac17-1909e4684771",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921866
   },
@@ -81817,10 +87352,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "34cef127-1f3e-49a6-afef-1f70ad2c8a2f",
+=======
+    "createdAt": 1786777921866
+  },
+  {
+    "id": "8e4ee4b7-e5da-4cc2-9438-48b7b9b3b6e7",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921866
   },
@@ -81850,10 +87392,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "907850c6-6618-4f6a-915f-6431a34d5bcb",
+=======
+    "createdAt": 1786777921866
+  },
+  {
+    "id": "d6ede1c9-db99-4ba1-9914-7c5b89722003",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921866
   },
@@ -81883,10 +87432,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "0a66bdfe-8073-4c4a-a679-4c54c26957ee",
+=======
+    "createdAt": 1786777921866
+  },
+  {
+    "id": "121d8cf7-c179-4550-b2d9-2cb324c4909d",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921866
   },
@@ -81916,10 +87472,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "6994c402-a11d-4aae-ba35-c5eecf3efea8",
+=======
+    "createdAt": 1786777921866
+  },
+  {
+    "id": "d15867c5-ffec-4f6b-9ec7-dc3f623e1b2b",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921866
   },
@@ -81949,10 +87512,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "f7d37908-6df6-4366-8f55-7e2e10229eea",
+=======
+    "createdAt": 1786777921866
+  },
+  {
+    "id": "e3f61d03-6dd8-4b52-b241-b0919d5a5dea",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921866
   },
@@ -81982,10 +87552,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "e2b09674-f8ea-44fb-95c0-6f6723f6f744",
+=======
+    "createdAt": 1786777921866
+  },
+  {
+    "id": "ce22c268-25c9-4fb9-92b9-cb21164d0649",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921866
   },
@@ -82015,10 +87592,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "98839be8-bc91-4552-8b6a-89dd13adc59c",
+=======
+    "createdAt": 1786777921866
+  },
+  {
+    "id": "f0544bac-96c1-48d1-a6eb-e35be5315a44",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921866
   },
@@ -82048,10 +87632,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "bcc489f8-8306-4d1e-b205-b7a4000295be",
+=======
+    "createdAt": 1786777921866
+  },
+  {
+    "id": "368bdf4c-f195-41a3-9de2-48c1215a84e4",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921866
   },
@@ -82081,10 +87672,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "e4c06a56-4d68-41c5-aafe-dbfbf8e3c182",
+=======
+    "createdAt": 1786777921866
+  },
+  {
+    "id": "755367a8-e930-48da-8603-a2c44bd21970",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921866
   },
@@ -82114,10 +87712,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "d6b305d9-a25d-4792-a96b-81164f980421",
+=======
+    "createdAt": 1786777921866
+  },
+  {
+    "id": "c9c29728-0afa-43e9-aa7a-275d7d17a6f5",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921866
   },
@@ -82147,10 +87752,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "50a6c321-1e07-47dc-85a3-f7006ff58efa",
+=======
+    "createdAt": 1786777921866
+  },
+  {
+    "id": "abc235ed-fa2c-4e61-8819-1a7be41baac5",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921866
   },
@@ -82180,10 +87792,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "13323186-2136-4967-84b1-9919271e2f1a",
+=======
+    "createdAt": 1786777921866
+  },
+  {
+    "id": "b7e23a83-73e2-45ed-8301-045c27ef7b60",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921866
   },
@@ -82213,10 +87832,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "162f9787-7d0f-47f6-94f9-1c4bd85a27ee",
+=======
+    "createdAt": 1786777921866
+  },
+  {
+    "id": "c331ba1d-3617-4e5c-95ba-52ed55fba20d",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921866
   },
@@ -82246,10 +87872,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "bd2ff3d2-bb46-4577-ac14-9eea0572027f",
+=======
+    "createdAt": 1786777921867
+  },
+  {
+    "id": "a48f1049-3e99-4585-91c4-147cf1371d13",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921867
   },
@@ -82279,10 +87912,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "8c1845e8-ebb7-4a02-909c-b2633d06d073",
+=======
+    "createdAt": 1786777921867
+  },
+  {
+    "id": "35603f0c-4b87-421a-9067-21af2fea4719",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921867
   },
@@ -82312,10 +87952,17 @@ export const defaultSites: Site[] = [
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
   {
     "id": "678e9448-2e06-41c4-ac11-8ac2262e6d8a",
+=======
+    "createdAt": 1786777921867
+  },
+  {
+    "id": "c7bff628-1802-4623-a430-bb91e60324c7",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921867
   },
@@ -82344,6 +87991,7 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
     "createdAt": 1786718902531,
   },
@@ -96433,6 +102081,12 @@ export const defaultSites: Site[] = [
   },
   {
     "id": "bd61d019-2446-458c-8553-95c43860ad7d",
+=======
+    "createdAt": 1786777921867
+  },
+  {
+    "id": "ebf942d2-ff97-4765-b4d2-80b51583a38f",
+>>>>>>> Stashed changes
 =======
     "createdAt": 1786777921867
   },
