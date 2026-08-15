@@ -13,6 +13,16 @@ const config: CapacitorConfig = {
       channelUrl: '',    // disable Capgo channels (we're self-hosted)
       autoUpdate: false,  // silently check & download updates in background
     },
+    SplashScreen: {
+      launchShowDuration: 0,
+      launchAutoHide: true,
+      backgroundColor: "#090d0a", // Engro Green theme bg
+      androidSplashResourceName: "splash",
+      androidScaleType: "CENTER_CROP",
+      showSpinner: false,
+      splashFullScreen: false,
+      splashImmersive: false
+    }
   },
 };
 

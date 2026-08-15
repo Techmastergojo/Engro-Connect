@@ -1,0 +1,29 @@
+[Scene 1: Introduction]
+Visual: 3D Pixar-style high-quality animation. The camera pans across a futuristic, glowing holographic map of Pakistan. Standing confidently in front of the map is HAMZA TEHSEEN, a charismatic and energetic animated 3D character wearing smart-casual tech attire (a sleek jacket with the Engro Enfrashare logo). Hamza smiles warmly at the camera.
+Lighting: Cinematic, soft studio lighting with neon green and blue accents reflecting off the holographic map.
+Action: Hamza swipes his hand through the air, and a massive, glowing tower materializes on the map. He points to it, and a dynamic 3D transition pulls the camera straight into the tower's data hub.
+
+[Scene 2: App Introduction]
+Visual: The camera zooms out of the data hub and seamlessly transitions into a high-resolution, photorealistic mockup of a modern smartphone floating in mid-air. The smartphone screen displays the sleek "Engro Enfrashare" app splash screen (dark theme with the green/blue Enfrashare logo).
+Action: Hamza Tehseen flies in on a hoverboard, landing gracefully next to the floating smartphone. He taps the screen. 
+Lighting: Dramatic rim lighting on Hamza, highlighting his expressions. The phone screen emits a soft, inviting glow.
+
+[Scene 3: Feature Showcase - Interactive Map]
+Visual: The smartphone screen transitions to the main app dashboard, showing the real-time interactive map with clustered site markers. 
+Action: Hamza Tehseen walks alongside the floating phone, explaining the features with expressive hand gestures. As he gestures, the camera cuts to a split-screen. On the left: Hamza enthusiastically pointing. On the right: Crisp, high-definition screenshots of the Engro Enfrashare app mapping interface, showing detailed site data (Site ID, Latitude, Longitude, Network Portfolio). The screenshots smoothly slide upward in a parallax effect.
+
+[Scene 4: Feature Showcase - Seamless Syncing]
+Visual: A dynamic, fast-paced montage. Hamza is now inside a glowing, digital server room. He holds up a digital tablet.
+Action: He presses a button on the tablet, and streams of glowing data (representing the 2,000+ cell sites) flow out of the tablet and directly into the floating smartphone screen, simulating lightning-fast OTA (Over-The-Air) updates and offline syncing. The app on the phone updates instantly to show a "Sync Complete" green checkmark.
+Lighting: High-contrast cyberpunk-style lighting.
+
+[Scene 5: Conclusion and Call to Action]
+Visual: The camera spirals around Hamza Tehseen as he stands proudly on a glass floor overlooking a sprawling, interconnected digital city representing Engro Enfrashare's vast network. The floating smartphone transforms into the prominent Engro Enfrashare logo (with a transparent background).
+Action: Hamza gives a confident thumbs-up to the camera and winks. The camera slowly pulls back, fading into a sleek, dark background with the text: "Engro Enfrashare - Empowering Connectivity." 
+Lighting: Bright, optimistic, and cinematic.
+
+[Style & Aesthetic Instructions for AI]
+- Character Design: Hamza Tehseen should be an expressive, modern 3D animated character (similar to modern Pixar or Disney tech-savvy protagonists).
+- Aesthetic: Clean, ultra-modern, corporate-tech, utilizing deep dark mode colors (#0f1115) accented with vibrant neon greens and blues.
+- Motion: Smooth, cinematic camera movements, utilizing parallax and dynamic depth-of-field to make the 2D app screenshots feel 3-dimensional and engaging.
+- Resolution: 4K, 60fps, hyper-detailed textures.

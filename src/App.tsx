@@ -8,6 +8,7 @@ import { SiteModal } from './components/SiteModal';
 import { SettingsPanel, applyTheme, THEMES } from './components/SettingsPanel';
 import { ChangelogModal } from './components/ChangelogModal';
 import { CapacitorUpdater } from '@capgo/capacitor-updater';
+import { SplashScreen } from '@capacitor/splash-screen';
 
 // Hardcoded token for bug reporting (public_repo scope only — can only create issues)
 // Low risk: even if extracted, can only post issues to this public repo
@@ -33,6 +34,8 @@ function App() {
   useEffect(() => {
     // Notify Capgo that the app booted successfully so it doesn't rollback OTA updates
     CapacitorUpdater.notifyAppReady();
+    // Force hide any native splash screen that might be lingering
+    SplashScreen.hide().catch(console.warn);
 
     // Show changelog if not seen yet
     const hasSeenChangelog = localStorage.getItem('has_seen_changelog_v4');
