@@ -37,6 +37,12 @@ function App() {
     // Force hide any native splash screen that might be lingering
     SplashScreen.hide().catch(console.warn);
 
+    // Show one-time OTA success notification (proves OTA is working)
+    if (!localStorage.getItem('ota_notif_shown_v1')) {
+      alert('✅ OTA updates are now working! This message confirms the update was received.');
+      localStorage.setItem('ota_notif_shown_v1', '1');
+    }
+
     // Show changelog if not seen yet
     const hasSeenChangelog = localStorage.getItem('has_seen_changelog_v4');
     if (!hasSeenChangelog) {
@@ -119,6 +125,7 @@ function App() {
           });
           
           setUpdateStatus('Installing and restarting...');
+          alert('🚀 OTA update downloaded! App will now restart with the new version.');
           await CapacitorUpdater.set(bundle);
         } catch (downloadErr: any) {
           alert(`Download failed: ${downloadErr.message || downloadErr}`);
@@ -253,7 +260,7 @@ function App() {
 
         {/* Logo — fixed width on left */}
         <img
-          src="/logo.png"
+          src="/Enfrashare-319x255.png"
           alt="Engro Enfrashare Logo"
           style={{ height: '60px', width: 'auto', objectFit: 'contain', flexShrink: 0, filter: `drop-shadow(0 4px 16px ${themeAccent}55)` }}
         />
