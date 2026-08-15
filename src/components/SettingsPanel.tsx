@@ -13,6 +13,7 @@ export const THEMES = [
   { id: 'rose-gold',      name: 'Rose Gold',     accent: '#f43f5e', bg: '#0d0609', surface: 'rgba(28,10,18,0.88)',  text: '#ffffff', secondary: '#fda4af' },
   { id: 'arctic-white',   name: 'Arctic White',  accent: '#0ea5e9', bg: '#f0f4f8', surface: 'rgba(255,255,255,0.9)',text: '#0f172a', secondary: '#475569' },
   { id: 'matrix-green',   name: 'Matrix',        accent: '#00ff41', bg: '#000000', surface: 'rgba(0,20,5,0.92)',    text: '#00ff41', secondary: '#00cc33' },
+  { id: 'sunset-orange',  name: '🌅 Sunset',     accent: '#ff6b35', bg: '#0d0704', surface: 'rgba(30,14,6,0.90)',   text: '#ffffff', secondary: '#ffc4a8' },
 ];
 
 export const applyTheme = (themeId: string) => {

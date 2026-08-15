@@ -49,6 +49,11 @@ export const SiteCard: React.FC<Props> = ({ site, onEdit, onDelete }) => {
     return s;
   };
 
+  // Normalize category: treat "Hub" as "NE Hub"
+  const displayCategory = site.category
+    ? (site.category.toLowerCase() === 'hub' || site.category.toLowerCase() === 'ne hub' ? 'NE Hub' : site.category)
+    : null;
+
   return (
     <div 
       className={`site-card animate-slide-up ${isExpanded ? 'expanded' : ''}`}
@@ -63,9 +68,14 @@ export const SiteCard: React.FC<Props> = ({ site, onEdit, onDelete }) => {
                 {site.siteStatus}
               </span>
             )}
-            {site.category && site.category !== '-' && (
-              <span className="badge" style={{ background: 'rgba(168, 85, 247, 0.15)', color: '#c084fc', border: '1px solid rgba(168, 85, 247, 0.3)' }}>
-                {site.category}
+            {displayCategory && displayCategory !== '-' && (
+              <span className="badge" style={{
+                background: displayCategory === 'NE Hub' ? 'rgba(251, 146, 60, 0.15)' : 'rgba(168, 85, 247, 0.15)',
+                color: displayCategory === 'NE Hub' ? '#fb923c' : '#c084fc',
+                border: `1px solid ${displayCategory === 'NE Hub' ? 'rgba(251,146,60,0.35)' : 'rgba(168,85,247,0.3)'}`,
+                fontWeight: 700,
+              }}>
+                {displayCategory}
               </span>
             )}
             {hasSolar && (
@@ -105,7 +115,7 @@ export const SiteCard: React.FC<Props> = ({ site, onEdit, onDelete }) => {
             <div className="detail-value">{v(site.zonalManager)}</div>
           </div>
 
-          {/* Operational & Site Specs */}
+          {/* Operational */}
           <div className="detail-item">
             <div className="detail-label" style={{ display: 'flex', alignItems: 'center', gap: '4px' }}>
               <Radio size={13} color="var(--accent)" /> Guest OMOs
@@ -124,8 +134,6 @@ export const SiteCard: React.FC<Props> = ({ site, onEdit, onDelete }) => {
             <div className="detail-label">Solar KWA</div>
             <div className="detail-value">{v(site.solarKwa)}</div>
           </div>
-
-          {/* Tower & Site Specs */}
           <div className="detail-item">
             <div className="detail-label">Dependent Sites</div>
             <div className="detail-value">{v(site.dependentSites || site.noOfSites)}</div>
@@ -135,40 +143,42 @@ export const SiteCard: React.FC<Props> = ({ site, onEdit, onDelete }) => {
             <div className="detail-value">{v(site.neLocation)}</div>
           </div>
 
-          {/* Operator IDs */}
-          <div className="detail-item">
-            <div className="detail-label">Jazz ID</div>
-            <div className="detail-value">{v(site.jazzId)}</div>
-          </div>
-          <div className="detail-item">
-            <div className="detail-label">Telenor ID</div>
-            <div className="detail-value">{v(site.telenorId)}</div>
-          </div>
-          <div className="detail-item">
-            <div className="detail-label">Zong ID</div>
-            <div className="detail-value">{v(site.zongId)}</div>
-          </div>
-          <div className="detail-item">
-            <div className="detail-label">Ufone ID</div>
-            <div className="detail-value">{v(site.ufoneId)}</div>
-          </div>
-
-          {/* Operator Approved Services */}
-          <div className="detail-item">
-            <div className="detail-label">Jazz Approved Services</div>
-            <div className="detail-value">{v(site.jazzApprovedServices)}</div>
-          </div>
-          <div className="detail-item">
-            <div className="detail-label">TP Approved Services</div>
-            <div className="detail-value">{v(site.tpApprovedServices)}</div>
-          </div>
-          <div className="detail-item">
-            <div className="detail-label">Zong Approved Services</div>
-            <div className="detail-value">{v(site.zongApprovedServices)}</div>
-          </div>
-          <div className="detail-item">
-            <div className="detail-label">Ufone Approved Services</div>
-            <div className="detail-value">{v(site.ufoneApprovedServices)}</div>
+          {/* Operator IDs + Services — each operator in one full-width row */}
+          <div className="detail-full" style={{ marginTop: '4px' }}>
+            <div style={{ fontSize: '0.72rem', fontWeight: 700, color: 'var(--accent)', textTransform: 'uppercase', letterSpacing: '0.08em', marginBottom: '8px' }}>
+              Operator IDs &amp; Approved Services
+            </div>
+            {[
+              { op: 'Jazz',    id: site.jazzId,    svc: site.jazzApprovedServices },
+              { op: 'Telenor', id: site.telenorId,  svc: site.tpApprovedServices },
+              { op: 'Zong',    id: site.zongId,     svc: site.zongApprovedServices },
+              { op: 'Ufone',   id: site.ufoneId,    svc: site.ufoneApprovedServices },
+            ].map(({ op, id, svc }) => {
+              const hasId  = id  && id  !== '-' && id  !== '';
+              const hasSvc = svc && svc !== '-' && svc !== '';
+              if (!hasId && !hasSvc) return null;
+              return (
+                <div key={op} style={{
+                  display: 'flex', alignItems: 'center', justifyContent: 'space-between',
+                  padding: '6px 10px', marginBottom: '4px',
+                  background: 'var(--accent-bg)', borderRadius: '8px',
+                  border: '1px solid var(--border)',
+                }}>
+                  <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+                    <span style={{ fontSize: '0.75rem', fontWeight: 800, color: 'var(--accent)', minWidth: '50px' }}>{op}</span>
+                    <span style={{ fontSize: '0.82rem', color: 'var(--text-primary)', fontFamily: 'monospace' }}>{v(id)}</span>
+                  </div>
+                  {hasSvc && (
+                    <span style={{
+                      fontSize: '0.72rem', fontWeight: 700,
+                      background: 'rgba(0,168,107,0.15)', color: 'var(--accent)',
+                      border: '1px solid var(--border)', borderRadius: '5px',
+                      padding: '2px 7px',
+                    }}>{svc}</span>
+                  )}
+                </div>
+              );
+            })}
           </div>
 
           <div className="detail-full" style={{ display: 'flex', gap: '8px', marginTop: '8px' }}>
