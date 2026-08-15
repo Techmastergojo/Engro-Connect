@@ -73,7 +73,7 @@ interface Props {
 
 export const SettingsPanel: React.FC<Props> = ({ isOpen, onClose, hasNewBugs, onBugsViewed, onForceUpdateCheck }) => {
   const [activeTab, setActiveTab] = useState<'theme' | 'bugs'>('theme');
-  const [currentTheme, setCurrentTheme] = useState(() => localStorage.getItem('app_theme') || 'engro-green');
+  const [currentTheme, setCurrentTheme] = useState(() => localStorage.getItem('app_theme') || 'sunset-orange');
   
   // Bug report state
   const [bugs, setBugs] = useState<BugReport[]>([]);

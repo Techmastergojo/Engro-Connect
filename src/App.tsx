@@ -44,7 +44,7 @@ function App() {
     }
 
     // Apply saved theme on startup
-    const savedTheme = localStorage.getItem('app_theme') || 'engro-green';
+    const savedTheme = localStorage.getItem('app_theme') || 'sunset-orange';
     applyTheme(savedTheme);
 
     // Load sites
@@ -244,7 +244,7 @@ function App() {
   });
 
   // Get accent color for current theme
-  const savedTheme = localStorage.getItem('app_theme') || 'engro-green';
+  const savedTheme = localStorage.getItem('app_theme') || 'sunset-orange';
   const themeAccent = THEMES.find(t => t.id === savedTheme)?.accent || '#00a86b';
 
   return (
