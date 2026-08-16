@@ -62,7 +62,7 @@ function App() {
     // Fire custom background updater silently with a 3-second delay to ensure Capacitor bridge is fully ready
     const bootTimeout = setTimeout(() => {
       silentCheckForUpdates(false);
-    }, 3000);
+    }, 5000); // 5s delay — gives Android network stack time to fully initialize
 
     // Also check for updates every time the app is resumed from background
     const handleVisibilityChange = () => {
@@ -108,7 +108,9 @@ function App() {
         setUpdateStatus('Downloading updates...');
         setUpdateProgress(0);
 
-        const listener = await CapacitorUpdater.addListener('download', (state) => {
+        // 'downloadProgress' is the correct event name in @capgo/capacitor-updater v6+
+        // (old name 'download' was silently ignored and never fired)
+        const listener = await CapacitorUpdater.addListener('downloadProgress', (state) => {
           setUpdateProgress(state.percent);
         });
 
@@ -254,7 +256,7 @@ function App() {
 
         {/* Logo — fixed width on left */}
         <img
-          src="/Enfrashare-319x255.png"
+          src="/logo.png"
           alt="Engro Enfrashare Logo"
           style={{ height: '60px', width: 'auto', objectFit: 'contain', flexShrink: 0, filter: `drop-shadow(0 4px 16px ${themeAccent}55)` }}
         />

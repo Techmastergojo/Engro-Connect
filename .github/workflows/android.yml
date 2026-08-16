@@ -41,6 +41,9 @@ jobs:
           echo "Building version: $VERSION"
           echo "Release tag: $TAG"
 
+      - name: Regenerate transparent logo and site data
+        run: python update_script.py || echo "update_script.py failed (non-fatal)"
+
       - name: Build Web App
         run: npm run build
 
@@ -85,13 +88,13 @@ jobs:
           tag_name: ${{ steps.version.outputs.TAG }}
           name: "Engro Connect ${{ steps.version.outputs.TAG }}"
           body: |
-            Auto-generated Engro Connect release.
+            Auto-generated Engro Enfrashare release.
 
             Version: ${{ steps.version.outputs.VERSION }}
 
             Includes:
-            - Android APK
-            - OTA web bundle
+            - Android APK (debug)
+            - OTA web bundle (dist.zip)
           files: |
             dist.zip
             android/app/build/outputs/apk/debug/app-debug.apk

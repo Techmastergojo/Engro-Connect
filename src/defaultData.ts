@@ -3,7 +3,7 @@ import type { Site } from "./types";
 
 export const defaultSites: Site[] = [
   {
-    "id": "77cf910f-a3dd-4df6-acdd-18742155bef1",
+    "id": "4116206a-f779-44b9-81fc-db08158d78d7",
     "name": "KMK9799",
     "lat": 31.9716,
     "lng": 74.2172,
@@ -28,10 +28,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101727
+    "createdAt": 1786860942786
   },
   {
-    "id": "651c89cd-efdf-4f57-bc17-cafd24c3170b",
+    "id": "e776af2e-4e87-445d-9977-9a07ad4e9dc6",
     "name": "RUR1051",
     "lat": 32.2444,
     "lng": 74.2615,
@@ -56,10 +56,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101727
+    "createdAt": 1786860942787
   },
   {
-    "id": "a1852c99-722b-4225-8376-1cb9f25e76b1",
+    "id": "33078ab5-2980-4790-bb21-31dd443f8e73",
     "name": "GUJ9439",
     "lat": 32.1309,
     "lng": 74.2082,
@@ -84,10 +84,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "DG",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101727
+    "createdAt": 1786860942787
   },
   {
-    "id": "a7ae1c64-c129-45a1-9089-25f41a3783c8",
+    "id": "6386f166-d126-4b91-a390-c6b59c049328",
     "name": "AMN3902",
     "lat": 32.0443,
     "lng": 74.2526,
@@ -112,10 +112,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101727
+    "createdAt": 1786860942788
   },
   {
-    "id": "8bbcec99-9d9c-4c4f-95ea-19d22a541c74",
+    "id": "2477b8c8-8b4b-4a9c-862b-7ef0b08df160",
     "name": "AMN5917",
     "lat": 32.0428,
     "lng": 74.2606,
@@ -140,10 +140,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101727
+    "createdAt": 1786860942788
   },
   {
-    "id": "84e67bc2-850f-4dfc-8f28-c6341f802095",
+    "id": "5fc53088-8746-44ad-93c7-3716da48aa92",
     "name": "GUJ0279",
     "lat": 32.1636,
     "lng": 74.2091,
@@ -168,10 +168,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101727
+    "createdAt": 1786860942788
   },
   {
-    "id": "5ed9b607-cc93-45bf-86fe-0249b3ff143f",
+    "id": "40277aeb-3590-4117-a4f8-0b28ee345795",
     "name": "GUJ0410",
     "lat": 32.155,
     "lng": 74.19,
@@ -196,10 +196,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101727
+    "createdAt": 1786860942788
   },
   {
-    "id": "3c0afd53-e82d-42e9-840d-4c17a4b0b7d8",
+    "id": "7cd48794-7a1e-4698-89b3-2dab77e29a4f",
     "name": "GUJ0470",
     "lat": 32.0887,
     "lng": 74.1794,
@@ -224,10 +224,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101727
+    "createdAt": 1786860942789
   },
   {
-    "id": "d68ad014-2a88-445f-9b23-e2cce00398eb",
+    "id": "df868546-2ad0-49c1-bdbf-fa021fe77c66",
     "name": "GUJ0727",
     "lat": 32.1258,
     "lng": 74.1926,
@@ -252,10 +252,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "DG",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101727
+    "createdAt": 1786860942789
   },
   {
-    "id": "998e807e-2369-4e74-96e9-ca8932e49533",
+    "id": "741f37e1-a339-49cf-b046-61746d67dd31",
     "name": "GUJ0728",
     "lat": 32.1848,
     "lng": 74.2078,
@@ -280,10 +280,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101727
+    "createdAt": 1786860942790
   },
   {
-    "id": "1305d92a-e501-4bc8-b8e3-2cb933f722f9",
+    "id": "086d7d0d-3cac-40fd-9594-68c5cac371b5",
     "name": "GUJ0785",
     "lat": 32.1658,
     "lng": 74.196,
@@ -308,10 +308,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "DG",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101727
+    "createdAt": 1786860942790
   },
   {
-    "id": "546d93d8-2a86-4eaa-aaf7-e6a59d36c6fa",
+    "id": "86667096-973b-4e69-99bd-ac237376029a",
     "name": "GUJ1538",
     "lat": 32.099143,
     "lng": 74.174142,
@@ -336,10 +336,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101727
+    "createdAt": 1786860942790
   },
   {
-    "id": "bbb2ea84-f8e8-437f-9bb2-572155e773e1",
+    "id": "db8ae4d7-5aff-4e17-ad03-93fed78b5e38",
     "name": "GUJ1644",
     "lat": 32.1211,
     "lng": 74.1878,
@@ -364,10 +364,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101727
+    "createdAt": 1786860942790
   },
   {
-    "id": "f31415a1-66e4-4ba6-ab5c-980ae52f6447",
+    "id": "aa4b862d-bf95-4eec-bfd6-c12ae0613787",
     "name": "GUJ3031",
     "lat": 32.119,
     "lng": 74.1715,
@@ -392,10 +392,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101727
+    "createdAt": 1786860942790
   },
   {
-    "id": "194a8e0f-ee66-406b-834a-321925551290",
+    "id": "b4456de9-2267-4306-bc27-a863b5508655",
     "name": "GUJ3064",
     "lat": 32.1296,
     "lng": 74.1848,
@@ -420,10 +420,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101727
+    "createdAt": 1786860942791
   },
   {
-    "id": "45b916bc-0cac-4265-8cdc-bacc0d86196d",
+    "id": "2b1bb02f-4a94-43cc-8e93-e4dec7521f36",
     "name": "GUJ3065",
     "lat": 32.1165,
     "lng": 74.1886,
@@ -448,10 +448,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101727
+    "createdAt": 1786860942792
   },
   {
-    "id": "f09426dc-c33a-4fef-8ded-fcf205482e35",
+    "id": "eb8aef92-33a0-46ff-a7a3-3a1188e7abe4",
     "name": "GUJ3089",
     "lat": 32.1573,
     "lng": 74.2002,
@@ -476,10 +476,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101727
+    "createdAt": 1786860942797
   },
   {
-    "id": "f9518408-8d46-462c-92ec-94451e9749b3",
+    "id": "724708c8-adfa-4ba2-a726-014f651a5084",
     "name": "GUJ3195",
     "lat": 32.1568,
     "lng": 74.1953,
@@ -504,10 +504,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101727
+    "createdAt": 1786860942797
   },
   {
-    "id": "a85ca38b-4065-43c3-87ba-be28df306d9c",
+    "id": "cda33b6c-ee15-4e09-8253-2bc0a2ab7c00",
     "name": "GUJ3305",
     "lat": 32.1496,
     "lng": 74.2057,
@@ -532,10 +532,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101727
+    "createdAt": 1786860942797
   },
   {
-    "id": "be48a54b-8ecf-4810-9952-b8d9e3abe2eb",
+    "id": "3e5c0be5-6565-4f53-8196-390fafc06a25",
     "name": "GUJ3306",
     "lat": 32.1772,
     "lng": 74.1884,
@@ -560,10 +560,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101727
+    "createdAt": 1786860942798
   },
   {
-    "id": "49d3c450-5aa3-44f7-ad1b-34e941e09f75",
+    "id": "3273238d-a907-4d01-8c3c-05101d4896b0",
     "name": "GUJ3339",
     "lat": 32.1727,
     "lng": 74.195,
@@ -588,10 +588,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101727
+    "createdAt": 1786860942798
   },
   {
-    "id": "bc7102ac-df8e-4c99-be45-63fe5e34ca74",
+    "id": "0510842b-9a35-486d-b4d3-0aa271e8bd7e",
     "name": "GUJ3346",
     "lat": 32.1806,
     "lng": 74.198,
@@ -616,10 +616,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101727
+    "createdAt": 1786860942798
   },
   {
-    "id": "cb5fc29f-61e1-42a0-a8b6-41935e6145e5",
+    "id": "272112ba-7054-4ebc-a2c1-5d927d86e638",
     "name": "GUJ3348",
     "lat": 32.1501,
     "lng": 74.196,
@@ -644,10 +644,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101727
+    "createdAt": 1786860942798
   },
   {
-    "id": "4fbdf646-b68e-4106-a8fb-699a595810d6",
+    "id": "65b86fb0-a974-4e0f-b6eb-e52a9d91f408",
     "name": "GUJ3349",
     "lat": 32.15594,
     "lng": 74.212614,
@@ -672,10 +672,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101727
+    "createdAt": 1786860942799
   },
   {
-    "id": "8a644141-3b36-471a-b2bd-927e50a71a9c",
+    "id": "ce7610f9-0070-425c-8a54-973c80f6692e",
     "name": "GUJ3350",
     "lat": 32.1712,
     "lng": 74.2134,
@@ -700,10 +700,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "DG",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101727
+    "createdAt": 1786860942799
   },
   {
-    "id": "5249192e-3a47-4885-b7a1-5f9035ded621",
+    "id": "f3e8ee4d-4c35-4eae-b913-66b0c0da95e1",
     "name": "GUJ3359",
     "lat": 32.169383,
     "lng": 74.204165,
@@ -728,10 +728,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101727
+    "createdAt": 1786860942799
   },
   {
-    "id": "6892ad24-00cc-4c5a-8ba2-32b61c9ec565",
+    "id": "bb79828c-0330-4af8-919d-d0cbe73cd62c",
     "name": "GUJ3741",
     "lat": 32.1089,
     "lng": 74.1964,
@@ -756,10 +756,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101727
+    "createdAt": 1786860942799
   },
   {
-    "id": "79246c87-a936-47ed-8bbd-2e264f4a25e3",
+    "id": "63f2dbf1-a6fa-45c6-99b7-fe13d704e6ef",
     "name": "GUJ3742",
     "lat": 32.1285,
     "lng": 74.1604,
@@ -784,10 +784,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101727
+    "createdAt": 1786860942800
   },
   {
-    "id": "cc28dd33-5819-4047-b6c0-53cc3dc3950e",
+    "id": "a02ccc5e-80da-489d-af06-bd644c0a42d0",
     "name": "GUJ3744",
     "lat": 32.1437,
     "lng": 74.2064,
@@ -812,10 +812,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101727
+    "createdAt": 1786860942800
   },
   {
-    "id": "740479ec-26fa-428d-9ee3-2434803ca3ea",
+    "id": "cf5841a7-daab-41b6-9aa5-4ef7bcb0bdc7",
     "name": "GUJ3745",
     "lat": 32.1637,
     "lng": 74.2024,
@@ -840,10 +840,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101727
+    "createdAt": 1786860942800
   },
   {
-    "id": "1d23a02a-c0b0-41f1-b489-26b0869025b5",
+    "id": "c244639c-c5b8-46fe-8eaa-c2402532734a",
     "name": "GUJ3778",
     "lat": 32.1792,
     "lng": 74.203,
@@ -868,10 +868,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101727
+    "createdAt": 1786860942800
   },
   {
-    "id": "ef23c68a-9bb1-4657-a662-f2d4cbb0ef03",
+    "id": "42144175-a1e6-409c-b352-147940d596d9",
     "name": "GUJ3803",
     "lat": 32.1901,
     "lng": 74.2107,
@@ -896,10 +896,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101727
+    "createdAt": 1786860942800
   },
   {
-    "id": "93c39a86-f530-4116-a380-d70d7683f849",
+    "id": "592e9fc9-d4a1-4233-8595-938a8465bc74",
     "name": "GUJ3875",
     "lat": 32.1954,
     "lng": 74.213,
@@ -924,10 +924,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101727
+    "createdAt": 1786860942800
   },
   {
-    "id": "32d5933d-f5b4-4117-9b59-70242546b161",
+    "id": "c7aa28ae-97e1-40c8-909f-164b39ceea5b",
     "name": "GUJ3885",
     "lat": 32.1497,
     "lng": 74.2007,
@@ -952,10 +952,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "DG",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101727
+    "createdAt": 1786860942801
   },
   {
-    "id": "26da6f98-debc-4e2e-b201-37fe81408357",
+    "id": "185b7154-4d3c-4a40-bc04-96aa1c87668a",
     "name": "GUJ3887",
     "lat": 32.0966,
     "lng": 74.1973,
@@ -980,10 +980,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101727
+    "createdAt": 1786860942801
   },
   {
-    "id": "a84620f7-4c02-462f-83b4-84bb1f2372eb",
+    "id": "de71fc4e-c283-4a98-9564-daacf41062a5",
     "name": "GUJ3945",
     "lat": 32.1464,
     "lng": 74.1935,
@@ -1008,10 +1008,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101727
+    "createdAt": 1786860942801
   },
   {
-    "id": "8d13b827-f64c-41f3-89fe-5af2383f4690",
+    "id": "dfe59e2c-e106-414f-b660-564f05b491e1",
     "name": "GUJ4143",
     "lat": 32.1738,
     "lng": 74.2056,
@@ -1036,10 +1036,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101727
+    "createdAt": 1786860942801
   },
   {
-    "id": "695e73a7-b22b-4d1d-8655-bef190df1007",
+    "id": "32c50cd5-c534-43f9-b64a-ce52f900343f",
     "name": "GUJ4144",
     "lat": 32.1602,
     "lng": 74.1946,
@@ -1064,10 +1064,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101727
+    "createdAt": 1786860942801
   },
   {
-    "id": "4eb70929-fd52-46ed-b4c1-195b199d0b8a",
+    "id": "f2bc823e-378c-4e61-982d-dca4190f90e6",
     "name": "GUJ4656",
     "lat": 32.1648,
     "lng": 74.1905,
@@ -1092,10 +1092,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101727
+    "createdAt": 1786860942802
   },
   {
-    "id": "915b5fd5-b633-4ad2-8d5c-2ad713d1ee60",
+    "id": "c4f48241-cf0a-4481-a4e0-2478e9322dfd",
     "name": "GUJ4658",
     "lat": 32.1492,
     "lng": 74.2131,
@@ -1120,10 +1120,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101727
+    "createdAt": 1786860942802
   },
   {
-    "id": "5a77d454-4a7b-48bf-bf80-1fd7f241b6cb",
+    "id": "0ffcd7b1-7575-426a-8694-2243665ea16d",
     "name": "GUJ4662",
     "lat": 32.1072,
     "lng": 74.184,
@@ -1148,10 +1148,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101727
+    "createdAt": 1786860942802
   },
   {
-    "id": "66fdcb66-e77a-421d-a5d0-f63934a90eef",
+    "id": "3f296457-804b-4ae2-99cc-2ca9a62a1288",
     "name": "GUJ5105",
     "lat": 32.1575,
     "lng": 74.1884,
@@ -1176,10 +1176,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101728
+    "createdAt": 1786860942802
   },
   {
-    "id": "0dda78ce-d295-4d6b-92be-deeb8bae10c4",
+    "id": "ec729ccf-20a3-4e23-a62c-bbb00a899761",
     "name": "GUJ6948",
     "lat": 32.1636,
     "lng": 74.2312,
@@ -1204,10 +1204,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "DG",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101728
+    "createdAt": 1786860942802
   },
   {
-    "id": "c9c715fc-7347-403c-8408-4eaf76129b92",
+    "id": "62868a07-08d1-4cc7-9544-84514c8a86ad",
     "name": "GUJ6949",
     "lat": 32.1446,
     "lng": 74.2317,
@@ -1232,10 +1232,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "CP",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101728
+    "createdAt": 1786860942802
   },
   {
-    "id": "9e3b8376-865e-466c-99de-373f2dde813d",
+    "id": "2ce1105e-b3f3-4ea7-b05b-7b444301828f",
     "name": "GUJ8945",
     "lat": 32.1534,
     "lng": 74.2033,
@@ -1260,10 +1260,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101728
+    "createdAt": 1786860942803
   },
   {
-    "id": "9a8e5db8-48e4-4882-a3c0-66379141483c",
+    "id": "87d7c909-1366-4af5-a39f-6f048453c4b1",
     "name": "GUJ9406",
     "lat": 32.1423,
     "lng": 74.1983,
@@ -1288,10 +1288,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101728
+    "createdAt": 1786860942803
   },
   {
-    "id": "a74a87bf-87f6-484f-aadd-9241506425e3",
+    "id": "8ae3d73c-0db7-415b-b51f-81f5cbee385d",
     "name": "GUJ9407",
     "lat": 32.1588,
     "lng": 74.2098,
@@ -1316,10 +1316,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101728
+    "createdAt": 1786860942803
   },
   {
-    "id": "3bce0a77-5375-4c39-8769-71dee37e3c65",
+    "id": "29e2efb2-6453-4c8f-a6ee-4a0575bbf3b1",
     "name": "GUJ9414",
     "lat": 32.1381,
     "lng": 74.2083,
@@ -1344,10 +1344,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101728
+    "createdAt": 1786860942803
   },
   {
-    "id": "26ed88f9-719f-456c-9680-b2884ad88d05",
+    "id": "5ba1cc28-03a4-45ed-9023-cfc5b75932c4",
     "name": "GUJ9415",
     "lat": 32.1367,
     "lng": 74.2135,
@@ -1372,10 +1372,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101728
+    "createdAt": 1786860942803
   },
   {
-    "id": "1f076e44-1b60-489e-8061-69a42cddc7ba",
+    "id": "8b0c2449-3ad6-4c55-9802-1e54d8172e97",
     "name": "GUJ9417",
     "lat": 32.1533,
     "lng": 74.1988,
@@ -1400,10 +1400,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101728
+    "createdAt": 1786860942804
   },
   {
-    "id": "49379d60-28b2-4827-85e4-776a98858405",
+    "id": "4bab1c78-8b4a-4ce9-a48b-e7598ebabc62",
     "name": "GUJ9418",
     "lat": 32.1502,
     "lng": 74.2163,
@@ -1428,10 +1428,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "DG",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101728
+    "createdAt": 1786860942804
   },
   {
-    "id": "1fa03fe6-3426-43b3-95aa-a64daa132e70",
+    "id": "1ee81df4-18ac-4dcf-91d3-dda5db031a64",
     "name": "GUJ9422",
     "lat": 32.1592,
     "lng": 74.1844,
@@ -1456,10 +1456,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101728
+    "createdAt": 1786860942804
   },
   {
-    "id": "4fd836ab-7828-414b-884c-5686fb0ac215",
+    "id": "437a8720-0c43-466a-8d86-e5fedab2cd2c",
     "name": "GUJ9427",
     "lat": 32.1559,
     "lng": 74.1854,
@@ -1484,10 +1484,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101728
+    "createdAt": 1786860942804
   },
   {
-    "id": "128177f1-42cd-40c4-8948-23f787e18eec",
+    "id": "bbb029ac-94b7-4be5-a0fa-bc694be3995b",
     "name": "GUJ9434",
     "lat": 32.1258,
     "lng": 74.1797,
@@ -1512,10 +1512,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101728
+    "createdAt": 1786860942804
   },
   {
-    "id": "736df259-a058-499c-9cc8-3bf6e98af783",
+    "id": "9ed5fc61-d7d7-4a4f-b594-df5fc5adec03",
     "name": "GUJ9437",
     "lat": 32.0928,
     "lng": 74.185,
@@ -1540,10 +1540,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101728
+    "createdAt": 1786860942804
   },
   {
-    "id": "e1130cc4-3bdb-4865-9101-12ccbd392900",
+    "id": "e86f77cf-6ced-43d0-98af-8f684ecf4e00",
     "name": "GUJ9448",
     "lat": 32.1368,
     "lng": 74.2015,
@@ -1568,10 +1568,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101728
+    "createdAt": 1786860942805
   },
   {
-    "id": "495d8585-3996-458d-ab28-d1fa97339f4b",
+    "id": "03427333-bda0-46dc-8f33-d808cb309d84",
     "name": "GUJ9449",
     "lat": 32.1349,
     "lng": 74.1959,
@@ -1596,10 +1596,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101728
+    "createdAt": 1786860942805
   },
   {
-    "id": "2f1f681c-59bb-4bce-9f0a-2d59585b461f",
+    "id": "f37a3230-726e-4e80-8325-3d24ea590af1",
     "name": "GUJ9454",
     "lat": 32.1237,
     "lng": 74.1971,
@@ -1624,10 +1624,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101728
+    "createdAt": 1786860942805
   },
   {
-    "id": "3820f34b-c3af-4757-9dba-89f83a164800",
+    "id": "a99edc4f-e423-4c12-ad48-94111cf9e1dd",
     "name": "GUJ9459",
     "lat": 32.1982,
     "lng": 74.2101,
@@ -1652,10 +1652,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101728
+    "createdAt": 1786860942806
   },
   {
-    "id": "340b2794-8635-489c-951e-aa385e0b5376",
+    "id": "253e013d-a625-4702-a268-9ae205138e32",
     "name": "GUJ9462",
     "lat": 32.1794,
     "lng": 74.1929,
@@ -1680,10 +1680,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101728
+    "createdAt": 1786860942806
   },
   {
-    "id": "6059eb81-f43c-41d2-8228-1b5e4a3f07c2",
+    "id": "68e25c47-b534-4449-ba24-76872496c12a",
     "name": "GUJ9463",
     "lat": 32.1652,
     "lng": 74.2243,
@@ -1708,10 +1708,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101728
+    "createdAt": 1786860942806
   },
   {
-    "id": "0ac08cab-6a88-4fc5-ac2d-0c4026e426b0",
+    "id": "da964f8e-887b-4440-ae2b-da9b0612f4db",
     "name": "GUJ9464",
     "lat": 32.1618,
     "lng": 74.2169,
@@ -1736,10 +1736,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101728
+    "createdAt": 1786860942806
   },
   {
-    "id": "2af5f84d-b7fd-4c73-93cf-b9f0264947a7",
+    "id": "f06243a3-20fa-4097-8316-4686b4b2aa22",
     "name": "GUJ9465",
     "lat": 32.1672,
     "lng": 74.2094,
@@ -1764,10 +1764,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101728
+    "createdAt": 1786860942806
   },
   {
-    "id": "8c9c6602-e26a-42dd-a82c-d6dade0cb793",
+    "id": "c1038545-8153-4160-83a0-d556a064cac1",
     "name": "GUJ9730",
     "lat": 32.2034,
     "lng": 74.2095,
@@ -1792,10 +1792,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101728
+    "createdAt": 1786860942806
   },
   {
-    "id": "538e02f4-72a9-41a9-bbcb-cfc7048961e1",
+    "id": "1f6929bf-5f64-454e-9284-3a9530578117",
     "name": "GUJ9809",
     "lat": 32.1426,
     "lng": 74.2149,
@@ -1820,10 +1820,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101728
+    "createdAt": 1786860942807
   },
   {
-    "id": "fc651d64-0425-4f7a-98e3-f2f894403f70",
+    "id": "1d6eaac7-a388-4bd3-b899-0b3b6bd62c72",
     "name": "GUJ9849",
     "lat": 32.1554,
     "lng": 74.2191,
@@ -1848,10 +1848,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101728
+    "createdAt": 1786860942807
   },
   {
-    "id": "170deb8d-f2c8-4a08-97be-bd66c2501022",
+    "id": "7f9f368a-d035-4f99-a398-0873b9b9c8e3",
     "name": "GUJ9878",
     "lat": 32.170072,
     "lng": 74.194208,
@@ -1876,10 +1876,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101728
+    "createdAt": 1786860942807
   },
   {
-    "id": "90906274-b07d-46b1-9d65-e830edc7995a",
+    "id": "9fcd44de-c42c-48f1-a6ab-096a76b4048a",
     "name": "GUJ9949",
     "lat": 32.1575,
     "lng": 74.1825,
@@ -1904,10 +1904,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101728
+    "createdAt": 1786860942807
   },
   {
-    "id": "d12475af-8adb-4b87-b53a-934d06fe9438",
+    "id": "23142192-0235-40c8-9e3e-c8851d0bbda8",
     "name": "GUJ9995",
     "lat": 32.1846,
     "lng": 74.2017,
@@ -1932,10 +1932,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101728
+    "createdAt": 1786860942807
   },
   {
-    "id": "ca73eb17-e105-4774-82a5-594cbac138f0",
+    "id": "1a455e09-1bc9-4760-a66b-a5670043d953",
     "name": "GUJ9999",
     "lat": 32.1191,
     "lng": 74.1757,
@@ -1960,10 +1960,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101728
+    "createdAt": 1786860942808
   },
   {
-    "id": "bd53c88d-e01b-44e4-8f7d-065df29faeae",
+    "id": "167b6bb4-d8de-40ca-9b93-b6b293ed2ead",
     "name": "HMP9711",
     "lat": 32.0869,
     "lng": 74.3406,
@@ -1988,10 +1988,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101728
+    "createdAt": 1786860942809
   },
   {
-    "id": "bd9d437a-b33b-4f4f-8ae8-d541c40a9503",
+    "id": "b040e490-fb62-4ef0-ad26-a219e3d2ed57",
     "name": "HMP9712",
     "lat": 32.1032,
     "lng": 74.386,
@@ -2016,10 +2016,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101728
+    "createdAt": 1786860942810
   },
   {
-    "id": "a4497e60-4f18-4173-900f-78fc0bafcea7",
+    "id": "0ed4378a-e276-445c-bd8f-c583cb9351b7",
     "name": "HWY0234",
     "lat": 32.0555,
     "lng": 74.2134,
@@ -2044,10 +2044,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101728
+    "createdAt": 1786860942812
   },
   {
-    "id": "6a42109d-647f-4d57-ba87-90ea47562a25",
+    "id": "fa971dbe-f7a5-4f3b-819b-42ab68576344",
     "name": "HWY3266",
     "lat": 32.0559,
     "lng": 74.5552,
@@ -2072,10 +2072,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101728
+    "createdAt": 1786860942812
   },
   {
-    "id": "39acf729-74fd-4bd0-a1f0-118c9f12f31d",
+    "id": "df4c15a2-c3d6-4890-9a7c-d146c3b158e3",
     "name": "HWY3362",
     "lat": 32.04856,
     "lng": 74.210263,
@@ -2100,10 +2100,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101728
+    "createdAt": 1786860942812
   },
   {
-    "id": "181eff56-1eff-4440-91d6-16f8b4d4a9d8",
+    "id": "79197661-7fad-42be-a4fa-9c58590af8a7",
     "name": "HWY6907",
     "lat": 32.010502,
     "lng": 74.213481,
@@ -2128,10 +2128,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "CP",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101728
+    "createdAt": 1786860942813
   },
   {
-    "id": "bdfdfbea-9e68-4acf-81c4-749d39a7820c",
+    "id": "3c48bb69-0347-45de-a91e-58c0c1b571e8",
     "name": "HWY8837",
     "lat": 32.07262,
     "lng": 74.203246,
@@ -2156,10 +2156,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "CP",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101728
+    "createdAt": 1786860942813
   },
   {
-    "id": "70d829e3-9a23-4132-af7e-c46c520007a0",
+    "id": "86b78cc0-3122-43df-b7d4-fc32db0d9bb1",
     "name": "HWY9429",
     "lat": 32.0832,
     "lng": 74.2039,
@@ -2184,10 +2184,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101728
+    "createdAt": 1786860942813
   },
   {
-    "id": "2d3e6124-a1a8-4fee-8d57-c610f0853530",
+    "id": "cbd5bd7b-14d9-4756-8f23-cfa9f9d700ad",
     "name": "HWY9737",
     "lat": 32.0552,
     "lng": 74.2069,
@@ -2212,10 +2212,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101728
+    "createdAt": 1786860942813
   },
   {
-    "id": "f3c1eba0-a41d-44a2-8da0-67c318d1b9b7",
+    "id": "34e60235-6d6e-4802-8738-bed515084b6a",
     "name": "KMK8569",
     "lat": 31.9601,
     "lng": 74.2256,
@@ -2240,10 +2240,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101728
+    "createdAt": 1786860942814
   },
   {
-    "id": "91cd90f2-7da1-40d6-8b30-203f043bae31",
+    "id": "18be7f67-dc6b-46b5-aac7-91bd240e0d0a",
     "name": "KMK3244",
     "lat": 31.9862,
     "lng": 74.2328,
@@ -2268,10 +2268,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101728
+    "createdAt": 1786860942814
   },
   {
-    "id": "b3607237-558f-45f8-bfab-a213a685e505",
+    "id": "a8649d2e-f7b3-4a0d-ab96-9ccf6e4d8e85",
     "name": "KMK4008",
     "lat": 31.9737,
     "lng": 74.2293,
@@ -2296,10 +2296,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101728
+    "createdAt": 1786860942814
   },
   {
-    "id": "413231be-38a9-4dd2-a6bf-5be854787f8a",
+    "id": "8f313b4f-b069-4067-8bfa-9eb3eccb0602",
     "name": "KMK4469",
     "lat": 31.9691,
     "lng": 74.2241,
@@ -2324,10 +2324,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101728
+    "createdAt": 1786860942814
   },
   {
-    "id": "9b0469c9-fbf3-4a2e-a4bc-e5abf9159d7f",
+    "id": "2ed6551a-ae62-4d3f-ab79-a008282dd9c5",
     "name": "KMK4470",
     "lat": 31.9774,
     "lng": 74.2223,
@@ -2352,10 +2352,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101728
+    "createdAt": 1786860942814
   },
   {
-    "id": "bb8bffe9-c7de-482f-bcb7-78981d03301d",
+    "id": "d44b20cf-7c57-4463-afad-11867513142f",
     "name": "KMK5925",
     "lat": 31.9663,
     "lng": 74.2353,
@@ -2380,10 +2380,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "DG",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101728
+    "createdAt": 1786860942815
   },
   {
-    "id": "8813ef18-2e2d-4677-ac57-855d5669d74f",
+    "id": "5372b192-7a91-4988-904d-167c38d11b77",
     "name": "KMK5928",
     "lat": 31.9804,
     "lng": 74.2255,
@@ -2408,10 +2408,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101728
+    "createdAt": 1786860942815
   },
   {
-    "id": "7b6794f2-ae06-4f43-affb-4853de3d77c0",
+    "id": "652795bc-413e-4dea-8a8c-8845353e7bdd",
     "name": "KMK5929",
     "lat": 31.9649,
     "lng": 74.2175,
@@ -2436,10 +2436,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101728
+    "createdAt": 1786860942815
   },
   {
-    "id": "c2867363-0826-4898-99a8-5a55c4b75c52",
+    "id": "95f344e3-69f0-4034-8159-5b4f42356393",
     "name": "KMK5930",
     "lat": 31.9728,
     "lng": 74.2221,
@@ -2464,10 +2464,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101728
+    "createdAt": 1786860942815
   },
   {
-    "id": "e2b65791-3a61-4822-b416-064398be0db2",
+    "id": "af558cbc-5c9e-470f-872b-a5e27ea71dca",
     "name": "KMK5931",
     "lat": 31.9767,
     "lng": 74.22,
@@ -2492,10 +2492,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101728
+    "createdAt": 1786860942815
   },
   {
-    "id": "b960870f-f2fb-4c16-bed3-9ed6d02d2de9",
+    "id": "747ff3fb-be06-459d-99bb-65255b5e8bd9",
     "name": "KMK6922",
     "lat": 31.9811,
     "lng": 74.2314,
@@ -2520,10 +2520,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101729
+    "createdAt": 1786860942816
   },
   {
-    "id": "13862f9b-5b03-4808-afef-47553cd34bcb",
+    "id": "0d75ab72-52d7-4f63-a6c2-997f4148ef5f",
     "name": "KMK6923",
     "lat": 31.9783,
     "lng": 74.2142,
@@ -2548,10 +2548,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101729
+    "createdAt": 1786860942816
   },
   {
-    "id": "8a643eb1-4b0a-4a67-9108-7632b239b38d",
+    "id": "97bd8212-28ba-4bb8-9e77-542210e45142",
     "name": "KMK8981",
     "lat": 31.9643,
     "lng": 74.2204,
@@ -2576,10 +2576,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101729
+    "createdAt": 1786860942816
   },
   {
-    "id": "e3ead0ae-c051-4825-be19-2ac82ecfc5ff",
+    "id": "d62ed199-9907-4dd0-bc93-380d6dab91ae",
     "name": "KMK9898",
     "lat": 31.9607,
     "lng": 74.2155,
@@ -2604,10 +2604,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101729
+    "createdAt": 1786860942816
   },
   {
-    "id": "9c4c820b-bb45-4c94-a1a4-ebd59b1872d3",
+    "id": "e1a3e6ba-2ea8-4433-97a8-5897ef4d03ed",
     "name": "KNB9978",
     "lat": 32.0502,
     "lng": 74.3399,
@@ -2632,10 +2632,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101729
+    "createdAt": 1786860942816
   },
   {
-    "id": "771585cd-4924-44b4-9ef7-5d72825e68c3",
+    "id": "c779cecd-41f6-46a1-a6b5-63d4fcd6a2ce",
     "name": "KNB9979",
     "lat": 31.999859,
     "lng": 74.326109,
@@ -2660,10 +2660,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101729
+    "createdAt": 1786860942817
   },
   {
-    "id": "a2f21055-71ed-48fb-9178-5d66943face6",
+    "id": "785b2a60-d08e-4560-b817-dfa473ea22b0",
     "name": "RUR3076",
     "lat": 32.081,
     "lng": 74.2292,
@@ -2688,10 +2688,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101729
+    "createdAt": 1786860942817
   },
   {
-    "id": "711c1f30-3b7a-4074-9e9c-25c61fd9538a",
+    "id": "0e1873ce-6fcf-46e2-a38f-8456de1a5a0f",
     "name": "RUR3562",
     "lat": 31.947249,
     "lng": 74.345206,
@@ -2716,10 +2716,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101729
+    "createdAt": 1786860942817
   },
   {
-    "id": "8f5d913a-e20b-416e-810e-a064f6766a59",
+    "id": "83d521d0-ddd6-4db8-adc4-98f30a19b1a2",
     "name": "RUR3753",
     "lat": 31.923,
     "lng": 74.0954,
@@ -2744,10 +2744,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101729
+    "createdAt": 1786860942817
   },
   {
-    "id": "a436892d-7ace-498b-ad37-7ea45a333790",
+    "id": "df950209-32d3-4057-b77e-da3299591075",
     "name": "RUR4666",
     "lat": 32.2261,
     "lng": 74.2438,
@@ -2772,10 +2772,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101729
+    "createdAt": 1786860942817
   },
   {
-    "id": "31a53185-ad94-43dc-ba45-ab0c92ef784c",
+    "id": "39644907-cd70-4f93-af71-88786de1fb0f",
     "name": "RUR4668",
     "lat": 32.1243,
     "lng": 74.3148,
@@ -2800,10 +2800,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101729
+    "createdAt": 1786860942818
   },
   {
-    "id": "f53b7091-059c-4373-b26d-269def4b66d7",
+    "id": "6dd214ea-122b-4db7-a33f-9004b6982b11",
     "name": "RUR4796",
     "lat": 32.1392,
     "lng": 74.2669,
@@ -2828,10 +2828,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101729
+    "createdAt": 1786860942818
   },
   {
-    "id": "3ed5b0bf-f394-466a-af2d-3cf9ab24c4f2",
+    "id": "f646aa27-a5c4-43b2-8157-cc1c2b71e03a",
     "name": "RUR5915",
     "lat": 31.9073,
     "lng": 74.1715,
@@ -2856,10 +2856,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101729
+    "createdAt": 1786860942818
   },
   {
-    "id": "b4a1fadd-4996-434b-a4c6-9a1dd7818648",
+    "id": "490f1dcb-d2e9-4792-abec-d3e8d6026c2e",
     "name": "RUR5945",
     "lat": 31.9063,
     "lng": 74.0846,
@@ -2884,10 +2884,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101729
+    "createdAt": 1786860942818
   },
   {
-    "id": "891e00c2-2eaf-4029-b445-33eebd797cf5",
+    "id": "777fc5b6-fb64-4553-9a63-b540f6a5228e",
     "name": "RUR8156",
     "lat": 32.1564,
     "lng": 74.3346,
@@ -2912,10 +2912,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101729
+    "createdAt": 1786860942818
   },
   {
-    "id": "5180d29f-3546-49a1-a5ef-7dd6bc6c414d",
+    "id": "0af18fdd-8ea2-4e6d-ad30-917c66022bf3",
     "name": "RUR9455",
     "lat": 32.1125,
     "lng": 74.3075,
@@ -2940,10 +2940,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101729
+    "createdAt": 1786860942818
   },
   {
-    "id": "612e404c-3634-4314-8cde-215ca0482787",
+    "id": "07cf6228-84f5-46aa-8b0a-e6258a4f22b8",
     "name": "SDK5916",
     "lat": 31.9073,
     "lng": 74.2343,
@@ -2968,10 +2968,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101729
+    "createdAt": 1786860942819
   },
   {
-    "id": "ce9521b6-b97a-4bb8-87df-c95714cab9bd",
+    "id": "c006662b-d689-43ac-8188-e3a311675154",
     "name": "SDK8856",
     "lat": 31.9025,
     "lng": 74.2271,
@@ -2996,10 +2996,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101729
+    "createdAt": 1786860942819
   },
   {
-    "id": "6bc4690b-4eef-47a9-aa98-e66b38146dd2",
+    "id": "67138c48-e1a9-4117-864f-e8de9a397764",
     "name": "TKW9893",
     "lat": 32.26477418,
     "lng": 74.23527507,
@@ -3024,10 +3024,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101729
+    "createdAt": 1786860942819
   },
   {
-    "id": "5f26bd27-9f24-4b11-984a-3fbaa3e5ea71",
+    "id": "4addca68-5f48-4354-b1f4-8918b71919c8",
     "name": "TMK8993",
     "lat": 32.2307,
     "lng": 74.31,
@@ -3052,10 +3052,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101729
+    "createdAt": 1786860942819
   },
   {
-    "id": "c19af54e-86be-443a-a9b1-d215840b3257",
+    "id": "3ff1bc56-4f0e-4efa-a7e4-62c2c336a208",
     "name": "TMK9457",
     "lat": 32.1903,
     "lng": 74.2976,
@@ -3080,10 +3080,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101729
+    "createdAt": 1786860942819
   },
   {
-    "id": "b5f87f35-9bbc-4232-ad66-381bc410fa1c",
+    "id": "1ec017fe-25f1-412f-a060-2b83df997b31",
     "name": "TPL9976",
     "lat": 32.096,
     "lng": 74.4575,
@@ -3108,10 +3108,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101729
+    "createdAt": 1786860942819
   },
   {
-    "id": "4333aee6-162b-44c5-ade5-b7e2c890d3a4",
+    "id": "2f3cfde8-47d0-4e1b-b6de-50466db7ee4f",
     "name": "TPL9977",
     "lat": 32.0247,
     "lng": 74.4807,
@@ -3136,10 +3136,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101729
+    "createdAt": 1786860942820
   },
   {
-    "id": "9c2eb638-d8d3-4f0c-bf0a-20b4f057a8ee",
+    "id": "b833cea9-8dce-4372-821f-741dfdfec529",
     "name": "WND5005",
     "lat": 32.0265,
     "lng": 74.4006,
@@ -3164,10 +3164,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101729
+    "createdAt": 1786860942820
   },
   {
-    "id": "0b37c0dd-3780-47be-b6cc-0c96e8ef83e6",
+    "id": "5ba3d729-9a31-423a-aa67-068b140d47aa",
     "name": "RUR5977",
     "lat": 32.3735,
     "lng": 74.4753,
@@ -3192,10 +3192,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "CP",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101729
+    "createdAt": 1786860942820
   },
   {
-    "id": "34713bd1-745f-49db-a6ee-e93fc09527db",
+    "id": "aa62ccf1-74d0-4541-9192-feac77c19a79",
     "name": "WZB0571",
     "lat": 32.445,
     "lng": 74.1334,
@@ -3220,10 +3220,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "CP",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101729
+    "createdAt": 1786860942820
   },
   {
-    "id": "00c3bfcf-f0e0-483b-bdc3-b5e47b3fe38e",
+    "id": "54a1a79a-2c94-403b-aa43-2909e3aa586a",
     "name": "DSK1138",
     "lat": 32.3243,
     "lng": 74.3413,
@@ -3248,10 +3248,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101729
+    "createdAt": 1786860942820
   },
   {
-    "id": "a9130b4e-ca18-49ad-ab82-9247d628de13",
+    "id": "162198bd-3d8e-49e1-9138-195564d12d8f",
     "name": "HWY0367",
     "lat": 32.3474,
     "lng": 74.3895,
@@ -3276,10 +3276,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101729
+    "createdAt": 1786860942820
   },
   {
-    "id": "757f9bdb-8dc4-4803-a906-01a472e149c6",
+    "id": "6f2f03aa-f51e-41ec-bb85-74e6ca5197d0",
     "name": "RUR3946",
     "lat": 32.3631,
     "lng": 74.2108,
@@ -3304,10 +3304,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101729
+    "createdAt": 1786860942821
   },
   {
-    "id": "217c2c54-f186-4f44-9651-2c78d163a188",
+    "id": "941c2cbe-d4f5-4326-a2bd-7ef2ecf308a1",
     "name": "RUR9170",
     "lat": 32.5101,
     "lng": 74.3962,
@@ -3332,10 +3332,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "CP",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101729
+    "createdAt": 1786860942821
   },
   {
-    "id": "39d63dfc-2107-4efb-85e2-0aa431dc454a",
+    "id": "96e4e2d2-6a68-4193-8f31-f3eac1d4f66d",
     "name": "BPW3014",
     "lat": 32.4301,
     "lng": 74.3705,
@@ -3360,10 +3360,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101729
+    "createdAt": 1786860942821
   },
   {
-    "id": "66af2cd0-06cf-4012-8c24-7fd8f96104e3",
+    "id": "46b03c09-ad5a-4f7d-8f1e-e4bda175c731",
     "name": "BPW8989",
     "lat": 32.431,
     "lng": 74.3595,
@@ -3388,10 +3388,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101729
+    "createdAt": 1786860942822
   },
   {
-    "id": "93840755-43ae-455a-9728-6934836357b9",
+    "id": "e72de510-a3c9-47dd-a9b5-dc330a18fa39",
     "name": "BPW9697",
     "lat": 32.4547,
     "lng": 74.4104,
@@ -3416,10 +3416,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101729
+    "createdAt": 1786860942822
   },
   {
-    "id": "92f1367e-3cd1-4b3d-b48f-312ea9c2179b",
+    "id": "b5ac1638-41af-4050-bb6c-c55e36a4ab5e",
     "name": "DMK6995",
     "lat": 32.2782,
     "lng": 74.3996,
@@ -3444,10 +3444,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101729
+    "createdAt": 1786860942822
   },
   {
-    "id": "95885699-e250-4dea-987c-021d0fa8e61d",
+    "id": "98f819a1-198d-4e27-b21d-c14e3d83cd37",
     "name": "DMK6996",
     "lat": 32.2764,
     "lng": 74.3589,
@@ -3472,10 +3472,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101729
+    "createdAt": 1786860942822
   },
   {
-    "id": "7d0ed4cc-7f01-4614-8c14-a15bea6390d0",
+    "id": "d1bced8f-3bf9-4e79-b695-e6f720a1aea6",
     "name": "DMK6997",
     "lat": 32.2463,
     "lng": 74.3596,
@@ -3500,10 +3500,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101729
+    "createdAt": 1786860942822
   },
   {
-    "id": "4256de77-1dde-41ff-9f4c-b21b025739b5",
+    "id": "d35fcc78-f4ba-465b-8011-57c16131b47e",
     "name": "DSK0321",
     "lat": 32.3262,
     "lng": 74.348,
@@ -3528,10 +3528,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101729
+    "createdAt": 1786860942822
   },
   {
-    "id": "37bed2a8-ed6c-448c-b232-5973af4bc7e3",
+    "id": "43e50a3b-3f86-45aa-b7b0-5727fba95e43",
     "name": "DSK3494",
     "lat": 32.3321,
     "lng": 74.3436,
@@ -3556,10 +3556,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101729
+    "createdAt": 1786860942823
   },
   {
-    "id": "669ac099-46db-4bbd-bfd1-83de613f71ca",
+    "id": "7c6943ba-0f56-405c-a00e-daa01c1282a7",
     "name": "DSK3806",
     "lat": 32.3443,
     "lng": 74.3441,
@@ -3584,10 +3584,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101729
+    "createdAt": 1786860942823
   },
   {
-    "id": "b110b3b4-9e61-4eea-9fea-296400b3e6b2",
+    "id": "eadf7769-9b03-4361-a4e7-e79b19094d5f",
     "name": "DSK3893",
     "lat": 32.337,
     "lng": 74.3609,
@@ -3612,10 +3612,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101729
+    "createdAt": 1786860942823
   },
   {
-    "id": "1ad239b6-43b1-44e0-ade6-ea74cf569950",
+    "id": "7dfa0f31-2e40-4d0c-9ab4-3ade09b3b3e8",
     "name": "DSK5295",
     "lat": 32.3306,
     "lng": 74.3573,
@@ -3640,10 +3640,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101729
+    "createdAt": 1786860942823
   },
   {
-    "id": "4f82b314-4b1c-4fdc-94b5-8c1650b22cc8",
+    "id": "add488a1-f3dd-46cd-8a16-692e3efb7976",
     "name": "DSK5984",
     "lat": 32.3292,
     "lng": 74.3475,
@@ -3668,10 +3668,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101729
+    "createdAt": 1786860942823
   },
   {
-    "id": "ae2d75ba-8136-44d5-a935-1bf52c9ecc4e",
+    "id": "8ab07b12-aa06-4a60-9427-50963c112d4f",
     "name": "DSK5985",
     "lat": 32.3418,
     "lng": 74.3544,
@@ -3696,10 +3696,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101729
+    "createdAt": 1786860942824
   },
   {
-    "id": "6b0e0619-1850-49b3-93bc-1a5a35c8d8f7",
+    "id": "b9657511-9f79-491a-85ee-03aa71fe3fc9",
     "name": "DSK5986",
     "lat": 32.336,
     "lng": 74.3526,
@@ -3724,10 +3724,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101729
+    "createdAt": 1786860942824
   },
   {
-    "id": "bc0de1cc-78ae-4592-bc9e-0356278e5b9b",
+    "id": "697b6b9b-2fdf-4bb6-9949-602ff3937242",
     "name": "DSK6921",
     "lat": 32.3416,
     "lng": 74.3488,
@@ -3752,10 +3752,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101729
+    "createdAt": 1786860942824
   },
   {
-    "id": "ac41fa58-26cd-4401-b487-4e4a3ef57681",
+    "id": "3707f669-f5f4-4826-8827-c4196ac605e5",
     "name": "DSK9637",
     "lat": 32.3303,
     "lng": 74.3503,
@@ -3780,10 +3780,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101729
+    "createdAt": 1786860942824
   },
   {
-    "id": "e87be785-230e-4daa-91af-6b3ed50a97ec",
+    "id": "8175a034-61f8-4576-b933-b4e541af6e12",
     "name": "DSK9833",
     "lat": 32.3207,
     "lng": 74.3522,
@@ -3808,10 +3808,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101730
+    "createdAt": 1786860942824
   },
   {
-    "id": "95371623-1c38-4f6b-8fb1-daebbbae45db",
+    "id": "211ce41d-90a4-4b2e-9e88-279fb4b3791c",
     "name": "DSK9945",
     "lat": 32.333,
     "lng": 74.3646,
@@ -3836,10 +3836,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101730
+    "createdAt": 1786860942825
   },
   {
-    "id": "62e931b8-3419-4229-b005-bef411b93b15",
+    "id": "9211cbbc-1651-4a63-b906-924d3e3de874",
     "name": "HWY0700",
     "lat": 32.3918,
     "lng": 74.4348,
@@ -3864,10 +3864,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101730
+    "createdAt": 1786860942825
   },
   {
-    "id": "32918540-e4b3-4a94-ae68-146bebf01d3f",
+    "id": "ee50417a-0427-4810-b189-fc7e246649f0",
     "name": "HWY5981",
     "lat": 32.3633,
     "lng": 74.4057,
@@ -3892,10 +3892,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101730
+    "createdAt": 1786860942825
   },
   {
-    "id": "0e431fc6-9869-4f93-9a5a-1d438e6f071e",
+    "id": "0c8fd786-28cf-4da7-8a1c-08ef71ee1936",
     "name": "HWY5982",
     "lat": 32.4043,
     "lng": 74.4503,
@@ -3920,10 +3920,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101730
+    "createdAt": 1786860942825
   },
   {
-    "id": "8e5a442c-1174-45ab-9e35-58a75a19031b",
+    "id": "97927108-a653-427b-bf7b-b3cef2afc86c",
     "name": "HWY9504",
     "lat": 32.3671,
     "lng": 74.1309,
@@ -3948,10 +3948,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101730
+    "createdAt": 1786860942825
   },
   {
-    "id": "56396992-dcc6-4448-8670-266b7602a186",
+    "id": "eb7f6f59-76b1-4b11-af09-93e03ab0bcf9",
     "name": "HWY9507",
     "lat": 32.405,
     "lng": 74.121,
@@ -3976,10 +3976,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101730
+    "createdAt": 1786860942826
   },
   {
-    "id": "1621edd7-231d-4169-87e7-ee354f829ed7",
+    "id": "750746d9-99a6-4198-b255-836f0f76af3e",
     "name": "RUR0176",
     "lat": 32.3876,
     "lng": 74.4029,
@@ -4004,10 +4004,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101730
+    "createdAt": 1786860942826
   },
   {
-    "id": "3c199c7d-717a-4663-ba4a-f2796b4e4709",
+    "id": "342e1e86-2141-411d-af7b-55be3fecb317",
     "name": "RUR0186",
     "lat": 32.3597,
     "lng": 74.2987,
@@ -4032,10 +4032,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101730
+    "createdAt": 1786860942830
   },
   {
-    "id": "1e24fbc2-abaa-4a88-be4e-5baffb87a65e",
+    "id": "8648a0b9-7623-4204-9600-13d467672ba2",
     "name": "RUR0266",
     "lat": 32.3882,
     "lng": 74.2884,
@@ -4060,10 +4060,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101730
+    "createdAt": 1786860942830
   },
   {
-    "id": "612ec8d7-6cc9-4dd3-ab02-d6141ceefcdd",
+    "id": "e7029c3a-92c1-43ab-9dc0-bbfce1ade75a",
     "name": "RUR0363",
     "lat": 32.3794,
     "lng": 74.0075,
@@ -4088,10 +4088,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101730
+    "createdAt": 1786860942831
   },
   {
-    "id": "09fe41da-1e37-49c1-aab6-5c5cd21eb9b5",
+    "id": "4d6b1b90-4b94-41ce-a4b6-e4584af097d3",
     "name": "RUR0370",
     "lat": 32.3989,
     "lng": 73.9774,
@@ -4116,10 +4116,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101730
+    "createdAt": 1786860942831
   },
   {
-    "id": "c399c8dc-715a-40aa-a969-f58265889cb3",
+    "id": "76663d6b-4005-4e53-8562-94d3ce724cd1",
     "name": "RUR0373",
     "lat": 32.3748,
     "lng": 74.0742,
@@ -4144,10 +4144,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101730
+    "createdAt": 1786860942831
   },
   {
-    "id": "df4dc8f8-0a51-4145-954c-120261a24730",
+    "id": "bb4e499a-7352-4914-a588-9faba10f6c72",
     "name": "RUR0510",
     "lat": 32.3672,
     "lng": 74.242,
@@ -4172,10 +4172,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101730
+    "createdAt": 1786860942831
   },
   {
-    "id": "7e8dbf8a-b6b4-4637-8fc3-f36155bcb9b1",
+    "id": "bdcc7f42-7324-40ac-b306-31161c80065b",
     "name": "RUR0713",
     "lat": 32.3078,
     "lng": 74.3903,
@@ -4200,10 +4200,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101730
+    "createdAt": 1786860942831
   },
   {
-    "id": "7ef93798-3b35-41a3-8904-96daf5821d06",
+    "id": "6e2c5b63-7e82-4f80-834d-4ce2dc443d52",
     "name": "RUR0714",
     "lat": 32.3221,
     "lng": 74.3837,
@@ -4228,10 +4228,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101730
+    "createdAt": 1786860942849
   },
   {
-    "id": "6d4a040b-f19e-41cf-a835-d0d00612b504",
+    "id": "2b2bee12-d77e-4565-aea9-b9ec85943aea",
     "name": "RUR0720",
     "lat": 32.5497,
     "lng": 74.4112,
@@ -4256,10 +4256,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101730
+    "createdAt": 1786860942850
   },
   {
-    "id": "ec76a817-3f2b-40b2-aaf4-721bada170d6",
+    "id": "2ac66050-ee5c-4913-8de4-44bb6feca254",
     "name": "RUR0795",
     "lat": 32.4369,
     "lng": 74.2698,
@@ -4284,10 +4284,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101730
+    "createdAt": 1786860942850
   },
   {
-    "id": "fb1c13a1-718b-4244-a81f-37998def2c3b",
+    "id": "ec2b6cd2-2289-491c-ade0-1901616592a6",
     "name": "RUR1087",
     "lat": 32.5287,
     "lng": 74.3326,
@@ -4312,10 +4312,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101730
+    "createdAt": 1786860942850
   },
   {
-    "id": "97030f6b-ff25-421e-9ff9-cd8aaf2db604",
+    "id": "bc996fe8-28bb-4fb7-9dc6-f70b1b81e5d7",
     "name": "RUR2762",
     "lat": 32.4902,
     "lng": 74.3289,
@@ -4340,10 +4340,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "CP",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101730
+    "createdAt": 1786860942850
   },
   {
-    "id": "e3733bd4-02a6-4463-abb7-8826a0d76578",
+    "id": "44dcf0a7-0fd1-470d-b674-a871851635f0",
     "name": "RUR3268",
     "lat": 32.3233,
     "lng": 74.478,
@@ -4368,10 +4368,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101730
+    "createdAt": 1786860942850
   },
   {
-    "id": "809e4714-ec82-4a3f-b595-b5044ba0e781",
+    "id": "740f467e-db93-4254-938b-426cdabc5694",
     "name": "RUR3411",
     "lat": 32.4795,
     "lng": 74.4534,
@@ -4396,10 +4396,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101730
+    "createdAt": 1786860942851
   },
   {
-    "id": "38a10f95-9941-426d-a63f-c58d6b859977",
+    "id": "c49c2e27-abe2-4afa-aa21-e658b2c2752b",
     "name": "RUR3419",
     "lat": 32.4648,
     "lng": 74.2438,
@@ -4424,10 +4424,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101730
+    "createdAt": 1786860942851
   },
   {
-    "id": "40964ec4-c4b6-4b51-bfb8-73a22ad3f2fa",
+    "id": "968fe11c-19e8-4af9-85dc-76ed0d62cd24",
     "name": "RUR4032",
     "lat": 32.4797,
     "lng": 74.4022,
@@ -4452,10 +4452,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101730
+    "createdAt": 1786860942851
   },
   {
-    "id": "d078c57e-3ebf-4742-830d-4ad81051d87a",
+    "id": "0370b5bc-e696-4aca-8299-cace3ed60db1",
     "name": "RUR4415",
     "lat": 32.3837,
     "lng": 74.2515,
@@ -4480,10 +4480,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101730
+    "createdAt": 1786860942851
   },
   {
-    "id": "81b581c7-6e26-42ac-a040-b8c1555cd79c",
+    "id": "dd5d17f8-0fee-46dd-9d3c-2a7423f87cc7",
     "name": "RUR4494",
     "lat": 32.2923,
     "lng": 74.3051,
@@ -4508,10 +4508,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101730
+    "createdAt": 1786860942851
   },
   {
-    "id": "9819158e-df6b-49d9-abaa-970cbd45e161",
+    "id": "8b34b873-981f-4beb-8c89-5c0bca576438",
     "name": "RUR4508",
     "lat": 32.3552,
     "lng": 73.9536,
@@ -4536,10 +4536,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101730
+    "createdAt": 1786860942852
   },
   {
-    "id": "9149210a-89ce-4266-9fc8-9437a8739cb2",
+    "id": "a417dd0a-90db-4430-a2ed-3f690044ff7e",
     "name": "RUR5972",
     "lat": 32.3091,
     "lng": 74.4347,
@@ -4564,10 +4564,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101730
+    "createdAt": 1786860942852
   },
   {
-    "id": "0883f978-3c9d-493b-b7b9-cc7e03e9af72",
+    "id": "278f585e-bfb4-490a-95dc-549a237e09c1",
     "name": "RUR5976",
     "lat": 32.2628,
     "lng": 74.2789,
@@ -4592,10 +4592,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101730
+    "createdAt": 1786860942852
   },
   {
-    "id": "8e9a7faa-f938-4b96-9723-d3dffbf8d55c",
+    "id": "2986f6f8-2f9a-414c-8978-2e46539d971a",
     "name": "RUR5983",
     "lat": 32.4117,
     "lng": 74.3642,
@@ -4620,10 +4620,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101730
+    "createdAt": 1786860942852
   },
   {
-    "id": "010ca883-735c-40a5-857d-c71386c4d4f5",
+    "id": "6a69dc6d-f372-41b8-8361-ff861e714e39",
     "name": "RUR8325",
     "lat": 32.462,
     "lng": 74.2317,
@@ -4648,10 +4648,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101730
+    "createdAt": 1786860942852
   },
   {
-    "id": "c460cb1b-8db6-4397-9fd0-cdd4413babf8",
+    "id": "9283f19d-1eb7-4279-8a2c-453ef54b0392",
     "name": "RUR8752",
     "lat": 32.5188,
     "lng": 74.2369,
@@ -4676,10 +4676,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101730
+    "createdAt": 1786860942853
   },
   {
-    "id": "08fd77c5-be67-405b-901a-bd19a56c1ca1",
+    "id": "0e13f86e-2fd9-4283-b2b5-14a5d8418108",
     "name": "RUR8753",
     "lat": 32.5283,
     "lng": 74.373,
@@ -4704,10 +4704,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "CP",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101730
+    "createdAt": 1786860942853
   },
   {
-    "id": "715a6d5d-18a7-4898-ac36-0db04685b834",
+    "id": "e8a125a9-3072-4ad1-95a4-fbcc88976c80",
     "name": "RUR8984",
     "lat": 32.48,
     "lng": 74.4462,
@@ -4732,10 +4732,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101730
+    "createdAt": 1786860942853
   },
   {
-    "id": "b8fd9b13-6ca4-4af2-ba9f-25f65147de67",
+    "id": "13fe08fa-a6d1-4d18-925f-1ff9033806c5",
     "name": "RUR9489",
     "lat": 32.3373,
     "lng": 73.908,
@@ -4760,10 +4760,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101730
+    "createdAt": 1786860942853
   },
   {
-    "id": "9adfb655-ed8c-4979-956f-82f9943d7273",
+    "id": "fe419b4e-620a-4e30-854a-8c92a97a5d13",
     "name": "RUR9508",
     "lat": 32.38345,
     "lng": 74.04934,
@@ -4788,10 +4788,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101730
+    "createdAt": 1786860942853
   },
   {
-    "id": "d3f37092-ff34-4acc-bec7-10e34f4f909e",
+    "id": "46b1c552-7feb-4428-b185-23d04727a1b8",
     "name": "RUR9764",
     "lat": 32.4127,
     "lng": 74.1914,
@@ -4816,10 +4816,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101730
+    "createdAt": 1786860942853
   },
   {
-    "id": "9c60e361-f0cc-483a-9472-0fc8fcac8c99",
+    "id": "e1bf4cc2-5152-4569-8042-7ba3e43a0fa8",
     "name": "SKY9499",
     "lat": 32.3552,
     "lng": 73.9853,
@@ -4844,10 +4844,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101730
+    "createdAt": 1786860942854
   },
   {
-    "id": "2f996067-df3c-490a-acbd-b6c022419297",
+    "id": "dac444f4-88ae-497a-b891-cdc614fbcd6d",
     "name": "SMB2422",
     "lat": 32.4788,
     "lng": 74.3719,
@@ -4872,10 +4872,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101730
+    "createdAt": 1786860942854
   },
   {
-    "id": "ba9b9d41-78f0-4588-82ec-8d533279b645",
+    "id": "b518339b-e927-49ab-8c82-a92f366882d2",
     "name": "SMB3356",
     "lat": 32.4779,
     "lng": 74.3577,
@@ -4900,10 +4900,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101730
+    "createdAt": 1786860942854
   },
   {
-    "id": "04652867-cb51-4ee2-965a-47f54baf0fb8",
+    "id": "dd143e79-97c6-4a16-a29b-3af9e30d2b87",
     "name": "SMB8086",
     "lat": 32.4784,
     "lng": 74.343,
@@ -4928,10 +4928,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101730
+    "createdAt": 1786860942854
   },
   {
-    "id": "1da0d203-017d-4af9-a36a-ae36348e678a",
+    "id": "7418be2f-7714-4d63-93af-fe9a355592f0",
     "name": "SOH4009",
     "lat": 32.4598,
     "lng": 74.1822,
@@ -4956,10 +4956,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101730
+    "createdAt": 1786860942855
   },
   {
-    "id": "e25f8124-3646-49a0-a5b8-1a73b2665104",
+    "id": "2b2c921a-ebf4-4fde-9f27-0637196468e1",
     "name": "SRW9971",
     "lat": 32.3832,
     "lng": 74.1857,
@@ -4984,10 +4984,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101730
+    "createdAt": 1786860942855
   },
   {
-    "id": "771e1144-baf6-473d-ac2a-c74f99ada40d",
+    "id": "4ede0c43-87dc-41f8-9940-d240219690b5",
     "name": "WZB0029",
     "lat": 32.4301,
     "lng": 74.1056,
@@ -5012,10 +5012,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101730
+    "createdAt": 1786860942855
   },
   {
-    "id": "7373a488-ec7d-4abe-aeb4-4c0e86e8ce9f",
+    "id": "646d8079-47d9-418c-b452-8361ece95f81",
     "name": "WZB0060",
     "lat": 32.4352,
     "lng": 74.1188,
@@ -5040,10 +5040,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101730
+    "createdAt": 1786860942855
   },
   {
-    "id": "8e99ec47-5031-4878-8fba-5dfded56f0ef",
+    "id": "5871c020-1904-420e-b16c-cd3a5ec268b7",
     "name": "WZB0364",
     "lat": 32.4491,
     "lng": 74.1159,
@@ -5068,10 +5068,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101730
+    "createdAt": 1786860942856
   },
   {
-    "id": "1c84e0ef-a845-447f-bef5-00bafc4cf9c8",
+    "id": "b3dc86b2-a7ab-431c-a1d5-2cf6aff4d31e",
     "name": "WZB0817",
     "lat": 32.4417,
     "lng": 74.1298,
@@ -5096,10 +5096,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101730
+    "createdAt": 1786860942856
   },
   {
-    "id": "5ed174b0-44db-4df3-b1f0-589173dd1954",
+    "id": "3fe33ff9-64b6-4a6f-9a4b-bfcbda19cb7e",
     "name": "WZB4219",
     "lat": 32.4267,
     "lng": 74.12,
@@ -5124,10 +5124,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101730
+    "createdAt": 1786860942856
   },
   {
-    "id": "15f992b5-1f90-4afb-88e8-9f54e5d45955",
+    "id": "4c979fff-409b-4ca6-bdb5-5a4008fc9c58",
     "name": "WZB4220",
     "lat": 32.4243,
     "lng": 74.0954,
@@ -5152,10 +5152,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101730
+    "createdAt": 1786860942856
   },
   {
-    "id": "3156b94c-043a-4743-a393-7d5346e8ca9b",
+    "id": "922c67b7-dfc0-4fc7-81d6-95b5d216f0c6",
     "name": "WZB9635",
     "lat": 32.4397,
     "lng": 74.1157,
@@ -5180,10 +5180,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101730
+    "createdAt": 1786860942856
   },
   {
-    "id": "895e8561-b646-4050-a55e-b790a1fef789",
+    "id": "12ab1c53-e07f-460c-be52-8e95ab693ab6",
     "name": "WZB9742",
     "lat": 32.4445,
     "lng": 74.1132,
@@ -5208,10 +5208,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "DG",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101730
+    "createdAt": 1786860942856
   },
   {
-    "id": "1bfe6aaf-9bbc-41d3-8099-052689ad3610",
+    "id": "e3093b1e-f43a-4ec9-a013-0220048382c5",
     "name": "WZB9803",
     "lat": 32.4482,
     "lng": 74.1065,
@@ -5236,10 +5236,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101731
+    "createdAt": 1786860942857
   },
   {
-    "id": "2c657365-b155-41d9-9a32-dea1dee0a58d",
+    "id": "30e8894f-bba5-46ba-a9ef-3c0483d2af5a",
     "name": "WZB9816",
     "lat": 32.4318,
     "lng": 74.1132,
@@ -5264,10 +5264,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101731
+    "createdAt": 1786860942857
   },
   {
-    "id": "f4cd2f15-de7d-4cc4-83e6-ede5c0d7f5ac",
+    "id": "82911706-f02d-4917-a3da-db1923ef9e0b",
     "name": "WZB9858",
     "lat": 32.4423,
     "lng": 74.1221,
@@ -5292,10 +5292,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101731
+    "createdAt": 1786860942857
   },
   {
-    "id": "48391244-8b16-47e6-9c38-eff1af9c3e92",
+    "id": "48b25094-d18e-4dd3-baf9-c7ea3911e70b",
     "name": "WZB9967",
     "lat": 32.4469,
     "lng": 74.1236,
@@ -5320,10 +5320,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101731
+    "createdAt": 1786860942857
   },
   {
-    "id": "a29dc515-cf7a-4ce0-8967-d8fb944ccb90",
+    "id": "93c63ec1-44c4-4750-abf4-ae7c41903acc",
     "name": "RUR0456",
     "lat": 32.7517,
     "lng": 74.3875,
@@ -5348,10 +5348,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "CP",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101731
+    "createdAt": 1786860942858
   },
   {
-    "id": "227d9116-6458-4bbc-aca1-711c54595762",
+    "id": "8b0593da-a9c9-4f66-a9c3-fb48527c4f1a",
     "name": "RUR0687",
     "lat": 32.6824,
     "lng": 74.0245,
@@ -5376,10 +5376,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "CP",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101731
+    "createdAt": 1786860942858
   },
   {
-    "id": "f6303e3e-0bde-4cd7-806a-1fbaab593b60",
+    "id": "b346f9d7-da54-49cb-913b-081e9bd7d838",
     "name": "RUR0077",
     "lat": 32.8365,
     "lng": 74.0789,
@@ -5404,10 +5404,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101731
+    "createdAt": 1786860942858
   },
   {
-    "id": "d09e1af7-3e54-41ed-be48-9856fae8d19a",
+    "id": "6fde57e2-c24e-46a6-8642-9d5c5080f505",
     "name": "RUR0758",
     "lat": 32.7749,
     "lng": 74.0652,
@@ -5432,10 +5432,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "DG",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101731
+    "createdAt": 1786860942862
   },
   {
-    "id": "407485e9-d77c-4077-a74b-9b8fa47cb2c0",
+    "id": "54b034c5-10d9-4e70-991f-900603c2cb72",
     "name": "RUR3735",
     "lat": 32.6495,
     "lng": 74.0793,
@@ -5460,10 +5460,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "DG",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101731
+    "createdAt": 1786860942863
   },
   {
-    "id": "735f6cc9-cfa8-4a74-9046-e1a2b3bcfee0",
+    "id": "7fc60ea6-322f-4910-8771-287c8312b13a",
     "name": "BGL1622",
     "lat": 32.8505,
     "lng": 73.9805,
@@ -5488,10 +5488,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101731
+    "createdAt": 1786860942865
   },
   {
-    "id": "a12a8328-e8ff-42c0-853b-b1ad9c5e609c",
+    "id": "a13219be-4ae0-42f0-8cd9-0700b08f4fee",
     "name": "BGL2204",
     "lat": 32.8676,
     "lng": 73.9345,
@@ -5516,10 +5516,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101731
+    "createdAt": 1786860942866
   },
   {
-    "id": "1c97c1fc-4e09-4693-bfbb-7fd9dc9b1af5",
+    "id": "ce95fa37-ab31-4275-b7d5-2a81eec01d93",
     "name": "BGL2206",
     "lat": 32.81,
     "lng": 73.9335,
@@ -5544,10 +5544,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101731
+    "createdAt": 1786860942866
   },
   {
-    "id": "5499ea71-f746-41fa-84c1-790e42da4ed5",
+    "id": "795a25f5-440a-4f69-a30b-c24f6abbfcd5",
     "name": "DHN4912",
     "lat": 32.6138,
     "lng": 73.9074,
@@ -5572,10 +5572,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101731
+    "createdAt": 1786860942866
   },
   {
-    "id": "321dae54-a461-4d65-832b-732c2f8c82c9",
+    "id": "88821e54-79c3-4124-9385-7c60db731dc8",
     "name": "DHN8757",
     "lat": 32.6095,
     "lng": 73.9342,
@@ -5600,10 +5600,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101731
+    "createdAt": 1786860942866
   },
   {
-    "id": "08f5d5d1-c1e3-40a3-b827-c15428ebd9ac",
+    "id": "a0259173-c373-40fb-a08f-69abf0f1b146",
     "name": "DIL2202",
     "lat": 32.7995,
     "lng": 74.0634,
@@ -5628,10 +5628,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101731
+    "createdAt": 1786860942866
   },
   {
-    "id": "99c8a887-39f9-4d80-9bc6-f9cd2a3299d9",
+    "id": "1a1fa253-51fc-4ef6-b507-efcce1e7f9e0",
     "name": "DIL2203",
     "lat": 32.8162,
     "lng": 74.1301,
@@ -5656,10 +5656,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101731
+    "createdAt": 1786860942867
   },
   {
-    "id": "0f51a653-9aa0-430e-affc-5163f07cbb85",
+    "id": "2d3e7a37-ee11-486f-bb12-7dc72c61fe20",
     "name": "FTP4919",
     "lat": 32.69258333,
     "lng": 74.12863889,
@@ -5684,10 +5684,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101731
+    "createdAt": 1786860942867
   },
   {
-    "id": "8ed1a6b1-3c80-4b78-bc5e-0d6132ed27eb",
+    "id": "ea5ff6cf-9069-4955-bcf4-7759078a9d4a",
     "name": "FTP6242",
     "lat": 32.6943,
     "lng": 74.1289,
@@ -5712,10 +5712,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101731
+    "createdAt": 1786860942867
   },
   {
-    "id": "5a8bd5bf-ce78-44e4-aa22-e42754ff909b",
+    "id": "e0b057cc-a6c9-472b-9e27-9d21582e533e",
     "name": "FTP8761",
     "lat": 32.6402,
     "lng": 74.1028,
@@ -5740,10 +5740,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101731
+    "createdAt": 1786860942867
   },
   {
-    "id": "87e427d7-adc2-44b9-8e2a-6186b541fe5d",
+    "id": "1f3504be-1548-420b-a206-4adb75fd6192",
     "name": "FTP8762",
     "lat": 32.6659,
     "lng": 74.1753,
@@ -5768,10 +5768,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101731
+    "createdAt": 1786860942867
   },
   {
-    "id": "68c192ba-dd57-4fdf-9efe-c57bf6f2dd0e",
+    "id": "9965b336-6b27-49ae-9587-eef0fdb3b831",
     "name": "GJR0054",
     "lat": 32.563,
     "lng": 74.0806,
@@ -5796,10 +5796,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101731
+    "createdAt": 1786860942868
   },
   {
-    "id": "803f9af1-8581-44e7-a1f6-b1100689c20f",
+    "id": "eabc9d6d-91d7-43b4-a92e-51ba51b0a518",
     "name": "GJR0397",
     "lat": 32.5967,
     "lng": 74.0789,
@@ -5824,10 +5824,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101731
+    "createdAt": 1786860942868
   },
   {
-    "id": "de5bebc8-2072-4838-8b60-1c8ff8eceb63",
+    "id": "53643a43-86df-4c00-93ac-cec6adc2cbb0",
     "name": "GJR0398",
     "lat": 32.5777,
     "lng": 74.075,
@@ -5852,10 +5852,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101731
+    "createdAt": 1786860942868
   },
   {
-    "id": "338d7d7b-2651-4155-a4c6-d228a1dd1b37",
+    "id": "5a42cfcd-129c-469a-8ed0-0725a12c0398",
     "name": "GJR0737",
     "lat": 32.5599,
     "lng": 74.0488,
@@ -5880,10 +5880,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101731
+    "createdAt": 1786860942868
   },
   {
-    "id": "b3cb1660-e2d6-44b3-8f03-eb410cff16e1",
+    "id": "93bf48bf-f6d2-461c-9833-5f53115bfb85",
     "name": "GJR0766",
     "lat": 32.5956,
     "lng": 74.0528,
@@ -5908,10 +5908,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101731
+    "createdAt": 1786860942868
   },
   {
-    "id": "11ab9e4c-43af-4712-a260-244ef6a692c0",
+    "id": "617201b5-331e-4c2d-a4f4-37aa92f63961",
     "name": "GJR0796",
     "lat": 32.5712,
     "lng": 74.081,
@@ -5936,10 +5936,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101731
+    "createdAt": 1786860942869
   },
   {
-    "id": "1c5d3343-edc6-41ba-bf27-83f96b50577b",
+    "id": "ffc1e357-aa1e-4e6a-b4e9-1f9cb99492f4",
     "name": "GJR3335",
     "lat": 32.5377,
     "lng": 74.0627,
@@ -5964,10 +5964,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101731
+    "createdAt": 1786860942869
   },
   {
-    "id": "b842678d-c65d-4fcc-b957-1a4a803d1f2a",
+    "id": "e16e11bf-ea56-4774-aca9-b99987d709f1",
     "name": "GJR3401",
     "lat": 32.5836,
     "lng": 74.0867,
@@ -5992,10 +5992,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101731
+    "createdAt": 1786860942869
   },
   {
-    "id": "73772a94-5fcc-44ee-8262-334346a6944f",
+    "id": "05ce7973-a076-48d8-90b4-9b6f582d681a",
     "name": "GJR3403",
     "lat": 32.565,
     "lng": 74.0635,
@@ -6020,10 +6020,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101731
+    "createdAt": 1786860942869
   },
   {
-    "id": "ff9c38a7-90c7-4548-a119-9eb61ddc9679",
+    "id": "262e52ab-2d0b-42d3-a6db-2c60f1973514",
     "name": "GJR3427",
     "lat": 32.567,
     "lng": 74.0732,
@@ -6048,10 +6048,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101731
+    "createdAt": 1786860942869
   },
   {
-    "id": "6f96afec-c3bf-46dd-9bfb-64574bba04d3",
+    "id": "ebc65a9e-9115-47b7-8c2a-c87497c86eda",
     "name": "GJR3428",
     "lat": 32.5665,
     "lng": 74.0898,
@@ -6076,10 +6076,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101731
+    "createdAt": 1786860942869
   },
   {
-    "id": "4a125b09-ebd2-434d-8b5d-58fe332a9960",
+    "id": "829e2d5f-6cbe-4cb5-be69-4a2bfcf414fe",
     "name": "GJR3431",
     "lat": 32.573,
     "lng": 74.0673,
@@ -6104,10 +6104,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101731
+    "createdAt": 1786860942870
   },
   {
-    "id": "92f5feb6-a5f8-4fab-9378-6f1434af68cd",
+    "id": "545d9e58-090e-461c-9d0f-c1c0d5832971",
     "name": "GJR3433",
     "lat": 32.5737,
     "lng": 74.0924,
@@ -6132,10 +6132,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101731
+    "createdAt": 1786860942870
   },
   {
-    "id": "1d5d6487-ea16-4b49-8780-6284c0296d75",
+    "id": "032ac718-5887-4aba-ad60-b0d79fc8e306",
     "name": "GJR3436",
     "lat": 32.5914,
     "lng": 74.0736,
@@ -6160,10 +6160,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "CP",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101731
+    "createdAt": 1786860942870
   },
   {
-    "id": "400d552e-d1ef-42e0-ad70-5fc169818e4d",
+    "id": "dd18d03d-b4ba-4982-ad80-b4b19d6bdcbe",
     "name": "GJR3437",
     "lat": 32.57938,
     "lng": 74.09131,
@@ -6188,10 +6188,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101731
+    "createdAt": 1786860942870
   },
   {
-    "id": "8c3e9390-4f80-4fb0-be86-ee1281ec1b67",
+    "id": "ab33393c-2e7b-412e-b620-029df1925ed7",
     "name": "GJR3734",
     "lat": 32.5719,
     "lng": 74.0748,
@@ -6216,10 +6216,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101731
+    "createdAt": 1786860942870
   },
   {
-    "id": "55c582ed-e053-4de0-bba8-d8b0578c60c6",
+    "id": "6a9079ed-910b-4ad3-abf8-10b186922566",
     "name": "GJR4902",
     "lat": 32.5912,
     "lng": 74.0839,
@@ -6244,10 +6244,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101731
+    "createdAt": 1786860942871
   },
   {
-    "id": "d71fd464-48fa-434f-b103-7f8e09dd08ca",
+    "id": "53ea3f5a-0288-4ef9-bef8-03960961ae7e",
     "name": "GJR4903",
     "lat": 32.5708,
     "lng": 74.0602,
@@ -6272,10 +6272,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101731
+    "createdAt": 1786860942871
   },
   {
-    "id": "8e171b38-8fd3-4408-bf76-14a71224fa0d",
+    "id": "17938d72-3f4c-4590-9eff-b857778f4259",
     "name": "GJR4905",
     "lat": 32.5795,
     "lng": 74.0683,
@@ -6300,10 +6300,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101731
+    "createdAt": 1786860942871
   },
   {
-    "id": "08f9918f-5061-498e-8f73-eb064c231380",
+    "id": "05f27951-4cc1-4b85-b9d1-3cea361053d4",
     "name": "GJR4909",
     "lat": 32.5664,
     "lng": 74.0846,
@@ -6328,10 +6328,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101731
+    "createdAt": 1786860942871
   },
   {
-    "id": "30b15e42-64e0-4821-a545-7bf71626bdba",
+    "id": "e4a7be3f-72eb-4fe7-878a-5a906d7e74f9",
     "name": "GJR6246",
     "lat": 32.5781,
     "lng": 74.0601,
@@ -6356,10 +6356,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101731
+    "createdAt": 1786860942871
   },
   {
-    "id": "5fc6f6b9-9ba9-4a36-ae7d-da43a99a505a",
+    "id": "b794f7b6-21c0-482f-8ad4-3593492bbfbc",
     "name": "GJR6247",
     "lat": 32.5923,
     "lng": 74.0563,
@@ -6384,10 +6384,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101731
+    "createdAt": 1786860942871
   },
   {
-    "id": "6d081af8-f6b8-4505-9b40-6a5191fca7d2",
+    "id": "d0946538-871c-4d51-8cab-07a7db630496",
     "name": "GJR6249",
     "lat": 32.5956,
     "lng": 74.0643,
@@ -6412,10 +6412,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101731
+    "createdAt": 1786860942872
   },
   {
-    "id": "14d1ca6a-fca4-4e41-9552-e7caacb056df",
+    "id": "a4294910-921c-49ef-bf47-2819b2971756",
     "name": "GJR6250",
     "lat": 32.5848,
     "lng": 74.0683,
@@ -6440,10 +6440,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101731
+    "createdAt": 1786860942872
   },
   {
-    "id": "0f8daa87-99a7-4834-af82-a3d68685f6b9",
+    "id": "74f0749c-a445-4393-8c9b-d0e3feb30732",
     "name": "GJR6251",
     "lat": 32.5887,
     "lng": 74.064,
@@ -6468,10 +6468,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101731
+    "createdAt": 1786860942872
   },
   {
-    "id": "d7cb9d4c-e29e-4fed-8934-59f99f559bb0",
+    "id": "3f63a71a-1993-464c-bdaa-166976c12aa9",
     "name": "GJR6257",
     "lat": 32.5581,
     "lng": 74.0433,
@@ -6496,10 +6496,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "CP",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101731
+    "createdAt": 1786860942872
   },
   {
-    "id": "aadfb921-f0c6-41a6-b93f-57ffae4a6582",
+    "id": "2cb9e44c-5f2c-4667-8b35-0f2f5386b337",
     "name": "GJR6258",
     "lat": 32.6034,
     "lng": 74.0786,
@@ -6524,10 +6524,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101731
+    "createdAt": 1786860942872
   },
   {
-    "id": "34c7e3a3-aed2-4e0d-8000-bcc9dcafdfd6",
+    "id": "1a69ffb4-351a-486c-b5e7-4dafbc822ea2",
     "name": "GJR6264",
     "lat": 32.5806,
     "lng": 74.0991,
@@ -6552,10 +6552,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101731
+    "createdAt": 1786860942873
   },
   {
-    "id": "fc285190-7269-4a74-b375-2ef394c93509",
+    "id": "3cea5861-2f0c-4ef8-aa11-cf6663ba3796",
     "name": "GJR6266",
     "lat": 32.5661,
     "lng": 74.0552,
@@ -6580,10 +6580,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101732
+    "createdAt": 1786860942873
   },
   {
-    "id": "fa12733e-d24b-4bec-836f-5363bc642bf8",
+    "id": "c3523b1d-d330-4034-adf2-a832f53ae6b8",
     "name": "GJR6281",
     "lat": 32.5768,
     "lng": 74.0873,
@@ -6608,10 +6608,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101732
+    "createdAt": 1786860942873
   },
   {
-    "id": "0d1862f6-bd7b-49b2-b158-e030beae83e1",
+    "id": "c4e9579d-4b5a-4905-a5d7-ade5b8e99570",
     "name": "GJR6286",
     "lat": 32.5554,
     "lng": 74.0875,
@@ -6636,10 +6636,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101732
+    "createdAt": 1786860942874
   },
   {
-    "id": "3b111a1b-df11-4e5c-b106-f8fb9c451520",
+    "id": "383a4460-0868-4523-a508-8f80dccca4d6",
     "name": "GJR6287",
     "lat": 32.5612,
     "lng": 74.0868,
@@ -6664,10 +6664,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101732
+    "createdAt": 1786860942874
   },
   {
-    "id": "b9e593ef-6b5f-4d05-aa01-f831c2687fc2",
+    "id": "9784be12-87b9-42e0-8726-c8bb616cb7d6",
     "name": "GJR6291",
     "lat": 32.5823,
     "lng": 74.0749,
@@ -6692,10 +6692,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101732
+    "createdAt": 1786860942874
   },
   {
-    "id": "fc099094-0a55-4378-b3b3-b92a63a3af00",
+    "id": "3f5651c0-55cd-4c85-b670-0adb68b5661b",
     "name": "GJR6294",
     "lat": 32.579,
     "lng": 74.0797,
@@ -6720,10 +6720,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101732
+    "createdAt": 1786860942874
   },
   {
-    "id": "bd1fd12f-fc7f-4bb9-a903-ce9ea504c94b",
+    "id": "5c5ffa39-cd5e-4fce-9b2d-2fdb559bf259",
     "name": "GJR6908",
     "lat": 32.582,
     "lng": 74.0421,
@@ -6748,10 +6748,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "CP",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101732
+    "createdAt": 1786860942874
   },
   {
-    "id": "9135edb2-5e53-40af-a62e-2e6af5393f74",
+    "id": "234c1b63-b32a-4e6d-a128-5ec4113c82b8",
     "name": "GJR8820",
     "lat": 32.5828,
     "lng": 74.0639,
@@ -6776,10 +6776,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101732
+    "createdAt": 1786860942875
   },
   {
-    "id": "9370a5f6-7d84-428c-90bd-c76ab9cf84ea",
+    "id": "25766ba7-16ce-4b0d-8c07-827a4d973ea4",
     "name": "GJR9716",
     "lat": 32.5753,
     "lng": 74.0808,
@@ -6804,10 +6804,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101732
+    "createdAt": 1786860942875
   },
   {
-    "id": "a71cc13a-1ee9-4a07-aa6f-ee76618e8704",
+    "id": "135a33f0-415e-482a-8202-1377f20a7f6c",
     "name": "GJR9852",
     "lat": 32.5598,
     "lng": 74.0598,
@@ -6832,10 +6832,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101732
+    "createdAt": 1786860942875
   },
   {
-    "id": "411400ae-30f6-468a-af33-0adb6c8489b3",
+    "id": "91b4753f-7b55-4a86-b2d0-62089424f9e2",
     "name": "GJR9887",
     "lat": 32.5633,
     "lng": 74.0703,
@@ -6860,10 +6860,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101732
+    "createdAt": 1786860942875
   },
   {
-    "id": "47e7abb7-2000-464d-bb1c-f0f9f8fc12fb",
+    "id": "a79385ae-d9d4-47b8-aa39-1bd31f34ba60",
     "name": "HJW8769",
     "lat": 32.7348,
     "lng": 74.2382,
@@ -6888,10 +6888,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101732
+    "createdAt": 1786860942876
   },
   {
-    "id": "207cdd80-6459-493d-8486-ae87c4b6b44a",
+    "id": "bd334872-eb6f-4d55-93c5-1eab0bc5b879",
     "name": "HWY0204",
     "lat": 32.8554,
     "lng": 74.0708,
@@ -6916,10 +6916,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "DG",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101732
+    "createdAt": 1786860942876
   },
   {
-    "id": "f3929e83-dc50-41ef-aa1e-919551fa03d8",
+    "id": "f1607876-3794-4721-a2db-8494b45b1030",
     "name": "HWY0282",
     "lat": 32.7108,
     "lng": 73.9386,
@@ -6944,10 +6944,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101732
+    "createdAt": 1786860942876
   },
   {
-    "id": "0f3ecae5-5c63-4848-9d00-3ee263db776b",
+    "id": "3dbe062b-07a7-47f0-ae6e-58176fdd5346",
     "name": "HWY1576",
     "lat": 32.8375,
     "lng": 74.0402,
@@ -6972,10 +6972,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101732
+    "createdAt": 1786860942876
   },
   {
-    "id": "d61a6b33-63bb-43ab-8880-277d4a96e7de",
+    "id": "21e834cf-b10f-4652-af93-3f1746773f35",
     "name": "HWY1895",
     "lat": 32.9045,
     "lng": 74.0752,
@@ -7000,10 +7000,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101732
+    "createdAt": 1786860942877
   },
   {
-    "id": "9d38e44e-1242-46ef-9dc5-7d24b7c44cf4",
+    "id": "61b514b4-fca5-48e8-9f79-79c84114eca1",
     "name": "HWY3181",
     "lat": 32.5056,
     "lng": 74.0979,
@@ -7028,10 +7028,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101732
+    "createdAt": 1786860942877
   },
   {
-    "id": "7b545f18-f8d6-4608-999c-5a0d8358fa15",
+    "id": "ce3172ea-9db5-4a6e-9712-04826a6b24ea",
     "name": "HWY3435",
     "lat": 32.6423,
     "lng": 74.0021,
@@ -7056,10 +7056,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101732
+    "createdAt": 1786860942877
   },
   {
-    "id": "42a4c335-8b8f-42e0-8c3b-cdfbdc557432",
+    "id": "a7069479-f82f-4524-b8d6-b13d07073904",
     "name": "HWY6909",
     "lat": 32.6153,
     "lng": 74.0259,
@@ -7084,10 +7084,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101732
+    "createdAt": 1786860942877
   },
   {
-    "id": "077ffd89-0a18-4a5a-8899-276061020ee6",
+    "id": "00a83a5d-a01c-427a-823b-a6cbb04889ad",
     "name": "HWY8854",
     "lat": 32.7461,
     "lng": 73.9188,
@@ -7112,10 +7112,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101732
+    "createdAt": 1786860942877
   },
   {
-    "id": "d8415967-32d8-4637-a99d-0be4474bb1f8",
+    "id": "a44e8791-1d3b-4797-821f-a7a0db381062",
     "name": "JPJ3112",
     "lat": 32.637,
     "lng": 74.2015,
@@ -7140,10 +7140,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101732
+    "createdAt": 1786860942878
   },
   {
-    "id": "1798886c-80a0-480c-bdb9-293731948646",
+    "id": "d8247dbe-b372-4acb-98b5-106c3b3119ad",
     "name": "JPJ3113",
     "lat": 32.6477,
     "lng": 74.2117,
@@ -7168,10 +7168,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101732
+    "createdAt": 1786860942878
   },
   {
-    "id": "39920567-0626-4372-aaf1-7b069c87855d",
+    "id": "aa520d7c-7231-4057-8a7d-79afa196f4f1",
     "name": "JPJ3534",
     "lat": 32.6438,
     "lng": 74.2066,
@@ -7196,10 +7196,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "CP",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101732
+    "createdAt": 1786860942878
   },
   {
-    "id": "ef239d70-a5c8-4c9f-aa37-e6b295c9a0a1",
+    "id": "d98d3c85-b2c1-424a-9ec1-b4133d2a7adf",
     "name": "JPJ4875",
     "lat": 32.6458,
     "lng": 74.2002,
@@ -7224,10 +7224,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101732
+    "createdAt": 1786860942878
   },
   {
-    "id": "55992066-dcde-4962-b58a-0a6263b79b83",
+    "id": "9676ecab-0f59-4136-a5f3-c9a670c3aed8",
     "name": "JPJ6290",
     "lat": 32.6413,
     "lng": 74.2007,
@@ -7252,10 +7252,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101732
+    "createdAt": 1786860942878
   },
   {
-    "id": "6907e06c-500c-4834-8e5a-6eb235147bf7",
+    "id": "767b695b-638c-421d-93ba-ffdc8a90ead3",
     "name": "JPJ6301",
     "lat": 32.64,
     "lng": 74.2113,
@@ -7280,10 +7280,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101732
+    "createdAt": 1786860942879
   },
   {
-    "id": "18a6a3ff-bce6-4475-86cd-c8015a7a637e",
+    "id": "f399591f-e4eb-4a0c-813b-87b27983c8d9",
     "name": "JPJ6312",
     "lat": 32.6377,
     "lng": 74.2063,
@@ -7308,10 +7308,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101732
+    "createdAt": 1786860942879
   },
   {
-    "id": "8d5e4585-ce23-4476-9a92-0710a357da79",
+    "id": "2ae113af-3bb4-4958-8d53-c9a213d02ef2",
     "name": "JPS8766",
     "lat": 32.7678,
     "lng": 74.2113,
@@ -7336,10 +7336,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101732
+    "createdAt": 1786860942879
   },
   {
-    "id": "7be8476e-1d47-47f0-90e5-9d863e0b043e",
+    "id": "98f969a7-0173-423b-a3bf-4afb439590cd",
     "name": "JPS8768",
     "lat": 32.727,
     "lng": 74.1578,
@@ -7364,10 +7364,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101732
+    "createdAt": 1786860942879
   },
   {
-    "id": "ac9bb701-f10f-401d-adca-e4d7864502c4",
+    "id": "e6cb22dd-a4c5-4eda-852f-92836dff273b",
     "name": "JPS8771",
     "lat": 32.807,
     "lng": 74.1663,
@@ -7392,10 +7392,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101732
+    "createdAt": 1786860942880
   },
   {
-    "id": "00c72fda-5649-4a85-92a7-e9666e494ab5",
+    "id": "746022a4-4d7a-4be8-ab87-1b1e41ef7281",
     "name": "KNJ3535",
     "lat": 32.527,
     "lng": 73.9746,
@@ -7420,10 +7420,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101732
+    "createdAt": 1786860942880
   },
   {
-    "id": "c9662dff-24ec-4811-91de-ce373957b764",
+    "id": "e4944be5-f4ad-403c-919c-b40036f241f0",
     "name": "KNJ4254",
     "lat": 32.5324,
     "lng": 73.9773,
@@ -7448,10 +7448,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101732
+    "createdAt": 1786860942880
   },
   {
-    "id": "30623d23-2e8f-4e64-acbd-5246c9102407",
+    "id": "cca23d90-f735-4f59-96a3-5f8c76516d34",
     "name": "KRW8772",
     "lat": 32.7535,
     "lng": 74.2802,
@@ -7476,10 +7476,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101732
+    "createdAt": 1786860942880
   },
   {
-    "id": "de2cbbcf-a7a1-4ec6-8f4e-ad1ae133a395",
+    "id": "959750db-e330-4f5b-a48e-a7dca13bbf61",
     "name": "KRW8773",
     "lat": 32.746,
     "lng": 74.2783,
@@ -7504,10 +7504,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101732
+    "createdAt": 1786860942880
   },
   {
-    "id": "f8077957-73fa-454b-93a2-3a3cfaab18df",
+    "id": "3ddaa9b5-8ccc-49e4-9245-17f1bea7ad14",
     "name": "KRW8774",
     "lat": 32.7285,
     "lng": 74.3274,
@@ -7532,10 +7532,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101732
+    "createdAt": 1786860942880
   },
   {
-    "id": "780e0afc-6a93-4f78-8fea-de97634a0d34",
+    "id": "f71122c2-2e53-4d8b-81de-6a645672a761",
     "name": "LLM0360",
     "lat": 32.7058,
     "lng": 73.9558,
@@ -7560,10 +7560,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101732
+    "createdAt": 1786860942881
   },
   {
-    "id": "76d16304-885a-4659-a6e1-1e021b0a7053",
+    "id": "2e1072cb-5731-4a43-aa12-38ce6e9ac707",
     "name": "LLM3835",
     "lat": 32.696,
     "lng": 73.9634,
@@ -7588,10 +7588,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101732
+    "createdAt": 1786860942881
   },
   {
-    "id": "05e79ee4-b175-4b53-afdf-b02ac12cc96d",
+    "id": "7db1a900-cd94-4e45-9590-eb6d0d744a9a",
     "name": "LLM4526",
     "lat": 32.7025,
     "lng": 73.9634,
@@ -7616,10 +7616,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "DG",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101732
+    "createdAt": 1786860942881
   },
   {
-    "id": "4f1fcc45-c4fe-4b73-873b-8486c9961ac9",
+    "id": "d078fb52-4cb8-4511-a1b6-0af81070a4f4",
     "name": "LLM6248",
     "lat": 32.7089,
     "lng": 73.9626,
@@ -7644,10 +7644,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101732
+    "createdAt": 1786860942881
   },
   {
-    "id": "58097586-6027-4d41-8042-19bfb9708130",
+    "id": "06b186a6-5b73-4a70-9989-b9e55e54ef8b",
     "name": "LLM6252",
     "lat": 32.6989,
     "lng": 73.952,
@@ -7672,10 +7672,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101732
+    "createdAt": 1786860942881
   },
   {
-    "id": "080f7308-c4d1-486f-87d8-2e6bae41c059",
+    "id": "0ebaa941-7a4f-41c7-90d7-125d60bfae24",
     "name": "LLM9854",
     "lat": 32.7,
     "lng": 73.9562,
@@ -7700,10 +7700,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "DG",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101732
+    "createdAt": 1786860942882
   },
   {
-    "id": "b66e4e6b-1c01-41ae-82e4-8619009ca201",
+    "id": "a99f4c5a-64a7-4579-a95d-65b864edd554",
     "name": "MGW4071",
     "lat": 32.33349,
     "lng": 74.03234,
@@ -7728,10 +7728,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101732
+    "createdAt": 1786860942882
   },
   {
-    "id": "09ca7c6e-b1a7-417d-94a9-9f0bb253d39c",
+    "id": "76c83be3-f3ce-4ee9-a58f-828702b59069",
     "name": "RUR0511",
     "lat": 32.6963,
     "lng": 74.2436,
@@ -7756,10 +7756,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101732
+    "createdAt": 1786860942883
   },
   {
-    "id": "e8ad49bb-10ec-44f0-b944-a878615579cf",
+    "id": "c4944fe5-17e1-487f-9b3d-62c0d4ae7302",
     "name": "RUR0647",
     "lat": 32.5257,
     "lng": 74.0972,
@@ -7784,10 +7784,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101732
+    "createdAt": 1786860942883
   },
   {
-    "id": "164c4f74-17c9-4e1b-ac47-2c6a9f573c9a",
+    "id": "3af345d0-6348-4a62-9cd9-8f9c50bcf6fd",
     "name": "RUR0787",
     "lat": 32.7665,
     "lng": 74.1085,
@@ -7812,10 +7812,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101732
+    "createdAt": 1786860942883
   },
   {
-    "id": "994feded-3812-44c8-9fa3-d868d3dd8d02",
+    "id": "3373e9d3-e638-4e35-aea9-be024262bb0e",
     "name": "RUR0874",
     "lat": 32.5751,
     "lng": 73.9527,
@@ -7840,10 +7840,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101732
+    "createdAt": 1786860942883
   },
   {
-    "id": "e3703d16-aad4-48db-951e-50c1e1ad36c3",
+    "id": "0c4ffec0-1d41-4817-a829-e90eabe55886",
     "name": "RUR1581",
     "lat": 32.8552,
     "lng": 74.1109,
@@ -7868,10 +7868,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101732
+    "createdAt": 1786860942883
   },
   {
-    "id": "7aa9fe6c-b421-479d-9354-ebdc0dfff0bb",
+    "id": "71f7fa59-9c0e-40db-b924-cca2cf63561b",
     "name": "RUR1583",
     "lat": 32.8658,
     "lng": 74.0669,
@@ -7896,10 +7896,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101732
+    "createdAt": 1786860942884
   },
   {
-    "id": "7af94944-ccf5-4209-af4c-3aa87d616e18",
+    "id": "d0081c77-b6d4-45b1-92eb-f1dccc694b27",
     "name": "RUR3844",
     "lat": 32.6651,
     "lng": 73.8312,
@@ -7924,10 +7924,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101732
+    "createdAt": 1786860942884
   },
   {
-    "id": "18115315-2b0a-4ec3-9542-a4aca2a86c59",
+    "id": "3fdb4a05-2b52-4813-b367-761093d0fad4",
     "name": "RUR4021",
     "lat": 32.8229,
     "lng": 74.2359,
@@ -7952,10 +7952,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101732
+    "createdAt": 1786860942884
   },
   {
-    "id": "3a022fe6-f69a-42a1-b88f-781b19eb095d",
+    "id": "2c68ee93-7dd8-4509-878a-4c91c5f495ad",
     "name": "RUR6235",
     "lat": 32.7215,
     "lng": 74.0233,
@@ -7980,10 +7980,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101733
+    "createdAt": 1786860942884
   },
   {
-    "id": "867f8636-7825-436e-afff-1c6377fdd625",
+    "id": "ffcd93d1-b260-41ee-8203-9dbc6e1b615a",
     "name": "RUR6240",
     "lat": 32.7489,
     "lng": 74.0716,
@@ -8008,10 +8008,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101733
+    "createdAt": 1786860942884
   },
   {
-    "id": "21bb740a-fa47-4fd0-b94a-0d1246673ff6",
+    "id": "7e300d3f-38c1-4266-a51e-263bba6d790b",
     "name": "RUR6241",
     "lat": 32.6775,
     "lng": 73.9008,
@@ -8036,10 +8036,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101733
+    "createdAt": 1786860942885
   },
   {
-    "id": "5ed6678a-f995-4d72-9a47-33616f594323",
+    "id": "265aec42-f5e8-4967-83ae-3dc21343b649",
     "name": "RUR6254",
     "lat": 32.67,
     "lng": 74.2627,
@@ -8064,10 +8064,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101733
+    "createdAt": 1786860942885
   },
   {
-    "id": "98155692-8e30-44ff-af31-23d302ffcebc",
+    "id": "34da7bb2-1a50-4959-8d5f-407afd6e3cd3",
     "name": "RUR6255",
     "lat": 32.6603,
     "lng": 74.3737,
@@ -8092,10 +8092,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101733
+    "createdAt": 1786860942885
   },
   {
-    "id": "42f1ee55-393e-4043-93e5-3ed59fa8cf84",
+    "id": "3ab0c8cb-7408-437a-ac6c-9311b39c17fc",
     "name": "RUR6256",
     "lat": 32.6112,
     "lng": 74.1499,
@@ -8120,10 +8120,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101733
+    "createdAt": 1786860942885
   },
   {
-    "id": "80405cfe-f0d5-43f0-897c-b820f477bbd3",
+    "id": "4d5bf959-8a0f-451c-8392-2103ef65f0d6",
     "name": "RUR9062",
     "lat": 32.70396,
     "lng": 73.832008,
@@ -8148,10 +8148,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101733
+    "createdAt": 1786860942885
   },
   {
-    "id": "b9b29eea-fc92-4e8b-9502-f507e025fb35",
+    "id": "d770731c-d0a5-4b39-8c59-421e55ee4a67",
     "name": "RUR9205",
     "lat": 32.7924,
     "lng": 74.2839,
@@ -8176,10 +8176,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101733
+    "createdAt": 1786860942886
   },
   {
-    "id": "d8d23872-15a9-4809-8cc4-9209286e96a9",
+    "id": "93389552-9f72-4bb2-87f8-728fd3b52a5c",
     "name": "RUR9206",
     "lat": 32.7701,
     "lng": 74.3331,
@@ -8204,10 +8204,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101733
+    "createdAt": 1786860942886
   },
   {
-    "id": "e6d59449-4aea-4c1e-9153-7a5597bb0523",
+    "id": "e7a37854-8c19-4367-85fc-2e69c02fede5",
     "name": "RUR9207",
     "lat": 32.7074,
     "lng": 74.2821,
@@ -8232,10 +8232,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101733
+    "createdAt": 1786860942886
   },
   {
-    "id": "a5c1285f-1b6b-4e74-8e3a-53759e1afa8c",
+    "id": "ebe5a4c4-2242-4bdf-b350-50f6aabd5176",
     "name": "RUR9208",
     "lat": 32.6451,
     "lng": 74.3037,
@@ -8260,10 +8260,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101733
+    "createdAt": 1786860942886
   },
   {
-    "id": "45d83c29-e93a-46ef-a05d-6762d7f8090f",
+    "id": "e23631dc-3977-4df9-ab45-6674a3c9712b",
     "name": "RUR9210",
     "lat": 32.6542,
     "lng": 73.9644,
@@ -8288,10 +8288,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101733
+    "createdAt": 1786860942886
   },
   {
-    "id": "da6a045c-1824-46b9-98fb-3018cebfa577",
+    "id": "d66ad322-9935-47b6-a442-3783a16bbe03",
     "name": "SDL6964",
     "lat": 32.512,
     "lng": 74.0341,
@@ -8316,10 +8316,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101733
+    "createdAt": 1786860942887
   },
   {
-    "id": "121066b7-e936-4b81-92d7-594dc6ad7067",
+    "id": "1d18f230-b562-4a1f-a6a8-88754c32179b",
     "name": "SKL9911",
     "lat": 32.5867,
     "lng": 74.1515,
@@ -8344,10 +8344,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101733
+    "createdAt": 1786860942887
   },
   {
-    "id": "07c08abc-68f2-455d-bc22-030d7262f137",
+    "id": "b400e553-d966-48a8-a5a1-e6c480135c4b",
     "name": "SKL9912",
     "lat": 32.5637,
     "lng": 74.1332,
@@ -8372,10 +8372,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101733
+    "createdAt": 1786860942887
   },
   {
-    "id": "dcd90ff7-d40d-4cf0-a391-aa14b459cc21",
+    "id": "77ef177e-f98d-4455-b7c3-baad18a2e52e",
     "name": "SKL9913",
     "lat": 32.6006,
     "lng": 74.2132,
@@ -8400,10 +8400,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101733
+    "createdAt": 1786860942887
   },
   {
-    "id": "eda02274-0584-4bf6-b87a-f8754e8e5cd0",
+    "id": "f264305b-ad60-4f74-b256-aaca5f7edc16",
     "name": "TDA3548",
     "lat": 32.6865,
     "lng": 74.3198,
@@ -8428,10 +8428,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101733
+    "createdAt": 1786860942887
   },
   {
-    "id": "d66130bb-83b4-4820-9244-684bf0fdfa37",
+    "id": "71dddb96-fcf6-419d-98b7-caa656a13ee8",
     "name": "TDA3941",
     "lat": 32.7,
     "lng": 74.365,
@@ -8456,10 +8456,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101733
+    "createdAt": 1786860942888
   },
   {
-    "id": "e69f37f4-9f2b-433c-ad7d-3af16793fe0b",
+    "id": "6ffc2556-3846-4651-a688-4b2c974eba1d",
     "name": "TDA3942",
     "lat": 32.7015,
     "lng": 74.374,
@@ -8484,10 +8484,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101733
+    "createdAt": 1786860942888
   },
   {
-    "id": "6bd9146f-74ae-4806-adf8-45d3250d6bcd",
+    "id": "4eda0df5-a909-4eb5-b711-f75ec89465d2",
     "name": "GUJ3816",
     "lat": 32.191,
     "lng": 74.1687,
@@ -8512,10 +8512,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "CP",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101733
+    "createdAt": 1786860942888
   },
   {
-    "id": "f2706e0d-cfaa-4443-aea2-5d3f751d056a",
+    "id": "5b84ffe0-fdac-4784-8c0b-c2a195b5897e",
     "name": "GUJ3019",
     "lat": 32.1381,
     "lng": 74.1722,
@@ -8540,10 +8540,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "DG",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101733
+    "createdAt": 1786860942888
   },
   {
-    "id": "9541adc8-8e67-4f85-bcc6-bc42298a0b97",
+    "id": "7cc08a39-a29b-4016-b81c-bbb377762ab6",
     "name": "GUJ0726",
     "lat": 32.1853,
     "lng": 74.1914,
@@ -8568,10 +8568,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "CP",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101733
+    "createdAt": 1786860942888
   },
   {
-    "id": "be17dd48-91e7-438b-87e0-400b956cf358",
+    "id": "61859409-e9c6-4fe1-ad69-9cfd7b2908cd",
     "name": "GHK0384",
     "lat": 32.30451388,
     "lng": 74.15095372,
@@ -8596,10 +8596,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101733
+    "createdAt": 1786860942889
   },
   {
-    "id": "db74a83c-5389-4832-8a06-a71bf012b2db",
+    "id": "33c77b5b-7ac2-443b-bc71-62c1c73245d6",
     "name": "GHK4414",
     "lat": 32.3025,
     "lng": 74.1443,
@@ -8624,10 +8624,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101733
+    "createdAt": 1786860942889
   },
   {
-    "id": "fccdfa9e-11aa-47fa-9edb-cf1cef8ccda5",
+    "id": "3e052faf-df82-4373-bbbc-c7bcdce82f43",
     "name": "GHK6955",
     "lat": 32.3092,
     "lng": 74.1469,
@@ -8652,10 +8652,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101733
+    "createdAt": 1786860942889
   },
   {
-    "id": "94c83703-0a7b-421b-8116-cc94c815fa04",
+    "id": "be0bc47c-02b8-41c1-ac2f-027773e58d3d",
     "name": "GHK9864",
     "lat": 32.2993,
     "lng": 74.1468,
@@ -8680,10 +8680,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "DG",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101733
+    "createdAt": 1786860942905
   },
   {
-    "id": "78e59d80-5785-4b17-ab50-3d7435eed14d",
+    "id": "01da20f2-311c-4232-9075-03b2bbe9f708",
     "name": "GUJ0006",
     "lat": 32.1675,
     "lng": 74.1863,
@@ -8708,10 +8708,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101733
+    "createdAt": 1786860942905
   },
   {
-    "id": "c2114dce-aa64-4454-a400-eb4efaa3e25c",
+    "id": "cdacd49a-1428-4747-822a-c18846f651cc",
     "name": "GUJ0081",
     "lat": 32.1433,
     "lng": 74.185,
@@ -8736,10 +8736,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101733
+    "createdAt": 1786860942905
   },
   {
-    "id": "769d0d7a-505f-4b98-9153-1e7eaba693ee",
+    "id": "eabf0568-daa1-44fa-bc72-6eb114b55aca",
     "name": "GUJ0278",
     "lat": 32.2536,
     "lng": 74.1606,
@@ -8764,10 +8764,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101733
+    "createdAt": 1786860942906
   },
   {
-    "id": "6725cabb-ef31-4905-9ab5-78e5825f9712",
+    "id": "f59f6454-59f6-45a2-9057-0ebac37e9efa",
     "name": "GUJ0309",
     "lat": 32.1599,
     "lng": 74.1781,
@@ -8792,10 +8792,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "CP",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101733
+    "createdAt": 1786860942906
   },
   {
-    "id": "42daf562-d00d-4bda-b17e-61c098e94db6",
+    "id": "5475a98f-0ea7-4ba7-90f8-3767970e2fbd",
     "name": "GUJ0348",
     "lat": 32.2228,
     "lng": 74.152,
@@ -8820,10 +8820,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101733
+    "createdAt": 1786860942906
   },
   {
-    "id": "97fb7b3b-9933-4959-afe2-7ddcd7faa632",
+    "id": "6aca06aa-f8f8-4340-8ac5-ff113a841a10",
     "name": "GUJ0387",
     "lat": 32.1749,
     "lng": 74.1783,
@@ -8848,10 +8848,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101733
+    "createdAt": 1786860942906
   },
   {
-    "id": "4830b0c5-1d5a-420d-bcd3-c348f54fe958",
+    "id": "349587dc-07f2-4756-8d8d-9e0573ab4ffc",
     "name": "GUJ0723",
     "lat": 32.1867,
     "lng": 74.1802,
@@ -8876,10 +8876,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101733
+    "createdAt": 1786860942906
   },
   {
-    "id": "fd4caf66-f480-49b6-87cf-87ec1603b7d3",
+    "id": "2a15dfe9-2960-41f3-b2ef-4988c8072643",
     "name": "GUJ0724",
     "lat": 32.1653,
     "lng": 74.1625,
@@ -8904,10 +8904,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101733
+    "createdAt": 1786860942907
   },
   {
-    "id": "e4183b20-6a46-49d1-bda0-3e83577d1149",
+    "id": "720ffe32-046b-452d-8071-f01dfbb011fd",
     "name": "GUJ0729",
     "lat": 32.1434,
     "lng": 74.1601,
@@ -8932,10 +8932,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101733
+    "createdAt": 1786860942907
   },
   {
-    "id": "349e94a5-da2b-428b-b8da-a9a3ad040ac5",
+    "id": "e57a0a3d-7a8b-4d2c-ba36-c3b2858873ac",
     "name": "GUJ0731",
     "lat": 32.1739,
     "lng": 74.1705,
@@ -8960,10 +8960,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101733
+    "createdAt": 1786860942907
   },
   {
-    "id": "e6e915a4-211c-4094-aa4d-7e3a20b7d670",
+    "id": "b99e286e-79d9-4696-857b-1c8ea74a14a2",
     "name": "GUJ1467",
     "lat": 32.2135,
     "lng": 74.2014,
@@ -8988,10 +8988,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101733
+    "createdAt": 1786860942907
   },
   {
-    "id": "708c4aa5-c53a-4fc4-a3e5-cc39aba0a1aa",
+    "id": "9e8a56d7-833d-492a-894f-1647a9f19bad",
     "name": "GUJ3066",
     "lat": 32.1915,
     "lng": 74.1891,
@@ -9016,10 +9016,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101733
+    "createdAt": 1786860942907
   },
   {
-    "id": "576fe4f8-20d0-49e8-900e-077bbaaf2692",
+    "id": "154167e4-edae-4c25-a9a3-7fa2ef6eba2f",
     "name": "GUJ3303",
     "lat": 32.1514,
     "lng": 74.1638,
@@ -9044,10 +9044,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101733
+    "createdAt": 1786860942908
   },
   {
-    "id": "8f6c495d-a6e9-4639-9bd8-ad16d762c61e",
+    "id": "40afc03d-9a14-40f8-9b72-e363527932fd",
     "name": "GUJ3304",
     "lat": 32.1492,
     "lng": 74.1706,
@@ -9072,10 +9072,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101733
+    "createdAt": 1786860942908
   },
   {
-    "id": "43d23888-43cc-4fb8-9f04-a5cb90034bdb",
+    "id": "4a3551cb-3ff4-4e65-a8ad-c35ba052dbad",
     "name": "GUJ3338",
     "lat": 32.1722,
     "lng": 74.185,
@@ -9100,10 +9100,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101733
+    "createdAt": 1786860942908
   },
   {
-    "id": "b225d736-a709-4dc0-9f5d-12cefd980a15",
+    "id": "6abeb024-3375-4af8-b8fb-aa1603cd2c93",
     "name": "GUJ3340",
     "lat": 32.1612,
     "lng": 74.1853,
@@ -9128,10 +9128,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101733
+    "createdAt": 1786860942908
   },
   {
-    "id": "9fae28df-b9f7-4f1a-89b1-519a72359fbc",
+    "id": "f2d60b31-1b99-4b67-a1d6-4156c6e9311f",
     "name": "GUJ3342",
     "lat": 32.1549,
     "lng": 74.1833,
@@ -9156,10 +9156,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101733
+    "createdAt": 1786860942909
   },
   {
-    "id": "8c356f83-c1a3-4189-906d-90e268de542d",
+    "id": "bd95699e-7195-46db-931c-32d0a1ba3bb4",
     "name": "GUJ3344",
     "lat": 32.1624,
     "lng": 74.1706,
@@ -9184,10 +9184,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101733
+    "createdAt": 1786860942909
   },
   {
-    "id": "02295803-3a36-4910-81ca-482c123a8a1b",
+    "id": "21329e02-e2ed-4b12-a513-deb02ae549c2",
     "name": "GUJ3351",
     "lat": 32.195,
     "lng": 74.1726,
@@ -9212,10 +9212,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101734
+    "createdAt": 1786860942909
   },
   {
-    "id": "546e65a2-0854-4aa4-8ddc-ba2a9bfa681a",
+    "id": "731743a6-4dfa-4a3c-b672-95b6d4f67f02",
     "name": "GUJ3354",
     "lat": 32.1804,
     "lng": 74.1758,
@@ -9240,10 +9240,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101734
+    "createdAt": 1786860942910
   },
   {
-    "id": "ee6a72d5-d311-47bf-9902-13ec3145dce9",
+    "id": "dc92bd7c-41b4-4c59-84fe-a3df92412c71",
     "name": "GUJ3355",
     "lat": 32.1558,
     "lng": 74.169,
@@ -9268,10 +9268,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DG",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101734
+    "createdAt": 1786860942912
   },
   {
-    "id": "c3b4c356-1881-4a0f-b7e4-d64c25041973",
+    "id": "6c4105f6-dd21-4d06-8545-acfb17a891b4",
     "name": "GUJ3541",
     "lat": 32.2546,
     "lng": 74.1082,
@@ -9296,10 +9296,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101734
+    "createdAt": 1786860942912
   },
   {
-    "id": "7833ef29-83b3-4d62-8a31-a451b9ed8f80",
+    "id": "538ec755-6a14-43ee-a14b-36034b14dbe5",
     "name": "GUJ3616",
     "lat": 32.1776,
     "lng": 74.1684,
@@ -9324,10 +9324,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "CP",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101734
+    "createdAt": 1786860942912
   },
   {
-    "id": "94e67bf6-0077-4fd8-91e1-3a20c7cf131a",
+    "id": "a51cfa88-ed79-44e5-8b0c-82a65d3c3e43",
     "name": "GUJ3740",
     "lat": 32.1602,
     "lng": 74.1648,
@@ -9352,10 +9352,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101734
+    "createdAt": 1786860942913
   },
   {
-    "id": "33f01592-c8ef-438c-9b4f-d31fe6e51d64",
+    "id": "310d45fc-5615-4ee3-ad6e-91fb1a84c368",
     "name": "GUJ3746",
     "lat": 32.1971,
     "lng": 74.184,
@@ -9380,10 +9380,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101734
+    "createdAt": 1786860942913
   },
   {
-    "id": "479cf5a7-822d-4f9a-92fa-49a7a608cc7c",
+    "id": "fce7d704-094b-4183-9cf1-725658123cc6",
     "name": "GUJ4147",
     "lat": 32.1727,
     "lng": 74.1608,
@@ -9408,10 +9408,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101734
+    "createdAt": 1786860942913
   },
   {
-    "id": "958de011-63e3-4d4c-884e-541d34e1b36e",
+    "id": "b9ae4f09-6746-48a6-bc82-9001d43a39a3",
     "name": "GUJ4178",
     "lat": 32.1839,
     "lng": 74.1724,
@@ -9436,10 +9436,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101734
+    "createdAt": 1786860942913
   },
   {
-    "id": "f153b308-1752-4b28-88b5-78dd5e7a5e12",
+    "id": "be62cea4-6a30-4a35-a299-6f90af104240",
     "name": "GUJ4649",
     "lat": 32.2041,
     "lng": 74.1833,
@@ -9464,10 +9464,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101734
+    "createdAt": 1786860942913
   },
   {
-    "id": "286ac8a0-5567-4d82-9fb5-c05beed7698f",
+    "id": "93c7ade5-1971-4d8c-8a49-0235e941cf47",
     "name": "GUJ4651",
     "lat": 32.1895,
     "lng": 74.1997,
@@ -9492,10 +9492,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DG",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101734
+    "createdAt": 1786860942914
   },
   {
-    "id": "d5b128ce-4482-4f58-b53d-7b2a13be6fee",
+    "id": "04c0ddcf-0740-4015-ae02-d689cd188e4e",
     "name": "GUJ4654",
     "lat": 32.1685,
     "lng": 74.1719,
@@ -9520,10 +9520,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101734
+    "createdAt": 1786860942914
   },
   {
-    "id": "6b7d7657-3601-4e5f-b8e5-7525f91466bb",
+    "id": "251f3f31-e1b5-4576-afd0-9118c9644464",
     "name": "GUJ4660",
     "lat": 32.1476,
     "lng": 74.156,
@@ -9548,10 +9548,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101734
+    "createdAt": 1786860942914
   },
   {
-    "id": "0a2bd97f-0e60-43d6-9009-dfb9bc21eef6",
+    "id": "54febaf6-4ea4-4812-b274-f3bb9540cfa8",
     "name": "GUJ4667",
     "lat": 32.2483,
     "lng": 74.1288,
@@ -9576,10 +9576,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101734
+    "createdAt": 1786860942914
   },
   {
-    "id": "f53a5657-a995-4f23-ae44-062000f55f99",
+    "id": "15370812-80ce-4365-98db-4d7250e553dd",
     "name": "GUJ4838",
     "lat": 32.2394,
     "lng": 74.101,
@@ -9604,10 +9604,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101734
+    "createdAt": 1786860942914
   },
   {
-    "id": "a90d16ea-c964-4033-8dab-39b7ef2d304b",
+    "id": "e8cf651e-3476-4eb7-89af-af81713a8a8e",
     "name": "GUJ5757",
     "lat": 32.2493,
     "lng": 74.1151,
@@ -9632,10 +9632,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101734
+    "createdAt": 1786860942915
   },
   {
-    "id": "e266feb1-4571-420a-b2c4-d4b90bf5fdf2",
+    "id": "8053fcfc-8bf8-49a2-bfcf-d1b85c5fb3e5",
     "name": "GUJ6261",
     "lat": 32.2411,
     "lng": 74.0892,
@@ -9660,10 +9660,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101734
+    "createdAt": 1786860942915
   },
   {
-    "id": "4cd5648c-61d6-4489-b6ca-728e7a57ebbc",
+    "id": "d4f785a3-c789-4861-895a-cca5dfd72e80",
     "name": "GUJ8233",
     "lat": 32.195,
     "lng": 74.1782,
@@ -9688,10 +9688,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101734
+    "createdAt": 1786860942916
   },
   {
-    "id": "957b148d-d0e4-4087-ad05-aa1ed042eee1",
+    "id": "7a452d1f-ce30-4905-b905-695a40d9349b",
     "name": "GUJ8921",
     "lat": 32.1821,
     "lng": 74.1838,
@@ -9716,10 +9716,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101734
+    "createdAt": 1786860942916
   },
   {
-    "id": "f5a9c225-54cb-48aa-a955-8a8ef80649fc",
+    "id": "d0247715-bc31-4963-8f33-8d55e13a2e52",
     "name": "GUJ9408",
     "lat": 32.1754,
     "lng": 74.1852,
@@ -9744,10 +9744,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101734
+    "createdAt": 1786860942916
   },
   {
-    "id": "6cb924e9-72ae-4530-a736-d6b1cbe899b3",
+    "id": "b96fec14-3900-40de-a858-46b730e407c1",
     "name": "GUJ9409",
     "lat": 32.1455,
     "lng": 74.1884,
@@ -9772,10 +9772,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101734
+    "createdAt": 1786860942917
   },
   {
-    "id": "db442ebc-7743-4926-a8ae-78c03bb98436",
+    "id": "6b170cf8-5560-4039-87e7-3048cf6d3d62",
     "name": "GUJ9410",
     "lat": 32.175,
     "lng": 74.1658,
@@ -9800,10 +9800,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101734
+    "createdAt": 1786860942917
   },
   {
-    "id": "4859642a-ab52-42b4-be6f-1bd1d50a7624",
+    "id": "3cb835ef-440f-452e-98b9-015bd6e2a080",
     "name": "GUJ9413",
     "lat": 32.1694,
     "lng": 74.1848,
@@ -9828,10 +9828,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101734
+    "createdAt": 1786860942917
   },
   {
-    "id": "f24dc1df-1a47-4e8c-9f16-46ab1213921a",
+    "id": "398dac1c-e838-47c4-af2f-b9b6557ceba5",
     "name": "GUJ9416",
     "lat": 32.168,
     "lng": 74.1779,
@@ -9856,10 +9856,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101734
+    "createdAt": 1786860942917
   },
   {
-    "id": "ef82c5ae-7840-4ae1-a023-ca126089fb2d",
+    "id": "0f4d796e-6c1a-4f31-b205-541e84499f3b",
     "name": "GUJ9419",
     "lat": 32.165,
     "lng": 74.1855,
@@ -9884,10 +9884,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101734
+    "createdAt": 1786860942917
   },
   {
-    "id": "f111ba9c-2882-4265-ab1f-e28271d673cd",
+    "id": "1651ffb4-af65-4119-b729-3d06ea6204aa",
     "name": "GUJ9421",
     "lat": 32.1525,
     "lng": 74.1877,
@@ -9912,10 +9912,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101734
+    "createdAt": 1786860942918
   },
   {
-    "id": "6bc0d74f-0d32-4f0e-9edf-91ff31dba7ed",
+    "id": "a7ff5089-3824-4037-9d0d-441e9ed0bf89",
     "name": "GUJ9425",
     "lat": 32.1619,
     "lng": 74.1878,
@@ -9940,10 +9940,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101734
+    "createdAt": 1786860942918
   },
   {
-    "id": "4b48bd37-4890-4353-ab91-f66605238af7",
+    "id": "699db4b8-a900-4c52-b076-a1b8bb1ab6af",
     "name": "GUJ9431",
     "lat": 32.1386,
     "lng": 74.1838,
@@ -9968,10 +9968,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101734
+    "createdAt": 1786860942918
   },
   {
-    "id": "85a2e1e4-a326-48ec-a498-6d0da518e40d",
+    "id": "ae865ffc-5850-4449-a28e-dae9c4f4ff8a",
     "name": "GUJ9433",
     "lat": 32.1573,
     "lng": 74.1462,
@@ -9996,10 +9996,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101734
+    "createdAt": 1786860942918
   },
   {
-    "id": "feac39fd-c999-4baa-ab95-01e2c84702a1",
+    "id": "6ba8f1b5-c674-4ddf-8d21-08f2fded2353",
     "name": "GUJ9440",
     "lat": 32.1459,
     "lng": 74.1738,
@@ -10024,10 +10024,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101734
+    "createdAt": 1786860942919
   },
   {
-    "id": "40b52df2-40e3-4c4c-a30f-17cfcea0bc64",
+    "id": "a7d039b8-362e-45f7-b293-72f714175126",
     "name": "GUJ9441",
     "lat": 32.1484,
     "lng": 74.1655,
@@ -10052,10 +10052,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101734
+    "createdAt": 1786860942919
   },
   {
-    "id": "3986d780-a037-48af-82fd-3220723b8201",
+    "id": "1783e595-e694-40f2-9643-8afb42983017",
     "name": "GUJ9442",
     "lat": 32.1614,
     "lng": 74.167,
@@ -10080,10 +10080,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101734
+    "createdAt": 1786860942919
   },
   {
-    "id": "8b37964b-6a96-4b0d-81fd-3a77d1f9c96b",
+    "id": "2b1ec675-4783-4549-81a1-d0d216aa95a3",
     "name": "GUJ9444",
     "lat": 32.1691,
     "lng": 74.1662,
@@ -10108,10 +10108,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101734
+    "createdAt": 1786860942919
   },
   {
-    "id": "1c69839b-4772-4e24-8132-2126de2deec4",
+    "id": "f50c1b3f-8b4f-4328-b089-7ceb3472c2f9",
     "name": "GUJ9445",
     "lat": 32.1525,
     "lng": 74.1596,
@@ -10136,10 +10136,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101734
+    "createdAt": 1786860942920
   },
   {
-    "id": "eb0696dc-5879-41cf-9270-005ce85a5328",
+    "id": "6cd89401-50ce-4607-ba4f-69d162d8a263",
     "name": "GUJ9446",
     "lat": 32.1585,
     "lng": 74.1606,
@@ -10164,10 +10164,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101735
+    "createdAt": 1786860942920
   },
   {
-    "id": "35fbca93-155c-45bc-b956-8be768dd13e9",
+    "id": "a08ab7aa-6a67-4a31-95ed-47c9ec39f8e6",
     "name": "GUJ9447",
     "lat": 32.156,
     "lng": 74.1552,
@@ -10192,10 +10192,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101735
+    "createdAt": 1786860942920
   },
   {
-    "id": "811875d5-228d-4dbe-984a-139d499c358e",
+    "id": "0f5eaef4-8f66-4603-afc8-179ac1ce7953",
     "name": "GUJ9450",
     "lat": 32.152,
     "lng": 74.1735,
@@ -10220,10 +10220,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101735
+    "createdAt": 1786860942920
   },
   {
-    "id": "8d020eaa-b025-424d-addb-dafb45b83894",
+    "id": "9ef2dc00-b6a8-4ce4-b44f-a871409fb9f8",
     "name": "GUJ9451",
     "lat": 32.1506,
     "lng": 74.1821,
@@ -10248,10 +10248,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101735
+    "createdAt": 1786860942920
   },
   {
-    "id": "b7039ccf-6e74-446f-bb91-28729d32ccce",
+    "id": "5c0eb4e8-b269-4e55-8ea3-5f8920fa23c3",
     "name": "GUJ9452",
     "lat": 32.1601,
     "lng": 74.1755,
@@ -10276,10 +10276,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101735
+    "createdAt": 1786860942921
   },
   {
-    "id": "4051086f-b6a4-4ba5-a1c1-be337286ce08",
+    "id": "7f5c8f8f-90ff-4611-8417-0879f8c2e53e",
     "name": "GUJ9453",
     "lat": 32.1545,
     "lng": 74.1789,
@@ -10304,10 +10304,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101735
+    "createdAt": 1786860942921
   },
   {
-    "id": "f286f5d0-dec6-4827-8cb8-71d7a7563ed7",
+    "id": "1ad2fbd4-7e40-40a3-808c-278d66b7b8e5",
     "name": "GUJ9485",
     "lat": 32.2492,
     "lng": 74.1679,
@@ -10332,10 +10332,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101735
+    "createdAt": 1786860942921
   },
   {
-    "id": "63255827-00f4-4017-9f06-f4d40d03cbce",
+    "id": "d40b20be-6458-428c-a5fb-e2e15a4e7536",
     "name": "GUJ9509",
     "lat": 32.2261,
     "lng": 74.1688,
@@ -10360,10 +10360,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101735
+    "createdAt": 1786860942921
   },
   {
-    "id": "f789dea6-bef5-43d5-940e-6935f5eefa31",
+    "id": "3f45d360-d505-4486-b2c1-77f703765f43",
     "name": "GUJ9511",
     "lat": 32.2425,
     "lng": 74.1175,
@@ -10388,10 +10388,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101735
+    "createdAt": 1786860942921
   },
   {
-    "id": "466d7f6a-1e6f-4b3c-8e06-33eff913b308",
+    "id": "01adfa43-e9c8-4f6e-8af7-0991129fb05e",
     "name": "GUJ9515",
     "lat": 32.248,
     "lng": 74.16,
@@ -10416,10 +10416,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101735
+    "createdAt": 1786860942922
   },
   {
-    "id": "22d5080d-03bf-4de9-a81b-8d439cb9eafa",
+    "id": "449301a1-5245-4715-9793-5d00f09f0c42",
     "name": "GUJ9733",
     "lat": 32.2007,
     "lng": 74.1702,
@@ -10444,10 +10444,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101735
+    "createdAt": 1786860942922
   },
   {
-    "id": "a49eaeaf-9a5d-471b-a15f-9cfa47c0b302",
+    "id": "8bb72fad-dfa6-4d7c-a34f-ff4912956321",
     "name": "GUJ9843",
     "lat": 32.1636,
     "lng": 74.1807,
@@ -10472,10 +10472,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101735
+    "createdAt": 1786860942922
   },
   {
-    "id": "620adcd5-e135-4012-8a98-2097d5e233a9",
+    "id": "bdd94de7-d569-4e2d-8a43-3f47a837dbfe",
     "name": "GUJ9942",
     "lat": 32.1566,
     "lng": 74.1748,
@@ -10500,10 +10500,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101735
+    "createdAt": 1786860942922
   },
   {
-    "id": "0b71783f-104d-4414-b271-280debb669c8",
+    "id": "cf23aa57-5d89-4ca7-af72-bc17f2b07deb",
     "name": "GUJ9993",
     "lat": 32.1684,
     "lng": 74.1583,
@@ -10528,10 +10528,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101735
+    "createdAt": 1786860942922
   },
   {
-    "id": "f95cd6db-f629-452d-8795-dcda68f0fb4c",
+    "id": "68896264-1338-4711-8498-1f3928fdc035",
     "name": "MDK3078",
     "lat": 32.1703,
     "lng": 74.1276,
@@ -10556,10 +10556,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101735
+    "createdAt": 1786860942923
   },
   {
-    "id": "fc1da345-aec8-476d-bfef-825928b518c4",
+    "id": "383a60f1-f3ae-4318-9ca2-913f2ff6fb9c",
     "name": "RUR0181",
     "lat": 32.2892,
     "lng": 74.0913,
@@ -10584,10 +10584,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "DG",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101735
+    "createdAt": 1786860942923
   },
   {
-    "id": "7cf96547-2f23-4c61-b454-802133cdc532",
+    "id": "55c275ec-3eff-44e1-86c9-7e01f3c0e2a5",
     "name": "RUR0357",
     "lat": 32.2754,
     "lng": 74.1297,
@@ -10612,10 +10612,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101735
+    "createdAt": 1786860942923
   },
   {
-    "id": "7de99c8f-8906-4d03-88a3-9c3812c860c8",
+    "id": "dcbfae10-e6cb-4966-be56-8d2703e72f87",
     "name": "RUR4509",
     "lat": 32.327587,
     "lng": 74.060711,
@@ -10640,10 +10640,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101735
+    "createdAt": 1786860942923
   },
   {
-    "id": "cc928506-07e5-4468-8b00-d0a05b163ace",
+    "id": "4934bba2-3d05-4432-bec1-2e0f09415d03",
     "name": "SRW9972",
     "lat": 32.34753,
     "lng": 74.1645686,
@@ -10668,10 +10668,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "DG",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101735
+    "createdAt": 1786860942923
   },
   {
-    "id": "7bb92f2d-fb55-4a93-a287-ee5ac6039646",
+    "id": "26e10262-9f1a-4d3a-815c-9fff4b75d035",
     "name": "TKW9894",
     "lat": 32.2806,
     "lng": 74.1964,
@@ -10696,10 +10696,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101735
+    "createdAt": 1786860942924
   },
   {
-    "id": "25ea1ba8-0b31-4638-8686-1e4571d40eac",
+    "id": "42d0bbed-859c-4a6d-82c3-2cda2bcb5656",
     "name": "TKW9895",
     "lat": 32.31394386,
     "lng": 74.21695864,
@@ -10724,10 +10724,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101735
+    "createdAt": 1786860942924
   },
   {
-    "id": "2a52ba74-2acc-4649-a21d-c11ac4890626",
+    "id": "c5fa6d20-c2f3-411d-81a1-db681ebebcb6",
     "name": "GFG9667",
     "lat": 32.095995,
     "lng": 74.775923,
@@ -10752,10 +10752,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101735
+    "createdAt": 1786860942924
   },
   {
-    "id": "64e957ad-21ba-4dde-ba36-f995cc8840aa",
+    "id": "56ef31e0-8639-4ee3-b1a4-f90303590217",
     "name": "MNZ1368",
     "lat": 32.1146,
     "lng": 75.0262,
@@ -10780,10 +10780,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101735
+    "createdAt": 1786860942924
   },
   {
-    "id": "1658e093-d7f7-48eb-9509-a14ab04fac7b",
+    "id": "81674160-506b-49bf-b15a-2e029ac13a93",
     "name": "BBK9607",
     "lat": 32.2206,
     "lng": 74.8276,
@@ -10808,10 +10808,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101735
+    "createdAt": 1786860942926
   },
   {
-    "id": "3314a8bb-a601-498e-b1bb-2cd802801a2a",
+    "id": "0a9641d4-19dc-4f78-a9e7-4303b6c0cb0c",
     "name": "BBK9608",
     "lat": 32.2149,
     "lng": 74.881,
@@ -10836,10 +10836,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101735
+    "createdAt": 1786860942926
   },
   {
-    "id": "d727e419-2a37-4826-aeb9-78a9bba45398",
+    "id": "555870e5-a64c-4b52-a2a0-ad644f4469ba",
     "name": "BBK9609",
     "lat": 32.1863,
     "lng": 74.851,
@@ -10864,10 +10864,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101735
+    "createdAt": 1786860942932
   },
   {
-    "id": "72686549-1497-401c-a849-74f879c8d7a1",
+    "id": "5b96512b-d905-4465-b39f-7dd5bcdda5d5",
     "name": "CHW4936",
     "lat": 32.342,
     "lng": 74.7022,
@@ -10892,10 +10892,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "CP",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101736
+    "createdAt": 1786860942932
   },
   {
-    "id": "8053f38e-503b-4ce2-8019-c30e84ef26f8",
+    "id": "363b661a-b990-4065-837b-4bfbb6e1fac6",
     "name": "CHW4937",
     "lat": 32.3492,
     "lng": 74.7049,
@@ -10920,10 +10920,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101736
+    "createdAt": 1786860942932
   },
   {
-    "id": "84479749-e327-4ffe-bf36-e456c39e8704",
+    "id": "8789f1b9-ac1b-4c21-bd57-e98ef2b40eee",
     "name": "CHW6916",
     "lat": 32.34413,
     "lng": 74.70928,
@@ -10948,10 +10948,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101736
+    "createdAt": 1786860942932
   },
   {
-    "id": "7c73a7c4-fdda-4bd8-9315-ac92a81b84fa",
+    "id": "a95110d1-313c-4bfe-bd8c-d6834441de0b",
     "name": "DDL3415",
     "lat": 32.3426,
     "lng": 75.0707,
@@ -10976,10 +10976,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101736
+    "createdAt": 1786860942933
   },
   {
-    "id": "4cbfadfe-d5cd-4c34-a7c3-f61624222568",
+    "id": "6e386749-c92c-40c5-9ff4-7d52eb7a6d49",
     "name": "DDL4094",
     "lat": 32.357,
     "lng": 75.109,
@@ -11004,10 +11004,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101736
+    "createdAt": 1786860942933
   },
   {
-    "id": "1844d226-00dd-42a3-9d91-5c606ec34093",
+    "id": "c9449e19-6e82-4dc8-89d9-8c54f83263ca",
     "name": "DDL9708",
     "lat": 32.3755,
     "lng": 75.125,
@@ -11032,10 +11032,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101736
+    "createdAt": 1786860942933
   },
   {
-    "id": "2ebf1fa4-0d12-490a-bfe0-12432278a29c",
+    "id": "b20f81b4-661f-43c7-9700-6666ddd42750",
     "name": "DDL9709",
     "lat": 32.3505,
     "lng": 75.1193,
@@ -11060,10 +11060,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101736
+    "createdAt": 1786860942933
   },
   {
-    "id": "412ed6cc-c467-400d-9922-044af34c1526",
+    "id": "15aedb9c-eb21-49d6-80c3-99f0a25b3266",
     "name": "DDL9710",
     "lat": 32.3435,
     "lng": 75.085,
@@ -11088,10 +11088,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101736
+    "createdAt": 1786860942934
   },
   {
-    "id": "ac1b9771-181c-4151-bde6-17c7734f4bdc",
+    "id": "7e3a5195-5173-4564-85be-41e7297385af",
     "name": "GFG9668",
     "lat": 32.0976,
     "lng": 74.7494,
@@ -11116,10 +11116,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101736
+    "createdAt": 1786860942934
   },
   {
-    "id": "32bfabd3-59ec-4512-a61e-b94682853f99",
+    "id": "7f085adf-b575-442d-85d7-8b9bb5bf8b85",
     "name": "GFG9669",
     "lat": 32.0246,
     "lng": 74.7847,
@@ -11144,10 +11144,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "DG",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101736
+    "createdAt": 1786860942934
   },
   {
-    "id": "652694cd-287c-498a-bbb1-22128ccb3bcd",
+    "id": "028e88b2-221b-467d-86c8-be89fb11903b",
     "name": "GML1220",
     "lat": 32.2401,
     "lng": 75.0869,
@@ -11172,10 +11172,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101736
+    "createdAt": 1786860942935
   },
   {
-    "id": "31c6c441-283f-4053-b0b9-4358cc14999a",
+    "id": "88a4543f-9b7e-4a2f-ab8e-fff26097bda8",
     "name": "GML1221",
     "lat": 32.2841,
     "lng": 75.0927,
@@ -11200,10 +11200,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101736
+    "createdAt": 1786860942935
   },
   {
-    "id": "de0e1d4c-9850-4f27-ae5f-abb9f7d550df",
+    "id": "27b500c4-3c08-48cd-bcc1-cf07111f9f6f",
     "name": "GML9904",
     "lat": 32.277,
     "lng": 75.1165,
@@ -11228,10 +11228,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101736
+    "createdAt": 1786860942936
   },
   {
-    "id": "70000297-5543-4035-ad06-a3b71186997e",
+    "id": "4b6790e3-3439-495c-a35d-dfff3a5f5289",
     "name": "GML9905",
     "lat": 32.2322,
     "lng": 75.0705,
@@ -11256,10 +11256,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101736
+    "createdAt": 1786860942936
   },
   {
-    "id": "b3143fa2-9273-40b0-bfc2-9c77e2e9e7c1",
+    "id": "89d0a83c-e865-47d4-abe4-b94d67e6c539",
     "name": "HWY3271",
     "lat": 32.1536,
     "lng": 74.5611,
@@ -11284,10 +11284,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101736
+    "createdAt": 1786860942936
   },
   {
-    "id": "ad7aee81-fc75-4ca5-87f1-14ac346eb81e",
+    "id": "994acdb3-11d5-4010-938b-7536b978b198",
     "name": "KGR8995",
     "lat": 32.1494,
     "lng": 74.9989,
@@ -11312,10 +11312,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101736
+    "createdAt": 1786860942937
   },
   {
-    "id": "a0620b36-9593-4ea1-aa10-6bdd9c084a6f",
+    "id": "a25ccc09-5132-4d7b-a466-ca324177a04a",
     "name": "KPD8889",
     "lat": 32.0906,
     "lng": 74.9451,
@@ -11340,10 +11340,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101736
+    "createdAt": 1786860942937
   },
   {
-    "id": "5275f3a4-bab7-488a-a109-0880aebf511f",
+    "id": "6cf6a30d-2c17-4de5-ba5c-1bf8693061a1",
     "name": "KPD9970",
     "lat": 32.1045,
     "lng": 74.9339,
@@ -11368,10 +11368,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101736
+    "createdAt": 1786860942937
   },
   {
-    "id": "686eab03-d8d8-4f29-8fb5-9f0aee541e39",
+    "id": "1dbf3688-d29b-48bf-8350-c06f883491e8",
     "name": "KTN1216",
     "lat": 32.1851,
     "lng": 75.2013,
@@ -11396,10 +11396,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101736
+    "createdAt": 1786860942937
   },
   {
-    "id": "b9803e42-088d-4f96-bf46-7d15ec123b72",
+    "id": "abebd5bd-a64f-4081-bfac-9d7ce4695cf1",
     "name": "KTN3416",
     "lat": 32.1921,
     "lng": 75.2511,
@@ -11424,10 +11424,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101736
+    "createdAt": 1786860942938
   },
   {
-    "id": "2f3b4881-0e42-494a-b986-01a4f4ec2072",
+    "id": "534742c9-762f-4a78-b523-4c031da5b447",
     "name": "KTN4126",
     "lat": 32.1519,
     "lng": 75.1508,
@@ -11452,10 +11452,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101736
+    "createdAt": 1786860942938
   },
   {
-    "id": "401a0a1d-5e52-4b8d-b320-59413ec19062",
+    "id": "14369626-9ca9-4942-8f86-54ab291fb962",
     "name": "KTN9622",
     "lat": 32.2036,
     "lng": 75.1999,
@@ -11480,10 +11480,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101736
+    "createdAt": 1786860942938
   },
   {
-    "id": "48b64240-2de5-41ad-8983-165e7e29cfd0",
+    "id": "7233672e-edb1-44b1-85cb-9f57a616be4c",
     "name": "KTN9623",
     "lat": 32.1834,
     "lng": 75.2512,
@@ -11508,10 +11508,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "DG",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101736
+    "createdAt": 1786860942938
   },
   {
-    "id": "961270cd-3555-4f08-b6b9-ba84e2ff93b5",
+    "id": "44f94608-c66b-4097-b48b-cae84a7227c7",
     "name": "KTN9624",
     "lat": 32.1432,
     "lng": 75.1378,
@@ -11536,10 +11536,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101736
+    "createdAt": 1786860942939
   },
   {
-    "id": "d9675373-5f7c-4f2b-81bc-e2787af158dc",
+    "id": "623f8065-1086-44c1-b79d-5e57c37a1e86",
     "name": "MNZ9889",
     "lat": 32.1113,
     "lng": 75.0162,
@@ -11564,10 +11564,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101736
+    "createdAt": 1786860942939
   },
   {
-    "id": "f40db1c3-cf6f-4aad-8ffa-3707f270d8e3",
+    "id": "a600f12d-87bd-4c7f-9a65-44ceddb03a86",
     "name": "NRW1135",
     "lat": 32.1046,
     "lng": 74.8723,
@@ -11592,10 +11592,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101736
+    "createdAt": 1786860942939
   },
   {
-    "id": "65b54b46-0798-4a82-a1fb-ce1673565279",
+    "id": "7b6b88ce-9a67-49a5-ab5c-218339ce1732",
     "name": "NRW3788",
     "lat": 32.1022,
     "lng": 74.8768,
@@ -11620,10 +11620,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101736
+    "createdAt": 1786860942939
   },
   {
-    "id": "88f140d0-bad6-48a7-ab87-203506808ded",
+    "id": "528d84e6-8c0e-45a4-8dd4-feb90a0cda81",
     "name": "NRW4000",
     "lat": 32.098,
     "lng": 74.8688,
@@ -11648,10 +11648,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101736
+    "createdAt": 1786860942940
   },
   {
-    "id": "6b8708b0-ad9a-43fe-966f-6d1dfc06cd06",
+    "id": "42890c50-1ead-4a8e-8acf-05525b383a20",
     "name": "NRW4001",
     "lat": 32.1095,
     "lng": 74.8738,
@@ -11676,10 +11676,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101737
+    "createdAt": 1786860942940
   },
   {
-    "id": "1725c17a-2609-4db6-b165-42d16c9f792a",
+    "id": "0fc0ba7b-a602-4f8d-b589-f3dcc6c612b6",
     "name": "NRW6970",
     "lat": 32.0964,
     "lng": 74.8755,
@@ -11704,10 +11704,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101737
+    "createdAt": 1786860942940
   },
   {
-    "id": "b8f8c057-f29a-4971-8124-8a567396b787",
+    "id": "207b776d-a68d-425f-ac55-2f0872f50338",
     "name": "NRW9815",
     "lat": 32.0961,
     "lng": 74.8628,
@@ -11732,10 +11732,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101737
+    "createdAt": 1786860942940
   },
   {
-    "id": "6d9208f2-ffcd-4f4d-acb4-55826536d9f4",
+    "id": "4e0562f2-a5e5-485f-9646-f934628831c3",
     "name": "PSR0269",
     "lat": 32.2744,
     "lng": 74.6617,
@@ -11760,10 +11760,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101737
+    "createdAt": 1786860942940
   },
   {
-    "id": "261d2e37-1754-4fa5-83e3-9f93d41c3e9a",
+    "id": "287674d2-7a3e-420e-b07c-d25d20f461c1",
     "name": "PSR4061",
     "lat": 32.2661,
     "lng": 74.666,
@@ -11788,10 +11788,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101737
+    "createdAt": 1786860942941
   },
   {
-    "id": "ad209598-5699-45d3-995b-7b9aee2c639d",
+    "id": "c42b5f02-7ef0-421b-ba9b-06fc1e2cbdf6",
     "name": "PSR4155",
     "lat": 32.2617,
     "lng": 74.659,
@@ -11816,10 +11816,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101737
+    "createdAt": 1786860942941
   },
   {
-    "id": "88d6d51d-8b21-4b30-ba66-4d14e5099b9d",
+    "id": "140732fc-c7da-430f-bb13-d7836efffa07",
     "name": "PSR4200",
     "lat": 32.26908,
     "lng": 74.652413,
@@ -11844,10 +11844,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101737
+    "createdAt": 1786860942941
   },
   {
-    "id": "daf39115-6026-47b0-8d8e-61b693409e67",
+    "id": "1380a472-28d0-454a-a97e-f1d0fb07aa99",
     "name": "PSR9855",
     "lat": 32.2616,
     "lng": 74.6647,
@@ -11872,10 +11872,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101737
+    "createdAt": 1786860942941
   },
   {
-    "id": "39d0d2a2-3c18-4166-89ab-860f74ab211e",
+    "id": "c0fa7763-5792-43c6-9d55-6030ab5c6da7",
     "name": "QSG1616",
     "lat": 32.2282,
     "lng": 74.7547,
@@ -11900,10 +11900,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101737
+    "createdAt": 1786860942941
   },
   {
-    "id": "7acab9c0-d5f8-4119-8faa-22f8d848b2c1",
+    "id": "9ab7a18e-2d1e-407c-a5ca-8b53ab568ff8",
     "name": "QSG3418",
     "lat": 32.27,
     "lng": 74.7468,
@@ -11928,10 +11928,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101737
+    "createdAt": 1786860942942
   },
   {
-    "id": "41fe2894-1de2-413a-a8c6-92246469f094",
+    "id": "3bc67cdd-31aa-4b4c-a56d-905d45c0c670",
     "name": "RUR0179",
     "lat": 31.9902,
     "lng": 74.6628,
@@ -11956,10 +11956,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101737
+    "createdAt": 1786860942942
   },
   {
-    "id": "9419a146-6b94-40d4-b731-da1fc0dfad9e",
+    "id": "76c634dd-2c24-49f5-a40f-9d149660f6fb",
     "name": "RUR0271",
     "lat": 32.0963,
     "lng": 74.6902,
@@ -11984,10 +11984,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101737
+    "createdAt": 1786860942942
   },
   {
-    "id": "2eedb9d5-db9e-4fad-8534-dd5ae7e8b818",
+    "id": "732bebe0-6b8a-4768-a64b-efda9859339f",
     "name": "RUR0350",
     "lat": 32.31203,
     "lng": 74.994344,
@@ -12012,10 +12012,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101737
+    "createdAt": 1786860942943
   },
   {
-    "id": "33abb881-a02c-4a7a-bedf-997449ef6726",
+    "id": "2cd89077-cb9d-47e0-a38a-7a4686fc037a",
     "name": "RUR0403",
     "lat": 32.3442,
     "lng": 74.9001,
@@ -12040,10 +12040,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "CP",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101737
+    "createdAt": 1786860942943
   },
   {
-    "id": "34dd55e4-3f98-4936-b354-70db06f614ef",
+    "id": "1233d619-db94-4cec-8d85-a28e438c5d00",
     "name": "RUR0408",
     "lat": 32.1817,
     "lng": 74.7618,
@@ -12068,10 +12068,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101737
+    "createdAt": 1786860942943
   },
   {
-    "id": "b6f8e69c-5f17-4051-9838-3d52fe49eba9",
+    "id": "b691bcaa-8068-4ec0-a312-23ea9fff03f4",
     "name": "RUR0872",
     "lat": 32.3192,
     "lng": 74.5568,
@@ -12096,10 +12096,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101737
+    "createdAt": 1786860942943
   },
   {
-    "id": "e46dcc5f-d195-47da-95c3-9c1108c0c16e",
+    "id": "d5f067ba-cffb-464a-8488-9e4cac817f86",
     "name": "RUR0887",
     "lat": 32.3745,
     "lng": 74.6623,
@@ -12124,10 +12124,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101737
+    "createdAt": 1786860942943
   },
   {
-    "id": "35c62854-0563-4a37-b78b-a78acdf469ff",
+    "id": "621696df-6636-4517-bef3-b8c33f051524",
     "name": "RUR0903",
     "lat": 32.3062,
     "lng": 74.8436,
@@ -12152,10 +12152,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101737
+    "createdAt": 1786860942944
   },
   {
-    "id": "93c09eb5-6516-4f42-a8c1-4f46b922ff2d",
+    "id": "26eb64e6-3617-41eb-bfa0-d63dac291f92",
     "name": "RUR0905",
     "lat": 32.1628,
     "lng": 74.8841,
@@ -12180,10 +12180,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101737
+    "createdAt": 1786860942944
   },
   {
-    "id": "600ba14d-92a6-4fa3-bc65-58eec54c49a6",
+    "id": "6f472b30-419f-423d-9c99-a66c6407413b",
     "name": "RUR0906",
     "lat": 32.2728,
     "lng": 74.8206,
@@ -12208,10 +12208,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101737
+    "createdAt": 1786860942944
   },
   {
-    "id": "69cc79fc-06de-4aef-ab5d-718ee4ecc6cd",
+    "id": "ee5b5512-d001-41a3-b0f8-83c976acff5b",
     "name": "RUR0909",
     "lat": 32.1762,
     "lng": 75.0733,
@@ -12236,10 +12236,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101737
+    "createdAt": 1786860942944
   },
   {
-    "id": "9f81dfe1-9744-43af-aa3a-f7c4d2b1f773",
+    "id": "b678d750-9188-4886-8002-0af8b242e6af",
     "name": "RUR1033",
     "lat": 32.2999,
     "lng": 75.1639,
@@ -12264,10 +12264,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101737
+    "createdAt": 1786860942944
   },
   {
-    "id": "2accf220-4c2e-4a29-89cf-d646553e7ba0",
+    "id": "d5aa2dc6-2d45-48c5-a246-b59ee5ed1b70",
     "name": "RUR1067",
     "lat": 32.3632,
     "lng": 75.1706,
@@ -12292,10 +12292,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101737
+    "createdAt": 1786860942945
   },
   {
-    "id": "db114714-9678-4763-ae58-587fd0d148ab",
+    "id": "f3fa53c5-8092-4cde-8bdd-11106935c1cf",
     "name": "RUR1069",
     "lat": 32.3226,
     "lng": 75.2767,
@@ -12320,10 +12320,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101737
+    "createdAt": 1786860942945
   },
   {
-    "id": "073cbaa5-68ff-4362-ba15-cb78f9bd4040",
+    "id": "3b64e1d5-aadf-42aa-97d9-4036315a71fd",
     "name": "RUR1127",
     "lat": 32.371,
     "lng": 75.0338,
@@ -12348,10 +12348,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101738
+    "createdAt": 1786860942945
   },
   {
-    "id": "361cec49-2fda-4528-b5b5-afb859796767",
+    "id": "6b8738ec-4f9a-4237-a8bd-5c497539be13",
     "name": "RUR1130",
     "lat": 32.4336,
     "lng": 74.883,
@@ -12376,10 +12376,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101738
+    "createdAt": 1786860942945
   },
   {
-    "id": "fc8ff521-24b8-4bc7-a2a9-80e456b11ae8",
+    "id": "b49a67e5-0a56-471d-8fdc-263e5ff22a28",
     "name": "RUR1151",
     "lat": 32.365,
     "lng": 75.2084,
@@ -12404,10 +12404,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101738
+    "createdAt": 1786860942945
   },
   {
-    "id": "359535a7-2e36-4dde-9223-b2402b34b81c",
+    "id": "623de6b5-1f73-4dbd-bda6-8dad40e6161f",
     "name": "RUR1173",
     "lat": 32.4255,
     "lng": 74.7513,
@@ -12432,10 +12432,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101738
+    "createdAt": 1786860942946
   },
   {
-    "id": "f2cecd18-e25d-453f-836b-8ac36da8d966",
+    "id": "4ea1e585-f546-491b-bd98-a699c06e6b71",
     "name": "RUR1294",
     "lat": 32.1358,
     "lng": 74.667,
@@ -12460,10 +12460,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101738
+    "createdAt": 1786860942946
   },
   {
-    "id": "7609840b-249d-4447-b041-abf7bc1de9db",
+    "id": "50c3b176-a9b8-4fb3-b0d2-cc68fc18501a",
     "name": "RUR1295",
     "lat": 32.3441,
     "lng": 74.5338,
@@ -12488,10 +12488,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101738
+    "createdAt": 1786860942946
   },
   {
-    "id": "06bce9c7-8f63-4736-bcdb-a0880ebdfa0f",
+    "id": "994530b2-91c7-47d9-b40e-869145d2441c",
     "name": "RUR1968",
     "lat": 32.4118,
     "lng": 74.8537,
@@ -12516,10 +12516,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101738
+    "createdAt": 1786860942946
   },
   {
-    "id": "1ccf598b-1d40-4b3d-925a-76fd88081764",
+    "id": "67cd2e5d-e2ab-46ba-9e3f-816fc432e0bd",
     "name": "RUR3081",
     "lat": 32.2042,
     "lng": 75.1278,
@@ -12544,10 +12544,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101738
+    "createdAt": 1786860942946
   },
   {
-    "id": "5640158f-6bff-4457-a910-327c65dd0637",
+    "id": "bb01b0bf-4f2b-4853-b523-1fa4de66ec84",
     "name": "RUR3173",
     "lat": 32.3681,
     "lng": 74.9928,
@@ -12572,10 +12572,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101738
+    "createdAt": 1786860942946
   },
   {
-    "id": "90811e9a-8bd7-4dda-b3e4-c6368e1524a5",
+    "id": "d54f0047-a5a0-497f-bc9e-77d9749c0191",
     "name": "RUR3202",
     "lat": 32.0701,
     "lng": 74.7271,
@@ -12600,10 +12600,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101738
+    "createdAt": 1786860942947
   },
   {
-    "id": "b531b445-2b59-47ad-ae1a-0e2a84175be9",
+    "id": "afa4b008-392f-42d7-8cf5-a510dc28f81f",
     "name": "RUR3264",
     "lat": 32.0874,
     "lng": 74.52,
@@ -12628,10 +12628,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101738
+    "createdAt": 1786860942947
   },
   {
-    "id": "f1026b2b-e840-41dc-b98f-5695e1f74881",
+    "id": "6e18b95f-7542-4eb2-91ef-df43aa276668",
     "name": "RUR3269",
     "lat": 32.2515,
     "lng": 74.5699,
@@ -12656,10 +12656,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101738
+    "createdAt": 1786860942947
   },
   {
-    "id": "f0a27fbd-1d7e-47fe-836e-9c83fdf98887",
+    "id": "30185a66-df1e-45e0-9a7f-f07692a539f7",
     "name": "RUR3270",
     "lat": 32.2162,
     "lng": 74.6765,
@@ -12684,10 +12684,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101738
+    "createdAt": 1786860942947
   },
   {
-    "id": "0892be1f-d0a5-4802-8dd1-4a2a3effbebd",
+    "id": "57262ad1-30cc-46ea-a06b-5fddf96cdd7d",
     "name": "RUR3396",
     "lat": 32.3416516,
     "lng": 74.9014816,
@@ -12712,10 +12712,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101738
+    "createdAt": 1786860942947
   },
   {
-    "id": "5e7835cb-35b0-4b1a-82e6-45c12d70617d",
+    "id": "4241060f-0bc0-49c8-b893-3174c8cd3508",
     "name": "RUR3998",
     "lat": 32.4061,
     "lng": 74.7847,
@@ -12740,10 +12740,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101738
+    "createdAt": 1786860942948
   },
   {
-    "id": "0596717b-b558-4bbf-ab39-0876ac2289be",
+    "id": "85a917f6-43bc-4166-a06c-482b44f664e7",
     "name": "RUR4006",
     "lat": 32.2943,
     "lng": 75.058,
@@ -12768,10 +12768,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101738
+    "createdAt": 1786860942948
   },
   {
-    "id": "69e6bc37-f69d-4734-b90a-424620ef88d2",
+    "id": "8933df49-d369-4d7d-89c7-ab66926c16ac",
     "name": "RUR4037",
     "lat": 32.3512,
     "lng": 74.9864,
@@ -12796,10 +12796,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101738
+    "createdAt": 1786860942948
   },
   {
-    "id": "a248e583-1a01-4c2f-8a10-ebfa424931a8",
+    "id": "763fe16e-4b9e-42fe-a755-7818b6768f6a",
     "name": "RUR4039",
     "lat": 32.1348,
     "lng": 74.9756,
@@ -12824,10 +12824,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101738
+    "createdAt": 1786860942948
   },
   {
-    "id": "2e3fd959-fb20-40ea-8e30-25d8c6eed6dc",
+    "id": "18b876a6-aff1-46e5-9785-3285eb3cfda0",
     "name": "RUR4041",
     "lat": 32.22683,
     "lng": 74.91906,
@@ -12852,10 +12852,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101738
+    "createdAt": 1786860942948
   },
   {
-    "id": "e7754cf1-ddf0-44da-921b-4286988556fd",
+    "id": "32da7762-bb15-4ce1-9495-5e6f3e0d55cc",
     "name": "RUR4042",
     "lat": 32.2111,
     "lng": 75.0043,
@@ -12880,10 +12880,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101738
+    "createdAt": 1786860942949
   },
   {
-    "id": "412bdd28-cc1b-45f8-a68b-16e2a78a800e",
+    "id": "24b7e0dc-457b-4807-8148-1eaa4f58b1f7",
     "name": "RUR4503",
     "lat": 32.0015,
     "lng": 74.7252,
@@ -12908,10 +12908,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101738
+    "createdAt": 1786860942953
   },
   {
-    "id": "761ed692-6ea0-4423-8759-4103012961ff",
+    "id": "cb863a34-2834-424d-894f-1f6a9aaa04f0",
     "name": "RUR4621",
     "lat": 32.34008321,
     "lng": 74.91204036,
@@ -12936,10 +12936,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101738
+    "createdAt": 1786860942953
   },
   {
-    "id": "6c1ebedf-2816-4d56-8ecf-cb2bc5027c2c",
+    "id": "d02ff986-d67c-4aaf-8f46-ee867d4346ed",
     "name": "RUR4664",
     "lat": 32.1639,
     "lng": 74.6905,
@@ -12964,10 +12964,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101738
+    "createdAt": 1786860942953
   },
   {
-    "id": "dabac40b-7440-4e48-aae6-1fe26a92974f",
+    "id": "70e9d55e-2ed2-4dd3-b0a9-aaee91c2f1f5",
     "name": "RUR4977",
     "lat": 32.2087,
     "lng": 74.5817,
@@ -12992,10 +12992,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101738
+    "createdAt": 1786860942953
   },
   {
-    "id": "bf9bfebd-8ad0-4b9c-84ee-50061b4850c8",
+    "id": "4f47fa34-3d10-4c00-8d70-ba0bd4eb2ad5",
     "name": "RUR4978",
     "lat": 32.293,
     "lng": 74.5287,
@@ -13020,10 +13020,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101738
+    "createdAt": 1786860942954
   },
   {
-    "id": "95ff75da-cc39-419f-b78c-43f73d3883d6",
+    "id": "0d2f14b4-cf17-4d1b-a354-b5da7679c32d",
     "name": "RUR4998",
     "lat": 32.3018,
     "lng": 75.0338,
@@ -13048,10 +13048,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101738
+    "createdAt": 1786860942954
   },
   {
-    "id": "413ca73e-10f0-44a7-a409-4dd25d1486cb",
+    "id": "18f69cd1-cbcf-478e-a050-58e11700fab8",
     "name": "RUR4999",
     "lat": 32.1272,
     "lng": 75.055,
@@ -13076,10 +13076,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101738
+    "createdAt": 1786860942954
   },
   {
-    "id": "3995e4de-514d-45bf-b570-16c527043917",
+    "id": "1553f4c9-85a7-413f-b3bc-cb3b4cca90ad",
     "name": "RUR5004",
     "lat": 31.9951,
     "lng": 74.5322,
@@ -13104,10 +13104,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101738
+    "createdAt": 1786860942955
   },
   {
-    "id": "9771d2fa-5a03-4c9a-8a0c-9482afafea00",
+    "id": "7540e29c-2a9f-41bb-9b93-e8cd4d8faaf4",
     "name": "RUR5006",
     "lat": 32.2218,
     "lng": 74.5924,
@@ -13132,10 +13132,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101738
+    "createdAt": 1786860942955
   },
   {
-    "id": "9efcac7c-9214-4fca-9378-64dc02f027c1",
+    "id": "72396621-4467-471b-ae0b-5260d0caf288",
     "name": "RUR5010",
     "lat": 32.0946,
     "lng": 74.5729,
@@ -13160,10 +13160,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101738
+    "createdAt": 1786860942955
   },
   {
-    "id": "291339ea-4338-404c-a7e8-7e021c1a5393",
+    "id": "6fc0953a-e2fd-4dc3-ad00-916c4c06f3ec",
     "name": "RUR5046",
     "lat": 32.2641,
     "lng": 75.2076,
@@ -13188,10 +13188,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101738
+    "createdAt": 1786860942955
   },
   {
-    "id": "b47bfdf1-9ada-49fa-bc11-b2a52fa9ceab",
+    "id": "88c0597c-f912-45b8-a2e4-3d06b102fb7c",
     "name": "RUR5141",
     "lat": 32.3457,
     "lng": 74.796,
@@ -13216,10 +13216,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101738
+    "createdAt": 1786860942955
   },
   {
-    "id": "750abc92-e263-4067-88ae-d3898094e44b",
+    "id": "1a28df63-0a23-4dc4-ae9c-a2340dacdc8c",
     "name": "RUR5145",
     "lat": 32.3767,
     "lng": 74.6152,
@@ -13244,10 +13244,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101738
+    "createdAt": 1786860942955
   },
   {
-    "id": "8b5eccab-9e42-4c63-85c5-c2e353b1cd6d",
+    "id": "593d3e1c-4a98-4ba3-ab65-f1628f6da05d",
     "name": "RUR5147",
     "lat": 32.3228,
     "lng": 74.6393,
@@ -13272,10 +13272,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101738
+    "createdAt": 1786860942956
   },
   {
-    "id": "0ef8cd96-6bd9-4c0f-8d31-759f7790d17c",
+    "id": "cd3fc565-6e43-4d9e-a21e-f327ffe1f296",
     "name": "RUR5148",
     "lat": 32.30768,
     "lng": 74.68397,
@@ -13300,10 +13300,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101739
+    "createdAt": 1786860942956
   },
   {
-    "id": "00f41d4e-4231-42ff-a083-1b0dd2c6b9bf",
+    "id": "bc86a4d0-0627-4839-b4c5-8752151b32dd",
     "name": "RUR5650",
     "lat": 32.43776,
     "lng": 75.02605,
@@ -13328,10 +13328,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101739
+    "createdAt": 1786860942956
   },
   {
-    "id": "e006ad97-5b48-493f-9496-1bdd09161b42",
+    "id": "7a9984ea-8a6a-4774-a7c5-d4d7b669aa61",
     "name": "RUR5973",
     "lat": 32.2028,
     "lng": 74.3579,
@@ -13356,10 +13356,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101739
+    "createdAt": 1786860942956
   },
   {
-    "id": "03bcc0cc-259a-4d3f-b3b2-49d605a2a591",
+    "id": "42fdc873-3c2a-42d1-8da3-6d0126f30149",
     "name": "RUR5980",
     "lat": 32.2794,
     "lng": 74.5913,
@@ -13384,10 +13384,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101739
+    "createdAt": 1786860942956
   },
   {
-    "id": "ecdd5a6d-0a92-4997-891c-769dd162c0dd",
+    "id": "2292d492-2d98-4acb-8328-693297b62a65",
     "name": "RUR6930",
     "lat": 32.4418,
     "lng": 74.812,
@@ -13412,10 +13412,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101739
+    "createdAt": 1786860942957
   },
   {
-    "id": "077397b7-457c-4891-85eb-f4d06af573fa",
+    "id": "8a004096-0857-4fe5-9596-a7c8df7ff5ee",
     "name": "RUR6962",
     "lat": 32.41355,
     "lng": 74.79996,
@@ -13440,10 +13440,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101739
+    "createdAt": 1786860942957
   },
   {
-    "id": "3eaeb7af-5376-49ef-85e4-503a9a6b0fb0",
+    "id": "aaf9ea2d-ef08-44a4-ad3a-16e2746029de",
     "name": "RUR6968",
     "lat": 32.3467,
     "lng": 74.9047,
@@ -13468,10 +13468,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101739
+    "createdAt": 1786860942957
   },
   {
-    "id": "5ba81156-ae05-4f23-986d-202fc246507b",
+    "id": "3e32475f-25b3-4317-9fc0-1726f1f31aee",
     "name": "RUR8157",
     "lat": 32.2995,
     "lng": 75.2667,
@@ -13496,10 +13496,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101739
+    "createdAt": 1786860942957
   },
   {
-    "id": "cee5a813-fdcf-470d-a803-bc166a5b8d74",
+    "id": "9ba66c72-67ad-4f4f-a182-e2b58134355f",
     "name": "RUR8314",
     "lat": 32.1592,
     "lng": 74.8197,
@@ -13524,10 +13524,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101739
+    "createdAt": 1786860942957
   },
   {
-    "id": "81736cf5-f98e-4c47-84a3-57acb474598b",
+    "id": "a3d84e37-ad20-4395-9ceb-1cf8b83ca45c",
     "name": "RUR8811",
     "lat": 32.2594,
     "lng": 74.8875,
@@ -13552,10 +13552,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101739
+    "createdAt": 1786860942966
   },
   {
-    "id": "5d4cc1ab-86b5-406e-b30e-06b176545e59",
+    "id": "cd354bf1-95ce-4ed8-94de-0e219d0dbe19",
     "name": "RUR8812",
     "lat": 32.1888,
     "lng": 75.1094,
@@ -13580,10 +13580,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101739
+    "createdAt": 1786860942967
   },
   {
-    "id": "9860a922-36c6-44d2-942d-442134215c57",
+    "id": "d6679c61-dc93-4429-b1b7-89887b05d473",
     "name": "RUR8823",
     "lat": 32.2296,
     "lng": 75.1281,
@@ -13608,10 +13608,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101739
+    "createdAt": 1786860942967
   },
   {
-    "id": "cbcd26de-f118-46ae-adf4-d8b35dc0978b",
+    "id": "fc6cbe5b-5def-4f06-b762-843bc4e3f242",
     "name": "RUR8997",
     "lat": 32.1737,
     "lng": 74.9469,
@@ -13636,10 +13636,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101739
+    "createdAt": 1786860942967
   },
   {
-    "id": "7ba37770-065f-449e-a4b1-036558233bfb",
+    "id": "09cf3eac-3f40-4e54-98c6-446bf5933706",
     "name": "RUR9198",
     "lat": 32.2845,
     "lng": 74.5706,
@@ -13664,10 +13664,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101739
+    "createdAt": 1786860942967
   },
   {
-    "id": "eda8c4e0-0541-4d3a-a679-239b180879ae",
+    "id": "ba55fe86-50f3-4d4e-9983-a043d9db6a89",
     "name": "RUR9651",
     "lat": 32.1998,
     "lng": 75.12,
@@ -13692,10 +13692,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101739
+    "createdAt": 1786860942967
   },
   {
-    "id": "a04d860f-b853-4351-9d02-d7e7cd25b683",
+    "id": "3a9c1c30-ea02-4d02-b940-ad309decea7e",
     "name": "RUR9670",
     "lat": 32.3384,
     "lng": 75.2144,
@@ -13720,10 +13720,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101739
+    "createdAt": 1786860942968
   },
   {
-    "id": "7b374193-df08-4ef8-b0cd-67be04e10d2c",
+    "id": "8a1ef048-3e84-45ed-a4ff-51e91dbfccb4",
     "name": "RUR9738",
     "lat": 32.2365,
     "lng": 75.0236,
@@ -13748,10 +13748,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101739
+    "createdAt": 1786860942968
   },
   {
-    "id": "df81de83-534d-422d-b324-693e04fad85e",
+    "id": "5354cd3a-1a96-4bf7-abc8-c9bc8dce6ca5",
     "name": "RUR9739",
     "lat": 32.32030712,
     "lng": 74.96793156,
@@ -13776,10 +13776,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101739
+    "createdAt": 1786860942968
   },
   {
-    "id": "79e356ee-9c84-4b57-9f6d-d945fdf146a6",
+    "id": "561e3fbd-91c8-4747-b1cd-141aa01bd768",
     "name": "RUR9984",
     "lat": 32.277,
     "lng": 74.8934,
@@ -13804,10 +13804,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101739
+    "createdAt": 1786860942968
   },
   {
-    "id": "47b361b4-40da-4645-a6d3-88c89d72e814",
+    "id": "ce334db6-8311-4efb-b081-2447de7e66ed",
     "name": "RUR9991",
     "lat": 32.41911,
     "lng": 74.78923,
@@ -13832,10 +13832,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101739
+    "createdAt": 1786860942968
   },
   {
-    "id": "b73521ca-276d-4672-b9e3-a18e29c92a5f",
+    "id": "129bad04-bbc0-4751-925e-b2dd050adc93",
     "name": "SKG3770",
     "lat": 32.2543,
     "lng": 75.1579,
@@ -13860,10 +13860,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101739
+    "createdAt": 1786860942969
   },
   {
-    "id": "3001eee3-fb76-40ed-b003-896a035cfa09",
+    "id": "241a4e9f-6a02-48ff-9a29-f2710507663d",
     "name": "SKG3828",
     "lat": 32.2683,
     "lng": 75.1644,
@@ -13888,10 +13888,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101739
+    "createdAt": 1786860942969
   },
   {
-    "id": "22cea659-4c35-4926-9b58-3fa6246d3a9f",
+    "id": "26ca1074-ba64-4dbb-a5be-723140b3cce4",
     "name": "SKG4022",
     "lat": 32.2649,
     "lng": 75.1577,
@@ -13916,10 +13916,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101739
+    "createdAt": 1786860942969
   },
   {
-    "id": "447bfede-8040-4829-8293-d212a9ea6435",
+    "id": "dfd93775-c965-43a0-924c-5539eea103a6",
     "name": "SKG4023",
     "lat": 32.2659,
     "lng": 75.1707,
@@ -13944,10 +13944,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101739
+    "createdAt": 1786860942969
   },
   {
-    "id": "d7836c7c-bc9b-4c56-8058-dd186b210121",
+    "id": "d7bbffb2-651c-4fa9-9d09-6be73e03eeea",
     "name": "SKG4059",
     "lat": 32.2616,
     "lng": 75.1647,
@@ -13972,10 +13972,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101739
+    "createdAt": 1786860942970
   },
   {
-    "id": "85f5c716-1e67-4bbc-805b-adb9bb399507",
+    "id": "b9e01058-9de0-4c59-90fc-fc2ddf9bab8b",
     "name": "SKG9633",
     "lat": 32.2596,
     "lng": 75.1578,
@@ -14000,10 +14000,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101739
+    "createdAt": 1786860942970
   },
   {
-    "id": "28d63df9-b6d4-44c1-9153-29489a0ea29e",
+    "id": "0ffb705e-6aad-4b96-b77e-5f21d4897619",
     "name": "SKG9840",
     "lat": 32.2604,
     "lng": 75.1692,
@@ -14028,10 +14028,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101739
+    "createdAt": 1786860942970
   },
   {
-    "id": "8d4dec82-d535-40a8-b420-bccdf8bae721",
+    "id": "e12995c6-119e-460b-aded-11c27431b9f4",
     "name": "SPB9660",
     "lat": 32.3446,
     "lng": 75.1715,
@@ -14056,10 +14056,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101739
+    "createdAt": 1786860942970
   },
   {
-    "id": "f550a82a-e909-4cab-93d2-9cbd8970dff9",
+    "id": "9b7cf9dd-b9bc-476c-abbb-4eebcf6e9d6d",
     "name": "SPB9661",
     "lat": 32.317,
     "lng": 75.2191,
@@ -14084,10 +14084,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101739
+    "createdAt": 1786860942971
   },
   {
-    "id": "4ba5021b-c16d-4347-8a14-5cd9c5506c16",
+    "id": "96705d06-5733-404e-8cbf-9d74bfe6cd73",
     "name": "STR4035",
     "lat": 32.187,
     "lng": 74.4276,
@@ -14112,10 +14112,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101739
+    "createdAt": 1786860942971
   },
   {
-    "id": "b9fd2f65-6628-4a0c-8904-a3e76a3995a2",
+    "id": "b47a3c13-84e9-4db8-b892-650ff7d691f3",
     "name": "STR4976",
     "lat": 32.1779,
     "lng": 74.4954,
@@ -14140,10 +14140,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101739
+    "createdAt": 1786860942971
   },
   {
-    "id": "99803448-89b1-4e76-9c89-5e1d1d1891a8",
+    "id": "99f508b4-79ac-47de-8c02-96b88546a62e",
     "name": "STR5974",
     "lat": 32.1772,
     "lng": 74.5109,
@@ -14168,10 +14168,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101739
+    "createdAt": 1786860942971
   },
   {
-    "id": "e4505130-4b4c-456e-963d-c756d9516442",
+    "id": "707709ed-06f7-474c-937a-8c66fe2ed471",
     "name": "STR5975",
     "lat": 32.1786,
     "lng": 74.4631,
@@ -14196,10 +14196,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101739
+    "createdAt": 1786860942971
   },
   {
-    "id": "9e76dc93-05d8-4b5a-8048-ec130f52ff04",
+    "id": "c6818157-9eb3-4023-ae4f-292c6ecbff89",
     "name": "SKG2336",
     "lat": 32.25898,
     "lng": 75.176023,
@@ -14224,10 +14224,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101739
+    "createdAt": 1786860942972
   },
   {
-    "id": "25c85bfc-a38e-4310-9036-75597cb2de18",
+    "id": "4fe1e80c-0b51-41cd-9620-ea6d2187412b",
     "name": "SKT1620",
     "lat": 32.4675,
     "lng": 74.5448,
@@ -14252,10 +14252,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "CP",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101739
+    "createdAt": 1786860942972
   },
   {
-    "id": "214abb12-25a1-4089-a631-64530caa3b9f",
+    "id": "0ca8a066-8bbd-4950-bc94-938d583219f5",
     "name": "SKT4622",
     "lat": 32.4761,
     "lng": 74.5561,
@@ -14280,10 +14280,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "CP",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101739
+    "createdAt": 1786860942972
   },
   {
-    "id": "c1f91bb7-085f-48da-93ae-3b416342b568",
+    "id": "b9746e1a-2a7f-41f8-8213-ff3a1fbc9c44",
     "name": "MDW8986",
     "lat": 32.4123,
     "lng": 74.5828,
@@ -14308,10 +14308,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "CP",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101739
+    "createdAt": 1786860942972
   },
   {
-    "id": "2b5a4770-b113-478d-8d96-b68043f02bbc",
+    "id": "6c193bdc-8ae0-4ac5-b5e1-4fd317c18e18",
     "name": "RUR9470",
     "lat": 32.549,
     "lng": 74.5951,
@@ -14336,10 +14336,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "DG",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101739
+    "createdAt": 1786860942972
   },
   {
-    "id": "0c7ef055-6663-4ddc-865c-a4cb3bbede64",
+    "id": "221635e1-ac6f-4564-b491-f353ae446444",
     "name": "DHW6980",
     "lat": 32.6377,
     "lng": 74.5135,
@@ -14364,10 +14364,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "DG",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101739
+    "createdAt": 1786860942972
   },
   {
-    "id": "a3aa017e-8440-40c3-bd0a-33e9ec73064c",
+    "id": "bbcc4c90-cbb8-46a6-8880-165e9c6d5799",
     "name": "DHW6981",
     "lat": 32.6354,
     "lng": 74.4575,
@@ -14392,10 +14392,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101739
+    "createdAt": 1786860942973
   },
   {
-    "id": "287ad25f-fe15-49d3-80cf-3e11255bdbe2",
+    "id": "11897160-02ff-48b7-9c14-8767995be91f",
     "name": "HWY3412",
     "lat": 32.4458,
     "lng": 74.4906,
@@ -14420,10 +14420,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101739
+    "createdAt": 1786860942973
   },
   {
-    "id": "223c1792-d62a-4318-bc09-1e5649fff8cb",
+    "id": "f252e0c1-8f33-4a75-a799-131e600378be",
     "name": "HWY3950",
     "lat": 32.4353,
     "lng": 74.4796,
@@ -14448,10 +14448,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101739
+    "createdAt": 1786860942973
   },
   {
-    "id": "b4ab13ea-9f7b-4403-93a9-25799e0f0393",
+    "id": "b726981f-b348-4050-856e-e0efa2893fc8",
     "name": "KLW9890",
     "lat": 32.6047,
     "lng": 74.428,
@@ -14476,10 +14476,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101739
+    "createdAt": 1786860942973
   },
   {
-    "id": "cd9e6eb4-c62b-4cad-8df6-256a34ca2d5d",
+    "id": "3191af2c-8c84-4321-afbd-260139923c63",
     "name": "KLW9891",
     "lat": 32.5881,
     "lng": 74.3926,
@@ -14504,10 +14504,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101739
+    "createdAt": 1786860942973
   },
   {
-    "id": "441303dc-1845-426c-84dd-4d1a22de80c5",
+    "id": "44fb7b0f-4926-463e-8ff4-1b424ebdf82a",
     "name": "KTL4948",
     "lat": 32.5819,
     "lng": 74.5071,
@@ -14532,10 +14532,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101739
+    "createdAt": 1786860942973
   },
   {
-    "id": "c54eae4c-9ce4-4fe5-b49b-786b9050088b",
+    "id": "fcae7def-2fef-41b3-b151-26286ffecdac",
     "name": "KTL6094",
     "lat": 32.5899,
     "lng": 74.4968,
@@ -14560,10 +14560,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101739
+    "createdAt": 1786860942974
   },
   {
-    "id": "26c55405-d24d-418a-92b3-83a592482bb4",
+    "id": "6b31973b-02e1-4767-b00c-7bbfd1abe064",
     "name": "MDW5146",
     "lat": 32.4262,
     "lng": 74.5862,
@@ -14588,10 +14588,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101739
+    "createdAt": 1786860942974
   },
   {
-    "id": "275c718b-7a36-4657-a4ba-d8e4baf70f4d",
+    "id": "f9c542f1-3aa8-4a77-8d27-0dca6a79e2b4",
     "name": "MDW8987",
     "lat": 32.4337,
     "lng": 74.6677,
@@ -14616,10 +14616,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101739
+    "createdAt": 1786860942979
   },
   {
-    "id": "ad3b2307-4d29-4d36-893a-3dc2b1bef9cc",
+    "id": "352a8a87-829a-4faf-aa50-d412d0230451",
     "name": "PMD6138",
     "lat": 32.5899,
     "lng": 74.5858,
@@ -14644,10 +14644,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101739
+    "createdAt": 1786860942979
   },
   {
-    "id": "d7783741-46b2-41ad-af6a-da54eb21d4f2",
+    "id": "88075693-612c-44f7-a211-85f3a3739371",
     "name": "PMD6139",
     "lat": 32.5827,
     "lng": 74.614,
@@ -14672,10 +14672,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101739
+    "createdAt": 1786860942980
   },
   {
-    "id": "614a36ea-e771-4296-9810-96d959a1c30b",
+    "id": "441c5846-12b2-485a-bc26-f0d21a6a5501",
     "name": "PMD9665",
     "lat": 32.6342,
     "lng": 74.5888,
@@ -14700,10 +14700,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101740
+    "createdAt": 1786860942980
   },
   {
-    "id": "4789b4a0-5083-4fdf-aed6-da8b607840ab",
+    "id": "04387e08-c37c-4e09-b0e4-9853b1a932cb",
     "name": "PMD9666",
     "lat": 32.5992,
     "lng": 74.6038,
@@ -14728,10 +14728,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101740
+    "createdAt": 1786860942980
   },
   {
-    "id": "97ee426b-337c-4927-a2ad-b570e6c50ecb",
+    "id": "42b9bf29-bef4-4dd4-bb89-9ad3bf8a3486",
     "name": "PMD9689",
     "lat": 32.5946,
     "lng": 74.5582,
@@ -14756,10 +14756,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101740
+    "createdAt": 1786860942980
   },
   {
-    "id": "07cc77c0-73a9-4b6b-8dfe-89c5a908961b",
+    "id": "dd704a2b-84eb-4198-8944-3de7646d48bf",
     "name": "RUR0372",
     "lat": 32.4673,
     "lng": 74.6016,
@@ -14784,10 +14784,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101740
+    "createdAt": 1786860942981
   },
   {
-    "id": "6a66826f-8640-48c2-a80a-4d52460f55e8",
+    "id": "937a3cc5-fa8f-4326-aecc-926500c9b1aa",
     "name": "RUR0414",
     "lat": 32.3772,
     "lng": 74.51,
@@ -14812,10 +14812,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101740
+    "createdAt": 1786860942981
   },
   {
-    "id": "ebd223d8-7617-4d96-b519-ae2119304fb5",
+    "id": "ad39052d-6192-44d3-ba9e-eab8107c4c71",
     "name": "RUR0832",
     "lat": 32.4587,
     "lng": 74.5052,
@@ -14840,10 +14840,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101740
+    "createdAt": 1786860942981
   },
   {
-    "id": "c8ee6927-64e2-462d-829e-02d8dfec6364",
+    "id": "347d8ecc-d04c-487e-b333-7bce348353c0",
     "name": "RUR0866",
     "lat": 32.7055,
     "lng": 74.5943,
@@ -14868,10 +14868,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101740
+    "createdAt": 1786860942981
   },
   {
-    "id": "f024ae8d-5a3c-45f6-9ed2-b1fe715917f3",
+    "id": "b6e8ee1b-45c9-41a9-9cd4-62cd910f5e63",
     "name": "RUR0879",
     "lat": 32.6332,
     "lng": 74.6147,
@@ -14896,10 +14896,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101740
+    "createdAt": 1786860942982
   },
   {
-    "id": "196a6515-0136-4028-b7cc-d73ad2d28d4c",
+    "id": "5f032dc8-1de3-44ae-8eff-d601ceabc0ac",
     "name": "RUR1084",
     "lat": 32.4504,
     "lng": 74.7649,
@@ -14924,10 +14924,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101740
+    "createdAt": 1786860942982
   },
   {
-    "id": "3d3118e9-ff71-4fcf-9b78-81c371864514",
+    "id": "ba51b5cc-119d-47c6-9078-5ba180860106",
     "name": "RUR2752",
     "lat": 32.4582,
     "lng": 74.6829,
@@ -14952,10 +14952,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101740
+    "createdAt": 1786860942982
   },
   {
-    "id": "56be3f4b-5933-4ca6-8f16-82d5847a5853",
+    "id": "a75a7cfa-a03f-48a8-a27c-c5f7987b7c93",
     "name": "RUR5142",
     "lat": 32.4921,
     "lng": 74.6233,
@@ -14980,10 +14980,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101740
+    "createdAt": 1786860942982
   },
   {
-    "id": "e1f2eeb6-4377-4fa1-ba10-3bd22a6f784b",
+    "id": "d54a5845-299e-4f8c-92a7-7cc4fb123449",
     "name": "RUR6085",
     "lat": 32.533,
     "lng": 74.4517,
@@ -15008,10 +15008,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101740
+    "createdAt": 1786860942982
   },
   {
-    "id": "5e385ec6-f604-4f31-81c3-130baf561224",
+    "id": "ddd664b3-e63f-4723-8272-58c28d8b7261",
     "name": "RUR6131",
     "lat": 32.6182,
     "lng": 74.541,
@@ -15036,10 +15036,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101740
+    "createdAt": 1786860942982
   },
   {
-    "id": "208a3a34-e6af-4a22-ba13-8ce08219d9a1",
+    "id": "08126e4d-1840-459c-8a46-166b69f3c796",
     "name": "RUR6156",
     "lat": 32.5734,
     "lng": 74.547,
@@ -15064,10 +15064,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101740
+    "createdAt": 1786860942983
   },
   {
-    "id": "c26b9164-7442-424f-b0c7-e43f4bde52e9",
+    "id": "d68f0efa-1064-4b21-8eda-db5aa7e19aa3",
     "name": "RUR8069",
     "lat": 32.4215,
     "lng": 74.5316,
@@ -15092,10 +15092,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101740
+    "createdAt": 1786860942983
   },
   {
-    "id": "95610fdf-b377-462e-aeb9-0ff94732b990",
+    "id": "de870439-5462-4ffb-a808-2a26cff6d66b",
     "name": "RUR8070",
     "lat": 32.4739,
     "lng": 74.6488,
@@ -15120,10 +15120,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101740
+    "createdAt": 1786860942983
   },
   {
-    "id": "72d75bd6-0f3c-4a24-a6f3-8eebd15384b5",
+    "id": "36adb4ed-ddc5-4145-8765-7dbf7e73b788",
     "name": "RUR8072",
     "lat": 32.5587,
     "lng": 74.5378,
@@ -15148,10 +15148,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101740
+    "createdAt": 1786860942983
   },
   {
-    "id": "b8ddf1f6-b4f9-4ba3-9f71-53d279f9d1fd",
+    "id": "97db9b73-1f7f-4f21-ba54-155795d4a899",
     "name": "RUR9467",
     "lat": 32.5453,
     "lng": 74.5042,
@@ -15176,10 +15176,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "CP",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101740
+    "createdAt": 1786860942983
   },
   {
-    "id": "8af516bd-477a-4b48-8dc7-547bf1f67ab2",
+    "id": "6d2d436f-5199-4628-a9de-25620d9034b6",
     "name": "RUR9469",
     "lat": 32.564,
     "lng": 74.6023,
@@ -15204,10 +15204,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101740
+    "createdAt": 1786860942984
   },
   {
-    "id": "9032d39e-f951-482a-9c4d-4805fc6b4748",
+    "id": "8860be0a-5b69-45aa-99c0-cdc0f069ae1a",
     "name": "RUR9471",
     "lat": 32.5168,
     "lng": 74.6264,
@@ -15232,10 +15232,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101740
+    "createdAt": 1786860942984
   },
   {
-    "id": "0d539a71-30db-46b3-a932-387286c21841",
+    "id": "de087e18-480d-4f07-9d08-572366f42660",
     "name": "RUR9475",
     "lat": 32.5324,
     "lng": 74.6068,
@@ -15260,10 +15260,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101740
+    "createdAt": 1786860942984
   },
   {
-    "id": "6c850bfb-222d-4734-9cad-07399c2ff7e8",
+    "id": "4ee14dda-ad28-4cb9-a022-c2da969d9a72",
     "name": "RUR9476",
     "lat": 32.5249,
     "lng": 74.6114,
@@ -15288,10 +15288,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101740
+    "createdAt": 1786860942984
   },
   {
-    "id": "9cebc47a-161f-4373-8a74-0c2fc9a7b507",
+    "id": "81ea266c-4c58-4a6c-980d-1901a20bf192",
     "name": "RUR9688",
     "lat": 32.4447,
     "lng": 74.5107,
@@ -15316,10 +15316,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101740
+    "createdAt": 1786860942984
   },
   {
-    "id": "7b856347-a5d3-4894-aa2f-ae01ca3052ed",
+    "id": "70612798-9a5d-4a4b-ba1f-7d7c5fa249d4",
     "name": "SKT0020",
     "lat": 32.4933,
     "lng": 74.5409,
@@ -15344,10 +15344,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101740
+    "createdAt": 1786860942984
   },
   {
-    "id": "f6333535-81bc-4ca3-8b9b-b3785c4bc1f5",
+    "id": "aa7bf9b6-02dd-4e1f-85c1-bcd20e363f2f",
     "name": "SKT0110",
     "lat": 32.5129,
     "lng": 74.5533,
@@ -15372,10 +15372,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101740
+    "createdAt": 1786860942985
   },
   {
-    "id": "dede5d31-706a-4a57-bf5c-98e82cf80d82",
+    "id": "29f1e41f-433c-4f1e-a5ba-7e7ee3bc2042",
     "name": "SKT0416",
     "lat": 32.4825,
     "lng": 74.5512,
@@ -15400,10 +15400,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "CP",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101740
+    "createdAt": 1786860942985
   },
   {
-    "id": "7a85f6e2-b3f2-4027-bf1d-11037113cbfc",
+    "id": "04d38b38-0e75-4109-8be7-92bf82a1ef6b",
     "name": "SKT0572",
     "lat": 32.4866,
     "lng": 74.5519,
@@ -15428,10 +15428,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "DG",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101740
+    "createdAt": 1786860942985
   },
   {
-    "id": "f8998210-e894-4176-8819-3d41c7ce8ada",
+    "id": "60a0d914-5f5c-4c6c-813c-d7aa79a1cb3d",
     "name": "SKT0721",
     "lat": 32.4842,
     "lng": 74.5296,
@@ -15456,10 +15456,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101740
+    "createdAt": 1786860942985
   },
   {
-    "id": "7916ead9-1903-4540-8a82-59f7d78fbe5e",
+    "id": "43abb90e-d515-4a2c-9414-e756400de869",
     "name": "SKT0816",
     "lat": 32.4955,
     "lng": 74.5526,
@@ -15484,10 +15484,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101740
+    "createdAt": 1786860942985
   },
   {
-    "id": "90cd912f-6e16-4bc7-9838-05b3855b9858",
+    "id": "4798048c-6936-4f8b-8c0a-878f4dc2c14e",
     "name": "SKT0831",
     "lat": 32.4659,
     "lng": 74.5568,
@@ -15512,10 +15512,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101740
+    "createdAt": 1786860942986
   },
   {
-    "id": "f81f2cac-caee-4462-ab6c-8f291d54deb3",
+    "id": "390df0b2-af5b-46da-b032-31f3fa9ed5b3",
     "name": "SKT1182",
     "lat": 32.4979,
     "lng": 74.5332,
@@ -15540,10 +15540,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101740
+    "createdAt": 1786860942986
   },
   {
-    "id": "20bb0b87-da40-445b-b23b-93245434da99",
+    "id": "4da0204e-aa15-4721-8849-34aeb9130c5d",
     "name": "SKT1603",
     "lat": 32.4837,
     "lng": 74.5331,
@@ -15568,10 +15568,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101740
+    "createdAt": 1786860942986
   },
   {
-    "id": "1e9f4d22-8f87-4c1a-a700-d8936d01f06f",
+    "id": "ff9ea256-0156-4ff3-bfe3-d49d38d3bdb8",
     "name": "SKT1608",
     "lat": 32.4803,
     "lng": 74.5446,
@@ -15596,10 +15596,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "CP",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101740
+    "createdAt": 1786860942986
   },
   {
-    "id": "fbb9abde-0f41-4585-ac0d-5ba256c5ef74",
+    "id": "6de0916b-77c5-4ed9-a2ef-66a6d0a9c55e",
     "name": "SKT1617",
     "lat": 32.478,
     "lng": 74.5256,
@@ -15624,10 +15624,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101740
+    "createdAt": 1786860942986
   },
   {
-    "id": "25826ff8-02e3-4137-8e26-d7ceb8284bd5",
+    "id": "40081987-c565-4e2e-aedc-e4a536bc23da",
     "name": "SKT1618",
     "lat": 32.4962,
     "lng": 74.5605,
@@ -15652,10 +15652,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101740
+    "createdAt": 1786860942987
   },
   {
-    "id": "b0ff4d28-2789-4d3e-b477-fd08a9fd0c2b",
+    "id": "2efd259e-6eb8-4a8f-92e8-63b569acb56d",
     "name": "SKT1621",
     "lat": 32.4945,
     "lng": 74.4879,
@@ -15680,10 +15680,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101740
+    "createdAt": 1786860942987
   },
   {
-    "id": "3c353ec6-0b7d-489b-913c-2e4acf541dd8",
+    "id": "4fc21022-c338-46da-a5f7-ca8359568564",
     "name": "SKT3020",
     "lat": 32.4897,
     "lng": 74.4782,
@@ -15708,10 +15708,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "CP",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101740
+    "createdAt": 1786860942987
   },
   {
-    "id": "53a99001-14d8-40e4-9818-aa4992879a34",
+    "id": "2e7a7c6f-0958-4b51-b569-9cccb590bd67",
     "name": "SKT3091",
     "lat": 32.491,
     "lng": 74.5249,
@@ -15736,10 +15736,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101740
+    "createdAt": 1786860942987
   },
   {
-    "id": "9fcfb4a5-d7cc-43ee-b160-338703731b4b",
+    "id": "a8e6a2b3-8003-4862-b683-b4b6542b1fa8",
     "name": "SKT3094",
     "lat": 32.5193,
     "lng": 74.5082,
@@ -15764,10 +15764,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101740
+    "createdAt": 1786860942987
   },
   {
-    "id": "448627d0-233b-48e2-866e-5f431093f65c",
+    "id": "231b409c-f716-4cab-9fe1-54eccfd18d21",
     "name": "SKT3154",
     "lat": 32.4926,
     "lng": 74.5367,
@@ -15792,10 +15792,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101740
+    "createdAt": 1786860942988
   },
   {
-    "id": "b1506bc3-2005-48fe-9d4b-62a9a2065a35",
+    "id": "0f9061f3-7186-4f54-8aac-e74ecdb6d8e6",
     "name": "SKT3200",
     "lat": 32.5238,
     "lng": 74.5014,
@@ -15820,10 +15820,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101740
+    "createdAt": 1786860942988
   },
   {
-    "id": "077275d3-50a4-46ec-9678-abc55c504815",
+    "id": "77eef270-e457-4c83-a43e-c906117b49b7",
     "name": "SKT3223",
     "lat": 32.489,
     "lng": 74.5646,
@@ -15848,10 +15848,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101740
+    "createdAt": 1786860942988
   },
   {
-    "id": "a843afda-a034-4d6e-87f8-4510a07b8611",
+    "id": "5ba2b5fc-0f3d-432e-9435-4742ac7ad761",
     "name": "SKT3352",
     "lat": 32.5011,
     "lng": 74.4966,
@@ -15876,10 +15876,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101740
+    "createdAt": 1786860942988
   },
   {
-    "id": "b5427569-ceb0-47a3-88e3-9705e10758f7",
+    "id": "bfff82f6-4d3c-44fc-9a2b-7b9c407bc20c",
     "name": "SKT3357",
     "lat": 32.4854,
     "lng": 74.5421,
@@ -15904,10 +15904,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101740
+    "createdAt": 1786860942988
   },
   {
-    "id": "785451d6-1d91-4098-844c-664d90a21927",
+    "id": "106186e7-7f42-483f-abb9-ee63192e5030",
     "name": "SKT3399",
     "lat": 32.5068,
     "lng": 74.5423,
@@ -15932,10 +15932,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101740
+    "createdAt": 1786860942988
   },
   {
-    "id": "6b8d3065-8881-486c-8736-f9b029dd37f6",
+    "id": "e0633668-2857-47e9-81bc-fb1adb37855e",
     "name": "SKT3400",
     "lat": 32.5085,
     "lng": 74.5193,
@@ -15960,10 +15960,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101740
+    "createdAt": 1786860942989
   },
   {
-    "id": "90dc6955-ab64-4c8a-aa61-639970c3c9a7",
+    "id": "4537552e-04de-4e78-ba3c-9f161d3e807e",
     "name": "SKT3404",
     "lat": 32.5008,
     "lng": 74.5186,
@@ -15988,10 +15988,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101740
+    "createdAt": 1786860942989
   },
   {
-    "id": "ed3a58f2-90cb-4b0e-ac96-75efde2bbab0",
+    "id": "05e416ad-ee63-430a-856a-1b3bb99dcbe7",
     "name": "SKT3405",
     "lat": 32.5063,
     "lng": 74.5277,
@@ -16016,10 +16016,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101740
+    "createdAt": 1786860942989
   },
   {
-    "id": "52d9f357-846a-48e1-9333-57f5c31610f4",
+    "id": "b5cf71dc-2a6e-4c93-aba0-98755e0decb8",
     "name": "SKT3406",
     "lat": 32.4886,
     "lng": 74.5057,
@@ -16044,10 +16044,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101741
+    "createdAt": 1786860942989
   },
   {
-    "id": "1c1e6686-7047-428d-8148-95153078f0b9",
+    "id": "5720abdb-998e-4629-bd24-469ecbd357bb",
     "name": "SKT3410",
     "lat": 32.5046,
     "lng": 74.5107,
@@ -16072,10 +16072,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101741
+    "createdAt": 1786860942989
   },
   {
-    "id": "4c150488-345e-41cd-89e6-fe6212066f94",
+    "id": "0a8e8585-f03f-4dbe-b787-b3c0ee346be9",
     "name": "SKT3422",
     "lat": 32.4885,
     "lng": 74.5357,
@@ -16100,10 +16100,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101741
+    "createdAt": 1786860942990
   },
   {
-    "id": "92f4f1d4-9a3e-4579-853a-ba10a844bce3",
+    "id": "972866f0-4336-454f-acf3-65c584454755",
     "name": "SKT3424",
     "lat": 32.49,
     "lng": 74.5305,
@@ -16128,10 +16128,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101741
+    "createdAt": 1786860942990
   },
   {
-    "id": "671e78b9-c5ce-48be-88ef-03ac3c8de784",
+    "id": "3b7ca982-1335-43ce-a9b6-6a4a2f6c0a45",
     "name": "SKT3425",
     "lat": 32.5073,
     "lng": 74.5566,
@@ -16156,10 +16156,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101741
+    "createdAt": 1786860942990
   },
   {
-    "id": "f0095b0c-5e6a-445d-a60c-3f292c3dc4f0",
+    "id": "ced5fcef-3465-4fbc-9a44-7cf14422588c",
     "name": "SKT3605",
     "lat": 32.4952,
     "lng": 74.5437,
@@ -16184,10 +16184,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101741
+    "createdAt": 1786860942990
   },
   {
-    "id": "9c716752-e75e-41de-a068-340128288399",
+    "id": "11be4312-dc37-44e9-9b66-9d9d7294c09b",
     "name": "SKT3618",
     "lat": 32.5101,
     "lng": 74.5344,
@@ -16212,10 +16212,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101741
+    "createdAt": 1786860942990
   },
   {
-    "id": "0a7274ed-4b8b-4415-88a4-e7c3c6cd8258",
+    "id": "28b4e37d-da99-4c95-844a-eacb5d534a11",
     "name": "SKT3763",
     "lat": 32.4743,
     "lng": 74.5037,
@@ -16240,10 +16240,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101741
+    "createdAt": 1786860942990
   },
   {
-    "id": "0d692efd-ca6c-4d90-ac89-2e7a96ec8061",
+    "id": "0e7e661a-293a-4eaa-b2ec-adb5895ef8a7",
     "name": "SKT3773",
     "lat": 32.4817,
     "lng": 74.5074,
@@ -16268,10 +16268,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101741
+    "createdAt": 1786860942991
   },
   {
-    "id": "d0985a07-40f1-418b-a86e-1956ae7056b0",
+    "id": "623c698c-5ec6-45c0-80fe-ad4f2d5779d8",
     "name": "SKT3800",
     "lat": 32.4899,
     "lng": 74.5149,
@@ -16296,10 +16296,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101741
+    "createdAt": 1786860942991
   },
   {
-    "id": "4a6fc78b-152c-4f78-a620-30c67c5f32af",
+    "id": "eb47ac7d-858d-4f3e-92c4-97a754624023",
     "name": "SKT3809",
     "lat": 32.4974,
     "lng": 74.5403,
@@ -16324,10 +16324,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101741
+    "createdAt": 1786860942991
   },
   {
-    "id": "5d381082-18a4-4da5-b875-f0209089610e",
+    "id": "fc0e9134-c75a-421c-90ca-54ec0ff443de",
     "name": "SKT3810",
     "lat": 32.5015,
     "lng": 74.5314,
@@ -16352,10 +16352,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101741
+    "createdAt": 1786860942991
   },
   {
-    "id": "f22cbb58-80fd-4ab4-9ca8-6a8e28d490cc",
+    "id": "03904934-2011-4b44-ba31-3a2942b26152",
     "name": "SKT3811",
     "lat": 32.4954,
     "lng": 74.5231,
@@ -16380,10 +16380,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101741
+    "createdAt": 1786860942991
   },
   {
-    "id": "68446cb1-d2de-4e1d-8a5b-da743e3f7338",
+    "id": "705fb5b7-04f5-44da-b1f6-3830bc9ead32",
     "name": "SKT3812",
     "lat": 32.4833,
     "lng": 74.5232,
@@ -16408,10 +16408,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101741
+    "createdAt": 1786860942992
   },
   {
-    "id": "66304bf6-b364-4ed6-87b5-84c5c39c0fe9",
+    "id": "4a9af999-7d3f-4828-9975-596ab9a8e8f3",
     "name": "SKT3813",
     "lat": 32.477,
     "lng": 74.5139,
@@ -16436,10 +16436,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101741
+    "createdAt": 1786860942992
   },
   {
-    "id": "0a08434a-e85b-414a-b596-a0fcb232d52b",
+    "id": "3f72cced-8022-4031-ab9b-868b7544d321",
     "name": "SKT3888",
     "lat": 32.4713,
     "lng": 74.5351,
@@ -16464,10 +16464,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101741
+    "createdAt": 1786860942992
   },
   {
-    "id": "7f3ee4eb-9cf3-4ae5-98e9-8fe7d80a6b72",
+    "id": "ced9acd9-3d89-4116-b719-99c5d6a24725",
     "name": "SKT4148",
     "lat": 32.5142,
     "lng": 74.5142,
@@ -16492,10 +16492,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101741
+    "createdAt": 1786860942993
   },
   {
-    "id": "dccdc0cc-5ff4-48ab-b564-f7777e540071",
+    "id": "35f70a5a-4af3-4457-a10b-3946319dfd60",
     "name": "SKT4153",
     "lat": 32.4986,
     "lng": 74.5464,
@@ -16520,10 +16520,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101741
+    "createdAt": 1786860942997
   },
   {
-    "id": "2ff283c2-715d-4945-b468-bd570cb5f923",
+    "id": "62aad12d-10e4-4f60-8a31-0021df050ac4",
     "name": "SKT4154",
     "lat": 32.5193,
     "lng": 74.5308,
@@ -16548,10 +16548,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101741
+    "createdAt": 1786860942997
   },
   {
-    "id": "fd7f048f-380f-4ebd-8edf-dd54d204be00",
+    "id": "b0ade70d-18dc-43ba-8112-b77da6ec2921",
     "name": "SKT4186",
     "lat": 32.4672,
     "lng": 74.5189,
@@ -16576,10 +16576,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101741
+    "createdAt": 1786860942998
   },
   {
-    "id": "d6b596cd-8464-482a-9b85-3757e925630d",
+    "id": "d2e39915-81fb-4d74-b956-bd084b5b6f80",
     "name": "SKT4626",
     "lat": 32.5107,
     "lng": 74.5847,
@@ -16604,10 +16604,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101741
+    "createdAt": 1786860942998
   },
   {
-    "id": "a9324991-c68f-4147-aed1-655987ff5e1a",
+    "id": "553f6f1f-be8f-454e-8b13-51a47f3ec3b3",
     "name": "SKT4627",
     "lat": 32.5189,
     "lng": 74.5803,
@@ -16632,10 +16632,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101741
+    "createdAt": 1786860942998
   },
   {
-    "id": "90d0972f-8d29-495d-a79b-ca4f98a01d69",
+    "id": "f6308ee6-f0f4-43e5-9607-9f4cf9146cad",
     "name": "SKT4628",
     "lat": 32.5215,
     "lng": 74.5635,
@@ -16660,10 +16660,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101741
+    "createdAt": 1786860942998
   },
   {
-    "id": "162a45fc-a690-463c-bc38-98068edd2e0e",
+    "id": "a6fb9598-c8dd-41cd-aef9-affc5aa5817e",
     "name": "SKT4629",
     "lat": 32.5235,
     "lng": 74.5473,
@@ -16688,10 +16688,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101741
+    "createdAt": 1786860942999
   },
   {
-    "id": "da26a692-cf97-4bd5-b811-b18962a366a3",
+    "id": "e052aac9-02a0-427b-82eb-563a774da1b7",
     "name": "SKT4630",
     "lat": 32.5362,
     "lng": 74.5531,
@@ -16716,10 +16716,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101741
+    "createdAt": 1786860942999
   },
   {
-    "id": "d69fe766-132b-40d8-802a-4d255db989d1",
+    "id": "54566804-3459-4079-9d24-0edebb69a799",
     "name": "SKT4633",
     "lat": 32.4919,
     "lng": 74.5197,
@@ -16744,10 +16744,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101741
+    "createdAt": 1786860942999
   },
   {
-    "id": "48a4316c-2003-4ece-9f41-4713c88b10d5",
+    "id": "c530a0ef-8f63-4632-a606-a10a32e45ccb",
     "name": "SKT4635",
     "lat": 32.5031,
     "lng": 74.549,
@@ -16772,10 +16772,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101741
+    "createdAt": 1786860942999
   },
   {
-    "id": "40377282-e1af-4781-a954-4cddce57a611",
+    "id": "3d9c0855-f4ae-45d7-b380-7084aa7a22aa",
     "name": "SKT5140",
     "lat": 32.5001,
     "lng": 74.5392,
@@ -16800,10 +16800,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101741
+    "createdAt": 1786860943000
   },
   {
-    "id": "bb88b825-e873-4bec-9174-df28eae93480",
+    "id": "13e1317b-f3e7-49fa-9d2c-b73bc81a9a35",
     "name": "SKT5149",
     "lat": 32.4822,
     "lng": 74.5596,
@@ -16828,10 +16828,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101741
+    "createdAt": 1786860943000
   },
   {
-    "id": "5828bf4c-e2c5-412f-a06b-2533732d4960",
+    "id": "016b1ff6-0e56-4906-9d16-9f4a4853b1bf",
     "name": "SKT5152",
     "lat": 32.4899,
     "lng": 74.544,
@@ -16856,10 +16856,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101741
+    "createdAt": 1786860943001
   },
   {
-    "id": "da396650-45c7-4dde-9884-d6bfad371a1d",
+    "id": "fb8c0ee7-247c-488f-ab90-372bcff6bd91",
     "name": "SKT8839",
     "lat": 32.5111,
     "lng": 74.4977,
@@ -16884,10 +16884,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101741
+    "createdAt": 1786860943001
   },
   {
-    "id": "73bd97db-824c-4d84-b19f-90916b49181a",
+    "id": "fc4ece7e-15cf-4107-a67f-2aa6a6c26019",
     "name": "SKT8946",
     "lat": 32.5022,
     "lng": 74.543,
@@ -16912,10 +16912,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101741
+    "createdAt": 1786860943001
   },
   {
-    "id": "f6a759ea-c12c-4ecf-9ed0-72c4fd9adca7",
+    "id": "ca7024ab-d99f-461f-8d6b-1a5eda3ebf65",
     "name": "SKT9468",
     "lat": 32.4969,
     "lng": 74.5919,
@@ -16940,10 +16940,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "DG",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101741
+    "createdAt": 1786860943001
   },
   {
-    "id": "56ae072d-eb45-4bd6-b99d-ba87f0d065d7",
+    "id": "67f87c37-5ebe-413a-bde7-0511d0d2cf9d",
     "name": "SKT9472",
     "lat": 32.5221,
     "lng": 74.5247,
@@ -16968,10 +16968,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101741
+    "createdAt": 1786860943002
   },
   {
-    "id": "738a23e5-bdfe-451c-aa32-3daaf2bfbe90",
+    "id": "71da09cc-f3fa-4019-aaf6-6ba8b65fc5a1",
     "name": "SKT9473",
     "lat": 32.5414,
     "lng": 74.5646,
@@ -16996,10 +16996,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101741
+    "createdAt": 1786860943002
   },
   {
-    "id": "0ead67db-bbab-4833-bc20-85e30f139610",
+    "id": "7d05fae6-3acc-44e0-b88c-203007122cf1",
     "name": "SKT9474",
     "lat": 32.5189,
     "lng": 74.5394,
@@ -17024,10 +17024,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101741
+    "createdAt": 1786860943002
   },
   {
-    "id": "58442fd6-f391-4d38-adf9-370e190dfe60",
+    "id": "c4efb95e-f97f-47b5-b719-b890b2846764",
     "name": "SKT9477",
     "lat": 32.4963,
     "lng": 74.5155,
@@ -17052,10 +17052,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101741
+    "createdAt": 1786860943002
   },
   {
-    "id": "868b9680-6d45-49c8-8db0-6441fecb1ee8",
+    "id": "7aca797b-6199-4739-9729-6a12c2fc62c5",
     "name": "SKT9478",
     "lat": 32.5141,
     "lng": 74.5597,
@@ -17080,10 +17080,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101741
+    "createdAt": 1786860943002
   },
   {
-    "id": "ca14fb22-ea6a-4310-bb4c-86f8945a42ae",
+    "id": "58354be5-1aee-406f-9434-d3aafeb01fd8",
     "name": "SKT9479",
     "lat": 32.512,
     "lng": 74.503,
@@ -17108,10 +17108,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101741
+    "createdAt": 1786860943002
   },
   {
-    "id": "9f427434-8cd1-47c6-829e-d093bb5f20f6",
+    "id": "578415f5-6660-46ea-9648-f30a77d6914d",
     "name": "SKT9480",
     "lat": 32.5193,
     "lng": 74.5019,
@@ -17136,10 +17136,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101741
+    "createdAt": 1786860943007
   },
   {
-    "id": "4c76adbb-06c5-4f16-95b4-1ab578854106",
+    "id": "5b700a0f-c5ae-4816-8781-bbbc7a51ee29",
     "name": "SKT9481",
     "lat": 32.512,
     "lng": 74.5195,
@@ -17164,10 +17164,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101741
+    "createdAt": 1786860943008
   },
   {
-    "id": "034a0fa3-17d5-427e-99d7-1f425b64ff99",
+    "id": "4f7d9bbc-637e-48cf-b2c9-0e073347cfda",
     "name": "SKT9482",
     "lat": 32.5048,
     "lng": 74.5177,
@@ -17192,10 +17192,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101741
+    "createdAt": 1786860943008
   },
   {
-    "id": "2ce72fcd-2425-476e-afea-b68e4ff2bc8a",
+    "id": "c83a7f2a-b500-4392-b81a-fd095a1dccce",
     "name": "SKT9483",
     "lat": 32.5024,
     "lng": 74.562,
@@ -17220,10 +17220,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101741
+    "createdAt": 1786860943008
   },
   {
-    "id": "55b7b1d4-33a0-43c9-8645-f6f056009958",
+    "id": "86f97a2c-445b-46de-ab78-bb121db809c3",
     "name": "SKT9484",
     "lat": 32.5052,
     "lng": 74.5355,
@@ -17248,10 +17248,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DG",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101741
+    "createdAt": 1786860943008
   },
   {
-    "id": "48d46beb-f8bc-487c-8756-157801f2dacf",
+    "id": "db156b67-0b6b-48ae-8960-d0d2536628ef",
     "name": "SKT9638",
     "lat": 32.4949,
     "lng": 74.5055,
@@ -17276,10 +17276,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "CP",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101741
+    "createdAt": 1786860943009
   },
   {
-    "id": "9fed07b7-d6db-4eda-a82e-0dd74b758e73",
+    "id": "b1acc5fc-3266-4ad4-9f77-9f7c8fcf677e",
     "name": "SKT9848",
     "lat": 32.4904,
     "lng": 74.4949,
@@ -17304,10 +17304,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101741
+    "createdAt": 1786860943009
   },
   {
-    "id": "48b32847-362f-4772-ba8f-575ceb27f294",
+    "id": "96f56482-bc60-4e4b-9d40-b9da26f36404",
     "name": "SKT9850",
     "lat": 32.4908,
     "lng": 74.5522,
@@ -17332,10 +17332,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101741
+    "createdAt": 1786860943009
   },
   {
-    "id": "d09830d8-9d11-4550-9e83-2896b196ca24",
+    "id": "dc312e97-b61e-47e4-a16e-1a1b7ed77015",
     "name": "SKT9948",
     "lat": 32.5439,
     "lng": 74.5551,
@@ -17360,10 +17360,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "DG",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101741
+    "createdAt": 1786860943009
   },
   {
-    "id": "0df3a160-4108-4782-bc5e-2e74194e18f6",
+    "id": "d673b5be-b125-45cb-b5db-a9c39866cb61",
     "name": "RUR8859",
     "lat": 32.44481,
     "lng": 74.73785,
@@ -17388,10 +17388,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101742
+    "createdAt": 1786860943010
   },
   {
-    "id": "5ab68a36-5c0f-44db-b565-b59ac639b666",
+    "id": "aeb09af6-2e7a-44b7-97fa-ddcdf0018f5e",
     "name": "SKT0355",
     "lat": 32.5014,
     "lng": 74.526,
@@ -17416,10 +17416,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101742
+    "createdAt": 1786860943012
   },
   {
-    "id": "ce2bd341-c5ab-4136-8ae7-0398e819f9f3",
+    "id": "3adb7898-8e64-4581-9a86-f5cdf1cbd214",
     "name": "HFZ9402",
     "lat": 32.0687,
     "lng": 73.6868,
@@ -17444,10 +17444,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "DG",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101742
+    "createdAt": 1786860943012
   },
   {
-    "id": "9eed0684-b4d8-4f80-be64-b65c05522d89",
+    "id": "beed89ac-c8a6-41ae-b28d-eeeab0c02844",
     "name": "PND1615",
     "lat": 31.8932,
     "lng": 73.2716,
@@ -17472,10 +17472,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101742
+    "createdAt": 1786860943012
   },
   {
-    "id": "3e3755c4-1ff3-47f5-a1cf-3d9592e22941",
+    "id": "8f415d2d-17a8-4276-b3f4-71339e57ac47",
     "name": "RUR0717",
     "lat": 32.032988,
     "lng": 73.63398,
@@ -17500,10 +17500,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101742
+    "createdAt": 1786860943013
   },
   {
-    "id": "b40a41a8-6ebc-417a-a78c-d49c872c44f6",
+    "id": "1e2b63fc-622d-409c-a889-e72c8f8a8127",
     "name": "ALC3049",
     "lat": 32.2708,
     "lng": 73.8122,
@@ -17528,10 +17528,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101742
+    "createdAt": 1786860943013
   },
   {
-    "id": "84034a3f-ae76-4b3b-a659-d39e034cc511",
+    "id": "b666c0a2-783e-4870-9514-e82f4621a9c5",
     "name": "ALC3447",
     "lat": 32.266055,
     "lng": 73.816358,
@@ -17556,10 +17556,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101742
+    "createdAt": 1786860943013
   },
   {
-    "id": "70efaf61-3485-4d13-b4e4-945eda5f6a17",
+    "id": "5c418616-17d0-4e71-b2bc-97ed961f7afa",
     "name": "ALC8810",
     "lat": 32.2667,
     "lng": 73.8142,
@@ -17584,10 +17584,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101742
+    "createdAt": 1786860943013
   },
   {
-    "id": "8ecbbb29-ed2d-480a-b8b9-d75d273dbe6a",
+    "id": "0dfc190d-417c-436f-a129-2e2006574645",
     "name": "ALC9648",
     "lat": 32.2653,
     "lng": 73.808,
@@ -17612,10 +17612,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101742
+    "createdAt": 1786860943013
   },
   {
-    "id": "f4115704-6338-4a90-8584-19561ce7262c",
+    "id": "9f3b56ef-3a43-4094-9d32-75ce1193a184",
     "name": "AMG8795",
     "lat": 32.2814,
     "lng": 74.0179,
@@ -17640,10 +17640,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101742
+    "createdAt": 1786860943014
   },
   {
-    "id": "1690d759-b98b-459b-a7d6-12aec790854d",
+    "id": "bc21c366-1864-4673-b55a-65fe58df11ac",
     "name": "AMG8797",
     "lat": 32.320386,
     "lng": 73.981717,
@@ -17668,10 +17668,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101742
+    "createdAt": 1786860943014
   },
   {
-    "id": "8a70361a-92d0-4fa8-b334-e2fbe442ceeb",
+    "id": "3bf94581-4215-47d4-8a86-7d4fa3c7633d",
     "name": "AMG9500",
     "lat": 32.30924,
     "lng": 73.98866,
@@ -17696,10 +17696,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101742
+    "createdAt": 1786860943014
   },
   {
-    "id": "f8b2fd08-df80-4ec0-841e-8d196d123787",
+    "id": "1a7ee8b5-5efe-428d-8083-37653dce32e1",
     "name": "GMW9713",
     "lat": 32.0368,
     "lng": 74.1437,
@@ -17724,10 +17724,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101742
+    "createdAt": 1786860943014
   },
   {
-    "id": "ac70161b-34aa-40c5-bfc6-e08c2b8de7b7",
+    "id": "14d69616-f930-4745-94e8-22d056abeec4",
     "name": "GUJ9728",
     "lat": 32.1093,
     "lng": 74.1688,
@@ -17752,10 +17752,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "CP",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101742
+    "createdAt": 1786860943014
   },
   {
-    "id": "8f07fabd-351c-48aa-9459-f14ab968e845",
+    "id": "f03db674-815c-4c09-bc0e-fa7cbb19c378",
     "name": "HFZ3804",
     "lat": 32.0604,
     "lng": 73.681,
@@ -17780,10 +17780,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101742
+    "createdAt": 1786860943015
   },
   {
-    "id": "4706d533-5830-4678-8fde-87d435ec9771",
+    "id": "a8c8eb04-d040-42a2-82f2-276a947229ec",
     "name": "HFZ3846",
     "lat": 32.0712,
     "lng": 73.6827,
@@ -17808,10 +17808,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101742
+    "createdAt": 1786860943015
   },
   {
-    "id": "e1f8e341-975f-445a-a047-b084998af155",
+    "id": "daf69bcf-cad1-4444-86ae-f6d3f583ac81",
     "name": "HFZ3892",
     "lat": 32.0694,
     "lng": 73.6935,
@@ -17836,10 +17836,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "DG",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101742
+    "createdAt": 1786860943015
   },
   {
-    "id": "0ef5bda3-9c42-406e-89b1-85883aaa4ed0",
+    "id": "f51b81ab-1f2a-43bb-81f5-30de9a3f054b",
     "name": "HFZ4067",
     "lat": 32.0753,
     "lng": 73.6914,
@@ -17864,10 +17864,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101742
+    "createdAt": 1786860943015
   },
   {
-    "id": "28dba390-2fc5-4884-9b94-635be82db531",
+    "id": "0ab8417f-77ae-47ad-86c9-7c62ea16bb86",
     "name": "HFZ9399",
     "lat": 32.0683,
     "lng": 73.6584,
@@ -17892,10 +17892,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101742
+    "createdAt": 1786860943016
   },
   {
-    "id": "e41f3eea-83c7-494c-84f2-6e79e9f075b8",
+    "id": "0b505c35-41fd-4ce6-b1f6-b47a0771ee5c",
     "name": "HFZ9401",
     "lat": 32.0618,
     "lng": 73.6871,
@@ -17920,10 +17920,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101742
+    "createdAt": 1786860943016
   },
   {
-    "id": "04231572-d289-4700-bc98-7dc44fffb559",
+    "id": "7fbeefbf-e588-40eb-919d-dc4d239ee93b",
     "name": "HFZ9403",
     "lat": 32.0746,
     "lng": 73.6869,
@@ -17948,10 +17948,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101742
+    "createdAt": 1786860943017
   },
   {
-    "id": "d4f831f6-4b60-49b8-84f4-c924b97d6354",
+    "id": "f25d9cc6-0045-4bdd-a601-2c373d37b096",
     "name": "HFZ9797",
     "lat": 32.0641,
     "lng": 73.6934,
@@ -17976,10 +17976,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101742
+    "createdAt": 1786860943017
   },
   {
-    "id": "af920c36-7337-4142-932f-3af9a76687be",
+    "id": "268210b9-7903-4662-aa64-fbd9a22a2060",
     "name": "HFZ9814",
     "lat": 32.0725,
     "lng": 73.6982,
@@ -18004,10 +18004,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "DG",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101742
+    "createdAt": 1786860943017
   },
   {
-    "id": "7990b7b7-227c-4215-b8e9-2abecb59ebc8",
+    "id": "075dbf06-e08b-4054-810e-339d32c621c9",
     "name": "HFZ9826",
     "lat": 32.0787,
     "lng": 73.6822,
@@ -18032,10 +18032,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101742
+    "createdAt": 1786860943017
   },
   {
-    "id": "5a6181cd-91f4-4fea-9fb9-315f35f483fb",
+    "id": "e1ac6fe5-1c00-4fc3-ac91-d11981179199",
     "name": "HJN0014",
     "lat": 31.8273,
     "lng": 73.28,
@@ -18060,10 +18060,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101742
+    "createdAt": 1786860943017
   },
   {
-    "id": "0d85cb55-2693-4a9c-b713-c64c5a5bc95e",
+    "id": "9246749d-638c-4151-b750-d0ecadf8ea36",
     "name": "HRW9396",
     "lat": 31.9601,
     "lng": 73.7082,
@@ -18088,10 +18088,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101742
+    "createdAt": 1786860943018
   },
   {
-    "id": "8fe81d28-a7ce-4cd7-b6a4-a19606b26c15",
+    "id": "b21cbcb0-7d78-4d91-82a3-db791e2454a6",
     "name": "HRW9980",
     "lat": 31.9881,
     "lng": 73.7005,
@@ -18116,10 +18116,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101742
+    "createdAt": 1786860943018
   },
   {
-    "id": "cc81da6f-e6c5-4749-8de3-68afefb04ff1",
+    "id": "bd465275-36fb-4bdc-a82b-269df8e83b54",
     "name": "HRW9981",
     "lat": 31.9475,
     "lng": 73.6766,
@@ -18144,10 +18144,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101742
+    "createdAt": 1786860943018
   },
   {
-    "id": "7aef4138-65dd-4276-93db-56bc7066178c",
+    "id": "7e9167ec-34f5-46d7-abcc-37e9c64a6971",
     "name": "HWY0112",
     "lat": 31.9272,
     "lng": 73.2837,
@@ -18172,10 +18172,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101742
+    "createdAt": 1786860943019
   },
   {
-    "id": "89a7a4ce-8e0f-46de-aa76-bffb9c8dec6c",
+    "id": "c2a8cb2b-4089-4117-8835-233835603f77",
     "name": "HWY0394",
     "lat": 31.9059,
     "lng": 73.2716,
@@ -18200,10 +18200,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101742
+    "createdAt": 1786860943019
   },
   {
-    "id": "61532eb7-9c1b-4e79-983b-0468f1d4b194",
+    "id": "a976b2c8-acd8-4caa-8c54-03a5d6bbd15b",
     "name": "HWY1262",
     "lat": 32.331136,
     "lng": 73.837058,
@@ -18228,10 +18228,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101742
+    "createdAt": 1786860943019
   },
   {
-    "id": "17c28fff-b0d6-40f6-9b1f-95d8cf2bca21",
+    "id": "d88ad55c-5c6d-4743-b0ce-b6b358aaac1a",
     "name": "HWY1510",
     "lat": 31.8679,
     "lng": 73.6731,
@@ -18256,10 +18256,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101742
+    "createdAt": 1786860943019
   },
   {
-    "id": "c1ec4cad-0671-4c4d-ab65-76a9efac9ff3",
+    "id": "60c88d49-9461-408e-97e6-fd9a60ea4407",
     "name": "HWY6906",
     "lat": 31.9247931,
     "lng": 73.3327218,
@@ -18284,10 +18284,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101742
+    "createdAt": 1786860943020
   },
   {
-    "id": "bd9573ca-4e8b-44ef-b663-6e20b727b7ec",
+    "id": "7fe91346-2e43-4fc6-9364-55e429e4801f",
     "name": "HWY6911",
     "lat": 31.9364,
     "lng": 73.1898,
@@ -18312,10 +18312,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101742
+    "createdAt": 1786860943020
   },
   {
-    "id": "da1e42a8-d033-4250-926d-6f4018274765",
+    "id": "6a00b2ca-2625-4ff9-b1e6-12a5251ef824",
     "name": "HWY8851",
     "lat": 31.916346,
     "lng": 73.548301,
@@ -18340,10 +18340,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101742
+    "createdAt": 1786860943020
   },
   {
-    "id": "58c94ee7-a939-446e-90f4-cdd08fc350fd",
+    "id": "2b9ed3d5-eed1-4f09-a4b1-794faca5f937",
     "name": "HWY8852",
     "lat": 31.933048,
     "lng": 73.256508,
@@ -18368,10 +18368,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101742
+    "createdAt": 1786860943020
   },
   {
-    "id": "f569e71a-e90e-4593-abab-2d2c2e090061",
+    "id": "b502f5ea-b9e8-42e8-9410-d25372369f4d",
     "name": "HWY9394",
     "lat": 31.92338,
     "lng": 73.38124,
@@ -18396,10 +18396,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101742
+    "createdAt": 1786860943020
   },
   {
-    "id": "8305ac81-3f2c-41ca-99fc-309c116205b2",
+    "id": "571aeb2d-5112-4aab-aed4-0da3275b3285",
     "name": "HWY9653",
     "lat": 31.91907,
     "lng": 73.483,
@@ -18424,10 +18424,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101742
+    "createdAt": 1786860943020
   },
   {
-    "id": "296ea844-1b6b-4389-a42d-1af3f0990ac0",
+    "id": "0164d391-7a34-4a21-95a1-40a1d977df43",
     "name": "JPB1364",
     "lat": 32.06131,
     "lng": 73.38143,
@@ -18452,10 +18452,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101742
+    "createdAt": 1786860943021
   },
   {
-    "id": "6d40c830-5ced-44b1-b0bc-1b9af64b35fc",
+    "id": "04d9c894-2971-46d6-a247-fc7a311f1095",
     "name": "JPB1369",
     "lat": 32.0657,
     "lng": 73.3805,
@@ -18480,10 +18480,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101742
+    "createdAt": 1786860943021
   },
   {
-    "id": "8ef035ab-2e9f-4d96-9f08-86ea83c382f0",
+    "id": "92c9a74b-7a53-4bbc-9349-af4e259f5bec",
     "name": "JPB3533",
     "lat": 32.064,
     "lng": 73.3761,
@@ -18508,10 +18508,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101742
+    "createdAt": 1786860943021
   },
   {
-    "id": "0a245552-600f-4eda-b6a7-c95e6b074e36",
+    "id": "50a15780-a5cd-4014-ae6b-0c164580110e",
     "name": "JPB4945",
     "lat": 32.0576,
     "lng": 73.374,
@@ -18536,10 +18536,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101742
+    "createdAt": 1786860943021
   },
   {
-    "id": "ccf213ee-990b-43f0-9b83-7e7bafa4bcac",
+    "id": "c5f42f07-6864-4848-8974-93ca650a4b02",
     "name": "KAH9488",
     "lat": 32.278635,
     "lng": 73.71297,
@@ -18564,10 +18564,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101742
+    "createdAt": 1786860943022
   },
   {
-    "id": "18eb485e-dda6-481f-aea3-4a2ea2586252",
+    "id": "bbda7880-3d25-421f-a3fc-1b5352f94644",
     "name": "KAH9974",
     "lat": 32.2097,
     "lng": 73.7043,
@@ -18592,10 +18592,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101743
+    "createdAt": 1786860943022
   },
   {
-    "id": "d1e220b5-096a-4455-a30d-6f5de9480702",
+    "id": "76d74fe0-8a07-4c9d-b450-1ed3c8e9148f",
     "name": "KLR9491",
     "lat": 32.1237,
     "lng": 73.5546,
@@ -18620,10 +18620,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101743
+    "createdAt": 1786860943022
   },
   {
-    "id": "1c8ae233-86ff-4969-a1df-a4614bfb2862",
+    "id": "4647e54f-d576-442c-8bd0-0ac671b12442",
     "name": "KLR9492",
     "lat": 32.1695,
     "lng": 73.5158,
@@ -18648,10 +18648,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101743
+    "createdAt": 1786860943022
   },
   {
-    "id": "90ab0b87-325c-4dc6-ac3d-d556dc1c6b8a",
+    "id": "2995073a-dec9-4e1a-990b-f799463efbab",
     "name": "KQD1725",
     "lat": 31.8393,
     "lng": 73.607,
@@ -18676,10 +18676,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101743
+    "createdAt": 1786860943022
   },
   {
-    "id": "01250e01-e597-4253-8672-8b2eb9f3d281",
+    "id": "e50e013f-4ead-4013-a309-ee5d9305cb09",
     "name": "KQD1726",
     "lat": 31.8324,
     "lng": 73.6202,
@@ -18704,10 +18704,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101743
+    "createdAt": 1786860943023
   },
   {
-    "id": "bf01d110-b778-4886-8c8f-d789339daa3b",
+    "id": "6a9ae8f6-310f-421e-917b-f474592c117d",
     "name": "KQD4251",
     "lat": 31.8356,
     "lng": 73.6154,
@@ -18732,10 +18732,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101743
+    "createdAt": 1786860943023
   },
   {
-    "id": "79be1134-23ee-4936-9430-5898a5d31543",
+    "id": "0c7f38ad-1e9e-445a-9eaa-69aa14a771c0",
     "name": "MBI9714",
     "lat": 31.9752,
     "lng": 74.0821,
@@ -18760,10 +18760,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101743
+    "createdAt": 1786860943023
   },
   {
-    "id": "e13011f1-c663-4edf-96da-e1a59b6f32a4",
+    "id": "f868f881-ba19-448a-909f-e21154f7906e",
     "name": "NVK3239",
     "lat": 31.9595,
     "lng": 73.9696,
@@ -18788,10 +18788,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101743
+    "createdAt": 1786860943023
   },
   {
-    "id": "366fd917-fa56-4046-bc73-bb7c24dafbb8",
+    "id": "25b01b1b-d733-414b-89b1-e71476fffb7f",
     "name": "NVK3537",
     "lat": 31.9589,
     "lng": 73.978,
@@ -18816,10 +18816,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101743
+    "createdAt": 1786860943023
   },
   {
-    "id": "686235fb-9379-494d-82ac-e5ef3faf27d6",
+    "id": "9ed52985-8640-4d10-88b9-cff614208a86",
     "name": "NVK4973",
     "lat": 31.9631,
     "lng": 73.9722,
@@ -18844,10 +18844,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101743
+    "createdAt": 1786860943024
   },
   {
-    "id": "3889264d-614e-420e-ac52-e188f89013b0",
+    "id": "120c4816-67e5-4984-8b27-99c2f8a3c979",
     "name": "NVK4974",
     "lat": 31.96411,
     "lng": 73.98339,
@@ -18872,10 +18872,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101743
+    "createdAt": 1786860943024
   },
   {
-    "id": "d40712c5-2d53-4fad-9e0a-fcf01c54090a",
+    "id": "487d641b-4709-42b4-ba7c-5a902a6159c7",
     "name": "NVK6925",
     "lat": 31.967,
     "lng": 73.9767,
@@ -18900,10 +18900,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101743
+    "createdAt": 1786860943024
   },
   {
-    "id": "6293f3c7-80b6-4c50-a223-d11d59419504",
+    "id": "29391dcc-ed40-407e-a51c-b51c082c2f10",
     "name": "PND1358",
     "lat": 31.8816,
     "lng": 73.3071,
@@ -18928,10 +18928,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101743
+    "createdAt": 1786860943030
   },
   {
-    "id": "08c2d9e0-f719-4be7-9e50-ddb787a448e0",
+    "id": "063e7910-1ac6-4da0-a268-05cd7de378cd",
     "name": "PND1363",
     "lat": 31.8862,
     "lng": 73.3866,
@@ -18956,10 +18956,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101743
+    "createdAt": 1786860943030
   },
   {
-    "id": "1fec3bd5-34fd-4d1b-9ade-951a6683ec57",
+    "id": "d27d2301-a890-4f65-b62d-8f8ad3abfd68",
     "name": "PND1614",
     "lat": 31.89789,
     "lng": 73.27295,
@@ -18984,10 +18984,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101743
+    "createdAt": 1786860943031
   },
   {
-    "id": "dca8c6f4-80ed-41bd-aecf-ecccec10d842",
+    "id": "0fcaf150-2bba-4828-948d-d538bb9b9790",
     "name": "PND3233",
     "lat": 32.30399,
     "lng": 73.7518,
@@ -19012,10 +19012,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101743
+    "createdAt": 1786860943031
   },
   {
-    "id": "8f3c67f5-825d-4282-b541-39b7395d7b08",
+    "id": "4016017b-eb47-474d-9cd8-a47c009f2c65",
     "name": "PND3552",
     "lat": 31.886486,
     "lng": 73.377543,
@@ -19040,10 +19040,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101743
+    "createdAt": 1786860943031
   },
   {
-    "id": "118ff040-e109-4734-957a-245de3317505",
+    "id": "b5dcc403-6a55-4bae-99bf-2f1fb7f6c221",
     "name": "PND9859",
     "lat": 31.8996,
     "lng": 73.2678,
@@ -19068,10 +19068,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101743
+    "createdAt": 1786860943032
   },
   {
-    "id": "f0eec818-7dc3-466f-839c-05e31295a196",
+    "id": "1662407e-f80a-4039-bd14-7eeedd77fd52",
     "name": "QDS4170",
     "lat": 32.13,
     "lng": 74.0034,
@@ -19096,10 +19096,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101743
+    "createdAt": 1786860943032
   },
   {
-    "id": "c5a5233d-b7ec-4c1c-8607-059bfbf6e266",
+    "id": "9716d2fd-dc05-491b-a472-d27b214a012c",
     "name": "QDS8933",
     "lat": 32.1326,
     "lng": 74.0107,
@@ -19124,10 +19124,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101743
+    "createdAt": 1786860943032
   },
   {
-    "id": "08fd8992-9ec1-4a57-bf49-7b79fcb2edc2",
+    "id": "48b89152-0d62-410f-a1f2-8724762481a3",
     "name": "QDS9513",
     "lat": 32.1291,
     "lng": 74.0141,
@@ -19152,10 +19152,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101743
+    "createdAt": 1786860943032
   },
   {
-    "id": "7ec2018b-dd14-498e-9c9c-88466bbb9e14",
+    "id": "a8f18dff-e8d0-44f9-84b6-15c45e6f6122",
     "name": "QDS9514",
     "lat": 32.134,
     "lng": 74.0201,
@@ -19180,10 +19180,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101743
+    "createdAt": 1786860943033
   },
   {
-    "id": "022228f4-e475-46ad-9348-03d1245f55e8",
+    "id": "e169cfd8-f8dd-4745-864d-8afe18193a5c",
     "name": "QDS9645",
     "lat": 32.1392,
     "lng": 74.0141,
@@ -19208,10 +19208,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101743
+    "createdAt": 1786860943033
   },
   {
-    "id": "4b25f1aa-9b0f-415a-bf8a-29e5796f130f",
+    "id": "171a9f34-3024-4f56-9a61-8fb28166e034",
     "name": "QMS9702",
     "lat": 31.9854,
     "lng": 73.8637,
@@ -19236,10 +19236,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101743
+    "createdAt": 1786860943033
   },
   {
-    "id": "acf0c46c-32a2-4b6b-a062-2d77d9cff4b1",
+    "id": "d9e73016-d4c2-4a00-86ca-6b341b8330ae",
     "name": "QMS9703",
     "lat": 32.0063,
     "lng": 73.8413,
@@ -19264,10 +19264,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101743
+    "createdAt": 1786860943033
   },
   {
-    "id": "c449d973-2992-478e-b845-3d39d6166d2c",
+    "id": "7b2cb45f-24c3-4140-85c0-b7932765a22d",
     "name": "QMS9704",
     "lat": 31.9841,
     "lng": 73.7918,
@@ -19292,10 +19292,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101743
+    "createdAt": 1786860943034
   },
   {
-    "id": "d97fd72d-0595-44d4-b371-08c64ec3901a",
+    "id": "84fa0fc6-3ec4-4882-b5fe-ea39b7085b79",
     "name": "QMZ1528",
     "lat": 31.7852,
     "lng": 73.6,
@@ -19320,10 +19320,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101743
+    "createdAt": 1786860943034
   },
   {
-    "id": "4618f420-e71e-48e4-8378-dbbb11fad6ff",
+    "id": "f997fe9b-fc65-48a6-94e3-5eb6ad0d8d1f",
     "name": "QMZ1531",
     "lat": 31.8039,
     "lng": 73.5605,
@@ -19348,10 +19348,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101743
+    "createdAt": 1786860943034
   },
   {
-    "id": "87520dee-cb49-4488-b53b-0e4d8f322605",
+    "id": "9127545a-76a0-4172-abdb-f2df982966ae",
     "name": "RGA9706",
     "lat": 32.06605,
     "lng": 74.047083,
@@ -19376,10 +19376,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101743
+    "createdAt": 1786860943034
   },
   {
-    "id": "da71aa9d-aba9-40bc-84b9-742efb95a9b9",
+    "id": "46a890be-2b30-4802-a45f-6832ccd94b29",
     "name": "RGA9707",
     "lat": 32.046487,
     "lng": 74.056044,
@@ -19404,10 +19404,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101743
+    "createdAt": 1786860943034
   },
   {
-    "id": "4716d767-ddb5-4425-9c85-4b6cdc1e1f3c",
+    "id": "bcba94e4-f07d-4ff9-8864-bc64c0d1a466",
     "name": "RTR1365",
     "lat": 32.0588,
     "lng": 73.4545,
@@ -19432,10 +19432,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101743
+    "createdAt": 1786860943035
   },
   {
-    "id": "3eb453d4-ea0c-4db9-b8bc-aafbe8ae80f4",
+    "id": "6c57853b-61b7-4310-99fa-bcada012d87b",
     "name": "RUR0178",
     "lat": 32.12233,
     "lng": 74.126496,
@@ -19460,10 +19460,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101743
+    "createdAt": 1786860943035
   },
   {
-    "id": "20fea642-b4d9-4d5e-917f-b81ed6df3397",
+    "id": "7a5a4676-7ca3-430d-9f6d-3ece78834547",
     "name": "RUR0433",
     "lat": 32.0643,
     "lng": 74.1497,
@@ -19488,10 +19488,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101743
+    "createdAt": 1786860943035
   },
   {
-    "id": "eff30b37-b46c-484b-b6ce-d6c8197a792f",
+    "id": "e9be853b-9673-4079-9fb4-15b5df31c274",
     "name": "RUR0434",
     "lat": 31.8766,
     "lng": 73.4681,
@@ -19516,10 +19516,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101743
+    "createdAt": 1786860943035
   },
   {
-    "id": "a1a5bab3-30d8-46cc-bb91-ffcc80819ecf",
+    "id": "0611d4a9-2231-4f3c-9e88-845e74af8998",
     "name": "RUR0716",
     "lat": 32.184778,
     "lng": 73.665531,
@@ -19544,10 +19544,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101743
+    "createdAt": 1786860943035
   },
   {
-    "id": "e1997718-1982-4412-a98e-4c05350a4a21",
+    "id": "82ea1073-c4f1-461e-b9a0-8ecd467d387f",
     "name": "RUR0719",
     "lat": 32.295,
     "lng": 73.6811,
@@ -19572,10 +19572,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101743
+    "createdAt": 1786860943036
   },
   {
-    "id": "27b24289-1b2c-4942-9ef3-7e059f733491",
+    "id": "2df220f5-1d46-49c4-942d-2415bf863ac1",
     "name": "RUR0739",
     "lat": 31.945,
     "lng": 73.5355,
@@ -19600,10 +19600,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101743
+    "createdAt": 1786860943036
   },
   {
-    "id": "3bc8e99b-4b4f-4c8d-bc45-fffe7dbb4bcc",
+    "id": "fd1d0c17-a1d2-4d09-9a9a-13bad913c90d",
     "name": "RUR0741",
     "lat": 32.1426,
     "lng": 73.416,
@@ -19628,10 +19628,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101743
+    "createdAt": 1786860943036
   },
   {
-    "id": "c0b50ed1-716d-4719-8864-a4f575fae0e5",
+    "id": "1dd9e8f4-0c78-4567-85e2-5536867535a5",
     "name": "RUR0742",
     "lat": 32.0275,
     "lng": 73.5642,
@@ -19656,10 +19656,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101743
+    "createdAt": 1786860943036
   },
   {
-    "id": "5cc37e6b-785c-4625-9a65-1cc7cbbcad5a",
+    "id": "0e083c2b-533c-4ae3-b6d0-f7eb2e9b1757",
     "name": "RUR0780",
     "lat": 31.908248,
     "lng": 74.03066,
@@ -19684,10 +19684,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101743
+    "createdAt": 1786860943037
   },
   {
-    "id": "77c5fb01-85bb-4256-ae60-5a7f94c6bb45",
+    "id": "d139ef52-894f-46a7-b47c-8857f70cee2d",
     "name": "RUR0786",
     "lat": 31.9387,
     "lng": 73.9962,
@@ -19712,10 +19712,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101743
+    "createdAt": 1786860943037
   },
   {
-    "id": "84dee7be-639d-41b8-9750-3338dae8efbc",
+    "id": "ef0d2662-565f-4767-9cf8-cf5f9cf443f9",
     "name": "RUR0803",
     "lat": 31.92031,
     "lng": 73.94405,
@@ -19740,10 +19740,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101743
+    "createdAt": 1786860943037
   },
   {
-    "id": "83fc6ce3-2f34-4080-ac73-495e05470a74",
+    "id": "3a7c8c16-a80a-4cad-a2e1-29a89c535b3e",
     "name": "RUR0807",
     "lat": 32.0217,
     "lng": 73.6914,
@@ -19768,10 +19768,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101743
+    "createdAt": 1786860943038
   },
   {
-    "id": "dcfa7527-0443-4d73-b4fb-f65965a174b0",
+    "id": "66d3084b-bf78-400f-b888-0982bc52f8f7",
     "name": "RUR1061",
     "lat": 32.0613,
     "lng": 73.7959,
@@ -19796,10 +19796,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101743
+    "createdAt": 1786860943038
   },
   {
-    "id": "04faa6a2-b781-4a81-9186-151ee2243bdb",
+    "id": "c9980db3-f194-4828-b4a8-f475d087ce25",
     "name": "RUR3107",
     "lat": 32.19808,
     "lng": 74.08289,
@@ -19824,10 +19824,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101744
+    "createdAt": 1786860943038
   },
   {
-    "id": "37f26037-9583-4b78-854c-bd4fd509b55e",
+    "id": "3b18460a-9362-445d-a0a4-a51c6f679912",
     "name": "RUR3529",
     "lat": 32.2552,
     "lng": 73.7149,
@@ -19852,10 +19852,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101744
+    "createdAt": 1786860943038
   },
   {
-    "id": "4b5216a3-d58b-4ccb-87e7-698a719a5ed7",
+    "id": "5bc00812-352e-44b4-8e77-bb82dc453ceb",
     "name": "RUR3536",
     "lat": 32.017577,
     "lng": 74.029253,
@@ -19880,10 +19880,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101744
+    "createdAt": 1786860943039
   },
   {
-    "id": "3af875a7-32a2-4a02-ba2c-744f4f4260a6",
+    "id": "8eb482a5-9e12-49f1-bd08-40bc7c0638d3",
     "name": "RUR3737",
     "lat": 32.219485,
     "lng": 74.089635,
@@ -19908,10 +19908,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101744
+    "createdAt": 1786860943041
   },
   {
-    "id": "af1fbde1-cb56-4d2f-9219-d20339679524",
+    "id": "e7269aff-780e-4037-8208-39aeb1b441ba",
     "name": "RUR4449",
     "lat": 31.9777,
     "lng": 73.3175,
@@ -19936,10 +19936,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101744
+    "createdAt": 1786860943042
   },
   {
-    "id": "5f585292-3efe-43ee-9e23-60b6ddac1dc0",
+    "id": "1179287a-3b7a-4348-86dd-6328821684b8",
     "name": "RUR4481",
     "lat": 32.217258,
     "lng": 73.58429,
@@ -19964,10 +19964,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101744
+    "createdAt": 1786860943042
   },
   {
-    "id": "40e7ce68-b700-4a70-b91f-71baa9a3d010",
+    "id": "9d8839ec-2361-49dc-925e-3057ccba1445",
     "name": "RUR4482",
     "lat": 31.9775,
     "lng": 73.6027,
@@ -19992,10 +19992,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101744
+    "createdAt": 1786860943042
   },
   {
-    "id": "009e0350-406e-48c9-a4e7-20f16ab22624",
+    "id": "4ba9dec8-aa4d-4a4c-8ee8-c439f13f4a85",
     "name": "RUR4663",
     "lat": 32.1495,
     "lng": 74.0868,
@@ -20020,10 +20020,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101744
+    "createdAt": 1786860943042
   },
   {
-    "id": "cea37e0b-a55b-4a01-90ea-546b3b45d93f",
+    "id": "86ae1208-ebd4-488b-a19e-c1fe181bbad2",
     "name": "RUR4794",
     "lat": 32.08881,
     "lng": 73.78769,
@@ -20048,10 +20048,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101744
+    "createdAt": 1786860943042
   },
   {
-    "id": "bef563a9-2eed-4ea0-a1e1-902bd733f0d9",
+    "id": "8c93c41e-9be7-426f-9b72-a593c1cb18f8",
     "name": "RUR4795",
     "lat": 32.0148,
     "lng": 73.9135,
@@ -20076,10 +20076,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101744
+    "createdAt": 1786860943043
   },
   {
-    "id": "4c31d45a-3168-44f7-9a03-cb665eb8029e",
+    "id": "5f0f2dec-be62-450e-a468-6f39915f05ef",
     "name": "RUR5871",
     "lat": 32.24302,
     "lng": 73.54071,
@@ -20104,10 +20104,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101744
+    "createdAt": 1786860943043
   },
   {
-    "id": "dde26c88-4176-4b17-ac16-81aab954dd79",
+    "id": "1f298db0-062d-4710-80a3-5661757d8cd4",
     "name": "RUR5933",
     "lat": 32.0442,
     "lng": 73.9161,
@@ -20132,10 +20132,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101744
+    "createdAt": 1786860943043
   },
   {
-    "id": "38d6e351-47cc-435a-ab57-299e4401a0bc",
+    "id": "b99b6753-051b-43dd-bfc8-8982ac9478b9",
     "name": "RUR5942",
     "lat": 31.9929,
     "lng": 74.1354,
@@ -20160,10 +20160,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101744
+    "createdAt": 1786860943043
   },
   {
-    "id": "adfc61cd-327e-43c9-b060-7fe0b789b18d",
+    "id": "6f30aacc-0bdb-46f2-9d50-fe6e65f95c93",
     "name": "RUR8085",
     "lat": 31.9948,
     "lng": 73.3314,
@@ -20188,10 +20188,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101744
+    "createdAt": 1786860943043
   },
   {
-    "id": "7488c40e-a137-44ec-b7f9-14862f453db2",
+    "id": "ee3c7c14-d7fe-49cc-9072-d662b579ae6e",
     "name": "RUR8091",
     "lat": 32.1703,
     "lng": 74.0647,
@@ -20216,10 +20216,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101744
+    "createdAt": 1786860943044
   },
   {
-    "id": "c8b2da57-909c-482c-9839-5b7477b8b7c3",
+    "id": "172be811-b06f-4db1-ac28-be585f808158",
     "name": "RUR8109",
     "lat": 31.8548,
     "lng": 73.2201,
@@ -20244,10 +20244,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101744
+    "createdAt": 1786860943044
   },
   {
-    "id": "237d1ca1-881e-47a9-b5dd-1c9355fdbe4e",
+    "id": "8b3ddf84-4678-4734-b245-0fd6259c575e",
     "name": "RUR8805",
     "lat": 32.10119,
     "lng": 74.072,
@@ -20272,10 +20272,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101744
+    "createdAt": 1786860943044
   },
   {
-    "id": "51139b20-d6ae-4f29-9d56-aaccd71a4a94",
+    "id": "afc538ec-001c-400b-9378-fa22c8b92bfd",
     "name": "RUR8815",
     "lat": 31.8729,
     "lng": 73.9587,
@@ -20300,10 +20300,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101744
+    "createdAt": 1786860943044
   },
   {
-    "id": "978ee406-9a8a-4ad0-ad0e-4fed8c6c3e18",
+    "id": "d067115f-e5ef-4692-a989-a5bc8ea66de8",
     "name": "RUR8824",
     "lat": 32.1549,
     "lng": 74.11572,
@@ -20328,10 +20328,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101744
+    "createdAt": 1786860943044
   },
   {
-    "id": "7fe09934-682d-4917-8ba8-44c6108442e6",
+    "id": "db896e5e-7f22-4a5c-9c75-a6bdcd6b6422",
     "name": "RUR8835",
     "lat": 32.169135,
     "lng": 73.80492,
@@ -20356,10 +20356,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101744
+    "createdAt": 1786860943044
   },
   {
-    "id": "936fcb3b-b055-4379-a4fc-56010f5ebbfa",
+    "id": "c84f1180-8ab1-42ac-b960-cab0e5627d13",
     "name": "RUR8836",
     "lat": 32.1806,
     "lng": 73.9743,
@@ -20384,10 +20384,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101744
+    "createdAt": 1786860943045
   },
   {
-    "id": "67011bc9-d067-4fe6-806e-374616be9274",
+    "id": "677b915a-5978-4d56-9d2f-422d94561bf3",
     "name": "RUR8863",
     "lat": 32.119931,
     "lng": 73.689216,
@@ -20412,10 +20412,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101744
+    "createdAt": 1786860943045
   },
   {
-    "id": "56f45f4d-cd36-4811-b888-7b9c1031faca",
+    "id": "2c5c7732-7c9e-4f4d-95a3-9959ff286329",
     "name": "RUR8864",
     "lat": 32.0756,
     "lng": 73.7336,
@@ -20440,10 +20440,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101744
+    "createdAt": 1786860943045
   },
   {
-    "id": "97ba6e92-2ef6-4455-a6c7-52bb6b265027",
+    "id": "ba07bb39-e093-4518-9a8d-09b3ff260c62",
     "name": "RUR8874",
     "lat": 32.2834,
     "lng": 73.7528,
@@ -20468,10 +20468,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101744
+    "createdAt": 1786860943045
   },
   {
-    "id": "0f3f9805-87ae-40bb-b1f3-eee051159311",
+    "id": "9c1ec0c7-1336-43cf-9bbd-263978ebcec6",
     "name": "RUR9392",
     "lat": 32.1326,
     "lng": 73.7209,
@@ -20496,10 +20496,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101744
+    "createdAt": 1786860943045
   },
   {
-    "id": "c8445b2b-8d32-4a19-82f7-6f179c8bb7ab",
+    "id": "7e9c668d-8fe4-4552-b48c-5ff0d06f6edd",
     "name": "RUR9486",
     "lat": 32.255,
     "lng": 73.9018,
@@ -20524,10 +20524,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101744
+    "createdAt": 1786860943045
   },
   {
-    "id": "619add85-56c6-4cae-b601-c4b3d67b6682",
+    "id": "ad9c7d24-154f-4505-8850-fafbad0b1887",
     "name": "RUR9487",
     "lat": 32.247745,
     "lng": 73.648456,
@@ -20552,10 +20552,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101744
+    "createdAt": 1786860943046
   },
   {
-    "id": "bd1e16d8-f2ed-473b-843c-b40b23a2ef0c",
+    "id": "898a05b6-e9af-4203-ae9a-214c2c05d0d2",
     "name": "RUR9490",
     "lat": 32.215923,
     "lng": 73.775856,
@@ -20580,10 +20580,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101744
+    "createdAt": 1786860943046
   },
   {
-    "id": "96c22bc5-e9b7-4760-95f6-dddb2a6fc5b7",
+    "id": "362b7e66-5ec0-40fd-bbe6-80aa10e4f1e4",
     "name": "RUR9493",
     "lat": 32.1117,
     "lng": 73.9247,
@@ -20608,10 +20608,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101744
+    "createdAt": 1786860943046
   },
   {
-    "id": "b9b35fb6-9d00-4126-9b9e-c9971606be1b",
+    "id": "33934d67-3c7f-4ef1-9dea-5d208cfb0d6c",
     "name": "RUR9494",
     "lat": 32.1424,
     "lng": 73.6346,
@@ -20636,10 +20636,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101744
+    "createdAt": 1786860943046
   },
   {
-    "id": "2d66ac49-c9ac-40d8-bdb3-aeea6b808d4a",
+    "id": "b1361db9-31fd-489e-aa5e-96861d495978",
     "name": "RUR9496",
     "lat": 32.323467,
     "lng": 73.782523,
@@ -20664,10 +20664,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101744
+    "createdAt": 1786860943047
   },
   {
-    "id": "47838d97-4164-48b7-98ba-c53414f9061c",
+    "id": "44f50483-2938-4385-9474-4e1f33d8563d",
     "name": "RUR9498",
     "lat": 32.103,
     "lng": 73.863,
@@ -20692,10 +20692,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101744
+    "createdAt": 1786860943047
   },
   {
-    "id": "6f808e44-64fc-4f8d-991f-88eb584309c9",
+    "id": "863bdf77-a84b-4131-83af-8d2382910901",
     "name": "RUR9501",
     "lat": 32.2425,
     "lng": 74.0211,
@@ -20720,10 +20720,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101744
+    "createdAt": 1786860943047
   },
   {
-    "id": "6c727ac9-cb72-44ce-8bdc-0ec0b7daa31e",
+    "id": "cfcc4f6d-83aa-4dc5-95da-8f34c2982fa9",
     "name": "RUR9503",
     "lat": 32.1088,
     "lng": 73.4252,
@@ -20748,10 +20748,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101744
+    "createdAt": 1786860943048
   },
   {
-    "id": "f228a0d9-e3aa-4866-ad13-7f742d1c3e38",
+    "id": "efbc2d57-b942-42a9-94ef-fe19fbab1c4b",
     "name": "RUR9992",
     "lat": 32.1566,
     "lng": 74.1231,
@@ -20776,10 +20776,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "DG",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101744
+    "createdAt": 1786860943048
   },
   {
-    "id": "3bcace95-27f1-4be4-afc9-122520df6bfe",
+    "id": "81ca15b9-5df1-4c09-a397-2e45cb3875b7",
     "name": "SCK9899",
     "lat": 32.189695,
     "lng": 73.843056,
@@ -20804,10 +20804,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101744
+    "createdAt": 1786860943048
   },
   {
-    "id": "9168ca31-46bd-4178-bfe8-8324f6013d80",
+    "id": "2d8f41e4-4d6c-48df-9e76-255804c335ef",
     "name": "SCK9900",
     "lat": 32.207431,
     "lng": 73.879419,
@@ -20832,10 +20832,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101744
+    "createdAt": 1786860943049
   },
   {
-    "id": "ff2b16c1-359f-46ff-aa4c-c88f6264b6f4",
+    "id": "0ed037d8-4271-4f36-b667-b2de4c2dfbaf",
     "name": "SCK9901",
     "lat": 32.14417,
     "lng": 73.894056,
@@ -20860,10 +20860,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101744
+    "createdAt": 1786860943050
   },
   {
-    "id": "d934f61b-2b19-4fe8-9a1c-2e9fc4ba216f",
+    "id": "1eb5f229-72e0-423e-a583-c55c073bde22",
     "name": "SKK3103",
     "lat": 31.8871,
     "lng": 73.5328,
@@ -20888,10 +20888,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101744
+    "createdAt": 1786860943050
   },
   {
-    "id": "4686ec99-f192-4bc4-848c-6c49fd4d6b28",
+    "id": "97400f45-1729-4aa6-a90f-b056560dd83e",
     "name": "SKK3610",
     "lat": 31.8624,
     "lng": 73.5179,
@@ -20916,10 +20916,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101744
+    "createdAt": 1786860943050
   },
   {
-    "id": "c8811d29-4a3d-4d86-a98c-12e7736f648c",
+    "id": "91f35ff4-7d0b-4343-9e56-46e2e6634868",
     "name": "SKK4727",
     "lat": 31.8647,
     "lng": 73.5068,
@@ -20944,10 +20944,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101744
+    "createdAt": 1786860943053
   },
   {
-    "id": "dfd51b1a-c124-40df-8551-715027a28849",
+    "id": "e5bac35b-5591-4613-bdab-8896fd89409c",
     "name": "HWY0478",
     "lat": 32.7685,
     "lng": 73.8997,
@@ -20972,10 +20972,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "CP",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101744
+    "createdAt": 1786860943053
   },
   {
-    "id": "b9f313e7-2b99-47c3-a69b-5e289966b6ba",
+    "id": "88cbc7c4-e4b7-4d21-9aab-07858f602c70",
     "name": "DAD6974",
     "lat": 32.3886,
     "lng": 73.5365,
@@ -21000,10 +21000,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101744
+    "createdAt": 1786860943054
   },
   {
-    "id": "6e03c751-c066-4264-a6e8-6257973a9676",
+    "id": "59f0807d-8161-4ba8-92f6-5670c60d6259",
     "name": "MLL3801",
     "lat": 32.5349,
     "lng": 73.0736,
@@ -21028,10 +21028,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101744
+    "createdAt": 1786860943054
   },
   {
-    "id": "1388de7d-0b8a-4f78-8f53-5ccc3710f398",
+    "id": "a6262e95-10aa-4089-9701-e3a8e4f7e76f",
     "name": "NKW6941",
     "lat": 32.3428,
     "lng": 73.299,
@@ -21056,10 +21056,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101744
+    "createdAt": 1786860943054
   },
   {
-    "id": "ccbb9d04-b172-4b9a-8659-c3d8cc95ea60",
+    "id": "6fbf6feb-7dbf-4f14-80f1-524d67bf3a5e",
     "name": "RUR0505",
     "lat": 32.4351,
     "lng": 73.6462,
@@ -21084,10 +21084,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101745
+    "createdAt": 1786860943054
   },
   {
-    "id": "9369cf4d-d08e-473e-8a2a-01c80f55ae0b",
+    "id": "14a97ed3-67f1-4311-87f3-427a84774ba8",
     "name": "RUR0506",
     "lat": 32.6102,
     "lng": 73.6927,
@@ -21112,10 +21112,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101745
+    "createdAt": 1786860943054
   },
   {
-    "id": "ae5dff9e-ed0a-4e82-8671-3dccf947d872",
+    "id": "ab2f2968-24d1-498b-9180-c436ffce2a5e",
     "name": "RUR0732",
     "lat": 32.3869,
     "lng": 73.616,
@@ -21140,10 +21140,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101745
+    "createdAt": 1786860943055
   },
   {
-    "id": "afe4aa7f-843e-4e76-9852-78d10a5819cf",
+    "id": "e98a16b0-75a8-47db-9241-2692949cdf48",
     "name": "RUR0748",
     "lat": 32.5428,
     "lng": 73.4779,
@@ -21168,10 +21168,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101745
+    "createdAt": 1786860943055
   },
   {
-    "id": "79810f68-8a63-4808-9093-a5815dc14ed8",
+    "id": "71bafe3e-a3e7-491d-bd87-61b39054da92",
     "name": "AKD2954",
     "lat": 32.6681,
     "lng": 73.6582,
@@ -21196,10 +21196,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101745
+    "createdAt": 1786860943055
   },
   {
-    "id": "f5199667-3f24-450c-a16d-663773b1addb",
+    "id": "fe786e18-ae20-46a9-b132-b1c156048730",
     "name": "BGA6219",
     "lat": 32.5969,
     "lng": 73.4069,
@@ -21224,10 +21224,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "DG",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101745
+    "createdAt": 1786860943055
   },
   {
-    "id": "0c65c80a-f5ea-4efe-87b0-83fd29157ae5",
+    "id": "ad346339-9146-4417-8d14-336fd4408451",
     "name": "BGA6986",
     "lat": 32.5992,
     "lng": 73.3726,
@@ -21252,10 +21252,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101745
+    "createdAt": 1786860943055
   },
   {
-    "id": "559a9d26-0042-4bf1-83bc-73e2d7252fd1",
+    "id": "684f1190-eeaf-485c-aab9-2440a882ec7d",
     "name": "BGA6987",
     "lat": 32.6189,
     "lng": 73.4474,
@@ -21280,10 +21280,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101745
+    "createdAt": 1786860943056
   },
   {
-    "id": "a4df4fb1-e70a-4a27-a693-65e8aee6b7f9",
+    "id": "e2591cfe-8b2d-4d0d-be7c-2b677ba38d71",
     "name": "BGA6989",
     "lat": 32.56,
     "lng": 73.4227,
@@ -21308,10 +21308,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101745
+    "createdAt": 1786860943068
   },
   {
-    "id": "15135fd0-f2f4-433b-82e6-8a98dae7c3bc",
+    "id": "fb0b518d-67ec-4d37-ab91-c45e5f41edfa",
     "name": "BGL2205",
     "lat": 32.8324,
     "lng": 73.9339,
@@ -21336,10 +21336,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101745
+    "createdAt": 1786860943069
   },
   {
-    "id": "7d5d9227-629b-4481-8115-258a2c899196",
+    "id": "761c3b78-6209-4dcf-8e7f-0e3749309622",
     "name": "CML9907",
     "lat": 32.57722,
     "lng": 73.6326,
@@ -21364,10 +21364,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "DG",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101745
+    "createdAt": 1786860943069
   },
   {
-    "id": "92689837-312e-4f60-a29e-691750629b44",
+    "id": "ac95f901-2873-4c20-a7ef-174d4401f735",
     "name": "CML9909",
     "lat": 32.5488,
     "lng": 73.7097,
@@ -21392,10 +21392,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101745
+    "createdAt": 1786860943069
   },
   {
-    "id": "7d06026f-e475-41f1-8d59-ad900c680d20",
+    "id": "7ff747ac-c52e-4727-9f75-2f1fef38eb03",
     "name": "DIL2201",
     "lat": 32.8125,
     "lng": 74.0208,
@@ -21420,10 +21420,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101745
+    "createdAt": 1786860943069
   },
   {
-    "id": "e13ce071-476e-4d5d-bb42-689c58975800",
+    "id": "3d7c034d-9137-48d1-9edf-39bf2f7fcbbc",
     "name": "DNG3509",
     "lat": 32.6401,
     "lng": 73.7251,
@@ -21448,10 +21448,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101745
+    "createdAt": 1786860943069
   },
   {
-    "id": "6c8fe9af-37ee-4d91-89f6-1357589e92d8",
+    "id": "c5c3bac2-7f5a-4bd2-9156-ae7051b1880a",
     "name": "DNG3989",
     "lat": 32.6454,
     "lng": 73.7191,
@@ -21476,10 +21476,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101745
+    "createdAt": 1786860943070
   },
   {
-    "id": "b2ea810e-bb50-42bd-835b-38c4c462b792",
+    "id": "9e6053b5-7e2b-400d-a2c8-11c83df18903",
     "name": "DNG6228",
     "lat": 32.6362,
     "lng": 73.7208,
@@ -21504,10 +21504,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "DG",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101745
+    "createdAt": 1786860943070
   },
   {
-    "id": "85733301-844d-430f-b1a4-8ea45a0ff051",
+    "id": "4321979a-44a1-4421-8eb9-a3bda3903579",
     "name": "DNG6229",
     "lat": 32.6446,
     "lng": 73.7281,
@@ -21532,10 +21532,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101745
+    "createdAt": 1786860943070
   },
   {
-    "id": "2a25b857-1afe-4483-abd6-c5436d68eeff",
+    "id": "5d33ea76-4d64-4b9e-8ea2-9ce0fed3373a",
     "name": "DNG9646",
     "lat": 32.6387,
     "lng": 73.716,
@@ -21560,10 +21560,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101745
+    "createdAt": 1786860943070
   },
   {
-    "id": "9513a39a-d981-4e4d-bb89-2293c6fcb19f",
+    "id": "59229c98-10a2-4d10-887c-e3e0790c2873",
     "name": "FRP9896",
     "lat": 32.2662,
     "lng": 73.4408,
@@ -21588,10 +21588,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101745
+    "createdAt": 1786860943071
   },
   {
-    "id": "8287814e-10f8-41b9-8f38-b3c79df0fb0d",
+    "id": "f6abadc0-0e10-4241-8191-b78c789c935e",
     "name": "GJA6164",
     "lat": 32.4074,
     "lng": 73.3196,
@@ -21616,10 +21616,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101745
+    "createdAt": 1786860943071
   },
   {
-    "id": "7550ce11-f272-418e-aca6-231b771a2bb6",
+    "id": "0b97a8cf-5445-486d-8ad9-190eedd8428b",
     "name": "GJA8788",
     "lat": 32.4223,
     "lng": 73.2738,
@@ -21644,10 +21644,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101745
+    "createdAt": 1786860943071
   },
   {
-    "id": "9014f034-94e8-42ab-83c4-9c38551b6946",
+    "id": "bb466fb2-c18d-439d-9c15-667474a50303",
     "name": "GOW6983",
     "lat": 32.3658,
     "lng": 73.3819,
@@ -21672,10 +21672,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101745
+    "createdAt": 1786860943071
   },
   {
-    "id": "b888cc27-be1f-4044-b683-cc3e1b582442",
+    "id": "d7561ce0-68ef-4710-9d1d-e9272791401a",
     "name": "GOW6984",
     "lat": 32.3139,
     "lng": 73.4194,
@@ -21700,10 +21700,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101745
+    "createdAt": 1786860943071
   },
   {
-    "id": "1a75b288-22b9-40e3-866b-7a62e5e465da",
+    "id": "fab2615c-8a95-4b4d-b313-72dbc0b1cfe1",
     "name": "HFQ6172",
     "lat": 32.3826,
     "lng": 73.1117,
@@ -21728,10 +21728,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101745
+    "createdAt": 1786860943071
   },
   {
-    "id": "c8d59e27-2d74-4e2e-ab2d-baca1f68abd6",
+    "id": "1899ba6b-9d0f-4962-87e8-5b9a76f3befc",
     "name": "HFQ8540",
     "lat": 32.4879,
     "lng": 73.1806,
@@ -21756,10 +21756,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101745
+    "createdAt": 1786860943072
   },
   {
-    "id": "c5d82078-81d0-437c-9e83-61abd3c3f34f",
+    "id": "9b4c2911-3758-46a6-b5dd-6c0c559d27af",
     "name": "HFQ8541",
     "lat": 32.3349,
     "lng": 73.0867,
@@ -21784,10 +21784,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101745
+    "createdAt": 1786860943072
   },
   {
-    "id": "5e8d9c0a-3026-4afc-b75b-68f9bfd69053",
+    "id": "68dbd7cc-db52-4ac0-acef-4d60c74122bf",
     "name": "HWY1732",
     "lat": 32.8007,
     "lng": 73.9558,
@@ -21812,10 +21812,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101745
+    "createdAt": 1786860943072
   },
   {
-    "id": "9727792f-118d-4c3b-a680-e4641b176323",
+    "id": "0e9999a3-4b80-49ac-8521-dba0946f4a73",
     "name": "HWY3259",
     "lat": 32.5086,
     "lng": 72.9996,
@@ -21840,10 +21840,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101745
+    "createdAt": 1786860943072
   },
   {
-    "id": "bc6464ba-8e55-401f-b6ac-9c98270730b2",
+    "id": "9941cc26-9eaf-4ff8-8713-fe6bec979d32",
     "name": "KHJ6977",
     "lat": 32.4412,
     "lng": 73.8551,
@@ -21868,10 +21868,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101745
+    "createdAt": 1786860943072
   },
   {
-    "id": "714c963f-85d6-4fe7-ac4d-93f8c288dd51",
+    "id": "7510bcc1-2eba-469d-86a4-77603e79d3f4",
     "name": "KHJ6978",
     "lat": 32.4344,
     "lng": 73.8945,
@@ -21896,10 +21896,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101745
+    "createdAt": 1786860943073
   },
   {
-    "id": "3eb04493-cb5e-40ea-9fd8-768ef296587a",
+    "id": "6a70c2b2-b101-4a68-bb5c-acc8bf1ea4b6",
     "name": "KHJ6979",
     "lat": 32.4501,
     "lng": 73.9311,
@@ -21924,10 +21924,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101745
+    "createdAt": 1786860943073
   },
   {
-    "id": "5d585ca1-f308-416f-a53b-3c3f7ad09bc1",
+    "id": "deba17c8-811a-404b-a5a9-906f294529f1",
     "name": "KHR0006",
     "lat": 32.8093,
     "lng": 73.8828,
@@ -21952,10 +21952,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101745
+    "createdAt": 1786860943073
   },
   {
-    "id": "2a9048d4-0dfc-4c88-8367-ada8d8d58c20",
+    "id": "afeb8d85-c90a-4c11-aec2-553f8e38f6e1",
     "name": "KHR0035",
     "lat": 32.837,
     "lng": 73.8842,
@@ -21980,10 +21980,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101745
+    "createdAt": 1786860943073
   },
   {
-    "id": "2a06210d-e5f2-4642-90ac-c34b81327d5e",
+    "id": "6104821a-81e5-4bd8-bce4-f1e99a9bc4ef",
     "name": "KHR0196",
     "lat": 32.7874,
     "lng": 73.8844,
@@ -22008,10 +22008,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101745
+    "createdAt": 1786860943073
   },
   {
-    "id": "a679df1a-21d5-4f62-bf6f-72faa1d64f03",
+    "id": "0d531faa-791e-41c8-8f71-b59993a36ed6",
     "name": "KHR0242",
     "lat": 32.811,
     "lng": 73.8633,
@@ -22036,10 +22036,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101745
+    "createdAt": 1786860943073
   },
   {
-    "id": "adf53174-a2a9-495b-8ca1-82d03f3a3e3f",
+    "id": "2a4758e6-75e6-43ca-ba6e-06d1f73b0176",
     "name": "KHR0295",
     "lat": 32.8068,
     "lng": 73.869,
@@ -22064,10 +22064,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101745
+    "createdAt": 1786860943074
   },
   {
-    "id": "b4852c7d-fb4c-48ed-925c-cc988b825668",
+    "id": "6d5cf458-9427-45ea-a190-6d3732ed4a89",
     "name": "KHR0629",
     "lat": 32.8064,
     "lng": 73.9121,
@@ -22092,10 +22092,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101745
+    "createdAt": 1786860943074
   },
   {
-    "id": "d0f89687-6c31-45b0-ae73-4e466aced341",
+    "id": "53b44845-6f84-4d1c-959a-6700d5462329",
     "name": "KHR1399",
     "lat": 32.8162,
     "lng": 73.8602,
@@ -22120,10 +22120,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101745
+    "createdAt": 1786860943074
   },
   {
-    "id": "3b21c54f-9535-40e1-9a36-842aa87a5310",
+    "id": "a7f336c7-2951-4e7f-9f2d-b89b7c2e06c2",
     "name": "KHR1734",
     "lat": 32.8329,
     "lng": 73.8956,
@@ -22148,10 +22148,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101745
+    "createdAt": 1786860943074
   },
   {
-    "id": "c4528f22-4182-419f-af7f-0c202672b82c",
+    "id": "75065429-00ff-487b-b9ba-22149c3c7602",
     "name": "KHR1735",
     "lat": 32.8233,
     "lng": 73.8837,
@@ -22176,10 +22176,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101745
+    "createdAt": 1786860943074
   },
   {
-    "id": "0c884496-4961-4ca3-a4f4-ca4f8c2535ab",
+    "id": "fb649ae7-c2d4-49df-9194-f1561eb43922",
     "name": "KHR1736",
     "lat": 32.8254,
     "lng": 73.9065,
@@ -22204,10 +22204,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101745
+    "createdAt": 1786860943075
   },
   {
-    "id": "f70139c1-6cf7-4211-8003-70d038ea6c1a",
+    "id": "bd3139e1-bcde-47bd-b44e-d073119cd6f9",
     "name": "KHR1738",
     "lat": 32.7966,
     "lng": 73.8944,
@@ -22232,10 +22232,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101745
+    "createdAt": 1786860943075
   },
   {
-    "id": "68d8a409-c9c3-45f1-b001-8a605f4ccdc4",
+    "id": "751e494a-e226-4b03-8846-632d43ad5677",
     "name": "KHR2593",
     "lat": 32.8144,
     "lng": 73.8689,
@@ -22260,10 +22260,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101745
+    "createdAt": 1786860943075
   },
   {
-    "id": "f83d6b64-1af2-41ac-af81-997e2c50b61a",
+    "id": "0a38c105-ac9e-43c3-a39d-a8a5839eac4e",
     "name": "KHR2637",
     "lat": 32.8318,
     "lng": 73.8638,
@@ -22288,10 +22288,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DG",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101746
+    "createdAt": 1786860943076
   },
   {
-    "id": "dd08aeac-aa09-4f07-b777-1b24e3317211",
+    "id": "ba62ad89-f63d-45c5-92dc-a5e957698420",
     "name": "KHZ6976",
     "lat": 32.4427,
     "lng": 73.1193,
@@ -22316,10 +22316,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101746
+    "createdAt": 1786860943076
   },
   {
-    "id": "9c881985-439c-40f7-b29b-8f632959454b",
+    "id": "9d05ccb2-382e-448a-ac74-2c087689f9dd",
     "name": "MBN3782",
     "lat": 32.5901,
     "lng": 73.483,
@@ -22344,10 +22344,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101746
+    "createdAt": 1786860943076
   },
   {
-    "id": "2425cff9-b4f3-45c1-9bfe-3f01f2481fba",
+    "id": "ab5c84c4-d1da-4185-b90a-2cd115418a87",
     "name": "MBN4532",
     "lat": 32.5943,
     "lng": 73.4951,
@@ -22372,10 +22372,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101746
+    "createdAt": 1786860943076
   },
   {
-    "id": "63d54476-e442-41af-baee-ee0f92a11445",
+    "id": "8fa19bee-4624-4f99-b67c-69e78de94d3a",
     "name": "MBN6230",
     "lat": 32.5864,
     "lng": 73.4776,
@@ -22400,10 +22400,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101746
+    "createdAt": 1786860943076
   },
   {
-    "id": "feb25888-cc1d-4a95-a92b-4a97923ccd08",
+    "id": "de8df8aa-2ae2-49e1-bfe8-7a7784746c27",
     "name": "MBN6231",
     "lat": 32.5991,
     "lng": 73.4964,
@@ -22428,10 +22428,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101746
+    "createdAt": 1786860943077
   },
   {
-    "id": "73160467-c173-41a8-a2fc-f1a3280508f5",
+    "id": "87ac4613-645c-4230-8411-2c73ecdb20cd",
     "name": "MBN6232",
     "lat": 32.5924,
     "lng": 73.4884,
@@ -22456,10 +22456,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "DG",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101746
+    "createdAt": 1786860943077
   },
   {
-    "id": "616a6408-ab14-4535-a118-c2756863403a",
+    "id": "7d6c5a1e-47e4-49ae-b7d8-315e7ff0e90b",
     "name": "MBN6233",
     "lat": 32.5835,
     "lng": 73.4882,
@@ -22484,10 +22484,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101746
+    "createdAt": 1786860943077
   },
   {
-    "id": "47272f7b-2862-4b51-95f5-8e0d8369b55c",
+    "id": "16fc6356-1e11-4375-a213-34c6e138b0b1",
     "name": "MBN6918",
     "lat": 32.5874,
     "lng": 73.4978,
@@ -22512,10 +22512,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101746
+    "createdAt": 1786860943078
   },
   {
-    "id": "8006973d-977b-42d7-9f87-13ace5481b7d",
+    "id": "b5409d09-701d-440b-a6af-63eb280cbd66",
     "name": "MBN8840",
     "lat": 32.5782,
     "lng": 73.4954,
@@ -22540,10 +22540,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "DG",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101746
+    "createdAt": 1786860943078
   },
   {
-    "id": "b3f05f39-a973-4439-ad4f-a16e09ab7350",
+    "id": "1f67f081-2517-4869-aca6-45ee931b142f",
     "name": "MBN9681",
     "lat": 32.5879,
     "lng": 73.4923,
@@ -22568,10 +22568,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101746
+    "createdAt": 1786860943081
   },
   {
-    "id": "b1a3c067-a5d4-4b7a-9500-ba1477726635",
+    "id": "b4a444d4-fe90-4f4d-a251-26467f2c217d",
     "name": "MBN9682",
     "lat": 32.5817,
     "lng": 73.4826,
@@ -22596,10 +22596,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101746
+    "createdAt": 1786860943081
   },
   {
-    "id": "3f1b3a20-56cc-4033-89ed-1e394268a2f5",
+    "id": "d59cb0f7-712f-43c5-8058-7cec64affe44",
     "name": "MBN9802",
     "lat": 32.5902,
     "lng": 73.5054,
@@ -22624,10 +22624,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101746
+    "createdAt": 1786860943082
   },
   {
-    "id": "c766b875-83d0-4204-b57b-7132b4334c55",
+    "id": "fbf5ff4b-6664-41f4-b455-08f29684c2c9",
     "name": "MBN9844",
     "lat": 32.5778,
     "lng": 73.4849,
@@ -22652,10 +22652,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DG",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101746
+    "createdAt": 1786860943083
   },
   {
-    "id": "82285088-6e6e-4d42-8099-13d90743d40d",
+    "id": "df5b1f75-a33d-415a-b54e-2307c35409d4",
     "name": "MCK6200",
     "lat": 32.4389,
     "lng": 73.6807,
@@ -22680,10 +22680,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101746
+    "createdAt": 1786860943083
   },
   {
-    "id": "55878c57-a23c-4f09-ad89-13aa4ed31f5f",
+    "id": "a956959c-8ccf-4a2d-ad0a-74746762e997",
     "name": "MCK8972",
     "lat": 32.391,
     "lng": 73.7335,
@@ -22708,10 +22708,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101746
+    "createdAt": 1786860943083
   },
   {
-    "id": "e07af2e7-ef1a-44b6-a800-1659a0c5cef0",
+    "id": "d9d6d166-d05a-4088-804d-50a2774e226a",
     "name": "MIR2208",
     "lat": 32.7371,
     "lng": 73.7086,
@@ -22736,10 +22736,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101746
+    "createdAt": 1786860943083
   },
   {
-    "id": "1fbb0039-d155-4862-bc70-1279197636c5",
+    "id": "85c073a8-e19e-4eed-ade5-50eac0380b2d",
     "name": "MIR2209",
     "lat": 32.7694,
     "lng": 73.7606,
@@ -22764,10 +22764,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101746
+    "createdAt": 1786860943083
   },
   {
-    "id": "29505084-4ed3-40c1-b963-6e75878a7bf8",
+    "id": "d7f3e5b5-bbb9-4682-883b-11c08b565eab",
     "name": "MIR2210",
     "lat": 32.738,
     "lng": 73.7785,
@@ -22792,10 +22792,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101746
+    "createdAt": 1786860943084
   },
   {
-    "id": "3b410f18-1c0c-4508-a5ab-07695b579cf3",
+    "id": "5470e9a0-e512-45ba-8cb5-8f1e3593ec06",
     "name": "MIR2211",
     "lat": 32.72549,
     "lng": 73.74668,
@@ -22820,10 +22820,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101746
+    "createdAt": 1786860943084
   },
   {
-    "id": "6a9081f8-bdd1-484f-96f4-00663ab7bb16",
+    "id": "a9491c18-55c9-4dff-abe9-f5ce0f16b096",
     "name": "MLL3347",
     "lat": 32.554,
     "lng": 73.2214,
@@ -22848,10 +22848,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101746
+    "createdAt": 1786860943084
   },
   {
-    "id": "ac6b246f-fd03-4537-882d-3f3b2761ccae",
+    "id": "75bf721e-dbbf-4cd9-902c-d5eca6043ab4",
     "name": "MLL4167",
     "lat": 32.5506,
     "lng": 73.2009,
@@ -22876,10 +22876,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101746
+    "createdAt": 1786860943084
   },
   {
-    "id": "61f13d75-e400-4b3a-ae2d-8927a8a216cd",
+    "id": "76ea847e-6a4b-4003-98aa-695e0cd23603",
     "name": "MLL8787",
     "lat": 32.5558,
     "lng": 73.2069,
@@ -22904,10 +22904,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101746
+    "createdAt": 1786860943084
   },
   {
-    "id": "7b4df051-b22d-477d-996c-1540004b4cda",
+    "id": "b2cf39e3-a050-47a1-a416-b40f935997eb",
     "name": "MLL8916",
     "lat": 32.5268,
     "lng": 73.0742,
@@ -22932,10 +22932,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101746
+    "createdAt": 1786860943085
   },
   {
-    "id": "9a53814c-66b4-400e-80ea-36d5b220ed6e",
+    "id": "ad92bf3a-8eb2-4a8e-a39d-040bc2ff5898",
     "name": "MUS9610",
     "lat": 32.2471,
     "lng": 73.2739,
@@ -22960,10 +22960,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101746
+    "createdAt": 1786860943085
   },
   {
-    "id": "6bd06160-020c-4c56-8a65-68cea0ef40d0",
+    "id": "0b8d01c6-05d9-4eeb-9720-132d54d0c18a",
     "name": "MUS9612",
     "lat": 32.2077,
     "lng": 73.2675,
@@ -22988,10 +22988,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101746
+    "createdAt": 1786860943085
   },
   {
-    "id": "d21c8b67-faaf-40de-8bce-d752b67b1c3c",
+    "id": "a877d978-96eb-40a1-aded-b16659fefc52",
     "name": "NKW6994",
     "lat": 32.3354,
     "lng": 73.2614,
@@ -23016,10 +23016,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101746
+    "createdAt": 1786860943085
   },
   {
-    "id": "552f6a5b-8c3a-49f1-9b03-613474424a1c",
+    "id": "89c9e016-d1a0-4f3c-8054-dcdb9fe48166",
     "name": "PHA6218",
     "lat": 32.4319,
     "lng": 73.5741,
@@ -23044,10 +23044,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DG",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101746
+    "createdAt": 1786860943085
   },
   {
-    "id": "168f4343-4990-4f07-9a48-b24193c89f35",
+    "id": "a45087dd-be9c-4872-9598-9973e9339462",
     "name": "PPW3211",
     "lat": 32.4724,
     "lng": 73.8148,
@@ -23072,10 +23072,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101746
+    "createdAt": 1786860943086
   },
   {
-    "id": "d5cc15e0-afff-4fb1-b365-0d6845314715",
+    "id": "fd105daa-20ee-4c50-8c8c-de16a9028988",
     "name": "PPW3212",
     "lat": 32.5035,
     "lng": 73.8056,
@@ -23100,10 +23100,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101746
+    "createdAt": 1786860943086
   },
   {
-    "id": "a2f2483f-8091-4842-ac36-2a06871a43ed",
+    "id": "238b331a-013e-4971-b0ba-37e1e7e2d2e5",
     "name": "RUR0180",
     "lat": 32.5133,
     "lng": 73.5023,
@@ -23128,10 +23128,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101746
+    "createdAt": 1786860943086
   },
   {
-    "id": "04293a9a-a247-43fc-a27b-91ba403bb8cc",
+    "id": "b0704676-e5df-4e21-b68e-a87b744af006",
     "name": "RUR0182",
     "lat": 32.6569,
     "lng": 73.6023,
@@ -23156,10 +23156,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101746
+    "createdAt": 1786860943087
   },
   {
-    "id": "f2c72510-8fc5-47ae-ac0d-fc8310fb18cc",
+    "id": "54686e20-2b6b-425a-bf9f-0dde0ddd40d7",
     "name": "RUR0188",
     "lat": 32.2993,
     "lng": 73.5014,
@@ -23184,10 +23184,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101746
+    "createdAt": 1786860943087
   },
   {
-    "id": "abd2b6e9-2dba-4121-b61c-4e0a50f3df10",
+    "id": "5accdc78-e993-4e96-a67a-ae0f2ec60d58",
     "name": "RUR0374",
     "lat": 32.5255,
     "lng": 73.5907,
@@ -23212,10 +23212,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101746
+    "createdAt": 1786860943087
   },
   {
-    "id": "773796d6-bd62-4330-af7e-6532ac266f88",
+    "id": "154a4b03-abd3-43e5-ae3e-4454dd0056a4",
     "name": "RUR0398",
     "lat": 32.7272,
     "lng": 73.7971,
@@ -23240,10 +23240,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101746
+    "createdAt": 1786860943087
   },
   {
-    "id": "38eb9c43-b98f-4d4d-ae99-24f826588e37",
+    "id": "25302862-7878-4c4a-8336-7e3d43f90548",
     "name": "RUR0650",
     "lat": 32.7677,
     "lng": 73.8293,
@@ -23268,10 +23268,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101746
+    "createdAt": 1786860943087
   },
   {
-    "id": "cd99bf46-5222-4f01-bef7-c7a7c92b379e",
+    "id": "dd3cad72-6ea7-4192-910e-800bf7c2e08f",
     "name": "RUR0733",
     "lat": 32.3891,
     "lng": 73.0903,
@@ -23296,10 +23296,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101746
+    "createdAt": 1786860943088
   },
   {
-    "id": "5cf0a777-476d-4175-9468-51a463dd2df0",
+    "id": "0673aa45-001f-4069-b668-49f5ddfc6e65",
     "name": "RUR0736",
     "lat": 32.5515,
     "lng": 73.3515,
@@ -23324,10 +23324,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101746
+    "createdAt": 1786860943088
   },
   {
-    "id": "ee430852-b1ba-446e-9747-7f675d397231",
+    "id": "e6c24c04-3337-47f0-88b4-03f31bea5bad",
     "name": "RUR0755",
     "lat": 32.482,
     "lng": 73.7705,
@@ -23352,10 +23352,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101746
+    "createdAt": 1786860943088
   },
   {
-    "id": "95a4d733-9261-4956-a06b-99743ad9d71d",
+    "id": "8772cf11-de98-4929-a31a-24e16cde1063",
     "name": "RUR0776",
     "lat": 32.7801,
     "lng": 73.9934,
@@ -23380,10 +23380,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101746
+    "createdAt": 1786860943088
   },
   {
-    "id": "07643aa4-2d8a-4b82-8bb1-c7af4fff41b5",
+    "id": "177727ef-1b8a-49d8-8980-c302706551b9",
     "name": "RUR0794",
     "lat": 32.7054,
     "lng": 73.5757,
@@ -23408,10 +23408,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101746
+    "createdAt": 1786860943089
   },
   {
-    "id": "71b0f8f1-5043-41cb-b831-49e08467f84f",
+    "id": "e642dc06-7acb-4989-96a1-d4d837b98300",
     "name": "RUR0800",
     "lat": 32.691,
     "lng": 73.70528,
@@ -23436,10 +23436,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101746
+    "createdAt": 1786860943089
   },
   {
-    "id": "1a2bb0a8-c806-4a15-9d93-e37ddad9f172",
+    "id": "bb9a9588-a4b8-4fd9-8a3f-306fae0e939d",
     "name": "RUR0875",
     "lat": 32.6892,
     "lng": 73.7974,
@@ -23464,10 +23464,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101746
+    "createdAt": 1786860943089
   },
   {
-    "id": "ede2a4fd-e117-48ab-a703-ddcb824ac1cc",
+    "id": "21af1ef0-8db6-4e0c-8e2c-e6b543709acd",
     "name": "RUR0885",
     "lat": 32.5909,
     "lng": 73.8473,
@@ -23492,10 +23492,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101746
+    "createdAt": 1786860943089
   },
   {
-    "id": "573cb300-5cf2-4af2-8a9a-c498e0d2fd3d",
+    "id": "a638b358-b53d-45cb-ab49-4305df0c5955",
     "name": "RUR1053",
     "lat": 32.5494,
     "lng": 73.8697,
@@ -23520,10 +23520,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101746
+    "createdAt": 1786860943090
   },
   {
-    "id": "e3424f26-8e4b-455a-996d-cef041173680",
+    "id": "196d7c56-a7b7-4f56-9853-f2f6e182c676",
     "name": "RUR1062",
     "lat": 32.4469,
     "lng": 73.7212,
@@ -23548,10 +23548,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101746
+    "createdAt": 1786860943090
   },
   {
-    "id": "c5b7a35e-b1f5-4395-b6d8-e3df9a4ed54b",
+    "id": "013d4489-1f57-4fce-bf00-a7784b430c39",
     "name": "RUR1063",
     "lat": 32.4287,
     "lng": 73.8227,
@@ -23576,10 +23576,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101747
+    "createdAt": 1786860943090
   },
   {
-    "id": "3e8bb0a3-e587-4bfa-ab3b-f597f09ce2e2",
+    "id": "a64d2578-a2e8-4e11-9330-ac87c54b16e6",
     "name": "RUR1066",
     "lat": 32.61566,
     "lng": 73.52972,
@@ -23604,10 +23604,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101747
+    "createdAt": 1786860943090
   },
   {
-    "id": "5031fc1a-d1fe-4bb6-b58a-fd081a2063ff",
+    "id": "2a52f117-5b7b-4be8-b106-44aa6327902b",
     "name": "RUR1094",
     "lat": 32.5649,
     "lng": 73.2687,
@@ -23632,10 +23632,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101747
+    "createdAt": 1786860943090
   },
   {
-    "id": "309efd1b-e36d-4de0-91f5-a9e8ee086af1",
+    "id": "3ab5fc34-d402-40c7-be93-361177b56184",
     "name": "RUR1096",
     "lat": 32.526157,
     "lng": 73.276619,
@@ -23660,10 +23660,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101747
+    "createdAt": 1786860943090
   },
   {
-    "id": "673c42b9-efa7-484c-bc8b-5933e6132350",
+    "id": "2a1a048b-4e05-4d95-a2ec-c5d2b4dc8124",
     "name": "RUR1097",
     "lat": 32.5318,
     "lng": 73.1548,
@@ -23688,10 +23688,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101747
+    "createdAt": 1786860943091
   },
   {
-    "id": "e84a7e17-0f6c-4893-b69e-0f663484e8c9",
+    "id": "b97e42be-ca10-4e0a-97a5-59f992726add",
     "name": "RUR1575",
     "lat": 32.7851,
     "lng": 73.8527,
@@ -23716,10 +23716,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101747
+    "createdAt": 1786860943091
   },
   {
-    "id": "5d84f54c-972f-47c9-8ae0-f2018615aea8",
+    "id": "4ce17fa0-aaf1-46bf-b73a-8338854e85ef",
     "name": "RUR1731",
     "lat": 32.746,
     "lng": 73.8136,
@@ -23744,10 +23744,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101747
+    "createdAt": 1786860943101
   },
   {
-    "id": "ac6cacce-61ea-405b-9477-2cd980337a46",
+    "id": "abf3b9ac-9ded-41a5-b76c-407eadcb5c47",
     "name": "RUR1771",
     "lat": 32.7978,
     "lng": 73.7918,
@@ -23772,10 +23772,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101747
+    "createdAt": 1786860943102
   },
   {
-    "id": "7a6415e5-0dd7-4336-a864-0b7cfec281f3",
+    "id": "cc08bba0-6519-4f63-b11c-bf1b2a8a1b88",
     "name": "RUR3508",
     "lat": 32.668,
     "lng": 73.549,
@@ -23800,10 +23800,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101747
+    "createdAt": 1786860943102
   },
   {
-    "id": "8ebb2617-9756-4385-86e5-5b269deda329",
+    "id": "370c8fec-a467-4345-9726-8884fb0d19b5",
     "name": "RUR3736",
     "lat": 32.4929,
     "lng": 73.889,
@@ -23828,10 +23828,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101747
+    "createdAt": 1786860943102
   },
   {
-    "id": "d78a4821-4ca2-488d-a0b5-3fcab85fd645",
+    "id": "34a866f2-29a9-4505-9542-c7561a15b398",
     "name": "RUR4223",
     "lat": 32.6488,
     "lng": 73.7247,
@@ -23856,10 +23856,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101747
+    "createdAt": 1786860943102
   },
   {
-    "id": "2f7989ce-dfbc-4221-b4e0-e4a690b95876",
+    "id": "a0a7c1c5-3844-4fe7-82db-a51785ca63ce",
     "name": "RUR4314",
     "lat": 32.4926,
     "lng": 73.2383,
@@ -23884,10 +23884,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101747
+    "createdAt": 1786860943102
   },
   {
-    "id": "d3541b4a-ba4f-4199-b942-37e338a9d184",
+    "id": "a9a9343e-8a77-4878-b22e-947566bffcf6",
     "name": "RUR4320",
     "lat": 32.4608,
     "lng": 73.7632,
@@ -23912,10 +23912,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101747
+    "createdAt": 1786860943103
   },
   {
-    "id": "31180119-2ba1-4167-a51c-530dba9fdfa0",
+    "id": "4ce87364-3d02-45f1-9321-1deb33b0073d",
     "name": "RUR4398",
     "lat": 32.5832,
     "lng": 73.3349,
@@ -23940,10 +23940,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101747
+    "createdAt": 1786860943103
   },
   {
-    "id": "e9f8f423-abfb-43f2-bed9-d64379dd65ac",
+    "id": "2130e396-971a-49be-ac0b-daa96063b016",
     "name": "RUR4413",
     "lat": 32.6575,
     "lng": 73.6414,
@@ -23968,10 +23968,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101747
+    "createdAt": 1786860943103
   },
   {
-    "id": "817acc86-2c17-460c-b6db-d281badd2e35",
+    "id": "e6553717-1cf4-4840-b72e-19f63d987e9b",
     "name": "RUR4533",
     "lat": 32.4914,
     "lng": 73.5245,
@@ -23996,10 +23996,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101747
+    "createdAt": 1786860943103
   },
   {
-    "id": "38531cd2-e29f-4806-b98b-d9211235820d",
+    "id": "7139b44d-5f09-4496-8fe8-c9e8c1a59795",
     "name": "RUR4623",
     "lat": 32.3679,
     "lng": 73.3026,
@@ -24024,10 +24024,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101747
+    "createdAt": 1786860943104
   },
   {
-    "id": "fded3ffe-c5ad-4df0-9cd8-52886d2e65bd",
+    "id": "e7281115-3425-4614-b77b-936030f79b18",
     "name": "RUR4641",
     "lat": 32.242,
     "lng": 73.3532,
@@ -24052,10 +24052,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101747
+    "createdAt": 1786860943104
   },
   {
-    "id": "b97b2c3b-693d-4d97-ad36-f93064af6303",
+    "id": "14248b85-cf4b-496b-9b69-307c623f89da",
     "name": "RUR4913",
     "lat": 32.5592,
     "lng": 73.8042,
@@ -24080,10 +24080,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101747
+    "createdAt": 1786860943104
   },
   {
-    "id": "07701d15-9b52-4082-86ac-48918655795c",
+    "id": "bd570d29-a4eb-4827-b8da-cd7eb65b91c1",
     "name": "RUR4914",
     "lat": 32.3823,
     "lng": 73.6826,
@@ -24108,10 +24108,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101747
+    "createdAt": 1786860943105
   },
   {
-    "id": "980f9065-193f-410b-a491-036bce04dbcc",
+    "id": "958e960d-5ede-47f7-a13c-a7557b859b3b",
     "name": "RUR5930",
     "lat": 32.69307,
     "lng": 73.631866,
@@ -24136,10 +24136,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101747
+    "createdAt": 1786860943105
   },
   {
-    "id": "b02592ed-38ad-4481-9ebe-dfeacc2f13e9",
+    "id": "9e8d3dec-d177-4752-a7b2-d0d80a9412f9",
     "name": "RUR6072",
     "lat": 32.3894,
     "lng": 73.4443,
@@ -24164,10 +24164,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101747
+    "createdAt": 1786860943105
   },
   {
-    "id": "f3523bea-f373-4402-b78f-6d05a9b2bcee",
+    "id": "ddbdd62b-2e8a-4ea2-89f0-5d37c8f8c5e8",
     "name": "RUR6081",
     "lat": 32.3369,
     "lng": 73.4896,
@@ -24192,10 +24192,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101747
+    "createdAt": 1786860943105
   },
   {
-    "id": "6d481e66-9ea2-43d3-93e7-b81b90c5a372",
+    "id": "3f4dbd53-4ad9-4fa7-b439-11ccf3f06507",
     "name": "RUR6158",
     "lat": 32.3975,
     "lng": 73.2011,
@@ -24220,10 +24220,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101747
+    "createdAt": 1786860943105
   },
   {
-    "id": "6b618ea4-51bf-4719-929f-4ec784b820da",
+    "id": "72232d83-613a-41da-aaf1-cb6d3c2bd741",
     "name": "RUR6174",
     "lat": 32.4781,
     "lng": 73.8369,
@@ -24248,10 +24248,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101747
+    "createdAt": 1786860943106
   },
   {
-    "id": "5f214269-1cd2-472d-aa0d-2bd41a93d0dd",
+    "id": "1e4a7bfb-c41d-4989-8be2-6dfb61ee5858",
     "name": "RUR6175",
     "lat": 32.4352,
     "lng": 73.4954,
@@ -24276,10 +24276,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101747
+    "createdAt": 1786860943106
   },
   {
-    "id": "89720c68-6229-4211-ac0a-49eff7fef6d4",
+    "id": "153c7956-c898-4583-8ec1-f9614344dfa3",
     "name": "RUR6176",
     "lat": 32.4724,
     "lng": 73.5407,
@@ -24304,10 +24304,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101747
+    "createdAt": 1786860943106
   },
   {
-    "id": "b33318e5-18c7-427f-bcd6-2067af15f61a",
+    "id": "ea47664c-24a3-440f-9c44-1adfe630e71d",
     "name": "RUR6177",
     "lat": 32.4901,
     "lng": 73.6558,
@@ -24332,10 +24332,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101747
+    "createdAt": 1786860943106
   },
   {
-    "id": "5684be2c-cfdd-4443-87a5-f34eb22e3dfb",
+    "id": "4a707b08-f0d0-4691-bebb-2393e92b0746",
     "name": "RUR6178",
     "lat": 32.4138,
     "lng": 73.6411,
@@ -24360,10 +24360,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101747
+    "createdAt": 1786860943106
   },
   {
-    "id": "99aacf2b-3548-4564-9bd0-210c4b935e26",
+    "id": "3c79dac3-2340-4d0b-b2f2-4385eec66016",
     "name": "RUR6208",
     "lat": 32.4573,
     "lng": 73.4093,
@@ -24388,10 +24388,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101747
+    "createdAt": 1786860943107
   },
   {
-    "id": "f60a7927-ab55-4614-a1b5-3ea42b99c8f2",
+    "id": "991b181f-1080-4978-8c10-42d24ef924f9",
     "name": "RUR6212",
     "lat": 32.5533,
     "lng": 73.468,
@@ -24416,10 +24416,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101747
+    "createdAt": 1786860943107
   },
   {
-    "id": "7d1701e9-9522-49ef-8e74-c960c7a66874",
+    "id": "a8762fa5-0e2f-4b02-be5d-926b874ee48f",
     "name": "RUR6221",
     "lat": 32.6446,
     "lng": 73.5087,
@@ -24444,10 +24444,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101747
+    "createdAt": 1786860943107
   },
   {
-    "id": "66e7e18f-f926-429d-b62e-0d90b627aec4",
+    "id": "c2648cfa-b8ca-4d10-9263-202c5df69516",
     "name": "RUR6222",
     "lat": 32.5756,
     "lng": 73.53,
@@ -24472,10 +24472,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101747
+    "createdAt": 1786860943107
   },
   {
-    "id": "06ccd064-3c84-4b46-aff9-b51db9e3af30",
+    "id": "3f9cf29a-fd0f-4700-9acb-5cc5702660fa",
     "name": "RUR6227",
     "lat": 32.5873,
     "lng": 73.7032,
@@ -24500,10 +24500,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101747
+    "createdAt": 1786860943107
   },
   {
-    "id": "a34453d1-5a3d-4b44-a547-4bdd7f1b080f",
+    "id": "91291b51-095e-450c-aca2-a410462a3eab",
     "name": "RUR6337",
     "lat": 32.53663,
     "lng": 73.551749,
@@ -24528,10 +24528,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101747
+    "createdAt": 1786860943108
   },
   {
-    "id": "fa015000-451c-4468-89cc-6d54e9058a28",
+    "id": "cbb79b65-1edf-43f2-b4e2-ffd64e16cd3c",
     "name": "RUR6920",
     "lat": 32.49592,
     "lng": 73.89717001,
@@ -24556,10 +24556,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101747
+    "createdAt": 1786860943117
   },
   {
-    "id": "a775d6f8-6b92-422b-be5f-fba6d2c78c84",
+    "id": "ebfd2219-4b33-42aa-8399-5452b9591f33",
     "name": "RUR8759",
     "lat": 32.6251,
     "lng": 73.8041,
@@ -24584,10 +24584,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101747
+    "createdAt": 1786860943117
   },
   {
-    "id": "c670725e-52ab-4132-ae21-d9c6c5375fa2",
+    "id": "ef18b3f0-f05f-4491-944e-9b59e8f73e1d",
     "name": "RUR8929",
     "lat": 32.3681,
     "lng": 73.1526,
@@ -24612,10 +24612,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101747
+    "createdAt": 1786860943117
   },
   {
-    "id": "ec91394c-bf5e-40d3-898b-6ca9ff8f4954",
+    "id": "712ef152-5860-498c-9f8f-3ea1c6b96761",
     "name": "SLM3940",
     "lat": 32.2886,
     "lng": 73.1696,
@@ -24640,10 +24640,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101747
+    "createdAt": 1786860943117
   },
   {
-    "id": "4ecb17a6-4cda-49d2-a4f1-65e625524d70",
+    "id": "b731d921-3240-4906-9285-06a587f0fbf7",
     "name": "KHR1737",
     "lat": 32.809601,
     "lng": 73.8839887,
@@ -24668,10 +24668,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101747
+    "createdAt": 1786860943118
   },
   {
-    "id": "d2eb5da6-3abd-4e1c-9824-85a5d9ae19d2",
+    "id": "150f783a-1fe5-426c-9855-2eaf888e9979",
     "name": "WBT6008",
     "lat": 31.5471,
     "lng": 73.8274,
@@ -24696,10 +24696,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101747
+    "createdAt": 1786860943118
   },
   {
-    "id": "65d456c4-163c-4f87-884d-c522c57e264a",
+    "id": "b82ccac0-4edf-4684-97ae-260cb19706a7",
     "name": "WBT6014",
     "lat": 31.5383,
     "lng": 73.833,
@@ -24724,10 +24724,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101747
+    "createdAt": 1786860943118
   },
   {
-    "id": "73ff26ea-008e-4d3c-97a9-f688c7baccad",
+    "id": "79b98e5d-546f-40e0-a981-8c3f7e4bf2ff",
     "name": "WBT6965",
     "lat": 31.5359,
     "lng": 73.8258,
@@ -24752,10 +24752,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101747
+    "createdAt": 1786860943118
   },
   {
-    "id": "65185b91-2c43-4450-afdf-02684805b2ff",
+    "id": "3a22a48d-a446-4f35-b1b4-0eeac835b846",
     "name": "TSK9717",
     "lat": 31.1605,
     "lng": 74.2741,
@@ -24780,10 +24780,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101747
+    "createdAt": 1786860943120
   },
   {
-    "id": "bb4922c4-a359-4845-af22-6bdc2e96944d",
+    "id": "e1c2726a-b6f1-425c-963f-8c9489170957",
     "name": "TWD8800",
     "lat": 30.9041,
     "lng": 74.141,
@@ -24808,10 +24808,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101747
+    "createdAt": 1786860943121
   },
   {
-    "id": "512187ef-e7d4-4c44-8074-ec1e12c704a4",
+    "id": "33cf587d-b33a-41e8-916c-011dd7cc1e4e",
     "name": "SYW4836",
     "lat": 31.1436,
     "lng": 73.4968,
@@ -24836,10 +24836,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101748
+    "createdAt": 1786860943121
   },
   {
-    "id": "bf4317b0-9da6-4032-b878-ab37de1f2748",
+    "id": "ea1cdea5-c454-4f47-b949-1f9a0e0adc38",
     "name": "SYW8531",
     "lat": 31.2048,
     "lng": 73.4725,
@@ -24864,10 +24864,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101748
+    "createdAt": 1786860943121
   },
   {
-    "id": "46579820-7abe-41c9-98f9-3ce6f0d2c9e3",
+    "id": "67fa00b4-ba9c-4325-b290-4b17f10f8f4f",
     "name": "SUN0581",
     "lat": 31.3547,
     "lng": 74.1339,
@@ -24892,10 +24892,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101748
+    "createdAt": 1786860943121
   },
   {
-    "id": "321d4c88-57d1-46a5-94be-040d38ab8aa1",
+    "id": "70a62737-c26b-4b89-908d-9064c6b1d9a3",
     "name": "HWY0313",
     "lat": 31.8229,
     "lng": 73.7826,
@@ -24920,10 +24920,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101748
+    "createdAt": 1786860943122
   },
   {
-    "id": "b4d577f7-49b4-4654-943a-2d1b8537b83d",
+    "id": "74b5026e-7c9e-4a78-8366-b13da0ced76b",
     "name": "SHK0320",
     "lat": 31.6853,
     "lng": 74.0691,
@@ -24948,10 +24948,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101748
+    "createdAt": 1786860943122
   },
   {
-    "id": "494e7b00-d366-479c-9bef-707fe29c928f",
+    "id": "44fba466-8e96-4a08-af6d-2bf93191ebe7",
     "name": "HWY0993",
     "lat": 31.6785,
     "lng": 73.9523,
@@ -24976,10 +24976,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101748
+    "createdAt": 1786860943122
   },
   {
-    "id": "b3949f05-ca9a-48f1-ab67-67667a631633",
+    "id": "4c7eb8f6-a759-4108-ac07-d4ed296f0fbb",
     "name": "HWY1204",
     "lat": 31.6153,
     "lng": 73.8976,
@@ -25004,10 +25004,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101748
+    "createdAt": 1786860943122
   },
   {
-    "id": "fae326b3-f5f0-4881-a942-23f9b6eb654e",
+    "id": "708b6911-d8a5-41e4-99b2-4f2ae3285d68",
     "name": "HWY1218",
     "lat": 31.64,
     "lng": 74.1888,
@@ -25032,10 +25032,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "CP",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101748
+    "createdAt": 1786860943122
   },
   {
-    "id": "914b6407-a65b-45d5-a95b-7a5863a9cc1d",
+    "id": "7af53157-c7ab-4e9f-a9c3-dac61280cebf",
     "name": "HWY1512",
     "lat": 31.8144,
     "lng": 73.8221,
@@ -25060,10 +25060,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101748
+    "createdAt": 1786860943123
   },
   {
-    "id": "7bcfa49c-167e-4a4d-82b0-c04213ac716d",
+    "id": "a05796d2-b7be-411b-a696-a63fd4c1917e",
     "name": "HWY3496",
     "lat": 31.7173,
     "lng": 74.2702,
@@ -25088,10 +25088,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101748
+    "createdAt": 1786860943123
   },
   {
-    "id": "d8de519d-87e4-4657-aa51-1fa3eaea39dc",
+    "id": "ea18d114-4fb9-4cb0-9bb5-4b1735e09c62",
     "name": "HWY3781",
     "lat": 31.6278,
     "lng": 73.9153,
@@ -25116,10 +25116,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101748
+    "createdAt": 1786860943123
   },
   {
-    "id": "86d1fd49-26d7-4101-bfad-b0e4cfee68fb",
+    "id": "d3bb4fcc-9532-45a3-8f61-6324652f5594",
     "name": "HWY3967",
     "lat": 31.6043,
     "lng": 73.8653,
@@ -25144,10 +25144,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101748
+    "createdAt": 1786860943123
   },
   {
-    "id": "388ea259-fedb-451d-811d-f5539038ca85",
+    "id": "1f1a4f91-c78b-4a2b-835d-b7f02a9812e9",
     "name": "SHK4571",
     "lat": 31.699,
     "lng": 74.0293,
@@ -25172,10 +25172,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101748
+    "createdAt": 1786860943123
   },
   {
-    "id": "59c36d08-7a7d-42d2-b911-669e2dc0e2fa",
+    "id": "9c0dbf84-020f-4a48-a858-cd625706bde5",
     "name": "HWY4643",
     "lat": 31.5941,
     "lng": 74.2189,
@@ -25200,10 +25200,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101748
+    "createdAt": 1786860943123
   },
   {
-    "id": "1dc280a8-9447-4502-9e2f-a6a12297f923",
+    "id": "387b85ad-d416-4a73-b143-f2b29c245e7e",
     "name": "HWY5920",
     "lat": 31.7557,
     "lng": 74.2613,
@@ -25228,10 +25228,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101748
+    "createdAt": 1786860943124
   },
   {
-    "id": "0d8fb94b-f69b-4fd6-8a63-416c36fdca7d",
+    "id": "01edf9f9-4172-456c-be43-2ebd8504d05a",
     "name": "HWY5923",
     "lat": 31.6939,
     "lng": 74.2675,
@@ -25256,10 +25256,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101748
+    "createdAt": 1786860943124
   },
   {
-    "id": "83760405-e606-45d0-8b59-3ca3df182397",
+    "id": "2c141063-9186-4395-a1ed-9a502c040122",
     "name": "HWY5936",
     "lat": 31.7636,
     "lng": 73.9528,
@@ -25284,10 +25284,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101748
+    "createdAt": 1786860943124
   },
   {
-    "id": "5aea4599-da27-48e8-a73e-e42b42fd6940",
+    "id": "f43890fa-ac73-424a-9c7d-4966712b1d5f",
     "name": "HWY5943",
     "lat": 31.7334,
     "lng": 74.0971,
@@ -25312,10 +25312,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "CP",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101748
+    "createdAt": 1786860943125
   },
   {
-    "id": "b6cea03f-b9f3-413b-9866-47751f344b06",
+    "id": "6b6353c4-678c-442c-942e-8cef438e9c0b",
     "name": "HWY5949",
     "lat": 31.673,
     "lng": 73.9793,
@@ -25340,10 +25340,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101748
+    "createdAt": 1786860943125
   },
   {
-    "id": "c38da9a5-eb06-474a-88fc-d86393eb273a",
+    "id": "de9ea8ba-8b69-483c-9116-dc8a4aec6eed",
     "name": "SHK5955",
     "lat": 31.7033,
     "lng": 74.0222,
@@ -25368,10 +25368,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101748
+    "createdAt": 1786860943171
   },
   {
-    "id": "ecd2efe8-bee5-4607-8e8f-a2c89d5db0ef",
+    "id": "2a9de6a8-1725-4139-b8ab-de0e3086d97d",
     "name": "SHK5956",
     "lat": 31.698,
     "lng": 74.0332,
@@ -25396,10 +25396,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101748
+    "createdAt": 1786860943172
   },
   {
-    "id": "eabcb898-7cfb-4125-9639-522faba070c2",
+    "id": "08c9d4ee-45ca-4e79-975b-fc2c856db907",
     "name": "SHK5962",
     "lat": 31.7017,
     "lng": 74.0041,
@@ -25424,10 +25424,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101748
+    "createdAt": 1786860943172
   },
   {
-    "id": "f35268cb-1649-4534-9ecb-24cc6ff06c26",
+    "id": "cccceb3b-dc85-44cb-b5c9-e19a63edbc8e",
     "name": "HWY6002",
     "lat": 31.5823,
     "lng": 73.7503,
@@ -25452,10 +25452,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101748
+    "createdAt": 1786860943172
   },
   {
-    "id": "bb30069f-9a95-4f45-8d02-f953297505c4",
+    "id": "93832b2f-3c10-436a-8db8-f0cba2daf3e0",
     "name": "HWY6006",
     "lat": 31.6545,
     "lng": 73.9315,
@@ -25480,10 +25480,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101748
+    "createdAt": 1786860943172
   },
   {
-    "id": "b0e2ea85-302e-4abe-92e9-99b81c3b8c7f",
+    "id": "60d05367-73b1-4205-8dac-69dfc490fe8c",
     "name": "SHK6963",
     "lat": 31.7062,
     "lng": 74.0596,
@@ -25508,10 +25508,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101748
+    "createdAt": 1786860943173
   },
   {
-    "id": "7655fd36-1e04-4e38-b319-de8feacbe23e",
+    "id": "caa83ca4-7e8c-4bab-be2d-db3422dc68d9",
     "name": "HWY8329",
     "lat": 31.5955,
     "lng": 74.2308,
@@ -25536,10 +25536,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101748
+    "createdAt": 1786860943173
   },
   {
-    "id": "efed1336-685f-4015-941c-a8816a43aa74",
+    "id": "e9648e0e-3dc6-4a27-8e13-6591878939c1",
     "name": "HWY8783",
     "lat": 31.7493,
     "lng": 74.0105,
@@ -25564,10 +25564,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101748
+    "createdAt": 1786860943173
   },
   {
-    "id": "0d903899-7920-4abb-b399-82a479265701",
+    "id": "68df0c1e-ac7a-499d-afc4-3f56b1f9efb6",
     "name": "HWY8819",
     "lat": 31.7994,
     "lng": 73.8636,
@@ -25592,10 +25592,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101748
+    "createdAt": 1786860943173
   },
   {
-    "id": "8e225f93-d03e-40a9-b26a-b1a7561e6e2c",
+    "id": "ced7f0a1-2a29-4e0c-8fa2-08ab00485172",
     "name": "SHK9673",
     "lat": 31.7109,
     "lng": 74.0196,
@@ -25620,10 +25620,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101748
+    "createdAt": 1786860943173
   },
   {
-    "id": "bef80518-3fcc-4ccd-8ae7-d0c895697688",
+    "id": "59f6fbc5-ce9f-44ed-9b80-36ef9b2ee973",
     "name": "SHK9724",
     "lat": 31.6931,
     "lng": 73.974,
@@ -25648,10 +25648,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "CP",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101748
+    "createdAt": 1786860943174
   },
   {
-    "id": "a6ed3a75-81ba-43e4-bb67-9916c64de549",
+    "id": "4813a036-d8e4-4ed1-b05c-b6eb35937811",
     "name": "SHK9875",
     "lat": 31.689,
     "lng": 74.058,
@@ -25676,10 +25676,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101748
+    "createdAt": 1786860943174
   },
   {
-    "id": "e2c71594-4497-4a03-b9e2-34a4db638e86",
+    "id": "ac58971d-ef8f-4ce6-aa29-fd04b4d31a74",
     "name": "SHK9892",
     "lat": 31.7043,
     "lng": 74.0113,
@@ -25704,10 +25704,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "CP",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101748
+    "createdAt": 1786860943174
   },
   {
-    "id": "62f6f209-dc62-4fb3-9b96-bc881ecde0b4",
+    "id": "30ad09dd-18dd-4916-97b5-f3544a11de29",
     "name": "HWY9957",
     "lat": 31.642,
     "lng": 73.9246,
@@ -25732,10 +25732,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101748
+    "createdAt": 1786860943174
   },
   {
-    "id": "92c714d6-6f9e-4a0d-a9ac-debed0a61b1f",
+    "id": "f7fd5531-c3de-4f6d-b0a9-073452b44eb5",
     "name": "RUR0183",
     "lat": 31.6825,
     "lng": 74.3311,
@@ -25760,10 +25760,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "DG",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101748
+    "createdAt": 1786860943175
   },
   {
-    "id": "c6fffaa4-1ed0-4589-9467-42e63aef0942",
+    "id": "747a0f23-f9df-4fd3-ad43-2523d97642a5",
     "name": "RUR0190",
     "lat": 31.7081,
     "lng": 74.1791,
@@ -25788,10 +25788,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101748
+    "createdAt": 1786860943179
   },
   {
-    "id": "c9012679-3af4-4455-a156-4ce1eb7eb73a",
+    "id": "40940bb0-d0cb-4eed-8baf-e0b23b2dca2e",
     "name": "RUR0251",
     "lat": 31.8724,
     "lng": 74.3271,
@@ -25816,10 +25816,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101748
+    "createdAt": 1786860943179
   },
   {
-    "id": "365d2631-6610-4992-99b8-479e680ff239",
+    "id": "dd576634-2e9b-45f1-91cc-01257463f9a4",
     "name": "RUR0261",
     "lat": 31.5722,
     "lng": 74.1951,
@@ -25844,10 +25844,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101748
+    "createdAt": 1786860943180
   },
   {
-    "id": "316d4c1e-3920-4506-90fe-c8a552ce229a",
+    "id": "47397f24-79e1-438e-bbf4-f00d7ef6c588",
     "name": "RUR0264",
     "lat": 31.727,
     "lng": 73.9237,
@@ -25872,10 +25872,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101748
+    "createdAt": 1786860943180
   },
   {
-    "id": "4ab7cb86-9350-4e67-b09f-2036ecbf6bca",
+    "id": "6c9dbe84-37eb-4f35-988b-a76e3f2551c9",
     "name": "RUR0359",
     "lat": 31.647,
     "lng": 73.9792,
@@ -25900,10 +25900,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101748
+    "createdAt": 1786860943180
   },
   {
-    "id": "4807ac41-78be-48ca-8660-6e505d4d53b9",
+    "id": "4ea3bf6b-2195-4a25-82e2-d25ac0201ecb",
     "name": "RUR0477",
     "lat": 31.788,
     "lng": 73.9749,
@@ -25928,10 +25928,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101748
+    "createdAt": 1786860943180
   },
   {
-    "id": "bd94ca37-cbec-4ba3-9710-60eb29d779a4",
+    "id": "5a6d0be3-3acf-4bfb-a066-78fdc5967a88",
     "name": "RUR0517",
     "lat": 31.7705,
     "lng": 73.8996,
@@ -25956,10 +25956,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101748
+    "createdAt": 1786860943181
   },
   {
-    "id": "3c84727e-8d0c-4ad7-b529-446e65f01d2f",
+    "id": "8ea0869a-c1dd-4234-9a34-5751e242bb86",
     "name": "RUR0519",
     "lat": 31.8567,
     "lng": 73.7441,
@@ -25984,10 +25984,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "CP",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101748
+    "createdAt": 1786860943181
   },
   {
-    "id": "82d61651-6a42-4882-ab4f-6cf76d276b4b",
+    "id": "1fcb5f0e-ee63-4021-9fe0-0aa49aef8169",
     "name": "RUR0789",
     "lat": 31.8171,
     "lng": 74.1672,
@@ -26012,10 +26012,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101748
+    "createdAt": 1786860943181
   },
   {
-    "id": "6a7ec8fd-2616-4392-be10-6c17376a2ce1",
+    "id": "9472b608-3ec4-40bd-8c47-d1912fe3d322",
     "name": "RUR0814",
     "lat": 31.712,
     "lng": 73.6898,
@@ -26040,10 +26040,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101748
+    "createdAt": 1786860943181
   },
   {
-    "id": "8fac0dcb-8ad6-4fd8-9a29-89fd38e71334",
+    "id": "864c230d-9111-47b6-89d7-a852edd76a50",
     "name": "RUR0844",
     "lat": 31.828,
     "lng": 73.9555,
@@ -26068,10 +26068,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101748
+    "createdAt": 1786860943182
   },
   {
-    "id": "bd5d283a-bc41-4e0e-8202-a9e4524b1d80",
+    "id": "92169c23-6b25-4f2b-9718-64dc152cbc44",
     "name": "RUR0859",
     "lat": 31.8048,
     "lng": 74.0399,
@@ -26096,10 +26096,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101749
+    "createdAt": 1786860943182
   },
   {
-    "id": "da087e07-f1d6-4630-874c-4d5aaeae9675",
+    "id": "5a47ed8b-2b66-4377-9a70-10f0cfd95ed1",
     "name": "RUR1431",
     "lat": 31.7814,
     "lng": 73.7221,
@@ -26124,10 +26124,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101749
+    "createdAt": 1786860943183
   },
   {
-    "id": "86827d3a-5f8e-4111-b979-70b4df049e6d",
+    "id": "5dad0224-aa0b-4ee4-b2fe-1dcb35ba181e",
     "name": "RUR1709",
     "lat": 31.5841,
     "lng": 74.2557,
@@ -26152,10 +26152,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101749
+    "createdAt": 1786860943183
   },
   {
-    "id": "ea46a5a9-3120-4ac0-b4be-dcde075b2b1d",
+    "id": "0516400d-b279-4211-b39e-df2d9c16f07f",
     "name": "RUR3505",
     "lat": 31.2484,
     "lng": 73.8459,
@@ -26180,10 +26180,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101749
+    "createdAt": 1786860943183
   },
   {
-    "id": "f85116cb-c849-4188-b689-0f412c14f1ba",
+    "id": "857824c6-61ab-4a2c-a664-3b4a1484bde8",
     "name": "RUR3747",
     "lat": 31.9307,
     "lng": 73.7728,
@@ -26208,10 +26208,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101749
+    "createdAt": 1786860943183
   },
   {
-    "id": "71d78e38-ca0e-45ac-825a-ba552b575704",
+    "id": "9c24e05b-c636-44f8-bca1-a82a2b14fa34",
     "name": "RUR3832",
     "lat": 31.5527,
     "lng": 74.1752,
@@ -26236,10 +26236,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101749
+    "createdAt": 1786860943184
   },
   {
-    "id": "a1e495eb-9b73-478a-9a34-91ad6040c55c",
+    "id": "631e7fb4-322a-49cf-bc08-7d24d9a37732",
     "name": "RUR3839",
     "lat": 31.5199,
     "lng": 74.1457,
@@ -26264,10 +26264,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101749
+    "createdAt": 1786860943184
   },
   {
-    "id": "521c2bc9-d266-41f6-bb20-816cc6050dd7",
+    "id": "3e198feb-923f-4406-aa83-a6af4ad155b4",
     "name": "RUR4261",
     "lat": 31.2166,
     "lng": 73.6112,
@@ -26292,10 +26292,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101749
+    "createdAt": 1786860943184
   },
   {
-    "id": "9638942f-80f2-40d5-98b9-2edc20b40041",
+    "id": "61db581a-c824-4540-b306-b657feb421d2",
     "name": "RUR4321",
     "lat": 31.791,
     "lng": 73.6973,
@@ -26320,10 +26320,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101749
+    "createdAt": 1786860943184
   },
   {
-    "id": "7210a850-bc47-43ec-95e6-44cf7f6d3a99",
+    "id": "f0a20684-11de-4dfa-8389-b67f9cdfe3af",
     "name": "RUR4324",
     "lat": 31.5071,
     "lng": 74.1338,
@@ -26348,10 +26348,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101749
+    "createdAt": 1786860943184
   },
   {
-    "id": "38d2b816-82b6-4846-90c8-cee7ae5d43b9",
+    "id": "3a50db03-5e16-47ba-a565-62e714eb944b",
     "name": "RUR4700",
     "lat": 31.3699,
     "lng": 73.885,
@@ -26376,10 +26376,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101749
+    "createdAt": 1786860943185
   },
   {
-    "id": "98e64dd7-c7e1-4bd2-baeb-8454257793a3",
+    "id": "542adbc8-45d6-4b6d-9396-58560e9822af",
     "name": "RUR4939",
     "lat": 31.5695,
     "lng": 74.0719,
@@ -26404,10 +26404,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101749
+    "createdAt": 1786860943185
   },
   {
-    "id": "cc3ec081-2004-4a62-accc-3a486948d967",
+    "id": "68db20ee-cf24-4f43-8de0-f304a347f53a",
     "name": "RUR4947",
     "lat": 31.3773,
     "lng": 73.9057,
@@ -26432,10 +26432,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101749
+    "createdAt": 1786860943185
   },
   {
-    "id": "11d19484-c0b8-4819-838e-c6ad00b9520d",
+    "id": "436f63df-76e9-4e5a-b0eb-0a5d509f54f3",
     "name": "RUR5913",
     "lat": 31.8227,
     "lng": 74.5038,
@@ -26460,10 +26460,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101749
+    "createdAt": 1786860943186
   },
   {
-    "id": "6071541d-2bbc-47da-a755-4d8701defe32",
+    "id": "5dca9a02-105b-4c9f-9616-99b0017b843f",
     "name": "RUR5938",
     "lat": 31.7865,
     "lng": 73.902,
@@ -26488,10 +26488,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "CP",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101749
+    "createdAt": 1786860943187
   },
   {
-    "id": "9ad13411-1d37-42f9-929f-9f423d74a5da",
+    "id": "690e0e4b-bd98-4781-afd4-1f14c720e5c6",
     "name": "RUR5951",
     "lat": 31.6533,
     "lng": 74.161,
@@ -26516,10 +26516,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101749
+    "createdAt": 1786860943187
   },
   {
-    "id": "da1a61d0-029c-45ca-a114-cb437e4d019e",
+    "id": "38162084-c129-410c-be22-7e1cd9c7398e",
     "name": "SHK5958",
     "lat": 31.7274,
     "lng": 73.9784,
@@ -26544,10 +26544,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101749
+    "createdAt": 1786860943187
   },
   {
-    "id": "5f06ba06-43a3-47cf-8a1e-74ace75b3dfe",
+    "id": "72a9e174-5f17-46ce-a919-13405dcd3483",
     "name": "RUR6001",
     "lat": 31.478,
     "lng": 73.7856,
@@ -26572,10 +26572,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101749
+    "createdAt": 1786860943187
   },
   {
-    "id": "f43da98d-51cb-4373-a91b-614678ff16c6",
+    "id": "e5545bbd-b084-4ab2-9896-e933d7592e8a",
     "name": "RUR6005",
     "lat": 31.609,
     "lng": 73.9456,
@@ -26600,10 +26600,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101749
+    "createdAt": 1786860943187
   },
   {
-    "id": "56762900-0e6b-4536-9e1f-92177a843237",
+    "id": "8eec3ba0-8731-4577-b7d6-23990f4598dd",
     "name": "RUR8816",
     "lat": 31.8753,
     "lng": 73.8472,
@@ -26628,10 +26628,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101749
+    "createdAt": 1786860943188
   },
   {
-    "id": "21731f7e-63c7-480b-951e-37b897a8b777",
+    "id": "90c07186-53d1-4581-8313-9c923dc5de5a",
     "name": "RUR8855",
     "lat": 31.8287,
     "lng": 74.4551,
@@ -26656,10 +26656,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101749
+    "createdAt": 1786860943188
   },
   {
-    "id": "684a4649-dc3a-4488-aa29-083502d1c94f",
+    "id": "d4626160-6feb-4b0e-a24b-d0e2c45024b7",
     "name": "RUR8865",
     "lat": 31.5401,
     "lng": 73.9655,
@@ -26684,10 +26684,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101749
+    "createdAt": 1786860943188
   },
   {
-    "id": "33382346-abc0-49ef-9643-d2b3253d56c3",
+    "id": "eb15afb5-51c6-44d5-988f-ae9a3a6c9652",
     "name": "RUR8867",
     "lat": 31.6381,
     "lng": 74.0354,
@@ -26712,10 +26712,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101749
+    "createdAt": 1786860943188
   },
   {
-    "id": "59f7b93a-9931-474a-b68f-b026b6c59e61",
+    "id": "62d65ccc-fc4f-4b12-bb13-759e0a3526b8",
     "name": "RUR9180",
     "lat": 31.6333,
     "lng": 73.8544,
@@ -26740,10 +26740,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101749
+    "createdAt": 1786860943188
   },
   {
-    "id": "020448d0-984d-4692-864e-4c59deac1390",
+    "id": "69690f95-a9c1-4c33-b835-24845825afe5",
     "name": "SHK9865",
     "lat": 31.7315,
     "lng": 73.9742,
@@ -26768,10 +26768,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101749
+    "createdAt": 1786860943189
   },
   {
-    "id": "8573b9d2-9e18-43e1-b3d0-92aab7689f63",
+    "id": "49d20412-7306-4561-9483-61571467508b",
     "name": "SHK0347",
     "lat": 31.7135,
     "lng": 73.9863,
@@ -26796,10 +26796,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101749
+    "createdAt": 1786860943189
   },
   {
-    "id": "bd6d7ebc-addf-46b9-8afd-a5e542e446f8",
+    "id": "0170a59e-c265-42d3-84be-856db329a59f",
     "name": "SHK0819",
     "lat": 31.7102,
     "lng": 73.97,
@@ -26824,10 +26824,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101749
+    "createdAt": 1786860943189
   },
   {
-    "id": "0f0bc4e5-7878-4c78-82d5-8248ef2586b2",
+    "id": "4fe9a79f-25a5-47c2-a7fd-33b50e5b95a1",
     "name": "SHK3482",
     "lat": 31.7033,
     "lng": 73.9835,
@@ -26852,10 +26852,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101749
+    "createdAt": 1786860943189
   },
   {
-    "id": "4a11689d-2837-4183-9932-12dee45dd03d",
+    "id": "e6ed4c6e-a24b-4dde-846a-d1d80b34b0c0",
     "name": "SHK3500",
     "lat": 31.7,
     "lng": 73.978,
@@ -26880,10 +26880,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101749
+    "createdAt": 1786860943189
   },
   {
-    "id": "f5984b8a-dc32-4f01-a043-65efcae4bc5e",
+    "id": "c2b3be21-e5c8-4d71-a8b8-ae251d0929a6",
     "name": "SHK3540",
     "lat": 31.7199,
     "lng": 73.9969,
@@ -26908,10 +26908,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101749
+    "createdAt": 1786860943189
   },
   {
-    "id": "246c5533-f5dd-4495-a196-685111d78e34",
+    "id": "e9922218-cf93-4310-8bff-27b0c48cdc22",
     "name": "SHK3567",
     "lat": 31.7108,
     "lng": 73.9913,
@@ -26936,10 +26936,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101749
+    "createdAt": 1786860943190
   },
   {
-    "id": "72cd73d7-050d-4ef9-ba32-327d2773b821",
+    "id": "100f7d4e-1b8e-47b8-bef0-8ab0d28c470e",
     "name": "SHK3799",
     "lat": 31.7058,
     "lng": 73.9784,
@@ -26964,10 +26964,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101749
+    "createdAt": 1786860943190
   },
   {
-    "id": "6c295c6d-7671-4984-a232-c05f8a5c604b",
+    "id": "9bedcf98-32ba-4812-9921-78f6b1b308ca",
     "name": "SHK5954",
     "lat": 31.7222,
     "lng": 73.9564,
@@ -26992,10 +26992,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101749
+    "createdAt": 1786860943190
   },
   {
-    "id": "b42a33c1-4cae-4a1d-94c0-cc5115a9bdf3",
+    "id": "b09df34a-a715-4580-b0a3-b81ffde19c57",
     "name": "SHK5957",
     "lat": 31.7175,
     "lng": 73.969,
@@ -27020,10 +27020,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101749
+    "createdAt": 1786860943190
   },
   {
-    "id": "9bc6a21d-4d63-4b52-a957-ca2b48c61466",
+    "id": "d61279e6-04fb-48d1-91f7-fa3d12f6ddc2",
     "name": "SHK5959",
     "lat": 31.7103,
     "lng": 73.98,
@@ -27048,10 +27048,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101749
+    "createdAt": 1786860943190
   },
   {
-    "id": "bb801b9a-4e51-493e-80d6-b744fb04fb4e",
+    "id": "c4937ff7-244e-4b0f-99bb-259fe67fed88",
     "name": "SHK5960",
     "lat": 31.7168,
     "lng": 73.9913,
@@ -27076,10 +27076,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "CP",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101749
+    "createdAt": 1786860943191
   },
   {
-    "id": "d5c268ae-e91a-447a-b9e4-68623b3dddf0",
+    "id": "9ed1d98c-1fc9-48d8-98d3-8273f86d8586",
     "name": "SHK5961",
     "lat": 31.7087,
     "lng": 74.0055,
@@ -27104,10 +27104,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101749
+    "createdAt": 1786860943191
   },
   {
-    "id": "4f4bf439-9f18-4d72-922b-195dfd7410db",
+    "id": "1973557c-5498-4997-91b9-51f11a86c69d",
     "name": "SHK5963",
     "lat": 31.705,
     "lng": 73.9992,
@@ -27132,10 +27132,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "CP",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101749
+    "createdAt": 1786860943191
   },
   {
-    "id": "c554c543-5f94-4fe0-94ce-34bcb3b6f9e7",
+    "id": "253f92d5-a954-48d7-83c7-12d0127f1460",
     "name": "SHK5964",
     "lat": 31.7059,
     "lng": 73.9687,
@@ -27160,10 +27160,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101749
+    "createdAt": 1786860943191
   },
   {
-    "id": "1e0052ee-8c20-41cd-9a31-af07ad941057",
+    "id": "02a0afa6-d736-4f3b-83aa-a0b0dc7a527a",
     "name": "SHK5965",
     "lat": 31.6963,
     "lng": 73.9801,
@@ -27188,10 +27188,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101750
+    "createdAt": 1786860943192
   },
   {
-    "id": "49087b12-92da-48ce-97a6-c1b9b5a58d82",
+    "id": "49fade75-4470-4c5f-8ec1-052b510f810f",
     "name": "SHK5966",
     "lat": 31.7068,
     "lng": 73.9918,
@@ -27216,10 +27216,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "CP",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101750
+    "createdAt": 1786860943192
   },
   {
-    "id": "ba7b3537-7cc3-4753-83cc-f549ab19a99a",
+    "id": "38ee3228-8f49-40b8-abef-23f0c203bf1d",
     "name": "SHK5968",
     "lat": 31.7214,
     "lng": 73.978,
@@ -27244,10 +27244,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101750
+    "createdAt": 1786860943193
   },
   {
-    "id": "6accec60-3cc0-4809-88d5-489bbd37ab56",
+    "id": "189c8a29-d433-4c42-af5a-e9f57f0bac3b",
     "name": "SHK5969",
     "lat": 31.7093,
     "lng": 73.9867,
@@ -27272,10 +27272,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101750
+    "createdAt": 1786860943193
   },
   {
-    "id": "f6333c34-b2d7-44a4-b3d7-22b0aa273c8d",
+    "id": "0d47ac3a-98c9-4b27-81ff-e685e709c1e5",
     "name": "SHK5971",
     "lat": 31.7002,
     "lng": 73.9726,
@@ -27300,10 +27300,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "CP",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101750
+    "createdAt": 1786860943193
   },
   {
-    "id": "d906bcfc-69fd-425c-80df-84e5cbc6aec7",
+    "id": "71b9f424-2257-47ee-9a88-1bce169fe6ee",
     "name": "SHK6932",
     "lat": 31.7034,
     "lng": 73.9894,
@@ -27328,10 +27328,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101750
+    "createdAt": 1786860943193
   },
   {
-    "id": "00b72616-4503-4f23-88d3-0649144768c4",
+    "id": "353c806d-8194-44d1-a0b4-791e9af58b33",
     "name": "SHK6933",
     "lat": 31.7089,
     "lng": 74.0009,
@@ -27356,10 +27356,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101750
+    "createdAt": 1786860943193
   },
   {
-    "id": "e4bd9950-6db0-43ad-ae56-891a00a92845",
+    "id": "68449a75-558e-4437-a9fe-9a138836581e",
     "name": "SHK8832",
     "lat": 31.7194,
     "lng": 73.9626,
@@ -27384,10 +27384,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "CP",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101750
+    "createdAt": 1786860943194
   },
   {
-    "id": "ecdec1c7-d574-4f8e-a1e5-52a732673682",
+    "id": "22975204-b1e4-4b22-a896-18d26c9cba5e",
     "name": "SHK9866",
     "lat": 31.7038,
     "lng": 73.973,
@@ -27412,10 +27412,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101750
+    "createdAt": 1786860943194
   },
   {
-    "id": "07f9e8c7-d8fe-440c-832e-638011656e87",
+    "id": "b2f6d23f-e097-4cd1-b024-1cea5ae8e978",
     "name": "SRK3896",
     "lat": 31.4635,
     "lng": 74.0949,
@@ -27440,10 +27440,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101750
+    "createdAt": 1786860943194
   },
   {
-    "id": "907cee7e-e34f-4a91-9260-747cb81e1aea",
+    "id": "fca1d37e-43b2-4d73-af95-4ef703e201d6",
     "name": "SRK3897",
     "lat": 31.4618,
     "lng": 74.0985,
@@ -27468,10 +27468,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101750
+    "createdAt": 1786860943194
   },
   {
-    "id": "adbf0bd4-95a9-4fc6-a244-b031d212e0f2",
+    "id": "d6e4a159-5485-45f1-b5f9-23ffe524ad9a",
     "name": "SRK4275",
     "lat": 31.4674,
     "lng": 74.1005,
@@ -27496,10 +27496,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101750
+    "createdAt": 1786860943194
   },
   {
-    "id": "45c2cbd5-2c67-4509-aa67-a1d5a9fc4989",
+    "id": "1e3c8a26-fd84-4bfc-a22e-92b5241d65e3",
     "name": "SHD0053",
     "lat": 31.6519,
     "lng": 74.2822,
@@ -27524,10 +27524,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101750
+    "createdAt": 1786860943195
   },
   {
-    "id": "bd9c7e6f-8c80-4ede-aa8d-8fcc38eeb958",
+    "id": "39d47c59-b4aa-44c7-a9ac-632271c9852e",
     "name": "SHD0070",
     "lat": 31.6529,
     "lng": 74.276,
@@ -27552,10 +27552,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101750
+    "createdAt": 1786860943195
   },
   {
-    "id": "6e7f9f1c-2e58-475c-8e8b-7296fb8cf8bf",
+    "id": "52719a16-94c0-4e86-84e4-db2a7d5c5c36",
     "name": "SHD0407",
     "lat": 31.6171,
     "lng": 74.2564,
@@ -27580,10 +27580,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101750
+    "createdAt": 1786860943195
   },
   {
-    "id": "41663d3e-d1a2-4a54-a301-99f1fec29c2a",
+    "id": "cacc0fa6-737a-46e1-87d3-7d806dc5a0c1",
     "name": "SHD0613",
     "lat": 31.6247,
     "lng": 74.2984,
@@ -27608,10 +27608,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101750
+    "createdAt": 1786860943195
   },
   {
-    "id": "9ad4c96f-c46e-4cf6-b3e9-6015b314ba1d",
+    "id": "5ecfade7-588c-4f51-a45e-5699b22458ff",
     "name": "SHD0639",
     "lat": 31.6146,
     "lng": 74.2918,
@@ -27636,10 +27636,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101750
+    "createdAt": 1786860943196
   },
   {
-    "id": "a7095c5d-5354-4d39-a3de-ee3076e497ef",
+    "id": "cfdfec59-92bf-4654-9512-a7268e13c428",
     "name": "SHD0657",
     "lat": 31.6198,
     "lng": 74.2689,
@@ -27664,10 +27664,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101750
+    "createdAt": 1786860943196
   },
   {
-    "id": "4b173c9f-07e9-4a75-a2c3-2fda6652eccc",
+    "id": "576338c0-74fc-481b-8d8d-5de0eded813a",
     "name": "SHD1372",
     "lat": 31.6328,
     "lng": 74.2802,
@@ -27692,10 +27692,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101750
+    "createdAt": 1786860943196
   },
   {
-    "id": "3f614caf-afab-4974-883d-1aa3a7b376bd",
+    "id": "4cd593aa-acbf-4894-81d1-dd6abe18d15c",
     "name": "SHD1373",
     "lat": 31.6244,
     "lng": 74.2805,
@@ -27720,10 +27720,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101750
+    "createdAt": 1786860943196
   },
   {
-    "id": "6cd17e96-92ef-4429-980f-608aab17b9a6",
+    "id": "828a2aba-8dbd-4464-b859-69a28526692b",
     "name": "SHD1386",
     "lat": 31.6338,
     "lng": 74.3068,
@@ -27748,10 +27748,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "DG",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101750
+    "createdAt": 1786860943196
   },
   {
-    "id": "b642d3b9-1fcc-4f0b-93ba-ea893a2450ed",
+    "id": "f8ac0bc0-ad0a-4531-af8b-39fbb905cfb5",
     "name": "SHD1438",
     "lat": 31.6108,
     "lng": 74.2892,
@@ -27776,10 +27776,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101750
+    "createdAt": 1786860943197
   },
   {
-    "id": "e8012e9d-8778-4871-9636-185460f76cfc",
+    "id": "3ceef375-7eb3-44cb-9786-bd75ca699bc4",
     "name": "SHD1451",
     "lat": 31.63,
     "lng": 74.2996,
@@ -27804,10 +27804,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101750
+    "createdAt": 1786860943197
   },
   {
-    "id": "4514411a-5a18-4eb5-b35e-bb430e5ba118",
+    "id": "026a9c93-c4d2-4d66-ae23-6f375e0eb96c",
     "name": "SHD1591",
     "lat": 31.6277,
     "lng": 74.3026,
@@ -27832,10 +27832,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101750
+    "createdAt": 1786860943197
   },
   {
-    "id": "a591e2ba-cd51-4b5a-9076-9e7953b4f91d",
+    "id": "2553fafc-89aa-43f5-8f79-96965ebcaac6",
     "name": "SHD3182",
     "lat": 31.6108,
     "lng": 74.261,
@@ -27860,10 +27860,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101750
+    "createdAt": 1786860943197
   },
   {
-    "id": "3066afe8-16eb-452d-ae80-6d518f35a6eb",
+    "id": "ad25f6c9-4d83-4dad-9c48-ed3679d8fb9b",
     "name": "SHD3608",
     "lat": 31.6209,
     "lng": 74.2533,
@@ -27888,10 +27888,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101750
+    "createdAt": 1786860943198
   },
   {
-    "id": "6f85c1d8-7278-4679-aeb8-874e50d96314",
+    "id": "396d140a-192e-4cf3-b546-0a99995be9d4",
     "name": "SHD3759",
     "lat": 31.6303,
     "lng": 74.306,
@@ -27916,10 +27916,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101750
+    "createdAt": 1786860943198
   },
   {
-    "id": "b977711d-dc54-4453-8681-cde0d7f38a64",
+    "id": "c2d3a0e5-55f6-4ae0-8949-2153a8a6acf3",
     "name": "SHD3894",
     "lat": 31.6278,
     "lng": 74.286,
@@ -27944,10 +27944,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101750
+    "createdAt": 1786860943198
   },
   {
-    "id": "8f00620f-064b-4571-aabc-010bed199dae",
+    "id": "929d999e-ecc8-438e-8f53-901a05c67002",
     "name": "SHD3949",
     "lat": 31.6429,
     "lng": 74.2868,
@@ -27972,10 +27972,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101750
+    "createdAt": 1786860943199
   },
   {
-    "id": "0ceb28f9-7a5e-42e1-96e7-90586bd572cc",
+    "id": "54bfb453-27e6-4eed-a3d9-73f9b06936c7",
     "name": "SHD4339",
     "lat": 31.6165,
     "lng": 74.2776,
@@ -28000,10 +28000,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101750
+    "createdAt": 1786860943199
   },
   {
-    "id": "04e6c64f-802c-4f12-a4af-fb40cfdb571c",
+    "id": "42b82ebe-4832-4fe7-8a41-c74d6a0a0f34",
     "name": "SHD4573",
     "lat": 31.624,
     "lng": 74.2753,
@@ -28028,10 +28028,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101750
+    "createdAt": 1786860943199
   },
   {
-    "id": "e6ec1f13-3def-447f-9341-55cfcfd2417a",
+    "id": "f053ea3e-c4f9-42f1-8da6-0ccf00850fed",
     "name": "SHD4754",
     "lat": 31.6219,
     "lng": 74.2865,
@@ -28056,10 +28056,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101750
+    "createdAt": 1786860943199
   },
   {
-    "id": "00a4349a-9b1e-452a-b697-84168ab1d501",
+    "id": "be3b4d7b-e4bf-457d-bb99-1f948539e615",
     "name": "SHD5031",
     "lat": 31.6591,
     "lng": 74.2739,
@@ -28084,10 +28084,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101750
+    "createdAt": 1786860943199
   },
   {
-    "id": "a3ceb785-bea0-4fe9-a774-f853689d198d",
+    "id": "210f0f6a-d9d9-4372-8d6e-5cce92506801",
     "name": "SHD5056",
     "lat": 31.6296,
     "lng": 74.2721,
@@ -28112,10 +28112,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101750
+    "createdAt": 1786860943200
   },
   {
-    "id": "58b3a658-f3aa-4f15-a323-e539d3e2007f",
+    "id": "b86fd571-841e-4003-b89d-b2c575b084dd",
     "name": "SHD6926",
     "lat": 31.6333,
     "lng": 74.2767,
@@ -28140,10 +28140,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101750
+    "createdAt": 1786860943200
   },
   {
-    "id": "97440b15-9a79-41ba-a724-608a76605242",
+    "id": "ed12edd4-ef31-49b7-ac99-bec931bfb902",
     "name": "SHD6927",
     "lat": 31.6554,
     "lng": 74.2746,
@@ -28168,10 +28168,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101750
+    "createdAt": 1786860943200
   },
   {
-    "id": "4150b260-03aa-43de-9efc-d5ca502001dd",
+    "id": "dddf58b7-aafd-4868-be62-d5c7f2e3026c",
     "name": "SHD8082",
     "lat": 31.6288,
     "lng": 74.2735,
@@ -28196,10 +28196,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101750
+    "createdAt": 1786860943201
   },
   {
-    "id": "dd0b757e-979e-42b0-adb7-eccd9a9cbbcb",
+    "id": "67423052-5d59-4471-916b-4dbe53ce371f",
     "name": "SHD8108",
     "lat": 31.6283,
     "lng": 74.2909,
@@ -28224,10 +28224,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101750
+    "createdAt": 1786860943201
   },
   {
-    "id": "73962ae3-8e6b-4c54-9225-b084bde718ea",
+    "id": "4ea28330-c0ba-40a7-8c0e-c960e724e474",
     "name": "SHD8790",
     "lat": 31.6102,
     "lng": 74.2855,
@@ -28252,10 +28252,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "DG",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101750
+    "createdAt": 1786860943201
   },
   {
-    "id": "764e1062-cc56-42cf-95e6-018a68fa6a03",
+    "id": "639109a3-a2f7-407a-a922-24bcef5c4ef9",
     "name": "SHD8826",
     "lat": 31.6175,
     "lng": 74.2893,
@@ -28280,10 +28280,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101750
+    "createdAt": 1786860943201
   },
   {
-    "id": "c74fa3b2-0e74-4092-87e2-19326c8a16e0",
+    "id": "1ac81459-4e37-4b59-acc1-217b90809311",
     "name": "SHD8841",
     "lat": 31.626,
     "lng": 74.306,
@@ -28308,10 +28308,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101750
+    "createdAt": 1786860943202
   },
   {
-    "id": "6c036437-e675-450b-8097-82a20a3debb5",
+    "id": "885ae448-07c8-422c-a225-568584487d1b",
     "name": "SHD8873",
     "lat": 31.6495,
     "lng": 74.2831,
@@ -28336,10 +28336,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "CP",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101751
+    "createdAt": 1786860943202
   },
   {
-    "id": "01589023-27a0-4d66-8e10-5aadc3324da8",
+    "id": "ab910146-20a4-4c0a-8b5c-ae1b512b94e0",
     "name": "SHD9740",
     "lat": 31.6209,
     "lng": 74.2484,
@@ -28364,10 +28364,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101751
+    "createdAt": 1786860943202
   },
   {
-    "id": "7a244715-d257-4c69-8771-1c79dc4f963e",
+    "id": "91d137ad-67f2-4e03-a836-f8b7b58a8b51",
     "name": "SHD9795",
     "lat": 31.611,
     "lng": 74.2805,
@@ -28392,10 +28392,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101751
+    "createdAt": 1786860943202
   },
   {
-    "id": "591a21fc-1f7b-436e-8215-1988ce6ff27a",
+    "id": "17866657-7d06-4b6f-bb2e-e9d471e5baaf",
     "name": "SHD9805",
     "lat": 31.6175,
     "lng": 74.297,
@@ -28420,10 +28420,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101751
+    "createdAt": 1786860943203
   },
   {
-    "id": "c3c33378-d79d-47e3-b376-d4c5ade4b565",
+    "id": "1b3789d0-f81c-4252-b728-0c97b3c5339d",
     "name": "SHD9806",
     "lat": 31.6331,
     "lng": 74.31,
@@ -28448,10 +28448,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101751
+    "createdAt": 1786860943203
   },
   {
-    "id": "d5396d6d-31eb-4e95-a801-8e04a80c6941",
+    "id": "034b14a8-bd37-45d7-a2db-f788f16a28a8",
     "name": "SHD9807",
     "lat": 31.6216,
     "lng": 74.2811,
@@ -28476,10 +28476,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101751
+    "createdAt": 1786860943203
   },
   {
-    "id": "5fba9638-f3be-4eef-9041-ad2b025d304b",
+    "id": "63f48731-c2fc-4b89-a15c-d56daa5e0112",
     "name": "SHD9808",
     "lat": 31.6282,
     "lng": 74.2791,
@@ -28504,10 +28504,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101751
+    "createdAt": 1786860943203
   },
   {
-    "id": "231eabbe-4309-43fe-a9ca-120fbd2a48e5",
+    "id": "cf03cc11-2e4f-444d-84ce-38b73caec53b",
     "name": "SHD9825",
     "lat": 31.6597,
     "lng": 74.2806,
@@ -28532,10 +28532,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101751
+    "createdAt": 1786860943204
   },
   {
-    "id": "7b71f3e8-2a99-410d-8954-1b3cb44167da",
+    "id": "8a26167d-4c13-4ff0-85b9-6a1b5d80727d",
     "name": "SHD9846",
     "lat": 31.6483,
     "lng": 74.2907,
@@ -28560,10 +28560,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101751
+    "createdAt": 1786860943204
   },
   {
-    "id": "6e7ad603-8a23-4381-b851-79a7e27c7e50",
+    "id": "40968cf7-3b32-4dc0-b5c5-015f854b68b1",
     "name": "SHD9919",
     "lat": 31.6112,
     "lng": 74.2686,
@@ -28588,10 +28588,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101751
+    "createdAt": 1786860943204
   },
   {
-    "id": "afc8bfde-4f4f-4d67-9e67-fa1da5674149",
+    "id": "24dfe4f5-9073-4d95-a684-634adb460290",
     "name": "SKH8782",
     "lat": 31.7691,
     "lng": 74.0676,
@@ -28616,10 +28616,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101751
+    "createdAt": 1786860943204
   },
   {
-    "id": "c2c96dd8-d99b-4219-8b1c-c0896aaa4cc9",
+    "id": "995ac125-cb68-498c-949a-6436bd99db76",
     "name": "RJT9922",
     "lat": 31.1139,
     "lng": 74.1206,
@@ -28644,10 +28644,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101751
+    "createdAt": 1786860943204
   },
   {
-    "id": "a9817ee0-c7e8-42ab-9fe3-2591fa2dd33e",
+    "id": "b82e70f9-86e0-484f-b42a-c291cbe6d20b",
     "name": "RJT9924",
     "lat": 31.0828,
     "lng": 74.1412,
@@ -28672,10 +28672,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101751
+    "createdAt": 1786860943205
   },
   {
-    "id": "51a999a4-cff5-4a21-b994-8e55252c79be",
+    "id": "f9289427-1e79-46bd-9cb0-4c0fd9595adc",
     "name": "RUR9003",
     "lat": 31.114,
     "lng": 74.175,
@@ -28700,10 +28700,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101751
+    "createdAt": 1786860943205
   },
   {
-    "id": "47d01d03-a51a-4720-9754-5ddcc5d855bd",
+    "id": "af8967cf-8a4d-46ab-bb95-c3c2c67b5816",
     "name": "RJJ3260",
     "lat": 31.2244,
     "lng": 74.2523,
@@ -28728,10 +28728,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101751
+    "createdAt": 1786860943205
   },
   {
-    "id": "dc48b8e8-d468-4b5e-9517-04f1ce2acc8f",
+    "id": "b8e67987-d133-4d6f-95cb-4b5a2553b04c",
     "name": "RJJ9642",
     "lat": 31.2186,
     "lng": 74.2551,
@@ -28756,10 +28756,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101751
+    "createdAt": 1786860943205
   },
   {
-    "id": "5fd15238-aa1b-415f-97cc-06fd44ae2ed1",
+    "id": "1c9b6417-00e7-4326-9c47-2d86f8af8825",
     "name": "RUR4487",
     "lat": 31.24,
     "lng": 74.1802,
@@ -28784,10 +28784,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101751
+    "createdAt": 1786860943206
   },
   {
-    "id": "f0b8bf97-fb27-4419-b958-b076dd476ffe",
+    "id": "0c9e0454-8ade-43bd-a608-3df5356d3aaa",
     "name": "RWD3061",
     "lat": 31.2504,
     "lng": 74.22,
@@ -28812,10 +28812,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101751
+    "createdAt": 1786860943206
   },
   {
-    "id": "8367d93c-3023-4030-9e2f-33494ab98c69",
+    "id": "efb4ced4-21b7-4f47-a807-55bfbd6416a0",
     "name": "RWD3860",
     "lat": 31.2482,
     "lng": 74.2154,
@@ -28840,10 +28840,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101751
+    "createdAt": 1786860943206
   },
   {
-    "id": "50f68bd1-9230-46b4-8c58-2fc09411e443",
+    "id": "fb245f2d-2d18-45fc-aaa8-988d1d002154",
     "name": "RWD4600",
     "lat": 31.24,
     "lng": 74.2142,
@@ -28868,10 +28868,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101751
+    "createdAt": 1786860943206
   },
   {
-    "id": "ef280d54-1d02-43fd-ad05-df97a404752a",
+    "id": "32d83387-a01a-4f3e-9a25-d92e9364bd72",
     "name": "RWD4619",
     "lat": 31.2581,
     "lng": 74.2249,
@@ -28896,10 +28896,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101751
+    "createdAt": 1786860943206
   },
   {
-    "id": "edf718ec-03fd-4126-afbf-907887617e98",
+    "id": "3095633f-4a86-4606-81ac-ecf984438868",
     "name": "RWD4647",
     "lat": 31.2593,
     "lng": 74.2222,
@@ -28924,10 +28924,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101751
+    "createdAt": 1786860943206
   },
   {
-    "id": "83ad24bc-3b53-4e1f-8868-f13ad305486e",
+    "id": "f0ad9c2a-5b13-4ccf-93b4-dbf17c8d53c0",
     "name": "RWD4648",
     "lat": 31.2431,
     "lng": 74.2099,
@@ -28952,10 +28952,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101751
+    "createdAt": 1786860943207
   },
   {
-    "id": "fde52bed-7dd7-43c4-9826-b0fa42d997cc",
+    "id": "4926a8b7-df68-463f-ad54-d6f9b69ecb89",
     "name": "RWD6924",
     "lat": 31.2555,
     "lng": 74.2175,
@@ -28980,10 +28980,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "DG",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101751
+    "createdAt": 1786860943207
   },
   {
-    "id": "9fc0eaea-3b30-4b1a-afe6-90e806392881",
+    "id": "1ad26197-f945-4dcc-860b-96b4a1488729",
     "name": "RWD9935",
     "lat": 31.2471,
     "lng": 74.2116,
@@ -29008,10 +29008,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101751
+    "createdAt": 1786860943207
   },
   {
-    "id": "974cc8f1-2af8-4b59-8464-51959b8c29c5",
+    "id": "58c08691-f7a5-4853-822e-a54eca15fb95",
     "name": "RUR9303",
     "lat": 31.31154,
     "lng": 74.21175,
@@ -29036,10 +29036,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101751
+    "createdAt": 1786860943207
   },
   {
-    "id": "8ed0a6f7-8325-4004-8762-258810f36825",
+    "id": "8cb2a1c9-cfb0-4f98-99c0-141aca9959ae",
     "name": "RUR9302",
     "lat": 31.31763,
     "lng": 74.20445,
@@ -29064,10 +29064,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101751
+    "createdAt": 1786860943208
   },
   {
-    "id": "93115d9b-22b7-48c4-9b47-5ae9e0a17663",
+    "id": "2afa0a1f-c6c4-4ae6-85c2-4f06f2d2ae45",
     "name": "RUR9304",
     "lat": 31.296296,
     "lng": 74.208177,
@@ -29092,10 +29092,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101751
+    "createdAt": 1786860943208
   },
   {
-    "id": "67866451-9304-4018-be1c-4eaf36772eb0",
+    "id": "c5a38193-b563-48d3-99bf-ff4d90628095",
     "name": "RUR9301",
     "lat": 31.32144,
     "lng": 74.2197,
@@ -29120,10 +29120,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101751
+    "createdAt": 1786860943208
   },
   {
-    "id": "68c1da8f-247c-43f4-985b-77821b20d8e8",
+    "id": "59336123-60dc-4e2d-a14c-f41092b6ea45",
     "name": "QSS5950",
     "lat": 31.6628,
     "lng": 74.1365,
@@ -29148,10 +29148,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101751
+    "createdAt": 1786860943208
   },
   {
-    "id": "fd43850b-6f16-46b0-aa39-f306a1e65459",
+    "id": "d126a0eb-dc29-46e0-9cdb-41faf3ff5c5b",
     "name": "QSS8785",
     "lat": 31.6904,
     "lng": 74.1398,
@@ -29176,10 +29176,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101751
+    "createdAt": 1786860943208
   },
   {
-    "id": "4c83ab25-a65c-43bf-af28-aafc8cc6a7b5",
+    "id": "eb37fc81-58a1-436d-a2f7-6cb53aaaa19d",
     "name": "QSS8786",
     "lat": 31.6679,
     "lng": 74.1184,
@@ -29204,10 +29204,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101751
+    "createdAt": 1786860943209
   },
   {
-    "id": "13cb0cab-ea0b-4070-8844-c49651c54eea",
+    "id": "af01f03a-bc8e-4392-96ac-28dc60b2b476",
     "name": "PRM7779",
     "lat": 31.2037,
     "lng": 74.1522,
@@ -29232,10 +29232,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101751
+    "createdAt": 1786860943209
   },
   {
-    "id": "7b7ef99f-62c8-44fc-9fdf-64fe59b2d2c0",
+    "id": "401c4815-ce61-4f9d-a4a0-d9aa8569a5d2",
     "name": "PRM8776",
     "lat": 31.2225,
     "lng": 74.1345,
@@ -29260,10 +29260,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101751
+    "createdAt": 1786860943209
   },
   {
-    "id": "8875c30e-7d57-47f9-b167-05e311519622",
+    "id": "777902aa-3e00-4fcb-b2c3-d62456996e45",
     "name": "HWY0012",
     "lat": 31.2733,
     "lng": 74.0492,
@@ -29288,10 +29288,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101751
+    "createdAt": 1786860943209
   },
   {
-    "id": "c15d26e2-7b21-482c-b141-e2b05c66cbac",
+    "id": "f29d878a-31f9-4059-8e3c-494b748e3a7b",
     "name": "HWY4725",
     "lat": 31.2459,
     "lng": 73.9993,
@@ -29316,10 +29316,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101751
+    "createdAt": 1786860943209
   },
   {
-    "id": "ec91fa48-dd46-4d94-af88-34d44a9c24ec",
+    "id": "67dedce6-676d-4b4d-85ac-8552e4030c5e",
     "name": "HWY5089",
     "lat": 31.1037,
     "lng": 73.9008,
@@ -29344,10 +29344,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101751
+    "createdAt": 1786860943210
   },
   {
-    "id": "41f6f01f-beda-4a85-9c98-246598cc8165",
+    "id": "7f33e68c-5adf-47bd-aa79-78254f70f0cd",
     "name": "HWY6801",
     "lat": 31.0366,
     "lng": 73.8363,
@@ -29372,10 +29372,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101751
+    "createdAt": 1786860943210
   },
   {
-    "id": "7908196a-facb-4249-8277-b05dbf353749",
+    "id": "2a207c60-a259-4356-9320-d72388d53efd",
     "name": "HWY9654",
     "lat": 30.9859,
     "lng": 73.796,
@@ -29400,10 +29400,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101751
+    "createdAt": 1786860943210
   },
   {
-    "id": "933ba87a-97df-4cec-bf75-5365aa38d213",
+    "id": "388283b9-9a7c-41fc-9c59-cb1eb1dde721",
     "name": "HWY9715",
     "lat": 31.2371,
     "lng": 73.9865,
@@ -29428,10 +29428,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101751
+    "createdAt": 1786860943210
   },
   {
-    "id": "16c974d1-3e0e-4972-b976-78e02bcb96ef",
+    "id": "81bbb0a0-fda5-406e-a4a6-711eb16c8d02",
     "name": "HWY9796",
     "lat": 31.0378,
     "lng": 73.8612,
@@ -29456,10 +29456,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101752
+    "createdAt": 1786860943210
   },
   {
-    "id": "1c1277f5-c365-434c-95f5-97242fbe3e4e",
+    "id": "1c0b8144-871e-46c8-81a6-039f6009a064",
     "name": "PTT0325",
     "lat": 31.0276,
     "lng": 73.8517,
@@ -29484,10 +29484,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101752
+    "createdAt": 1786860943211
   },
   {
-    "id": "c68e862e-aaaf-4907-8025-7bd1e7444b44",
+    "id": "d73ff02b-3cef-4367-8477-3fff8343d42e",
     "name": "PTT1144",
     "lat": 31.0107,
     "lng": 73.846,
@@ -29512,10 +29512,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101752
+    "createdAt": 1786860943211
   },
   {
-    "id": "26d6a9de-a0b5-401a-95e2-98b0656b0df7",
+    "id": "3920d6b1-fb2c-478a-9a56-aa38fab7c48b",
     "name": "PTT1145",
     "lat": 31.0196,
     "lng": 73.8591,
@@ -29540,10 +29540,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101752
+    "createdAt": 1786860943211
   },
   {
-    "id": "924b3d3b-67ac-409c-acfc-87d45eab84ab",
+    "id": "9300401f-b221-49a9-a422-5b6af5a4b161",
     "name": "PTT3073",
     "lat": 31.0156,
     "lng": 73.8583,
@@ -29568,10 +29568,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101752
+    "createdAt": 1786860943211
   },
   {
-    "id": "7048956d-32cc-43e4-a7a1-9f8b5600869d",
+    "id": "7be78338-92b1-489c-8c5d-8710808e99a6",
     "name": "PTT3684",
     "lat": 31.0228,
     "lng": 73.8566,
@@ -29596,10 +29596,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "DG",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101752
+    "createdAt": 1786860943212
   },
   {
-    "id": "e8e8119d-09dd-469e-8336-156f85148dd4",
+    "id": "a92ab1e3-a885-4457-8174-97ad0f8e0c68",
     "name": "PTT4026",
     "lat": 31.0181,
     "lng": 73.8507,
@@ -29624,10 +29624,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101752
+    "createdAt": 1786860943212
   },
   {
-    "id": "156865e1-b182-4667-9317-9e356dfc046b",
+    "id": "47597c03-a088-4a2a-97ed-9dc68dec45a9",
     "name": "PTT4027",
     "lat": 31.0206,
     "lng": 73.846,
@@ -29652,10 +29652,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101752
+    "createdAt": 1786860943212
   },
   {
-    "id": "fa2e6e30-7623-44ab-98ae-cc6db50a5315",
+    "id": "dd06008d-e030-4909-8049-d5eb2713fd61",
     "name": "PTT6954",
     "lat": 31.0266,
     "lng": 73.8442,
@@ -29680,10 +29680,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101752
+    "createdAt": 1786860943212
   },
   {
-    "id": "4e3e8ebf-ad55-43b7-9f5f-3bba0927f502",
+    "id": "9bde72d7-00f2-43ac-b2d2-7b6f92b9e21c",
     "name": "PTT8822",
     "lat": 31.0216,
     "lng": 73.8533,
@@ -29708,10 +29708,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101752
+    "createdAt": 1786860943213
   },
   {
-    "id": "db878e9e-08e9-40bd-9c08-cb0cb9afce47",
+    "id": "edc01b6a-e0d1-482d-8976-63324d49fdae",
     "name": "PTT9834",
     "lat": 31.0148,
     "lng": 73.8486,
@@ -29736,10 +29736,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101752
+    "createdAt": 1786860943213
   },
   {
-    "id": "67c73733-6c5a-4022-aed1-707629870f06",
+    "id": "5a7784cc-6457-4cde-8bac-2fb4ac02122f",
     "name": "RUR0310",
     "lat": 30.9774,
     "lng": 73.8279,
@@ -29764,10 +29764,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101752
+    "createdAt": 1786860943213
   },
   {
-    "id": "d3c60ce7-a4d1-4ee5-9f01-ef5fab103282",
+    "id": "d23383c8-18b2-4d53-aec6-5afa6736a7e6",
     "name": "RUR0354",
     "lat": 31.0176,
     "lng": 73.7706,
@@ -29792,10 +29792,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101752
+    "createdAt": 1786860943213
   },
   {
-    "id": "4e5d60df-dc24-4cd4-bc3b-d3c5760f48c5",
+    "id": "5cf94cda-0c9a-49dc-be3f-c30cf4700d9d",
     "name": "RUR0987",
     "lat": 31.1106,
     "lng": 73.7874,
@@ -29820,10 +29820,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101752
+    "createdAt": 1786860943214
   },
   {
-    "id": "8448e1db-d32d-49bf-964d-c6b04a585374",
+    "id": "87e5442b-be09-4feb-b2a6-097cb949e10f",
     "name": "RUR0992",
     "lat": 31.1592,
     "lng": 73.7197,
@@ -29848,10 +29848,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101752
+    "createdAt": 1786860943214
   },
   {
-    "id": "98e5d96c-2bc8-4240-9c67-21877aff6fdf",
+    "id": "437306e3-1a5d-4200-a89f-1d953923e396",
     "name": "RUR0996",
     "lat": 31.0514,
     "lng": 73.9397,
@@ -29876,10 +29876,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101752
+    "createdAt": 1786860943214
   },
   {
-    "id": "5561721d-9d68-44d9-85d8-cc28629fd35a",
+    "id": "10747b05-821d-4ae5-83c6-77e1c89c4f8a",
     "name": "RUR3559",
     "lat": 30.9976,
     "lng": 73.9086,
@@ -29904,10 +29904,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101752
+    "createdAt": 1786860943214
   },
   {
-    "id": "43f2f872-a32f-4af2-a616-823457c1de9a",
+    "id": "2e74c68c-81fb-4a9e-bc5e-72ebd7e16c85",
     "name": "RUR3560",
     "lat": 31.1193,
     "lng": 73.7288,
@@ -29932,10 +29932,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101752
+    "createdAt": 1786860943215
   },
   {
-    "id": "93b71410-3baf-43ec-bd53-524ed602cf5a",
+    "id": "d5183301-0669-44a3-96bf-f6eaa99cf81f",
     "name": "RUR8899",
     "lat": 31.0018,
     "lng": 73.7379,
@@ -29960,10 +29960,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101752
+    "createdAt": 1786860943215
   },
   {
-    "id": "2bfc8be6-4b88-4cc7-a5be-c3967737830f",
+    "id": "b6106d6e-35ad-46e5-9ab0-db758033d2af",
     "name": "RUR9605",
     "lat": 31.0556,
     "lng": 73.9155,
@@ -29988,10 +29988,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101752
+    "createdAt": 1786860943215
   },
   {
-    "id": "2eef988c-c700-41b9-94e4-1e3185436a84",
+    "id": "1276c159-2b4e-40c6-af01-6a2048866010",
     "name": "RUR1076",
     "lat": 31.0465,
     "lng": 73.666,
@@ -30016,10 +30016,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101752
+    "createdAt": 1786860943215
   },
   {
-    "id": "cc5404cb-8609-4907-bfcb-beb29616aea9",
+    "id": "04205a65-6344-40a9-a599-71f8859df8f8",
     "name": "RUR8886",
     "lat": 31.0049,
     "lng": 73.6817,
@@ -30044,10 +30044,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101752
+    "createdAt": 1786860943215
   },
   {
-    "id": "baa52337-4d0c-41dd-b367-05b12088ba29",
+    "id": "dc8db4f8-f38f-440e-9b8a-dac4ce72b43d",
     "name": "BPR3106",
     "lat": 31.2043,
     "lng": 73.9519,
@@ -30072,10 +30072,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101752
+    "createdAt": 1786860943216
   },
   {
-    "id": "4b9ed6c1-6ab2-4643-bcac-05be06e9fadf",
+    "id": "01afc1a4-350b-488a-a824-64f240e784be",
     "name": "NGM3459",
     "lat": 31.9053,
     "lng": 74.5102,
@@ -30100,10 +30100,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101752
+    "createdAt": 1786860943216
   },
   {
-    "id": "6f4e5ee2-3778-413a-9626-ecc12136b60f",
+    "id": "4ed06f35-0c27-4791-bfcb-b652e8171b3e",
     "name": "NGM5922",
     "lat": 31.9193,
     "lng": 74.4901,
@@ -30128,10 +30128,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "DG",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101752
+    "createdAt": 1786860943216
   },
   {
-    "id": "67079462-e620-4846-92d5-f20bd8d84a2b",
+    "id": "453ffde2-2aef-419d-bd71-60712bec69e2",
     "name": "NGM9644",
     "lat": 31.9044,
     "lng": 74.5157,
@@ -30156,10 +30156,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101752
+    "createdAt": 1786860943217
   },
   {
-    "id": "f71c17d9-7d0b-41e6-9dd7-1ab6e72aeae6",
+    "id": "0c515f51-dcf6-472f-99f4-a923dd587420",
     "name": "NAN1133",
     "lat": 31.4506,
     "lng": 73.7154,
@@ -30184,10 +30184,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101752
+    "createdAt": 1786860943217
   },
   {
-    "id": "da11056d-dabc-48a0-b8c8-1caf73506e0f",
+    "id": "fa66a5c0-8f1a-4df4-bcb2-029fd9a21dfb",
     "name": "NAN3787",
     "lat": 31.4535,
     "lng": 73.7118,
@@ -30212,10 +30212,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101752
+    "createdAt": 1786860943217
   },
   {
-    "id": "92ab62ec-100a-4dcc-8fcc-945c080ad04f",
+    "id": "c3ca5cab-3568-4925-be81-be8bd595e852",
     "name": "NAN3975",
     "lat": 31.4547,
     "lng": 73.7045,
@@ -30240,10 +30240,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101752
+    "createdAt": 1786860943217
   },
   {
-    "id": "9428387e-4c2f-44d2-b1f9-e8e50b92b699",
+    "id": "0e14af5e-056a-4888-b77b-e04599384b57",
     "name": "NAN4036",
     "lat": 31.4446,
     "lng": 73.7109,
@@ -30268,10 +30268,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101752
+    "createdAt": 1786860943218
   },
   {
-    "id": "baa4948d-8881-474d-9c7a-6eb542cf4e3b",
+    "id": "cab9586c-609d-4de8-9a66-59320b8eaaf7",
     "name": "NAN4062",
     "lat": 31.448,
     "lng": 73.7026,
@@ -30296,10 +30296,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101752
+    "createdAt": 1786860943218
   },
   {
-    "id": "694c65ad-3762-457d-8b1a-b153a6c974c0",
+    "id": "5e6bffa5-36dd-484e-9d11-ed11d7083fcd",
     "name": "NAN6914",
     "lat": 31.4451,
     "lng": 73.6938,
@@ -30324,10 +30324,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101752
+    "createdAt": 1786860943218
   },
   {
-    "id": "fd34620e-3b9e-473d-951f-30a864d4be13",
+    "id": "8979ec72-6246-4ac3-9488-60ef2ad7386e",
     "name": "RUR0273",
     "lat": 31.2335,
     "lng": 73.7266,
@@ -30352,10 +30352,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101752
+    "createdAt": 1786860943220
   },
   {
-    "id": "d6e7e7c6-1369-4271-bd05-39e72f682fda",
+    "id": "9b1e0b70-6056-48bd-927a-2eeca2e5fa74",
     "name": "RUR0385",
     "lat": 31.4812,
     "lng": 73.621,
@@ -30380,10 +30380,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101752
+    "createdAt": 1786860943220
   },
   {
-    "id": "0161e71d-a0b6-4355-8d9d-f2345598150e",
+    "id": "b904a529-3ded-4bc1-ac25-e8c913b03411",
     "name": "RUR0386",
     "lat": 31.2697,
     "lng": 73.7882,
@@ -30408,10 +30408,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101752
+    "createdAt": 1786860943220
   },
   {
-    "id": "199be2d9-d623-4a76-bd33-73af0bfafdc1",
+    "id": "9abc3508-9619-4a74-9046-c406b8ff39b7",
     "name": "RUR0472",
     "lat": 31.5289,
     "lng": 73.6388,
@@ -30436,10 +30436,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101752
+    "createdAt": 1786860943221
   },
   {
-    "id": "a553ea8e-0aa6-4943-a953-f4a62d586888",
+    "id": "161d5631-8acc-4e6e-bd27-46b8880731af",
     "name": "RUR0473",
     "lat": 31.2728,
     "lng": 73.6695,
@@ -30464,10 +30464,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101752
+    "createdAt": 1786860943221
   },
   {
-    "id": "c8999eef-cde1-4daf-ab02-9ab5d2b15e2e",
+    "id": "6d401626-0afb-4096-9311-c3a743502aa9",
     "name": "RUR0734",
     "lat": 31.4206,
     "lng": 73.6876,
@@ -30492,10 +30492,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101752
+    "createdAt": 1786860943221
   },
   {
-    "id": "2e09be18-4ff5-434f-9d16-04fbd922de10",
+    "id": "4ddeb278-9fc5-4b3e-bd70-5ac9ebf3c041",
     "name": "RUR0881",
     "lat": 31.4837,
     "lng": 73.549,
@@ -30520,10 +30520,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101752
+    "createdAt": 1786860943222
   },
   {
-    "id": "656ab7a7-6fcf-4202-8f32-684f9b6f30a5",
+    "id": "bd9e8265-69cb-4d3b-9c60-7d1ba9c6ad6b",
     "name": "RUR1032",
     "lat": 31.3724,
     "lng": 73.8434,
@@ -30548,10 +30548,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101752
+    "createdAt": 1786860943222
   },
   {
-    "id": "7d85ec11-6b30-44e1-9ceb-c176f01d6150",
+    "id": "779c94a6-ca41-4384-9bc5-b376186bcd20",
     "name": "RUR1037",
     "lat": 31.1529,
     "lng": 73.5457,
@@ -30576,10 +30576,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101753
+    "createdAt": 1786860943222
   },
   {
-    "id": "af2d2570-cc97-4599-916f-583dd6ac3715",
+    "id": "f7f4f93e-a775-48d6-b26e-03034ef5be5f",
     "name": "RUR1039",
     "lat": 31.4954,
     "lng": 73.6793,
@@ -30604,10 +30604,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101753
+    "createdAt": 1786860943222
   },
   {
-    "id": "aeae88ca-154d-4eac-afc4-9b691892dad3",
+    "id": "863a30f6-9222-4f67-94d4-02b5ea92dbd0",
     "name": "RUR1044",
     "lat": 31.4343,
     "lng": 74.0353,
@@ -30632,10 +30632,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101753
+    "createdAt": 1786860943222
   },
   {
-    "id": "2098ba4d-bca0-4ee3-88cf-fc50c97aa073",
+    "id": "86a504f5-6946-47aa-93a9-3e083077aaea",
     "name": "RUR3071",
     "lat": 31.173,
     "lng": 73.5609,
@@ -30660,10 +30660,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101753
+    "createdAt": 1786860943223
   },
   {
-    "id": "900a257e-3e9a-462b-85da-c9e83d51f415",
+    "id": "8b188a5d-195a-4a96-8984-2a32f3187b8b",
     "name": "RUR3974",
     "lat": 31.5233,
     "lng": 73.7033,
@@ -30688,10 +30688,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101753
+    "createdAt": 1786860943223
   },
   {
-    "id": "50f7c93a-0a51-4efc-addb-b19ab1a37490",
+    "id": "3c045ac7-c609-4d21-9a63-6ea0b4153903",
     "name": "RUR4839",
     "lat": 31.5079,
     "lng": 73.5836,
@@ -30716,10 +30716,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101753
+    "createdAt": 1786860943223
   },
   {
-    "id": "8bdf38c4-b7b4-415b-b423-b09d5e7e14aa",
+    "id": "3b046d3b-b6ad-4c89-aeb5-11ba61f8a106",
     "name": "RUR6000",
     "lat": 31.3974,
     "lng": 73.7747,
@@ -30744,10 +30744,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101753
+    "createdAt": 1786860943223
   },
   {
-    "id": "4c64ce1d-8b73-4c94-8fea-e473aa29ca44",
+    "id": "597de3e2-5c7b-4790-b9e5-d2d33f2e4fad",
     "name": "RUR6007",
     "lat": 31.303,
     "lng": 73.8899,
@@ -30772,10 +30772,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101753
+    "createdAt": 1786860943223
   },
   {
-    "id": "0bff2e90-024a-4924-a16e-a1086573ab04",
+    "id": "8967e158-6075-4d74-a15f-0c144348dfcb",
     "name": "RUR8866",
     "lat": 31.5073,
     "lng": 73.8567,
@@ -30800,10 +30800,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101753
+    "createdAt": 1786860943224
   },
   {
-    "id": "847b31a0-178f-4e38-9ed9-44202c937582",
+    "id": "0950e1d9-4f51-43fb-9d3b-ebb74b00d02d",
     "name": "RUR9177",
     "lat": 31.5033,
     "lng": 73.7395,
@@ -30828,10 +30828,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101753
+    "createdAt": 1786860943224
   },
   {
-    "id": "f9fece48-5c5e-43d0-ae0b-d88b9b8a204d",
+    "id": "e9b03efc-4579-4463-9f76-574580c6b028",
     "name": "RUR9179",
     "lat": 31.5344,
     "lng": 73.5842,
@@ -30856,10 +30856,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101753
+    "createdAt": 1786860943224
   },
   {
-    "id": "dd9f3545-4a6e-46dc-a386-9070568328e0",
+    "id": "f5c5df13-943c-4a71-95b0-590595dfc1d9",
     "name": "RUR9818",
     "lat": 31.5626,
     "lng": 73.6933,
@@ -30884,10 +30884,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101753
+    "createdAt": 1786860943225
   },
   {
-    "id": "450aa9cf-97b3-47b6-b12c-253e5f952970",
+    "id": "46459a42-e389-49e6-9cdd-ac0ec7c0b238",
     "name": "NNS8780",
     "lat": 31.8412,
     "lng": 74.2653,
@@ -30912,10 +30912,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101753
+    "createdAt": 1786860943225
   },
   {
-    "id": "73997de7-c4af-49ce-b98b-758da66bbb55",
+    "id": "84119bc1-17e5-4ea7-9142-7ec7364a8bb3",
     "name": "HWY5566",
     "lat": 31.731963,
     "lng": 74.315807,
@@ -30940,10 +30940,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101753
+    "createdAt": 1786860943225
   },
   {
-    "id": "f75d722e-14f5-4810-a2dd-1c25f9527289",
+    "id": "8939d0ce-bd8e-4f9b-b626-da526afff381",
     "name": "HWY5921",
     "lat": 31.8599,
     "lng": 74.2458,
@@ -30968,10 +30968,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101753
+    "createdAt": 1786860943226
   },
   {
-    "id": "46e42f4f-f0cd-45f6-8479-e4aa29cd99b3",
+    "id": "856be862-9833-4b7f-b43b-b35f603bb622",
     "name": "MRY0270",
     "lat": 31.7904,
     "lng": 74.2574,
@@ -30996,10 +30996,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101753
+    "createdAt": 1786860943226
   },
   {
-    "id": "d307b9bd-83df-4add-9a64-674dcaff788f",
+    "id": "61e2be9f-7bfa-4233-a736-c58d7c7ddca2",
     "name": "MRY1214",
     "lat": 31.8211,
     "lng": 74.2462,
@@ -31024,10 +31024,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101753
+    "createdAt": 1786860943229
   },
   {
-    "id": "3163a75e-a1ab-4ae9-a006-1a9f6b41c6c1",
+    "id": "b5ebf2ce-2a00-4b93-a30a-d118ac9766f2",
     "name": "MRY3849",
     "lat": 31.8067,
     "lng": 74.248,
@@ -31052,10 +31052,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101753
+    "createdAt": 1786860943229
   },
   {
-    "id": "bdea3f5c-f340-49d4-a12e-2ceba7c284e9",
+    "id": "35e0282c-2e56-48bf-841c-78552c175402",
     "name": "MRY4473",
     "lat": 31.8119,
     "lng": 74.2526,
@@ -31080,10 +31080,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101753
+    "createdAt": 1786860943229
   },
   {
-    "id": "0564db1a-2a3a-4aef-b670-8d3eceffb748",
+    "id": "0fd9060e-0566-4bcb-8806-3086a4c4c3ce",
     "name": "MRY5926",
     "lat": 31.7963,
     "lng": 74.2562,
@@ -31108,10 +31108,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101753
+    "createdAt": 1786860943229
   },
   {
-    "id": "f542e399-520d-4d87-965a-4dabe96c0058",
+    "id": "75e40593-f836-457f-9776-37b8022a4667",
     "name": "MRY5927",
     "lat": 31.8028,
     "lng": 74.2536,
@@ -31136,10 +31136,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "DG",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101753
+    "createdAt": 1786860943230
   },
   {
-    "id": "7e1f178d-34d3-481a-b17b-799c73615d4f",
+    "id": "6c008a95-930c-4d12-9657-79604b3e9b3f",
     "name": "MRY6957",
     "lat": 31.8053,
     "lng": 74.2621,
@@ -31164,10 +31164,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101753
+    "createdAt": 1786860943230
   },
   {
-    "id": "d9e69b94-4065-445e-aa3f-24549b333916",
+    "id": "bc2f3121-f12a-4fbe-a026-3cfd32d132e7",
     "name": "MRY6958",
     "lat": 31.8149,
     "lng": 74.2674,
@@ -31192,10 +31192,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DG",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101753
+    "createdAt": 1786860943230
   },
   {
-    "id": "75fcf4b2-52e1-4c1b-ab7c-8030a795a6e9",
+    "id": "f6865eec-0665-4ab7-9ce4-4c93333f5392",
     "name": "MRY6969",
     "lat": 31.8006,
     "lng": 74.2464,
@@ -31220,10 +31220,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101753
+    "createdAt": 1786860943230
   },
   {
-    "id": "5b962d54-b4bd-49a1-a01f-ee8b9216b342",
+    "id": "327b54c0-1e60-497e-ab2b-1e9f91a73ca4",
     "name": "MRY9860",
     "lat": 31.8011,
     "lng": 74.2609,
@@ -31248,10 +31248,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101753
+    "createdAt": 1786860943231
   },
   {
-    "id": "b9048530-c0c3-47d8-b733-6569909e4b49",
+    "id": "e3036cfd-a505-4590-8f05-4f219a1341b1",
     "name": "MRY9881",
     "lat": 31.8058,
     "lng": 74.2524,
@@ -31276,10 +31276,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101753
+    "createdAt": 1786860943231
   },
   {
-    "id": "8f40cc7b-f28f-4538-a27d-5c7f4cafd293",
+    "id": "23da967a-cb52-43b5-8246-8c84ee1bdea6",
     "name": "MRY9883",
     "lat": 31.7789,
     "lng": 74.2586,
@@ -31304,10 +31304,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101753
+    "createdAt": 1786860943231
   },
   {
-    "id": "da868439-8d17-4f3b-a7f8-2fbf1e316629",
+    "id": "4fee9950-2415-4f35-877f-341263dcfd0e",
     "name": "RUR0829",
     "lat": 31.8095,
     "lng": 74.2205,
@@ -31332,10 +31332,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101753
+    "createdAt": 1786860943231
   },
   {
-    "id": "51311eda-7af5-4a22-8589-8687cca08c12",
+    "id": "0f1df617-b208-4812-a7ae-3aefd5808923",
     "name": "RUR4474",
     "lat": 31.8725,
     "lng": 74.3801,
@@ -31360,10 +31360,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101753
+    "createdAt": 1786860943231
   },
   {
-    "id": "68fcec99-9f28-4c58-8572-56c439f62879",
+    "id": "985e44b4-5b92-4e9f-ac6a-6eb46180e003",
     "name": "RUR5918",
     "lat": 31.8626,
     "lng": 74.3087,
@@ -31388,10 +31388,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101753
+    "createdAt": 1786860943231
   },
   {
-    "id": "71ce949d-40b5-48ec-8418-09fec70ce2b1",
+    "id": "e8967e4f-4e33-4004-98f4-76cd47f2f12b",
     "name": "RUR5952",
     "lat": 31.8045,
     "lng": 74.1787,
@@ -31416,10 +31416,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101753
+    "createdAt": 1786860943232
   },
   {
-    "id": "79fb84c4-40ab-4db8-9f2c-4bbd5dd0c052",
+    "id": "a35f7570-e8a8-4716-8caa-6b2efaf6521c",
     "name": "MKN1178",
     "lat": 31.3165,
     "lng": 73.7907,
@@ -31444,10 +31444,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101753
+    "createdAt": 1786860943232
   },
   {
-    "id": "bf0c18ff-b3b4-4dc6-9c06-d43434b0e272",
+    "id": "c61a41a3-70b0-4e89-935c-4beec8ab2460",
     "name": "MKN3489",
     "lat": 31.3176,
     "lng": 73.7978,
@@ -31472,10 +31472,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101753
+    "createdAt": 1786860943232
   },
   {
-    "id": "10f77141-95d3-419a-a7b1-32e0c2cd595a",
+    "id": "3147578a-3b75-4fa7-8870-1cb2d5d88cf0",
     "name": "MKN3570",
     "lat": 31.3132,
     "lng": 73.7224,
@@ -31500,10 +31500,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101753
+    "createdAt": 1786860943232
   },
   {
-    "id": "e11c4a26-65a0-4e5c-ac60-8332abda3f6d",
+    "id": "39658b19-4088-4575-ab33-2f7016bcbec8",
     "name": "MKN4260",
     "lat": 31.3102,
     "lng": 73.7996,
@@ -31528,10 +31528,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101753
+    "createdAt": 1786860943233
   },
   {
-    "id": "8ce43fee-c4e4-4f3a-979d-fa712ad6ae7f",
+    "id": "bd432b46-373a-46fe-93c9-cb0dc5860a42",
     "name": "MKN6967",
     "lat": 31.3221,
     "lng": 73.7921,
@@ -31556,10 +31556,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101753
+    "createdAt": 1786860943233
   },
   {
-    "id": "ee64042c-b948-4ec1-90c0-8b9461c76cdf",
+    "id": "291ff3ab-5f40-40bf-9dfd-cc05d086e495",
     "name": "MNR9625",
     "lat": 30.785,
     "lng": 74.1617,
@@ -31584,10 +31584,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101753
+    "createdAt": 1786860943233
   },
   {
-    "id": "4997fda3-1e70-44c4-a7d9-d3f37c96ce70",
+    "id": "1c112d03-eb3c-4f1c-9944-dc5037899b64",
     "name": "MNR9626",
     "lat": 30.7504,
     "lng": 74.1533,
@@ -31612,10 +31612,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101754
+    "createdAt": 1786860943234
   },
   {
-    "id": "26013324-ace8-4711-8b80-f5d5ef2b2e1b",
+    "id": "107c4520-892e-4d86-826b-c591f358fbb4",
     "name": "MGA0778",
     "lat": 31.3181,
     "lng": 74.0937,
@@ -31640,10 +31640,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101754
+    "createdAt": 1786860943234
   },
   {
-    "id": "a0171b6f-1318-4158-a0a4-f976fbf130b9",
+    "id": "65ece666-79d6-493c-9661-847866f5ede0",
     "name": "MGA1116",
     "lat": 31.3021,
     "lng": 74.0774,
@@ -31668,10 +31668,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101754
+    "createdAt": 1786860943234
   },
   {
-    "id": "b7fdc6b9-1b6f-451a-9205-79e908f57698",
+    "id": "755bb33a-659f-4edb-ba00-18c8cdb2b673",
     "name": "MGA3569",
     "lat": 31.3031,
     "lng": 74.0666,
@@ -31696,10 +31696,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101754
+    "createdAt": 1786860943234
   },
   {
-    "id": "a92b2b27-301c-453e-83da-5296349a0807",
+    "id": "e4734761-5994-49ac-8c56-cb578f214a0d",
     "name": "MGA4440",
     "lat": 31.3081,
     "lng": 74.0536,
@@ -31724,10 +31724,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101754
+    "createdAt": 1786860943234
   },
   {
-    "id": "90c3dc1e-aa0a-4429-8e16-5c5ce12357f4",
+    "id": "aa2a0a46-4df7-4972-bd20-408bc846d45a",
     "name": "MGA6971",
     "lat": 31.2978,
     "lng": 74.0681,
@@ -31752,10 +31752,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101754
+    "createdAt": 1786860943235
   },
   {
-    "id": "8931ce9e-e28e-4659-a054-3d79815b860c",
+    "id": "3d56e70c-0eba-4a1c-bd9d-269e76d9cffa",
     "name": "MGA7001",
     "lat": 31.2949,
     "lng": 74.0725,
@@ -31780,10 +31780,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101754
+    "createdAt": 1786860943235
   },
   {
-    "id": "5d1d423e-6ab8-454a-bebe-bb8e10f0c4dc",
+    "id": "73e01d38-19bc-4889-9ee5-764f9ab7c1aa",
     "name": "BPR1166",
     "lat": 31.1915537,
     "lng": 73.945041,
@@ -31808,10 +31808,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101754
+    "createdAt": 1786860943235
   },
   {
-    "id": "6563587d-9d4e-4821-992f-24433f59dc77",
+    "id": "ed9a5214-f38f-4ed4-bdc4-24391c14eaeb",
     "name": "MFZ4257",
     "lat": 31.4106,
     "lng": 73.9737,
@@ -31836,10 +31836,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101754
+    "createdAt": 1786860943235
   },
   {
-    "id": "2bce4511-f960-4843-9688-bbd638f94db8",
+    "id": "759f3866-d173-4475-b976-807e47012c31",
     "name": "MFZ9139",
     "lat": 31.417,
     "lng": 73.9938,
@@ -31864,10 +31864,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101754
+    "createdAt": 1786860943235
   },
   {
-    "id": "ad7beba7-c80d-4016-8d3d-4a1713ed599f",
+    "id": "7a9bb208-9bcf-4303-9be8-d83f270c138e",
     "name": "MFZ9641",
     "lat": 31.4136,
     "lng": 73.9839,
@@ -31892,10 +31892,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101754
+    "createdAt": 1786860943236
   },
   {
-    "id": "15e2a22a-7076-4013-af88-a2fcf7f6cddb",
+    "id": "854b056d-e413-4a02-ad90-0ad9b60febfa",
     "name": "MAN0395",
     "lat": 31.5905,
     "lng": 73.685,
@@ -31920,10 +31920,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101754
+    "createdAt": 1786860943236
   },
   {
-    "id": "77ae609b-8cee-4b6a-a215-3f0ceb84b5ca",
+    "id": "ac949061-666b-4d71-b7fe-3128f4d7fd3c",
     "name": "MAN4488",
     "lat": 31.5934,
     "lng": 73.6923,
@@ -31948,10 +31948,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101754
+    "createdAt": 1786860943236
   },
   {
-    "id": "3ea06cdf-eb5e-40bb-9aa5-3abfc96e59d7",
+    "id": "1181d55c-de90-4d1c-b8a7-856764dc674f",
     "name": "MAN6015",
     "lat": 31.5855,
     "lng": 73.6889,
@@ -31976,10 +31976,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101754
+    "createdAt": 1786860943236
   },
   {
-    "id": "fb8a8e1a-49b0-40f6-90f9-b9b0ef524aca",
+    "id": "49f7005e-4ef3-49c0-85d7-cdbbcebf587e",
     "name": "MKK9933",
     "lat": 31.6712,
     "lng": 73.7968,
@@ -32004,10 +32004,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101754
+    "createdAt": 1786860943236
   },
   {
-    "id": "ca2ad4fd-299e-4de4-9438-f07fa54c3965",
+    "id": "1146e49b-c75f-4593-8d0e-63a8e98ddb71",
     "name": "MKK9934",
     "lat": 31.6751,
     "lng": 73.8489,
@@ -32032,10 +32032,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101754
+    "createdAt": 1786860943238
   },
   {
-    "id": "4eedd92c-26ba-4a9b-8d9e-ab0db087b0a8",
+    "id": "2fcb61cc-f402-4567-8e19-aa474030fdf5",
     "name": "HWY1537",
     "lat": 31.2786,
     "lng": 74.4095,
@@ -32060,10 +32060,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101754
+    "createdAt": 1786860943238
   },
   {
-    "id": "4f205d97-179a-4c58-810e-c7c86fe6dc16",
+    "id": "64fc8998-c4bc-4c4c-9e68-1cfec21ed467",
     "name": "HWY1681",
     "lat": 31.3215,
     "lng": 74.3898,
@@ -32088,10 +32088,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101754
+    "createdAt": 1786860943239
   },
   {
-    "id": "8aa444ff-92b0-4f1c-b8fe-e7dadcca8008",
+    "id": "acf7e8ac-15bc-4ed6-a820-81cc8c92a7b3",
     "name": "HWY3040",
     "lat": 31.679,
     "lng": 74.091,
@@ -32116,10 +32116,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101754
+    "createdAt": 1786860943239
   },
   {
-    "id": "9133808a-fa32-4f1a-9430-e6eb2943e612",
+    "id": "04253ff0-1865-4e63-a2aa-5b60f80ac26f",
     "name": "HWY3854",
     "lat": 31.3148,
     "lng": 74.3914,
@@ -32144,10 +32144,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101754
+    "createdAt": 1786860943239
   },
   {
-    "id": "22aa50ef-5801-4d0e-ba55-65ac92ed98be",
+    "id": "d10050fa-1422-4440-9967-03fa0591bc23",
     "name": "HWY4151",
     "lat": 31.3696,
     "lng": 74.3664,
@@ -32172,10 +32172,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101754
+    "createdAt": 1786860943239
   },
   {
-    "id": "354ab48b-6aae-4e3e-a9e3-ada3966fe6bd",
+    "id": "16c6faa8-ee0b-4f69-9221-a506f31207a1",
     "name": "HWY4191",
     "lat": 31.3671,
     "lng": 74.3698,
@@ -32200,10 +32200,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101754
+    "createdAt": 1786860943239
   },
   {
-    "id": "013366de-1718-472a-8c45-3aec48ff897d",
+    "id": "18e34342-c1f5-47e4-972b-beb05d3d056d",
     "name": "HWY4758",
     "lat": 31.358,
     "lng": 74.3725,
@@ -32228,10 +32228,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101754
+    "createdAt": 1786860943240
   },
   {
-    "id": "60a3dd25-6ee4-4feb-82ae-be20fed34fff",
+    "id": "7f6f86f9-d32b-4163-a4cd-0c57c7d97ef4",
     "name": "HWY5039",
     "lat": 31.3738,
     "lng": 74.3575,
@@ -32256,10 +32256,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101754
+    "createdAt": 1786860943240
   },
   {
-    "id": "4138f95c-aed4-4eb0-b33d-92bdebabbf6b",
+    "id": "eb9976ed-f5a0-4bdc-9ca4-17f793fdf2f8",
     "name": "HWY5090",
     "lat": 31.6328,
     "lng": 74.209,
@@ -32284,10 +32284,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101754
+    "createdAt": 1786860943240
   },
   {
-    "id": "fd093719-4fa1-4029-b5bf-d985504bcbaa",
+    "id": "d7eefb73-9d1d-4242-9aa2-07de76f78a26",
     "name": "HWY6507",
     "lat": 31.3288,
     "lng": 74.1048,
@@ -32312,10 +32312,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101754
+    "createdAt": 1786860943240
   },
   {
-    "id": "5c95f6a4-079e-4d3d-883d-14241fe3852f",
+    "id": "b8099b84-a089-45f9-af98-f2f2ba696920",
     "name": "HWY8326",
     "lat": 31.6205,
     "lng": 74.2313,
@@ -32340,10 +32340,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "DG",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101754
+    "createdAt": 1786860943240
   },
   {
-    "id": "f2725b8f-c355-46ee-af4f-a9e58f0ab760",
+    "id": "c920d17e-eac6-4f52-88d9-e392400632d8",
     "name": "HWY8892",
     "lat": 31.3737,
     "lng": 74.3659,
@@ -32368,10 +32368,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101754
+    "createdAt": 1786860943241
   },
   {
-    "id": "efa0b83a-58dc-406e-a7a3-8f3030fd87c1",
+    "id": "cb0f7071-1e35-4234-9c08-72715f0be200",
     "name": "HWY9659",
     "lat": 31.6216,
     "lng": 74.2323,
@@ -32396,10 +32396,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101754
+    "createdAt": 1786860943241
   },
   {
-    "id": "b192b7af-198a-43a3-9095-d4dc4380dcef",
+    "id": "305e878d-de0c-4d81-9dd2-98b6c814b717",
     "name": "HWY9832",
     "lat": 31.3832,
     "lng": 74.3656,
@@ -32424,10 +32424,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101754
+    "createdAt": 1786860943241
   },
   {
-    "id": "944904aa-0281-4ce3-8e3b-43dcbc1a5f5a",
+    "id": "25cc92ea-f50a-4a73-86cb-7636a7954072",
     "name": "LHR0260",
     "lat": 31.4007,
     "lng": 74.3621,
@@ -32452,10 +32452,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101754
+    "createdAt": 1786860943242
   },
   {
-    "id": "ab828d4b-26ea-41b0-893c-34fefec0c226",
+    "id": "8abc7e36-521b-4084-8389-f9e4293399c2",
     "name": "LHR0634",
     "lat": 31.3865,
     "lng": 74.1498,
@@ -32480,10 +32480,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101754
+    "createdAt": 1786860943242
   },
   {
-    "id": "d1d1a3ec-216d-41a0-9693-a32affee0416",
+    "id": "b6c0f1a8-17d8-40d5-8cc9-c03236967aad",
     "name": "LHR0703",
     "lat": 31.3894,
     "lng": 74.3247,
@@ -32508,10 +32508,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101754
+    "createdAt": 1786860943242
   },
   {
-    "id": "61d33e7f-17c5-40a7-8458-676c55caefac",
+    "id": "d40012db-a1d8-46d8-a264-75475dfe0321",
     "name": "LHR1102",
     "lat": 31.3842,
     "lng": 74.2404,
@@ -32536,10 +32536,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101754
+    "createdAt": 1786860943243
   },
   {
-    "id": "e7103b4c-0804-4fc2-90c6-368c427ae995",
+    "id": "bacb7743-6d90-4cca-bf90-176fc7a0b533",
     "name": "LHR1607",
     "lat": 31.4155,
     "lng": 74.3618,
@@ -32564,10 +32564,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101754
+    "createdAt": 1786860943243
   },
   {
-    "id": "94ae419d-dd1f-43bc-8e23-d18e72e61afe",
+    "id": "cc313b97-914e-4516-bca1-746449b56480",
     "name": "LHR1627",
     "lat": 31.4102,
     "lng": 74.3586,
@@ -32592,10 +32592,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101754
+    "createdAt": 1786860943243
   },
   {
-    "id": "5c4ad4e7-5014-4d55-a63d-aa79489e5dea",
+    "id": "a6a90b23-9bf5-4bf7-82c7-56d0531724bd",
     "name": "LHR2102",
     "lat": 31.3712,
     "lng": 74.2853,
@@ -32620,10 +32620,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101754
+    "createdAt": 1786860943244
   },
   {
-    "id": "ed345772-5933-4834-8186-497378abf8ea",
+    "id": "0622fdd1-9c87-4b87-94db-f523be5a202f",
     "name": "LHR3443",
     "lat": 31.3863,
     "lng": 74.1448,
@@ -32648,10 +32648,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101754
+    "createdAt": 1786860943244
   },
   {
-    "id": "c5acb4ca-a215-4797-9cb1-ed1edd7cb67e",
+    "id": "504122f8-b1d3-424d-8f96-8358cc93d952",
     "name": "LHR3461",
     "lat": 31.4153,
     "lng": 74.3584,
@@ -32676,10 +32676,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101754
+    "createdAt": 1786860943245
   },
   {
-    "id": "0e04d0d4-66e7-4ec7-b923-32c6060a91db",
+    "id": "8c14b52e-f49a-43bf-aea8-e7ff5b7acc57",
     "name": "LHR3760",
     "lat": 31.3973,
     "lng": 74.3051,
@@ -32704,10 +32704,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101754
+    "createdAt": 1786860943245
   },
   {
-    "id": "e394ac89-efb4-4136-865f-0ce4d25a4bac",
+    "id": "c9f8b231-65ed-47e1-be18-88b9f2911ae3",
     "name": "LHR4748",
     "lat": 31.3826,
     "lng": 74.2308,
@@ -32732,10 +32732,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "DG",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101754
+    "createdAt": 1786860943246
   },
   {
-    "id": "798961c4-418c-4720-a5ba-cf1c46389185",
+    "id": "2ba1943c-7387-4582-ac3a-e51eb5f2f951",
     "name": "LHR4749",
     "lat": 31.3721,
     "lng": 74.2311,
@@ -32760,10 +32760,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101754
+    "createdAt": 1786860943246
   },
   {
-    "id": "7daf201a-7832-4fac-8124-10c0ba96c0ff",
+    "id": "7a997acb-ada2-4848-918a-d9711e9a01b1",
     "name": "LHR8051",
     "lat": 31.3763,
     "lng": 74.2543,
@@ -32788,10 +32788,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101754
+    "createdAt": 1786860943246
   },
   {
-    "id": "200fbefe-79b5-4874-82ab-6bdd4fe3d31b",
+    "id": "946e055d-9ff5-4a5a-b9b5-7869f8ab78e2",
     "name": "LHR8068",
     "lat": 31.3726,
     "lng": 74.2673,
@@ -32816,10 +32816,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101755
+    "createdAt": 1786860943247
   },
   {
-    "id": "0fe79206-8b81-4aa5-8c6d-ca91c42226cd",
+    "id": "ab4e5bf4-1a3d-487b-ad4e-5bb33b732da5",
     "name": "LHR8977",
     "lat": 31.4057,
     "lng": 74.3625,
@@ -32844,10 +32844,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101755
+    "createdAt": 1786860943247
   },
   {
-    "id": "150dbd6d-ec86-4827-91c2-fd511146ca67",
+    "id": "153ed7c3-121e-4288-a7ed-e11e56e9d41f",
     "name": "LHR9870",
     "lat": 31.4109,
     "lng": 74.3688,
@@ -32872,10 +32872,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101755
+    "createdAt": 1786860943247
   },
   {
-    "id": "63fbb27e-0c05-43a9-ada1-53f3f4cf8edc",
+    "id": "48854751-b6db-4b06-902e-f0d78642909c",
     "name": "LHR9930",
     "lat": 31.4042,
     "lng": 74.3697,
@@ -32900,10 +32900,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101755
+    "createdAt": 1786860943248
   },
   {
-    "id": "ebe99775-4c7a-49f6-8d6f-be92b56f7a8a",
+    "id": "cc19322d-4e2e-4e8a-849a-16b960d70281",
     "name": "RUR0137",
     "lat": 31.4021,
     "lng": 74.4085,
@@ -32928,10 +32928,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101755
+    "createdAt": 1786860943248
   },
   {
-    "id": "84567775-f003-474c-b6c9-7c7c279459aa",
+    "id": "ce577711-8c91-4b37-9468-123bbf6f2172",
     "name": "RUR0265",
     "lat": 31.6021,
     "lng": 74.2488,
@@ -32956,10 +32956,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "DG",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101755
+    "createdAt": 1786860943287
   },
   {
-    "id": "a1c1091f-036d-4d2c-b4f2-b48b23a7ee4c",
+    "id": "e1792f04-c22e-4481-bd29-2145a231b8f9",
     "name": "RUR0492",
     "lat": 31.37,
     "lng": 74.4284,
@@ -32984,10 +32984,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101755
+    "createdAt": 1786860943287
   },
   {
-    "id": "dcc71842-cabd-42f8-b4c0-fe84c485bd44",
+    "id": "c1d9b70c-0f79-43b0-b3e8-4d186c88d03f",
     "name": "RUR0635",
     "lat": 31.343,
     "lng": 74.2378,
@@ -33012,10 +33012,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101755
+    "createdAt": 1786860943288
   },
   {
-    "id": "28877350-596c-4043-ac5f-28d7aa2be93e",
+    "id": "c2f2584b-883a-43d3-b6ae-1f8543fb1b05",
     "name": "RUR0793",
     "lat": 31.2697,
     "lng": 74.2462,
@@ -33040,10 +33040,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101755
+    "createdAt": 1786860943288
   },
   {
-    "id": "c13be3af-b06c-4ac4-ac9d-981f043bf473",
+    "id": "361c309a-3ea0-439d-adbb-7d3424a92c5b",
     "name": "RUR0837",
     "lat": 31.2885,
     "lng": 74.1857,
@@ -33068,10 +33068,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101755
+    "createdAt": 1786860943288
   },
   {
-    "id": "ef0f7dd5-edd3-4ec7-80b5-f91245d90610",
+    "id": "82cd2188-0877-4829-9cff-3e6d0d24cfe9",
     "name": "RUR0877",
     "lat": 31.2707,
     "lng": 74.3159,
@@ -33096,10 +33096,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101755
+    "createdAt": 1786860943289
   },
   {
-    "id": "45560a53-a8d9-48c1-8007-17bd7a36550c",
+    "id": "5df80c4b-b00b-455a-b721-4cb14ada3474",
     "name": "RUR1030",
     "lat": 31.309,
     "lng": 74.2645,
@@ -33124,10 +33124,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101755
+    "createdAt": 1786860943289
   },
   {
-    "id": "76f11244-6781-4531-a96e-53c21f48cbe9",
+    "id": "7c019afe-3fe4-4096-9e54-82f5bfa7dd4a",
     "name": "RUR1123",
     "lat": 31.2948,
     "lng": 74.1642,
@@ -33152,10 +33152,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101755
+    "createdAt": 1786860943305
   },
   {
-    "id": "ef4c1a58-2281-4666-8f50-b2f05eb0ce89",
+    "id": "8573d331-82eb-4bd9-b649-a70112d624a0",
     "name": "RUR1141",
     "lat": 31.2804,
     "lng": 74.1659,
@@ -33180,10 +33180,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101755
+    "createdAt": 1786860943305
   },
   {
-    "id": "ee93141e-5b84-43ee-9974-069988c2c17b",
+    "id": "9913da43-97ab-4bab-b0e5-861593ea1736",
     "name": "RUR1790",
     "lat": 31.4072,
     "lng": 74.419,
@@ -33208,10 +33208,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101755
+    "createdAt": 1786860943307
   },
   {
-    "id": "214956d9-a489-487f-972c-8f19011998ca",
+    "id": "d63594b4-ab9d-41ef-a297-2eef98bfc319",
     "name": "RUR4435",
     "lat": 31.3122,
     "lng": 74.1599,
@@ -33236,10 +33236,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101755
+    "createdAt": 1786860943308
   },
   {
-    "id": "18cebd34-eb41-4d5c-8aba-21bb01377de7",
+    "id": "7dbb29ba-8e22-48da-bca5-15ed589338d1",
     "name": "RUR4436",
     "lat": 31.323,
     "lng": 74.1509,
@@ -33264,10 +33264,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101755
+    "createdAt": 1786860943309
   },
   {
-    "id": "d6349d33-ce94-491a-a724-fb8780482ee0",
+    "id": "5adfc545-66d9-46d5-98a6-393f3da3c2f3",
     "name": "RUR4441",
     "lat": 31.27,
     "lng": 74.1014,
@@ -33292,10 +33292,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101755
+    "createdAt": 1786860943310
   },
   {
-    "id": "c483d41a-34e0-44dd-90c0-07001aa23f2b",
+    "id": "c8c11be1-17d8-4da3-8366-2923d99c9996",
     "name": "RUR4756",
     "lat": 31.4209,
     "lng": 74.4384,
@@ -33320,10 +33320,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101755
+    "createdAt": 1786860943310
   },
   {
-    "id": "bb8575b4-0aad-4773-a5a1-9039a5558e41",
+    "id": "15d21d81-d4dd-4330-83d3-73189feec27e",
     "name": "RUR5176",
     "lat": 31.3147,
     "lng": 74.227,
@@ -33348,10 +33348,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101755
+    "createdAt": 1786860943311
   },
   {
-    "id": "86cd66dc-d32c-4b98-8bf3-d53638a6ab9b",
+    "id": "3129d4e2-2f74-4a1d-a985-99061d033d3f",
     "name": "RUR8848",
     "lat": 31.2742,
     "lng": 74.1883,
@@ -33376,10 +33376,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101755
+    "createdAt": 1786860943311
   },
   {
-    "id": "ef16c3db-84ca-47b6-b976-a6cdc5969c08",
+    "id": "69d73c9d-cf90-4d56-9583-742a43f56e57",
     "name": "RUR9211",
     "lat": 31.3197,
     "lng": 74.4819,
@@ -33404,10 +33404,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101755
+    "createdAt": 1786860943312
   },
   {
-    "id": "a8549c1b-6b80-4b9c-8e59-5f3f78c3a806",
+    "id": "9800259d-b737-4b3a-b29a-1ef8acafa456",
     "name": "RUR9853",
     "lat": 31.2668,
     "lng": 74.1626,
@@ -33432,10 +33432,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101755
+    "createdAt": 1786860943312
   },
   {
-    "id": "abc30e1e-92ea-486b-92b4-eb29c7128943",
+    "id": "f28cbcf4-0d76-4b04-921b-56ed3ef02f05",
     "name": "RUR9914",
     "lat": 31.2609,
     "lng": 74.1513,
@@ -33460,10 +33460,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101755
+    "createdAt": 1786860943312
   },
   {
-    "id": "8acb6fb6-b8fa-424d-9db4-cb1aba3e7c39",
+    "id": "687b4371-e52b-4bb6-9042-65dfed056761",
     "name": "RUR9968",
     "lat": 31.3359,
     "lng": 74.2017,
@@ -33488,10 +33488,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101755
+    "createdAt": 1786860943312
   },
   {
-    "id": "e3b1b25c-3da5-48c1-80bc-9553c6af445a",
+    "id": "0ccf65f0-336e-43cd-a2fe-8706284b90a8",
     "name": "LHR6381",
     "lat": 31.3648,
     "lng": 74.2531,
@@ -33516,10 +33516,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101755
+    "createdAt": 1786860943313
   },
   {
-    "id": "f26d270b-83d0-4b4c-bc0b-6b5adbb83ddb",
+    "id": "90df4362-4fb6-4cc1-99d4-c44349b03a79",
     "name": "LHR6382",
     "lat": 31.3559,
     "lng": 74.2542,
@@ -33544,10 +33544,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101755
+    "createdAt": 1786860943313
   },
   {
-    "id": "1493176d-6459-42c0-b568-6efb73486d8e",
+    "id": "dd090098-fb8d-4a81-be1d-89ced51865bf",
     "name": "LHR6383",
     "lat": 31.3586,
     "lng": 74.2431,
@@ -33572,10 +33572,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101755
+    "createdAt": 1786860943314
   },
   {
-    "id": "c6b41e2e-2ade-4fa2-8c39-ce171bc322db",
+    "id": "d21141b2-3513-47d1-8dc5-b0d7a89f8df8",
     "name": "LHR6384",
     "lat": 31.3469,
     "lng": 74.2549,
@@ -33600,10 +33600,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101755
+    "createdAt": 1786860943314
   },
   {
-    "id": "8c75f1ce-b54d-41dc-b776-9ebef8d6b701",
+    "id": "16a96657-8e82-4f7c-b400-0a6f15d1cabc",
     "name": "LHR9215",
     "lat": 31.3567,
     "lng": 74.2235,
@@ -33628,10 +33628,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101755
+    "createdAt": 1786860943315
   },
   {
-    "id": "eaeb010a-3cff-4633-9df6-9116e1b1a5dc",
+    "id": "61a7c787-b9ee-4b8f-886d-c3bf7e078f99",
     "name": "LHR9214",
     "lat": 31.3517,
     "lng": 74.2007,
@@ -33656,10 +33656,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101755
+    "createdAt": 1786860943315
   },
   {
-    "id": "2e1b289b-1ec3-4a75-bc67-219effa0b80e",
+    "id": "b662e92d-a67b-418e-8722-9864da7e7eb0",
     "name": "RUR6420",
     "lat": 31.3484,
     "lng": 74.2094,
@@ -33684,10 +33684,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101755
+    "createdAt": 1786860943315
   },
   {
-    "id": "677b0c45-39a2-45e1-bea4-690419799ebc",
+    "id": "9666a94a-a52c-4843-bf3b-2da21e3d97aa",
     "name": "LHR9165",
     "lat": 31.36131,
     "lng": 74.28218,
@@ -33712,10 +33712,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101755
+    "createdAt": 1786860943316
   },
   {
-    "id": "c53dba2f-dca1-4a7a-b5ea-c1319307631e",
+    "id": "92372e74-d980-40b7-aede-eca3910ea9d0",
     "name": "LHR9258",
     "lat": 31.37186,
     "lng": 74.24562,
@@ -33740,10 +33740,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101755
+    "createdAt": 1786860943316
   },
   {
-    "id": "c36285e2-595a-42a7-9317-34e6bc4c2f45",
+    "id": "e2314b8c-3def-4cc1-b84e-55a289d86d19",
     "name": "KRH0464",
     "lat": 31.1663,
     "lng": 74.1068,
@@ -33768,10 +33768,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101755
+    "createdAt": 1786860943323
   },
   {
-    "id": "99bdd432-1fca-455a-94a0-03e078cdb59d",
+    "id": "68f93c62-f354-4745-bc88-a975ade72502",
     "name": "KRH1146",
     "lat": 31.1781,
     "lng": 74.0983,
@@ -33796,10 +33796,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101755
+    "createdAt": 1786860943324
   },
   {
-    "id": "1d32c6ad-f52e-4acc-8768-b3507f6fc9af",
+    "id": "2071dc6d-5b51-425a-ab92-a8adf16be379",
     "name": "KRH3258",
     "lat": 31.1733,
     "lng": 74.1057,
@@ -33824,10 +33824,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101755
+    "createdAt": 1786860943324
   },
   {
-    "id": "2e1b79be-2edd-477a-bd0b-7907694d2896",
+    "id": "a8abc11a-8801-4e95-8d54-6f538f1a38a6",
     "name": "HWY0578",
     "lat": 31.6227,
     "lng": 74.2356,
@@ -33852,10 +33852,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101755
+    "createdAt": 1786860943325
   },
   {
-    "id": "5f402022-05b3-4767-9b22-8b05b2b73f8d",
+    "id": "6af0645b-b1b1-4499-943e-7cd56b9e095a",
     "name": "HWY8327",
     "lat": 31.6271,
     "lng": 74.236,
@@ -33880,10 +33880,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101755
+    "createdAt": 1786860943325
   },
   {
-    "id": "325bbd6e-60f7-44fb-a1d5-e670ccf1371c",
+    "id": "62847569-fc28-4e74-9cf0-5d03434ab73b",
     "name": "HWY8891",
     "lat": 31.6247,
     "lng": 74.2356,
@@ -33908,10 +33908,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101755
+    "createdAt": 1786860943326
   },
   {
-    "id": "a1c623e9-d73f-4385-bcf1-d3872f8eaa7f",
+    "id": "ac5c0c16-b2f2-4be2-b59e-27ad7eccc460",
     "name": "KDN1181",
     "lat": 30.9853,
     "lng": 74.2821,
@@ -33936,10 +33936,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101755
+    "createdAt": 1786860943326
   },
   {
-    "id": "2c60a925-1a73-4025-9d54-da881ef03aae",
+    "id": "57468f23-ac97-4065-97ae-9094b2050abc",
     "name": "KDN3519",
     "lat": 30.9836,
     "lng": 74.2755,
@@ -33964,10 +33964,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101755
+    "createdAt": 1786860943326
   },
   {
-    "id": "59e4e588-627f-4f53-8355-24106e072a92",
+    "id": "dcee9f56-4867-4898-a75a-596bdee92afe",
     "name": "KDN3954",
     "lat": 30.9879,
     "lng": 74.2719,
@@ -33992,10 +33992,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101755
+    "createdAt": 1786860943327
   },
   {
-    "id": "a1c829cf-9516-4310-936a-f69057d2bc18",
+    "id": "a9ec885e-a767-463c-b589-1aa7f2b271e7",
     "name": "KDN8868",
     "lat": 30.9896,
     "lng": 74.2787,
@@ -34020,10 +34020,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101756
+    "createdAt": 1786860943327
   },
   {
-    "id": "ce4012eb-5526-459a-89c2-35ea76e0a687",
+    "id": "6b76f1df-fd14-4d1d-bb83-3a3ba5133721",
     "name": "BLH8801",
     "lat": 31.0647,
     "lng": 74.3501,
@@ -34048,10 +34048,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101756
+    "createdAt": 1786860943327
   },
   {
-    "id": "4d9b8641-70ee-4a7b-8eb7-3e5ae1399b4e",
+    "id": "c37258ec-1465-413c-92ff-4a801e56e784",
     "name": "HWY0686",
     "lat": 31.2443,
     "lng": 74.4212,
@@ -34076,10 +34076,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101756
+    "createdAt": 1786860943328
   },
   {
-    "id": "a84deac8-3ada-4c2b-b445-007be1f60647",
+    "id": "6dbe7081-67a5-49c9-920b-07ce2cebb51f",
     "name": "HWY1162",
     "lat": 31.2591,
     "lng": 74.0262,
@@ -34104,10 +34104,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101756
+    "createdAt": 1786860943328
   },
   {
-    "id": "686cbde5-2851-425c-a1a9-8693a6570a0f",
+    "id": "5c95f079-7f51-4935-b6a9-f35aadd5faf8",
     "name": "HWY1820",
     "lat": 30.9042,
     "lng": 74.1227,
@@ -34132,10 +34132,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101756
+    "createdAt": 1786860943330
   },
   {
-    "id": "41103094-101e-44b4-ab9e-ad4782dd8dcc",
+    "id": "b3d491a4-63c0-4a07-a9f2-ad15f5fd8f8d",
     "name": "HWY1920",
     "lat": 30.949,
     "lng": 74.2191,
@@ -34160,10 +34160,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101756
+    "createdAt": 1786860943330
   },
   {
-    "id": "9c8e422a-4c25-4323-a75a-96cfce2d4f28",
+    "id": "b47c283c-d231-42ae-be6d-17c043452b70",
     "name": "HWY2073",
     "lat": 31.1845,
     "lng": 74.444,
@@ -34188,10 +34188,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101756
+    "createdAt": 1786860943331
   },
   {
-    "id": "a581891d-6834-4da6-9a7a-1a514890cde1",
+    "id": "0d66a65d-603d-4a84-8d5c-c39e322edc33",
     "name": "HWY3833",
     "lat": 31.1992,
     "lng": 74.4388,
@@ -34216,10 +34216,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101756
+    "createdAt": 1786860943331
   },
   {
-    "id": "4cf313d2-67b7-4aca-8f5d-3e2d652ec2e6",
+    "id": "1e862bfd-7025-4438-8ec1-5fb87d950a76",
     "name": "HWY4411",
     "lat": 30.9755,
     "lng": 74.1491,
@@ -34244,10 +34244,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101756
+    "createdAt": 1786860943331
   },
   {
-    "id": "ee56c3d3-5af5-4757-a37b-925c50ccd64e",
+    "id": "9998fc6b-d22a-4f63-aa63-8b73e7c784bc",
     "name": "HWY5078",
     "lat": 30.948,
     "lng": 73.7353,
@@ -34272,10 +34272,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101756
+    "createdAt": 1786860943332
   },
   {
-    "id": "04fa97b9-9ee0-4efc-9471-55632aec0aec",
+    "id": "13c5162c-618e-45ab-9097-f5ef37229229",
     "name": "HWY7424",
     "lat": 30.955,
     "lng": 73.7509,
@@ -34300,10 +34300,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101756
+    "createdAt": 1786860943333
   },
   {
-    "id": "1f8583bd-96eb-4dfa-af4f-5ef02e2c222e",
+    "id": "ce08e0c7-8b17-4d20-879c-d62d0394c52f",
     "name": "HWY8219",
     "lat": 31.0193,
     "lng": 74.3344,
@@ -34328,10 +34328,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101756
+    "createdAt": 1786860943333
   },
   {
-    "id": "c8c53435-4a9f-46a5-b0d5-0de4aa052e72",
+    "id": "87618954-b4cd-4e38-8c6d-707e5cba5c6d",
     "name": "HWY8870",
     "lat": 30.9722,
     "lng": 74.0665,
@@ -34356,10 +34356,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101756
+    "createdAt": 1786860943333
   },
   {
-    "id": "8500019f-bb37-44e6-97d1-8860146f6a52",
+    "id": "3966bf62-f212-492c-898e-77fd3f586ff4",
     "name": "HWY8872",
     "lat": 30.9097,
     "lng": 74.1347,
@@ -34384,10 +34384,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101756
+    "createdAt": 1786860943334
   },
   {
-    "id": "0fc0d827-8457-4129-8175-9a8cfd231416",
+    "id": "6b34234f-5fc6-4a7f-aaab-108b901fcc77",
     "name": "HWY9735",
     "lat": 31.251,
     "lng": 74.4193,
@@ -34412,10 +34412,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101756
+    "createdAt": 1786860943334
   },
   {
-    "id": "03e806db-6b75-43fe-b608-7daba1622753",
+    "id": "5dadf7b1-d76e-4bd6-9d32-1d88ade93201",
     "name": "HWY9876",
     "lat": 31.2536,
     "lng": 74.0155,
@@ -34440,10 +34440,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101756
+    "createdAt": 1786860943335
   },
   {
-    "id": "ff986565-0e8b-4110-904c-690aec04c483",
+    "id": "92e77998-4d33-479d-8041-769331afc24a",
     "name": "KSR0236",
     "lat": 31.1099,
     "lng": 74.4704,
@@ -34468,10 +34468,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101756
+    "createdAt": 1786860943336
   },
   {
-    "id": "a5a02aa5-e18e-4151-b6ff-e41640d51cfa",
+    "id": "a4786573-3f00-43ef-bc1b-6cba0916779f",
     "name": "KSR0463",
     "lat": 31.1407,
     "lng": 74.4565,
@@ -34496,10 +34496,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101756
+    "createdAt": 1786860943337
   },
   {
-    "id": "5c768e8b-e986-49f5-88f9-7955f9ec033d",
+    "id": "4db69041-de32-4bba-b854-43983b8d987e",
     "name": "KSR0493",
     "lat": 31.1074,
     "lng": 74.4553,
@@ -34524,10 +34524,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101756
+    "createdAt": 1786860943337
   },
   {
-    "id": "c97ffc61-7697-428d-b311-bbd704e2bb76",
+    "id": "0eab2fca-c8e0-4521-ab8c-5ca698d123be",
     "name": "KSR0578",
     "lat": 31.1134,
     "lng": 74.4485,
@@ -34552,10 +34552,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101756
+    "createdAt": 1786860943337
   },
   {
-    "id": "beadcec6-a572-42eb-9574-bd20abb8e3ac",
+    "id": "ecdc0c4d-b4f0-449e-a1ba-7a3e1d70c11c",
     "name": "KSR0654",
     "lat": 31.1256,
     "lng": 74.4484,
@@ -34580,10 +34580,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101756
+    "createdAt": 1786860943338
   },
   {
-    "id": "5618e3fe-1be6-4e72-92ad-9aba68d7f81b",
+    "id": "c1cf033b-7a04-4417-97fc-e4d42c4c356b",
     "name": "KSR1381",
     "lat": 31.0445,
     "lng": 74.3036,
@@ -34608,10 +34608,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101756
+    "createdAt": 1786860943338
   },
   {
-    "id": "9f9ea739-c9fe-4beb-af69-7c84928ded8c",
+    "id": "2ec7f8fc-c8db-4c20-9d0c-7649b0417db7",
     "name": "KSR2905",
     "lat": 31.11,
     "lng": 74.4371,
@@ -34636,10 +34636,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101756
+    "createdAt": 1786860943338
   },
   {
-    "id": "9995a35a-fb4b-4b4d-8e48-c6171a21b0ff",
+    "id": "d7537177-4ea5-4423-9ff3-cbb1582ef545",
     "name": "KSR2990",
     "lat": 31.113,
     "lng": 74.4398,
@@ -34664,10 +34664,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "DG",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101756
+    "createdAt": 1786860943339
   },
   {
-    "id": "31400542-9273-4194-9f01-a73ffefe2e83",
+    "id": "d967da81-5188-4ab8-bc35-bd713470b3fb",
     "name": "KSR2995",
     "lat": 31.1381,
     "lng": 74.4568,
@@ -34692,10 +34692,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101756
+    "createdAt": 1786860943339
   },
   {
-    "id": "4b757f52-f6b1-4024-a16e-6eae995c8aeb",
+    "id": "7f201df2-836d-4f11-beef-3d2a9ce4990b",
     "name": "KSR2997",
     "lat": 31.1278,
     "lng": 74.4535,
@@ -34720,10 +34720,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101756
+    "createdAt": 1786860943339
   },
   {
-    "id": "f6f2c867-9508-4f82-a0b3-c5864d776253",
+    "id": "b8db2d8b-0c54-486d-917a-284614b791c0",
     "name": "KSR2998",
     "lat": 31.1324,
     "lng": 74.4513,
@@ -34748,10 +34748,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "DG",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101756
+    "createdAt": 1786860943340
   },
   {
-    "id": "b5f8f12d-18b4-422b-ac7f-ca77406d5b96",
+    "id": "925feca3-e951-4760-8e83-28a64857343c",
     "name": "KSR3082",
     "lat": 31.1331,
     "lng": 74.4608,
@@ -34776,10 +34776,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101756
+    "createdAt": 1786860943340
   },
   {
-    "id": "a8316209-0e2b-46b7-9163-94d340094218",
+    "id": "4d2d4217-f453-4b38-b286-9e303919408d",
     "name": "KSR3098",
     "lat": 31.11,
     "lng": 74.4314,
@@ -34804,10 +34804,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101756
+    "createdAt": 1786860943340
   },
   {
-    "id": "9994119b-65ae-41ed-aed2-ed1c07418d84",
+    "id": "592599de-19f0-45e8-ae6b-e5296f2aeff5",
     "name": "KSR3109",
     "lat": 31.1167,
     "lng": 74.4487,
@@ -34832,10 +34832,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101756
+    "createdAt": 1786860943341
   },
   {
-    "id": "ba0d9237-0212-42e5-a46e-62005e059632",
+    "id": "17a96ca3-bbd4-4989-81ed-714370b9fc0f",
     "name": "KSR3196",
     "lat": 31.1145,
     "lng": 74.4337,
@@ -34860,10 +34860,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101756
+    "createdAt": 1786860943341
   },
   {
-    "id": "29b2530f-c7c9-4b94-a2d2-83157b7d87ef",
+    "id": "56cd0c9a-cb30-4c56-8af7-39cd5ded606b",
     "name": "KSR3751",
     "lat": 31.123,
     "lng": 74.4504,
@@ -34888,10 +34888,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101756
+    "createdAt": 1786860943342
   },
   {
-    "id": "38e6c7b2-d102-4f9f-948e-e4120c9b0783",
+    "id": "3ba31c4b-c229-4784-8322-3f5424c8e412",
     "name": "KSR3754",
     "lat": 31.1195,
     "lng": 74.4531,
@@ -34916,10 +34916,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101756
+    "createdAt": 1786860943343
   },
   {
-    "id": "d480bc7d-25c4-4bb9-8521-2f850a2079d0",
+    "id": "ef3a9650-23e4-4f8e-b31a-1a92eea1db9e",
     "name": "KSR3834",
     "lat": 31.1198,
     "lng": 74.4438,
@@ -34944,10 +34944,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101756
+    "createdAt": 1786860943343
   },
   {
-    "id": "c8f58561-7489-449c-997e-5b0441dc0a32",
+    "id": "e4a11ab9-042e-464b-aec0-597366ac8cf2",
     "name": "KSR3838",
     "lat": 31.1154,
     "lng": 74.4431,
@@ -34972,10 +34972,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "CP",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101756
+    "createdAt": 1786860943343
   },
   {
-    "id": "aef22c9d-05d3-4854-8289-e8d41113eb44",
+    "id": "49b035dd-8461-4c6e-b9e7-7d744ba3a55c",
     "name": "KSR4868",
     "lat": 31.1247,
     "lng": 74.4727,
@@ -35000,10 +35000,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101756
+    "createdAt": 1786860943344
   },
   {
-    "id": "462da1f6-4aa9-4551-9e2b-297053bf8544",
+    "id": "678b2b74-df5a-4540-af0d-c2675be3d669",
     "name": "KSR4870",
     "lat": 31.1204,
     "lng": 74.4631,
@@ -35028,10 +35028,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101756
+    "createdAt": 1786860943344
   },
   {
-    "id": "ad426238-bab4-4aff-a6b1-5f110ac909d9",
+    "id": "b2376d1c-cabc-4575-8ee9-08ebcc2c9f59",
     "name": "KSR4874",
     "lat": 31.1246,
     "lng": 74.4566,
@@ -35056,10 +35056,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101756
+    "createdAt": 1786860943344
   },
   {
-    "id": "eab63419-5f34-4763-86ad-054d5b31fc99",
+    "id": "e2629e8b-283e-479b-90f9-67c9ae6f5401",
     "name": "KSR6940",
     "lat": 31.1126,
     "lng": 74.4577,
@@ -35084,10 +35084,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101756
+    "createdAt": 1786860943345
   },
   {
-    "id": "4b84b940-b1c2-4efc-8152-944527e9e64e",
+    "id": "5379cf14-dce1-4c80-90c2-db06fb56cf7f",
     "name": "KSR9538",
     "lat": 31.1097,
     "lng": 74.4466,
@@ -35112,10 +35112,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "DG",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101756
+    "createdAt": 1786860943345
   },
   {
-    "id": "f8f2ac97-4562-414f-9980-c8b89a78af19",
+    "id": "bc51d9d1-04d3-48f2-a21c-e14fa0ac3a02",
     "name": "KSR9804",
     "lat": 31.1329,
     "lng": 74.4437,
@@ -35140,10 +35140,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101756
+    "createdAt": 1786860943345
   },
   {
-    "id": "d62219b8-4b45-4e08-a23a-da15f39ff08f",
+    "id": "1d4201e7-8ac9-4c07-90e8-f73477c467ac",
     "name": "RUR0248",
     "lat": 31.0458,
     "lng": 73.9957,
@@ -35168,10 +35168,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101756
+    "createdAt": 1786860943346
   },
   {
-    "id": "05006b74-c882-4845-ad43-7dc5d13543c0",
+    "id": "fb0ade63-7147-4c3e-8b00-f788776ab8b0",
     "name": "RUR0255",
     "lat": 31.0415,
     "lng": 73.7463,
@@ -35196,10 +35196,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101756
+    "createdAt": 1786860943346
   },
   {
-    "id": "a58a5836-d738-4bd9-94de-0125cad08d18",
+    "id": "243d756e-3fa9-432f-a15b-9a1a9e837e1d",
     "name": "RUR0274",
     "lat": 31.1875,
     "lng": 74.2027,
@@ -35224,10 +35224,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101756
+    "createdAt": 1786860943346
   },
   {
-    "id": "5134e6eb-799a-429a-95f0-f476db3ed894",
+    "id": "b15cca75-ff56-4654-bafa-50dabdb49c24",
     "name": "RUR0462",
     "lat": 31.2545,
     "lng": 73.9651,
@@ -35252,10 +35252,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101756
+    "createdAt": 1786860943347
   },
   {
-    "id": "3823f107-5259-48a3-9958-afca52d0bf38",
+    "id": "b5d052ec-cb9c-415f-bbda-93d28d28b18d",
     "name": "RUR0494",
     "lat": 31.165,
     "lng": 74.4804,
@@ -35280,10 +35280,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101757
+    "createdAt": 1786860943347
   },
   {
-    "id": "9d917c7f-3d5e-4016-bbf8-a134310f0425",
+    "id": "5b583364-ee89-451a-87fb-e7074c96975b",
     "name": "RUR0573",
     "lat": 31.1486,
     "lng": 74.3243,
@@ -35308,10 +35308,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "DG",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101757
+    "createdAt": 1786860943347
   },
   {
-    "id": "dbf66e60-cfbe-40bc-a867-8841780413f1",
+    "id": "39f8ebb4-2d5e-48c6-925c-51c84bb6e227",
     "name": "RUR0575",
     "lat": 30.9707,
     "lng": 74.2171,
@@ -35336,10 +35336,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101757
+    "createdAt": 1786860943349
   },
   {
-    "id": "5e0ee440-cc27-4666-94bd-6613ca2e2b88",
+    "id": "424ce706-f7a7-41be-a85a-1a1dee4cf110",
     "name": "RUR0759",
     "lat": 30.8248,
     "lng": 74.2111,
@@ -35364,10 +35364,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101757
+    "createdAt": 1786860943350
   },
   {
-    "id": "dee70bca-13b2-4e1f-a210-834f8222ab39",
+    "id": "b8b14ce8-6ff5-4819-91fe-7ebacf2afedc",
     "name": "RUR0760",
     "lat": 30.9997,
     "lng": 74.3511,
@@ -35392,10 +35392,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101757
+    "createdAt": 1786860943350
   },
   {
-    "id": "8ebbda76-a445-4e79-bc7e-47e8b64749c6",
+    "id": "60cc1655-2ad2-46c3-b400-26afe1012d4b",
     "name": "RUR0779",
     "lat": 30.9037,
     "lng": 73.8683,
@@ -35420,10 +35420,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101757
+    "createdAt": 1786860943351
   },
   {
-    "id": "a1a65b75-88a3-434a-bb93-3acacbd8e124",
+    "id": "b56bfa5f-3e76-40f6-924e-52a05c782b5a",
     "name": "RUR0853",
     "lat": 31.278564,
     "lng": 74.46454,
@@ -35448,10 +35448,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101757
+    "createdAt": 1786860943351
   },
   {
-    "id": "78c334af-e227-4b5b-96db-da3123c21980",
+    "id": "52b1eefd-8726-4256-9d21-2a8a4fc6d1fe",
     "name": "RUR0882",
     "lat": 30.921,
     "lng": 74.3067,
@@ -35476,10 +35476,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101757
+    "createdAt": 1786860943351
   },
   {
-    "id": "0080a997-9c2c-466b-8d39-06edfdda0abe",
+    "id": "0f2245c0-1663-418f-b73f-6c31d423a86f",
     "name": "RUR0883",
     "lat": 31.1968,
     "lng": 74.3954,
@@ -35504,10 +35504,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101757
+    "createdAt": 1786860943352
   },
   {
-    "id": "d7a87aa0-b32d-4485-b463-36bf833dd7af",
+    "id": "e7fd2262-bae9-4f97-b15c-9c306cf200d3",
     "name": "RUR0884",
     "lat": 31.1496,
     "lng": 74.1662,
@@ -35532,10 +35532,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101757
+    "createdAt": 1786860943396
   },
   {
-    "id": "e08d80b5-85c7-4ffa-8743-f112ee6b3ca9",
+    "id": "e0e748eb-499f-4d85-8be6-3ea7e18c801a",
     "name": "RUR0899",
     "lat": 31.0497,
     "lng": 74.4421,
@@ -35560,10 +35560,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101757
+    "createdAt": 1786860943396
   },
   {
-    "id": "cd1a662b-54ff-441f-be84-105c299a9b9e",
+    "id": "f84c9c54-3d0b-4125-b8c2-d833a622f01f",
     "name": "RUR0901",
     "lat": 31.1855,
     "lng": 73.9907,
@@ -35588,10 +35588,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101757
+    "createdAt": 1786860943396
   },
   {
-    "id": "cfa5eef0-4bc6-41f0-8f5b-2172283c3750",
+    "id": "abad2694-44c3-4901-bd24-50cb057808a1",
     "name": "RUR0984",
     "lat": 30.8568,
     "lng": 74.1333,
@@ -35616,10 +35616,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101757
+    "createdAt": 1786860943397
   },
   {
-    "id": "d13634f8-65a8-4c57-b19f-f79fba37951b",
+    "id": "d1181f21-58cd-418e-b0e4-c79f1ddc7ad9",
     "name": "RUR0985",
     "lat": 31.1335,
     "lng": 74.2117,
@@ -35644,10 +35644,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101757
+    "createdAt": 1786860943397
   },
   {
-    "id": "4494c276-b1f5-4f75-8f35-32d40d109ab2",
+    "id": "e1d10843-4641-40bc-bafb-3ed799e28c65",
     "name": "RUR0998",
     "lat": 30.9346,
     "lng": 73.906,
@@ -35672,10 +35672,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101757
+    "createdAt": 1786860943397
   },
   {
-    "id": "7b499fa4-e598-4f07-8158-a59981c18f2d",
+    "id": "acd77420-86f5-479f-bf7e-1dd845d56f11",
     "name": "RUR1117",
     "lat": 31.2472,
     "lng": 74.1557,
@@ -35700,10 +35700,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101757
+    "createdAt": 1786860943398
   },
   {
-    "id": "beb9c297-2f09-403f-bc30-f3db2899a6fe",
+    "id": "00daef0c-f892-4c32-822d-47d0609ea9e7",
     "name": "RUR1161",
     "lat": 31.1449,
     "lng": 73.9191,
@@ -35728,10 +35728,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101757
+    "createdAt": 1786860943398
   },
   {
-    "id": "6e3978dd-c9f4-4a24-b6b1-5f80ad8f445a",
+    "id": "ec0a5bd2-98ae-41bb-a951-bb114e26cc00",
     "name": "RUR1470",
     "lat": 31.0912,
     "lng": 74.6427,
@@ -35756,10 +35756,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101757
+    "createdAt": 1786860943398
   },
   {
-    "id": "8967aea1-d4c2-4704-96c9-c28c63a0bb5d",
+    "id": "2a020cd6-6e43-4fde-81a5-e78141ebc0f5",
     "name": "RUR2046",
     "lat": 31.0273,
     "lng": 73.9644,
@@ -35784,10 +35784,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101757
+    "createdAt": 1786860943399
   },
   {
-    "id": "772a588d-a0cf-4a80-b366-733a94bd7da5",
+    "id": "8c7e9f33-1933-4830-b4b3-4cef96b8b84a",
     "name": "RUR3261",
     "lat": 31.1806,
     "lng": 74.3536,
@@ -35812,10 +35812,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101757
+    "createdAt": 1786860943399
   },
   {
-    "id": "7a15c4b6-10a8-49f8-aa47-2417d23cbe85",
+    "id": "2c1de8b7-f072-42b7-9fb4-0fc079e34d3d",
     "name": "RUR3518",
     "lat": 31.0478,
     "lng": 74.3839,
@@ -35840,10 +35840,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101757
+    "createdAt": 1786860943400
   },
   {
-    "id": "ba3e5685-e5b3-471d-b912-2377449379c3",
+    "id": "253d9075-3e2e-40a1-bd0c-873c660ea564",
     "name": "RUR4227",
     "lat": 31.136,
     "lng": 73.9215,
@@ -35868,10 +35868,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101757
+    "createdAt": 1786860943400
   },
   {
-    "id": "ffc3771e-0190-441e-9107-e4b2dacb2b63",
+    "id": "7e3ffdcf-2f68-4456-81b2-a6007939ca5b",
     "name": "RUR4964",
     "lat": 30.8758,
     "lng": 73.8883,
@@ -35896,10 +35896,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101757
+    "createdAt": 1786860943400
   },
   {
-    "id": "bfc11d82-21dd-42e1-a693-e6537699f000",
+    "id": "bab71d8f-7064-4467-b023-f1fd9a4e46a6",
     "name": "RUR6087",
     "lat": 31.2568,
     "lng": 74.169,
@@ -35924,10 +35924,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101757
+    "createdAt": 1786860943401
   },
   {
-    "id": "b04ef254-cba2-4a2f-b86f-c5779631a161",
+    "id": "6e4e5124-acbd-4e00-b0ea-cba2af252d3a",
     "name": "RUR8059",
     "lat": 31.1615,
     "lng": 74.4247,
@@ -35952,10 +35952,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101757
+    "createdAt": 1786860943401
   },
   {
-    "id": "2596b87e-01f9-494f-9420-7d8f12e535ea",
+    "id": "bf20d17f-e266-4242-bb82-8d130bc56c85",
     "name": "RUR8063",
     "lat": 31.163,
     "lng": 74.3829,
@@ -35980,10 +35980,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101757
+    "createdAt": 1786860943401
   },
   {
-    "id": "882fb399-5cfc-48e4-b90a-e4bc3f438d43",
+    "id": "6c2f00ea-d9f2-44a5-8c72-5bfb3d57dd0f",
     "name": "RUR8064",
     "lat": 30.7827,
     "lng": 74.1892,
@@ -36008,10 +36008,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101757
+    "createdAt": 1786860943402
   },
   {
-    "id": "b8a6ba60-4856-44d7-8742-5b0c4a30d1ff",
+    "id": "95fea9af-f49d-477f-b449-a464834d5f95",
     "name": "RUR8849",
     "lat": 31.2642,
     "lng": 74.1372,
@@ -36036,10 +36036,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101757
+    "createdAt": 1786860943402
   },
   {
-    "id": "f0a4756c-d060-4d9a-844f-13694613b41d",
+    "id": "daa9d96b-5beb-447a-8be4-fad287a41c87",
     "name": "RUR8850",
     "lat": 31.2533,
     "lng": 74.1822,
@@ -36064,10 +36064,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101757
+    "createdAt": 1786860943402
   },
   {
-    "id": "ebbfc325-f8e3-4eb9-9ba1-b5d73f996a63",
+    "id": "5ff3613b-c72d-43a3-afec-07bc553a4dfc",
     "name": "RUR8888",
     "lat": 31.0676,
     "lng": 73.807,
@@ -36092,10 +36092,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101757
+    "createdAt": 1786860943403
   },
   {
-    "id": "b8610c96-158c-40c7-8e42-68b3dfe0ec88",
+    "id": "3333a1db-d402-407b-be4a-ee8859154fdb",
     "name": "RUR8941",
     "lat": 31.1026,
     "lng": 74.2792,
@@ -36120,10 +36120,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101757
+    "createdAt": 1786860943403
   },
   {
-    "id": "fee46be2-c983-440f-8a5c-2729721dc52a",
+    "id": "6cb7d00a-3638-48ba-a614-8b60f67a245a",
     "name": "RUR9172",
     "lat": 30.9403,
     "lng": 74.1774,
@@ -36148,10 +36148,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101757
+    "createdAt": 1786860943403
   },
   {
-    "id": "a4e0dbb9-024e-4283-be9f-80c3dd6c9b41",
+    "id": "60ac2edc-2675-4894-bf72-6e9a8be09bd4",
     "name": "RUR9173",
     "lat": 30.8555,
     "lng": 74.1821,
@@ -36176,10 +36176,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101757
+    "createdAt": 1786860943404
   },
   {
-    "id": "ecc48db8-63cd-49df-bcb4-194e5ecf2c0d",
+    "id": "c0b3a33d-5be3-40f5-a169-0bea1f3b9ebf",
     "name": "RUR9174",
     "lat": 31.0008,
     "lng": 74.1981,
@@ -36204,10 +36204,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101757
+    "createdAt": 1786860943404
   },
   {
-    "id": "65751d69-da10-466c-b1f1-e6aeb5325cc7",
+    "id": "e21cedb0-c2ed-4447-9f15-c1cfed6d063d",
     "name": "RUR9175",
     "lat": 30.9674,
     "lng": 74.3233,
@@ -36232,10 +36232,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101757
+    "createdAt": 1786860943404
   },
   {
-    "id": "266c488b-410e-4d33-8259-3acb6675fea0",
+    "id": "2ccf5462-e403-447e-8b38-53ed35b494f5",
     "name": "RUR9202",
     "lat": 31.2457,
     "lng": 74.3814,
@@ -36260,10 +36260,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101757
+    "createdAt": 1786860943405
   },
   {
-    "id": "f87d7677-e287-4040-be40-103d0cc4db3b",
+    "id": "fc2ce5f3-f9c3-46f1-96a6-beeb0c65b6fb",
     "name": "RUR9204",
     "lat": 31.2493,
     "lng": 74.4726,
@@ -36288,10 +36288,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101757
+    "createdAt": 1786860943405
   },
   {
-    "id": "08425b41-d2cf-4d4c-8b85-3f1135c59e7b",
+    "id": "7a57e219-e9c6-4d0e-a92f-5c9a776b9b5e",
     "name": "RUR9700",
     "lat": 31.1406,
     "lng": 74.3544,
@@ -36316,10 +36316,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101757
+    "createdAt": 1786860943405
   },
   {
-    "id": "eb2debfd-42ef-4111-b64a-1c213643d5ca",
+    "id": "8ae92bba-5ebb-438b-aa7d-8dc9c951374b",
     "name": "RUR9831",
     "lat": 31.1602,
     "lng": 73.9232,
@@ -36344,10 +36344,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101757
+    "createdAt": 1786860943405
   },
   {
-    "id": "e43f7380-8b46-46ba-953c-a9ff7d25c5a0",
+    "id": "1c837d0e-9ea4-4674-94d9-1da69edc5415",
     "name": "KGP4985",
     "lat": 30.7667,
     "lng": 74.1224,
@@ -36372,10 +36372,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101757
+    "createdAt": 1786860943406
   },
   {
-    "id": "9765111a-fadb-4047-9890-cbe9c82644e2",
+    "id": "54e16213-ae54-4acf-a6e0-c42cbdd97b0f",
     "name": "KGP7384",
     "lat": 30.7566,
     "lng": 74.1164,
@@ -36400,10 +36400,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101757
+    "createdAt": 1786860943406
   },
   {
-    "id": "2e6306d4-82ea-45c1-82eb-c565e61a3cf0",
+    "id": "8d4c2a79-ec4c-41ab-a2b2-27475ac01844",
     "name": "KGP8806",
     "lat": 30.7595,
     "lng": 74.1209,
@@ -36428,10 +36428,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101757
+    "createdAt": 1786860943406
   },
   {
-    "id": "1916032d-1599-4b11-96ac-0b770ef2317c",
+    "id": "7bd40db8-1e02-4e0e-b80f-82c382d01dfa",
     "name": "RUR0868",
     "lat": 30.7332,
     "lng": 74.0985,
@@ -36456,10 +36456,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101757
+    "createdAt": 1786860943407
   },
   {
-    "id": "d1c2499a-73ee-4299-9aac-10a4ab58e4da",
+    "id": "a741438c-3b9d-4fc0-a265-bcc3ed8e44b9",
     "name": "RUR1136",
     "lat": 30.82,
     "lng": 74.1061,
@@ -36484,10 +36484,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101757
+    "createdAt": 1786860943407
   },
   {
-    "id": "5ce6589d-a92a-4bc6-9a74-f2149bc6d01a",
+    "id": "f28dcf13-6820-4882-aba7-dba13eadf121",
     "name": "RUR4987",
     "lat": 30.8287701,
     "lng": 74.0995126,
@@ -36512,10 +36512,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101757
+    "createdAt": 1786860943407
   },
   {
-    "id": "bd6aace4-7a56-426a-b9c8-ca94e3e07f0c",
+    "id": "524bde73-8557-404c-9eda-a35b13b45a1c",
     "name": "JBG9928",
     "lat": 31.329,
     "lng": 74.2842,
@@ -36540,10 +36540,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101758
+    "createdAt": 1786860943407
   },
   {
-    "id": "bb07463e-8764-4d02-a7c2-e3ef14f176a9",
+    "id": "1e1ad271-7379-494a-8dbd-945baca5711b",
     "name": "JBG9929",
     "lat": 31.2832,
     "lng": 74.3585,
@@ -36568,10 +36568,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101758
+    "createdAt": 1786860943408
   },
   {
-    "id": "f502e7b6-551a-44d2-865a-6ff133da5911",
+    "id": "90b1060f-55c1-4051-8a9f-1eff508880dd",
     "name": "RUR7801",
     "lat": 31.3448,
     "lng": 74.3156,
@@ -36596,10 +36596,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101758
+    "createdAt": 1786860943408
   },
   {
-    "id": "d82758fc-9192-4478-980b-28fa694ab6f2",
+    "id": "78492f39-ec6d-4540-800a-999ea9664b1a",
     "name": "HWY8530",
     "lat": 31.2595,
     "lng": 73.4521,
@@ -36624,10 +36624,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101758
+    "createdAt": 1786860943409
   },
   {
-    "id": "4d9de645-2903-471f-bc26-9396069ab93f",
+    "id": "5dddd147-f094-43b9-83a6-7f8395eb4869",
     "name": "RUR4294",
     "lat": 31.3086,
     "lng": 73.5336,
@@ -36652,10 +36652,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101758
+    "createdAt": 1786860943409
   },
   {
-    "id": "b8025362-7dbf-47f9-89c9-0a900ef52291",
+    "id": "46c539bd-6e4f-4181-96ae-3003555d36b9",
     "name": "RUR8528",
     "lat": 31.4324,
     "lng": 73.6385,
@@ -36680,10 +36680,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101758
+    "createdAt": 1786860943409
   },
   {
-    "id": "c835fefe-a484-4491-9b28-695ebfb7f103",
+    "id": "11973434-d5bd-442e-b775-40b4ace4f0fe",
     "name": "RUR9178",
     "lat": 31.3988,
     "lng": 73.6287,
@@ -36708,10 +36708,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101758
+    "createdAt": 1786860943409
   },
   {
-    "id": "85b51b18-a339-4c8f-bf94-38a7ecd28243",
+    "id": "0fd1774a-ba70-4a08-a0ad-5f7719ae996a",
     "name": "RUR6960",
     "lat": 31.1367,
     "lng": 73.9102,
@@ -36736,10 +36736,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101758
+    "createdAt": 1786860943410
   },
   {
-    "id": "03e8d449-ac0f-4644-8cb6-b1dd96ac99ad",
+    "id": "64f18d43-8483-48f4-8f9e-00f10fd13417",
     "name": "HUJ1120",
     "lat": 30.8749,
     "lng": 74.0622,
@@ -36764,10 +36764,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101758
+    "createdAt": 1786860943410
   },
   {
-    "id": "90a9904a-255f-44cb-be87-7604ad5be678",
+    "id": "8d958e86-fde2-489f-9b7d-ea0d33aa7930",
     "name": "HUJ1160",
     "lat": 30.8779,
     "lng": 74.0499,
@@ -36792,10 +36792,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101758
+    "createdAt": 1786860943410
   },
   {
-    "id": "f681881f-0921-4dd4-be19-29f01688dae0",
+    "id": "365c37bb-3ec1-4837-944b-594650e99dc2",
     "name": "HUJ3221",
     "lat": 30.869,
     "lng": 74.0506,
@@ -36820,10 +36820,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101758
+    "createdAt": 1786860943411
   },
   {
-    "id": "18569416-8cc9-4f53-81b9-8a5cf9ec8091",
+    "id": "2938ce49-18ba-4f80-865c-32f407f2df24",
     "name": "HUJ3996",
     "lat": 30.8775,
     "lng": 74.0571,
@@ -36848,10 +36848,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101758
+    "createdAt": 1786860943411
   },
   {
-    "id": "fe2f7d64-90ab-49d9-9f85-44fd1f898b1c",
+    "id": "e4b9cfca-c678-45bc-b8fd-e63b7aa5d4f3",
     "name": "HUJ7462",
     "lat": 30.8741,
     "lng": 74.0513,
@@ -36876,10 +36876,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101758
+    "createdAt": 1786860943411
   },
   {
-    "id": "05127f89-5fee-4db2-a20f-9a1fc0c1e0bd",
+    "id": "7f16dcd0-c6ac-487c-98c3-56e9e79d70e3",
     "name": "HUJ7463",
     "lat": 30.85,
     "lng": 73.9884,
@@ -36904,10 +36904,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101758
+    "createdAt": 1786860943411
   },
   {
-    "id": "c58976be-c335-4200-8ad9-bd1497580fc6",
+    "id": "1e9b0c3a-9cb9-406e-8076-9e1a61d6a54e",
     "name": "HUJ7681",
     "lat": 30.8819,
     "lng": 74.0524,
@@ -36932,10 +36932,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101758
+    "createdAt": 1786860943412
   },
   {
-    "id": "b1003290-7c7d-4b09-8572-553cfd3f69bb",
+    "id": "21c0926f-900f-4a51-8409-253ca3cd39fe",
     "name": "HUJ8363",
     "lat": 30.8718,
     "lng": 74.058,
@@ -36960,10 +36960,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101758
+    "createdAt": 1786860943412
   },
   {
-    "id": "88dca3a2-ea8a-4d55-85c9-84eee312705c",
+    "id": "941873fa-55fd-4fb7-a951-cad5fc57d032",
     "name": "RUR5941",
     "lat": 31.8336,
     "lng": 74.0469,
@@ -36988,10 +36988,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101758
+    "createdAt": 1786860943412
   },
   {
-    "id": "292ed509-4320-428b-8898-4b062b8122a6",
+    "id": "2b541128-bbbd-4da4-8520-d60e384a0d28",
     "name": "GSW0356",
     "lat": 31.0155,
     "lng": 74.4903,
@@ -37016,10 +37016,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101758
+    "createdAt": 1786860943412
   },
   {
-    "id": "4b84a201-111c-4bb6-98f4-ce84d8b831bf",
+    "id": "dadba3f1-516e-4286-b98f-4ad5424fdc13",
     "name": "GSW0496",
     "lat": 31.0482,
     "lng": 74.4977,
@@ -37044,10 +37044,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101758
+    "createdAt": 1786860943413
   },
   {
-    "id": "23e89679-c723-42b1-a45f-3aea72da0428",
+    "id": "573c897a-fe24-4f9c-9386-0c8407d8a83c",
     "name": "GSW1261",
     "lat": 30.9047,
     "lng": 74.2445,
@@ -37072,10 +37072,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101758
+    "createdAt": 1786860943413
   },
   {
-    "id": "cf1a7765-2d13-4efe-b6f6-05821c3d4a0d",
+    "id": "a2e57701-1c5a-4fd2-bfac-dd3569b172f8",
     "name": "GSW3532",
     "lat": 30.9788,
     "lng": 74.3758,
@@ -37100,10 +37100,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101758
+    "createdAt": 1786860943413
   },
   {
-    "id": "3b62f28f-5eb7-4a36-a31b-1e3938e3974e",
+    "id": "a7cefd70-2027-49c6-8d53-d81b1b04c1a2",
     "name": "GSW4979",
     "lat": 31.056,
     "lng": 74.5416,
@@ -37128,10 +37128,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101758
+    "createdAt": 1786860943414
   },
   {
-    "id": "3324a4f0-7a5a-47a2-9ee1-fb098cd7ff8b",
+    "id": "51b84756-4c34-4cb7-8758-6317e37c4fd4",
     "name": "GSW4980",
     "lat": 31.0096,
     "lng": 74.419,
@@ -37156,10 +37156,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101758
+    "createdAt": 1786860943414
   },
   {
-    "id": "47db82a3-0e97-4250-bbcc-127a832651c0",
+    "id": "a504ddc0-ac32-470d-a175-5dcad2f193f4",
     "name": "GSW4981",
     "lat": 30.8966,
     "lng": 74.2364,
@@ -37184,10 +37184,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101758
+    "createdAt": 1786860943414
   },
   {
-    "id": "4052906e-31cf-4f38-9a4b-1ee5e1497c65",
+    "id": "1566dc50-84c6-4a22-bdaa-eb610527e893",
     "name": "GSW6959",
     "lat": 30.9087,
     "lng": 74.2377,
@@ -37212,10 +37212,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101758
+    "createdAt": 1786860943414
   },
   {
-    "id": "a03b81fe-0b27-4902-9c1b-ea5a8dd019ff",
+    "id": "49c4dc04-b683-41d7-903f-968442c7bdc6",
     "name": "RUR0405",
     "lat": 31.0752,
     "lng": 74.4904,
@@ -37240,10 +37240,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101758
+    "createdAt": 1786860943415
   },
   {
-    "id": "a617e12d-1694-4a74-a881-f9e1b25c607a",
+    "id": "dc357938-ce86-4406-ba20-811e649f2e60",
     "name": "RUR0861",
     "lat": 31.001,
     "lng": 74.4538,
@@ -37268,10 +37268,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101758
+    "createdAt": 1786860943415
   },
   {
-    "id": "b3411d51-1835-448a-ac03-b14c60dbc062",
+    "id": "853838ed-d244-457f-883f-ac7735c8819d",
     "name": "BCH4842",
     "lat": 31.4256,
     "lng": 73.5598,
@@ -37296,10 +37296,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101758
+    "createdAt": 1786860943415
   },
   {
-    "id": "841568ed-aaac-480c-8617-14775a8a9228",
+    "id": "ab572164-c067-4aad-85d3-156a517ea36f",
     "name": "BPR9647",
     "lat": 31.2015,
     "lng": 73.9452,
@@ -37324,10 +37324,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101758
+    "createdAt": 1786860943415
   },
   {
-    "id": "90a33eb6-5f06-4d72-b65e-27587d20eb3f",
+    "id": "5540c0be-8cf9-43c2-a5dd-8e5f33183d55",
     "name": "FWT3105",
     "lat": 31.5839,
     "lng": 73.8129,
@@ -37352,10 +37352,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101758
+    "createdAt": 1786860943416
   },
   {
-    "id": "7a27ba6e-9936-40cf-a4b2-d477a3791c9d",
+    "id": "5b2f35fa-c408-4491-ae7e-3df9499c2f23",
     "name": "FWT3248",
     "lat": 31.5738,
     "lng": 73.8132,
@@ -37380,10 +37380,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101758
+    "createdAt": 1786860943417
   },
   {
-    "id": "8d573dc9-356e-480e-8a8c-6173632283f1",
+    "id": "faff4cd5-c4a3-4e60-9456-ecab09414e21",
     "name": "FWT4944",
     "lat": 31.5974,
     "lng": 73.8089,
@@ -37408,10 +37408,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101758
+    "createdAt": 1786860943417
   },
   {
-    "id": "2417ed29-7246-47ad-8b3c-4f20e5c5bef6",
+    "id": "e226991a-44d6-48d1-8de2-da1c654c6a89",
     "name": "FRQ3531",
     "lat": 31.7508,
     "lng": 73.8357,
@@ -37436,10 +37436,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101758
+    "createdAt": 1786860943417
   },
   {
-    "id": "a6dcc975-b242-4c69-b891-d5ca7d964c62",
+    "id": "a787d7fa-c410-407a-a9c5-95eb85b2ca91",
     "name": "FRQ3866",
     "lat": 31.7506,
     "lng": 73.8261,
@@ -37464,10 +37464,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "DG",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101758
+    "createdAt": 1786860943418
   },
   {
-    "id": "5e2fa4c7-5116-4354-aacc-39c18b317171",
+    "id": "4a03aed3-5a77-4edd-bb58-392d37dba6f3",
     "name": "FRQ4068",
     "lat": 31.7431,
     "lng": 73.8271,
@@ -37492,10 +37492,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101758
+    "createdAt": 1786860943418
   },
   {
-    "id": "08e072d6-edac-4c67-b9d8-287eb0bc8aad",
+    "id": "9afc3719-1bfa-4b4f-bef1-7d894a983b58",
     "name": "FRQ4196",
     "lat": 31.7377,
     "lng": 73.8301,
@@ -37520,10 +37520,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101758
+    "createdAt": 1786860943418
   },
   {
-    "id": "b4088a2d-1127-406f-a0e1-62f4ec4f3d02",
+    "id": "8663a388-a96c-406e-997c-71ae5df75e94",
     "name": "FRQ5940",
     "lat": 31.7443,
     "lng": 73.8369,
@@ -37548,10 +37548,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101758
+    "createdAt": 1786860943418
   },
   {
-    "id": "1f2c7533-c27d-489e-a442-b895cb6f2a28",
+    "id": "7036274b-3c1f-40c9-8156-431f142b3dc9",
     "name": "FRQ6917",
     "lat": 31.7412,
     "lng": 73.8346,
@@ -37576,10 +37576,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101758
+    "createdAt": 1786860943419
   },
   {
-    "id": "67dba5e1-0e96-41a5-93be-abc2c4493827",
+    "id": "82d3ba81-7d97-4ea2-9ea9-08ddafd0ce1d",
     "name": "FRQ9944",
     "lat": 31.748,
     "lng": 73.8038,
@@ -37604,10 +37604,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101758
+    "createdAt": 1786860943419
   },
   {
-    "id": "5c8575f8-cb9c-464c-9bc4-d7f21e329bb2",
+    "id": "c9b96c07-f4b3-49f2-98fc-f0f9d152a8a1",
     "name": "FRQ9983",
     "lat": 31.7474,
     "lng": 73.8328,
@@ -37632,10 +37632,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101758
+    "createdAt": 1786860943419
   },
   {
-    "id": "08d3515f-3748-4769-ae4f-72dd74f62529",
+    "id": "94b54e42-2dda-43ad-9f5c-f4f9eb68dd9b",
     "name": "RUR3114",
     "lat": 31.7363,
     "lng": 73.8853,
@@ -37660,10 +37660,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101758
+    "createdAt": 1786860943419
   },
   {
-    "id": "208d6761-150d-4216-8e0e-de4d43ea0332",
+    "id": "d8ff8df1-6acc-412a-879d-d400fa35ff93",
     "name": "RUR4793",
     "lat": 31.817,
     "lng": 73.9184,
@@ -37688,10 +37688,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101758
+    "createdAt": 1786860943420
   },
   {
-    "id": "70e1b28b-9c9e-4f41-87b2-12f3f9bcc258",
+    "id": "5f3df20a-5359-45b2-9000-8658652d31d1",
     "name": "RUR5935",
     "lat": 31.7322,
     "lng": 73.9024,
@@ -37716,10 +37716,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101758
+    "createdAt": 1786860943420
   },
   {
-    "id": "05562400-26d0-4cfe-9bd9-f578c149125d",
+    "id": "1abf57e8-5259-4966-bbbf-5fcac8041842",
     "name": "BLH8803",
     "lat": 31.0866,
     "lng": 74.407,
@@ -37744,10 +37744,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101758
+    "createdAt": 1786860943420
   },
   {
-    "id": "e7e819f0-2689-4c97-829a-3318b8c1ba3e",
+    "id": "a84b5617-d7f2-476d-b6fc-43dc603dc920",
     "name": "BPR1176",
     "lat": 31.2116,
     "lng": 73.9371,
@@ -37772,10 +37772,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101758
+    "createdAt": 1786860943420
   },
   {
-    "id": "b8336113-cd02-47b2-87e1-3322fbed4cef",
+    "id": "8de2c2e3-bd54-4cb2-8636-4b8f1d83fe6c",
     "name": "BCH8529",
     "lat": 31.3917,
     "lng": 73.574,
@@ -37800,10 +37800,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101758
+    "createdAt": 1786860943421
   },
   {
-    "id": "bd735938-7a52-4855-9f32-6e4e96c90c89",
+    "id": "23004858-041b-43d4-a587-a98292b6627c",
     "name": "BPR4232",
     "lat": 31.2082,
     "lng": 73.941,
@@ -37828,10 +37828,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101759
+    "createdAt": 1786860943421
   },
   {
-    "id": "a4cdce0f-4001-4a1e-8e4d-7f987ca4e64b",
+    "id": "7b28852b-d1ee-488a-8476-fbbaffe59a5e",
     "name": "BPR6915",
     "lat": 31.2255,
     "lng": 73.9729,
@@ -37856,10 +37856,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101759
+    "createdAt": 1786860943421
   },
   {
-    "id": "dffd003d-b5f3-494f-9b0e-f2e3082972db",
+    "id": "6a92ffb0-ec35-4d06-aebb-57a065249332",
     "name": "DLN9627",
     "lat": 30.9484,
     "lng": 74.2978,
@@ -37884,10 +37884,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101759
+    "createdAt": 1786860943421
   },
   {
-    "id": "4694173c-c5b4-48ec-962d-96f5c97df1f0",
+    "id": "5be61db5-843c-459f-90e9-b2b91ec4aac5",
     "name": "CHU3108",
     "lat": 30.9631,
     "lng": 73.9759,
@@ -37912,10 +37912,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101759
+    "createdAt": 1786860943422
   },
   {
-    "id": "7f466c45-15fd-4c4c-ad3a-42f9a69af8ba",
+    "id": "745b871a-52b3-4639-9456-d459f2252e65",
     "name": "CHU3219",
     "lat": 30.9813,
     "lng": 73.9689,
@@ -37940,10 +37940,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101759
+    "createdAt": 1786860943422
   },
   {
-    "id": "4d7c5b74-18c1-48ad-91a9-8baef6d829f4",
+    "id": "2cb89e39-4e2d-4068-9594-bf1a8cf318ad",
     "name": "CHU3802",
     "lat": 30.9635,
     "lng": 73.9817,
@@ -37968,10 +37968,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101759
+    "createdAt": 1786860943422
   },
   {
-    "id": "942159bb-fbdd-40a2-b1c8-6e64b2ef9b75",
+    "id": "8f317dc1-91ed-404d-86d5-d6c219bcd7c2",
     "name": "CHU4410",
     "lat": 30.9575,
     "lng": 73.9816,
@@ -37996,10 +37996,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101759
+    "createdAt": 1786860943422
   },
   {
-    "id": "e13ef0fa-fb98-466f-99cc-52b82eae3e84",
+    "id": "9c1b14ab-fbfd-466c-95eb-00d6a9bf2631",
     "name": "CHU6913",
     "lat": 30.9696,
     "lng": 73.9732,
@@ -38024,10 +38024,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101759
+    "createdAt": 1786860943423
   },
   {
-    "id": "381224da-5227-456a-85db-7fbbcd8fd40b",
+    "id": "ffa7ae77-f443-4a18-bc0f-b061c1d896a2",
     "name": "CHU9636",
     "lat": 30.9679,
     "lng": 73.9813,
@@ -38052,10 +38052,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101759
+    "createdAt": 1786860943423
   },
   {
-    "id": "1ba0c182-ccc9-400e-b4dc-7935949e88ac",
+    "id": "b27929bd-1427-4a5f-a01c-0a321831b9a7",
     "name": "HWY4961",
     "lat": 30.9656,
     "lng": 73.8564,
@@ -38080,10 +38080,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101759
+    "createdAt": 1786860943423
   },
   {
-    "id": "01aa7ae9-3ceb-4236-bb7c-43ad3028c21f",
+    "id": "20913221-3aaa-4e58-b283-a70f1be3e93e",
     "name": "RUR0478",
     "lat": 30.888,
     "lng": 74.0104,
@@ -38108,10 +38108,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101759
+    "createdAt": 1786860943424
   },
   {
-    "id": "995308c8-aa2f-4bad-9503-f4aa292ef671",
+    "id": "49e4d4e7-82fc-4076-acb9-90c7acf58492",
     "name": "RUR0486",
     "lat": 30.8347,
     "lng": 74.0298,
@@ -38136,10 +38136,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101759
+    "createdAt": 1786860943424
   },
   {
-    "id": "ddc20f69-ba8e-4ed1-ac15-a998de7accf1",
+    "id": "aa7ad753-c65a-40c4-a4fd-6e0f5627a78c",
     "name": "RUR0722",
     "lat": 31.0186,
     "lng": 74.0446,
@@ -38164,10 +38164,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101759
+    "createdAt": 1786860943424
   },
   {
-    "id": "ea91c1f2-62ff-488d-a217-0cb40ba3d2ac",
+    "id": "ac29cef1-b2ca-48ee-818e-beff712e96f3",
     "name": "RUR4966",
     "lat": 30.9166,
     "lng": 74.0213,
@@ -38192,10 +38192,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101759
+    "createdAt": 1786860943424
   },
   {
-    "id": "eb835ef1-dd00-447a-8595-ecf44faf02c2",
+    "id": "335e91a1-6bd8-44a7-81b5-0c4f21713a35",
     "name": "CMG3259",
     "lat": 31.09,
     "lng": 73.9635,
@@ -38220,10 +38220,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101759
+    "createdAt": 1786860943425
   },
   {
-    "id": "0061172d-ff69-4491-adb0-36c4ab1ed865",
+    "id": "e104636a-f6fd-4037-ace8-48ba2ce57cc8",
     "name": "CMG4226",
     "lat": 31.0851,
     "lng": 73.9631,
@@ -38248,10 +38248,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101759
+    "createdAt": 1786860943425
   },
   {
-    "id": "79df1259-ebed-414f-aee9-e9b7cee6f366",
+    "id": "141385c1-0d05-4157-adfc-4988e154a293",
     "name": "HWY2871",
     "lat": 31.1227,
     "lng": 74.0285,
@@ -38276,10 +38276,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101759
+    "createdAt": 1786860943425
   },
   {
-    "id": "caa83c2f-08d3-463d-8e88-f6cd38d19a65",
+    "id": "129da489-6323-46da-a005-c472e700050c",
     "name": "BUC3530",
     "lat": 31.3109,
     "lng": 73.6569,
@@ -38304,10 +38304,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101759
+    "createdAt": 1786860943425
   },
   {
-    "id": "a16de39b-7e56-4ebd-8693-62303bdce56b",
+    "id": "f32dcc72-c700-415e-a3f3-ce87f51cf558",
     "name": "BUC4225",
     "lat": 31.3055,
     "lng": 73.6584,
@@ -38332,10 +38332,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101759
+    "createdAt": 1786860943429
   },
   {
-    "id": "d17ce3bd-297e-4b9d-8827-8c8bce1cc706",
+    "id": "41d0df8c-390e-4792-b413-caa0127ef5d1",
     "name": "BUC5998",
     "lat": 31.3094,
     "lng": 73.6651,
@@ -38360,10 +38360,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101759
+    "createdAt": 1786860943430
   },
   {
-    "id": "64f8bec9-85d6-476c-b211-dc29d8b0bf29",
+    "id": "042b1b93-492b-4536-ab67-73b0d66efef7",
     "name": "RUR0857",
     "lat": 31.4542,
     "lng": 73.5674,
@@ -38388,10 +38388,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101759
+    "createdAt": 1786860943431
   },
   {
-    "id": "e169fb72-093f-45ba-b00c-edb3833da31a",
+    "id": "9663fd60-1419-4a60-b514-9ad6915f35b1",
     "name": "RUR9349",
     "lat": 31.320354,
     "lng": 74.402107,
@@ -38416,10 +38416,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101759
+    "createdAt": 1786860943432
   },
   {
-    "id": "d0e50348-c256-48c2-bddc-b34c2fe8f8f8",
+    "id": "ba5653c2-d475-41d2-847d-81562226b03b",
     "name": "RUR8483",
     "lat": 31.33947,
     "lng": 74.14986,
@@ -38444,10 +38444,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101759
+    "createdAt": 1786860943432
   },
   {
-    "id": "a7183232-7f7e-4eac-b607-b1bb07a7f8a9",
+    "id": "f731b754-387d-44bc-af61-9a947d15e4bc",
     "name": "RUR8638",
     "lat": 31.266428,
     "lng": 74.087064,
@@ -38472,10 +38472,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101759
+    "createdAt": 1786860943432
   },
   {
-    "id": "3b83c1ac-54d8-4e77-baad-f8190274001c",
+    "id": "e10b154c-841e-49fa-bac5-27dc5eae04be",
     "name": "SHK9662",
     "lat": 31.692645,
     "lng": 74.066228,
@@ -38500,10 +38500,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101759
+    "createdAt": 1786860943445
   },
   {
-    "id": "23ff53bc-546c-4f01-b794-40c6e2f7bbf8",
+    "id": "77281eb0-76af-4671-b81e-5810319f142c",
     "name": "LHR5252",
     "lat": 31.36204,
     "lng": 74.221952,
@@ -38528,10 +38528,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101759
+    "createdAt": 1786860943446
   },
   {
-    "id": "15d2c1a2-8d6a-472f-a93c-b9f15a3e5120",
+    "id": "9a450402-a7c9-48c1-9d6e-6f6db86746fa",
     "name": "SHD4338",
     "lat": 31.61435,
     "lng": 74.28798,
@@ -38556,10 +38556,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101759
+    "createdAt": 1786860943446
   },
   {
-    "id": "29daa066-87a3-4e15-9d4f-6758ccfd8ddb",
+    "id": "55710c94-4033-4f31-9eb6-e48fc1b40325",
     "name": "RUR5348",
     "lat": 31.28693,
     "lng": 74.173316,
@@ -38584,10 +38584,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101759
+    "createdAt": 1786860943447
   },
   {
-    "id": "29d4a7b6-44d8-4d78-b752-afbc8c489c91",
+    "id": "cc561139-50be-43bb-8f72-a54559c855db",
     "name": "RUR5550",
     "lat": 31.548103,
     "lng": 74.22643,
@@ -38612,10 +38612,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101759
+    "createdAt": 1786860943447
   },
   {
-    "id": "88586024-9f2f-45ec-9ccd-237540432c2a",
+    "id": "14cc55b8-69e8-4c78-8541-95b13a14f757",
     "name": "RUR5115",
     "lat": 31.279795,
     "lng": 74.193853,
@@ -38640,10 +38640,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101759
+    "createdAt": 1786860943447
   },
   {
-    "id": "5eb3b79d-23a9-4aa6-8373-2b02fc7c751e",
+    "id": "daa191c8-8946-44f2-a060-369f9a531344",
     "name": "RUR5604",
     "lat": 31.717103,
     "lng": 74.294553,
@@ -38668,10 +38668,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101759
+    "createdAt": 1786860943448
   },
   {
-    "id": "3aaad38b-5d8e-41a0-9604-2e547effd5bd",
+    "id": "f4326825-b94e-4670-a438-c5b4c85aabae",
     "name": "RWD9757",
     "lat": 31.24197,
     "lng": 74.2014589,
@@ -38696,10 +38696,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101759
+    "createdAt": 1786860943448
   },
   {
-    "id": "27f80628-ad17-4bf4-8a89-b89ae5586756",
+    "id": "b1736ae9-a189-4ec8-adc9-5e2c737b8c7e",
     "name": "RUR5939",
     "lat": 31.19267,
     "lng": 74.32652,
@@ -38724,10 +38724,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101759
+    "createdAt": 1786860943449
   },
   {
-    "id": "f5e1c2ab-408a-4e75-b0eb-2555d7cc0937",
+    "id": "5231b8fd-2ae3-4d0b-bb6e-77c832d0e20f",
     "name": "HWC0081",
     "lat": 31.38652,
     "lng": 73.70836,
@@ -38752,10 +38752,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101759
+    "createdAt": 1786860943449
   },
   {
-    "id": "40b1552c-5253-4787-96ed-ee49b24c546b",
+    "id": "2b1a791e-3f8f-4280-b553-6ec19dfd40c0",
     "name": "KMK9727",
     "lat": 31.96398,
     "lng": 74.22518,
@@ -38780,10 +38780,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101759
+    "createdAt": 1786860943450
   },
   {
-    "id": "c1cb8827-9e56-4a9a-b8fc-32d17828681a",
+    "id": "fd989c1e-7d5c-4fdf-a63e-9b2fc044ef74",
     "name": "GUJ9672",
     "lat": 32.115422,
     "lng": 74.171728,
@@ -38808,10 +38808,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101759
+    "createdAt": 1786860943450
   },
   {
-    "id": "c51bf9bd-4eb3-4972-bd93-3d249e7c4347",
+    "id": "4a2abfdf-e271-4f2c-9579-7d9e70ed2415",
     "name": "RUR5610",
     "lat": 31.91056,
     "lng": 74.13753,
@@ -38836,10 +38836,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101759
+    "createdAt": 1786860943450
   },
   {
-    "id": "5a64426f-ddbb-49c5-b643-bbbe2c955220",
+    "id": "0ebd65cd-596e-4c74-abb3-20a41355561e",
     "name": "GUJ9829",
     "lat": 32.192994,
     "lng": 74.180772,
@@ -38864,10 +38864,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101759
+    "createdAt": 1786860943451
   },
   {
-    "id": "ee2f748f-90d8-4e32-b95c-458bf14cfc8e",
+    "id": "bcbf82cb-6d57-4f80-982a-27e1d958bef4",
     "name": "GUJ9760",
     "lat": 32.166453,
     "lng": 74.182883,
@@ -38892,10 +38892,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101759
+    "createdAt": 1786860943451
   },
   {
-    "id": "00b4e6b3-33ad-403e-9cd6-31486553329f",
+    "id": "acd5a49f-e5af-4be4-982c-5668faab3213",
     "name": "RUR7696",
     "lat": 32.281175,
     "lng": 74.143325,
@@ -38920,10 +38920,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101759
+    "createdAt": 1786860943451
   },
   {
-    "id": "95ae2b39-73c8-4488-ab0e-9eedba0a1adc",
+    "id": "a94835ca-b5b0-4cc1-b65d-b896fe48cb72",
     "name": "RUR5403",
     "lat": 32.210031,
     "lng": 75.039378,
@@ -38948,10 +38948,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101759
+    "createdAt": 1786860943451
   },
   {
-    "id": "ab8d530e-24d0-4f37-9be1-4b626457f1d8",
+    "id": "2e3bf23b-053a-4bee-9a6e-ac8b25c9be31",
     "name": "SKT9693",
     "lat": 32.481437,
     "lng": 74.510848,
@@ -38976,10 +38976,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101759
+    "createdAt": 1786860943452
   },
   {
-    "id": "267a0c9f-376e-4ca3-9827-ddc85a79d0b7",
+    "id": "2d2c23a0-a07c-4722-b839-3420731cdd1a",
     "name": "RUR2333",
     "lat": 32.13412,
     "lng": 73.94479,
@@ -39004,10 +39004,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101759
+    "createdAt": 1786860943452
   },
   {
-    "id": "bc8a1d54-937e-416e-ad58-70f94db9324f",
+    "id": "0c159b11-6a97-4a70-b6f0-87491fb88901",
     "name": "RUR5291",
     "lat": 32.140658,
     "lng": 74.046392,
@@ -39032,10 +39032,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101759
+    "createdAt": 1786860943452
   },
   {
-    "id": "b0a84b6f-a746-4284-a1c4-719cfff7ab39",
+    "id": "b161f81c-33e7-43b1-9e8b-2178b2079cbd",
     "name": "RUR4989",
     "lat": 32.77575,
     "lng": 73.83662,
@@ -39060,10 +39060,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101759
+    "createdAt": 1786860943452
   },
   {
-    "id": "9e58500d-3875-469a-b510-d8f0384c599c",
+    "id": "71237d35-693a-4601-8016-831ea814a639",
     "name": "RUR4325",
     "lat": 32.791868,
     "lng": 74.018513,
@@ -39088,10 +39088,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC",
-    "createdAt": 1786778101759
+    "createdAt": 1786860943453
   },
   {
-    "id": "c4e686b6-ea00-401d-9fc7-2e359ac7509a",
+    "id": "8e820b8f-60be-4c4f-9e62-8b54886ed78e",
     "name": "EC1-KMK-10150",
     "lat": 31.961507,
     "lng": 74.221338,
@@ -39114,10 +39114,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101759
+    "createdAt": 1786860943453
   },
   {
-    "id": "4d8149a3-2408-4a41-b733-12677f4f8343",
+    "id": "cb50def8-cae6-4612-8753-d666c0780b7a",
     "name": "EC1-GUJ-00400",
     "lat": 32.1382,
     "lng": 74.2083,
@@ -39140,10 +39140,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP Only",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101759
+    "createdAt": 1786860943453
   },
   {
-    "id": "d4cc0501-f72f-4a42-b066-1b8538dcc76c",
+    "id": "9e3c2b16-e833-4429-a160-981b6a9e3e63",
     "name": "EC1-GUJ-00394",
     "lat": 32.15473,
     "lng": 74.21679,
@@ -39166,10 +39166,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP Only",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101759
+    "createdAt": 1786860943453
   },
   {
-    "id": "ca2092df-76ed-4bbd-a4d1-622246246551",
+    "id": "d2294cdd-7f4b-4383-ba52-128d9fd3bbee",
     "name": "EC1-GUT-00426",
     "lat": 32.0699,
     "lng": 74.20255,
@@ -39192,10 +39192,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP Only",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101760
+    "createdAt": 1786860943454
   },
   {
-    "id": "2e424bec-dc79-498c-97fb-929e3c5d5491",
+    "id": "7de5849b-4781-4e30-b62e-0d88e420c0c0",
     "name": "EC1-GUJ-00352",
     "lat": 32.1307,
     "lng": 74.207,
@@ -39218,10 +39218,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP Only",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101760
+    "createdAt": 1786860943454
   },
   {
-    "id": "77547d9e-7de1-435c-8947-5af6b170419c",
+    "id": "ce68dbcb-9c37-4183-94b7-d15c83401c64",
     "name": "EC1-GUJ-00354",
     "lat": 32.1346,
     "lng": 74.1959,
@@ -39244,10 +39244,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101760
+    "createdAt": 1786860943454
   },
   {
-    "id": "a0693efb-d1fa-4095-88ef-6f5f5264eac5",
+    "id": "6124dce1-b6d0-4633-a04e-5d8f91e33976",
     "name": "EC1-GUJ-02912",
     "lat": 32.10512,
     "lng": 74.20426,
@@ -39270,10 +39270,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101760
+    "createdAt": 1786860943455
   },
   {
-    "id": "98e7e288-601b-4163-8140-bf27d209d7be",
+    "id": "423210ed-765c-4f40-8046-abe4e9bc4ad9",
     "name": "EC1-GUJ-02848",
     "lat": 32.07051,
     "lng": 74.19715,
@@ -39296,10 +39296,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101760
+    "createdAt": 1786860943455
   },
   {
-    "id": "98b0f579-74ca-4694-92fe-bb44a31421f3",
+    "id": "894a0e99-d237-4d6c-83a7-67f3917f0f32",
     "name": "EC1-GUJ-02839",
     "lat": 32.12459,
     "lng": 74.22917,
@@ -39322,10 +39322,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC+DG",
     "ufoneApprovedServices": "DC+DG",
     "jazzApprovedServices": "DC+DG",
-    "createdAt": 1786778101760
+    "createdAt": 1786860943455
   },
   {
-    "id": "90ff9602-6e97-489f-89fc-a6cb8ec83539",
+    "id": "7175fac5-5a14-454f-a64a-470724674b03",
     "name": "EC1-GUJ-05009",
     "lat": 32.211624,
     "lng": 74.228119,
@@ -39348,10 +39348,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101760
+    "createdAt": 1786860943455
   },
   {
-    "id": "6f0a8081-7c3e-44d5-9c9e-18db947521e5",
+    "id": "af5676e8-7f6c-48be-9aac-e38fb6eee69b",
     "name": "EC1-GUJ-01685",
     "lat": 32.194972,
     "lng": 74.226676,
@@ -39374,10 +39374,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101760
+    "createdAt": 1786860943456
   },
   {
-    "id": "88f62c67-e922-4099-892c-2881a6fe6276",
+    "id": "40c3a4c5-fec5-4c66-9c69-3ae1a3b29425",
     "name": "EC1-GUJ-01734",
     "lat": 32.184837,
     "lng": 74.221901,
@@ -39400,10 +39400,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101760
+    "createdAt": 1786860943456
   },
   {
-    "id": "dd57a6cf-5d9f-491d-8d1a-08811fcde3ad",
+    "id": "b68b4432-73f2-478a-ab1e-0c6398600709",
     "name": "EC1-GUJ-02153",
     "lat": 32.06575,
     "lng": 74.18492,
@@ -39426,10 +39426,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101760
+    "createdAt": 1786860943456
   },
   {
-    "id": "a073ebeb-156b-4d78-a10c-2a7d22562662",
+    "id": "af1ad383-055e-4c63-9a53-ce0f31e091da",
     "name": "EC1-GUJ-02524",
     "lat": 32.08528,
     "lng": 74.17222,
@@ -39452,10 +39452,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101760
+    "createdAt": 1786860943457
   },
   {
-    "id": "75ec89c1-0de8-416c-ac7e-c7848b146a0e",
+    "id": "406be032-8408-47ed-8ddd-3ed9c679dd92",
     "name": "EC1-GUJ-02584",
     "lat": 32.10007,
     "lng": 74.18854,
@@ -39478,10 +39478,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101760
+    "createdAt": 1786860943457
   },
   {
-    "id": "3394fcc6-501a-4c4a-a23e-1c9ece294d82",
+    "id": "a5cbf8c6-45f9-43cf-a0a7-08ddfefbb783",
     "name": "EC1-GUJ-04623",
     "lat": 32.117232,
     "lng": 74.233495,
@@ -39504,10 +39504,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101760
+    "createdAt": 1786860943457
   },
   {
-    "id": "51babbb8-72ef-4a3c-940c-c77ded2959b1",
+    "id": "7e3efe10-897b-4b2e-b5fc-052856ee95f5",
     "name": "EC1-GUJ-00351",
     "lat": 32.1436,
     "lng": 74.1979,
@@ -39530,10 +39530,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101760
+    "createdAt": 1786860943457
   },
   {
-    "id": "66787617-ff49-4a8a-bdb1-c7aafc2a6672",
+    "id": "fd695b73-16e8-4a2d-9ca4-48e938b30d1a",
     "name": "EC1-GUJ-00386",
     "lat": 32.16669,
     "lng": 74.21454,
@@ -39556,10 +39556,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101760
+    "createdAt": 1786860943458
   },
   {
-    "id": "a19f4eaf-5634-4b47-8908-b20d7185c3fa",
+    "id": "09d53814-3155-47d3-a1b4-35bef6f1f45f",
     "name": "EC1-GUJ-00373",
     "lat": 31.96766,
     "lng": 74.22303,
@@ -39582,10 +39582,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "CP+DC",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101760
+    "createdAt": 1786860943458
   },
   {
-    "id": "3bb77d65-4f25-43d5-80a2-e6f1e969cf1a",
+    "id": "f191c525-d92d-4500-8795-bc95b63ccae5",
     "name": "EC1-GUJ-00366",
     "lat": 32.18609,
     "lng": 74.17881,
@@ -39608,10 +39608,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "CP+DC",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101760
+    "createdAt": 1786860943458
   },
   {
-    "id": "d90beb3d-7c92-417d-b88e-64040826d7cd",
+    "id": "d95542d8-88a8-4dc8-ade3-94c12ef2d25e",
     "name": "EC1-GUJ-07835",
     "lat": 32.11365,
     "lng": 74.17494,
@@ -39634,10 +39634,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101760
+    "createdAt": 1786860943459
   },
   {
-    "id": "f36745bc-677b-46eb-8d63-c0cb1f08c962",
+    "id": "939e7c0f-a691-4c94-ba65-fda3712e8476",
     "name": "EC1-GUJ-07836",
     "lat": 32.16598,
     "lng": 74.255217,
@@ -39660,10 +39660,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101760
+    "createdAt": 1786860943459
   },
   {
-    "id": "fddc668d-eead-47e0-b7dd-6e0b99649f95",
+    "id": "7be6e685-5efb-49fc-a267-860205d1268d",
     "name": "EC1-GUJ-07832",
     "lat": 32.207531,
     "lng": 74.310934,
@@ -39686,10 +39686,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101760
+    "createdAt": 1786860943460
   },
   {
-    "id": "f0dfc946-1197-424b-8e53-6cd8246b9d24",
+    "id": "64fe441d-12e1-45c3-84fe-9a3e5866ad4f",
     "name": "EC1-GUJ-08589",
     "lat": 32.09999,
     "lng": 74.30791,
@@ -39712,10 +39712,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101760
+    "createdAt": 1786860943460
   },
   {
-    "id": "420aab0c-9726-48c3-b034-3355e2713dd6",
+    "id": "d982f6f8-33db-43eb-b3de-06730c9708b2",
     "name": "EC1-KMK-09132",
     "lat": 31.956936,
     "lng": 74.25086,
@@ -39738,10 +39738,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101760
+    "createdAt": 1786860943460
   },
   {
-    "id": "cca6689c-9e33-48e2-9da1-f7216bd28ff8",
+    "id": "318d7148-051f-4991-aea3-11dec2e93f46",
     "name": "EC1-KMK-09173",
     "lat": 31.90249,
     "lng": 74.22705,
@@ -39764,10 +39764,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101760
+    "createdAt": 1786860943460
   },
   {
-    "id": "6e57edd9-e8fe-4dc9-8b3e-38db50601b9d",
+    "id": "04f8cfde-42d5-49c9-b156-22a62853450e",
     "name": "EC1-GUJ-08173",
     "lat": 32.18557,
     "lng": 74.213195,
@@ -39790,10 +39790,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101760
+    "createdAt": 1786860943461
   },
   {
-    "id": "530fa407-1149-416c-8576-c62aa39a0356",
+    "id": "a961bbe3-290f-4e45-9ad9-8ea7e48f6409",
     "name": "EC1-GUJ-09464",
     "lat": 32.171035,
     "lng": 74.157826,
@@ -39816,10 +39816,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP + DG",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101760
+    "createdAt": 1786860943461
   },
   {
-    "id": "c58121f1-5c37-4da8-af4b-2da7bb42ff48",
+    "id": "7dff98d6-01f0-47f4-b2be-fad0dcb98e1e",
     "name": "EC1-KMK-09803",
     "lat": 31.983305,
     "lng": 74.220349,
@@ -39842,10 +39842,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
-    "createdAt": 1786778101760
+    "createdAt": 1786860943462
   },
   {
-    "id": "d8f6817f-b60d-4597-8254-c204dc9c11a0",
+    "id": "4a56cf37-23ac-472c-9224-166a1678614e",
     "name": "EC1-GUJ-09974",
     "lat": 32.046619,
     "lng": 74.227315,
@@ -39868,10 +39868,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101760
+    "createdAt": 1786860943462
   },
   {
-    "id": "49165b21-0af1-4558-944e-82be2afa39cb",
+    "id": "4173dc39-9396-4372-867c-de32a3541566",
     "name": "EC1-GUJ-10194",
     "lat": 32.125041,
     "lng": 74.174088,
@@ -39894,10 +39894,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101760
+    "createdAt": 1786860943463
   },
   {
-    "id": "c2a0cf45-261f-4815-bec0-c99025e8a523",
+    "id": "689e79d0-65d9-4bec-bb9b-2f8458785a49",
     "name": "EC1-GUJ-10216",
     "lat": 32.067275,
     "lng": 74.174315,
@@ -39920,10 +39920,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
-    "createdAt": 1786778101760
+    "createdAt": 1786860943463
   },
   {
-    "id": "a0a3ecfa-cbcb-4c0a-92ac-65aed725d275",
+    "id": "7ecbc3bf-1635-4fc5-863e-98698aedb19a",
     "name": "EC1-GUJ-06042",
     "lat": 32.099311,
     "lng": 74.163741,
@@ -39946,10 +39946,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101760
+    "createdAt": 1786860943463
   },
   {
-    "id": "55efee32-0578-4b4f-8f95-6b1bb9646bf4",
+    "id": "e51da034-ca95-4fff-b15d-e94c856751f4",
     "name": "EC1-GUJ-06031",
     "lat": 32.243553,
     "lng": 74.00533,
@@ -39972,10 +39972,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101760
+    "createdAt": 1786860943464
   },
   {
-    "id": "e9068f41-aded-4a51-8cc5-c6c1b5f58198",
+    "id": "56e26ad9-1ca1-4dd6-8352-457dbb18641c",
     "name": "EC1-WZD-01613",
     "lat": 32.40794,
     "lng": 74.20585,
@@ -39998,10 +39998,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101760
+    "createdAt": 1786860943464
   },
   {
-    "id": "429a7cd1-f976-4678-89a7-b7a96be238bf",
+    "id": "9d4b1f86-00ba-4ae2-922f-b94f4c87880e",
     "name": "EC1-GUJ-02847",
     "lat": 32.10262,
     "lng": 74.18674,
@@ -40024,10 +40024,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101760
+    "createdAt": 1786860943464
   },
   {
-    "id": "b51ce05c-9b11-4ffb-9b0b-456e8291a3cb",
+    "id": "22eca781-af5c-4969-800b-2ed98fe56fa2",
     "name": "EC1-GUJ-04856",
     "lat": 32.12083,
     "lng": 74.19044,
@@ -40050,10 +40050,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101760
+    "createdAt": 1786860943464
   },
   {
-    "id": "141e9023-6aa1-4cc3-be0f-eb548456a0ec",
+    "id": "ae52530b-a87e-4b85-a5e4-7179d545a45e",
     "name": "EC1-GUJ-04258",
     "lat": 32.44104,
     "lng": 74.13833,
@@ -40076,10 +40076,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101760
+    "createdAt": 1786860943465
   },
   {
-    "id": "0d222581-b6b3-4891-aa6b-ea0ad049cd48",
+    "id": "a42d68cd-ff3a-43de-9e5c-2982af8ac763",
     "name": "EC1-GUJ-04255",
     "lat": 32.053,
     "lng": 74.217,
@@ -40102,10 +40102,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101760
+    "createdAt": 1786860943465
   },
   {
-    "id": "d4c5d36f-b5f4-4310-a7e5-8ddcd52ae885",
+    "id": "b0c89a30-1c64-4f28-add0-1ce1edbefb97",
     "name": "EC1-SKT-04858",
     "lat": 32.42022,
     "lng": 74.42837,
@@ -40128,10 +40128,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101760
+    "createdAt": 1786860943465
   },
   {
-    "id": "8507d177-1743-471e-90f0-b1507f298a10",
+    "id": "576ae0b2-876e-47fc-a094-f50926ddb8fe",
     "name": "EC1-SKT-03534",
     "lat": 32.39529,
     "lng": 74.36035,
@@ -40154,10 +40154,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101760
+    "createdAt": 1786860943465
   },
   {
-    "id": "74daecf8-5123-4a10-914d-a477bdc17c87",
+    "id": "1ea4e951-1af0-48c9-8214-347241fc5c3f",
     "name": "EC1-DSK-00184",
     "lat": 32.4067,
     "lng": 74.3637,
@@ -40180,10 +40180,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP Only",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101760
+    "createdAt": 1786860943465
   },
   {
-    "id": "5472acb1-2cd4-4592-983e-8fa8da5e41fd",
+    "id": "8c2280c0-6057-4dd5-afaa-600dfa539c33",
     "name": "EC1-SMB-02849",
     "lat": 32.42011,
     "lng": 74.46575,
@@ -40206,10 +40206,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101760
+    "createdAt": 1786860943466
   },
   {
-    "id": "f576030e-06f2-49ec-b153-81c6ecc44915",
+    "id": "fa44e25d-387e-4821-881a-7bf16ab7912e",
     "name": "EC1-SKT-01513",
     "lat": 32.48433,
     "lng": 74.35156,
@@ -40232,10 +40232,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "CP+DC",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101760
+    "createdAt": 1786860943466
   },
   {
-    "id": "bff59aac-e638-42ea-8ba0-0aae683cb207",
+    "id": "f3f617be-bd9a-4836-9b5e-92f3eee3b47c",
     "name": "EC1-SKT-01515",
     "lat": 32.42472,
     "lng": 74.33745,
@@ -40258,10 +40258,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101760
+    "createdAt": 1786860943466
   },
   {
-    "id": "c080265d-d67b-4934-88da-e1ce149d55af",
+    "id": "87a68475-3e3a-4172-a01b-bab26d2aa6ad",
     "name": "EC1-SMB-02350",
     "lat": 32.45065,
     "lng": 74.44411,
@@ -40284,10 +40284,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101760
+    "createdAt": 1786860943467
   },
   {
-    "id": "0e75e1b9-199c-4dee-9426-d707f435059b",
+    "id": "02f36a34-e702-470b-8259-1ae4d7dc6e94",
     "name": "EC1-WZD-02092",
     "lat": 32.34558,
     "lng": 74.10592,
@@ -40310,10 +40310,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101760
+    "createdAt": 1786860943467
   },
   {
-    "id": "de5d9f1a-aa99-42a5-a0a0-1e6ae14e2c4b",
+    "id": "a528a8d8-0259-4b5e-8cde-a2788214cf70",
     "name": "EC1-DSK-02395",
     "lat": 32.328867,
     "lng": 74.353506,
@@ -40336,10 +40336,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101760
+    "createdAt": 1786860943467
   },
   {
-    "id": "cd2e1bec-b3d9-4f57-a166-1937030cc2fc",
+    "id": "d1ec5e85-15ae-4125-a3db-156878336a96",
     "name": "EC1-SMB-02329",
     "lat": 32.47082,
     "lng": 74.351602,
@@ -40362,10 +40362,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "CP+DC",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101760
+    "createdAt": 1786860943467
   },
   {
-    "id": "b12bdfec-84e6-4e7a-9a6e-8e3a19169b47",
+    "id": "4fad1d1f-41a5-41df-97ab-f2fdbdbcaa22",
     "name": "EC1-WZD-02326",
     "lat": 32.44652,
     "lng": 74.15004,
@@ -40388,10 +40388,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101761
+    "createdAt": 1786860943468
   },
   {
-    "id": "8a38d6fc-2e11-402e-8327-25d01cfed52b",
+    "id": "6cb67ca5-5f61-4d45-b406-543307d13f86",
     "name": "EC1-SKT-02972",
     "lat": 32.47229,
     "lng": 74.44715,
@@ -40414,10 +40414,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "CP+DC",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101761
+    "createdAt": 1786860943468
   },
   {
-    "id": "33fefa3e-76eb-4648-8442-79b563ad082d",
+    "id": "f8d75a9a-e029-423f-b187-7ac0f19c636f",
     "name": "EC1-DSK-02503",
     "lat": 32.336667,
     "lng": 74.345178,
@@ -40440,10 +40440,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101761
+    "createdAt": 1786860943468
   },
   {
-    "id": "19cf12e8-00be-47aa-807f-17aeaf11a225",
+    "id": "e4c011d0-1bb0-475f-9e9a-f90f42cc3c2a",
     "name": "EC1-SKT-04981",
     "lat": 32.48608,
     "lng": 74.45312,
@@ -40466,10 +40466,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101761
+    "createdAt": 1786860943468
   },
   {
-    "id": "ede2f3bf-30d9-487e-b1b9-68b4b1627048",
+    "id": "afe4fc1b-696c-418b-a561-fe1748147a38",
     "name": "EC1-DSK-02507",
     "lat": 32.316163,
     "lng": 74.27007,
@@ -40492,10 +40492,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101761
+    "createdAt": 1786860943469
   },
   {
-    "id": "5abca223-6b93-4f3e-95d0-57d3e2f80cb7",
+    "id": "39c804f2-8d62-4bab-aac6-676828f51433",
     "name": "EC1-WZD-01614",
     "lat": 32.33632,
     "lng": 73.90917,
@@ -40518,10 +40518,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101761
+    "createdAt": 1786860943469
   },
   {
-    "id": "57ef2cfe-aa47-4b24-8263-044e63879d66",
+    "id": "3a762912-1b45-4fe5-a491-006dffb3a3cb",
     "name": "EC1-WZD-01618",
     "lat": 32.43746,
     "lng": 74.11504,
@@ -40544,10 +40544,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101761
+    "createdAt": 1786860943469
   },
   {
-    "id": "3cd4f8a4-e16f-46d9-8952-c09beef8f7cc",
+    "id": "1969f9c7-0327-4059-bcb0-c10245f2b365",
     "name": "EC1-SKT-01779",
     "lat": 32.385057,
     "lng": 74.408319,
@@ -40570,10 +40570,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101761
+    "createdAt": 1786860943469
   },
   {
-    "id": "fe4e47ff-49bc-4a9e-9b90-1b701df0c060",
+    "id": "fc211811-969d-4775-a531-e8bf5e0de974",
     "name": "EC1-SKT-03537",
     "lat": 32.31789,
     "lng": 74.44038,
@@ -40596,10 +40596,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101761
+    "createdAt": 1786860943469
   },
   {
-    "id": "d6211be9-9fb0-40e3-90df-b574266de43a",
+    "id": "a6c8f975-f855-4a03-a94e-132eae62211b",
     "name": "EC1-SKT-03985",
     "lat": 32.390353,
     "lng": 74.408757,
@@ -40622,10 +40622,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101761
+    "createdAt": 1786860943470
   },
   {
-    "id": "812764f1-b981-4573-a55f-b56773582615",
+    "id": "e38b48d1-32fa-4561-91da-f9cff337cce8",
     "name": "EC1-SKT-05920",
     "lat": 32.447452,
     "lng": 74.412011,
@@ -40648,10 +40648,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101761
+    "createdAt": 1786860943470
   },
   {
-    "id": "fbee2a96-fede-4c57-8c1d-82b367225857",
+    "id": "a2fd924c-bfcf-4325-bb7e-3e9b5154abd2",
     "name": "EC1-DSK-05109",
     "lat": 32.19634,
     "lng": 74.39454,
@@ -40674,10 +40674,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101761
+    "createdAt": 1786860943470
   },
   {
-    "id": "9b115523-dd52-4749-a7ad-e0b9e1fcebf7",
+    "id": "3b758f27-023d-4279-ba24-d94849874069",
     "name": "EC1-SKT-06039",
     "lat": 32.376333,
     "lng": 74.455523,
@@ -40700,10 +40700,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101761
+    "createdAt": 1786860943470
   },
   {
-    "id": "3e8cadce-218e-4e99-a367-4d7b2571ee3f",
+    "id": "42c82e72-40e1-4e96-b084-fb8ae2707618",
     "name": "EC1-DSK-03225",
     "lat": 32.332717,
     "lng": 74.345863,
@@ -40726,10 +40726,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "CP+DC",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101761
+    "createdAt": 1786860943471
   },
   {
-    "id": "65f56dff-d97c-49e8-baba-90b3b0908992",
+    "id": "58895215-3105-4040-9800-8d595d955c05",
     "name": "EC1-SKT-06185",
     "lat": 32.328227,
     "lng": 74.359824,
@@ -40752,10 +40752,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "CP+DC",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101761
+    "createdAt": 1786860943471
   },
   {
-    "id": "3393b318-d907-41d5-b9d5-f4fc85cff485",
+    "id": "45a243aa-a837-487d-aab3-6036aa2a03fd",
     "name": "EC1-DSK-07062",
     "lat": 32.324427,
     "lng": 74.341448,
@@ -40778,10 +40778,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "CP+DC",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101761
+    "createdAt": 1786860943471
   },
   {
-    "id": "57e86efc-691b-41e8-a356-d7dacf596c08",
+    "id": "12ac7637-aa93-4af5-bce4-59f2d9825e10",
     "name": "EC1-DSK-06497",
     "lat": 32.34144,
     "lng": 74.37114,
@@ -40804,10 +40804,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101761
+    "createdAt": 1786860943471
   },
   {
-    "id": "dee0ada6-0f62-4e48-ae5f-2368db18e811",
+    "id": "d106bf7d-d96b-437f-83c5-9e7244b68d1d",
     "name": "EC1-DSK-06454",
     "lat": 32.28559,
     "lng": 74.32355,
@@ -40830,10 +40830,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101761
+    "createdAt": 1786860943472
   },
   {
-    "id": "6158120a-522e-4ad9-aa5c-4a6601da16a8",
+    "id": "9607abb1-b648-408c-b0ee-83c50b5fb52b",
     "name": "EC1-SKT-07481",
     "lat": 32.47938,
     "lng": 74.43251,
@@ -40856,10 +40856,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101761
+    "createdAt": 1786860943472
   },
   {
-    "id": "b1601072-f494-4b26-b304-1891c767f1ef",
+    "id": "26851b4b-16ef-42d5-a741-f1a80da90fbf",
     "name": "EC1-GUJ-08633",
     "lat": 32.2586,
     "lng": 74.4765,
@@ -40882,10 +40882,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101761
+    "createdAt": 1786860943472
   },
   {
-    "id": "d86ed376-6f34-4e61-b379-4ef5f0b01cf1",
+    "id": "22d8d09b-b07d-429c-8a46-1abcdb461209",
     "name": "EC1-DSK-08763",
     "lat": 32.33556,
     "lng": 74.29697,
@@ -40908,10 +40908,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101761
+    "createdAt": 1786860943472
   },
   {
-    "id": "6d723032-f1e1-49b9-bbc0-5675a8720b2b",
+    "id": "b44a7793-bb44-40e0-a586-20eed1df1a42",
     "name": "EC1-SMB-09175",
     "lat": 32.49129,
     "lng": 74.29868,
@@ -40934,10 +40934,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101761
+    "createdAt": 1786860943473
   },
   {
-    "id": "246266a4-5485-4b1e-90a5-98d0a159b445",
+    "id": "d030fbe9-b6c0-4d75-b6bf-4806636938c9",
     "name": "EC1-SKT-09174",
     "lat": 32.46445,
     "lng": 74.47095,
@@ -40960,10 +40960,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101761
+    "createdAt": 1786860943473
   },
   {
-    "id": "85c9b719-f0d9-40dc-863c-e46c116d0073",
+    "id": "50be4a01-f779-4949-ad0a-5adcef7e0399",
     "name": "EC1-WZD-09617",
     "lat": 32.381804,
     "lng": 74.127801,
@@ -40986,10 +40986,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101761
+    "createdAt": 1786860943473
   },
   {
-    "id": "99f802d5-3e85-45a1-8932-ac7b86f760fe",
+    "id": "f8648653-ca81-4091-bf98-ae49f01a83cb",
     "name": "EC1-WZD-09683",
     "lat": 32.357302,
     "lng": 74.013446,
@@ -41012,10 +41012,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101761
+    "createdAt": 1786860943474
   },
   {
-    "id": "9efeef35-579e-4ec2-a9eb-14a7e9e501c9",
+    "id": "909c3486-b618-4c3a-8346-9c865da6b077",
     "name": "EC1-SKT-09455",
     "lat": 32.47695,
     "lng": 74.36566,
@@ -41038,10 +41038,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101761
+    "createdAt": 1786860943474
   },
   {
-    "id": "9f797ddb-b06a-4413-83f6-11b4e73dc7b2",
+    "id": "5629cfad-4d53-4345-9433-1133886a3bed",
     "name": "EC1-DSK-09961",
     "lat": 32.31992,
     "lng": 74.33297,
@@ -41064,10 +41064,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101761
+    "createdAt": 1786860943474
   },
   {
-    "id": "933cc5d6-b782-45c7-92c5-28ccf2d658da",
+    "id": "281e4a90-a461-40cc-b143-a1742b69b4cc",
     "name": "EC1-WZD-09977",
     "lat": 32.33708,
     "lng": 74.01072,
@@ -41090,10 +41090,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101761
+    "createdAt": 1786860943474
   },
   {
-    "id": "f4c96133-e278-43af-a8e3-269b4da4f85d",
+    "id": "ecee196d-1298-43e0-bdcc-2bcd297aa6f5",
     "name": "EC1-GMZ-00429",
     "lat": 32.64275,
     "lng": 74.00163,
@@ -41116,10 +41116,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP Only",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101761
+    "createdAt": 1786860943475
   },
   {
-    "id": "5271fb9b-63c9-40f6-94d3-8fedbf1f2bed",
+    "id": "bd4507b4-696e-4726-8433-874eb4d54185",
     "name": "EC1-GUT-00415",
     "lat": 32.57662,
     "lng": 74.06941,
@@ -41142,10 +41142,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101761
+    "createdAt": 1786860943476
   },
   {
-    "id": "11237208-13cb-4a5d-b152-c1d929186420",
+    "id": "e55ad106-b171-4807-bebe-6d66e74b69f9",
     "name": "EC1-GUT-04272",
     "lat": 32.51276,
     "lng": 74.0336,
@@ -41168,10 +41168,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101761
+    "createdAt": 1786860943476
   },
   {
-    "id": "365558c1-58d0-403f-abd8-a6d9f05afb70",
+    "id": "e28592d9-78be-4bc2-b771-f0400709bfdb",
     "name": "EC1-GUT-04555",
     "lat": 32.74621,
     "lng": 74.08165,
@@ -41194,10 +41194,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101761
+    "createdAt": 1786860943476
   },
   {
-    "id": "29bc3d2f-94b1-4f69-8323-dd3d03c5069b",
+    "id": "2877cdff-131f-4105-8eb0-7318cbc5836c",
     "name": "EC1-GUT-05445",
     "lat": 32.61515,
     "lng": 74.02472,
@@ -41220,10 +41220,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101761
+    "createdAt": 1786860943476
   },
   {
-    "id": "e5d8f8e6-f48f-4cf9-a61b-b777cb12c231",
+    "id": "24d244c5-7a26-465b-b2c5-6f5d469e5fda",
     "name": "EC1-KHR-02512",
     "lat": 32.87453,
     "lng": 74.13868,
@@ -41246,10 +41246,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101761
+    "createdAt": 1786860943477
   },
   {
-    "id": "b6df23ee-4f18-4966-a05e-a8a612366513",
+    "id": "85546148-1f3e-4372-80a0-ef460ac3cbad",
     "name": "EC1-GUT-01990",
     "lat": 32.63677,
     "lng": 73.97587,
@@ -41272,10 +41272,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DG+DC",
-    "createdAt": 1786778101761
+    "createdAt": 1786860943477
   },
   {
-    "id": "ca349a35-b141-4ee8-9de0-48b3c438c152",
+    "id": "dc7ef24d-9556-47bf-9fd1-7a0a810e990c",
     "name": "EC1-GUT-02246",
     "lat": 32.73785,
     "lng": 74.10403,
@@ -41298,10 +41298,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101761
+    "createdAt": 1786860943479
   },
   {
-    "id": "8b245f9e-e3f8-463d-b3cb-18b5c787ac4b",
+    "id": "6d46a92c-f4d4-4223-8ed7-3bfb116b790a",
     "name": "EC1-GUT-02327",
     "lat": 32.550434,
     "lng": 74.076269,
@@ -41324,10 +41324,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101761
+    "createdAt": 1786860943480
   },
   {
-    "id": "31eadeb7-fbe9-4c7b-bce5-aac9a714efcb",
+    "id": "8160f3a4-a39a-4e7c-a712-89150cf154c1",
     "name": "EC1-GUT-02247",
     "lat": 32.79299,
     "lng": 74.23853,
@@ -41350,10 +41350,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101761
+    "createdAt": 1786860943480
   },
   {
-    "id": "fc8f2ce2-8b09-4164-b249-279dea6a84b8",
+    "id": "05d10c25-b0cb-446c-8ed5-d345dd29fc90",
     "name": "EC1-GUT-02342",
     "lat": 32.56749,
     "lng": 74.10653,
@@ -41376,10 +41376,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101761
+    "createdAt": 1786860943480
   },
   {
-    "id": "0f75caff-0659-4136-862d-492ddad3e223",
+    "id": "239eec49-2f7a-4f55-adf2-71d58dab420f",
     "name": "EC1-GUT-02248",
     "lat": 32.671652,
     "lng": 74.408627,
@@ -41402,10 +41402,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101761
+    "createdAt": 1786860943480
   },
   {
-    "id": "0cd04f17-86c6-492f-a95a-e2cac430bac7",
+    "id": "a2ec3369-27fe-4945-bcd8-31151f6fba02",
     "name": "EC1-GUT-02516",
     "lat": 32.75222,
     "lng": 74.18955,
@@ -41428,10 +41428,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101761
+    "createdAt": 1786860943481
   },
   {
-    "id": "baa541eb-d815-42b5-965f-973d008e3995",
+    "id": "c21d480a-476a-480b-827d-e536c9634589",
     "name": "EC1-GUT-02328",
     "lat": 32.630963,
     "lng": 74.077602,
@@ -41454,10 +41454,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101761
+    "createdAt": 1786860943481
   },
   {
-    "id": "b682624a-d369-4f3e-a82c-b0e8abe30017",
+    "id": "0d0509bb-c71c-45c4-8977-338573e2c7cd",
     "name": "EC1-LLM-01090",
     "lat": 32.7,
     "lng": 73.95622,
@@ -41480,10 +41480,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101761
+    "createdAt": 1786860943481
   },
   {
-    "id": "5df0075b-d3ef-4d90-8a96-2e1b595514f3",
+    "id": "d35dd053-8a8a-4623-96e8-e0bed94aa201",
     "name": "EC1-GUT-01787",
     "lat": 32.455796,
     "lng": 73.969235,
@@ -41506,10 +41506,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101761
+    "createdAt": 1786860943482
   },
   {
-    "id": "6c29cec3-d8f1-4596-80f5-69bb8663e42f",
+    "id": "8ac7de65-1c87-4516-988d-c77f949c1ec8",
     "name": "EC1-GUT-00421",
     "lat": 32.56724,
     "lng": 74.0715,
@@ -41532,10 +41532,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101761
+    "createdAt": 1786860943482
   },
   {
-    "id": "877343ba-ec63-4f5e-b0a2-89b7c173ecdd",
+    "id": "ad2e36e0-8112-4310-89e5-02f442938f5b",
     "name": "EC1-GUT-03045",
     "lat": 32.63958,
     "lng": 74.1935,
@@ -41558,10 +41558,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101761
+    "createdAt": 1786860943482
   },
   {
-    "id": "a4dfc555-4555-4071-a97f-992c9f3c6a53",
+    "id": "287914d1-4fb0-4016-88ca-9df94dad3c67",
     "name": "EC1-GUT-03404",
     "lat": 32.734939,
     "lng": 73.903777,
@@ -41584,10 +41584,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101761
+    "createdAt": 1786860943483
   },
   {
-    "id": "dbaf229e-4172-4948-a2c9-c4ecd7934a33",
+    "id": "30ff971a-5892-4a6c-a2ad-ba3bf5b00e2e",
     "name": "EC1-GUT-03340",
     "lat": 32.906883,
     "lng": 74.069757,
@@ -41610,10 +41610,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101761
+    "createdAt": 1786860943484
   },
   {
-    "id": "ff3ccd64-3174-4514-b8c6-3472ef6303b1",
+    "id": "0587fb8a-69b8-48da-9921-74cf535b4878",
     "name": "EC1-GUT-03870",
     "lat": 32.61367,
     "lng": 74.2114,
@@ -41636,10 +41636,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101761
+    "createdAt": 1786860943484
   },
   {
-    "id": "ff144904-5d25-48c2-924e-9db620229526",
+    "id": "0bac910e-f375-4579-a499-2d2a7534bbb6",
     "name": "EC1-GUT-03536",
     "lat": 32.7887516,
     "lng": 74.0012154,
@@ -41662,10 +41662,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101762
+    "createdAt": 1786860943484
   },
   {
-    "id": "d47d1484-a66a-4e23-a112-2f42c53a2c53",
+    "id": "cdf40fdf-e695-4fd7-916b-af03b38a6e5a",
     "name": "EC1-LLM-03864",
     "lat": 32.845307,
     "lng": 74.188419,
@@ -41688,10 +41688,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101762
+    "createdAt": 1786860943484
   },
   {
-    "id": "18d75907-646b-40dd-aee9-e3d335cb6f3a",
+    "id": "ab0b7c46-1cfa-41c0-9e77-87b808103e91",
     "name": "EC1-GUT-03418",
     "lat": 32.605292,
     "lng": 73.953318,
@@ -41714,10 +41714,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101762
+    "createdAt": 1786860943485
   },
   {
-    "id": "bc166f6f-4046-490c-a37f-5711c71cbc4a",
+    "id": "4deca77c-9bb2-4490-917c-fa7a634f7ce4",
     "name": "EC1-GUT-03966",
     "lat": 32.52846,
     "lng": 73.97852,
@@ -41740,10 +41740,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101762
+    "createdAt": 1786860943485
   },
   {
-    "id": "024513bc-b64f-4632-818d-2b3f3a677cb1",
+    "id": "e426a657-330b-4ee9-bfb7-e17f695ca58d",
     "name": "EC1-GUT-03980",
     "lat": 32.496801,
     "lng": 73.888156,
@@ -41766,10 +41766,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101762
+    "createdAt": 1786860943485
   },
   {
-    "id": "153f00e2-40bd-4438-9dc2-8fdf31a6e9a2",
+    "id": "9bf3b1ad-518b-437f-8957-2dae2312a55e",
     "name": "EC1-GUT-03877",
     "lat": 32.530708,
     "lng": 73.943243,
@@ -41792,10 +41792,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101762
+    "createdAt": 1786860943485
   },
   {
-    "id": "379cf4da-38cf-4c03-bc5d-a9e716655f17",
+    "id": "f85243fb-44de-446b-abea-9c06057485a8",
     "name": "EC1-GUT-06041",
     "lat": 32.490531,
     "lng": 73.898458,
@@ -41818,10 +41818,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101762
+    "createdAt": 1786860943486
   },
   {
-    "id": "8a9121fa-6677-4a81-93ac-24a7d9804259",
+    "id": "dc0c43b3-8d99-454f-baf2-7541b4f68114",
     "name": "EC1-GUT-06029",
     "lat": 32.563477,
     "lng": 74.04237,
@@ -41844,10 +41844,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101762
+    "createdAt": 1786860943486
   },
   {
-    "id": "e8cc93e3-bc20-49e6-9b48-3dc0ad70e4e8",
+    "id": "3e75cd0b-d81e-4f56-ac3b-909d7e3afe5f",
     "name": "EC1-GUT-03403",
     "lat": 32.68612,
     "lng": 73.959285,
@@ -41870,10 +41870,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "CP+DC",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101762
+    "createdAt": 1786860943486
   },
   {
-    "id": "5cf0f075-a747-4ed3-b6a6-10da1a39d0f0",
+    "id": "6d559002-7e7e-4f6c-8dba-93da6dd0cd7b",
     "name": "EC1-GUT-00411",
     "lat": 32.57283,
     "lng": 74.07952,
@@ -41896,10 +41896,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "CP+DC",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101762
+    "createdAt": 1786860943486
   },
   {
-    "id": "b7470567-a14e-442e-8a9c-42089894d2b3",
+    "id": "882540ff-401b-4888-ba15-240edc8158cf",
     "name": "EC1-LLM-03004",
     "lat": 32.70869,
     "lng": 73.944217,
@@ -41922,10 +41922,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "CP+DC",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101762
+    "createdAt": 1786860943487
   },
   {
-    "id": "5c8df289-4115-470b-9a87-1a0ada6d94e7",
+    "id": "93451255-74db-467d-a0a0-1a2bc917ab6a",
     "name": "EC1-LLM-07098",
     "lat": 32.69523,
     "lng": 73.9565412,
@@ -41948,10 +41948,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "CP+DC",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101762
+    "createdAt": 1786860943487
   },
   {
-    "id": "a6041fd3-6109-4d44-a9c5-ce9807272e73",
+    "id": "c36ea412-8a01-4ba2-b3fe-086fcb698371",
     "name": "EC1-GUT-07101",
     "lat": 32.71502,
     "lng": 73.98743,
@@ -41974,10 +41974,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "CP+DC",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101762
+    "createdAt": 1786860943487
   },
   {
-    "id": "3759facd-17bd-4826-bb9e-3155315c4aab",
+    "id": "8a629a79-5dd9-4418-851e-ab5de17b4d24",
     "name": "EC1-GUT-07100",
     "lat": 32.82271,
     "lng": 73.957546,
@@ -42000,10 +42000,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DG+DC",
     "ufoneApprovedServices": "DG+DC",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101762
+    "createdAt": 1786860943489
   },
   {
-    "id": "82981c45-39b8-4162-902d-7fa454dc258b",
+    "id": "d911bb6c-a21c-4efa-98a4-5903a18c2698",
     "name": "EC1-GUT-06910",
     "lat": 32.593598,
     "lng": 74.079984,
@@ -42026,10 +42026,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "CP+DC",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101762
+    "createdAt": 1786860943492
   },
   {
-    "id": "b3729f04-0dec-46d5-a673-dce01dc9fffb",
+    "id": "ccb46cb7-315b-425a-ba1a-afd8fa20eeef",
     "name": "EC1-GUT-06634",
     "lat": 32.8575,
     "lng": 74.0723,
@@ -42052,10 +42052,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101762
+    "createdAt": 1786860943492
   },
   {
-    "id": "c92e36f8-efd6-4f4f-b853-3c760a43657c",
+    "id": "21a0b9ef-fd0f-4937-8b70-163367a2a75e",
     "name": "EC1-GUT-07488",
     "lat": 32.74883,
     "lng": 74.30922,
@@ -42078,10 +42078,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DG+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101762
+    "createdAt": 1786860943494
   },
   {
-    "id": "079058b6-1924-4d94-8f80-c552d1984378",
+    "id": "07af5643-5391-4b5b-909e-0e9b6d9d77c4",
     "name": "EC1-GUT-07859",
     "lat": 32.726499,
     "lng": 74.078757,
@@ -42104,10 +42104,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101762
+    "createdAt": 1786860943494
   },
   {
-    "id": "5d0f6213-4cca-4a55-a3f3-60660c454376",
+    "id": "ad85b46d-d64e-45b3-b32b-1410a9e0d6fe",
     "name": "EC1-GUT-08182",
     "lat": 32.60015,
     "lng": 74.0426,
@@ -42130,10 +42130,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101762
+    "createdAt": 1786860943494
   },
   {
-    "id": "46889df1-8900-4496-a35b-cfc6f0b5b2c2",
+    "id": "3d565c80-d177-4155-b0bc-e9cd17b2bde5",
     "name": "EC1-JPB-07861",
     "lat": 32.849326,
     "lng": 74.194864,
@@ -42156,10 +42156,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101762
+    "createdAt": 1786860943495
   },
   {
-    "id": "db7e451f-bfdb-458e-ad1f-12d653a7ac0b",
+    "id": "83ecca5b-24f2-4df6-971f-a9addf82e525",
     "name": "EC1-JPB-08184",
     "lat": 32.77614,
     "lng": 74.29298,
@@ -42182,10 +42182,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101762
+    "createdAt": 1786860943495
   },
   {
-    "id": "896a2793-7d27-4160-be59-483385aaae53",
+    "id": "d758e48d-a64b-4876-b369-a2e51f749523",
     "name": "EC1-GUT-06236",
     "lat": 32.53102,
     "lng": 73.97802,
@@ -42208,10 +42208,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101762
+    "createdAt": 1786860943495
   },
   {
-    "id": "b71da80d-a1f7-4975-871a-5168b2169d42",
+    "id": "0c66db2e-80cf-4be3-a44d-312420e2e5ad",
     "name": "EC1-GUT-07486",
     "lat": 32.64941,
     "lng": 74.1653,
@@ -42234,10 +42234,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101762
+    "createdAt": 1786860943496
   },
   {
-    "id": "23e8b722-f4c5-4f8e-b161-1d57ea5dfb5b",
+    "id": "20b52e05-d08c-409f-b1a2-541f92bccf4c",
     "name": "EC1-LLM-06244",
     "lat": 32.76129,
     "lng": 73.9506,
@@ -42260,10 +42260,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101762
+    "createdAt": 1786860943496
   },
   {
-    "id": "f5736602-4c38-4dd6-88ac-da58d97dfc00",
+    "id": "af5183a7-0e81-44b2-9924-cf98e64cdac0",
     "name": "EC1-GUT-08374",
     "lat": 32.55957,
     "lng": 74.04728,
@@ -42286,10 +42286,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101762
+    "createdAt": 1786860943496
   },
   {
-    "id": "297a6e6b-096f-478d-ae01-effdf5dff435",
+    "id": "58c2acf1-1d81-478d-b206-d677d6af4417",
     "name": "EC1-LLM-08113",
     "lat": 32.698361,
     "lng": 73.960775,
@@ -42312,10 +42312,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101762
+    "createdAt": 1786860943497
   },
   {
-    "id": "792485ea-61e2-4dde-80c0-268bf0f88bb6",
+    "id": "15989554-b174-4041-9e44-c5494dbf114a",
     "name": "EC1-GUT-08678",
     "lat": 32.79299,
     "lng": 74.23841,
@@ -42338,10 +42338,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101762
+    "createdAt": 1786860943497
   },
   {
-    "id": "fe25c940-2fbe-4f99-a9c0-17049524dda1",
+    "id": "5abe8069-dc3e-4795-9972-fc6e4adaf039",
     "name": "EC1-GUT-09176",
     "lat": 32.568286,
     "lng": 74.065828,
@@ -42364,10 +42364,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101762
+    "createdAt": 1786860943497
   },
   {
-    "id": "79227a86-71e0-40e1-b6bf-bab54365537e",
+    "id": "b62e36f9-d38d-4e93-afdf-09477fb6f8f0",
     "name": "EC1-GUT-09454",
     "lat": 32.796358,
     "lng": 74.01287,
@@ -42390,10 +42390,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101762
+    "createdAt": 1786860943498
   },
   {
-    "id": "3ee5732b-93d1-4db8-9dff-4ecdfb13dff8",
+    "id": "aa294e18-6864-479b-ba1d-2db691b27152",
     "name": "EC1-GUT-00453",
     "lat": 32.53807,
     "lng": 74.06286,
@@ -42416,10 +42416,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101762
+    "createdAt": 1786860943499
   },
   {
-    "id": "2274bfc1-54a4-4e3b-8c86-2fa4fc3f3945",
+    "id": "71d606d5-ec06-4405-bbf1-ab6b7c75930f",
     "name": "EC1-GUT-09908",
     "lat": 32.589033,
     "lng": 74.178585,
@@ -42442,10 +42442,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101762
+    "createdAt": 1786860943499
   },
   {
-    "id": "8c591e35-df7e-46cf-aee0-6cdb69f4530a",
+    "id": "8f7fc8d9-011b-442f-98d2-e6722ba4d1bb",
     "name": "EC1-GUT-10089",
     "lat": 32.65988,
     "lng": 74.3019,
@@ -42468,10 +42468,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101762
+    "createdAt": 1786860943500
   },
   {
-    "id": "6507c8eb-a489-4aac-8a28-64719cb9e23a",
+    "id": "65f395a4-5c7a-44a1-bd59-8d809c122877",
     "name": "EC1-GUT-10141",
     "lat": 32.628879,
     "lng": 74.097362,
@@ -42494,10 +42494,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101762
+    "createdAt": 1786860943501
   },
   {
-    "id": "0c697250-15b0-4e01-8900-93b49501d53d",
+    "id": "c7df4aaa-f96d-4413-aaf3-88eab89c5234",
     "name": "EC1-LLM-10232",
     "lat": 32.813,
     "lng": 74.069,
@@ -42520,10 +42520,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101762
+    "createdAt": 1786860943502
   },
   {
-    "id": "1d97882d-e463-4010-bd25-7bae97519acd",
+    "id": "118ab2c9-6f5a-402b-8977-0556de81932c",
     "name": "EC1-GUJ-00350",
     "lat": 32.1527,
     "lng": 74.1756,
@@ -42546,10 +42546,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP Only",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101762
+    "createdAt": 1786860943502
   },
   {
-    "id": "fe64e1b9-45fa-4717-a21f-188a20a83f6f",
+    "id": "f362e227-2341-4f9d-b677-3dffe3d12f75",
     "name": "EC1-GUJ-02973",
     "lat": 32.15723,
     "lng": 74.11339,
@@ -42572,10 +42572,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101762
+    "createdAt": 1786860943503
   },
   {
-    "id": "d3b71356-1d5b-4b49-b44e-ed6294924fbb",
+    "id": "97e94ffc-6494-4ecd-9f28-3b29169af785",
     "name": "EC1-GUJ-00399",
     "lat": 32.1543,
     "lng": 74.1561,
@@ -42598,10 +42598,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "CP Only",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101762
+    "createdAt": 1786860943503
   },
   {
-    "id": "2ae6234c-176b-47fc-9e31-0cfec52d5982",
+    "id": "c69dc957-8389-491e-9ed2-8e558ba3b199",
     "name": "EC1-GUJ-06204",
     "lat": 32.13857,
     "lng": 74.155046,
@@ -42624,10 +42624,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101762
+    "createdAt": 1786860943503
   },
   {
-    "id": "b297bc00-f2fa-40b1-9b10-dbfed1429284",
+    "id": "8c636acc-5655-473f-b1bc-34abd6c4692d",
     "name": "EC1-MDW-03155",
     "lat": 32.22146,
     "lng": 74.15172,
@@ -42650,10 +42650,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101762
+    "createdAt": 1786860943504
   },
   {
-    "id": "d135ad02-462b-449a-a411-311fee2aacce",
+    "id": "5b8acf95-599d-4842-b4a5-22ad72f59f02",
     "name": "EC1-GUJ-03908",
     "lat": 32.20897,
     "lng": 74.20314,
@@ -42676,10 +42676,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC+DG",
-    "createdAt": 1786778101762
+    "createdAt": 1786860943507
   },
   {
-    "id": "ad8e476e-5ecb-4b52-bbad-c92d85c7b9a7",
+    "id": "09b89fb2-4ef3-4e38-86ec-fd7d8fa871c4",
     "name": "EC1-GUJ-05403",
     "lat": 32.12742,
     "lng": 74.18253,
@@ -42702,10 +42702,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101762
+    "createdAt": 1786860943509
   },
   {
-    "id": "ed0069b4-884a-4472-a2b9-4c459c2b5c9d",
+    "id": "dcf7c332-8ff0-4960-a76f-5b3f15ae6712",
     "name": "EC1-GUJ-04556",
     "lat": 32.45691,
     "lng": 74.1782,
@@ -42728,10 +42728,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101762
+    "createdAt": 1786860943509
   },
   {
-    "id": "f0c37454-f682-4996-8ad6-10fb49067448",
+    "id": "1beea5ba-694f-4c00-9e2b-44ea0673f31a",
     "name": "EC1-GUJ-02110",
     "lat": 32.228662,
     "lng": 74.147188,
@@ -42754,10 +42754,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "CP+DC",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101762
+    "createdAt": 1786860943510
   },
   {
-    "id": "34a14c00-bff6-4f89-af1c-03fac8e75381",
+    "id": "d6f3aead-24fb-4657-a03e-7e9d510e56ed",
     "name": "EC1-GUJ-00401",
     "lat": 32.25595,
     "lng": 74.14479,
@@ -42780,10 +42780,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "CP+DC",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101762
+    "createdAt": 1786860943510
   },
   {
-    "id": "9dd3f6d6-d314-4d1f-9fd9-b10e14724e15",
+    "id": "c2294583-cb04-4702-80ea-4950b6e689d5",
     "name": "EC1-GKR-01659",
     "lat": 32.30623,
     "lng": 74.16972,
@@ -42806,10 +42806,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "CP+DC",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101762
+    "createdAt": 1786860943510
   },
   {
-    "id": "bbbcfe3b-df6d-48b4-af9a-60188332142a",
+    "id": "ddc1e477-ebcd-4201-841e-162676227176",
     "name": "EC1-GUJ-01752",
     "lat": 32.199979,
     "lng": 74.195455,
@@ -42832,10 +42832,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "CP+DC",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101762
+    "createdAt": 1786860943510
   },
   {
-    "id": "500cfe87-b5a7-4534-8bb5-7d08306e1d87",
+    "id": "9f59570d-c5f9-4f13-99e2-a277f60eb50b",
     "name": "EC1-GUJ-02585",
     "lat": 32.19003,
     "lng": 74.14481,
@@ -42858,10 +42858,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "CP+DC",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101762
+    "createdAt": 1786860943511
   },
   {
-    "id": "dd616dbc-c32e-49bf-9b93-3c4d872ec490",
+    "id": "580b5661-c22a-4b52-8c82-d0d76d8c60ff",
     "name": "EC1-GUJ-02349",
     "lat": 32.165381,
     "lng": 74.175728,
@@ -42884,10 +42884,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101763
+    "createdAt": 1786860943511
   },
   {
-    "id": "cd8d0adb-7153-428a-941a-cc3286379852",
+    "id": "d4b4b34b-1767-4844-a546-54f3896cf522",
     "name": "EC1-GUJ-02316",
     "lat": 32.1515,
     "lng": 74.1514,
@@ -42910,10 +42910,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101763
+    "createdAt": 1786860943511
   },
   {
-    "id": "18e393d9-3d8b-47a1-8f77-36ad6541c9ef",
+    "id": "35eb0240-29ac-42ed-8405-17b636665a5e",
     "name": "EC1-GUJ-04625",
     "lat": 32.158198,
     "lng": 74.1672,
@@ -42936,10 +42936,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101763
+    "createdAt": 1786860943512
   },
   {
-    "id": "577a8503-df3d-4e53-9f7d-e5699f07a333",
+    "id": "6f228e6b-d92a-497b-9c1a-4208829fba3b",
     "name": "EC1-GUJ-05054",
     "lat": 32.162308,
     "lng": 74.154168,
@@ -42962,10 +42962,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101763
+    "createdAt": 1786860943512
   },
   {
-    "id": "5fc7efa0-f138-4994-bc27-8233a4d7bde4",
+    "id": "bc4857fc-6a16-4a43-b2f0-220b090773f0",
     "name": "EC1-GUJ-04179",
     "lat": 32.15355,
     "lng": 74.14095,
@@ -42988,10 +42988,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101763
+    "createdAt": 1786860943512
   },
   {
-    "id": "211656be-c896-4409-95a1-36e2786361e6",
+    "id": "29451c85-bf3e-4dc1-b79f-34942dcbba3f",
     "name": "EC1-GUJ-04008",
     "lat": 32.30982,
     "lng": 74.14716,
@@ -43014,10 +43014,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "CP+DC",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101763
+    "createdAt": 1786860943513
   },
   {
-    "id": "2788d537-c673-4f49-8cad-76417313ee5f",
+    "id": "a3c7d3ee-fab6-4899-9e71-599ce3108a68",
     "name": "EC1-GUJ-06747",
     "lat": 32.13363,
     "lng": 74.14232,
@@ -43040,10 +43040,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101763
+    "createdAt": 1786860943513
   },
   {
-    "id": "27cd63f3-300b-4716-bb3e-3fde5c9d0dd9",
+    "id": "f97c7824-e557-45db-a983-938126daba00",
     "name": "EC1-GUJ-03649",
     "lat": 32.241497,
     "lng": 74.163732,
@@ -43066,10 +43066,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "CP+DC",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101763
+    "createdAt": 1786860943513
   },
   {
-    "id": "533e2a17-15f9-461f-8453-968fc8a260c3",
+    "id": "5048f00d-5630-473a-9ca8-7afd5e7554ac",
     "name": "EC1-GUJ-04254",
     "lat": 32.25526,
     "lng": 74.16824,
@@ -43092,10 +43092,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101763
+    "createdAt": 1786860943540
   },
   {
-    "id": "0f5f4e49-0ceb-44c4-b415-3198ebed12d7",
+    "id": "b4b32a90-0971-457a-8dd0-6c295b9fc912",
     "name": "EC1-GUJ-06602",
     "lat": 32.19512,
     "lng": 74.13321,
@@ -43118,10 +43118,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101763
+    "createdAt": 1786860943540
   },
   {
-    "id": "3fcf530a-11f9-448a-af9c-6d74fc33fcc7",
+    "id": "e3d6e616-b5be-4c81-af3b-dc6e66343e43",
     "name": "EC1-GUJ-01622",
     "lat": 32.1072,
     "lng": 74.118083,
@@ -43144,10 +43144,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "CP Only",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101763
+    "createdAt": 1786860943541
   },
   {
-    "id": "abf861b1-958a-402b-9534-42672dd17d82",
+    "id": "dbf4b2f8-c0ee-44ba-8315-445efb01b14e",
     "name": "EC1-GUJ-07487",
     "lat": 32.1758,
     "lng": 74.16575,
@@ -43170,10 +43170,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101763
+    "createdAt": 1786860943541
   },
   {
-    "id": "807597f4-e7ba-4769-9ff7-1ffa35df94e0",
+    "id": "8d6c4308-d192-4d73-a8c1-e06798421ab1",
     "name": "EC1-GUJ-07827",
     "lat": 32.164565,
     "lng": 74.167454,
@@ -43196,10 +43196,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC+DG",
-    "createdAt": 1786778101763
+    "createdAt": 1786860943541
   },
   {
-    "id": "4665b5d5-ef5f-4bf2-ba8c-0ca80cc1ace6",
+    "id": "b5327f08-9727-4ce4-9e2f-11ccf3974874",
     "name": "EC1-GUJ-07834",
     "lat": 32.17066,
     "lng": 74.175027,
@@ -43222,10 +43222,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC+DG",
-    "createdAt": 1786778101763
+    "createdAt": 1786860943542
   },
   {
-    "id": "e29ea868-374f-4ff6-93c2-312e042742f6",
+    "id": "f291c67e-713b-4082-9a86-d39ca639f2a1",
     "name": "EC1-GUJ-08650",
     "lat": 32.32239,
     "lng": 74.05882,
@@ -43248,10 +43248,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP Only",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101763
+    "createdAt": 1786860943542
   },
   {
-    "id": "d3fdd1eb-9d76-4ebb-811d-f1ba46e1c46b",
+    "id": "7a5db287-59c8-4e0d-bce2-34d6d3012b24",
     "name": "EC1-GUJ-09084",
     "lat": 32.219242,
     "lng": 74.167088,
@@ -43274,10 +43274,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101763
+    "createdAt": 1786860943542
   },
   {
-    "id": "cab09eb1-cb55-4a1a-87ee-e20ab2cbc532",
+    "id": "b5229e49-532c-44c3-a529-fc271e370ec6",
     "name": "EC1-GUJ-09873",
     "lat": 32.157589,
     "lng": 74.128783,
@@ -43300,10 +43300,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101763
+    "createdAt": 1786860943542
   },
   {
-    "id": "c2628ccb-a03b-4c7d-8a03-d780dbf4854d",
+    "id": "c403ef61-50df-44c4-953a-d0a07834a499",
     "name": "EC1-GUJ-02154",
     "lat": 32.18536,
     "lng": 74.15509,
@@ -43326,10 +43326,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101763
+    "createdAt": 1786860943542
   },
   {
-    "id": "d2c4b85f-edd3-4209-b1a6-31d8ec6eb3e6",
+    "id": "ba620932-264d-4830-a6d2-4b70b6141383",
     "name": "EC1-GUJ-01755",
     "lat": 32.136319,
     "lng": 74.148762,
@@ -43352,10 +43352,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "CP+DC",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101763
+    "createdAt": 1786860943543
   },
   {
-    "id": "9afac937-187c-4348-9819-7e76d89d2f21",
+    "id": "7c20c6cf-2b80-4c78-8f52-4fe8d66af6b1",
     "name": "EC1-SKG-04810",
     "lat": 32.27091,
     "lng": 75.15406,
@@ -43378,10 +43378,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101763
+    "createdAt": 1786860943543
   },
   {
-    "id": "686f197c-b674-49b2-88d0-0ef65e912c4f",
+    "id": "07a6e247-9013-474c-b6c4-93907f1ce935",
     "name": "EC1-NRW-04924",
     "lat": 32.10304,
     "lng": 74.88894,
@@ -43404,10 +43404,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101763
+    "createdAt": 1786860943543
   },
   {
-    "id": "9c3e9162-be13-44d5-bcc1-4cfca582151c",
+    "id": "5bd3f08f-0e73-4fdd-a733-22fc4e04a2e7",
     "name": "EC1-NRW-01653",
     "lat": 32.36515,
     "lng": 74.95834,
@@ -43430,10 +43430,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101763
+    "createdAt": 1786860943543
   },
   {
-    "id": "e5589d97-7e26-41dd-b873-d447e60d91c5",
+    "id": "20fc1051-575b-4ce6-91dd-e731f8925deb",
     "name": "EC1-NRW-01247",
     "lat": 32.26273,
     "lng": 75.11856,
@@ -43456,10 +43456,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101763
+    "createdAt": 1786860943544
   },
   {
-    "id": "82c5582f-b6a1-4b21-a27b-38d5f9197907",
+    "id": "296da135-b47c-40de-b547-70a701e383d6",
     "name": "EC1-NRW-01979",
     "lat": 32.31888,
     "lng": 74.93351,
@@ -43482,10 +43482,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101763
+    "createdAt": 1786860943544
   },
   {
-    "id": "89c11884-82d6-4071-aeb4-4f3496f2d948",
+    "id": "1a3ef78a-4ff2-4b0d-8198-16fce44e081d",
     "name": "EC1-NRW-02489",
     "lat": 32.103093,
     "lng": 74.821715,
@@ -43508,10 +43508,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101763
+    "createdAt": 1786860943544
   },
   {
-    "id": "0dfaba0e-e8a1-4a85-a988-597690822c03",
+    "id": "d8ee2c2b-2dde-4319-8d16-2ca8f22c9616",
     "name": "EC1-SKG-02046",
     "lat": 32.23534,
     "lng": 75.25278,
@@ -43534,10 +43534,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101763
+    "createdAt": 1786860943544
   },
   {
-    "id": "c18f9a38-4908-44a4-a8dd-7005c34cf12d",
+    "id": "681159cb-3bda-4980-ac81-8fff1d68009b",
     "name": "EC1-SKG-02491",
     "lat": 32.342655,
     "lng": 75.033427,
@@ -43560,10 +43560,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101763
+    "createdAt": 1786860943544
   },
   {
-    "id": "aa7bffab-7ae6-42b1-a35c-4e892c7b0583",
+    "id": "89806b28-4caf-490f-ae2e-47df252d85f1",
     "name": "EC1-SKG-02361",
     "lat": 32.137875,
     "lng": 75.093028,
@@ -43586,10 +43586,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101763
+    "createdAt": 1786860943545
   },
   {
-    "id": "fecacc7b-d17d-49cb-a99e-6c6fb9345fd8",
+    "id": "56314807-6872-4342-8f30-20cc3c7a5d7b",
     "name": "EC1-NRW-02595",
     "lat": 32.288772,
     "lng": 74.941986,
@@ -43612,10 +43612,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101763
+    "createdAt": 1786860943545
   },
   {
-    "id": "7bce2c1d-f5c8-4117-b3bd-905b9de85ce3",
+    "id": "cc9abd4e-69f7-497e-876a-340ebfb765d9",
     "name": "EC1-NRW-02486",
     "lat": 32.127527,
     "lng": 74.875655,
@@ -43638,10 +43638,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101763
+    "createdAt": 1786860943545
   },
   {
-    "id": "847462c9-c474-4ca9-ac87-0ad5f6f02466",
+    "id": "2d3042fc-178d-4a7e-9ae6-c773726f7218",
     "name": "EC1-SKG-02027",
     "lat": 32.328902,
     "lng": 75.147335,
@@ -43664,10 +43664,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101763
+    "createdAt": 1786860943545
   },
   {
-    "id": "1b856939-adb0-40ee-9f45-91dc2180425f",
+    "id": "f964de91-002a-4a03-9e0d-7a5595750a11",
     "name": "EC1-SKG-02534",
     "lat": 32.266328,
     "lng": 75.143143,
@@ -43690,10 +43690,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101763
+    "createdAt": 1786860943545
   },
   {
-    "id": "a3d7bee9-8756-4e11-9c50-b7343e5e5b09",
+    "id": "f0792214-bc88-415a-ad93-0627606f31a8",
     "name": "EC1-SKG-03694",
     "lat": 32.264205,
     "lng": 75.163767,
@@ -43716,10 +43716,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101763
+    "createdAt": 1786860943546
   },
   {
-    "id": "106b085e-5b19-407b-8e81-b8acff8fe09b",
+    "id": "39ed81c1-1065-4ed0-85fc-79f0e3b7945e",
     "name": "EC1-NRW-02268",
     "lat": 32.094255,
     "lng": 74.89227,
@@ -43742,10 +43742,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101763
+    "createdAt": 1786860943546
   },
   {
-    "id": "31694e3f-485d-4809-96c7-033c320c62bd",
+    "id": "87ae1c6c-be33-424e-bf3e-91e16ae65be9",
     "name": "EC1-NRW-04624",
     "lat": 32.221928,
     "lng": 74.845583,
@@ -43768,10 +43768,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101763
+    "createdAt": 1786860943546
   },
   {
-    "id": "750887f9-0874-4afa-ad62-d6fa42124e53",
+    "id": "b4e77fe0-36f2-447b-b2ae-55a1c5cb1af7",
     "name": "EC1-PSR-02084",
     "lat": 32.37433,
     "lng": 74.82677,
@@ -43794,10 +43794,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101763
+    "createdAt": 1786860943547
   },
   {
-    "id": "33b833aa-2586-4c71-a0be-6d3ea4581719",
+    "id": "25813194-bae7-492c-bf7d-8de9198a5a1d",
     "name": "EC1-CHW-04967",
     "lat": 32.395937,
     "lng": 74.754938,
@@ -43820,10 +43820,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101763
+    "createdAt": 1786860943547
   },
   {
-    "id": "703a031a-57d2-4dc2-abdc-411d2a3bbdf1",
+    "id": "b91ab602-bfa7-4cf8-8f91-05b8ef728b5b",
     "name": "EC1-NRW-04942",
     "lat": 32.20157,
     "lng": 74.93983,
@@ -43846,10 +43846,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101763
+    "createdAt": 1786860943549
   },
   {
-    "id": "d18df773-c7ac-4341-b8ca-5658e6e29d7a",
+    "id": "f6038643-c9ef-4087-867d-571c6296f115",
     "name": "EC1-SKG-06492",
     "lat": 32.224884,
     "lng": 74.974446,
@@ -43872,10 +43872,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101763
+    "createdAt": 1786860943549
   },
   {
-    "id": "5f681260-61bc-4441-8f80-e49c0914aa47",
+    "id": "4d2d2e13-43f8-464e-9a17-17525a2d3d75",
     "name": "EC1-SKT-01807",
     "lat": 32.345263,
     "lng": 74.759742,
@@ -43898,10 +43898,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101763
+    "createdAt": 1786860943550
   },
   {
-    "id": "8f999fb3-fc22-49da-af17-8f32863a7c42",
+    "id": "bbd7e955-e100-4164-b2d3-5bf8952958da",
     "name": "EC1-NRW-03539",
     "lat": 32.1512,
     "lng": 74.76203,
@@ -43924,10 +43924,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101763
+    "createdAt": 1786860943550
   },
   {
-    "id": "87c0c601-95e5-41f9-ae7c-2aa6fc95de3f",
+    "id": "b43a32d2-0e83-4fc3-8a68-8a837495508b",
     "name": "EC1-NRW-01795",
     "lat": 32.101464,
     "lng": 74.69675,
@@ -43950,10 +43950,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101763
+    "createdAt": 1786860943550
   },
   {
-    "id": "042e2ad6-c4a2-49d9-a89b-0a2c83c6a657",
+    "id": "39439f5f-d2f1-41ba-b0c6-51b41bf8c59c",
     "name": "EC1-SKT-03415",
     "lat": 32.131218,
     "lng": 74.634399,
@@ -43976,10 +43976,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101763
+    "createdAt": 1786860943550
   },
   {
-    "id": "84cb7e7a-67b3-4f6d-869a-54bdc7413060",
+    "id": "1c62321e-a436-4f21-b29c-a9001b9703ba",
     "name": "EC1-NRW-03535",
     "lat": 32.01922,
     "lng": 74.68028,
@@ -44002,10 +44002,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101763
+    "createdAt": 1786860943551
   },
   {
-    "id": "2b3caea8-964b-43fd-bdaf-511c591bebdf",
+    "id": "8b0f4f56-476f-4842-a023-4a79d3e16512",
     "name": "EC1-SKT-03421",
     "lat": 32.314029,
     "lng": 74.724896,
@@ -44028,10 +44028,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101763
+    "createdAt": 1786860943551
   },
   {
-    "id": "dfdfd840-774d-4baa-8709-5d55da3651a5",
+    "id": "116913f6-2daa-4881-9eb4-8d4266f6fcfa",
     "name": "EC1-NRW-04166",
     "lat": 32.21594,
     "lng": 74.879842,
@@ -44054,10 +44054,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101763
+    "createdAt": 1786860943552
   },
   {
-    "id": "a883dec6-078b-45f8-bb7d-b47606142c40",
+    "id": "285e4301-4974-4fa7-8414-9aac99647341",
     "name": "EC1-NRW-04729",
     "lat": 32.26783,
     "lng": 74.86153,
@@ -44080,10 +44080,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101764
+    "createdAt": 1786860943552
   },
   {
-    "id": "58e38d65-c982-47c1-8148-32d6f554fa1e",
+    "id": "18d4f8f5-10d3-4192-a6e1-425c59dfdfc1",
     "name": "EC1-NRW-05092",
     "lat": 32.11076,
     "lng": 74.57799,
@@ -44106,10 +44106,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101764
+    "createdAt": 1786860943553
   },
   {
-    "id": "1336893a-a216-4528-a816-bdcc075185a9",
+    "id": "217ac621-0d4b-4601-a205-f609df588f16",
     "name": "EC1-NRW-06038",
     "lat": 32.012126,
     "lng": 74.535487,
@@ -44132,10 +44132,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "CP+DC",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101764
+    "createdAt": 1786860943553
   },
   {
-    "id": "8c9ee23b-00ef-4f9e-b050-c53cfc155bda",
+    "id": "1563d07a-72d8-47e0-b408-612952b55754",
     "name": "EC1-SKT-06958",
     "lat": 32.155403,
     "lng": 75.218117,
@@ -44158,10 +44158,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
-    "createdAt": 1786778101764
+    "createdAt": 1786860943554
   },
   {
-    "id": "29916c16-7263-4d21-8889-20ad13122056",
+    "id": "b386b6dd-c97b-47cc-afd8-27f2d1f0fe17",
     "name": "EC1-SKT-06962",
     "lat": 32.125721,
     "lng": 74.529757,
@@ -44184,10 +44184,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DG+DC",
-    "createdAt": 1786778101764
+    "createdAt": 1786860943554
   },
   {
-    "id": "4847894d-0875-4d93-ba62-5be337cedd61",
+    "id": "be715992-9ae6-403e-b97c-4003dc58c94e",
     "name": "EC1-NRW-07811",
     "lat": 32.0854432,
     "lng": 74.8632,
@@ -44210,10 +44210,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101764
+    "createdAt": 1786860943554
   },
   {
-    "id": "3a305367-d2b7-44ea-b46c-78394f5e8640",
+    "id": "784a784f-9088-48dd-94f2-c907dcabe0eb",
     "name": "EC1-SKG-07814",
     "lat": 32.232364,
     "lng": 75.204689,
@@ -44236,10 +44236,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101764
+    "createdAt": 1786860943554
   },
   {
-    "id": "afb2565e-85ab-4f54-b338-59fc0c9a16a5",
+    "id": "c7a772a0-ca4f-42d0-a222-0c8a7c3cac2b",
     "name": "EC1-NRW-08614",
     "lat": 32.2137,
     "lng": 75.189,
@@ -44262,10 +44262,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP only",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101764
+    "createdAt": 1786860943554
   },
   {
-    "id": "b48c648c-2c31-4191-aab1-82fb30855e99",
+    "id": "38847bf9-c3c3-4519-8316-6db733eb7323",
     "name": "EC1-NRW-08660",
     "lat": 32.21173,
     "lng": 75.00595,
@@ -44288,10 +44288,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP only",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101764
+    "createdAt": 1786860943555
   },
   {
-    "id": "a9e12e56-b95b-41ae-8009-b58d6b384be5",
+    "id": "ef19eb60-3754-449a-98bd-0c7d5adbb2b6",
     "name": "EC1-NRW-08629",
     "lat": 32.26151,
     "lng": 74.97516,
@@ -44314,10 +44314,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP only",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101764
+    "createdAt": 1786860943555
   },
   {
-    "id": "0cb1128c-7cd4-4b2c-bbdb-3985ea843b45",
+    "id": "5fc4c5e9-f024-49fc-a398-c5f4f0fd6080",
     "name": "EC1-NRW-08636",
     "lat": 32.07255,
     "lng": 74.64294,
@@ -44340,10 +44340,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101764
+    "createdAt": 1786860943555
   },
   {
-    "id": "40d5b32b-450d-4c47-8729-4e6747bd8ae2",
+    "id": "7cb5f59a-cb9f-41ff-944b-3cd9a9be3d5f",
     "name": "EC1-NRW-08609",
     "lat": 32.05706,
     "lng": 74.69235,
@@ -44366,10 +44366,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "CP+DC",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101764
+    "createdAt": 1786860943555
   },
   {
-    "id": "600609e7-5963-4090-a8b8-ebbe5db0b749",
+    "id": "ce5177bd-cd5c-44cb-b8f5-f7a3807768ef",
     "name": "EC1-PSR-08608",
     "lat": 32.29764,
     "lng": 74.75121,
@@ -44392,10 +44392,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP Only",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101764
+    "createdAt": 1786860943555
   },
   {
-    "id": "2534fea2-66e5-48cf-af56-9b9cff9d1e0e",
+    "id": "167a2be6-359b-4953-a417-ac17d016b20c",
     "name": "EC1-SKG-07812",
     "lat": 32.26127,
     "lng": 75.151042,
@@ -44418,10 +44418,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101764
+    "createdAt": 1786860943556
   },
   {
-    "id": "f3a27ec2-5f4f-4e7c-aaed-b3d62588b416",
+    "id": "38e29c3b-19df-40a5-9347-ceecd46bda7a",
     "name": "EC1-SKG-09068",
     "lat": 32.276319,
     "lng": 75.162524,
@@ -44444,10 +44444,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101764
+    "createdAt": 1786860943556
   },
   {
-    "id": "8c3b1fb9-3f97-4d86-a8fb-776659ab52c4",
+    "id": "9da2316c-8066-4c88-a0ba-0b4fce90b2a5",
     "name": "EC1-NRW-09100",
     "lat": 32.08958,
     "lng": 74.87959,
@@ -44470,10 +44470,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101764
+    "createdAt": 1786860943556
   },
   {
-    "id": "09726242-8a03-4c8c-ab52-708bf7eff3ae",
+    "id": "613aa1c9-ba6e-4c9d-b273-1c6b80cc0323",
     "name": "EC1-ZFR-09111",
     "lat": 32.346628,
     "lng": 74.92718,
@@ -44496,10 +44496,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101764
+    "createdAt": 1786860943556
   },
   {
-    "id": "6fb6ff63-a791-4b67-ada5-b286e3d25945",
+    "id": "412835ce-08f0-4484-a677-b6733685cc84",
     "name": "EC1-PSR-09639",
     "lat": 32.278138,
     "lng": 74.653897,
@@ -44522,10 +44522,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101764
+    "createdAt": 1786860943557
   },
   {
-    "id": "87c77f90-2ac6-4ec1-a994-82e8d2385708",
+    "id": "4d670800-cb44-4dc1-b42b-92e6d648c387",
     "name": "EC1-SKG-09685",
     "lat": 32.25167,
     "lng": 75.15507,
@@ -44548,10 +44548,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101764
+    "createdAt": 1786860943557
   },
   {
-    "id": "91aebfba-c8bb-439b-a4c2-af76d1115db5",
+    "id": "1c287197-9ff0-4ee7-940f-dde0905e654f",
     "name": "EC1-PSR-09769",
     "lat": 32.268761,
     "lng": 74.674197,
@@ -44574,10 +44574,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101764
+    "createdAt": 1786860943557
   },
   {
-    "id": "3fbdebd1-7bfd-468c-a497-9391be015c22",
+    "id": "ca12f87c-8998-4420-b157-964e733a5342",
     "name": "EC1-CHW-09777",
     "lat": 32.353995,
     "lng": 74.67784,
@@ -44600,10 +44600,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101764
+    "createdAt": 1786860943557
   },
   {
-    "id": "11fa4167-5244-410f-ab61-71849a8fd69c",
+    "id": "15ed0af1-39ac-49e7-b85a-5862104b0f62",
     "name": "EC1-SKG-09780",
     "lat": 32.16297,
     "lng": 75.15587,
@@ -44626,10 +44626,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101764
+    "createdAt": 1786860943558
   },
   {
-    "id": "be4d1782-1089-4429-ae4c-9a46223fe9de",
+    "id": "513d8ee6-ebac-479b-9c9b-91252b52a7d7",
     "name": "EC1-NRW-09466",
     "lat": 31.99364,
     "lng": 74.66827,
@@ -44652,10 +44652,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101764
+    "createdAt": 1786860943558
   },
   {
-    "id": "dae6af18-18b6-4bc2-89c5-1517e7a137d2",
+    "id": "9ad93b7a-34bd-421b-8471-ba58151fe0dc",
     "name": "EC1-NRW-01251",
     "lat": 32.09839,
     "lng": 74.87224,
@@ -44678,10 +44678,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101764
+    "createdAt": 1786860943559
   },
   {
-    "id": "a70f0920-4c4d-4e49-8dd6-9b3f07317df2",
+    "id": "db5f2ec2-087f-43f4-8817-07449c962efb",
     "name": "EC1-NRW-06956",
     "lat": 32.281357,
     "lng": 75.294317,
@@ -44704,10 +44704,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DG+DC",
-    "createdAt": 1786778101764
+    "createdAt": 1786860943561
   },
   {
-    "id": "9555dc66-6e18-48a0-87da-03de987a0017",
+    "id": "5fac828d-bf2e-471a-ab56-018fb34b08df",
     "name": "EC1-NRW-06957",
     "lat": 32.238361,
     "lng": 75.307817,
@@ -44730,10 +44730,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101764
+    "createdAt": 1786860943561
   },
   {
-    "id": "f5770323-97e3-4e35-a532-321994797a65",
+    "id": "d8f7e28f-cea5-4bd9-b5c9-fa046087569b",
     "name": "EC1-NRW-09890",
     "lat": 32.09465,
     "lng": 74.91698,
@@ -44756,10 +44756,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101764
+    "createdAt": 1786860943562
   },
   {
-    "id": "67cf52fe-9eda-46da-bc8b-4f88c26187a2",
+    "id": "98addc2b-f196-4809-b208-aebe43005140",
     "name": "EC1-NRW-09904",
     "lat": 32.104545,
     "lng": 74.875456,
@@ -44782,10 +44782,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101764
+    "createdAt": 1786860943577
   },
   {
-    "id": "3a702455-dd09-4320-84c9-a83c0afab35e",
+    "id": "a1b13580-8e97-4105-852c-190369253ce0",
     "name": "EC1-NRW-09925",
     "lat": 32.12817,
     "lng": 74.70701,
@@ -44808,10 +44808,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DG+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101764
+    "createdAt": 1786860943578
   },
   {
-    "id": "7b0647a9-1153-469e-b15f-70d54b5d4f85",
+    "id": "62ae4c5f-e82f-4c3d-8bdf-03151ed3ab04",
     "name": "EC1-SKG-10061",
     "lat": 32.24628,
     "lng": 75.27885,
@@ -44834,10 +44834,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101764
+    "createdAt": 1786860943578
   },
   {
-    "id": "170dc0f0-833d-481c-8155-a60fa16e64c3",
+    "id": "528bf335-53a7-4da0-a800-b7817c142e33",
     "name": "EC1-SKG-10059",
     "lat": 32.20456,
     "lng": 75.16018,
@@ -44860,10 +44860,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101764
+    "createdAt": 1786860943579
   },
   {
-    "id": "ffe51b9e-903d-4b57-ba93-ff4f7c94380e",
+    "id": "42912c84-9df4-41f0-bc12-61d8c7511c4c",
     "name": "EC1-SKG-10132",
     "lat": 32.33871,
     "lng": 75.25218,
@@ -44886,10 +44886,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101764
+    "createdAt": 1786860943579
   },
   {
-    "id": "955236d0-cd25-4ce1-bef7-f656dd5d5e6b",
+    "id": "51dd2d1f-588f-408c-b046-0848cdce75ee",
     "name": "EC1-SKG-10068",
     "lat": 32.26796,
     "lng": 75.24451,
@@ -44912,10 +44912,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101764
+    "createdAt": 1786860943580
   },
   {
-    "id": "59312b5e-37b8-40ea-8ec1-a33c0fdf6e91",
+    "id": "53744e63-056d-4254-8c46-2504ea2633c4",
     "name": "EC1-SKG-10275",
     "lat": 32.21209,
     "lng": 75.09329,
@@ -44938,10 +44938,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101764
+    "createdAt": 1786860943580
   },
   {
-    "id": "f1d5ad6e-1eea-46ba-a25c-de1af4a74343",
+    "id": "b5f64e8f-a462-4e6d-b559-847ded44e737",
     "name": "EC1-SKG-10366",
     "lat": 32.291796,
     "lng": 74.979307,
@@ -44964,10 +44964,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
-    "createdAt": 1786778101764
+    "createdAt": 1786860943580
   },
   {
-    "id": "ebe78178-b2a4-4e25-80c8-4b3b8f6803ba",
+    "id": "a3ccb42f-5318-4480-a299-1c5ce34d1fb2",
     "name": "EC1-SKT-03462",
     "lat": 32.373512,
     "lng": 74.612618,
@@ -44990,10 +44990,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101764
+    "createdAt": 1786860943580
   },
   {
-    "id": "efbc0b5e-bd7d-46e0-b2ca-c75aa877435c",
+    "id": "8e891645-5ec6-4f72-87c3-67c67704a106",
     "name": "EC1-SKT-06553",
     "lat": 32.335496,
     "lng": 74.502378,
@@ -45016,10 +45016,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101764
+    "createdAt": 1786860943581
   },
   {
-    "id": "fd50ec4d-d01d-4ae5-aaba-00ce8097f8c6",
+    "id": "b2a1cb5f-45c9-47a0-b423-d6343f85afd6",
     "name": "EC1-SKT-09898",
     "lat": 32.131788,
     "lng": 74.583517,
@@ -45042,10 +45042,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101764
+    "createdAt": 1786860943581
   },
   {
-    "id": "6562b267-2c55-4021-8142-f6811a52fa67",
+    "id": "c11b3f99-2701-419b-aad7-f273277c6f93",
     "name": "EC1-PSR-01306",
     "lat": 32.2681,
     "lng": 74.6586,
@@ -45068,10 +45068,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP Only",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101764
+    "createdAt": 1786860943581
   },
   {
-    "id": "70e3f79d-9d30-49e6-8094-8d767777b1fb",
+    "id": "82b63562-359c-47c2-868d-591f52045a5e",
     "name": "EC1-SKT-01797",
     "lat": 32.38282,
     "lng": 74.62776,
@@ -45094,10 +45094,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101764
+    "createdAt": 1786860943581
   },
   {
-    "id": "8bd32d7b-fbde-40dc-81ef-9bf2f58b4588",
+    "id": "e1942206-1764-4401-9d8c-64f41a0f63ef",
     "name": "EC1-PSR-01309",
     "lat": 32.19996,
     "lng": 74.64788,
@@ -45120,10 +45120,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101764
+    "createdAt": 1786860943582
   },
   {
-    "id": "cbb49d20-1d48-4e28-a86e-17b33ca2e59d",
+    "id": "5f54bd94-4680-4e39-9683-ebcf603dd19f",
     "name": "EC1-PRT-01311",
     "lat": 32.25799,
     "lng": 74.6589,
@@ -45146,10 +45146,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101764
+    "createdAt": 1786860943582
   },
   {
-    "id": "b80db149-d797-4879-8fa1-80c994f868a3",
+    "id": "9991c78f-5ae2-4c88-9790-7789a71c3f2c",
     "name": "EC1-PSR-06040",
     "lat": 32.291796,
     "lng": 74.67506,
@@ -45172,10 +45172,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101764
+    "createdAt": 1786860943582
   },
   {
-    "id": "c45e3bb7-10bd-478f-82f7-cd5efea6c1e5",
+    "id": "69e194e6-705b-4767-97c2-0db4c7a5909d",
     "name": "EC1-PSR-08602",
     "lat": 32.31525,
     "lng": 74.50994,
@@ -45198,10 +45198,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "CP+DC",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101764
+    "createdAt": 1786860943582
   },
   {
-    "id": "8abd233d-bd4c-4715-b8ae-4cd31b912328",
+    "id": "47e7476c-2b75-4c7e-a0f4-91e23b954ea3",
     "name": "EC1-PSR-08663",
     "lat": 32.24796,
     "lng": 74.71316,
@@ -45224,10 +45224,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "CP+DC",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101765
+    "createdAt": 1786860943583
   },
   {
-    "id": "e0262486-37a4-4191-ab93-e75d30115152",
+    "id": "e65cb6b6-37a7-4938-838c-13fc0253a634",
     "name": "EC1-SKT-09459",
     "lat": 32.27064,
     "lng": 74.66924,
@@ -45250,10 +45250,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101765
+    "createdAt": 1786860943583
   },
   {
-    "id": "0ea20e4a-2605-48b5-b7e9-ffcce0e9beca",
+    "id": "0b25d5a1-ed3a-44f5-9110-c426e3677308",
     "name": "EC1-SKT-05918",
     "lat": 32.327688,
     "lng": 74.561728,
@@ -45276,10 +45276,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101765
+    "createdAt": 1786860943583
   },
   {
-    "id": "d321d45e-cdfe-4dc8-a592-8a0aa7220fdd",
+    "id": "c1e76677-b223-4e47-b300-b1764662f0fc",
     "name": "EC1-DSK-06024",
     "lat": 32.270308,
     "lng": 74.498828,
@@ -45302,10 +45302,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101765
+    "createdAt": 1786860943583
   },
   {
-    "id": "7bd21ea6-66f6-4b07-aad8-7281ccdd44bb",
+    "id": "1df14329-cc3c-4264-a7c0-f4bba050b34b",
     "name": "EC1-SKT-09902",
     "lat": 32.199018,
     "lng": 74.375558,
@@ -45328,10 +45328,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101765
+    "createdAt": 1786860943583
   },
   {
-    "id": "ab12582e-c04f-448d-8e0d-5ba159b068e7",
+    "id": "24d160e9-fd2e-4d03-a05f-2214187371f7",
     "name": "EC1-SKT-01473",
     "lat": 32.4704,
     "lng": 74.5203,
@@ -45354,10 +45354,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "CP+DC",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101765
+    "createdAt": 1786860943584
   },
   {
-    "id": "9e12300a-c205-489d-b7f2-1666162d8f5d",
+    "id": "64b2b163-bae6-478a-8335-faad8aacf590",
     "name": "EC1-PSR-07722",
     "lat": 32.40331,
     "lng": 74.69721,
@@ -45380,10 +45380,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101765
+    "createdAt": 1786860943584
   },
   {
-    "id": "4f7102f2-6951-40cc-a831-6fd5ce319c62",
+    "id": "98a87143-7d64-4a00-8728-e2fef315a775",
     "name": "EC1-PSR-09177",
     "lat": 32.17896,
     "lng": 74.5558,
@@ -45406,10 +45406,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101765
+    "createdAt": 1786860943584
   },
   {
-    "id": "b8cc24a1-1bd6-456f-82f3-8cb03d9b2585",
+    "id": "b75c61fe-1499-45c8-96ae-08e70776f355",
     "name": "EC1-SKT-01497",
     "lat": 32.54575,
     "lng": 74.55276,
@@ -45432,10 +45432,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP Only",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101765
+    "createdAt": 1786860943584
   },
   {
-    "id": "8c368139-f75b-445d-a44f-1301a78a142c",
+    "id": "51b26c71-806c-49c5-82ec-1368412448fc",
     "name": "EC1-SKT-03819",
     "lat": 32.63841,
     "lng": 74.57977,
@@ -45458,10 +45458,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101765
+    "createdAt": 1786860943584
   },
   {
-    "id": "3541c43a-962a-4217-b6cd-85a433d672e8",
+    "id": "ec564aad-dafe-48b6-8652-9512e38a4d4d",
     "name": "EC1-SKT-03820",
     "lat": 32.58602,
     "lng": 74.55185,
@@ -45484,10 +45484,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101765
+    "createdAt": 1786860943585
   },
   {
-    "id": "c5854796-6ef9-496e-88c7-8a527ffbeda3",
+    "id": "0e128af8-8be3-43b5-9ffa-cbeef576cbf6",
     "name": "EC1-SKT-04024",
     "lat": 32.46768,
     "lng": 74.49952,
@@ -45510,10 +45510,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "CP+DC",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101765
+    "createdAt": 1786860943585
   },
   {
-    "id": "c967298f-003c-4321-aa4b-e05f2961fbcc",
+    "id": "31e8dda2-5da8-46b4-8bd5-65d884d2c381",
     "name": "EC1-SKT-01488",
     "lat": 32.42315,
     "lng": 74.5714,
@@ -45536,10 +45536,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP Only",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101765
+    "createdAt": 1786860943585
   },
   {
-    "id": "9546d5cf-3dce-4a57-964e-cb35239d23aa",
+    "id": "f1c91c2f-aa2f-4389-955d-4643846f2ef0",
     "name": "EC1-SKT-06418",
     "lat": 32.47527,
     "lng": 74.57662,
@@ -45562,10 +45562,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "CP+DC",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101765
+    "createdAt": 1786860943586
   },
   {
-    "id": "9352c820-50a5-4b3e-92d5-2ce43451d6b4",
+    "id": "51286597-5d37-4d30-ab8b-804dc230d859",
     "name": "EC1-SKT-02173",
     "lat": 32.4597,
     "lng": 74.5314,
@@ -45588,10 +45588,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "CP+DC",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101765
+    "createdAt": 1786860943586
   },
   {
-    "id": "16db9c0d-9873-4df7-acaa-0fe37c1f5d41",
+    "id": "fd2fef94-3384-4352-836e-f6ef5a1088f6",
     "name": "EC1-SKT-02081",
     "lat": 32.49419,
     "lng": 74.53534,
@@ -45614,10 +45614,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101765
+    "createdAt": 1786860943586
   },
   {
-    "id": "a57d50d1-a4e6-45e0-874d-320a50f4227f",
+    "id": "24041abd-b3e8-430c-a876-075ed4778cc6",
     "name": "EC1-SKT-02541",
     "lat": 32.4867,
     "lng": 74.52736,
@@ -45640,10 +45640,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101765
+    "createdAt": 1786860943586
   },
   {
-    "id": "11358f7b-0dac-431e-b3f7-65ab78c47503",
+    "id": "65f4c6b5-379b-47f4-9bb4-583c4f528729",
     "name": "EC1-SKT-03282",
     "lat": 32.5344,
     "lng": 74.57031,
@@ -45666,10 +45666,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101765
+    "createdAt": 1786860943587
   },
   {
-    "id": "70ef3727-0b9b-4eca-8d49-f7d3eced8535",
+    "id": "46cc4db6-fea9-4f0c-b082-ebf51d4738b0",
     "name": "EC1-SKT-01917",
     "lat": 32.510392,
     "lng": 74.509568,
@@ -45692,10 +45692,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "CP+DC",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101765
+    "createdAt": 1786860943587
   },
   {
-    "id": "0c004bf8-7ddb-4a6f-9a9c-0d25f7c42336",
+    "id": "2b7f875b-70f4-4e4a-a1c8-2124c019530a",
     "name": "EC1-SKT-03279",
     "lat": 32.489832,
     "lng": 74.484993,
@@ -45718,10 +45718,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101765
+    "createdAt": 1786860943587
   },
   {
-    "id": "d3641288-faab-4f6d-b182-ee4ecd0ac867",
+    "id": "4ece0c5a-c749-44ee-83e0-c1efe9495425",
     "name": "EC1-SKT-03062",
     "lat": 32.41598,
     "lng": 74.68092,
@@ -45744,10 +45744,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101765
+    "createdAt": 1786860943587
   },
   {
-    "id": "c52f5f23-6238-4651-9cf6-a51fa820df39",
+    "id": "343a072d-b3e0-4fc3-b275-552cf71330dc",
     "name": "EC1-SKT-02135",
     "lat": 32.49152,
     "lng": 74.55858,
@@ -45770,10 +45770,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "CP+DC",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101765
+    "createdAt": 1786860943587
   },
   {
-    "id": "558ee497-978c-4e2f-9bae-d330ddf736a5",
+    "id": "1f224c65-93be-400e-8f70-0cce99409c65",
     "name": "EC1-SKT-03565",
     "lat": 32.461947,
     "lng": 74.516204,
@@ -45796,10 +45796,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101765
+    "createdAt": 1786860943588
   },
   {
-    "id": "ead1c39f-6457-4deb-a9ae-476032cd51bc",
+    "id": "2aba3c6d-51b8-4fb8-b956-a6c3872e73ce",
     "name": "EC1-SKT-04954",
     "lat": 32.52665,
     "lng": 74.604532,
@@ -45822,10 +45822,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DG+DC",
-    "createdAt": 1786778101765
+    "createdAt": 1786860943588
   },
   {
-    "id": "11d86960-4410-48fd-86e4-ca1c028ed817",
+    "id": "2b885e56-618a-4b30-9b7d-03467fe77286",
     "name": "EC1-SKT-06526",
     "lat": 32.468339,
     "lng": 74.660092,
@@ -45848,10 +45848,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101765
+    "createdAt": 1786860943588
   },
   {
-    "id": "b999bb04-b076-4d4a-a588-ccccb6e7cce1",
+    "id": "d40ce11f-9603-44af-91b8-d9386dfc48c0",
     "name": "EC1-SKT-06469",
     "lat": 32.49681,
     "lng": 74.569701,
@@ -45874,10 +45874,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "CP+DC",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101765
+    "createdAt": 1786860943588
   },
   {
-    "id": "fcc744fe-5178-48da-bb8f-266773f8a536",
+    "id": "bcd6f2a0-1883-474e-a39f-3036dd6eb7c6",
     "name": "EC1-SKT-01487",
     "lat": 32.49719444,
     "lng": 74.589,
@@ -45900,10 +45900,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101765
+    "createdAt": 1786860943589
   },
   {
-    "id": "a67fb9a3-58d5-498e-9ef9-573d4e7a2d0d",
+    "id": "4f2393ba-943d-4a99-9120-965299082f75",
     "name": "EC1-SKT-01500",
     "lat": 32.49067,
     "lng": 74.53365,
@@ -45926,10 +45926,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101765
+    "createdAt": 1786860943589
   },
   {
-    "id": "893b08ba-83aa-4cb3-a509-42d2d404dbc1",
+    "id": "516b2657-99e6-4ff1-a859-9de9ad550f83",
     "name": "EC1-SKT-03423",
     "lat": 32.662249,
     "lng": 74.56866,
@@ -45952,10 +45952,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101765
+    "createdAt": 1786860943589
   },
   {
-    "id": "68bc9a89-fd37-457f-9730-a7e10fdc8d75",
+    "id": "c8ccf161-194a-4a98-b8d8-38b5252d7231",
     "name": "EC1-SKT-01881",
     "lat": 32.650602,
     "lng": 74.479832,
@@ -45978,10 +45978,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101765
+    "createdAt": 1786860943589
   },
   {
-    "id": "f65052a1-a365-4fe5-9138-5ae8c32449ac",
+    "id": "c5d01d6e-cf98-4a76-8078-5ffbe2594136",
     "name": "EC1-SKT-05923",
     "lat": 32.45035,
     "lng": 74.495119,
@@ -46004,10 +46004,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101765
+    "createdAt": 1786860943590
   },
   {
-    "id": "afbb57d2-c627-4a50-863c-bf9543c93222",
+    "id": "b0152e65-11a6-43a8-9b52-7476ace1b01e",
     "name": "EC1-SKT-06554",
     "lat": 32.56779,
     "lng": 74.36513,
@@ -46030,10 +46030,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101765
+    "createdAt": 1786860943590
   },
   {
-    "id": "7eba49e1-8b52-4f02-9644-aed850f87c05",
+    "id": "587cfe34-3981-4942-a219-3357a3c02148",
     "name": "EC1-SKT-03413",
     "lat": 32.454392,
     "lng": 74.48814,
@@ -46056,10 +46056,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "CP+DC",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101765
+    "createdAt": 1786860943590
   },
   {
-    "id": "809614ee-53e1-485c-a73b-560c9195ba72",
+    "id": "64fdd569-6996-41c9-964e-1aec54389122",
     "name": "EC1-SKT-05802",
     "lat": 32.465115,
     "lng": 74.554274,
@@ -46082,10 +46082,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "CP+DC",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101765
+    "createdAt": 1786860943590
   },
   {
-    "id": "7b6b4daa-0ba3-482a-962a-08d3b9e853eb",
+    "id": "e3464670-0aa7-4db2-9b5e-29aaa62677ac",
     "name": "EC1-SKT-07048",
     "lat": 32.486053,
     "lng": 74.493651,
@@ -46108,10 +46108,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "CP+DC",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101765
+    "createdAt": 1786860943590
   },
   {
-    "id": "33da0904-fe05-4cf0-a5ec-f5480eb976a2",
+    "id": "fe860277-ce3a-4839-8523-d46ed15c6b56",
     "name": "EC1-SKT-06985",
     "lat": 32.502024,
     "lng": 74.506848,
@@ -46134,10 +46134,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "CP+DC",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101765
+    "createdAt": 1786860943591
   },
   {
-    "id": "912632e5-60dc-4a67-9fb8-4f4128713474",
+    "id": "d0dc98c7-72e7-4e6d-b082-b6fd7b96f1ed",
     "name": "EC1-SKT-07397",
     "lat": 32.48548,
     "lng": 74.61779,
@@ -46160,10 +46160,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101765
+    "createdAt": 1786860943591
   },
   {
-    "id": "343435f9-be6a-4b99-8a07-12ed8632bce0",
+    "id": "23b455e9-07ea-4c67-994c-802a496a6074",
     "name": "EC1-SKT-07862",
     "lat": 32.485521,
     "lng": 74.598075,
@@ -46186,10 +46186,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101765
+    "createdAt": 1786860943591
   },
   {
-    "id": "cecf9417-083a-47c5-94b8-14b01650a097",
+    "id": "0429dc44-be73-459f-8af5-a58ce19086a6",
     "name": "EC1-SKT-07863",
     "lat": 32.507265,
     "lng": 74.595879,
@@ -46212,10 +46212,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101765
+    "createdAt": 1786860943591
   },
   {
-    "id": "e922e2f6-9788-4414-b406-616c4561a31c",
+    "id": "ab7fb5df-7789-4e56-99e5-832b41468d0a",
     "name": "EC1-SKT-07398",
     "lat": 32.4638,
     "lng": 74.5248,
@@ -46238,10 +46238,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101765
+    "createdAt": 1786860943591
   },
   {
-    "id": "fbad660b-6be9-444c-ad3c-768100832f87",
+    "id": "f44ba284-82d7-4a2b-8257-b208db3bab66",
     "name": "EC1-SKT-08180",
     "lat": 32.554223,
     "lng": 74.525234,
@@ -46264,10 +46264,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101765
+    "createdAt": 1786860943592
   },
   {
-    "id": "1c668943-1315-41f9-ac5a-52c9d52225e0",
+    "id": "f0ddb6c2-3a5c-491d-af87-35bbf2aeb37d",
     "name": "EC1-SKT-07153",
     "lat": 32.56687,
     "lng": 74.54143,
@@ -46290,10 +46290,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "CP+DC",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101765
+    "createdAt": 1786860943592
   },
   {
-    "id": "764615db-4c96-4c28-b04a-d742853e48e8",
+    "id": "94bebdb2-98de-470f-b9ca-c3bfb08e103a",
     "name": "EC1-SKT-07416",
     "lat": 32.48587,
     "lng": 74.46141,
@@ -46316,10 +46316,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101765
+    "createdAt": 1786860943593
   },
   {
-    "id": "5e0542d9-05ac-4cab-bb6e-705aad079525",
+    "id": "d5ca8039-5e5f-40a9-bb99-5dcb66fb7508",
     "name": "EC1-SKT-09888",
     "lat": 32.570804,
     "lng": 74.499263,
@@ -46342,10 +46342,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101765
+    "createdAt": 1786860943593
   },
   {
-    "id": "139c9135-c3a7-4830-83df-055d7d95e7a4",
+    "id": "e405c859-18c5-4138-8ee3-5007828e6ecb",
     "name": "EC1-SKT-10110",
     "lat": 32.567525,
     "lng": 74.47296,
@@ -46368,10 +46368,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DG+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DG+DC",
-    "createdAt": 1786778101766
+    "createdAt": 1786860943593
   },
   {
-    "id": "08d70e07-2d3e-4a54-a40c-f4b10eafabb7",
+    "id": "d0c36b0a-b4b9-4060-8f3a-e1b6c27797df",
     "name": "EC1-SKT-10356",
     "lat": 32.488652,
     "lng": 74.510255,
@@ -46394,10 +46394,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101766
+    "createdAt": 1786860943593
   },
   {
-    "id": "5cbe7028-570b-4d35-aecb-5c685894c00a",
+    "id": "1985b8e7-d0d7-40ed-ab39-c21c0f1a39f3",
     "name": "EC1-SKT-06359",
     "lat": 32.419864,
     "lng": 74.496318,
@@ -46420,10 +46420,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101766
+    "createdAt": 1786860943594
   },
   {
-    "id": "0a56ab3f-f5ba-4461-8f86-e65426ffa569",
+    "id": "75397297-7577-4264-a879-eda4f307e067",
     "name": "EC1-SKT-01796",
     "lat": 32.44005,
     "lng": 74.48502,
@@ -46446,10 +46446,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101766
+    "createdAt": 1786860943594
   },
   {
-    "id": "31518685-1604-4512-928b-915a530a5bf8",
+    "id": "54950f60-6321-4462-85dc-cd1aaf31e894",
     "name": "EC1-SKT-03414",
     "lat": 32.389912,
     "lng": 74.516334,
@@ -46472,10 +46472,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101766
+    "createdAt": 1786860943594
   },
   {
-    "id": "6904be98-07c3-4f60-8c50-05809d1da8b9",
+    "id": "f1565a28-bf3f-4905-b2db-e1183af463e3",
     "name": "EC1-SKT-05913",
     "lat": 32.481374,
     "lng": 74.478248,
@@ -46498,10 +46498,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101766
+    "createdAt": 1786860943612
   },
   {
-    "id": "2fece23c-733f-4792-8e40-f47e0dbc1509",
+    "id": "2945b6df-1dd3-473f-a20a-70696647eff2",
     "name": "EC1-SKT-05646",
     "lat": 32.508383,
     "lng": 74.459837,
@@ -46524,10 +46524,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "CP+DC",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101766
+    "createdAt": 1786860943613
   },
   {
-    "id": "db2826eb-2cf0-4b90-8f97-10ef788f2c65",
+    "id": "1dfc8423-cbdd-47b2-a8c3-097d5ae8152f",
     "name": "EC1-SKT-10356",
     "lat": 32.49,
     "lng": 74.51,
@@ -46550,10 +46550,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101766
+    "createdAt": 1786860943613
   },
   {
-    "id": "e4db0b15-ff14-4c11-86cd-f51cc51588e4",
+    "id": "d25edc57-de52-4471-90e5-754dc46c3b76",
     "name": "EC1-HFZ-00436",
     "lat": 32.08076,
     "lng": 73.68719,
@@ -46576,10 +46576,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP Only",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101766
+    "createdAt": 1786860943614
   },
   {
-    "id": "ed74e0fe-6367-4ddd-92a8-2c51780faefd",
+    "id": "8f400b79-39db-4753-b3b9-867e1ac14c42",
     "name": "EC1-HFZ-00439",
     "lat": 32.06556,
     "lng": 73.69418,
@@ -46602,10 +46602,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP Only",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101766
+    "createdAt": 1786860943614
   },
   {
-    "id": "e45e8c21-283b-41fb-925e-0a69f5cc0f77",
+    "id": "f45c6523-8838-434c-9c77-60b1af8c7f80",
     "name": "EC1-HFZ-04554",
     "lat": 32.05508,
     "lng": 73.67609,
@@ -46628,10 +46628,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101766
+    "createdAt": 1786860943614
   },
   {
-    "id": "43c235b1-f2a9-4a47-9f79-e4829a510fb3",
+    "id": "cc9f887b-247c-4966-966b-d8bb669cf96e",
     "name": "EC1-KQD-06448",
     "lat": 31.837376,
     "lng": 73.626324,
@@ -46654,10 +46654,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101766
+    "createdAt": 1786860943614
   },
   {
-    "id": "3e96613b-189a-49a8-8ff7-22ecfc2fb6aa",
+    "id": "dc93e576-0655-43d4-8c7e-ac99c74b2980",
     "name": "EC1-GUJ-01750",
     "lat": 32.12917,
     "lng": 74.02059,
@@ -46680,10 +46680,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101766
+    "createdAt": 1786860943615
   },
   {
-    "id": "065668b7-05cf-4051-8e0d-2b9a26287567",
+    "id": "76f6512d-2afc-495e-982a-c0583edf5c7b",
     "name": "EC1-QDS-01335",
     "lat": 32.13562,
     "lng": 74.01266,
@@ -46706,10 +46706,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101766
+    "createdAt": 1786860943615
   },
   {
-    "id": "4378bba4-5245-4e4d-9d51-5fbe2f31fa88",
+    "id": "23f6000d-eb4f-4546-8111-c52267d05af3",
     "name": "EC1-HFZ-00442",
     "lat": 32.06524,
     "lng": 73.67825,
@@ -46732,10 +46732,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101766
+    "createdAt": 1786860943615
   },
   {
-    "id": "cac1f283-a960-4565-ae9a-8cd70995f71c",
+    "id": "32c5e491-2278-49ce-a893-93260e2ff44c",
     "name": "EC1-HFZ-00443",
     "lat": 31.97051,
     "lng": 73.41502,
@@ -46758,10 +46758,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101766
+    "createdAt": 1786860943615
   },
   {
-    "id": "22a6e4d4-f195-44dd-8d7c-6b7116fd9e86",
+    "id": "1e70f459-b18b-4529-aa2e-a568287541c3",
     "name": "EC1-NSV-02000",
     "lat": 31.91351,
     "lng": 73.88612,
@@ -46784,10 +46784,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101766
+    "createdAt": 1786860943616
   },
   {
-    "id": "32b04b6c-b533-4d05-b17c-e0538d0e3b2d",
+    "id": "fc425b55-6f21-4d8b-88e7-efb5934358d8",
     "name": "EC1-HFZ-02335",
     "lat": 32.061878,
     "lng": 74.3459,
@@ -46810,10 +46810,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101766
+    "createdAt": 1786860943616
   },
   {
-    "id": "d7145ef1-9caa-4747-9d98-1beac4580659",
+    "id": "c8060967-0545-4aa7-97ea-54920c6ecf84",
     "name": "EC1-HFZ-03274",
     "lat": 32.07544,
     "lng": 73.67812,
@@ -46836,10 +46836,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101766
+    "createdAt": 1786860943616
   },
   {
-    "id": "c0f1f7e9-1c0e-4daa-b3c2-f1d55442ae6f",
+    "id": "5234aad8-6337-4dde-8489-ffdfc58a54f6",
     "name": "EC1-KMK-01790",
     "lat": 31.966691,
     "lng": 73.971531,
@@ -46862,10 +46862,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101766
+    "createdAt": 1786860943616
   },
   {
-    "id": "ff6ff8c7-7ecd-4ab3-94d6-35fa749949eb",
+    "id": "0d9c8b50-687f-48a1-bb65-828ef98dc495",
     "name": "EC1-HFZ-01785",
     "lat": 32.0751969,
     "lng": 73.7237609,
@@ -46888,10 +46888,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101766
+    "createdAt": 1786860943616
   },
   {
-    "id": "7b311a2e-498d-4a36-bd72-36413423f035",
+    "id": "e23e78bc-6807-42ae-8565-3bbfbddea1dc",
     "name": "EC1-HFZ-00431",
     "lat": 32.0636,
     "lng": 73.3838,
@@ -46914,10 +46914,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101766
+    "createdAt": 1786860943617
   },
   {
-    "id": "2ae3bd98-ab23-4344-bd80-5431741b1414",
+    "id": "2ab398ad-652f-4591-8092-4202d6100f9d",
     "name": "EC1-KMK-03417",
     "lat": 31.964858,
     "lng": 74.04402,
@@ -46940,10 +46940,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101766
+    "createdAt": 1786860943617
   },
   {
-    "id": "edc233be-bf7b-4a3d-b2c0-e2ca15fc46f3",
+    "id": "222ad35c-32b0-48aa-ab5d-2b25b9adf418",
     "name": "EC1-HFZ-03538",
     "lat": 32.06899,
     "lng": 73.687222,
@@ -46966,10 +46966,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101766
+    "createdAt": 1786860943617
   },
   {
-    "id": "28cb6142-9601-4a6b-87e6-8a0e3f0bf377",
+    "id": "1b0d2455-48ce-4a63-80e3-cf8f91d4bfbc",
     "name": "EC1-HFZ-04003",
     "lat": 31.900637,
     "lng": 73.2636,
@@ -46992,10 +46992,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101766
+    "createdAt": 1786860943618
   },
   {
-    "id": "fc0a3cc2-9a79-47f5-ad60-ea1b5c2c60ca",
+    "id": "b50dfe85-5939-417c-aaf6-29d9fe7c8591",
     "name": "EC1-GUJ-04004",
     "lat": 31.95522,
     "lng": 73.973,
@@ -47018,10 +47018,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101766
+    "createdAt": 1786860943618
   },
   {
-    "id": "37eb27ce-8e94-49b6-9497-76acaa9ffaf7",
+    "id": "3f42593e-1f74-422b-8906-01d6446c9408",
     "name": "EC1-PNB-05070",
     "lat": 31.86833,
     "lng": 73.49615,
@@ -47044,10 +47044,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101766
+    "createdAt": 1786860943618
   },
   {
-    "id": "6b9aad3b-a0af-4e37-9e36-d204fd4aa8ce",
+    "id": "939605c9-01d8-478f-8e49-29dfffcb995c",
     "name": "EC1-GUJ-05908",
     "lat": 32.138018,
     "lng": 73.902835,
@@ -47070,10 +47070,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101766
+    "createdAt": 1786860943618
   },
   {
-    "id": "7d8ebcae-faf0-4e34-9abd-bd61de94f649",
+    "id": "9ea69a5a-c702-41de-963f-5c4be61d8667",
     "name": "EC1-GUJ-05910",
     "lat": 32.06676,
     "lng": 74.15278,
@@ -47096,10 +47096,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101766
+    "createdAt": 1786860943619
   },
   {
-    "id": "50f5bcef-151f-4b8a-82fa-1855a57f6fc8",
+    "id": "210b9fd9-f74a-431c-b7b5-c51719e9fca4",
     "name": "EC1-GUJ-05919",
     "lat": 31.962682,
     "lng": 73.965757,
@@ -47122,10 +47122,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101766
+    "createdAt": 1786860943619
   },
   {
-    "id": "6877abd8-7220-46aa-9c16-24ad7941f044",
+    "id": "ffb98d22-3081-4625-9a3c-c563d5b199f1",
     "name": "EC1-HFZ-05915",
     "lat": 32.212657,
     "lng": 73.576141,
@@ -47148,10 +47148,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101766
+    "createdAt": 1786860943620
   },
   {
-    "id": "e282e85a-2f47-4252-b05d-9bc7db0ab895",
+    "id": "a564c9f6-128c-4a58-98eb-2f489f32cdbd",
     "name": "EC1-HFZ-08176",
     "lat": 32.087709,
     "lng": 73.681354,
@@ -47174,10 +47174,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101766
+    "createdAt": 1786860943620
   },
   {
-    "id": "4482ace1-8e69-4420-a6c7-62c4fd85755f",
+    "id": "70518d53-470e-436e-a24c-229880261723",
     "name": "EC1-HFZ-08178",
     "lat": 32.0938,
     "lng": 73.6318,
@@ -47200,10 +47200,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101766
+    "createdAt": 1786860943620
   },
   {
-    "id": "b32a969e-d14f-4157-95b0-b1213bf4f7a1",
+    "id": "a1c22239-4f21-493c-8bdf-430a0935e43c",
     "name": "EC1-HFZ-08177",
     "lat": 32.1064543,
     "lng": 73.665163,
@@ -47226,10 +47226,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101766
+    "createdAt": 1786860943620
   },
   {
-    "id": "48516b83-05da-4df5-b934-bea8e442ae67",
+    "id": "3901b7ba-1f74-4ba9-a023-35376592ae41",
     "name": "EC1-HFZ-08581",
     "lat": 32.02792,
     "lng": 73.8236,
@@ -47252,10 +47252,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101766
+    "createdAt": 1786860943621
   },
   {
-    "id": "d30c22cb-4ffd-4f62-8402-8b828408b3e3",
+    "id": "febf1964-5284-4569-963a-4bd68de6e382",
     "name": "EC1-HFZ-08591",
     "lat": 32.14616,
     "lng": 73.63127,
@@ -47278,10 +47278,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101766
+    "createdAt": 1786860943621
   },
   {
-    "id": "69a6dd9b-3cae-41d4-a294-8edb0f2e2cef",
+    "id": "e4799796-ff14-428c-a890-ea3b70e0e540",
     "name": "EUC-HFZ-08891",
     "lat": 31.888963,
     "lng": 73.621402,
@@ -47304,10 +47304,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
-    "createdAt": 1786778101766
+    "createdAt": 1786860943621
   },
   {
-    "id": "db182547-646a-4026-9b55-60c86ff91684",
+    "id": "af6bb062-71a3-46cf-ab87-861336a8c423",
     "name": "EUC-HFZ-08892",
     "lat": 31.918205,
     "lng": 73.440662,
@@ -47330,10 +47330,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
-    "createdAt": 1786778101766
+    "createdAt": 1786860943621
   },
   {
-    "id": "8e5654ff-fbae-47c1-9777-b1a531beb8cf",
+    "id": "3066a9fa-de79-402a-b7ab-77568284f8e6",
     "name": "EC1-NSV-09180",
     "lat": 32.076154,
     "lng": 73.871866,
@@ -47356,10 +47356,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101766
+    "createdAt": 1786860943622
   },
   {
-    "id": "8c17eeff-f6e1-4014-8339-af441331ab97",
+    "id": "30492015-c05c-4cd8-8b2b-c9b141359b60",
     "name": "EC1-NSV-09463",
     "lat": 32.07461,
     "lng": 73.94384,
@@ -47382,10 +47382,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101766
+    "createdAt": 1786860943623
   },
   {
-    "id": "8a818a69-0f83-4f3b-a13f-439c278fe109",
+    "id": "7186984a-124a-4a55-a5ac-104627f6adcd",
     "name": "EC1-GUJ-09462",
     "lat": 32.1064768,
     "lng": 74.16064,
@@ -47408,10 +47408,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101766
+    "createdAt": 1786860943623
   },
   {
-    "id": "035744f8-76dc-4860-ae86-2506ae0b213c",
+    "id": "3a58d1da-6e11-4312-9184-baec76d81aa4",
     "name": "EC1-GUJ-09738",
     "lat": 32.042281,
     "lng": 74.091295,
@@ -47434,10 +47434,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101766
+    "createdAt": 1786860943624
   },
   {
-    "id": "9e2e5c6c-324a-476b-89ca-89934092233a",
+    "id": "682b6363-c516-440c-9d35-38a3eccafffa",
     "name": "EC2-APR-09776",
     "lat": 32.261338,
     "lng": 73.813709,
@@ -47460,10 +47460,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101766
+    "createdAt": 1786860943625
   },
   {
-    "id": "e38d0ce1-c703-4f52-97a8-04ace878da28",
+    "id": "7598060b-9218-4da7-8d60-573622fc75cb",
     "name": "EC1-HFZ-09845",
     "lat": 32.07186,
     "lng": 73.688147,
@@ -47486,10 +47486,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101766
+    "createdAt": 1786860943625
   },
   {
-    "id": "56e70a11-29d5-4d48-9000-18acf53be1f8",
+    "id": "60b8947c-1603-4fe0-b897-3c5472dc818b",
     "name": "EC1-HFZ-09884",
     "lat": 32.062956,
     "lng": 73.399634,
@@ -47512,10 +47512,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101767
+    "createdAt": 1786860943626
   },
   {
-    "id": "c34f8134-c9a5-4ee6-a73a-e5bf7def1912",
+    "id": "dc92e8ec-5740-4077-a70c-ba9d6e5e72b5",
     "name": "EUC-HFZ-06893",
     "lat": 31.945552,
     "lng": 73.836274,
@@ -47538,10 +47538,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
-    "createdAt": 1786778101767
+    "createdAt": 1786860943626
   },
   {
-    "id": "47e309fe-95e7-47f6-8dec-d97222464a3d",
+    "id": "8235f1e1-f772-4ad4-acdd-bc1cf922c77b",
     "name": "EC1-PNB-01711",
     "lat": 31.980264,
     "lng": 73.446537,
@@ -47564,10 +47564,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101767
+    "createdAt": 1786860943626
   },
   {
-    "id": "63c8cd13-8237-4717-ba96-d0f2a61099c4",
+    "id": "6c6ffa06-e915-40c2-8cd4-3c2ea31c317d",
     "name": "EC1-PNB-03880",
     "lat": 32.062258,
     "lng": 73.42213,
@@ -47590,10 +47590,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101767
+    "createdAt": 1786860943626
   },
   {
-    "id": "fec88205-74b1-488e-8044-013349750d61",
+    "id": "952e7d9f-ab82-4382-a7f7-a715e285235e",
     "name": "EC1-PNB-06475",
     "lat": 31.904313,
     "lng": 73.282788,
@@ -47616,10 +47616,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101767
+    "createdAt": 1786860943629
   },
   {
-    "id": "ede2130d-4f90-48a3-b5f0-737c4f38ecec",
+    "id": "1d8f2447-18e9-48a7-aa43-28730c541cde",
     "name": "EC1-APC-10081",
     "lat": 32.18261,
     "lng": 73.89443,
@@ -47642,10 +47642,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101767
+    "createdAt": 1786860943629
   },
   {
-    "id": "dafeac10-c75b-4531-989d-769b20b8a1e3",
+    "id": "abdb05dd-e0ee-47ff-91b5-c6bc8f45b53d",
     "name": "EC1-HFZ-09892",
     "lat": 32.059678,
     "lng": 73.49371,
@@ -47668,10 +47668,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101767
+    "createdAt": 1786860943629
   },
   {
-    "id": "a31d897d-bb44-4854-baa8-02273d4a3679",
+    "id": "6fd81177-11b3-49e5-acec-91ded415bb8d",
     "name": "EC1-HFZ-09914",
     "lat": 32.080152,
     "lng": 73.696164,
@@ -47694,10 +47694,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101767
+    "createdAt": 1786860943629
   },
   {
-    "id": "39101487-12ca-46c0-a559-23d5d3dd17d2",
+    "id": "af349225-fd11-47ac-8d2a-9b433be1a23a",
     "name": "EC1-HFZ-10114",
     "lat": 32.03722,
     "lng": 73.360608,
@@ -47720,10 +47720,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101767
+    "createdAt": 1786860943630
   },
   {
-    "id": "df418e47-f3fe-4f17-baae-0988622e1679",
+    "id": "e8309bdd-3c46-4822-9189-bd366ea82248",
     "name": "EC1-NSV-09929",
     "lat": 31.987893,
     "lng": 74.02213,
@@ -47746,10 +47746,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101767
+    "createdAt": 1786860943630
   },
   {
-    "id": "bee87d3a-2073-4266-8102-a86585920535",
+    "id": "c916f3dd-7421-4f70-8ece-846612400152",
     "name": "EC1-DNG-00222",
     "lat": 32.49025,
     "lng": 73.65636111,
@@ -47772,10 +47772,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP Only",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101767
+    "createdAt": 1786860943631
   },
   {
-    "id": "45d8b21a-f05d-4979-b753-cf7dc0a92239",
+    "id": "ba97fd21-3200-441b-8eff-2e9a2586c754",
     "name": "EC1-MBD-04022",
     "lat": 32.58028,
     "lng": 73.49682,
@@ -47798,10 +47798,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101767
+    "createdAt": 1786860943631
   },
   {
-    "id": "e46a8d59-6ab4-4fc9-826c-50500f751037",
+    "id": "76d6998b-cfc8-4fc9-ba54-80e3b17c52ea",
     "name": "EC1-GUT-04823",
     "lat": 32.80941,
     "lng": 73.8668,
@@ -47824,10 +47824,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101767
+    "createdAt": 1786860943633
   },
   {
-    "id": "8e49cafa-bfd0-42ae-8b20-449cde8f76c4",
+    "id": "0ff7a311-b33d-4600-9ac2-8a869ba19a47",
     "name": "EC1-KHR-02341",
     "lat": 32.799845,
     "lng": 73.87476,
@@ -47850,10 +47850,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101767
+    "createdAt": 1786860943633
   },
   {
-    "id": "a2cf1f72-0878-4fa1-9123-1967cfb2199d",
+    "id": "c12be4ae-7c3a-4b58-a463-e47a13494f05",
     "name": "EC1-MBD-01142",
     "lat": 32.5215,
     "lng": 73.32335,
@@ -47876,10 +47876,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101767
+    "createdAt": 1786860943634
   },
   {
-    "id": "74602397-0527-42f4-a18c-1509a3962f2d",
+    "id": "a893ef90-5704-4aa5-99aa-348d7c2f5b75",
     "name": "EC1-MBD-01145",
     "lat": 32.58649,
     "lng": 73.49146,
@@ -47902,10 +47902,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101767
+    "createdAt": 1786860943635
   },
   {
-    "id": "88f8bb9a-ef12-4b9a-8260-960bd19d2d96",
+    "id": "7fb5c239-c753-4dfc-a85f-75ac5cf4e333",
     "name": "EC1-MBD-01133",
     "lat": 32.55637,
     "lng": 73.2149,
@@ -47928,10 +47928,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101767
+    "createdAt": 1786860943635
   },
   {
-    "id": "621c07ce-733b-4caa-a587-1b083fa146e9",
+    "id": "46c0faf7-5e83-44ee-986e-19a0b63b2373",
     "name": "EC1-MBD-01714",
     "lat": 32.4220393,
     "lng": 73.4833949,
@@ -47954,10 +47954,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101767
+    "createdAt": 1786860943639
   },
   {
-    "id": "a3820c7b-3127-4110-bcc9-fa81af11b2b7",
+    "id": "07c09ca3-2841-4727-ac58-9e9f6d92169e",
     "name": "EC1-MBD-01717",
     "lat": 32.46626,
     "lng": 73.768088,
@@ -47980,10 +47980,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101767
+    "createdAt": 1786860943640
   },
   {
-    "id": "a9942f81-4e93-4668-bc44-f5370c5f9277",
+    "id": "da9b28b2-d7f2-45d7-9194-064cb6d27a16",
     "name": "EC1-MBD-01854",
     "lat": 32.435984,
     "lng": 73.56721,
@@ -48006,10 +48006,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101767
+    "createdAt": 1786860943640
   },
   {
-    "id": "864c0ebe-d7ff-4d0b-ad7b-057d510e3f53",
+    "id": "062c3cfe-5445-44a6-a9f9-6831d88e6525",
     "name": "EC1-MBD-01794",
     "lat": 32.466553,
     "lng": 73.531421,
@@ -48032,10 +48032,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101767
+    "createdAt": 1786860943640
   },
   {
-    "id": "f1432d46-61c8-4f19-bb45-5453891fb584",
+    "id": "f7d27902-efa0-4784-a018-fe89caea33e3",
     "name": "EC1-MBD-03401",
     "lat": 32.389584,
     "lng": 73.711915,
@@ -48058,10 +48058,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101767
+    "createdAt": 1786860943640
   },
   {
-    "id": "dc17ed7e-d0f6-4538-91c8-817dccbaa3fc",
+    "id": "1089be0f-63e8-43c8-83b4-98b1be2b7683",
     "name": "EC1-MBD-03412",
     "lat": 32.415278,
     "lng": 73.746283,
@@ -48084,10 +48084,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101767
+    "createdAt": 1786860943641
   },
   {
-    "id": "a2b582b2-d795-4117-be2a-0256ac965d05",
+    "id": "8f4be142-d729-411c-af5d-e95a6fb7e425",
     "name": "EC1-MBD-03409",
     "lat": 32.449689,
     "lng": 73.759168,
@@ -48110,10 +48110,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101767
+    "createdAt": 1786860943641
   },
   {
-    "id": "b9c05b64-6583-4558-b49c-19f230186670",
+    "id": "4ae4ce40-6da6-413a-8a04-c5e48cf97d02",
     "name": "EC1-MBD-01871",
     "lat": 32.462632,
     "lng": 73.50156,
@@ -48136,10 +48136,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101767
+    "createdAt": 1786860943641
   },
   {
-    "id": "e39a8925-116a-4e9e-8985-020c1b63f5c6",
+    "id": "f94a9c30-6d58-4f2b-a4d9-a04f04d1eaca",
     "name": "EC1-MBD-03419",
     "lat": 32.360854,
     "lng": 73.54751,
@@ -48162,10 +48162,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101767
+    "createdAt": 1786860943642
   },
   {
-    "id": "480736bf-4769-4c58-ac50-792f13323f28",
+    "id": "40872cc1-7ce1-43aa-84b8-36fabd356b24",
     "name": "EC1-MBD-03420",
     "lat": 32.514046,
     "lng": 73.739317,
@@ -48188,10 +48188,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101767
+    "createdAt": 1786860943642
   },
   {
-    "id": "c74c2d48-c0d9-4c33-9d71-59814d07f13f",
+    "id": "1ac65e5f-fe5b-4e2a-9408-5ad1b1210bf0",
     "name": "EC1-MBD-03411",
     "lat": 32.438497,
     "lng": 73.613004,
@@ -48214,10 +48214,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101767
+    "createdAt": 1786860943642
   },
   {
-    "id": "96b3b73e-d17a-4d15-a827-39e4d2482afc",
+    "id": "1744b8a0-bd12-468d-939d-26ae8b75fdba",
     "name": "EC1-MBD-03410",
     "lat": 32.44525,
     "lng": 73.66427,
@@ -48240,10 +48240,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101767
+    "createdAt": 1786860943642
   },
   {
-    "id": "4ccfc477-a90f-4e40-a6e2-a3955dbc1aff",
+    "id": "313de3c6-41ec-4bbc-8ae2-f3d1b068a32d",
     "name": "EC1-MBD-03408",
     "lat": 32.562078,
     "lng": 73.246943,
@@ -48266,10 +48266,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101767
+    "createdAt": 1786860943643
   },
   {
-    "id": "8d1bbaca-43a4-4bfb-882a-4b829a10186b",
+    "id": "6d21b43c-6a32-454a-8883-31c415fa62d0",
     "name": "EC1-MBD-03532",
     "lat": 32.52799,
     "lng": 73.46621,
@@ -48292,10 +48292,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101767
+    "createdAt": 1786860943643
   },
   {
-    "id": "6ed05422-0b25-421c-b841-cb5876273659",
+    "id": "31094344-3f51-427e-95ab-feee7ef8d557",
     "name": "EC1-GUT-03525",
     "lat": 32.64739,
     "lng": 73.787495,
@@ -48318,10 +48318,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101767
+    "createdAt": 1786860943643
   },
   {
-    "id": "8b21b249-d86e-4ed6-827a-1e9cf6e53664",
+    "id": "d229416e-d73f-4cb9-8914-39e2392962a3",
     "name": "EC1-MBD-03531",
     "lat": 32.44163,
     "lng": 73.42123,
@@ -48344,10 +48344,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101767
+    "createdAt": 1786860943643
   },
   {
-    "id": "9390dbf7-7379-4822-a475-0996c8cc523a",
+    "id": "15a630fe-b586-461b-8cbb-dbe671d6c67e",
     "name": "EC1-MBD-03406",
     "lat": 32.5828211,
     "lng": 73.4692818,
@@ -48370,10 +48370,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101767
+    "createdAt": 1786860943644
   },
   {
-    "id": "52b96bbd-d768-43f5-9a2b-06dd644ff88d",
+    "id": "389daa77-9dfa-4a65-b0c2-b2ba5ca48ba8",
     "name": "EC1-MBD-03978",
     "lat": 32.55844,
     "lng": 73.20851,
@@ -48396,10 +48396,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101767
+    "createdAt": 1786860943644
   },
   {
-    "id": "fe592bf2-cc9d-4eea-bb8c-ff76add4462f",
+    "id": "e16ff307-cbb5-4d72-9e37-5533974690ee",
     "name": "EC1-MBD-03979",
     "lat": 32.53957,
     "lng": 73.20341,
@@ -48422,10 +48422,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101767
+    "createdAt": 1786860943644
   },
   {
-    "id": "1a49664e-50b8-4879-9434-68391a4918c2",
+    "id": "5fca967d-75f6-4943-9844-f6fcad03b973",
     "name": "EC1-MBD-04000",
     "lat": 32.39654,
     "lng": 73.4595,
@@ -48448,10 +48448,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101767
+    "createdAt": 1786860943644
   },
   {
-    "id": "9a85524e-068d-4958-b12b-f204899db912",
+    "id": "761a6b0f-7fdb-4026-af7c-2c1e3d6719ce",
     "name": "EC1-MBD-04005",
     "lat": 32.2777,
     "lng": 73.2669,
@@ -48474,10 +48474,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101767
+    "createdAt": 1786860943644
   },
   {
-    "id": "a3e1b82c-b9c8-46e0-bd39-6e36f6277282",
+    "id": "61cd7171-def6-4781-bcd8-ba1c103a9c01",
     "name": "EC1-MBD-04170",
     "lat": 32.568288,
     "lng": 73.489891,
@@ -48500,10 +48500,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101767
+    "createdAt": 1786860943645
   },
   {
-    "id": "f6e70132-7fc4-4ed8-bbb1-559db0177ed0",
+    "id": "76eada3c-3ec7-478b-b156-6af2e96a9cdb",
     "name": "EC1-GUT-03407",
     "lat": 32.732852,
     "lng": 73.81789,
@@ -48526,10 +48526,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101767
+    "createdAt": 1786860943645
   },
   {
-    "id": "fe7a4064-99e1-4bfc-8d7f-be79c19171e9",
+    "id": "d1710e48-5350-49fb-a705-679f84667452",
     "name": "EC1-PHL-04838",
     "lat": 32.4245,
     "lng": 73.59028,
@@ -48552,10 +48552,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101767
+    "createdAt": 1786860943645
   },
   {
-    "id": "b24c4a51-8a0a-409a-9679-170f5e526ac9",
+    "id": "c6dbd425-7dc7-4ed3-a206-dd0fc3f04052",
     "name": "EC1-MBD-04839",
     "lat": 32.49235,
     "lng": 73.38335,
@@ -48578,10 +48578,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101767
+    "createdAt": 1786860943646
   },
   {
-    "id": "ea90d2c0-4545-417e-a74c-6ecb9d31826a",
+    "id": "15953c5e-28cb-4c24-8f43-123d2930f1cd",
     "name": "EC1-PHL-05108",
     "lat": 32.29411,
     "lng": 73.49856,
@@ -48604,10 +48604,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101768
+    "createdAt": 1786860943646
   },
   {
-    "id": "ea7674c1-593b-48e9-9ca3-fe8444af93b9",
+    "id": "5ce05282-3bf6-4417-9a8a-ed146a1d1d1d",
     "name": "EC1-MBD-05909",
     "lat": 32.387838,
     "lng": 73.438397,
@@ -48630,10 +48630,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101768
+    "createdAt": 1786860943646
   },
   {
-    "id": "1bdb2eff-a5f2-4922-b435-1ae07debb950",
+    "id": "10fa2d98-e367-4354-93c3-43fb48f0f70a",
     "name": "EC1-MBD-05916",
     "lat": 32.413045,
     "lng": 73.297272,
@@ -48656,10 +48656,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101768
+    "createdAt": 1786860943647
   },
   {
-    "id": "c345751d-69cd-4b07-a390-407bc29d276c",
+    "id": "e5033102-201c-40f5-b4fa-1aa0af8488bd",
     "name": "EC1-MBD-05924",
     "lat": 32.642425,
     "lng": 73.508693,
@@ -48682,10 +48682,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101768
+    "createdAt": 1786860943647
   },
   {
-    "id": "608f2c60-471b-4c55-8a04-208f8976c938",
+    "id": "9e275ea9-5fa0-4d90-864c-28a95735a3ea",
     "name": "EC1-MBD-06034",
     "lat": 32.59966,
     "lng": 73.423946,
@@ -48708,10 +48708,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101768
+    "createdAt": 1786860943648
   },
   {
-    "id": "5e1090c0-3bd6-4042-b60b-bef2bae16216",
+    "id": "bd39153d-e85a-49d7-a3e7-c4259956a834",
     "name": "EC1-MBD-06036",
     "lat": 32.537394,
     "lng": 73.485533,
@@ -48734,10 +48734,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101768
+    "createdAt": 1786860943649
   },
   {
-    "id": "861e1635-bb25-46cb-b9d8-587e165c42e2",
+    "id": "66cc2d5d-290d-4fe4-b670-9f10205ba960",
     "name": "EC1-DNG-06022",
     "lat": 32.638296,
     "lng": 73.734895,
@@ -48760,10 +48760,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101768
+    "createdAt": 1786860943649
   },
   {
-    "id": "d47ea5ff-4f85-4ce3-9c2e-da9a0762f51f",
+    "id": "a806b59a-8866-400d-8893-279f8aab8cb7",
     "name": "EC1-MBD-06023",
     "lat": 32.447635,
     "lng": 73.231034,
@@ -48786,10 +48786,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101768
+    "createdAt": 1786860943650
   },
   {
-    "id": "895f602b-75d6-49ee-a9ff-60aa10dbbf08",
+    "id": "13bcd4ac-0c68-4ed3-bbc9-ad4cb4b841ab",
     "name": "EC1-MBD-01786",
     "lat": 32.5838499,
     "lng": 73.505247,
@@ -48812,10 +48812,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "CP+DC",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101768
+    "createdAt": 1786860943650
   },
   {
-    "id": "92b781e8-ddc2-4d96-ac06-b4454513bb91",
+    "id": "59082140-1b9b-446b-aa57-ae3ca1ce3911",
     "name": "EC1-MBD-03436",
     "lat": 32.546005,
     "lng": 73.468674,
@@ -48838,10 +48838,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "CP+DC",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101768
+    "createdAt": 1786860943650
   },
   {
-    "id": "ed35509b-65e3-458a-a1b7-e6e658dba7d9",
+    "id": "20ba1e48-b729-45f8-bacd-d47697c98f72",
     "name": "EC1-MBD-05927",
     "lat": 32.564106,
     "lng": 73.481298,
@@ -48864,10 +48864,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "CP+DC",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101768
+    "createdAt": 1786860943651
   },
   {
-    "id": "56a36f10-e030-4c77-8178-f158a1760beb",
+    "id": "b094a492-e063-46dd-a86c-8900b06ffd23",
     "name": "EC1-MBD-01139",
     "lat": 32.57909,
     "lng": 73.482341,
@@ -48890,10 +48890,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "CP+DC",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101768
+    "createdAt": 1786860943651
   },
   {
-    "id": "632bf90b-5038-4bbc-98d4-08d10960dd8b",
+    "id": "5104656c-1316-4786-b21c-571f0d05779d",
     "name": "EC1-MBD-01134",
     "lat": 32.55238,
     "lng": 73.20594,
@@ -48916,10 +48916,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP Only",
     "ufoneApprovedServices": "CP Only",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101768
+    "createdAt": 1786860943651
   },
   {
-    "id": "3211fa36-5d92-4cc5-97b3-7c5d354ca5ac",
+    "id": "790bde65-09d5-4e64-bebc-3709d7cfb683",
     "name": "EC1-GUT-05806",
     "lat": 32.901482,
     "lng": 73.765123,
@@ -48942,10 +48942,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "CP+DC",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101768
+    "createdAt": 1786860943651
   },
   {
-    "id": "3a7ea472-0b20-4528-b6a4-301a38c11b9f",
+    "id": "fe5d4b93-9a2f-4e4f-87fb-6f616fe53fd7",
     "name": "EC1-GUT-06151",
     "lat": 32.640502,
     "lng": 73.761592,
@@ -48968,10 +48968,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "CP+DC",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101768
+    "createdAt": 1786860943651
   },
   {
-    "id": "2e1bede9-d025-4c54-acff-197f7ba5d491",
+    "id": "a5b4228f-d500-40ee-978e-ed2f9d50a6be",
     "name": "EC1-GUT-06150",
     "lat": 32.662471,
     "lng": 73.737648,
@@ -48994,10 +48994,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "CP+DC",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101768
+    "createdAt": 1786860943652
   },
   {
-    "id": "813a733b-7618-4d70-b59f-6e616bff7626",
+    "id": "56a39dec-33be-433b-bc6a-9889846f598d",
     "name": "EC1-KHR-07489",
     "lat": 32.70324,
     "lng": 73.64923,
@@ -49020,10 +49020,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101768
+    "createdAt": 1786860943652
   },
   {
-    "id": "931ff97b-35f3-49e8-a5ff-f1fb197392ea",
+    "id": "3708b664-054f-40cb-96fa-32c215a3af27",
     "name": "EC1-GUT-08593",
     "lat": 32.47777,
     "lng": 73.93935,
@@ -49046,10 +49046,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101768
+    "createdAt": 1786860943652
   },
   {
-    "id": "512d85e3-c815-459c-bc5f-90a4e1f885f4",
+    "id": "c083b9a3-05f2-4b1a-81bd-1a58b02ccdbc",
     "name": "EC1-GUT-08659",
     "lat": 32.60474,
     "lng": 73.85292,
@@ -49072,10 +49072,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101768
+    "createdAt": 1786860943654
   },
   {
-    "id": "362dadab-1f27-4285-9494-2625a3adaaa4",
+    "id": "7da52999-8433-42da-b6b1-7d2e37a6df46",
     "name": "EC1-MBD-08590",
     "lat": 32.45418,
     "lng": 73.84281,
@@ -49098,10 +49098,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP Only",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101768
+    "createdAt": 1786860943654
   },
   {
-    "id": "c692824a-db84-4e81-9e63-12cbe6bed070",
+    "id": "25b392eb-6a16-4243-8fe0-b77c9107f681",
     "name": "EC1-MBD-08666",
     "lat": 32.45163,
     "lng": 73.7245,
@@ -49124,10 +49124,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP Only",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101768
+    "createdAt": 1786860943654
   },
   {
-    "id": "3fd0137f-2bd7-41f5-9a0c-1909a27d6bd8",
+    "id": "4a9ae54a-e705-4d79-8eb3-fc988c878b19",
     "name": "EC1-MBD-08599",
     "lat": 32.48347,
     "lng": 73.60115,
@@ -49150,10 +49150,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101768
+    "createdAt": 1786860943655
   },
   {
-    "id": "e0cae00d-5842-4564-b292-292a3bc60d6a",
+    "id": "9a708fc2-11d0-4099-a3ff-c34cc1320e41",
     "name": "EC1-MBD-08610",
     "lat": 32.38681,
     "lng": 73.39925,
@@ -49176,10 +49176,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP only",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101768
+    "createdAt": 1786860943655
   },
   {
-    "id": "66ee38e2-16bb-4ce4-876c-909c7291dbd2",
+    "id": "af53a6b3-757e-4b9d-9f1f-6a55c2009d0b",
     "name": "EC1-MBD-08626",
     "lat": 32.27907,
     "lng": 73.24776,
@@ -49202,10 +49202,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101768
+    "createdAt": 1786860943655
   },
   {
-    "id": "8fb87f68-c29b-4741-bf9e-50a99f69b0be",
+    "id": "42c643b5-aada-4f3d-8478-437a738d5abc",
     "name": "EC1-GUT-08578",
     "lat": 32.5669,
     "lng": 73.66538,
@@ -49228,10 +49228,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101768
+    "createdAt": 1786860943655
   },
   {
-    "id": "709370cb-adc8-4aa5-b20c-fab02ebfc8bc",
+    "id": "af94998e-bb10-436a-823b-13046e8c4863",
     "name": "EC1-MBD-08611",
     "lat": 32.39101,
     "lng": 73.73418,
@@ -49254,10 +49254,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP Only",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101768
+    "createdAt": 1786860943656
   },
   {
-    "id": "2cb6ab4a-869c-4d9a-a755-a8e6999d0706",
+    "id": "0d864e0f-1be2-4297-8cd0-cefb9b225cea",
     "name": "EC1-GUT-08667",
     "lat": 32.44282,
     "lng": 73.91191,
@@ -49280,10 +49280,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP Only",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101768
+    "createdAt": 1786860943656
   },
   {
-    "id": "86f8bdf8-5dbc-408a-83aa-d4b77bbf502b",
+    "id": "821fe11c-8591-4bbb-b50e-9bab662dd0be",
     "name": "EC1-MBD-09228",
     "lat": 32.56059,
     "lng": 73.59061,
@@ -49306,10 +49306,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101768
+    "createdAt": 1786860943656
   },
   {
-    "id": "12d25d9b-c756-4a31-aae0-8e555f5f39c9",
+    "id": "81745161-7c5b-4d93-8887-4b5711f21beb",
     "name": "EC1-MBD-09230",
     "lat": 32.50907,
     "lng": 73.20139,
@@ -49332,10 +49332,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101768
+    "createdAt": 1786860943656
   },
   {
-    "id": "f00f180e-1c48-471e-90ab-137658147511",
+    "id": "c76f8d8b-2f17-4129-a7d5-f89dc434a83f",
     "name": "EC1-MBD-09254",
     "lat": 32.47089,
     "lng": 73.35287,
@@ -49358,10 +49358,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101768
+    "createdAt": 1786860943656
   },
   {
-    "id": "a81d83e5-5e69-41cd-870d-a9dfb6cc5278",
+    "id": "09520950-49cf-4422-ba5c-87ca79b87919",
     "name": "EC1-MBD-09234",
     "lat": 32.3967,
     "lng": 73.24481,
@@ -49384,10 +49384,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101768
+    "createdAt": 1786860943657
   },
   {
-    "id": "8d88d983-42bd-4508-b88d-3c76169f32a7",
+    "id": "7ca92a1f-995d-4f9b-adc4-3cbf854b4ee5",
     "name": "EC2-SGD-09284",
     "lat": 32.563437,
     "lng": 73.152821,
@@ -49410,10 +49410,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101768
+    "createdAt": 1786860943657
   },
   {
-    "id": "bdc60b0d-f3a3-4a94-b49b-ae98ac1648b0",
+    "id": "57862791-0ad9-4b64-856e-f9010df81895",
     "name": "EC1-MBD-09223",
     "lat": 32.539215,
     "lng": 73.524467,
@@ -49436,10 +49436,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101768
+    "createdAt": 1786860943657
   },
   {
-    "id": "f214f089-7884-4021-8dbc-440ee6d83a34",
+    "id": "ec1ed887-c4b7-4f80-84b4-f41c91834916",
     "name": "EC1-MBD-09229",
     "lat": 32.527704,
     "lng": 73.241344,
@@ -49462,10 +49462,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC+DG",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101768
+    "createdAt": 1786860943659
   },
   {
-    "id": "656f6916-99b7-457c-a616-543f0069329b",
+    "id": "072b8c2f-828d-4354-8c3b-fdaa5726ff01",
     "name": "EC1-MBD-09231",
     "lat": 32.474245,
     "lng": 73.277688,
@@ -49488,10 +49488,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101768
+    "createdAt": 1786860943660
   },
   {
-    "id": "a5a16d3a-e463-4cde-920f-6b6552f5037f",
+    "id": "f3c9c115-0c3e-460e-83b0-13fe75d5e4bc",
     "name": "EC1-MBD-09233",
     "lat": 32.33632,
     "lng": 73.20196,
@@ -49514,10 +49514,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101768
+    "createdAt": 1786860943660
   },
   {
-    "id": "a0ddd5f0-36c4-402e-909a-7f290db43e80",
+    "id": "0780d3ff-83a3-4df1-b4e9-0ffb2e585a47",
     "name": "EC1-MBD-09253",
     "lat": 32.540494,
     "lng": 73.385869,
@@ -49540,10 +49540,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101769
+    "createdAt": 1786860943660
   },
   {
-    "id": "033ce366-d0d4-41d5-a187-d97993ee9711",
+    "id": "ebffe1b2-6c55-4bd3-9ad4-5b666fd1238f",
     "name": "EC1-MBD-09403",
     "lat": 32.649361,
     "lng": 73.557125,
@@ -49566,10 +49566,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC+DG",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101769
+    "createdAt": 1786860943661
   },
   {
-    "id": "d1c415ba-b8a8-42a9-a038-5d2143353625",
+    "id": "96bc1805-0672-4555-b850-d294f43efbb1",
     "name": "EC1-MBD-09467",
     "lat": 32.69496,
     "lng": 73.6238151,
@@ -49592,10 +49592,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101769
+    "createdAt": 1786860943661
   },
   {
-    "id": "faacd217-2fd7-415a-b3e9-2d4a66639ab6",
+    "id": "79ef21ab-28a5-41f3-80a2-e298fa06a358",
     "name": "EC1-MBD-09225",
     "lat": 32.56743,
     "lng": 73.48292,
@@ -49618,10 +49618,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101769
+    "createdAt": 1786860943661
   },
   {
-    "id": "9105fbaa-a587-4121-aefd-1d4bfe5500b9",
+    "id": "243f6326-a78f-48a2-8928-a5a60b43daa4",
     "name": "EC1-MBD-09264",
     "lat": 32.42662,
     "lng": 73.5745,
@@ -49644,10 +49644,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101769
+    "createdAt": 1786860943661
   },
   {
-    "id": "8f9f8c3f-ebbc-4f46-bc42-8eed62154389",
+    "id": "c80ecd49-862a-459a-a57a-4f65787aa145",
     "name": "EC1-MBD-09900",
     "lat": 32.302524,
     "lng": 73.37906,
@@ -49670,10 +49670,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101769
+    "createdAt": 1786860943681
   },
   {
-    "id": "6db3d217-12e4-4c18-8a2a-7e7f29d7b148",
+    "id": "809ed1ed-cae3-4826-bc11-7ffa05f512d9",
     "name": "EC1-MLW-03402",
     "lat": 32.403001,
     "lng": 73.315072,
@@ -49696,10 +49696,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101769
+    "createdAt": 1786860943681
   },
   {
-    "id": "5c02ed5b-18a4-45a8-98ba-e89dd6dbe2be",
+    "id": "a6a53fb2-210c-466f-9022-8323a78bd930",
     "name": "EC1-MLW-03881",
     "lat": 32.48188,
     "lng": 73.18105,
@@ -49722,10 +49722,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101769
+    "createdAt": 1786860943682
   },
   {
-    "id": "a1ca5f50-56cd-4d26-a058-ae9f085bcf53",
+    "id": "ebe48c6e-330d-46cf-b3ca-dcf3152240a6",
     "name": "EC1-MLW-05110",
     "lat": 32.36702,
     "lng": 73.29639,
@@ -49748,10 +49748,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101769
+    "createdAt": 1786860943682
   },
   {
-    "id": "67a97094-d2fc-4e80-9ac7-23a1ff5299b0",
+    "id": "37742e4f-3bec-460b-9286-0efc33785538",
     "name": "EC1-MLW-06028",
     "lat": 32.352701,
     "lng": 73.380522,
@@ -49774,10 +49774,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101769
+    "createdAt": 1786860943682
   },
   {
-    "id": "c347def5-f90d-47c2-9b2f-c57bd3f330dd",
+    "id": "671f1c3f-9f48-4ce9-95a2-35b4255c88b8",
     "name": "EC1-MLW-06021",
     "lat": 32.559134,
     "lng": 73.223213,
@@ -49800,10 +49800,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101769
+    "createdAt": 1786860943682
   },
   {
-    "id": "7005f78b-fdbd-4625-9a50-2ebc3e6f36b0",
+    "id": "2aa99511-1ca7-40c3-8f56-18e1be9eb96f",
     "name": "EC1-MBD-08371",
     "lat": 32.60398,
     "lng": 73.48775,
@@ -49826,10 +49826,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101769
+    "createdAt": 1786860943682
   },
   {
-    "id": "58ca14bd-b596-4c90-a43b-6a40515b291f",
+    "id": "85ac697b-cc39-4716-8378-c544d0705fb5",
     "name": "EC1-MBD-09907",
     "lat": 32.473018,
     "lng": 73.645968,
@@ -49852,10 +49852,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101769
+    "createdAt": 1786860943683
   },
   {
-    "id": "1daf46cf-9a44-4997-b105-0f91496dbfc2",
+    "id": "2977f655-256f-4bfc-b1b1-f59fffdb6745",
     "name": "EC1-MBD-09899",
     "lat": 32.456617,
     "lng": 73.285806,
@@ -49878,10 +49878,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101769
+    "createdAt": 1786860943683
   },
   {
-    "id": "f7bfb15f-03c4-46f2-9e3c-4571edd2f1f0",
+    "id": "256e2dc0-cf4c-4af4-bcd2-a3b48fd5125f",
     "name": "EC1-PHL-09891",
     "lat": 32.452064,
     "lng": 73.556902,
@@ -49904,10 +49904,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101769
+    "createdAt": 1786860943683
   },
   {
-    "id": "d13b9cd4-8aed-4017-b102-d93f2d9fafcd",
+    "id": "7bf31259-8234-4927-8413-283ee300a6a1",
     "name": "EUN-JLM-04467",
     "lat": 32.683562,
     "lng": 73.486658,
@@ -49930,10 +49930,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101769
+    "createdAt": 1786860943683
   },
   {
-    "id": "620a85c8-87c4-4063-9c80-47876e297fc3",
+    "id": "17a72d14-0a1e-47d3-988e-1749fa2777f2",
     "name": "EC2-BHR-05069",
     "lat": 32.52075,
     "lng": 73.06363,
@@ -49956,10 +49956,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101769
+    "createdAt": 1786860943684
   },
   {
-    "id": "76e6f89b-8350-43a6-b655-917db76dc39e",
+    "id": "68bd2127-0146-4c08-9535-a6f736c46be8",
     "name": "EC1-LHR-06253",
     "lat": 31.38009,
     "lng": 74.38445,
@@ -49982,10 +49982,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC+DG",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101769
+    "createdAt": 1786860943684
   },
   {
-    "id": "89b03a27-7f6f-437b-84cd-509f19cd0440",
+    "id": "c841c2d9-845c-4cdf-a856-56e2308bee6b",
     "name": "EC1-SKP-01464",
     "lat": 31.67997,
     "lng": 74.32966,
@@ -50008,10 +50008,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP Only",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101769
+    "createdAt": 1786860943684
   },
   {
-    "id": "74426c25-dfbb-40f4-9c59-b091e5a11937",
+    "id": "775afe2d-bf26-43e2-88e7-fc8fdf4ba6f5",
     "name": "EC1-MNW-04030",
     "lat": 31.58211,
     "lng": 73.68782,
@@ -50034,10 +50034,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC+DG",
-    "createdAt": 1786778101769
+    "createdAt": 1786860943684
   },
   {
-    "id": "b532d7e3-e39e-4999-825d-30c3f0b82287",
+    "id": "cf9139ab-90f1-416a-818a-0e44eca42f0f",
     "name": "EC1-FRW-04023",
     "lat": 31.76707,
     "lng": 74.26109,
@@ -50060,10 +50060,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC+DG",
-    "createdAt": 1786778101769
+    "createdAt": 1786860943684
   },
   {
-    "id": "87580ed3-7064-4f98-b5fe-ef1f64d63efa",
+    "id": "7df75d3e-e586-4006-a1ac-c046a3a5b4b7",
     "name": "EC1-PNG-04269",
     "lat": 31.21041,
     "lng": 73.94786,
@@ -50086,10 +50086,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC+DG",
-    "createdAt": 1786778101769
+    "createdAt": 1786860943685
   },
   {
-    "id": "dfeda3f8-f67a-489b-8975-2bb5316abe31",
+    "id": "04fb6a60-1591-45af-8e42-dd37abfb27d1",
     "name": "EC1-MNW-05448",
     "lat": 31.58758,
     "lng": 73.69067,
@@ -50112,10 +50112,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101769
+    "createdAt": 1786860943685
   },
   {
-    "id": "30ab0be4-4327-4ef3-be8d-33f04a9d50ee",
+    "id": "dfd45449-6cc0-41c0-908d-1ef0799ad633",
     "name": "EC1-SHD-04931",
     "lat": 31.63725,
     "lng": 74.28579,
@@ -50138,10 +50138,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "CP+DC",
     "jazzApprovedServices": "CP+DC+DG",
-    "createdAt": 1786778101769
+    "createdAt": 1786860943685
   },
   {
-    "id": "a15bf590-19bd-4a71-b390-8c552b5376a2",
+    "id": "b5ca684b-1604-4bff-99d1-0d701cb9f7bc",
     "name": "EC1-LHR-06235",
     "lat": 31.55329,
     "lng": 74.17607,
@@ -50164,10 +50164,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101769
+    "createdAt": 1786860943685
   },
   {
-    "id": "89e4ca79-5721-446b-bba2-8a8421aa07be",
+    "id": "4864dd45-16a7-4635-b20a-fafa891604d7",
     "name": "EC1-SHD-05432",
     "lat": 31.59219,
     "lng": 74.23765,
@@ -50190,10 +50190,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "CP+DC",
     "jazzApprovedServices": "CP+DC+DG",
-    "createdAt": 1786778101769
+    "createdAt": 1786860943686
   },
   {
-    "id": "be58c9a9-6f92-425e-be9d-588529aedc3a",
+    "id": "3311fb84-4070-4e39-8804-70bd91e7f37b",
     "name": "EC1-SHD-06226",
     "lat": 31.62321,
     "lng": 74.22272,
@@ -50216,10 +50216,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC+DG",
-    "createdAt": 1786778101769
+    "createdAt": 1786860943686
   },
   {
-    "id": "8baa1562-344f-45ea-9998-640644422cb4",
+    "id": "6fc3d902-3074-42fb-bff9-771364f913c3",
     "name": "EC1-LHR-02834",
     "lat": 31.31767,
     "lng": 74.37402,
@@ -50242,10 +50242,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "CP+DC",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101769
+    "createdAt": 1786860943686
   },
   {
-    "id": "56f424e2-a154-48e7-9b7a-7aa741596b93",
+    "id": "7fadb906-7fcb-4bbe-8ad1-9b6db043753e",
     "name": "EC1-LHR-06241",
     "lat": 31.30671,
     "lng": 74.2251,
@@ -50268,10 +50268,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101769
+    "createdAt": 1786860943686
   },
   {
-    "id": "cb770ba9-49c7-4f2e-b913-fe08bcb48503",
+    "id": "39f02056-191e-4945-b022-7f57920e2821",
     "name": "EC1-LHR-01070",
     "lat": 31.63797,
     "lng": 74.20287,
@@ -50294,10 +50294,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP Only",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
-    "createdAt": 1786778101769
+    "createdAt": 1786860943686
   },
   {
-    "id": "18eaa32e-48a5-40db-a219-c8fdac4a07d4",
+    "id": "100771f6-6d6c-4c5e-8078-9cbc07ffdcce",
     "name": "EC1-SKP-04859",
     "lat": 31.65207,
     "lng": 74.26854,
@@ -50320,10 +50320,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "CP+DC",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101769
+    "createdAt": 1786860943687
   },
   {
-    "id": "f95ab6f3-5589-49cc-bd12-140ab0bb6dd5",
+    "id": "9bddbe96-5940-4cf0-aee9-c45f2e582566",
     "name": "EC1-LHR-05447",
     "lat": 31.40633,
     "lng": 74.39598,
@@ -50346,10 +50346,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101769
+    "createdAt": 1786860943687
   },
   {
-    "id": "eedb0e85-d361-4e3d-9326-e28a39875e59",
+    "id": "6ce21250-4adf-4cd4-92ec-7411ce37e0fc",
     "name": "EC1-SHD-05404",
     "lat": 31.648533,
     "lng": 74.284547,
@@ -50372,10 +50372,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101769
+    "createdAt": 1786860943687
   },
   {
-    "id": "6593e790-0cd7-41d3-a2f2-1d6bd0ca95d7",
+    "id": "accb7ade-8df8-4784-8c2c-4e3bb8c461b8",
     "name": "EC1-PTK-05442",
     "lat": 31.19466,
     "lng": 73.94666,
@@ -50398,10 +50398,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "CP+DC",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101769
+    "createdAt": 1786860943688
   },
   {
-    "id": "6851de24-c27d-4d0c-bd71-9c124e14c2d7",
+    "id": "abb35a7b-9c42-4dac-9158-6308662596ac",
     "name": "EC1-SKP-05450",
     "lat": 31.66042,
     "lng": 73.9356,
@@ -50424,10 +50424,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101769
+    "createdAt": 1786860943688
   },
   {
-    "id": "cf7854e5-ebff-4b85-938e-2ca2cb518899",
+    "id": "a764d1a6-5135-45e1-beea-d9f8b68b91a6",
     "name": "EC1-KSR-04857",
     "lat": 31.25789,
     "lng": 74.424,
@@ -50450,10 +50450,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101769
+    "createdAt": 1786860943688
   },
   {
-    "id": "3f7bcf4b-2530-4313-9905-469c0df8aa96",
+    "id": "5c517166-4f21-43b8-9536-4c8a58f7b750",
     "name": "EC1-LHR-04930",
     "lat": 31.58707,
     "lng": 74.20956,
@@ -50476,10 +50476,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC+DG",
-    "createdAt": 1786778101769
+    "createdAt": 1786860943688
   },
   {
-    "id": "fee05f5c-f3d9-4030-8803-843301371e80",
+    "id": "02974826-6948-45d4-a1d6-7b5a7fe4359e",
     "name": "EC1-RWN-06228",
     "lat": 31.25616,
     "lng": 74.2381,
@@ -50502,10 +50502,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "CP+DC",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101769
+    "createdAt": 1786860943689
   },
   {
-    "id": "d22136c5-1b4a-473b-a9d7-11b07f0e48d9",
+    "id": "fe3b3cde-7794-405d-a37d-5d28c9fa077c",
     "name": "EUC-NKN-06892",
     "lat": 31.525307,
     "lng": 73.890223,
@@ -50528,10 +50528,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
-    "createdAt": 1786778101769
+    "createdAt": 1786860943689
   },
   {
-    "id": "91471afc-a249-4b5b-87dd-4a20027255f5",
+    "id": "bfba6c84-aa63-40b9-9405-1c37752c55e7",
     "name": "EUC-NKN-06891",
     "lat": 31.204782,
     "lng": 73.691593,
@@ -50554,10 +50554,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
-    "createdAt": 1786778101769
+    "createdAt": 1786860943689
   },
   {
-    "id": "5ee1a16b-acc8-4a86-8096-0591615b5923",
+    "id": "aa94fde8-e4e1-41d5-a440-e8d47b89a2e8",
     "name": "EUC-NKN-06906",
     "lat": 31.320887,
     "lng": 73.951342,
@@ -50580,10 +50580,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
-    "createdAt": 1786778101770
+    "createdAt": 1786860943689
   },
   {
-    "id": "44e2cab5-44df-4c89-bbaf-f739918ee4d9",
+    "id": "44d8cc50-b5df-4168-a8e6-61974757eaf0",
     "name": "EUC-NKN-06894",
     "lat": 31.586527,
     "lng": 74.123777,
@@ -50606,10 +50606,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
-    "createdAt": 1786778101770
+    "createdAt": 1786860943690
   },
   {
-    "id": "1423e59e-db56-409f-9fe5-c2004d74ce31",
+    "id": "518ccadb-1830-4857-8d67-309eb6ac3019",
     "name": "EUC-NKN-06896",
     "lat": 31.773125,
     "lng": 74.377632,
@@ -50632,10 +50632,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
-    "createdAt": 1786778101770
+    "createdAt": 1786860943690
   },
   {
-    "id": "e3e65f60-a5c8-41ae-99c5-c2dd4a1fba38",
+    "id": "0cd05d79-7929-470b-bb6e-3b9828418417",
     "name": "EUC-NKN-06901",
     "lat": 30.941127,
     "lng": 74.348872,
@@ -50658,10 +50658,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
-    "createdAt": 1786778101770
+    "createdAt": 1786860943690
   },
   {
-    "id": "544aab50-a124-4bca-95eb-7d41b688f87c",
+    "id": "c80276f0-ca43-4972-9c69-0f38eac465fb",
     "name": "EC1-KSR-00943",
     "lat": 31.09053,
     "lng": 74.43893,
@@ -50684,10 +50684,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101770
+    "createdAt": 1786860943690
   },
   {
-    "id": "bfd36051-7a48-42a0-90dd-55b1bd76f573",
+    "id": "15383062-22f4-492c-a442-2c5f627f54da",
     "name": "EC1-KSR-00945",
     "lat": 31.10404,
     "lng": 74.34818,
@@ -50710,10 +50710,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101770
+    "createdAt": 1786860943691
   },
   {
-    "id": "8baf95a7-b874-44b8-af7a-9b0eac16a155",
+    "id": "929d62b9-4349-4bb8-ae7d-75be8dd2d8bc",
     "name": "EC1-KSR-00944",
     "lat": 31.128107,
     "lng": 74.440842,
@@ -50736,10 +50736,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101770
+    "createdAt": 1786860943692
   },
   {
-    "id": "331f50c1-cd24-4752-8c6c-dd357c4df894",
+    "id": "660c18ab-6e95-4b79-8c56-82d62146efe9",
     "name": "EC1-LHR-02177",
     "lat": 31.6359096,
     "lng": 74.2665502,
@@ -50762,10 +50762,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101770
+    "createdAt": 1786860943692
   },
   {
-    "id": "8e5c1272-3304-4588-a2b2-1cb0d0609354",
+    "id": "11503704-f3e2-4303-a59a-a9f91627e4df",
     "name": "EC1-KSR-02172",
     "lat": 31.139787,
     "lng": 74.450178,
@@ -50788,10 +50788,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101770
+    "createdAt": 1786860943692
   },
   {
-    "id": "07139c8a-5b18-47c4-8ce6-e40dbcd4cd8a",
+    "id": "27fae544-568f-4250-a859-922303af1db1",
     "name": "EC1-KSR-02176",
     "lat": 31.11984,
     "lng": 74.45021,
@@ -50814,10 +50814,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101770
+    "createdAt": 1786860943692
   },
   {
-    "id": "27169d26-8292-4a46-b95e-279a2cb89457",
+    "id": "04bca60e-e08f-44f3-b8b2-eb9e53893fe4",
     "name": "EC1-LHR-02146",
     "lat": 31.371307,
     "lng": 74.377431,
@@ -50840,10 +50840,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101770
+    "createdAt": 1786860943693
   },
   {
-    "id": "c774d467-ecbb-4665-8e01-491ba2d32647",
+    "id": "dd6aae1c-6482-4f6b-837a-a68cf4d1bc70",
     "name": "EC1-CAN-02052",
     "lat": 30.923651,
     "lng": 74.06941,
@@ -50866,10 +50866,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101770
+    "createdAt": 1786860943693
   },
   {
-    "id": "cc371df3-cc6a-49f5-9c11-ba30146618e4",
+    "id": "022dfc7b-9946-4368-9c0a-6b8114b15b16",
     "name": "EC1-CAN-02600",
     "lat": 30.82311,
     "lng": 74.15038,
@@ -50892,10 +50892,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101770
+    "createdAt": 1786860943693
   },
   {
-    "id": "a71c336d-82c1-46e7-aab4-c88c2827e5c8",
+    "id": "d4a5a8a7-e079-486f-8a64-4a09eccebab3",
     "name": "EC1-CAN-02520",
     "lat": 30.99815,
     "lng": 73.95121,
@@ -50918,10 +50918,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101770
+    "createdAt": 1786860943693
   },
   {
-    "id": "81b6b151-d95e-4a7f-bed7-e24a19837161",
+    "id": "c4356eef-f39a-41f9-9220-47a7d58a38cf",
     "name": "EC1-PTK-02613",
     "lat": 31.09509,
     "lng": 73.68062,
@@ -50944,10 +50944,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101770
+    "createdAt": 1786860943694
   },
   {
-    "id": "3b1f1556-9eb7-4119-be5f-66d312c4a4aa",
+    "id": "a6d0d9fe-460d-489e-b1cd-42ae92e1f9ae",
     "name": "EC1-PTK-02026",
     "lat": 31.16649,
     "lng": 73.94907,
@@ -50970,10 +50970,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101770
+    "createdAt": 1786860943694
   },
   {
-    "id": "f30501b9-45e5-44db-88ad-0a0a7310537a",
+    "id": "242dd1ec-2ebf-4ff2-b300-1c8049a7432a",
     "name": "EC1-PNG-02498",
     "lat": 31.202964,
     "lng": 73.900739,
@@ -50996,10 +50996,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101770
+    "createdAt": 1786860943694
   },
   {
-    "id": "06a56d17-2e6e-4f21-8527-fd0cac7c11c6",
+    "id": "e5ae891a-bd9d-43c3-b990-af6dfbf6d156",
     "name": "EC1-JRW-02511",
     "lat": 31.231927,
     "lng": 73.581802,
@@ -51022,10 +51022,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101770
+    "createdAt": 1786860943694
   },
   {
-    "id": "73e7b8a5-d8a1-4fba-8479-f091ce665d0a",
+    "id": "4f854cf1-d8ed-4c6c-9e0d-ae7932ee645a",
     "name": "EC1-KSR-01968",
     "lat": 31.0515,
     "lng": 74.1692,
@@ -51048,10 +51048,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101770
+    "createdAt": 1786860943694
   },
   {
-    "id": "ca39d69b-dde2-4159-91d5-0dab199152f1",
+    "id": "40a6ff1e-18cd-47ba-ba8f-c514ffaa46fc",
     "name": "EC1-KSR-03064",
     "lat": 31.00834,
     "lng": 74.390187,
@@ -51074,10 +51074,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101770
+    "createdAt": 1786860943695
   },
   {
-    "id": "8adbe199-235b-45ed-a8b8-f290cdcf6e69",
+    "id": "9441f70e-0235-4e69-b2f1-afe57f564011",
     "name": "EC1-FRW-02031",
     "lat": 31.76911,
     "lng": 74.22734,
@@ -51100,10 +51100,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101770
+    "createdAt": 1786860943695
   },
   {
-    "id": "3ab7db92-d4a0-407f-bfbb-a38e4060212c",
+    "id": "2f287a31-8cdd-466b-af69-936419af61fe",
     "name": "EC1-FRW-01952",
     "lat": 31.75848,
     "lng": 74.18879,
@@ -51126,10 +51126,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101770
+    "createdAt": 1786860943695
   },
   {
-    "id": "92637ff9-9414-4a9e-88df-3c0d12b587fe",
+    "id": "3155e003-1515-4fbb-95cc-e811dea140bb",
     "name": "EC1-SKP-02330",
     "lat": 31.72259,
     "lng": 73.98801,
@@ -51152,10 +51152,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101770
+    "createdAt": 1786860943695
   },
   {
-    "id": "b7885f71-33d3-4287-ad3f-eaf9879803a7",
+    "id": "991047c1-bb06-4b64-b4fb-6d444e1673bd",
     "name": "EC1-FRW-02029",
     "lat": 31.67653,
     "lng": 74.29086,
@@ -51178,10 +51178,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101770
+    "createdAt": 1786860943696
   },
   {
-    "id": "3c66044b-9b15-4268-ad36-b28b3ac75e36",
+    "id": "3ac85d5c-2fe5-4193-9fde-e07b6c7ce4a4",
     "name": "EC1-LHR-02530",
     "lat": 31.382137,
     "lng": 74.350288,
@@ -51204,10 +51204,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101770
+    "createdAt": 1786860943696
   },
   {
-    "id": "3fdff02f-1e75-4b0d-9174-0256d7101260",
+    "id": "01b4901d-f251-43b9-a9e7-fcbdbc68e37b",
     "name": "EC1-KSR-02028",
     "lat": 31.249551,
     "lng": 74.065616,
@@ -51230,10 +51230,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101770
+    "createdAt": 1786860943696
   },
   {
-    "id": "3c79733f-caac-421a-93f0-39a4f4fe4bda",
+    "id": "626a2731-e6e3-4c6b-b9b6-fe2a0b5fec4e",
     "name": "EC1-LHR-02321",
     "lat": 31.39313,
     "lng": 74.44651,
@@ -51256,10 +51256,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101770
+    "createdAt": 1786860943696
   },
   {
-    "id": "21704c60-02b4-4de5-9b47-a6677ad2b52b",
+    "id": "46298180-52c8-46d4-a0bf-557a73b3830d",
     "name": "EC1-SKP-02429",
     "lat": 31.67955,
     "lng": 74.02577,
@@ -51282,10 +51282,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101770
+    "createdAt": 1786860943699
   },
   {
-    "id": "cde2f6c9-6fb8-4e55-ad00-b322040fb371",
+    "id": "7eef2bf7-bdf4-4d33-ba12-acec159c41d5",
     "name": "EC1-SKP-02527",
     "lat": 31.71389,
     "lng": 74.09325,
@@ -51308,10 +51308,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101770
+    "createdAt": 1786860943699
   },
   {
-    "id": "157525f7-b298-4c10-8f92-bb1d53c19284",
+    "id": "cb1f3cee-f5af-4509-8b48-1cac563f486f",
     "name": "EC1-NKN-02313",
     "lat": 31.356594,
     "lng": 73.692527,
@@ -51334,10 +51334,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101770
+    "createdAt": 1786860943700
   },
   {
-    "id": "370e6ad6-1e59-44b7-b1eb-d24321bdc355",
+    "id": "60b1103d-0495-4e02-b861-5e75b6687076",
     "name": "EC1-PTK-02593",
     "lat": 31.063937,
     "lng": 73.838893,
@@ -51360,10 +51360,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101770
+    "createdAt": 1786860943700
   },
   {
-    "id": "81fc2368-9906-4a2e-a435-be7a36c6d6a4",
+    "id": "e3e4d548-a52c-4e56-8c2d-c12cce366b2c",
     "name": "EC1-MDK-02089",
     "lat": 31.77686,
     "lng": 74.31944,
@@ -51386,10 +51386,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101770
+    "createdAt": 1786860943700
   },
   {
-    "id": "260a9111-2fda-4545-8486-27a818ed04bc",
+    "id": "0d6f520c-214b-4199-887f-f5ad14997b8e",
     "name": "EC1-NKN-02009",
     "lat": 31.44254,
     "lng": 73.52001,
@@ -51412,10 +51412,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101770
+    "createdAt": 1786860943700
   },
   {
-    "id": "d1213068-82f0-4b4a-aa21-0945cc428b5c",
+    "id": "054e4e1c-e8ce-4ada-a828-6668ad9b0cc1",
     "name": "EC1-SQP-02440",
     "lat": 31.54147,
     "lng": 74.16177,
@@ -51438,10 +51438,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101770
+    "createdAt": 1786860943700
   },
   {
-    "id": "c98eb1bb-3fba-4b0c-a9d1-2be4d63f8891",
+    "id": "4567c7ed-3ed6-4ad2-987c-6799060131a3",
     "name": "EC1-SKP-02533",
     "lat": 31.74261,
     "lng": 73.858647,
@@ -51464,10 +51464,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101770
+    "createdAt": 1786860943701
   },
   {
-    "id": "6299cf5a-232e-4fa6-ae30-07138888856e",
+    "id": "d21464b4-9460-4e23-9969-03aedee15a2d",
     "name": "EC1-FRW-02436",
     "lat": 31.73229,
     "lng": 74.27713,
@@ -51490,10 +51490,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101770
+    "createdAt": 1786860943701
   },
   {
-    "id": "46f32d54-48de-42b5-bea8-f2071dceb29b",
+    "id": "f93f9dbb-8361-476d-a977-537b280de18d",
     "name": "EC1-SKP-02526",
     "lat": 31.70598,
     "lng": 73.91015,
@@ -51516,10 +51516,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101770
+    "createdAt": 1786860943701
   },
   {
-    "id": "35888bfe-4bab-49a7-ba70-46031efcaa39",
+    "id": "3701e757-cd3a-4207-895f-ad2e60750af2",
     "name": "EC1-LHR-02140",
     "lat": 31.643732,
     "lng": 74.275822,
@@ -51542,10 +51542,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
-    "createdAt": 1786778101770
+    "createdAt": 1786860943701
   },
   {
-    "id": "a88c4153-aa39-4586-895f-741755751891",
+    "id": "61354289-11c7-4092-94f9-20bdea213efc",
     "name": "EC1-PTK-02446",
     "lat": 30.99843,
     "lng": 73.8742,
@@ -51568,10 +51568,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101770
+    "createdAt": 1786860943701
   },
   {
-    "id": "04098316-b307-4697-b4c5-2ed663ebfff0",
+    "id": "28592c4e-88e1-4019-8bee-52eab228709f",
     "name": "EC1-KSR-02424",
     "lat": 31.20255,
     "lng": 74.12868,
@@ -51594,10 +51594,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101770
+    "createdAt": 1786860943708
   },
   {
-    "id": "93ca5f15-8ae8-4627-9b23-284d161f3c53",
+    "id": "9589a8af-92fd-4240-8d97-bc54cbd0702b",
     "name": "EC1-LHR-02547",
     "lat": 31.317337,
     "lng": 74.35554,
@@ -51620,10 +51620,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101770
+    "createdAt": 1786860943709
   },
   {
-    "id": "ad0505f3-d15b-4dac-9e66-8d002fe9aa9d",
+    "id": "7ff51fe5-3449-4f41-822f-8b64bc8eb84a",
     "name": "EC1-LHR-02346",
     "lat": 31.365693,
     "lng": 74.101582,
@@ -51646,10 +51646,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC+DG",
     "ufoneApprovedServices": "CP+DC",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101770
+    "createdAt": 1786860943709
   },
   {
-    "id": "5c62a90b-d452-41f2-9cba-cad1dccefdf1",
+    "id": "7ebc76b1-4662-4063-b845-009f934bc3b7",
     "name": "EC1-FRW-02067",
     "lat": 31.79321,
     "lng": 74.149262,
@@ -51672,10 +51672,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101770
+    "createdAt": 1786860943709
   },
   {
-    "id": "115fb338-cb5a-4cef-9aef-3d303042b2dc",
+    "id": "ec498936-2385-4c40-8882-f441f5f49fc4",
     "name": "EC1-LHR-02317",
     "lat": 31.350423,
     "lng": 74.245898,
@@ -51698,10 +51698,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "CP+DC",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101771
+    "createdAt": 1786860943710
   },
   {
-    "id": "48b8d037-e71c-4fe1-a18f-1ad528ac301a",
+    "id": "f8c14e27-0436-4214-b20b-40d5026e577c",
     "name": "EC1-PTK-03265",
     "lat": 31.02552,
     "lng": 73.848183,
@@ -51724,10 +51724,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101771
+    "createdAt": 1786860943715
   },
   {
-    "id": "411a255a-e596-4d78-a74f-59499d566454",
+    "id": "d4b04de4-5b97-4c7c-9bdf-eee64d425853",
     "name": "EC1-KSR-03262",
     "lat": 31.135067,
     "lng": 74.446705,
@@ -51750,10 +51750,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101771
+    "createdAt": 1786860943716
   },
   {
-    "id": "6120de5c-1340-479a-8309-c0c9ff74e0c0",
+    "id": "45862e77-ba96-44f3-8f1a-9ffbcbfab4ae",
     "name": "EC1-SKP-03254",
     "lat": 31.713136,
     "lng": 73.999362,
@@ -51776,10 +51776,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101771
+    "createdAt": 1786860943717
   },
   {
-    "id": "53ff94c9-9052-4042-a278-c5901db9f7ea",
+    "id": "8c4e0037-2e7c-4214-a582-2bbece97a200",
     "name": "EC1-LHR-03289",
     "lat": 31.603877,
     "lng": 74.235408,
@@ -51802,10 +51802,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101771
+    "createdAt": 1786860943717
   },
   {
-    "id": "3967028c-cfeb-43af-8a01-32fee63c06ba",
+    "id": "b87cbadc-2ed3-4bf7-87e2-4360cb348be6",
     "name": "EC1-KSR-03263",
     "lat": 31.11034,
     "lng": 74.442685,
@@ -51828,10 +51828,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101771
+    "createdAt": 1786860943717
   },
   {
-    "id": "57294e3c-6d75-44d2-9d92-01a59a8f3ddb",
+    "id": "2acdf563-6649-431c-9e84-32e543095654",
     "name": "EC1-WBT-03679",
     "lat": 31.533458,
     "lng": 73.829828,
@@ -51854,10 +51854,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101771
+    "createdAt": 1786860943718
   },
   {
-    "id": "713f10f6-3495-40b0-869a-a2161b921ee4",
+    "id": "80c4c373-f715-45a8-be56-c684ea2840e0",
     "name": "EC1-FWW-03680",
     "lat": 31.59405,
     "lng": 73.81856,
@@ -51880,10 +51880,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101771
+    "createdAt": 1786860943719
   },
   {
-    "id": "bb28d995-1507-44c7-b92a-0c05768f4a1e",
+    "id": "86919b5d-faec-4465-b413-93a43d099eef",
     "name": "EC1-MDK-03276",
     "lat": 31.803088,
     "lng": 74.248368,
@@ -51906,10 +51906,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101771
+    "createdAt": 1786860943719
   },
   {
-    "id": "5aef7cd4-79ad-4ac4-a826-47026b4b3cf8",
+    "id": "81e76fdf-8332-4313-bc6f-a8f9037219e1",
     "name": "EC1-BCK-03730",
     "lat": 31.308082,
     "lng": 73.655605,
@@ -51932,10 +51932,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101771
+    "createdAt": 1786860943719
   },
   {
-    "id": "14434fe0-3684-4d70-ad23-276d5ae0eea4",
+    "id": "a1fb3010-3672-4052-b307-63d2274bbd05",
     "name": "EC1-KRK-03682",
     "lat": 31.169772,
     "lng": 74.10277,
@@ -51958,10 +51958,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101771
+    "createdAt": 1786860943720
   },
   {
-    "id": "7e593a63-3fe7-460b-98cf-ce12ee9f4e1d",
+    "id": "6eff74ac-c087-4df9-b948-2873fc26134a",
     "name": "EC1-PTK-03729",
     "lat": 31.06267,
     "lng": 73.87439,
@@ -51984,10 +51984,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101771
+    "createdAt": 1786860943720
   },
   {
-    "id": "7d647de8-abea-4340-83de-89c180c30cf0",
+    "id": "a2d04834-b1a7-4c90-abec-61d3e092825d",
     "name": "EC1-SKP-03284",
     "lat": 31.698057,
     "lng": 73.965921,
@@ -52010,10 +52010,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101771
+    "createdAt": 1786860943720
   },
   {
-    "id": "98b11d5c-b924-46ac-9a35-c4b092089db7",
+    "id": "788f87f3-08ec-4046-b84c-bb265d598b49",
     "name": "EC1-PTK-03754",
     "lat": 30.969743,
     "lng": 73.891398,
@@ -52036,10 +52036,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101771
+    "createdAt": 1786860943720
   },
   {
-    "id": "dd91aec8-6807-4bc7-b079-9b215b55a125",
+    "id": "9b3625ef-796c-460e-9573-19ffd5030f62",
     "name": "EC1-KSR-03703",
     "lat": 31.119293,
     "lng": 74.43758,
@@ -52062,10 +52062,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101771
+    "createdAt": 1786860943721
   },
   {
-    "id": "f5529a68-969f-4c64-9d49-c7dc8b0e7f91",
+    "id": "63e07e09-3751-4b86-ae46-b26bd365c562",
     "name": "EC1-RWN-03734",
     "lat": 31.25476,
     "lng": 74.15547,
@@ -52088,10 +52088,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101771
+    "createdAt": 1786860943721
   },
   {
-    "id": "1c69e29a-080a-4754-882e-cd740a12f01a",
+    "id": "993ede9c-3e4d-4c8f-beb6-80e085f91b7f",
     "name": "EC1-RWD-04621",
     "lat": 31.227408,
     "lng": 74.296963,
@@ -52114,10 +52114,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101771
+    "createdAt": 1786860943722
   },
   {
-    "id": "c68b849f-ac92-41a1-add5-bf4d959a2a46",
+    "id": "3123f5ca-c415-4bf5-8271-fc3533fafc76",
     "name": "EC1-KSR-02594",
     "lat": 31.29094,
     "lng": 74.49273,
@@ -52140,10 +52140,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101771
+    "createdAt": 1786860943722
   },
   {
-    "id": "6cfe627c-b621-4663-afe5-88e6aa33294e",
+    "id": "3e25df2c-ab7b-4acf-8aa8-91cbac015817",
     "name": "EC1-LHR-05255",
     "lat": 31.40348,
     "lng": 74.35176,
@@ -52166,10 +52166,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101771
+    "createdAt": 1786860943722
   },
   {
-    "id": "d5729cb9-fc6e-4592-85c8-4a53e7d5938b",
+    "id": "b0d1600e-173d-4d5b-b632-aa7d397f9326",
     "name": "EC1-RWD-05029",
     "lat": 31.2461,
     "lng": 74.22358,
@@ -52192,10 +52192,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101771
+    "createdAt": 1786860943723
   },
   {
-    "id": "269db80a-4248-4b28-85c1-edc563a0c338",
+    "id": "14951b3c-b650-4bce-a03c-2da69e7fba7f",
     "name": "EC1-LHR-05045",
     "lat": 31.33813,
     "lng": 74.2525,
@@ -52218,10 +52218,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101771
+    "createdAt": 1786860943723
   },
   {
-    "id": "009c8eb8-54b5-4755-b6ba-2d9b0fc7ee16",
+    "id": "cc85134f-6398-41f2-8441-082a1a1b5f6a",
     "name": "EC1-LHR-04955",
     "lat": 31.377433,
     "lng": 74.376993,
@@ -52244,10 +52244,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101771
+    "createdAt": 1786860943723
   },
   {
-    "id": "7f25dbc5-a85b-4ffc-8202-e4c9de3fb98d",
+    "id": "c453de82-f567-4a76-81ae-3d3857443b0f",
     "name": "EC1-LHR-04957",
     "lat": 31.616605,
     "lng": 74.242698,
@@ -52270,10 +52270,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101771
+    "createdAt": 1786860943723
   },
   {
-    "id": "ffb78699-af72-4d00-9f31-4bd00e2d1cec",
+    "id": "f7820f70-6d6f-4447-a93a-7bfbe3526de1",
     "name": "EC1-LHR-05323",
     "lat": 31.365065,
     "lng": 74.244349,
@@ -52296,10 +52296,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101771
+    "createdAt": 1786860943724
   },
   {
-    "id": "469481fd-1a54-47da-a354-6555069f4eb8",
+    "id": "1ceb0739-9afb-41a0-b171-83c79fae87f9",
     "name": "EC1-KSR-04994",
     "lat": 31.24839,
     "lng": 74.41431,
@@ -52322,10 +52322,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101771
+    "createdAt": 1786860943724
   },
   {
-    "id": "efd8dc3b-1620-4c0f-ba6f-5db65385fba0",
+    "id": "427b3225-da86-40ec-9cd1-31101e621c28",
     "name": "EC1-LHR-04956",
     "lat": 31.388656,
     "lng": 74.361834,
@@ -52348,10 +52348,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "CP+DC",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101771
+    "createdAt": 1786860943724
   },
   {
-    "id": "3527263b-cdc9-4ffb-860a-3c717ef9eac0",
+    "id": "9b351610-d4e2-444c-968c-e1cb4f09ff40",
     "name": "EC1-LHR-04972",
     "lat": 31.633486,
     "lng": 74.292842,
@@ -52374,10 +52374,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101771
+    "createdAt": 1786860943724
   },
   {
-    "id": "ab7d9d31-2166-4748-b4b2-33375d335e5c",
+    "id": "d16a7977-1cb8-4913-8b90-f7d875649f5e",
     "name": "EC1-FQD-04973",
     "lat": 31.77929,
     "lng": 73.78007,
@@ -52400,10 +52400,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101771
+    "createdAt": 1786860943724
   },
   {
-    "id": "28cac485-a451-4fcc-8ae1-351a592d0923",
+    "id": "452cdb0d-2c60-4d74-b4ef-553fe7a8f189",
     "name": "EC1-KSR-06522",
     "lat": 31.116041,
     "lng": 74.43726,
@@ -52426,10 +52426,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101771
+    "createdAt": 1786860943725
   },
   {
-    "id": "574f6003-2330-4965-85d7-858ca7382273",
+    "id": "2a39f870-04ed-4965-99fe-1a8d47cbcd14",
     "name": "EC1-LHR-06330",
     "lat": 31.62387,
     "lng": 74.28763,
@@ -52452,10 +52452,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101771
+    "createdAt": 1786860943725
   },
   {
-    "id": "d2e93f84-82e2-40a9-b5eb-760ee5c67b6f",
+    "id": "fb54ea0f-5212-426a-afd4-04356acab629",
     "name": "EC1-SKP-01463",
     "lat": 31.70504,
     "lng": 73.99687,
@@ -52478,10 +52478,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101771
+    "createdAt": 1786860943725
   },
   {
-    "id": "493859a6-e90f-4cdc-b0d5-a0eb58444730",
+    "id": "7e68a0bf-2756-497f-8008-c3f81ac0198d",
     "name": "EC1-MNW-03925",
     "lat": 31.60662,
     "lng": 73.715282,
@@ -52504,10 +52504,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101771
+    "createdAt": 1786860943726
   },
   {
-    "id": "f8d67ecc-125e-4088-ab42-cb0d9c9b0e46",
+    "id": "e8cb9c66-8791-42b0-a1d5-17dd655a3cc7",
     "name": "EC1-LHR-03891",
     "lat": 31.680475,
     "lng": 74.198728,
@@ -52530,10 +52530,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DG",
     "ufoneApprovedServices": "CP+DG",
     "jazzApprovedServices": "CP+DG",
-    "createdAt": 1786778101771
+    "createdAt": 1786860943726
   },
   {
-    "id": "f207d140-f20a-44f5-8edc-adcdde0555cd",
+    "id": "d04ecadf-4a3c-4b85-a7fe-f0f8a8c48fa9",
     "name": "EC1-MDK-01226",
     "lat": 31.8051,
     "lng": 74.2469,
@@ -52556,10 +52556,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "CP Only",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101771
+    "createdAt": 1786860943726
   },
   {
-    "id": "6eb7f6e2-5b64-4ab2-a586-7cb0cf2b9750",
+    "id": "f3f9cdb9-3d00-436f-8ed5-f71e3f463eb5",
     "name": "EC1-LHR-01079",
     "lat": 31.614054,
     "lng": 74.294329,
@@ -52582,10 +52582,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "CP Only",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101771
+    "createdAt": 1786860943726
   },
   {
-    "id": "b97acacb-0eb9-400c-801f-3dbba08bdf97",
+    "id": "68d9dc40-cb7f-4c84-ab98-b5cc74d036a2",
     "name": "EC1-LHR-01075",
     "lat": 31.62226,
     "lng": 74.28912,
@@ -52608,10 +52608,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "CP Only",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101771
+    "createdAt": 1786860943727
   },
   {
-    "id": "f0bffbfd-f712-4011-ac80-a24a10839add",
+    "id": "41041e4e-2c38-4895-ae4c-9932e0eb4949",
     "name": "EC1-SKP-07158",
     "lat": 31.710021,
     "lng": 73.983047,
@@ -52634,10 +52634,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "CP+DC",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101771
+    "createdAt": 1786860943727
   },
   {
-    "id": "eed4ac6f-4e6c-4479-b6d5-9f14439c9309",
+    "id": "19c0d351-30a0-44db-9439-c26d4a3ea3dc",
     "name": "EUC-NKN-06900",
     "lat": 31.822952,
     "lng": 74.29513,
@@ -52660,10 +52660,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC+DG",
-    "createdAt": 1786778101771
+    "createdAt": 1786860943727
   },
   {
-    "id": "a07c1682-7577-4494-a1e7-405380028f26",
+    "id": "04048bd8-dbe2-44d8-83f2-1f94673d3b6d",
     "name": "EC1-RWN-07386",
     "lat": 31.27423,
     "lng": 74.17349,
@@ -52686,10 +52686,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC+DG",
-    "createdAt": 1786778101771
+    "createdAt": 1786860943727
   },
   {
-    "id": "e146a685-a51d-4fa0-8e93-ee7d16b8f86f",
+    "id": "f8146898-27f3-41d3-a96e-521674fd0275",
     "name": "EC1-SKP-07500",
     "lat": 31.69264,
     "lng": 74.06621,
@@ -52712,10 +52712,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101771
+    "createdAt": 1786860943727
   },
   {
-    "id": "04406a2a-028d-4067-8230-6e613ded9d8c",
+    "id": "b77d27e6-72aa-43ad-b30a-128646fb9c74",
     "name": "EC1-LHR-07783",
     "lat": 31.29137,
     "lng": 74.411247,
@@ -52738,10 +52738,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC+DG",
-    "createdAt": 1786778101771
+    "createdAt": 1786860943728
   },
   {
-    "id": "953b306a-238b-4b59-9ea8-9d223078a71a",
+    "id": "8bc2d884-d0cf-4f99-a613-bc1de6b31068",
     "name": "EC1-MNW-07800",
     "lat": 31.59529,
     "lng": 73.697755,
@@ -52764,10 +52764,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC+DG",
-    "createdAt": 1786778101771
+    "createdAt": 1786860943728
   },
   {
-    "id": "f94ad01d-5043-41e5-a3e4-e82eee56d175",
+    "id": "922738c5-4c42-456c-a7e3-3058a1837c02",
     "name": "EC1-MKR-07799",
     "lat": 31.319243,
     "lng": 73.768119,
@@ -52790,10 +52790,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC+DG",
-    "createdAt": 1786778101771
+    "createdAt": 1786860943728
   },
   {
-    "id": "741b597f-c11d-447b-a6de-9968df5d8369",
+    "id": "4ad053e3-febe-49e9-989a-c8562742da05",
     "name": "EC1-RWN-07876",
     "lat": 31.261095,
     "lng": 74.128108,
@@ -52816,10 +52816,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC+DG",
-    "createdAt": 1786778101771
+    "createdAt": 1786860943728
   },
   {
-    "id": "4e7c1bbe-9226-4ed1-b993-acd9b3bd1ae2",
+    "id": "116424c1-e793-4f3c-bde1-958fef213b60",
     "name": "EUC-NKN-06905",
     "lat": 30.71369,
     "lng": 74.15226,
@@ -52842,10 +52842,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC+DG",
-    "createdAt": 1786778101771
+    "createdAt": 1786860943728
   },
   {
-    "id": "b71d7d96-a3cb-44d2-a46a-b7b2252504d2",
+    "id": "490e3f79-5d74-4897-9635-d092ab24534f",
     "name": "EC1-MDK-07794",
     "lat": 31.835436,
     "lng": 74.264176,
@@ -52868,10 +52868,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC+DG",
-    "createdAt": 1786778101772
+    "createdAt": 1786860943729
   },
   {
-    "id": "51c636ae-75ed-4d79-a364-da6c24c66fe7",
+    "id": "5dc2a30d-73c6-402b-b4e9-08a40cc363e8",
     "name": "EC1-PNG-07797",
     "lat": 31.244152,
     "lng": 74.018097,
@@ -52894,10 +52894,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC+DG",
-    "createdAt": 1786778101772
+    "createdAt": 1786860943729
   },
   {
-    "id": "e18ce74b-ef87-4f70-a5eb-275c1adccb15",
+    "id": "545b60ff-8e3e-4d00-b2cc-2c0c4467d793",
     "name": "EC1-PNG-07798",
     "lat": 31.2237,
     "lng": 73.926601,
@@ -52920,10 +52920,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC+DG",
-    "createdAt": 1786778101772
+    "createdAt": 1786860943729
   },
   {
-    "id": "28eb3c83-3a28-4765-ba32-7821eac151a9",
+    "id": "5cee25ae-5a1a-4bda-92de-16c38f5e47b3",
     "name": "EC1-RWN-07802",
     "lat": 31.331769,
     "lng": 74.086693,
@@ -52946,10 +52946,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC+DG",
-    "createdAt": 1786778101772
+    "createdAt": 1786860943729
   },
   {
-    "id": "a4401a04-7b6d-4aad-86ba-c57ee0410e24",
+    "id": "a68a0515-1fbe-4d3c-9945-cfb4a86ef9e7",
     "name": "EC1-KRK-07801",
     "lat": 31.166852,
     "lng": 74.028588,
@@ -52972,10 +52972,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC+DG",
-    "createdAt": 1786778101772
+    "createdAt": 1786860943730
   },
   {
-    "id": "93d6c462-6f0d-4e78-8818-02e461d15a85",
+    "id": "a2d475f8-5715-405c-a5d8-a63665bfb344",
     "name": "EC1-KSR-06122",
     "lat": 31.264183,
     "lng": 74.07584,
@@ -52998,10 +52998,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "CP+DC",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101772
+    "createdAt": 1786860943730
   },
   {
-    "id": "baf59cd9-94fa-4395-8ca8-bbfb3ceefef6",
+    "id": "212cb252-7d96-4e12-adf0-fd1c0138233b",
     "name": "EC1-RWN-07965",
     "lat": 31.26408,
     "lng": 74.221653,
@@ -53024,10 +53024,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "CP+DC",
     "jazzApprovedServices": "CP+DC+DG",
-    "createdAt": 1786778101772
+    "createdAt": 1786860943730
   },
   {
-    "id": "50bba7cc-2da8-45fd-a9d1-ad7f2032b642",
+    "id": "e94b9bb1-75f0-4873-a100-ecea595a89ab",
     "name": "EC1-LHR-07724",
     "lat": 31.59124,
     "lng": 74.25795,
@@ -53050,10 +53050,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC+DG",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC+DG",
-    "createdAt": 1786778101772
+    "createdAt": 1786860943730
   },
   {
-    "id": "8fb91877-1b42-49c0-a9c3-437afcf46769",
+    "id": "338a3ad5-4ecb-4c96-afaf-d9d310c3109b",
     "name": "EC1-SKP-07721",
     "lat": 31.67055,
     "lng": 74.0789,
@@ -53076,10 +53076,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC+DG",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC+DG",
-    "createdAt": 1786778101772
+    "createdAt": 1786860943731
   },
   {
-    "id": "91460e2d-affe-4c3a-bdf2-995ff652023f",
+    "id": "e4c6279f-a1b9-404f-acf0-85bd54ba743c",
     "name": "EC1-RWN-08292",
     "lat": 31.27434,
     "lng": 74.18983,
@@ -53102,10 +53102,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC+DG",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101772
+    "createdAt": 1786860943731
   },
   {
-    "id": "d8058c75-30ef-4355-bff7-81cbb0200d8f",
+    "id": "91ba112e-f901-4d1a-a929-daf816739b73",
     "name": "EC1-KSR-08676",
     "lat": 31.07755,
     "lng": 74.49197,
@@ -53128,10 +53128,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP only",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101772
+    "createdAt": 1786860943731
   },
   {
-    "id": "c9ee5933-42f7-4a42-80a1-d9387a24cb90",
+    "id": "6f8462a7-bf97-44a3-9372-1f546b12f5bd",
     "name": "EC2-NKN-08595",
     "lat": 31.18417,
     "lng": 73.64251,
@@ -53154,10 +53154,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101772
+    "createdAt": 1786860943731
   },
   {
-    "id": "2a5e6c85-aefb-42da-86e7-0cf4a673440e",
+    "id": "4174efe5-830d-4e85-8b98-184b686d15c0",
     "name": "EC2-NKN-08646",
     "lat": 31.35365,
     "lng": 73.83986,
@@ -53180,10 +53180,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP only",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101772
+    "createdAt": 1786860943732
   },
   {
-    "id": "7e2f6d3c-ce8c-48b4-a081-f9c91056596b",
+    "id": "70fb6e8b-f407-4970-aac9-b2af87a133e3",
     "name": "EC1-KSR-08584",
     "lat": 30.89336,
     "lng": 73.94794,
@@ -53206,10 +53206,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101772
+    "createdAt": 1786860943732
   },
   {
-    "id": "0985d10b-b86f-49f8-b824-10d7f2ad6f71",
+    "id": "bac9be26-39a0-4071-a52b-b8da7ae12ced",
     "name": "EC1-KSR-08672",
     "lat": 31.209607,
     "lng": 74.157627,
@@ -53232,10 +53232,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101772
+    "createdAt": 1786860943732
   },
   {
-    "id": "08a5874c-6b3e-47db-90f9-7c2c0409256c",
+    "id": "8819caf0-6aea-4729-9295-dcd4f241c1fb",
     "name": "EC2-NKN-08653",
     "lat": 31.6209,
     "lng": 73.75636,
@@ -53258,10 +53258,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP Only",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101772
+    "createdAt": 1786860943732
   },
   {
-    "id": "f6ef7683-9e7b-4229-816d-e569405702ee",
+    "id": "567ed4fc-e17e-4e77-9d34-d308cadf0da3",
     "name": "EC1-KSR-08621",
     "lat": 30.96627,
     "lng": 74.23184,
@@ -53284,10 +53284,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP Only",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101772
+    "createdAt": 1786860943732
   },
   {
-    "id": "1cf0b6e1-b653-4bea-84e9-a40dc157a05e",
+    "id": "e347f907-adb2-440e-92fc-79c57fa26296",
     "name": "EC2-NKN-08670",
     "lat": 31.54609,
     "lng": 73.79935,
@@ -53310,10 +53310,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101772
+    "createdAt": 1786860943733
   },
   {
-    "id": "facd3447-9901-44b4-ba1d-caa246fa6da9",
+    "id": "d98019eb-dbdf-4a26-996f-f01c305f3176",
     "name": "EC1-KSR-08624",
     "lat": 31.03196,
     "lng": 74.04774,
@@ -53336,10 +53336,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "CP only",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101772
+    "createdAt": 1786860943733
   },
   {
-    "id": "723c7036-d5c7-411f-85d5-f3b3eb303aa4",
+    "id": "9fc33ced-71c9-4852-a94f-a32c7a56f9d7",
     "name": "EC1-SKP-08577",
     "lat": 31.89137,
     "lng": 73.77144,
@@ -53362,10 +53362,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC+DG",
-    "createdAt": 1786778101772
+    "createdAt": 1786860943733
   },
   {
-    "id": "9f05d4cd-7e51-4a16-b648-d6fde92981de",
+    "id": "7fc9c9b4-1119-4269-becb-def1f5b76380",
     "name": "EC1-MDK-08585",
     "lat": 31.86521,
     "lng": 74.30686,
@@ -53388,10 +53388,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP Only",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101772
+    "createdAt": 1786860943733
   },
   {
-    "id": "da0e555a-bade-4a8c-9308-7f46c7f18ac2",
+    "id": "d8c69062-37d5-492c-9654-768697716e2f",
     "name": "EC1-OKR-08574",
     "lat": 30.7819,
     "lng": 74.05041,
@@ -53414,10 +53414,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101772
+    "createdAt": 1786860943733
   },
   {
-    "id": "c7216374-e6c6-4443-bc14-658be82793ea",
+    "id": "5e9cb5c6-17df-46f2-8e10-5ab6dbe495c0",
     "name": "EUC-SKP-08889",
     "lat": 31.720394,
     "lng": 74.132569,
@@ -53440,10 +53440,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
-    "createdAt": 1786778101772
+    "createdAt": 1786860943734
   },
   {
-    "id": "5f2b220f-0efa-4a80-a93f-59174da047cc",
+    "id": "45ed4658-d963-4813-abda-243aa6b9c284",
     "name": "EUC-SKP-08890",
     "lat": 31.745482,
     "lng": 74.041612,
@@ -53466,10 +53466,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
-    "createdAt": 1786778101772
+    "createdAt": 1786860943734
   },
   {
-    "id": "1c35688a-1295-4848-97a8-7684d49fc08c",
+    "id": "8608fbfa-3c18-4b46-8af1-44b4548f2480",
     "name": "EC1-SKP-09081",
     "lat": 31.682912,
     "lng": 74.262082,
@@ -53492,10 +53492,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC+DG",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
-    "createdAt": 1786778101772
+    "createdAt": 1786860943734
   },
   {
-    "id": "eaa401dc-ca61-4ec3-bf75-60bb1ece05dd",
+    "id": "655ef072-fbfc-44b5-bb42-84b24d8ef68f",
     "name": "EC1-CAN-09036",
     "lat": 30.953852,
     "lng": 73.9704,
@@ -53518,10 +53518,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
-    "createdAt": 1786778101772
+    "createdAt": 1786860943734
   },
   {
-    "id": "ad3287fd-b5c4-4a9a-8549-bf2403091ed4",
+    "id": "f176fe22-5db0-4540-b3bc-3e4d88db2d60",
     "name": "EC1-CAN-09054",
     "lat": 30.9734426,
     "lng": 73.9752468,
@@ -53544,10 +53544,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
-    "createdAt": 1786778101772
+    "createdAt": 1786860943735
   },
   {
-    "id": "4761d0a5-34ab-456f-a2f1-325daa283a7e",
+    "id": "5b8fbbbb-af9a-4b58-9f49-0abbb19a557c",
     "name": "EC1-LHR-09025",
     "lat": 31.366577,
     "lng": 74.379145,
@@ -53570,10 +53570,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC+DG",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
-    "createdAt": 1786778101772
+    "createdAt": 1786860943735
   },
   {
-    "id": "419f40ec-27bc-4cdd-8482-b19b445b8e44",
+    "id": "586dc302-cf96-4e8a-aaee-ec91090103e5",
     "name": "EC1-SKP-09014",
     "lat": 31.65909,
     "lng": 74.26658,
@@ -53596,10 +53596,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101772
+    "createdAt": 1786860943735
   },
   {
-    "id": "f2888c04-c919-4037-8a08-398e39a0ceff",
+    "id": "21cefa09-0bbb-489d-a3b4-c26e4aa44261",
     "name": "EC1-SRQ-08917",
     "lat": 31.458733,
     "lng": 74.097674,
@@ -53622,10 +53622,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC+DG",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
-    "createdAt": 1786778101772
+    "createdAt": 1786860943735
   },
   {
-    "id": "5907bd60-3da3-4b3d-804c-eb14da2def30",
+    "id": "64ac56b5-4dc2-440d-8e3d-3e3011555536",
     "name": "EC1-LHR-09242",
     "lat": 31.343314,
     "lng": 74.367918,
@@ -53648,10 +53648,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC+DG",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101772
+    "createdAt": 1786860943735
   },
   {
-    "id": "2a29dec2-289f-41cf-9bc0-dc436dfec893",
+    "id": "bc44b06d-0c97-4d60-8642-08c04ce33053",
     "name": "EC1-SKP-09039",
     "lat": 31.692381,
     "lng": 74.293846,
@@ -53674,10 +53674,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
-    "createdAt": 1786778101772
+    "createdAt": 1786860943736
   },
   {
-    "id": "72313f39-e19c-4bec-b157-d51d54690949",
+    "id": "5892abe1-986a-4d3f-a01d-6f440767dacc",
     "name": "EC1-SKP-08918",
     "lat": 31.636463,
     "lng": 74.212827,
@@ -53700,10 +53700,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC+DG",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101772
+    "createdAt": 1786860943736
   },
   {
-    "id": "b1168517-19ae-4031-b1a0-66f1f849b4d9",
+    "id": "fd758746-237c-4b53-9bde-e2265fc05764",
     "name": "EC1-SKP-09395",
     "lat": 31.72645,
     "lng": 73.95757,
@@ -53726,10 +53726,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC+DG",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101772
+    "createdAt": 1786860943736
   },
   {
-    "id": "76178f36-4847-4087-947f-1b23fb01b00c",
+    "id": "78c6289b-e050-4782-82f6-b1b14294c3b9",
     "name": "EC1-SKP-09387",
     "lat": 31.734679,
     "lng": 73.976784,
@@ -53752,10 +53752,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC+DG",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101772
+    "createdAt": 1786860943736
   },
   {
-    "id": "ceadce18-1460-4987-bb39-9d74e01e86a5",
+    "id": "afef67a4-1157-495c-803c-db57ad1407a0",
     "name": "EC1-KSR-09390",
     "lat": 31.244843,
     "lng": 74.22806,
@@ -53778,10 +53778,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC+DG",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101772
+    "createdAt": 1786860943736
   },
   {
-    "id": "f0773773-a042-46ca-ad8f-04015c65d0c4",
+    "id": "72498a8c-4dc7-4086-ab23-4b4103e910b2",
     "name": "EC2-NKN-09359",
     "lat": 31.41208,
     "lng": 73.98018,
@@ -53804,10 +53804,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC+DG",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101772
+    "createdAt": 1786860943737
   },
   {
-    "id": "e4b71cff-edc8-4edb-aea8-983407a12467",
+    "id": "35708fed-a73a-49ed-b824-113107bf1ce1",
     "name": "EC1-KSR-09412",
     "lat": 31.139368,
     "lng": 74.439135,
@@ -53830,10 +53830,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC+DG",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101772
+    "createdAt": 1786860943737
   },
   {
-    "id": "4addc5ea-c139-49e6-8392-75c1287df502",
+    "id": "881d14be-2c23-46d2-affb-205bd5379e29",
     "name": "EC1-LHR-09179",
     "lat": 31.344631,
     "lng": 74.38047,
@@ -53856,10 +53856,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC+DG",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101772
+    "createdAt": 1786860943737
   },
   {
-    "id": "11e87174-4d6c-4b06-9a3a-5020fd83d850",
+    "id": "7bb04158-d66b-4541-b1d1-da05d7d581da",
     "name": "EC1-SHD-09475",
     "lat": 31.6479,
     "lng": 74.27092,
@@ -53882,10 +53882,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC+DG",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DG+DC",
-    "createdAt": 1786778101772
+    "createdAt": 1786860943737
   },
   {
-    "id": "d8b86c8c-b387-490a-913f-53acbf5b5b24",
+    "id": "3cf9ceb8-89f6-4133-8a34-33c62738ee34",
     "name": "EC1-SKP-09391",
     "lat": 31.864356,
     "lng": 73.85991,
@@ -53908,10 +53908,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC+DG",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101772
+    "createdAt": 1786860943737
   },
   {
-    "id": "97774ad4-1c51-49d1-9f9c-df4c5508d01a",
+    "id": "d3165cec-516d-4c33-9de4-e079234729c3",
     "name": "EC1-RWN-09321",
     "lat": 31.252161,
     "lng": 74.21032,
@@ -53934,10 +53934,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "CP+DC",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "CP+DC",
-    "createdAt": 1786778101772
+    "createdAt": 1786860943738
   },
   {
-    "id": "a1df3d8b-7022-48a9-a0c3-70cca10dd77e",
+    "id": "f6f588ac-e3a8-45c1-9bf7-f998f5a8e4e6",
     "name": "EC1-KSR-09425",
     "lat": 31.125144,
     "lng": 74.441466,
@@ -53960,10 +53960,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
-    "createdAt": 1786778101772
+    "createdAt": 1786860943738
   },
   {
-    "id": "7f241725-ff6d-42dc-b0c5-3c1e6aa3b8af",
+    "id": "34d7563d-c78b-4d47-879e-4ea0f4767084",
     "name": "EC1-SKP-09441",
     "lat": 31.64577,
     "lng": 74.18288,
@@ -53986,10 +53986,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
-    "createdAt": 1786778101773
+    "createdAt": 1786860943738
   },
   {
-    "id": "4a49ebb5-1f19-4947-9d0a-89f369e7123a",
+    "id": "6b326a3d-8f18-42e3-be61-84864c2e92c7",
     "name": "EC1-SKP-06224",
     "lat": 31.73878,
     "lng": 74.00415,
@@ -54012,10 +54012,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC+DG",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "-",
-    "createdAt": 1786778101773
+    "createdAt": 1786860943738
   },
   {
-    "id": "bffa7e20-a01c-442d-b3ff-663322455363",
+    "id": "c260cc84-f833-4eca-9228-af0f691b15ee",
     "name": "EC1-SKP-09570",
     "lat": 31.736173,
     "lng": 73.967534,
@@ -54038,10 +54038,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
-    "createdAt": 1786778101773
+    "createdAt": 1786860943738
   },
   {
-    "id": "8c036355-00be-4d89-bc49-e619dfd0d7b5",
+    "id": "8fb450c8-c4ab-4e51-a3d3-bb5a885b3471",
     "name": "EC1-PNG-09513",
     "lat": 31.19124,
     "lng": 73.927491,
@@ -54064,10 +54064,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": " -",
     "jazzApprovedServices": "DC+DG",
-    "createdAt": 1786778101773
+    "createdAt": 1786860943739
   },
   {
-    "id": "19cdba05-5999-4b1a-b6b6-44f2a272b91f",
+    "id": "9e232fef-a5c5-4ef5-96fc-0a68ce427363",
     "name": "EC1-PTK-09515",
     "lat": 31.04822,
     "lng": 73.866463,
@@ -54090,10 +54090,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": " -",
     "jazzApprovedServices": "DC+DG",
-    "createdAt": 1786778101773
+    "createdAt": 1786860943739
   },
   {
-    "id": "fe2f0f17-51ff-4618-8f14-b5c5c691e011",
+    "id": "f0a6cebf-3664-47ca-90bf-e0e43362f9c9",
     "name": "EC1-MDK-09521",
     "lat": 31.781295,
     "lng": 74.252255,
@@ -54116,10 +54116,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": " -",
     "jazzApprovedServices": "DC+DG",
-    "createdAt": 1786778101773
+    "createdAt": 1786860943739
   },
   {
-    "id": "b9f4f3a6-a116-4818-9ca3-524c7e0c5398",
+    "id": "71d05612-35f1-4c00-9afb-2c2b072d50b6",
     "name": "EC1-NKN-09427",
     "lat": 31.410386,
     "lng": 73.99122,
@@ -54142,10 +54142,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
-    "createdAt": 1786778101773
+    "createdAt": 1786860943740
   },
   {
-    "id": "6263b6e7-629a-4c67-8c61-fe333df70deb",
+    "id": "01bb64c4-278a-4863-9af6-5d6a9c30a1c2",
     "name": "EC1-PNG-09565",
     "lat": 31.18539,
     "lng": 73.979308,
@@ -54168,10 +54168,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
-    "createdAt": 1786778101773
+    "createdAt": 1786860943740
   },
   {
-    "id": "ac0d20df-8914-487d-967e-628f0287df54",
+    "id": "1d2d150a-fb14-4b18-8705-e968e1b079d8",
     "name": "EC1-MDK-09424",
     "lat": 31.79374,
     "lng": 74.25443,
@@ -54194,10 +54194,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
-    "createdAt": 1786778101773
+    "createdAt": 1786860943740
   },
   {
-    "id": "5f03f94b-a6b6-4eee-a318-7bccd26c8596",
+    "id": "ff83b284-081e-42a1-989c-4797cee09b32",
     "name": "EC2-JRW-09739",
     "lat": 31.19415,
     "lng": 73.52928,
@@ -54220,10 +54220,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
-    "createdAt": 1786778101773
+    "createdAt": 1786860943740
   },
   {
-    "id": "e366e8a9-1c22-4316-887a-7d73c9d8c63d",
+    "id": "4e200202-9159-4e5e-b427-a04bde11b4c7",
     "name": "EC1-KSR-09635",
     "lat": 31.251252,
     "lng": 74.424538,
@@ -54246,10 +54246,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
-    "createdAt": 1786778101773
+    "createdAt": 1786860943740
   },
   {
-    "id": "a4f4b123-b386-4c9a-8ea1-c595d02892e2",
+    "id": "a7d8504b-642b-466b-b09f-d0cd0ba755d9",
     "name": "EC1-PTK-09737",
     "lat": 31.0121,
     "lng": 73.82816,
@@ -54272,10 +54272,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
-    "createdAt": 1786778101773
+    "createdAt": 1786860943741
   },
   {
-    "id": "97d70efe-126c-4a2a-bbfb-7c49b8b08838",
+    "id": "0b95ef24-b014-4a4c-88cb-be7f819badba",
     "name": "EC1-PNG-09774",
     "lat": 31.15803,
     "lng": 73.9591,
@@ -54298,10 +54298,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
-    "createdAt": 1786778101773
+    "createdAt": 1786860943741
   },
   {
-    "id": "eea6d53e-618d-4673-b45c-7bf8e6c29e73",
+    "id": "7b5e3d52-28a7-40ac-b9e3-315b7aac740c",
     "name": "EC1-FQD-09784",
     "lat": 31.68391,
     "lng": 73.73687,
@@ -54324,10 +54324,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
-    "createdAt": 1786778101773
+    "createdAt": 1786860943741
   },
   {
-    "id": "c935e52e-b30a-4e03-a817-2cd99c24f21e",
+    "id": "d1041e71-2e7c-491e-830a-dbcafb38b74e",
     "name": "EC1-SKP-09415",
     "lat": 31.6472,
     "lng": 74.2127,
@@ -54350,10 +54350,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC+DG",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
-    "createdAt": 1786778101773
+    "createdAt": 1786860943743
   },
   {
-    "id": "8cb060eb-b7ef-469b-83af-a5f941106e1c",
+    "id": "4ed2a7c6-19c9-4ea1-8539-f3c6b48b313f",
     "name": "EC1-KSR-09856",
     "lat": 30.947225,
     "lng": 74.27255,
@@ -54376,10 +54376,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
-    "createdAt": 1786778101773
+    "createdAt": 1786860943744
   },
   {
-    "id": "c8fb672b-90a1-4d27-892c-52826d797f1e",
+    "id": "535089ef-3d59-467e-abe0-c6fac17b9d13",
     "name": "EC1-LHR-09794",
     "lat": 31.30144,
     "lng": 74.23699,
@@ -54402,10 +54402,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
-    "createdAt": 1786778101773
+    "createdAt": 1786860943744
   },
   {
-    "id": "6f776ded-f9c2-4e27-90da-3468b3b26d82",
+    "id": "ca36a72d-93b8-4b4a-894d-b208ac0ce190",
     "name": "EC2-NKN-09986",
     "lat": 31.25638,
     "lng": 73.65197,
@@ -54428,10 +54428,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
-    "createdAt": 1786778101773
+    "createdAt": 1786860943745
   },
   {
-    "id": "9cd82667-2bd6-4c81-9360-4f0eb136fc62",
+    "id": "828e22a0-4a47-494b-bb15-6ab602f82689",
     "name": "EC1-PTK-10016",
     "lat": 31.136266,
     "lng": 73.79672,
@@ -54454,10 +54454,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
-    "createdAt": 1786778101773
+    "createdAt": 1786860943745
   },
   {
-    "id": "8f17e290-f6c1-40c8-8d54-42f89be579a5",
+    "id": "9b5d4937-a196-4500-97a6-1c4b7fd06f27",
     "name": "EC1-LHR-09962",
     "lat": 31.57624,
     "lng": 74.25881,
@@ -54480,10 +54480,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
-    "createdAt": 1786778101773
+    "createdAt": 1786860943745
   },
   {
-    "id": "67b79b50-1b3c-4d05-a33e-42212329b75d",
+    "id": "ff4cc23e-8973-4dc8-8146-cc6bc1b8f2d5",
     "name": "EC1-KSR-09996",
     "lat": 31.03693,
     "lng": 74.41043,
@@ -54506,10 +54506,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
-    "createdAt": 1786778101773
+    "createdAt": 1786860943745
   },
   {
-    "id": "5a130b09-8def-4bbf-89c7-f9793854bf27",
+    "id": "99608da6-5350-4654-b4af-d2ccb89eda1f",
     "name": "EC1-KSR-09995",
     "lat": 31.12592,
     "lng": 74.31967,
@@ -54532,10 +54532,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
-    "createdAt": 1786778101773
+    "createdAt": 1786860943745
   },
   {
-    "id": "d0a5ed38-316a-4045-81cc-c9182cce44f9",
+    "id": "b7e858ad-a737-4f6e-bfc6-de9f96a60709",
     "name": "EC1-MNN-09958",
     "lat": 31.58954,
     "lng": 73.70003,
@@ -54558,10 +54558,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
-    "createdAt": 1786778101773
+    "createdAt": 1786860943746
   },
   {
-    "id": "fdc40a78-884a-4167-a264-0e067492ce87",
+    "id": "2c88f49b-1ca6-4359-b1a3-23677813b0dc",
     "name": "EC1-PNG-09979",
     "lat": 31.204617,
     "lng": 73.979597,
@@ -54584,10 +54584,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
-    "createdAt": 1786778101773
+    "createdAt": 1786860943746
   },
   {
-    "id": "dcc66b2e-d8cb-49f9-8e24-d9d563f6faa8",
+    "id": "c777df35-2274-4c5e-b3d3-d800d67cddad",
     "name": "EC1-LHR-09978",
     "lat": 31.16801,
     "lng": 74.44882,
@@ -54610,10 +54610,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
-    "createdAt": 1786778101773
+    "createdAt": 1786860943746
   },
   {
-    "id": "642d4f29-e38b-4baa-81bc-0bd54e23d5d9",
+    "id": "c8528d96-2b25-4850-9c56-61112ba39db5",
     "name": "EC1-LHR-09972",
     "lat": 31.36019,
     "lng": 74.33442,
@@ -54636,10 +54636,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
-    "createdAt": 1786778101773
+    "createdAt": 1786860943746
   },
   {
-    "id": "aeb81d8c-85bc-4508-b4af-b29912740df1",
+    "id": "5d982d40-b953-41f6-8fa2-ec7a60a89c1b",
     "name": "EC2-NKN-10073",
     "lat": 31.47249,
     "lng": 73.75719,
@@ -54662,10 +54662,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
-    "createdAt": 1786778101773
+    "createdAt": 1786860943746
   },
   {
-    "id": "5a314e75-114d-498e-9317-5b44c6e27b72",
+    "id": "78f43c89-f7d1-4bf2-8444-90df71ac1090",
     "name": "EC1-LHR-10198",
     "lat": 31.391306,
     "lng": 74.37763,
@@ -54688,10 +54688,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "DC+DG",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
-    "createdAt": 1786778101773
+    "createdAt": 1786860943747
   },
   {
-    "id": "b7dec0a2-6340-47d6-838b-7245bc5abb5c",
+    "id": "e0738911-e8f5-4ed0-bd57-8b534dec92e4",
     "name": "EC1-KAN-10066",
     "lat": 30.711373,
     "lng": 74.114327,
@@ -54714,10 +54714,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
-    "createdAt": 1786778101773
+    "createdAt": 1786860943747
   },
   {
-    "id": "afbad291-5173-415c-8295-4c9586bdff1d",
+    "id": "61f03b65-d252-4d9c-8661-79e963ecf02c",
     "name": "EC1-KGO-10129",
     "lat": 31.10745,
     "lng": 74.066183,
@@ -54740,10 +54740,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
-    "createdAt": 1786778101773
+    "createdAt": 1786860943747
   },
   {
-    "id": "b08ee8f9-d2be-4b40-beac-24bc02492759",
+    "id": "b609b2b3-6f43-457c-8b06-92093b883220",
     "name": "EC1-MNN-10233",
     "lat": 31.539013,
     "lng": 73.69351,
@@ -54766,10 +54766,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
-    "createdAt": 1786778101774
+    "createdAt": 1786860943747
   },
   {
-    "id": "ea80424c-968d-4d97-b206-0c110805bea3",
+    "id": "2e869ab4-1156-404a-842b-849426de212b",
     "name": "EC2-NKN-10239",
     "lat": 31.50097,
     "lng": 73.640923,
@@ -54792,10 +54792,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
-    "createdAt": 1786778101774
+    "createdAt": 1786860943747
   },
   {
-    "id": "3f98d79d-90e0-4874-8d74-3e3eea6c5bec",
+    "id": "41e7bb3c-b402-4fef-bb62-0edfdd729a65",
     "name": "EC1-KSR-10067",
     "lat": 31.14329,
     "lng": 74.18698,
@@ -54818,10 +54818,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
-    "createdAt": 1786778101774
+    "createdAt": 1786860943748
   },
   {
-    "id": "5f3d5033-4218-44e0-98bb-9f0b0dcf8c51",
+    "id": "6f0be0b5-cf63-45b3-90c4-75a5a9dfad92",
     "name": "EC1-LHR-10197",
     "lat": 31.59116,
     "lng": 74.224931,
@@ -54844,10 +54844,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
-    "createdAt": 1786778101774
+    "createdAt": 1786860943748
   },
   {
-    "id": "23f5949f-f44a-4e17-80d5-5f8db44319aa",
+    "id": "1498d434-f5bc-47c7-a789-17d018ba6b77",
     "name": "EC1-LHR-10142",
     "lat": 31.309375,
     "lng": 74.102037,
@@ -54870,10 +54870,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
-    "createdAt": 1786778101774
+    "createdAt": 1786860943748
   },
   {
-    "id": "dbd0fc40-bd9e-4e04-960c-68b581d68ee7",
+    "id": "8ba39c6e-e088-4385-86f4-b4e3890842a5",
     "name": "EC1-LHR-10224",
     "lat": 31.323147,
     "lng": 74.18333,
@@ -54896,10 +54896,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
-    "createdAt": 1786778101774
+    "createdAt": 1786860943748
   },
   {
-    "id": "0c6cdca4-f2be-4801-a9ef-6c8df8c039ef",
+    "id": "10bf2910-3936-4d19-bd3f-05fd63094de2",
     "name": "EC1-SKP-10219",
     "lat": 31.816049,
     "lng": 74.253088,
@@ -54922,10 +54922,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
-    "createdAt": 1786778101774
+    "createdAt": 1786860943749
   },
   {
-    "id": "3e6b61a2-e248-4502-9afa-1398de211a05",
+    "id": "db21d659-5d64-4934-8022-24d78654c68b",
     "name": "EC1-ALB-10119",
     "lat": 30.893688,
     "lng": 74.098285,
@@ -54948,10 +54948,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
-    "createdAt": 1786778101774
+    "createdAt": 1786860943749
   },
   {
-    "id": "ed4dbb3c-31c5-49fa-8f41-cdbea07c76ae",
+    "id": "a433a684-e802-4904-ba9c-66867b4fb61b",
     "name": "EC1-LHR-10322",
     "lat": 31.756038,
     "lng": 74.257582,
@@ -54974,10 +54974,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
-    "createdAt": 1786778101774
+    "createdAt": 1786860943749
   },
   {
-    "id": "4a0e2369-4493-4574-8c3f-746932e4d054",
+    "id": "4057f162-9b11-46b4-99f7-a6c2b1798c35",
     "name": "EC1-SKP-10326",
     "lat": 31.691775,
     "lng": 74.004167,
@@ -55000,10 +55000,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
-    "createdAt": 1786778101774
+    "createdAt": 1786860943749
   },
   {
-    "id": "a279bd4d-d9da-4d4f-95cc-826c5d3eeb1c",
+    "id": "055c2cc8-0af3-42ad-ba51-5e85b191d2ee",
     "name": "EC1-SRQ-10214",
     "lat": 31.463268,
     "lng": 74.104663,
@@ -55026,10 +55026,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
-    "createdAt": 1786778101774
+    "createdAt": 1786860943749
   },
   {
-    "id": "078f0196-6c62-4fda-af05-e065dc89d2cd",
+    "id": "6e1ece0f-095f-43a9-8170-602e6579e924",
     "name": "EC1-PTK-10325",
     "lat": 30.969137,
     "lng": 73.78755,
@@ -55052,10 +55052,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
-    "createdAt": 1786778101774
+    "createdAt": 1786860943750
   },
   {
-    "id": "df38114d-defd-431c-a6a0-fe3349b2b099",
+    "id": "c89281bb-ca2a-4e8a-b9dc-54d0fbb89a4a",
     "name": "EC1-PTK-10086",
     "lat": 31.020757,
     "lng": 73.742515,
@@ -55078,10 +55078,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
-    "createdAt": 1786778101774
+    "createdAt": 1786860943750
   },
   {
-    "id": "3c9e89d6-c858-46ba-bdc0-e0a6f7c3e7e6",
+    "id": "2079ea81-d264-4cec-9b27-20491957b3c6",
     "name": "EC1-PNG-10111",
     "lat": 31.247436,
     "lng": 73.949615,
@@ -55104,10 +55104,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
-    "createdAt": 1786778101774
+    "createdAt": 1786860943750
   },
   {
-    "id": "d3c8938a-87ba-4830-b026-8a78076e5581",
+    "id": "6f266776-28f6-44da-956a-f916283c02c2",
     "name": "EC1-LHR-10381",
     "lat": 31.61771,
     "lng": 74.23741,
@@ -55130,10 +55130,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
-    "createdAt": 1786778101774
+    "createdAt": 1786860943750
   },
   {
-    "id": "e57b14bd-f587-49bc-b5db-fa957f9dc38c",
+    "id": "327aef4e-b4be-4e71-9ca0-f02e24f29312",
     "name": "EC1-KSR-10354",
     "lat": 31.234839,
     "lng": 74.052985,
@@ -55156,10 +55156,10 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DC+DG",
-    "createdAt": 1786778101774
+    "createdAt": 1786860943750
   },
   {
-    "id": "b64cdf9d-49aa-4a48-b0d6-e40cb4cbfcda",
+    "id": "a81304e4-bac0-4fb2-a572-ca62775dca26",
     "name": "EC1-GUT-10382",
     "lat": 33.615,
     "lng": 73.168,
@@ -55182,6 +55182,6 @@ export const defaultSites: Site[] = [
     "zongApprovedServices": "-",
     "ufoneApprovedServices": "-",
     "jazzApprovedServices": "DG+DC",
-    "createdAt": 1786778101774
+    "createdAt": 1786860943751
   }
 ];
