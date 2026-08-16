@@ -108,9 +108,9 @@ function App() {
         setUpdateStatus('Downloading updates...');
         setUpdateProgress(0);
 
-        // 'downloadProgress' is the correct event name in @capgo/capacitor-updater v6+
-        // (old name 'download' was silently ignored and never fired)
-        const listener = await CapacitorUpdater.addListener('downloadProgress', (state) => {
+        // 'download' is the correct event name per @capgo/capacitor-updater type definitions
+        // fires with { percent: number, bundle: BundleInfo } during download progress
+        const listener = await CapacitorUpdater.addListener('download', (state) => {
           setUpdateProgress(state.percent);
         });
 
