@@ -8,7 +8,7 @@
     "build": "tsc -b && vite build",
     "lint": "oxlint",
     "preview": "vite preview",
-    "postinstall": "patch-package"
+    "postinstall": "npx --yes patch-package"
   },
   "dependencies": {
     "@capacitor/core": "^8.4.1",
