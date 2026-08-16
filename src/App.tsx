@@ -129,6 +129,10 @@ function App() {
         const listener = await CapacitorUpdater.addListener('download', (state) => {
           setUpdateProgress(state.percent);
         });
+        
+        const failListener = await CapacitorUpdater.addListener('downloadFailed', (data) => {
+          addLog(`[downloadFailed event] Native error: ${JSON.stringify(data)}`, 'error');
+        });
 
         try {
           addLog(`Starting CapacitorUpdater.download from: ${data.url}`, 'info');
@@ -149,6 +153,7 @@ function App() {
           setUpdateProgress(null);
         } finally {
           listener.remove();
+          failListener.remove();
         }
       } else {
         addLog(`No update needed. Current version matches remote.`, 'info');
