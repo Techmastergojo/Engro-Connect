@@ -153,7 +153,7 @@ function App() {
           setUpdateProgress(null);
         } finally {
           listener.remove();
-          failListener.remove();
+          // Intentional: Do not remove failListener so it has time to fire asynchronously!
         }
       } else {
         addLog(`No update needed. Current version matches remote.`, 'info');
