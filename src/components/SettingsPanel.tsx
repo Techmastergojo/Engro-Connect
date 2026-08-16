@@ -16,6 +16,7 @@ export const THEMES = [
   { id: 'sunset-orange',  name: '🌅 Sunset',     accent: '#ff6b35', bg: '#0d0704', surface: 'rgba(30,14,6,0.90)',   text: '#ffffff', secondary: '#ffc4a8' },
   { id: 'ocean-deep',     name: '🌊 Ocean Deep', accent: '#0891b2', bg: '#020b0e', surface: 'rgba(2,20,30,0.92)',   text: '#ffffff', secondary: '#7dd3fc' },
   { id: 'neon-pink',      name: '💜 Neon Pink',  accent: '#e879f9', bg: '#0d0210', surface: 'rgba(25,5,35,0.92)',   text: '#ffffff', secondary: '#f0abfc' },
+  { id: 'cyberpunk',      name: '🤖 Cyberpunk',  accent: '#fde047', bg: '#020617', surface: 'rgba(10,15,30,0.92)',  text: '#ffffff', secondary: '#facc15' },
 ];
 
 
