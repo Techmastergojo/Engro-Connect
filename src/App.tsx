@@ -57,6 +57,11 @@ function App() {
     // Load sites
     initializeDb().then(loadedSites => setSites(loadedSites));
 
+    // OTA Test Notification
+    setTimeout(() => {
+      alert("🎉 OTA Test Notification! If you see this, the update was successful!");
+    }, 2000);
+
     // Check for new bug reports (silent background check)
     checkForNewBugs();
 
