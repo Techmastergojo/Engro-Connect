@@ -1,0 +1,22 @@
+diff --git a/node_modules/@capgo/capacitor-updater/android/src/main/java/ee/forgr/capacitor_updater/CapacitorUpdaterPlugin.java b/node_modules/@capgo/capacitor-updater/android/src/main/java/ee/forgr/capacitor_updater/CapacitorUpdaterPlugin.java
+index 1234567..1234568 100644
+--- a/node_modules/@capgo/capacitor-updater/android/src/main/java/ee/forgr/capacitor_updater/CapacitorUpdaterPlugin.java
++++ b/node_modules/@capgo/capacitor-updater/android/src/main/java/ee/forgr/capacitor_updater/CapacitorUpdaterPlugin.java
+@@ -2842,7 +2842,7 @@
+                     }
+                 } catch (final Exception e) {
+                     logger.error("Failed to download from: " + url + " " + e.getMessage());
+-                    call.reject("Failed to download from: " + url, e);
++                    call.reject("Failed to download from: " + url + " - Reason: " + e.getMessage(), e);
+                     final JSObject ret = new JSObject();
+                     ret.put("version", version);
+                     CapacitorUpdaterPlugin.this.notifyListeners("downloadFailed", ret);
+@@ -2852,7 +2852,7 @@
+             });
+         } catch (final Exception e) {
+             logger.error("Failed to download from: " + url + " " + e.getMessage());
+-            call.reject("Failed to download from: " + url, e);
++            call.reject("Failed to download from: " + url + " - Reason: " + e.getMessage(), e);
+             final JSObject ret = new JSObject();
+             ret.put("version", version);
+             CapacitorUpdaterPlugin.this.notifyListeners("downloadFailed", ret);
