@@ -9,6 +9,7 @@ import { SettingsPanel, applyTheme, THEMES } from './components/SettingsPanel';
 import { ChangelogModal } from './components/ChangelogModal';
 import { CapacitorUpdater } from '@capgo/capacitor-updater';
 import { SplashScreen } from '@capacitor/splash-screen';
+import { addLog } from './logger';
 
 // Hardcoded token for bug reporting (public_repo scope only — can only create issues)
 // Low risk: even if extracted, can only post issues to this public repo
@@ -89,8 +90,15 @@ function App() {
         setUpdateProgress(0);
       }
       
-      const res = await fetch(`https://techmastergojo.github.io/Engro-Connect/version.json?t=${Date.now()}`);
+      addLog(`Checking for updates... (Manual: ${isManual})`, 'info');
+      const versionUrl = `https://techmastergojo.github.io/Engro-Connect/version.json?t=${Date.now()}`;
+      addLog(`Fetching: ${versionUrl}`, 'info');
+      
+      const res = await fetch(versionUrl);
+      addLog(`Fetch status: ${res.status} ${res.statusText}`, 'info');
+      
       const data = await res.json();
+      addLog(`Parsed version info: ${JSON.stringify(data)}`, 'info');
       
       let currentVersion = '0.0.0';
       try {
@@ -98,11 +106,14 @@ function App() {
         if (current && current.bundle && current.bundle.version) {
           currentVersion = current.bundle.version;
         }
-      } catch (e) {
+        addLog(`Current bundle version: ${currentVersion}`, 'info');
+      } catch (e: any) {
+        addLog(`Failed to get current bundle: ${e.message || e}`, 'error');
         console.warn('Failed to get current bundle info, assuming native.', e);
       }
 
       if (data.version && data.version !== currentVersion) {
+        addLog(`Update found! Current: ${currentVersion} -> New: ${data.version}`, 'info');
         console.log('Update found! Downloading silently...', data.version);
         
         setUpdateStatus('Downloading updates...');
@@ -115,25 +126,34 @@ function App() {
         });
 
         try {
+          addLog(`Starting CapacitorUpdater.download from: ${data.url}`, 'info');
           const bundle = await CapacitorUpdater.download({
             url: data.url,
             version: data.version
           });
           
+          addLog(`Download successful! Bundle ID: ${bundle.id}`, 'success');
           setUpdateStatus('Installing and restarting...');
           alert('🚀 OTA update downloaded! App will now restart with the new version.');
+          
+          addLog(`Calling CapacitorUpdater.set(bundle)`, 'info');
           await CapacitorUpdater.set(bundle);
         } catch (downloadErr: any) {
+          addLog(`Download failed: ${downloadErr.message || JSON.stringify(downloadErr)}`, 'error');
           alert(`Download failed: ${downloadErr.message || downloadErr}`);
           setUpdateProgress(null);
         } finally {
           listener.remove();
         }
-      } else if (isManual) {
-        setUpdateProgress(null);
-        alert('You are already running the latest version!');
+      } else {
+        addLog(`No update needed. Current version matches remote.`, 'info');
+        if (isManual) {
+          setUpdateProgress(null);
+          alert('You are already running the latest version!');
+        }
       }
     } catch (e: any) {
+      addLog(`Silent update failed at top level: ${e.message || JSON.stringify(e)}`, 'error');
       console.error('Silent update failed:', e);
       if (isManual) {
         setUpdateProgress(null);
