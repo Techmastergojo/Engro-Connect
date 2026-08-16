@@ -49,11 +49,13 @@ jobs:
 
       - name: Zip web bundle for OTA
         run: |
-          cd dist
-          zip -r ../dist.zip .
-          cd ..
+          mkdir -p www
+          cp -r dist/. www/
+          zip -r dist.zip www/
           echo "Bundle size:"
           ls -lh dist.zip
+          echo "Zip contents preview:"
+          unzip -l dist.zip | head -20
 
       - name: Setup Java
         uses: actions/setup-java@v4
