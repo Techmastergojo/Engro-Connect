@@ -89,7 +89,7 @@ function App() {
         setUpdateProgress(0);
       }
       
-      const res = await fetch(`https://raw.githubusercontent.com/Techmastergojo/Engro-Connect/main/version.json?t=${Date.now()}`);
+      const res = await fetch(`https://techmastergojo.github.io/Engro-Connect/version.json?t=${Date.now()}`);
       const data = await res.json();
       
       let currentVersion = '0.0.0';

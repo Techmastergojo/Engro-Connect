@@ -101,31 +101,20 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Update version.json
+      - name: Deploy to GitHub Pages (OTA)
         run: |
           VERSION="${{ steps.version.outputs.VERSION }}"
           TAG="${{ steps.version.outputs.TAG }}"
-          DOWNLOAD_URL="https://github.com/Techmastergojo/Engro-Connect/releases/download/${TAG}/dist.zip"
-
-          echo "Version: $VERSION"
-          echo "Download URL: $DOWNLOAD_URL"
-
-          printf '{"version":"%s","url":"%s"}\n' "$VERSION" "$DOWNLOAD_URL" > version.json
-
-          echo "Generated version.json:"
-          cat version.json
-
-          git config user.email "github-actions@github.com"
-          git config user.name "GitHub Actions"
-
-          git add version.json
-
-          if git diff --staged --quiet; then
-            echo "No changes to version.json"
-          else
-            git commit -m "chore: update OTA version to $TAG [skip ci]"
-            git push
-          fi
-
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          DOWNLOAD_URL="https://techmastergojo.github.io/Engro-Connect/dist.zip"
+          
+          mkdir -p gh-pages-deploy
+          cp dist.zip gh-pages-deploy/
+          printf '{"version":"%s","url":"%s"}\n' "$VERSION" "$DOWNLOAD_URL" > gh-pages-deploy/version.json
+          
+      - name: Push to gh-pages branch
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./gh-pages-deploy
+          publish_branch: gh-pages
+          force_orphan: true

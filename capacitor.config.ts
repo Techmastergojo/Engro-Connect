@@ -8,7 +8,7 @@ const config: CapacitorConfig = {
     CapacitorUpdater: {
       // Self-hosted OTA via GitHub — completely free, no limits
       // GitHub Actions pushes version.json here after every successful build
-      updateUrl: 'https://raw.githubusercontent.com/Techmastergojo/Engro-Connect/main/version.json',
+      updateUrl: 'https://techmastergojo.github.io/Engro-Connect/version.json',
       statsUrl: '',      // disable usage tracking
       channelUrl: '',    // disable Capgo channels (we're self-hosted)
       autoUpdate: false, // We manage updates manually in App.tsx silentCheckForUpdates()
