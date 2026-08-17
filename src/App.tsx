@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import Papa from 'papaparse';
-import { Search, Plus, Upload, Settings, Download } from 'lucide-react';
+import { Search, Plus, Upload, Settings, ExternalLink } from 'lucide-react';
 import type { Site } from './types';
 import { getSites, addSite, updateSite, deleteSite, saveSites, initializeDb } from './db';
 import { SiteCard } from './components/SiteCard';
@@ -8,8 +8,13 @@ import { SiteModal } from './components/SiteModal';
 import { SettingsPanel, applyTheme, THEMES } from './components/SettingsPanel';
 import { ChangelogModal } from './components/ChangelogModal';
 import { SplashScreen } from '@capacitor/splash-screen';
-import { CapacitorUpdater } from '@capgo/capacitor-updater';
 import { addLog } from './logger';
+
+// Website URL — update once Vercel deploys
+const WEBSITE_URL = 'https://engro-enfrashare.vercel.app';
+
+// Injected at build time by Vite (set by GitHub Actions)
+declare const __APP_VERSION__: string;
 
 // Hardcoded token for bug reporting (public_repo scope only — can only create issues)
 // Low risk: even if extracted, can only post issues to this public repo
@@ -28,14 +33,13 @@ function App() {
   const [isSettingsOpen, setIsSettingsOpen] = useState(false);
   const [hasNewBugs, setHasNewBugs] = useState(false);
   const [isChangelogOpen, setIsChangelogOpen] = useState(false);
-  const [updateAvailable, setUpdateAvailable] = useState<{version: string} | null>(null);
-  const [isDownloadingUpdate, setIsDownloadingUpdate] = useState(false);
-  const [downloadProgress, setDownloadProgress] = useState(0);
+  const [updateBanner, setUpdateBanner] = useState<{version: string; msg: string} | null>(null);
   const fileInputRef = useRef<HTMLInputElement>(null);
 
+  // Version baked in at build time by GitHub Actions via Vite define
+  const APP_VERSION = typeof __APP_VERSION__ !== 'undefined' ? __APP_VERSION__ : '0.0.0';
+
   useEffect(() => {
-    // Tell CapacitorUpdater the app started correctly — prevents rollback
-    CapacitorUpdater.notifyAppReady();
     SplashScreen.hide().catch(console.warn);
 
     // Show changelog if not seen yet
@@ -76,60 +80,33 @@ function App() {
 
   const checkForNewApk = async (isManual = false) => {
     try {
-      addLog('Checking for OTA update...', 'info');
+      addLog(`Checking version... (current: ${APP_VERSION})`, 'info');
 
-      // Fetch version.json from main branch (updated by GitHub Actions after every build)
       const res = await fetch(`https://raw.githubusercontent.com/Techmastergojo/Engro-Connect/main/version.json?t=${Date.now()}`);
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       const data = await res.json();
 
-      // Get the currently running bundle version from CapacitorUpdater
-      let currentVersion = '0.0.0';
-      try {
-        const current = await CapacitorUpdater.current();
-        if (current?.bundle?.version && current.bundle.version !== 'builtin') {
-          currentVersion = current.bundle.version;
-        }
-      } catch (_) {}
+      addLog(`Remote: ${data.version} | Local: ${APP_VERSION}`, 'info');
 
-      addLog(`Remote: ${data.version} | Local: ${currentVersion}`, 'info');
-
-      if (data.version && data.version !== currentVersion) {
-        addLog(`Update found: ${data.version} — downloading silently...`, 'success');
-        setIsDownloadingUpdate(true);
-        setDownloadProgress(0);
-
-        const listener = await CapacitorUpdater.addListener('download', (state: { percent: number }) => {
-          setDownloadProgress(state.percent);
+      if (data.version && data.version !== APP_VERSION) {
+        addLog(`New version available: ${data.version}`, 'success');
+        setUpdateBanner({
+          version: data.version,
+          msg: `New version ${data.version} is available!`,
         });
-
-        try {
-          const bundle = await CapacitorUpdater.download({
-            url: data.url,
-            version: data.version,
-          });
-          addLog(`Download complete. Applying bundle ${data.version}...`, 'success');
-          setIsDownloadingUpdate(false);
-          await CapacitorUpdater.set(bundle);
-          // App restarts here automatically
-        } catch (dlErr: any) {
-          addLog(`Download failed: ${dlErr.message}`, 'error');
-          setIsDownloadingUpdate(false);
-          if (isManual) setUpdateAvailable({ version: data.version });
-        } finally {
-          listener.remove();
-        }
       } else {
         addLog('App is up to date.', 'info');
-        setUpdateAvailable(null);
         if (isManual) {
-          // Show brief "up to date" banner then hide
-          setUpdateAvailable({ version: 'latest' });
-          setTimeout(() => setUpdateAvailable(null), 3000);
+          setUpdateBanner({ version: APP_VERSION, msg: `✅ You're on the latest version (${APP_VERSION})` });
+          setTimeout(() => setUpdateBanner(null), 4000);
         }
       }
     } catch (e: any) {
-      addLog(`OTA check failed: ${e.message}`, 'error');
+      addLog(`Version check failed: ${e.message}`, 'error');
+      if (isManual) {
+        setUpdateBanner({ version: '', msg: '⚠️ Could not check for updates. Check your connection.' });
+        setTimeout(() => setUpdateBanner(null), 4000);
+      }
     }
   };
 
@@ -359,37 +336,33 @@ function App() {
         }} 
       />
 
-      {/* Silent download progress bar */}
-      {isDownloadingUpdate && (
-        <div style={{
-          position: 'fixed', bottom: 0, left: 0, right: 0,
-          background: 'var(--surface)', borderTop: '1px solid var(--accent)',
-          zIndex: 9999, padding: '12px 20px',
-        }}>
-          <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '8px' }}>
-            <Download size={16} color="var(--accent)" />
-            <p style={{ margin: 0, fontSize: '0.82rem', fontWeight: 700, color: '#fff' }}>Downloading update... {Math.round(downloadProgress)}%</p>
-          </div>
-          <div style={{ width: '100%', background: 'rgba(255,255,255,0.08)', height: '4px', borderRadius: '2px', overflow: 'hidden' }}>
-            <div style={{ width: `${downloadProgress}%`, height: '100%', background: 'var(--accent)', transition: 'width 0.2s ease-out', boxShadow: '0 0 8px var(--accent)' }} />
-          </div>
-        </div>
-      )}
-
-      {/* Up to date / error banner */}
-      {updateAvailable && !isDownloadingUpdate && (
+      {/* Update notification banner */}
+      {updateBanner && (
         <div style={{
           position: 'fixed', bottom: 16, left: '50%', transform: 'translateX(-50%)',
-          background: 'var(--surface)', border: '1px solid var(--accent)', borderRadius: '12px',
+          background: 'var(--surface)', border: '1px solid var(--accent)', borderRadius: '14px',
           zIndex: 9999, display: 'flex', alignItems: 'center', gap: '12px',
-          padding: '12px 20px', boxShadow: '0 8px 32px rgba(0,0,0,0.5)',
-          minWidth: '260px', maxWidth: '340px'
+          padding: '14px 18px', boxShadow: '0 8px 32px rgba(0,0,0,0.5)',
+          minWidth: '280px', maxWidth: '360px', animation: 'slideUp 0.3s ease'
         }}>
-          <Download size={18} color="var(--accent)" style={{ flexShrink: 0 }} />
-          <p style={{ margin: 0, fontSize: '0.83rem', fontWeight: 600, color: '#fff', flex: 1 }}>
-            {updateAvailable.version === 'latest' ? '✅ App is up to date!' : `Update v${updateAvailable.version} — download from website`}
-          </p>
-          <button onClick={() => setUpdateAvailable(null)} style={{ background: 'none', border: 'none', color: 'var(--text-muted)', cursor: 'pointer', fontSize: '1.2rem', padding: 0 }}>×</button>
+          <ExternalLink size={18} color="var(--accent)" style={{ flexShrink: 0 }} />
+          <div style={{ flex: 1 }}>
+            <p style={{ margin: 0, fontSize: '0.85rem', fontWeight: 700, color: '#fff' }}>{updateBanner.msg}</p>
+            {updateBanner.version && updateBanner.version !== APP_VERSION && (
+              <a
+                href={WEBSITE_URL}
+                target="_blank"
+                rel="noreferrer"
+                style={{ fontSize: '0.75rem', color: 'var(--accent)', fontWeight: 600, textDecoration: 'underline' }}
+              >
+                Tap to download update →
+              </a>
+            )}
+          </div>
+          <button
+            onClick={() => setUpdateBanner(null)}
+            style={{ background: 'none', border: 'none', color: 'var(--text-muted)', cursor: 'pointer', fontSize: '1.3rem', padding: 0, flexShrink: 0 }}
+          >×</button>
         </div>
       )}
     </div>

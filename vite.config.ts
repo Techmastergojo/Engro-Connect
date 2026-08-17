@@ -5,4 +5,8 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   base: './',
   plugins: [react()],
+  define: {
+    // Injected by GitHub Actions before build — lets the app know its own version
+    __APP_VERSION__: JSON.stringify(process.env.VITE_APP_VERSION || '0.0.0'),
+  },
 })
