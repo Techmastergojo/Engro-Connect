@@ -8,6 +8,7 @@ import { SiteModal } from './components/SiteModal';
 import { SettingsPanel, applyTheme, THEMES } from './components/SettingsPanel';
 import { ChangelogModal } from './components/ChangelogModal';
 import { SplashScreen } from '@capacitor/splash-screen';
+import { CapacitorUpdater } from '@capgo/capacitor-updater';
 import { addLog } from './logger';
 
 // Hardcoded token for bug reporting (public_repo scope only — can only create issues)
@@ -27,13 +28,14 @@ function App() {
   const [isSettingsOpen, setIsSettingsOpen] = useState(false);
   const [hasNewBugs, setHasNewBugs] = useState(false);
   const [isChangelogOpen, setIsChangelogOpen] = useState(false);
-  const [updateAvailable, setUpdateAvailable] = useState<{version: string; apkUrl: string} | null>(null);
+  const [updateAvailable, setUpdateAvailable] = useState<{version: string} | null>(null);
+  const [isDownloadingUpdate, setIsDownloadingUpdate] = useState(false);
+  const [downloadProgress, setDownloadProgress] = useState(0);
   const fileInputRef = useRef<HTMLInputElement>(null);
 
-  // Current app version — CI stamps this at build time via version.json
-  const APP_VERSION = '1.0';
-
   useEffect(() => {
+    // Tell CapacitorUpdater the app started correctly — prevents rollback
+    CapacitorUpdater.notifyAppReady();
     SplashScreen.hide().catch(console.warn);
 
     // Show changelog if not seen yet
@@ -72,23 +74,62 @@ function App() {
     };
   }, []);
 
-  const checkForNewApk = async () => {
+  const checkForNewApk = async (isManual = false) => {
     try {
-      addLog('Checking for new APK version...', 'info');
-      const res = await fetch(`https://techmastergojo.github.io/Engro-Connect/version.json?t=${Date.now()}`);
-      addLog(`version.json fetch status: ${res.status}`, 'info');
+      addLog('Checking for OTA update...', 'info');
+
+      // Fetch version.json from main branch (updated by GitHub Actions after every build)
+      const res = await fetch(`https://raw.githubusercontent.com/Techmastergojo/Engro-Connect/main/version.json?t=${Date.now()}`);
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
       const data = await res.json();
-      addLog(`Remote version: ${data.version}, Local: ${APP_VERSION}`, 'info');
-      
-      if (data.version && data.version !== APP_VERSION) {
-        addLog(`New version available: ${data.version}`, 'success');
-        setUpdateAvailable({ version: data.version, apkUrl: data.apkUrl });
+
+      // Get the currently running bundle version from CapacitorUpdater
+      let currentVersion = '0.0.0';
+      try {
+        const current = await CapacitorUpdater.current();
+        if (current?.bundle?.version && current.bundle.version !== 'builtin') {
+          currentVersion = current.bundle.version;
+        }
+      } catch (_) {}
+
+      addLog(`Remote: ${data.version} | Local: ${currentVersion}`, 'info');
+
+      if (data.version && data.version !== currentVersion) {
+        addLog(`Update found: ${data.version} — downloading silently...`, 'success');
+        setIsDownloadingUpdate(true);
+        setDownloadProgress(0);
+
+        const listener = await CapacitorUpdater.addListener('download', (state: { percent: number }) => {
+          setDownloadProgress(state.percent);
+        });
+
+        try {
+          const bundle = await CapacitorUpdater.download({
+            url: data.url,
+            version: data.version,
+          });
+          addLog(`Download complete. Applying bundle ${data.version}...`, 'success');
+          setIsDownloadingUpdate(false);
+          await CapacitorUpdater.set(bundle);
+          // App restarts here automatically
+        } catch (dlErr: any) {
+          addLog(`Download failed: ${dlErr.message}`, 'error');
+          setIsDownloadingUpdate(false);
+          if (isManual) setUpdateAvailable({ version: data.version });
+        } finally {
+          listener.remove();
+        }
       } else {
         addLog('App is up to date.', 'info');
         setUpdateAvailable(null);
+        if (isManual) {
+          // Show brief "up to date" banner then hide
+          setUpdateAvailable({ version: 'latest' });
+          setTimeout(() => setUpdateAvailable(null), 3000);
+        }
       }
     } catch (e: any) {
-      addLog(`Version check failed: ${e.message}`, 'error');
+      addLog(`OTA check failed: ${e.message}`, 'error');
     }
   };
 
@@ -306,7 +347,7 @@ function App() {
         onBugsViewed={handleBugsViewed}
         onForceUpdateCheck={() => {
           setIsSettingsOpen(false);
-          checkForNewApk();
+          checkForNewApk(true);
         }}
       />
       
@@ -318,20 +359,36 @@ function App() {
         }} 
       />
 
-      {/* Update available banner — shown silently at bottom */}
-      {updateAvailable && (
+      {/* Silent download progress bar */}
+      {isDownloadingUpdate && (
+        <div style={{
+          position: 'fixed', bottom: 0, left: 0, right: 0,
+          background: 'var(--surface)', borderTop: '1px solid var(--accent)',
+          zIndex: 9999, padding: '12px 20px',
+        }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '8px' }}>
+            <Download size={16} color="var(--accent)" />
+            <p style={{ margin: 0, fontSize: '0.82rem', fontWeight: 700, color: '#fff' }}>Downloading update... {Math.round(downloadProgress)}%</p>
+          </div>
+          <div style={{ width: '100%', background: 'rgba(255,255,255,0.08)', height: '4px', borderRadius: '2px', overflow: 'hidden' }}>
+            <div style={{ width: `${downloadProgress}%`, height: '100%', background: 'var(--accent)', transition: 'width 0.2s ease-out', boxShadow: '0 0 8px var(--accent)' }} />
+          </div>
+        </div>
+      )}
+
+      {/* Up to date / error banner */}
+      {updateAvailable && !isDownloadingUpdate && (
         <div style={{
           position: 'fixed', bottom: 16, left: '50%', transform: 'translateX(-50%)',
           background: 'var(--surface)', border: '1px solid var(--accent)', borderRadius: '12px',
           zIndex: 9999, display: 'flex', alignItems: 'center', gap: '12px',
           padding: '12px 20px', boxShadow: '0 8px 32px rgba(0,0,0,0.5)',
-          minWidth: '280px', maxWidth: '340px'
+          minWidth: '260px', maxWidth: '340px'
         }}>
-          <Download size={20} color="var(--accent)" style={{ flexShrink: 0 }} />
-          <div style={{ flex: 1 }}>
-            <p style={{ margin: 0, fontSize: '0.85rem', fontWeight: 700, color: '#fff' }}>Update Available</p>
-            <p style={{ margin: 0, fontSize: '0.75rem', color: 'var(--text-secondary)' }}>v{updateAvailable.version} — visit the app website to download</p>
-          </div>
+          <Download size={18} color="var(--accent)" style={{ flexShrink: 0 }} />
+          <p style={{ margin: 0, fontSize: '0.83rem', fontWeight: 600, color: '#fff', flex: 1 }}>
+            {updateAvailable.version === 'latest' ? '✅ App is up to date!' : `Update v${updateAvailable.version} — download from website`}
+          </p>
           <button onClick={() => setUpdateAvailable(null)} style={{ background: 'none', border: 'none', color: 'var(--text-muted)', cursor: 'pointer', fontSize: '1.2rem', padding: 0 }}>×</button>
         </div>
       )}
