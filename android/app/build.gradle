@@ -16,15 +16,25 @@ android {
             ignoreAssetsPattern = '!.svn:!.git:!.ds_store:!*.scc:.*:!CVS:!thumbs.db:!picasa.ini:!*~'
         }
     }
+    signingConfigs {
+        stable {
+            storeFile file("engro-debug.keystore")
+            storePassword "engropass"
+            keyAlias "engro"
+            keyPassword "engropass"
+        }
+    }
     buildTypes {
         release {
             minifyEnabled true
             shrinkResources true
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.stable
         }
         debug {
             minifyEnabled false
             shrinkResources false
+            signingConfig signingConfigs.stable
         }
     }
 }

@@ -1,13 +1,12 @@
 import React, { useState, useEffect, useRef } from 'react';
 import Papa from 'papaparse';
-import { Search, Plus, Upload, Settings } from 'lucide-react';
+import { Search, Plus, Upload, Settings, Download } from 'lucide-react';
 import type { Site } from './types';
 import { getSites, addSite, updateSite, deleteSite, saveSites, initializeDb } from './db';
 import { SiteCard } from './components/SiteCard';
 import { SiteModal } from './components/SiteModal';
 import { SettingsPanel, applyTheme, THEMES } from './components/SettingsPanel';
 import { ChangelogModal } from './components/ChangelogModal';
-import { CapacitorUpdater } from '@capgo/capacitor-updater';
 import { SplashScreen } from '@capacitor/splash-screen';
 import { addLog } from './logger';
 
@@ -28,21 +27,14 @@ function App() {
   const [isSettingsOpen, setIsSettingsOpen] = useState(false);
   const [hasNewBugs, setHasNewBugs] = useState(false);
   const [isChangelogOpen, setIsChangelogOpen] = useState(false);
-  const [updateProgress, setUpdateProgress] = useState<number | null>(null);
-  const [updateStatus, setUpdateStatus] = useState('');
+  const [updateAvailable, setUpdateAvailable] = useState<{version: string; apkUrl: string} | null>(null);
   const fileInputRef = useRef<HTMLInputElement>(null);
 
-  useEffect(() => {
-    // Notify Capgo that the app booted successfully so it doesn't rollback OTA updates
-    CapacitorUpdater.notifyAppReady();
-    // Force hide any native splash screen that might be lingering
-    SplashScreen.hide().catch(console.warn);
+  // Current app version — CI stamps this at build time via version.json
+  const APP_VERSION = '1.0';
 
-    // Show one-time OTA success notification (proves OTA is working)
-    if (!localStorage.getItem('ota_notif_shown_v1')) {
-      alert('✅ OTA updates are now working! This message confirms the update was received.');
-      localStorage.setItem('ota_notif_shown_v1', '1');
-    }
+  useEffect(() => {
+    SplashScreen.hide().catch(console.warn);
 
     // Show changelog if not seen yet
     const hasSeenChangelog = localStorage.getItem('has_seen_changelog_v4');
@@ -57,25 +49,17 @@ function App() {
     // Load sites
     initializeDb().then(loadedSites => setSites(loadedSites));
 
-    // OTA Test Notification
-    setTimeout(() => {
-      alert("🎉 OTA Test Notification! If you see this, the update was successful!");
-    }, 2000);
-
     // Check for new bug reports (silent background check)
     checkForNewBugs();
 
-    // Fire custom background updater silently with a 3-second delay to ensure Capacitor bridge is fully ready
-    const bootTimeout = setTimeout(() => {
-      silentCheckForUpdates(false);
-    }, 5000); // 5s delay — gives Android network stack time to fully initialize
+    // Check for new APK version silently on startup
+    const bootTimeout = setTimeout(() => checkForNewApk(), 4000);
 
-    // Also check for updates every time the app is resumed from background
+    // Also check when app is resumed
     const handleVisibilityChange = () => {
       if (document.visibilityState === 'visible') {
-        // Wait 1 second after resume to ensure connection is restored
         setTimeout(() => {
-          silentCheckForUpdates(false);
+          checkForNewApk();
           checkForNewBugs();
         }, 1000);
       }
@@ -88,88 +72,26 @@ function App() {
     };
   }, []);
 
-  const silentCheckForUpdates = async (isManual = false) => {
+  const checkForNewApk = async () => {
     try {
-      if (isManual) {
-        setUpdateStatus('Checking for updates...');
-        setUpdateProgress(0);
-      }
-      
-      addLog(`Checking for updates... (Manual: ${isManual})`, 'info');
-      const versionUrl = `https://techmastergojo.github.io/Engro-Connect/version.json?t=${Date.now()}`;
-      addLog(`Fetching: ${versionUrl}`, 'info');
-      
-      const res = await fetch(versionUrl);
-      addLog(`Fetch status: ${res.status} ${res.statusText}`, 'info');
-      
+      addLog('Checking for new APK version...', 'info');
+      const res = await fetch(`https://techmastergojo.github.io/Engro-Connect/version.json?t=${Date.now()}`);
+      addLog(`version.json fetch status: ${res.status}`, 'info');
       const data = await res.json();
-      addLog(`Parsed version info: ${JSON.stringify(data)}`, 'info');
+      addLog(`Remote version: ${data.version}, Local: ${APP_VERSION}`, 'info');
       
-      let currentVersion = '0.0.0';
-      try {
-        const current = await CapacitorUpdater.current();
-        if (current && current.bundle && current.bundle.version) {
-          currentVersion = current.bundle.version;
-        }
-        addLog(`Current bundle version: ${currentVersion}`, 'info');
-      } catch (e: any) {
-        addLog(`Failed to get current bundle: ${e.message || e}`, 'error');
-        console.warn('Failed to get current bundle info, assuming native.', e);
-      }
-
-      if (data.version && data.version !== currentVersion) {
-        addLog(`Update found! Current: ${currentVersion} -> New: ${data.version}`, 'info');
-        console.log('Update found! Downloading silently...', data.version);
-        
-        setUpdateStatus('Downloading updates...');
-        setUpdateProgress(0);
-
-        // 'download' is the correct event name per @capgo/capacitor-updater type definitions
-        // fires with { percent: number, bundle: BundleInfo } during download progress
-        const listener = await CapacitorUpdater.addListener('download', (state) => {
-          setUpdateProgress(state.percent);
-        });
-        // Listen for native downloadFailed events to capture the true error reason
-        void CapacitorUpdater.addListener('downloadFailed', (data) => {
-          addLog(`[downloadFailed event] Native error: ${JSON.stringify(data)}`, 'error');
-        });
-
-        try {
-          addLog(`Starting CapacitorUpdater.download from: ${data.url}`, 'info');
-          const bundle = await CapacitorUpdater.download({
-            url: data.url,
-            version: data.version
-          });
-          
-          addLog(`Download successful! Bundle ID: ${bundle.id}`, 'success');
-          setUpdateStatus('Installing and restarting...');
-          alert('🚀 OTA update downloaded! App will now restart with the new version.');
-          
-          addLog(`Calling CapacitorUpdater.set(bundle)`, 'info');
-          await CapacitorUpdater.set(bundle);
-        } catch (downloadErr: any) {
-          addLog(`Download failed: ${downloadErr.message || JSON.stringify(downloadErr)}`, 'error');
-          alert(`Download failed: ${downloadErr.message || downloadErr}`);
-          setUpdateProgress(null);
-        } finally {
-          listener.remove();
-        }
+      if (data.version && data.version !== APP_VERSION) {
+        addLog(`New version available: ${data.version}`, 'success');
+        setUpdateAvailable({ version: data.version, apkUrl: data.apkUrl });
       } else {
-        addLog(`No update needed. Current version matches remote.`, 'info');
-        if (isManual) {
-          setUpdateProgress(null);
-          alert('You are already running the latest version!');
-        }
+        addLog('App is up to date.', 'info');
+        setUpdateAvailable(null);
       }
     } catch (e: any) {
-      addLog(`Silent update failed at top level: ${e.message || JSON.stringify(e)}`, 'error');
-      console.error('Silent update failed:', e);
-      if (isManual) {
-        setUpdateProgress(null);
-        alert(`Failed to check for updates: ${e.message || e}`);
-      }
+      addLog(`Version check failed: ${e.message}`, 'error');
     }
   };
+
 
   const checkForNewBugs = async () => {
     try {
@@ -261,9 +183,8 @@ function App() {
         if (newSites.length > 0) {
           saveSites(newSites);
           setSites(newSites);
-          alert(`Successfully imported ${newSites.length} sites (old database cleared)!`);
         } else {
-          alert('Could not parse any valid coordinates from CSV.');
+          // no valid rows parsed — silently ignore
         }
         if (fileInputRef.current) fileInputRef.current.value = '';
       }
@@ -285,7 +206,7 @@ function App() {
 
         {/* Logo — fixed width on left */}
         <img
-          src="/logo.png"
+          src="/Enfrashare-319x255.png"
           alt="Engro Enfrashare Logo"
           style={{ height: '60px', width: 'auto', objectFit: 'contain', flexShrink: 0, filter: `drop-shadow(0 4px 16px ${themeAccent}55)` }}
         />
@@ -384,8 +305,8 @@ function App() {
         hasNewBugs={hasNewBugs}
         onBugsViewed={handleBugsViewed}
         onForceUpdateCheck={() => {
-          setIsSettingsOpen(false); // Close panel so progress screen overlay is visible
-          silentCheckForUpdates(true);
+          setIsSettingsOpen(false);
+          checkForNewApk();
         }}
       />
       
@@ -397,31 +318,21 @@ function App() {
         }} 
       />
 
-      {updateProgress !== null && (
-        <div 
-          style={{
-            position: 'fixed', top: 16, left: '50%', transform: 'translateX(-50%)',
-            background: 'var(--surface)', border: '1px solid var(--accent)', borderRadius: '12px',
-            zIndex: 9999, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center',
-            padding: '16px 24px', textAlign: 'center', boxShadow: '0 8px 32px rgba(0,0,0,0.4)',
-            minWidth: '280px'
-          }}
-        >
-          <h2 style={{ fontSize: '1rem', fontWeight: 700, marginBottom: '6px', color: '#fff' }}>
-            {updateStatus}
-          </h2>
-
-          <div style={{ width: '100%', background: 'rgba(255,255,255,0.1)', height: '6px', borderRadius: '3px', overflow: 'hidden', marginTop: '8px' }}>
-            <div 
-              style={{ 
-                width: `${updateProgress}%`, 
-                height: '100%', 
-                background: 'var(--accent)', 
-                transition: 'width 0.2s ease-out',
-                boxShadow: '0 0 12px var(--accent)'
-              }} 
-            />
+      {/* Update available banner — shown silently at bottom */}
+      {updateAvailable && (
+        <div style={{
+          position: 'fixed', bottom: 16, left: '50%', transform: 'translateX(-50%)',
+          background: 'var(--surface)', border: '1px solid var(--accent)', borderRadius: '12px',
+          zIndex: 9999, display: 'flex', alignItems: 'center', gap: '12px',
+          padding: '12px 20px', boxShadow: '0 8px 32px rgba(0,0,0,0.5)',
+          minWidth: '280px', maxWidth: '340px'
+        }}>
+          <Download size={20} color="var(--accent)" style={{ flexShrink: 0 }} />
+          <div style={{ flex: 1 }}>
+            <p style={{ margin: 0, fontSize: '0.85rem', fontWeight: 700, color: '#fff' }}>Update Available</p>
+            <p style={{ margin: 0, fontSize: '0.75rem', color: 'var(--text-secondary)' }}>v{updateAvailable.version} — visit the app website to download</p>
           </div>
+          <button onClick={() => setUpdateAvailable(null)} style={{ background: 'none', border: 'none', color: 'var(--text-muted)', cursor: 'pointer', fontSize: '1.2rem', padding: 0 }}>×</button>
         </div>
       )}
     </div>
