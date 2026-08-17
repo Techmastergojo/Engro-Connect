@@ -8,7 +8,6 @@ import { SiteModal } from './components/SiteModal';
 import { SettingsPanel, applyTheme, THEMES } from './components/SettingsPanel';
 import { ChangelogModal } from './components/ChangelogModal';
 import { SplashScreen } from '@capacitor/splash-screen';
-import { addLog } from './logger';
 
 // Website URL — update once Vercel deploys
 const WEBSITE_URL = 'https://engro-enfrashare.vercel.app';
@@ -80,31 +79,31 @@ function App() {
 
   const checkForNewApk = async (isManual = false) => {
     try {
-      addLog(`Checking version... (current: ${APP_VERSION})`, 'info');
+      console.log(`Checking version... (current: ${APP_VERSION})`);
 
       const res = await fetch(`https://raw.githubusercontent.com/Techmastergojo/Engro-Connect/main/version.json?t=${Date.now()}`);
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       const data = await res.json();
 
-      addLog(`Remote: ${data.version} | Local: ${APP_VERSION}`, 'info');
+      console.log(`Remote: ${data.version} | Local: ${APP_VERSION}`);
 
       if (data.version && data.version !== APP_VERSION) {
-        addLog(`New version available: ${data.version}`, 'success');
+        console.log(`New version available: ${data.version}`);
         setUpdateBanner({
           version: data.version,
-          msg: `New version ${data.version} is available!`,
+          msg: `A newer version (${data.version}) is available. Please update to get the latest site databases, features and bug fixes.`,
         });
       } else {
-        addLog('App is up to date.', 'info');
+        console.log('App is up to date.');
         if (isManual) {
-          setUpdateBanner({ version: APP_VERSION, msg: `✅ You're on the latest version (${APP_VERSION})` });
+          setUpdateBanner({ version: APP_VERSION, msg: `✅ You are currently running the latest version (${APP_VERSION}).` });
           setTimeout(() => setUpdateBanner(null), 4000);
         }
       }
     } catch (e: any) {
-      addLog(`Version check failed: ${e.message}`, 'error');
+      console.error(`Version check failed: ${e.message}`);
       if (isManual) {
-        setUpdateBanner({ version: '', msg: '⚠️ Could not check for updates. Check your connection.' });
+        setUpdateBanner({ version: '', msg: '⚠️ Failed to connect to the update server. Please check your network connection.' });
         setTimeout(() => setUpdateBanner(null), 4000);
       }
     }
@@ -224,7 +223,7 @@ function App() {
 
         {/* Logo — fixed width on left */}
         <img
-          src="/Enfrashare-319x255.png"
+          src="/logo.png"
           alt="Engro Enfrashare Logo"
           style={{ height: '60px', width: 'auto', objectFit: 'contain', flexShrink: 0, filter: `drop-shadow(0 4px 16px ${themeAccent}55)` }}
         />
@@ -336,33 +335,70 @@ function App() {
         }} 
       />
 
-      {/* Update notification banner */}
+      {/* Update notification popup (modal) */}
       {updateBanner && (
         <div style={{
-          position: 'fixed', bottom: 16, left: '50%', transform: 'translateX(-50%)',
-          background: 'var(--surface)', border: '1px solid var(--accent)', borderRadius: '14px',
-          zIndex: 9999, display: 'flex', alignItems: 'center', gap: '12px',
-          padding: '14px 18px', boxShadow: '0 8px 32px rgba(0,0,0,0.5)',
-          minWidth: '280px', maxWidth: '360px', animation: 'slideUp 0.3s ease'
+          position: 'fixed', top: 0, left: 0, right: 0, bottom: 0,
+          background: 'rgba(0, 0, 0, 0.75)', backdropFilter: 'blur(5px)',
+          zIndex: 9999, display: 'flex', alignItems: 'center', justifyContent: 'center',
+          padding: '20px', animation: 'fadeIn 0.25s ease'
         }}>
-          <ExternalLink size={18} color="var(--accent)" style={{ flexShrink: 0 }} />
-          <div style={{ flex: 1 }}>
-            <p style={{ margin: 0, fontSize: '0.85rem', fontWeight: 700, color: '#fff' }}>{updateBanner.msg}</p>
-            {updateBanner.version && updateBanner.version !== APP_VERSION && (
-              <a
-                href={WEBSITE_URL}
-                target="_blank"
-                rel="noreferrer"
-                style={{ fontSize: '0.75rem', color: 'var(--accent)', fontWeight: 600, textDecoration: 'underline' }}
+          <div className="glass" style={{
+            border: '1px solid var(--accent)', borderRadius: '16px',
+            padding: '28px 24px', maxWidth: '380px', width: '100%', textAlign: 'center',
+            boxShadow: '0 24px 48px rgba(0,0,0,0.6)', display: 'flex', flexDirection: 'column',
+            alignItems: 'center', gap: '20px', position: 'relative'
+          }}>
+            <div style={{
+              width: '56px', height: '56px', borderRadius: '50%', background: 'rgba(0, 168, 107, 0.15)',
+              display: 'flex', alignItems: 'center', justifyContent: 'center'
+            }}>
+              <ExternalLink size={28} color="var(--accent)" />
+            </div>
+            
+            <div>
+              <h3 style={{ margin: '0 0 6px', fontSize: '1.25rem', fontWeight: 800, color: '#fff' }}>
+                {updateBanner.version && updateBanner.version !== APP_VERSION ? 'App Update Available' : 'Update Check'}
+              </h3>
+              <p style={{ margin: 0, fontSize: '0.88rem', color: 'var(--text-secondary)', lineHeight: '1.5' }}>
+                {updateBanner.msg}
+              </p>
+            </div>
+
+            {updateBanner.version && updateBanner.version !== APP_VERSION ? (
+              <div style={{ display: 'flex', flexDirection: 'column', gap: '10px', width: '100%' }}>
+                <a
+                  href={WEBSITE_URL}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="btn-accent"
+                  style={{
+                    display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '8px',
+                    width: '100%', padding: '12px 16px', fontWeight: 700, textDecoration: 'none',
+                    borderRadius: '8px', fontSize: '0.9rem'
+                  }}
+                  onClick={() => setUpdateBanner(null)}
+                >
+                  Download and Install
+                </a>
+                <button
+                  onClick={() => setUpdateBanner(null)}
+                  className="btn-ghost"
+                  style={{ width: '100%', padding: '10px', fontSize: '0.85rem' }}
+                >
+                  Maybe Later
+                </button>
+              </div>
+            ) : (
+              <button
+                onClick={() => setUpdateBanner(null)}
+                className="btn-accent"
+                style={{ width: '100%', padding: '12px' }}
               >
-                Tap to download update →
-              </a>
+                Done
+              </button>
             )}
           </div>
-          <button
-            onClick={() => setUpdateBanner(null)}
-            style={{ background: 'none', border: 'none', color: 'var(--text-muted)', cursor: 'pointer', fontSize: '1.3rem', padding: 0, flexShrink: 0 }}
-          >×</button>
         </div>
       )}
     </div>

@@ -1,7 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { X, Palette, Bug, CheckCircle, AlertCircle, Loader2, RefreshCw, DownloadCloud, FileText, Trash2 } from 'lucide-react';
-import { getLogs, clearLogs } from '../logger';
-import type { OtaLog } from '../logger';
+import { X, Palette, Bug, CheckCircle, AlertCircle, Loader2, RefreshCw, DownloadCloud } from 'lucide-react';
 
 // ── Theme definitions ────────────────────────────────────────────────────────
 export const THEMES = [
@@ -79,9 +77,8 @@ interface Props {
 }
 
 export const SettingsPanel: React.FC<Props> = ({ isOpen, onClose, hasNewBugs, onBugsViewed, onForceUpdateCheck }) => {
-  const [activeTab, setActiveTab] = useState<'theme' | 'bugs' | 'logs'>('theme');
+  const [activeTab, setActiveTab] = useState<'theme' | 'bugs'>('theme');
   const [currentTheme, setCurrentTheme] = useState(() => localStorage.getItem('app_theme') || 'sunset-orange');
-  const [otaLogs, setOtaLogs] = useState<OtaLog[]>([]);
   
   // Bug report state
   const [bugs, setBugs] = useState<BugReport[]>([]);
@@ -96,9 +93,6 @@ export const SettingsPanel: React.FC<Props> = ({ isOpen, onClose, hasNewBugs, on
     if (activeTab === 'bugs' && isOpen) {
       fetchBugs();
       onBugsViewed();
-    }
-    if (activeTab === 'logs' && isOpen) {
-      setOtaLogs(getLogs());
     }
   }, [activeTab, isOpen]);
 
@@ -190,18 +184,6 @@ export const SettingsPanel: React.FC<Props> = ({ isOpen, onClose, hasNewBugs, on
               }} />
             )}
           </button>
-          <button 
-            onClick={() => setActiveTab('logs')}
-            style={{ 
-              flex: 1, padding: '10px', borderRadius: 'var(--radius-sm)', fontWeight: 600, fontSize: '0.88rem',
-              background: activeTab === 'logs' ? 'var(--accent-bg)' : 'transparent',
-              color: activeTab === 'logs' ? 'var(--accent)' : 'var(--text-secondary)',
-              border: `1px solid ${activeTab === 'logs' ? 'var(--border-hover)' : 'transparent'}`,
-              display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '6px'
-            }}
-          >
-            <FileText size={16} /> Logs
-          </button>
         </div>
 
         {/* Content */}
@@ -251,59 +233,9 @@ export const SettingsPanel: React.FC<Props> = ({ isOpen, onClose, hasNewBugs, on
                     style={{ width: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '8px' }}
                     onClick={onForceUpdateCheck}
                   >
-                    <DownloadCloud size={18} /> Force OTA Update
+                    <DownloadCloud size={18} /> Force Update Check
                   </button>
                 </div>
-            </div>
-          )}
-
-          {/* ── Logs Tab ── */}
-          {activeTab === 'logs' && (
-            <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
-              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-                <p style={{ color: 'var(--text-secondary)', fontSize: '0.85rem' }}>
-                  Diagnostic logs for OTA updates.
-                </p>
-                <button 
-                  className="btn-ghost" 
-                  onClick={() => { clearLogs(); setOtaLogs([]); }}
-                  style={{ padding: '6px 10px', fontSize: '0.78rem', color: '#ff4d6d' }}
-                >
-                  <Trash2 size={14} /> Clear
-                </button>
-              </div>
-              
-              <div style={{ 
-                background: 'var(--surface)', 
-                border: '1px solid var(--border)', 
-                borderRadius: 'var(--radius-md)', 
-                padding: '12px',
-                fontFamily: 'monospace',
-                fontSize: '0.75rem',
-                maxHeight: '400px',
-                overflowY: 'auto',
-                display: 'flex',
-                flexDirection: 'column',
-                gap: '8px'
-              }}>
-                {otaLogs.length === 0 ? (
-                  <div style={{ color: 'var(--text-muted)', textAlign: 'center', padding: '20px 0' }}>No logs recorded yet.</div>
-                ) : (
-                  otaLogs.map((log, i) => (
-                    <div key={i} style={{ 
-                      color: log.type === 'error' ? '#ff4d6d' : log.type === 'success' ? '#00c850' : 'var(--text-primary)',
-                      borderBottom: '1px solid rgba(255,255,255,0.05)',
-                      paddingBottom: '8px',
-                      wordBreak: 'break-word'
-                    }}>
-                      <div style={{ opacity: 0.5, fontSize: '0.65rem', marginBottom: '2px' }}>
-                        {new Date(log.timestamp).toLocaleTimeString()}
-                      </div>
-                      {log.message}
-                    </div>
-                  ))
-                )}
-              </div>
             </div>
           )}
 
