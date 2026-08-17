@@ -233,7 +233,7 @@ export const SettingsPanel: React.FC<Props> = ({ isOpen, onClose, hasNewBugs, on
                     style={{ width: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '8px' }}
                     onClick={onForceUpdateCheck}
                   >
-                    <DownloadCloud size={18} /> Force Update Check
+                    <DownloadCloud size={18} /> Check for Updates
                   </button>
                 </div>
             </div>
