@@ -210,7 +210,14 @@ function App() {
 
   const filteredSites = sites.filter(s => {
     if (!searchQuery.trim()) return true;
-    return s.name.toLowerCase().includes(searchQuery.trim().toLowerCase());
+    const query = searchQuery.trim().toLowerCase();
+    return (
+      s.name.toLowerCase().includes(query) ||
+      (s.jazzId && s.jazzId.toLowerCase().includes(query)) ||
+      (s.telenorId && s.telenorId.toLowerCase().includes(query)) ||
+      (s.zongId && s.zongId.toLowerCase().includes(query)) ||
+      (s.ufoneId && s.ufoneId.toLowerCase().includes(query))
+    );
   });
 
   // Get accent color for current theme
@@ -266,7 +273,7 @@ function App() {
           <input
             className="input"
             style={{ paddingLeft: '48px' }}
-            placeholder="Search by Site ID..."
+            placeholder="Search by Site ID or OMO ID (Jazz, Zong...)"
             value={searchQuery}
             onChange={e => setSearchQuery(e.target.value)}
           />
