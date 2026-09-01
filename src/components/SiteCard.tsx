@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
-import { Map, Edit2, Trash2, MessageSquare, ChevronDown, ChevronUp, Sun, Radio } from 'lucide-react';
+import { Map, Edit2, Trash2, MessageSquare, ChevronDown, ChevronUp, Sun, Radio, ShieldCheck } from 'lucide-react';
 import type { Site } from '../types';
+import { analyticsData } from '../analyticsData';
 
 interface Props {
   site: Site;
@@ -10,6 +11,11 @@ interface Props {
 
 export const SiteCard: React.FC<Props> = ({ site, onEdit, onDelete }) => {
   const [isExpanded, setIsExpanded] = useState(false);
+
+  // Match C-4 records if this site is in C-4 scope
+  const siteCodeQuery = site.name.split('_')[0].trim().toLowerCase();
+  const c4Nar = analyticsData.nar.sites.find((s: any) => s.code.toLowerCase() === siteCodeQuery || s.name.toLowerCase().includes(siteCodeQuery));
+  const c4Fuel = analyticsData.fuel.siteFuelList.find((s: any) => s.siteCode.toLowerCase() === siteCodeQuery);
 
   const openInMap = (e: React.MouseEvent) => {
     e.stopPropagation();
@@ -142,6 +148,40 @@ export const SiteCard: React.FC<Props> = ({ site, onEdit, onDelete }) => {
             <div className="detail-label">NE Location</div>
             <div className="detail-value">{v(site.neLocation)}</div>
           </div>
+
+          {/* C-4 Intelligence Info if monitored in C-4 scope */}
+          {(c4Nar || c4Fuel) && (
+            <div className="detail-full" style={{ marginTop: '8px', padding: '10px 12px', background: 'rgba(0,168,107,0.08)', border: '1px solid var(--border)', borderRadius: '10px' }}>
+              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '6px' }}>
+                <span style={{ fontSize: '0.75rem', fontWeight: 800, color: 'var(--accent)', display: 'flex', alignItems: 'center', gap: '4px' }}>
+                  <ShieldCheck size={14} /> C-4 August Intelligence
+                </span>
+                <span style={{ fontSize: '0.68rem', color: 'var(--text-muted)' }}>C-4 Region Active</span>
+              </div>
+              <div style={{ display: 'flex', gap: '12px', flexWrap: 'wrap', fontSize: '0.78rem' }}>
+                {c4Nar && (
+                  <div>
+                    <span style={{ color: 'var(--text-muted)' }}>Avg NAR: </span>
+                    <strong style={{ color: c4Nar.avgNar >= 99 ? '#10b981' : c4Nar.avgNar >= 98 ? '#f59e0b' : '#ef4444' }}>
+                      {c4Nar.avgNar.toFixed(1)}%
+                    </strong>
+                  </div>
+                )}
+                {c4Fuel && (
+                  <div>
+                    <span style={{ color: 'var(--text-muted)' }}>Fuel Poured: </span>
+                    <strong style={{ color: 'var(--accent)' }}>{c4Fuel.totalPoured} L</strong>
+                  </div>
+                )}
+                {c4Fuel?.dgProfile?.dgKva && (
+                  <div>
+                    <span style={{ color: 'var(--text-muted)' }}>DG: </span>
+                    <strong style={{ color: 'var(--text-primary)' }}>{c4Fuel.dgProfile.dgKva} KVA</strong>
+                  </div>
+                )}
+              </div>
+            </div>
+          )}
 
           {/* Operator IDs + Services — each operator in one full-width row */}
           <div className="detail-full" style={{ marginTop: '4px' }}>
