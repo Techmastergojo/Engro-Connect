@@ -39,7 +39,9 @@ jobs:
           echo "Building version: $VERSION"
 
       - name: Regenerate transparent logo and site data
-        run: python update_script.py || echo "update_script.py failed (non-fatal)"
+        run: |
+          python update_script.py || echo "update_script.py failed (non-fatal)"
+          python parse_analytics_data.py || echo "parse_analytics_data.py failed (non-fatal)"
 
       - name: Build Web App
         run: npm run build

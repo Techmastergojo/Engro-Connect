@@ -1,12 +1,14 @@
 import React, { useState, useEffect, useRef } from 'react';
 import Papa from 'papaparse';
-import { Search, Plus, Upload, Settings, ExternalLink } from 'lucide-react';
+import { Search, Plus, Upload, Settings, ExternalLink, Radio, BarChart2, Fuel } from 'lucide-react';
 import type { Site } from './types';
 import { getSites, addSite, updateSite, deleteSite, saveSites, initializeDb } from './db';
 import { SiteCard } from './components/SiteCard';
 import { SiteModal } from './components/SiteModal';
 import { SettingsPanel, applyTheme, THEMES } from './components/SettingsPanel';
 import { ChangelogModal } from './components/ChangelogModal';
+import { NarDashboard } from './components/NarDashboard';
+import { FuelDashboard } from './components/FuelDashboard';
 import { SplashScreen } from '@capacitor/splash-screen';
 
 // Website URL — update once Vercel deploys
@@ -33,6 +35,7 @@ function App() {
   const [hasNewBugs, setHasNewBugs] = useState(false);
   const [isChangelogOpen, setIsChangelogOpen] = useState(false);
   const [updateBanner, setUpdateBanner] = useState<{version: string; msg: string} | null>(null);
+  const [currentView, setCurrentView] = useState<'sites' | 'nar' | 'fuel'>('sites');
   const fileInputRef = useRef<HTMLInputElement>(null);
 
   // Version baked in at build time by GitHub Actions via Vite define
@@ -225,8 +228,8 @@ function App() {
   const themeAccent = THEMES.find(t => t.id === savedTheme)?.accent || '#00a86b';
 
   return (
-    <div style={{ maxWidth: '600px', margin: '0 auto', padding: '32px 16px', position: 'relative' }}>
-      <header style={{ marginBottom: '32px', position: 'relative', display: 'flex', alignItems: 'center', gap: '14px', minHeight: '72px' }}>
+    <div style={{ maxWidth: currentView === 'sites' ? '600px' : '840px', margin: '0 auto', padding: '32px 16px', position: 'relative', transition: 'max-width 0.3s ease' }}>
+      <header style={{ marginBottom: '24px', position: 'relative', display: 'flex', alignItems: 'center', gap: '14px', minHeight: '72px' }}>
 
         {/* Logo — fixed width on left */}
         <img
@@ -267,53 +270,143 @@ function App() {
         </button>
       </header>
 
-      <div style={{ display: 'flex', gap: '10px', marginBottom: '24px' }}>
-        <div style={{ position: 'relative', flex: 1 }}>
-          <Search size={18} style={{ position: 'absolute', left: '16px', top: '50%', transform: 'translateY(-50%)', color: 'var(--text-muted)' }} />
-          <input
-            className="input"
-            style={{ paddingLeft: '48px' }}
-            placeholder="Search by Site ID or OMO ID (Jazz, Zong...)"
-            value={searchQuery}
-            onChange={e => setSearchQuery(e.target.value)}
-          />
-        </div>
+      {/* Main Feature View Navigation Bar */}
+      <nav style={{
+        display: 'flex',
+        background: 'var(--surface)',
+        border: '1px solid var(--border)',
+        borderRadius: '12px',
+        padding: '4px',
+        marginBottom: '24px',
+        gap: '4px',
+        boxShadow: '0 4px 20px rgba(0,0,0,0.2)'
+      }}>
         <button
-          className="btn-accent"
-          style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '12px 16px' }}
-          onClick={() => { setEditingSite(null); setIsModalOpen(true); }}
-          title="Add New Site"
+          onClick={() => setCurrentView('sites')}
+          style={{
+            flex: 1,
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            gap: '8px',
+            padding: '10px 12px',
+            borderRadius: '8px',
+            fontSize: '0.88rem',
+            fontWeight: 700,
+            border: 'none',
+            cursor: 'pointer',
+            transition: 'all 0.2s',
+            background: currentView === 'sites' ? 'var(--accent)' : 'transparent',
+            color: currentView === 'sites' ? '#fff' : 'var(--text-secondary)'
+          }}
         >
-          <Plus size={22} />
+          <Radio size={16} /> Sites
         </button>
-      </div>
 
-      <div style={{ display: 'flex', justifyContent: 'flex-end', marginBottom: '16px' }}>
-        <input type="file" accept=".csv" ref={fileInputRef} onChange={handleFileUpload} style={{ display: 'none' }} />
-        <button className="btn-ghost" onClick={() => fileInputRef.current?.click()}>
-          <Upload size={16} /> Import CSV
+        <button
+          onClick={() => setCurrentView('nar')}
+          style={{
+            flex: 1,
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            gap: '8px',
+            padding: '10px 12px',
+            borderRadius: '8px',
+            fontSize: '0.88rem',
+            fontWeight: 700,
+            border: 'none',
+            cursor: 'pointer',
+            transition: 'all 0.2s',
+            background: currentView === 'nar' ? 'var(--accent)' : 'transparent',
+            color: currentView === 'nar' ? '#fff' : 'var(--text-secondary)'
+          }}
+        >
+          <BarChart2 size={16} /> NAR Intelligence
         </button>
-      </div>
 
-      {filteredSites.length === 0 ? (
-        <div className="glass" style={{ padding: '48px 24px', textAlign: 'center' }}>
-          <p style={{ color: 'var(--text-secondary)', fontSize: '0.95rem' }}>No matching Engro sites found.</p>
-          <button className="btn-accent" style={{ marginTop: '16px' }} onClick={() => { setEditingSite(null); setIsModalOpen(true); }}>
-            Add New Site Manually
-          </button>
-        </div>
-      ) : (
-        <div style={{ display: 'flex', flexDirection: 'column', gap: '4px' }}>
-          {filteredSites.slice(0, 100).map(site => (
-            <SiteCard key={site.id} site={site} onEdit={(s) => { setEditingSite(s); setIsModalOpen(true); }} onDelete={handleDelete} />
-          ))}
-          {filteredSites.length > 100 && (
-            <p style={{ textAlign: 'center', color: 'var(--text-muted)', fontSize: '0.85rem', marginTop: '12px' }}>
-              Showing first 100 sites. Use search to find specific sites.
-            </p>
+        <button
+          onClick={() => setCurrentView('fuel')}
+          style={{
+            flex: 1,
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            gap: '8px',
+            padding: '10px 12px',
+            borderRadius: '8px',
+            fontSize: '0.88rem',
+            fontWeight: 700,
+            border: 'none',
+            cursor: 'pointer',
+            transition: 'all 0.2s',
+            background: currentView === 'fuel' ? 'var(--accent)' : 'transparent',
+            color: currentView === 'fuel' ? '#fff' : 'var(--text-secondary)'
+          }}
+        >
+          <Fuel size={16} /> Fuel Activity
+        </button>
+      </nav>
+
+      {/* ── VIEW 1: SITES DATABASE ── */}
+      {currentView === 'sites' && (
+        <div>
+          <div style={{ display: 'flex', gap: '10px', marginBottom: '24px' }}>
+            <div style={{ position: 'relative', flex: 1 }}>
+              <Search size={18} style={{ position: 'absolute', left: '16px', top: '50%', transform: 'translateY(-50%)', color: 'var(--text-muted)' }} />
+              <input
+                className="input"
+                style={{ paddingLeft: '48px' }}
+                placeholder="Search by Site ID or OMO ID (Jazz, Zong...)"
+                value={searchQuery}
+                onChange={e => setSearchQuery(e.target.value)}
+              />
+            </div>
+            <button
+              className="btn-accent"
+              style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '12px 16px' }}
+              onClick={() => { setEditingSite(null); setIsModalOpen(true); }}
+              title="Add New Site"
+            >
+              <Plus size={22} />
+            </button>
+          </div>
+
+          <div style={{ display: 'flex', justifyContent: 'flex-end', marginBottom: '16px' }}>
+            <input type="file" accept=".csv" ref={fileInputRef} onChange={handleFileUpload} style={{ display: 'none' }} />
+            <button className="btn-ghost" onClick={() => fileInputRef.current?.click()}>
+              <Upload size={16} /> Import CSV
+            </button>
+          </div>
+
+          {filteredSites.length === 0 ? (
+            <div className="glass" style={{ padding: '48px 24px', textAlign: 'center' }}>
+              <p style={{ color: 'var(--text-secondary)', fontSize: '0.95rem' }}>No matching Engro sites found.</p>
+              <button className="btn-accent" style={{ marginTop: '16px' }} onClick={() => { setEditingSite(null); setIsModalOpen(true); }}>
+                Add New Site Manually
+              </button>
+            </div>
+          ) : (
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '4px' }}>
+              {filteredSites.slice(0, 100).map(site => (
+                <SiteCard key={site.id} site={site} onEdit={(s) => { setEditingSite(s); setIsModalOpen(true); }} onDelete={handleDelete} />
+              ))}
+              {filteredSites.length > 100 && (
+                <p style={{ textAlign: 'center', color: 'var(--text-muted)', fontSize: '0.85rem', marginTop: '12px' }}>
+                  Showing first 100 sites. Use search to find specific sites.
+                </p>
+              )}
+            </div>
           )}
         </div>
       )}
+
+      {/* ── VIEW 2: NAR ANALYTICS ── */}
+      {currentView === 'nar' && <NarDashboard />}
+
+      {/* ── VIEW 3: FUEL ACTIVITY ── */}
+      {currentView === 'fuel' && <FuelDashboard />}
+
 
 
 
