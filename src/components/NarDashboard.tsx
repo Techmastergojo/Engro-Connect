@@ -6,13 +6,22 @@ import type { NarSite } from '../types';
 export const NarDashboard: React.FC = () => {
   const [selectedMbu, setSelectedMbu] = useState<string>('ALL');
   const [timeFilter, setTimeFilter] = useState<'3d' | '7d' | '15d' | '1m' | '6m'>('1m');
-  const [activeSubTab, setActiveSubTab] = useState<'overview' | 'daily' | 'priority' | 'sites' | 'outages'>('overview');
+  const [activeSubTab, setActiveSubTab] = useState<'overview' | 'worst20' | 'daily' | 'priority' | 'sites' | 'outages'>('overview');
   const [siteSearch, setSiteSearch] = useState('');
   const [selectedReasonDomain, setSelectedReasonDomain] = useState<string>('ALL');
 
   const narData = analyticsData.nar;
   const mbuList = analyticsData.mbuList;
   const allDates = analyticsData.dates; // 27 active dates in August
+
+  // Top 20 Worst Performing Sites (Lowest NAR in August)
+  const top20WorstSites = useMemo(() => {
+    let list: NarSite[] = [...(narData.sites as NarSite[])];
+    if (selectedMbu !== 'ALL') {
+      list = list.filter(s => s.mbu.toLowerCase() === selectedMbu.toLowerCase());
+    }
+    return list.sort((a, b) => a.avgNar - b.avgNar).slice(0, 20);
+  }, [selectedMbu, narData.sites]);
 
   // Filter dates based on active time filter
   const filteredDates = useMemo(() => {
@@ -209,7 +218,8 @@ export const NarDashboard: React.FC = () => {
       {/* Sub-Nav Tabs */}
       <div style={{ display: 'flex', gap: '8px', overflowX: 'auto', paddingBottom: '4px' }}>
         {[
-          { id: 'overview', label: '📊 Overview & MBU Chart' },
+          { id: 'overview', label: '📊 Overview & Charts' },
+          { id: 'worst20', label: '🚨 Top 20 Worst Sites (' + top20WorstSites.length + ')' },
           { id: 'daily', label: '📅 Daily Trend (' + filteredDates.length + ' days)' },
           { id: 'priority', label: '⭐ Elite & Platinum' },
           { id: 'sites', label: '🔍 Site Performance (' + filteredSites.length + ')' },
@@ -431,6 +441,148 @@ export const NarDashboard: React.FC = () => {
             </div>
           </div>
 
+          {/* 🚨 TOP 20 WORST PERFORMING SITES LIST */}
+          <div className="glass" style={{ padding: '20px', borderRadius: '16px', border: '1px solid rgba(239,68,68,0.3)', background: 'rgba(239,68,68,0.03)' }}>
+            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '16px' }}>
+              <div>
+                <h3 style={{ fontSize: '1.05rem', fontWeight: 800, margin: 0, color: '#f87171', display: 'flex', alignItems: 'center', gap: '8px' }}>
+                  <AlertTriangle size={18} color="#ef4444" />
+                  🚨 Top 20 Worst Performing Sites ({selectedMbu === 'ALL' ? 'Whole C-4' : selectedMbu})
+                </h3>
+                <span style={{ fontSize: '0.75rem', color: 'var(--text-muted)' }}>
+                  Sites with lowest availability in August requiring immediate field attention
+                </span>
+              </div>
+              <span className="badge" style={{ background: 'rgba(239,68,68,0.15)', color: '#f87171', border: '1px solid rgba(239,68,68,0.3)', margin: 0 }}>
+                Critical Outages
+              </span>
+            </div>
+
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '8px', maxHeight: '420px', overflowY: 'auto' }}>
+              {top20WorstSites.map((site, rank) => (
+                <div 
+                  key={site.code} 
+                  style={{ 
+                    display: 'flex', 
+                    justifyContent: 'space-between', 
+                    alignItems: 'center', 
+                    padding: '12px 14px', 
+                    background: 'var(--surface)', 
+                    border: '1px solid var(--border)', 
+                    borderRadius: '10px' 
+                  }}
+                >
+                  <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+                    <span style={{
+                      width: '26px',
+                      height: '26px',
+                      borderRadius: '50%',
+                      background: rank < 3 ? 'rgba(239,68,68,0.25)' : 'rgba(255,255,255,0.06)',
+                      color: rank < 3 ? '#ef4444' : 'var(--text-muted)',
+                      fontSize: '0.75rem',
+                      fontWeight: 800,
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'center'
+                    }}>
+                      {rank + 1}
+                    </span>
+                    <div>
+                      <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+                        <span style={{ fontWeight: 800, fontSize: '0.92rem', color: '#fff' }}>{site.code}</span>
+                        <span style={{ fontSize: '0.7rem', padding: '2px 6px', background: 'rgba(255,255,255,0.06)', borderRadius: '4px', color: 'var(--text-muted)' }}>
+                          {site.mbu}
+                        </span>
+                      </div>
+                      <div style={{ fontSize: '0.75rem', color: 'var(--text-secondary)', marginTop: '2px' }}>
+                        {site.name}
+                      </div>
+                    </div>
+                  </div>
+
+                  <div style={{ textAlign: 'right' }}>
+                    <div style={{ fontSize: '1.1rem', fontWeight: 900, color: '#ef4444' }}>
+                      {site.avgNar.toFixed(1)}%
+                    </div>
+                    <span style={{ fontSize: '0.7rem', color: '#f87171' }}>Critical NAR</span>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+
+        </div>
+      )}
+
+      {/* ── SUB-TAB: DEDICATED TOP 20 WORST SITES ── */}
+      {activeSubTab === 'worst20' && (
+        <div className="glass" style={{ padding: '20px', borderRadius: '16px', border: '1px solid rgba(239,68,68,0.3)' }}>
+          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '16px' }}>
+            <div>
+              <h3 style={{ fontSize: '1.1rem', fontWeight: 800, margin: 0, color: '#f87171', display: 'flex', alignItems: 'center', gap: '8px' }}>
+                <AlertTriangle size={20} color="#ef4444" />
+                🚨 Top 20 Worst Performing Sites in Cluster 4
+              </h3>
+              <span style={{ fontSize: '0.78rem', color: 'var(--text-muted)' }}>
+                Prioritized targets for FLM maintenance and genset restoration
+              </span>
+            </div>
+            <span style={{ fontSize: '0.8rem', color: 'var(--text-secondary)' }}>
+              Showing lowest 20 of {narData.sites.length} sites
+            </span>
+          </div>
+
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
+            {top20WorstSites.map((site, rank) => (
+              <div 
+                key={site.code} 
+                style={{ 
+                  display: 'flex', 
+                  justifyContent: 'space-between', 
+                  alignItems: 'center', 
+                  padding: '14px 16px', 
+                  background: 'var(--surface)', 
+                  border: '1px solid var(--border)', 
+                  borderRadius: '12px' 
+                }}
+              >
+                <div style={{ display: 'flex', alignItems: 'center', gap: '14px' }}>
+                  <span style={{
+                    width: '32px',
+                    height: '32px',
+                    borderRadius: '8px',
+                    background: rank < 3 ? 'rgba(239,68,68,0.2)' : 'rgba(255,255,255,0.05)',
+                    color: rank < 3 ? '#ef4444' : 'var(--text-primary)',
+                    fontSize: '0.85rem',
+                    fontWeight: 800,
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center'
+                  }}>
+                    #{rank + 1}
+                  </span>
+                  <div>
+                    <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+                      <span style={{ fontWeight: 800, fontSize: '0.98rem', color: '#fff' }}>{site.code}</span>
+                      <span style={{ fontSize: '0.72rem', padding: '2px 8px', background: 'rgba(255,255,255,0.06)', borderRadius: '4px', color: 'var(--accent)' }}>
+                        {site.mbu}
+                      </span>
+                    </div>
+                    <div style={{ fontSize: '0.78rem', color: 'var(--text-secondary)', marginTop: '3px' }}>
+                      {site.name}
+                    </div>
+                  </div>
+                </div>
+
+                <div style={{ textAlign: 'right' }}>
+                  <div style={{ fontSize: '1.25rem', fontWeight: 900, color: '#ef4444' }}>
+                    {site.avgNar.toFixed(1)}%
+                  </div>
+                  <span style={{ fontSize: '0.72rem', color: '#f87171', fontWeight: 600 }}>Month Average</span>
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
       )}
 

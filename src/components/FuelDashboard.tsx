@@ -246,6 +246,55 @@ export const FuelDashboard: React.FC = () => {
         </div>
       </div>
 
+      {/* ── GLOBAL SEARCH BAR (Prominent across all Fuel tabs) ── */}
+      <div style={{ position: 'relative', width: '100%' }}>
+        <input
+          type="text"
+          placeholder="🔍 Search Fuel by Site ID (e.g. HWY9737), Name, Vehicle #, FSO, or Card #..."
+          value={searchQuery}
+          onChange={(e) => setSearchQuery(e.target.value)}
+          style={{
+            width: '100%',
+            background: 'var(--surface)',
+            border: searchQuery ? '1px solid var(--accent)' : '1px solid var(--border)',
+            borderRadius: '12px',
+            padding: '12px 40px 12px 42px',
+            color: '#fff',
+            fontSize: '0.88rem',
+            fontWeight: 500,
+            outline: 'none',
+            boxShadow: '0 4px 12px rgba(0,0,0,0.15)',
+            boxSizing: 'border-box',
+            transition: 'border 0.2s'
+          }}
+        />
+        <Search size={18} color={searchQuery ? 'var(--accent)' : 'var(--text-muted)'} style={{ position: 'absolute', left: '14px', top: '14px' }} />
+        {searchQuery && (
+          <button
+            onClick={() => setSearchQuery('')}
+            style={{
+              position: 'absolute',
+              right: '12px',
+              top: '12px',
+              background: 'rgba(255,255,255,0.1)',
+              border: 'none',
+              borderRadius: '50%',
+              width: '24px',
+              height: '24px',
+              color: 'var(--text-secondary)',
+              cursor: 'pointer',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              fontSize: '0.8rem',
+              fontWeight: 700
+            }}
+          >
+            ✕
+          </button>
+        )}
+      </div>
+
       {/* Sub-Nav Pills */}
       <div style={{ display: 'flex', gap: '8px', overflowX: 'auto', paddingBottom: '4px' }}>
         {[
