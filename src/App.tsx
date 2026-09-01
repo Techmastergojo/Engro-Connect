@@ -34,7 +34,7 @@ function App() {
   const [isSettingsOpen, setIsSettingsOpen] = useState(false);
   const [hasNewBugs, setHasNewBugs] = useState(false);
   const [isChangelogOpen, setIsChangelogOpen] = useState(false);
-  const [updateBanner, setUpdateBanner] = useState<{version: string; msg: string} | null>(null);
+  const [updateBanner, setUpdateBanner] = useState<{version: string; msg: string; downloadUrl?: string} | null>(null);
   const [currentView, setCurrentView] = useState<'sites' | 'nar' | 'fuel'>('sites');
   const fileInputRef = useRef<HTMLInputElement>(null);
 
@@ -84,29 +84,60 @@ function App() {
     try {
       console.log(`Checking version... (current: ${APP_VERSION})`);
 
-      const res = await fetch(`https://raw.githubusercontent.com/Techmastergojo/Engro-Connect/main/version.json?t=${Date.now()}`);
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
-      const data = await res.json();
+      let remoteVersion = '';
+      let apkDownloadUrl = '';
 
-      console.log(`Remote: ${data.version} | Local: ${APP_VERSION}`);
+      // 1. Primary check via GitHub Releases API (Instant, no Fastly CDN cache delay)
+      try {
+        const ghRes = await fetch('https://api.github.com/repos/Techmastergojo/Engro-Connect/releases/latest', {
+          headers: { 'Accept': 'application/vnd.github.v3+json' }
+        });
+        if (ghRes.ok) {
+          const release = await ghRes.json();
+          remoteVersion = (release.tag_name || '').replace(/^v/, '');
+          const apkAsset = release.assets && release.assets.find((a: any) => a.name.endsWith('.apk'));
+          if (apkAsset) apkDownloadUrl = apkAsset.browser_download_url;
+        }
+      } catch (_) {}
 
-      if (data.version && data.version !== APP_VERSION) {
-        console.log(`New version available: ${data.version}`);
+      // 2. Fallback to raw version.json if GitHub API wasn't available
+      if (!remoteVersion) {
+        const res = await fetch(`https://raw.githubusercontent.com/Techmastergojo/Engro-Connect/main/version.json?_nocache=${Date.now()}`);
+        if (res.ok) {
+          const data = await res.json();
+          remoteVersion = data.version || '';
+          apkDownloadUrl = data.apkUrl || '';
+        }
+      }
+
+      console.log(`Remote: ${remoteVersion} | Local: ${APP_VERSION}`);
+
+      if (remoteVersion && remoteVersion !== APP_VERSION) {
+        console.log(`New version available: ${remoteVersion}`);
         setUpdateBanner({
-          version: data.version,
-          msg: `A newer version (${data.version}) is available. Please update to get the latest site databases, features and bug fixes.`,
+          version: remoteVersion,
+          downloadUrl: apkDownloadUrl || WEBSITE_URL,
+          msg: `A newer version (${remoteVersion}) is available. Tap below to download and install the update.`,
         });
       } else {
         console.log('App is up to date.');
         if (isManual) {
-          setUpdateBanner({ version: APP_VERSION, msg: `✅ You are currently running the latest version (${APP_VERSION}).` });
+          setUpdateBanner({ 
+            version: APP_VERSION, 
+            downloadUrl: '', 
+            msg: `✅ You are currently running the latest version (${APP_VERSION}).` 
+          });
           setTimeout(() => setUpdateBanner(null), 4000);
         }
       }
     } catch (e: any) {
       console.error(`Version check failed: ${e.message}`);
       if (isManual) {
-        setUpdateBanner({ version: '', msg: '⚠️ Failed to connect to the update server. Please check your network connection.' });
+        setUpdateBanner({ 
+          version: '', 
+          downloadUrl: '', 
+          msg: '⚠️ Failed to connect to the update server. Please check your network connection.' 
+        });
         setTimeout(() => setUpdateBanner(null), 4000);
       }
     }
@@ -464,7 +495,7 @@ function App() {
             {updateBanner.version && updateBanner.version !== APP_VERSION ? (
               <div style={{ display: 'flex', flexDirection: 'column', gap: '10px', width: '100%' }}>
                 <a
-                  href={WEBSITE_URL}
+                  href={updateBanner.downloadUrl || WEBSITE_URL}
                   target="_blank"
                   rel="noreferrer"
                   className="btn-accent"
