@@ -1,33 +1,88 @@
 import React, { useState, useMemo } from 'react';
-import { Fuel, Layers, Search, Filter, Droplet, CreditCard } from 'lucide-react';
+import { Fuel, Layers, Search, Filter, Droplet, CreditCard, Clock, ChevronDown, ChevronUp } from 'lucide-react';
 import { analyticsData } from '../analyticsData';
-import type { PouringLog, ScratchingLog, VehicleFuel, SiteDgProfile } from '../types';
+import type { PouringLog, ScratchingLog, VehicleFuel, SiteDgProfile, SiteFuelSummary } from '../types';
 
 export const FuelDashboard: React.FC = () => {
   const [selectedMbu, setSelectedMbu] = useState<string>('ALL');
-  const [activeSubTab, setActiveSubTab] = useState<'overview' | 'mbu' | 'vehicles' | 'pouring' | 'cards' | 'dgProfiles'>('overview');
+  const [timeFilter, setTimeFilter] = useState<'3d' | '7d' | '15d' | '1m' | '6m'>('1m');
+  const [activeSubTab, setActiveSubTab] = useState<'overview' | 'siteSearch' | 'mbu' | 'vehicles' | 'pouring' | 'cards' | 'dgProfiles'>('overview');
   const [searchQuery, setSearchQuery] = useState('');
+  const [expandedSiteCode, setExpandedSiteCode] = useState<string | null>(null);
 
   const fuelData = analyticsData.fuel;
   const mbuList = analyticsData.mbuList;
+  const allDailySummaries = fuelData.summaryDaily; // 31 days
 
-  // Calculate MBU Pouring Totals
+  // Filter daily summaries by time horizon
+  const filteredSummaries = useMemo(() => {
+    if (timeFilter === '3d') return allDailySummaries.slice(-3);
+    if (timeFilter === '7d') return allDailySummaries.slice(-7);
+    if (timeFilter === '15d') return allDailySummaries.slice(-15);
+    return allDailySummaries;
+  }, [timeFilter, allDailySummaries]);
+
+  // Compute Scratched & Poured based on time filter
+  const currentScratched = useMemo(() => {
+    return filteredSummaries.reduce((sum, d) => sum + d.scratching, 0);
+  }, [filteredSummaries]);
+
+  const currentPoured = useMemo(() => {
+    if (selectedMbu === 'ALL') {
+      return filteredSummaries.reduce((sum, d) => sum + d.pouring, 0);
+    }
+    // Sum for selected MBU across filtered dates
+    const dateSet = new Set(filteredSummaries.map(d => d.date));
+    let total = 0;
+    fuelData.mbuDaily.forEach(row => {
+      if (dateSet.has(row.date)) {
+        total += (row as Record<string, any>)[selectedMbu] || 0;
+      }
+    });
+    return total;
+  }, [filteredSummaries, selectedMbu, fuelData.mbuDaily]);
+
+  // Calculate MBU Pouring Totals for time filter
   const mbuPouringTotals = useMemo(() => {
     const totals: Record<string, number> = {};
     mbuList.forEach(m => totals[m] = 0);
+    const dateSet = new Set(filteredSummaries.map(d => d.date));
 
     fuelData.mbuDaily.forEach(row => {
-      const rowMap = row as Record<string, any>;
-      mbuList.forEach(m => {
-        if (rowMap[m]) totals[m] += rowMap[m];
-      });
+      if (dateSet.has(row.date)) {
+        const rowMap = row as Record<string, any>;
+        mbuList.forEach(m => {
+          if (rowMap[m]) totals[m] += rowMap[m];
+        });
+      }
     });
 
     return Object.entries(totals).map(([mbu, liters]) => ({
       mbu,
       liters: Math.round(liters),
     })).sort((a, b) => b.liters - a.liters);
-  }, [fuelData.mbuDaily, mbuList]);
+  }, [fuelData.mbuDaily, mbuList, filteredSummaries]);
+
+  // Filtered Site Fuel Summaries (For Site-Wise Fuel Search Explorer)
+  const filteredSiteFuelList = useMemo(() => {
+    let list: SiteFuelSummary[] = fuelData.siteFuelList as SiteFuelSummary[];
+    if (selectedMbu !== 'ALL') {
+      list = list.filter(s => s.mbu.toLowerCase().includes(selectedMbu.toLowerCase().replace('c4-', 'c3-')) || s.mbu.toLowerCase().includes(selectedMbu.toLowerCase()));
+    }
+    if (searchQuery.trim()) {
+      const q = searchQuery.toLowerCase();
+      list = list.filter(s => 
+        s.siteCode.toLowerCase().includes(q) || 
+        s.siteName.toLowerCase().includes(q)
+      );
+    }
+    return list.sort((a, b) => b.totalPoured - a.totalPoured);
+  }, [selectedMbu, searchQuery, fuelData.siteFuelList]);
+
+  // Pouring Logs for a specific site
+  const getSitePouringLogs = (siteCode: string) => {
+    return (fuelData.pouringLogs as PouringLog[]).filter(p => p.siteCode.toLowerCase() === siteCode.toLowerCase());
+  };
 
   // Filtered Pouring Logs
   const filteredPouringLogs = useMemo(() => {
@@ -82,7 +137,7 @@ export const FuelDashboard: React.FC = () => {
     return list;
   }, [selectedMbu, searchQuery, fuelData.scratchingLogs]);
 
-  // Filtered Site DG Profiles
+  // Filtered DG Profiles
   const filteredDgProfiles = useMemo(() => {
     let list: SiteDgProfile[] = fuelData.siteDgProfiles as SiteDgProfile[];
     if (selectedMbu !== 'ALL') {
@@ -100,28 +155,26 @@ export const FuelDashboard: React.FC = () => {
     return list;
   }, [selectedMbu, searchQuery, fuelData.siteDgProfiles]);
 
-  const totalPoured = selectedMbu === 'ALL' 
-    ? fuelData.totalPoured 
-    : (mbuPouringTotals.find(x => x.mbu === selectedMbu)?.liters || 0);
-
   return (
     <div style={{ display: 'flex', flexDirection: 'column', gap: '20px', paddingBottom: '40px' }}>
       
-      {/* Top Header & MBU Filter */}
+      {/* Top Header */}
       <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between', alignItems: 'center', gap: '12px' }}>
         <div>
           <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
             <span className="badge" style={{ margin: 0, padding: '4px 10px', fontSize: '0.75rem', background: 'rgba(249,115,22,0.15)', color: '#f97316', border: '1px solid rgba(249,115,22,0.3)' }}>
               ⛽ Deodar Fuel Activity
             </span>
-            <span style={{ fontSize: '0.78rem', color: 'var(--text-muted)' }}>August 2026</span>
+            <span style={{ fontSize: '0.78rem', color: 'var(--text-muted)' }}>
+              {timeFilter === '3d' ? 'Last 3 Days' : timeFilter === '7d' ? 'Last 7 Days' : timeFilter === '15d' ? 'Last 15 Days' : timeFilter === '6m' ? '6 Months View' : 'August 2026'}
+            </span>
           </div>
           <h2 style={{ fontSize: '1.4rem', fontWeight: 800, margin: '6px 0 0', color: 'var(--text-primary)' }}>
-            Fuel Consumption & Logistics
+            Fuel Consumption & Site Logistics
           </h2>
         </div>
 
-        {/* MBU Selector Dropdown */}
+        {/* MBU Filter Dropdown */}
         <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
           <Filter size={16} color="var(--accent)" />
           <select
@@ -147,15 +200,62 @@ export const FuelDashboard: React.FC = () => {
         </div>
       </div>
 
+      {/* ── TIME HORIZON FILTER ── */}
+      <div style={{
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'space-between',
+        background: 'var(--surface)',
+        border: '1px solid var(--border)',
+        borderRadius: '10px',
+        padding: '6px 10px',
+        overflowX: 'auto',
+        gap: '8px'
+      }}>
+        <div style={{ display: 'flex', alignItems: 'center', gap: '6px', color: 'var(--text-muted)', fontSize: '0.75rem', fontWeight: 600 }}>
+          <Clock size={14} color="var(--accent)" />
+          <span>Time Range:</span>
+        </div>
+
+        <div style={{ display: 'flex', gap: '4px' }}>
+          {[
+            { id: '3d', label: '3 Days' },
+            { id: '7d', label: '7 Days' },
+            { id: '15d', label: '15 Days' },
+            { id: '1m', label: '1 Month' },
+            { id: '6m', label: '6 Months' },
+          ].map(t => (
+            <button
+              key={t.id}
+              onClick={() => setTimeFilter(t.id as any)}
+              style={{
+                padding: '5px 10px',
+                borderRadius: '6px',
+                fontSize: '0.75rem',
+                fontWeight: 700,
+                border: 'none',
+                cursor: 'pointer',
+                transition: 'all 0.2s',
+                background: timeFilter === t.id ? 'var(--accent)' : 'transparent',
+                color: timeFilter === t.id ? '#fff' : 'var(--text-secondary)'
+              }}
+            >
+              {t.label}
+            </button>
+          ))}
+        </div>
+      </div>
+
       {/* Sub-Nav Pills */}
       <div style={{ display: 'flex', gap: '8px', overflowX: 'auto', paddingBottom: '4px' }}>
         {[
-          { id: 'overview', label: '📊 Overview & KPIs' },
+          { id: 'overview', label: '📊 Overview & MBU Chart' },
+          { id: 'siteSearch', label: '🔍 Site-Wise Fuel & DG (' + filteredSiteFuelList.length + ')' },
           { id: 'mbu', label: '📍 MBU Pouring Matrix' },
-          { id: 'vehicles', label: '🚚 Vehicle & FSO Fuel (' + filteredVehicles.length + ')' },
-          { id: 'pouring', label: '⛽ Site Pouring Logs (' + filteredPouringLogs.length + ')' },
-          { id: 'cards', label: '💳 Scratching Cards (' + filteredScratching.length + ')' },
-          { id: 'dgProfiles', label: '⚡ DG Profiles (' + filteredDgProfiles.length + ')' },
+          { id: 'vehicles', label: '🚚 Vehicle & FSO (' + filteredVehicles.length + ')' },
+          { id: 'pouring', label: '⛽ Pouring Logs (' + filteredPouringLogs.length + ')' },
+          { id: 'cards', label: '💳 Fuel Cards (' + filteredScratching.length + ')' },
+          { id: 'dgProfiles', label: '⚡ DG Specs (' + filteredDgProfiles.length + ')' },
         ].map(tab => (
           <button
             key={tab.id}
@@ -188,7 +288,7 @@ export const FuelDashboard: React.FC = () => {
             <CreditCard size={18} color="#3b82f6" />
           </div>
           <div style={{ fontSize: '1.7rem', fontWeight: 900, color: '#3b82f6', margin: '8px 0 2px' }}>
-            {fuelData.totalScratched.toLocaleString()} <span style={{ fontSize: '0.85rem' }}>L</span>
+            {currentScratched.toLocaleString()} <span style={{ fontSize: '0.85rem' }}>L</span>
           </div>
           <span style={{ fontSize: '0.72rem', color: 'var(--text-muted)' }}>PSO Fuel Cards Draw</span>
         </div>
@@ -200,7 +300,7 @@ export const FuelDashboard: React.FC = () => {
             <Droplet size={18} color="var(--accent)" />
           </div>
           <div style={{ fontSize: '1.7rem', fontWeight: 900, color: 'var(--accent)', margin: '8px 0 2px' }}>
-            {totalPoured.toLocaleString()} <span style={{ fontSize: '0.85rem' }}>L</span>
+            {currentPoured.toLocaleString()} <span style={{ fontSize: '0.85rem' }}>L</span>
           </div>
           <span style={{ fontSize: '0.72rem', color: 'var(--text-muted)' }}>
             {selectedMbu === 'ALL' ? 'Into BTS Gensets' : `${selectedMbu} Poured`}
@@ -215,7 +315,7 @@ export const FuelDashboard: React.FC = () => {
               <Layers size={18} color="#10b981" />
             </div>
             <div style={{ fontSize: '1.7rem', fontWeight: 900, color: '#10b981', margin: '8px 0 2px' }}>
-              {(fuelData.totalScratched - fuelData.totalPoured).toLocaleString()} <span style={{ fontSize: '0.85rem' }}>L</span>
+              {Math.max(0, currentScratched - currentPoured).toLocaleString()} <span style={{ fontSize: '0.85rem' }}>L</span>
             </div>
             <span style={{ fontSize: '0.72rem', color: 'var(--text-muted)' }}>Unpoured Balance</span>
           </div>
@@ -230,9 +330,165 @@ export const FuelDashboard: React.FC = () => {
           <div style={{ fontSize: '1.7rem', fontWeight: 900, color: 'var(--text-primary)', margin: '8px 0 2px' }}>
             {filteredPouringLogs.length.toLocaleString()}
           </div>
-          <span style={{ fontSize: '0.72rem', color: 'var(--text-muted)' }}>Site Visits Logged</span>
+          <span style={{ fontSize: '0.72rem', color: 'var(--text-muted)' }}>Site Visits Recorded</span>
         </div>
       </div>
+
+      {/* ── SUB-TAB: SITE-WISE FUEL & DG EXPLORER (Requested by User) ── */}
+      {activeSubTab === 'siteSearch' && (
+        <div className="glass" style={{ padding: '20px', borderRadius: '16px', border: '1px solid var(--border)' }}>
+          <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between', alignItems: 'center', gap: '12px', marginBottom: '16px' }}>
+            <div>
+              <h3 style={{ fontSize: '1.05rem', fontWeight: 800, margin: 0 }}>
+                🔍 Site-Wise Fuel & DG Explorer ({filteredSiteFuelList.length})
+              </h3>
+              <span style={{ fontSize: '0.75rem', color: 'var(--text-muted)' }}>
+                Search any site to see its total fuel poured, visit logs, and DG generator specs
+              </span>
+            </div>
+            
+            {/* Search Input */}
+            <div style={{ position: 'relative', width: '240px' }}>
+              <input
+                type="text"
+                placeholder="Search Site Code or Name..."
+                value={searchQuery}
+                onChange={e => setSearchQuery(e.target.value)}
+                style={{
+                  width: '100%',
+                  background: 'var(--surface)',
+                  border: '1px solid var(--border)',
+                  borderRadius: '8px',
+                  padding: '8px 12px 8px 30px',
+                  color: '#fff',
+                  fontSize: '0.82rem',
+                  outline: 'none'
+                }}
+              />
+              <Search size={14} color="var(--text-muted)" style={{ position: 'absolute', left: '10px', top: '10px' }} />
+            </div>
+          </div>
+
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '12px', maxHeight: '600px', overflowY: 'auto' }}>
+            {filteredSiteFuelList.slice(0, 100).map(s => {
+              const isExpanded = expandedSiteCode === s.siteCode;
+              const logs = isExpanded ? getSitePouringLogs(s.siteCode) : [];
+              const dg = s.dgProfile;
+
+              return (
+                <div 
+                  key={s.siteCode} 
+                  style={{ 
+                    background: 'var(--surface)', 
+                    border: '1px solid var(--border)', 
+                    borderRadius: '12px',
+                    padding: '16px',
+                    transition: 'all 0.2s'
+                  }}
+                >
+                  <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', flexWrap: 'wrap', gap: '8px' }}>
+                    <div>
+                      <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+                        <span style={{ fontWeight: 800, fontSize: '1.05rem', color: 'var(--accent)' }}>{s.siteCode}</span>
+                        <span style={{ fontSize: '0.72rem', padding: '2px 8px', background: 'rgba(255,255,255,0.06)', borderRadius: '4px', color: 'var(--text-muted)' }}>
+                          {s.mbu}
+                        </span>
+                        {dg?.dgKva && (
+                          <span style={{ fontSize: '0.72rem', padding: '2px 8px', background: 'rgba(0,168,107,0.15)', color: 'var(--accent)', borderRadius: '4px', fontWeight: 700 }}>
+                            ⚡ {dg.dgKva} KVA
+                          </span>
+                        )}
+                      </div>
+                      <div style={{ fontSize: '0.82rem', color: 'var(--text-primary)', marginTop: '2px', fontWeight: 600 }}>
+                        {s.siteName}
+                      </div>
+                    </div>
+
+                    <div style={{ textAlign: 'right' }}>
+                      <div style={{ fontSize: '1.25rem', fontWeight: 900, color: 'var(--accent)' }}>
+                        {s.totalPoured.toLocaleString()} <span style={{ fontSize: '0.8rem' }}>L</span>
+                      </div>
+                      <span style={{ fontSize: '0.72rem', color: 'var(--text-muted)' }}>
+                        {s.visitsCount} visit{s.visitsCount === 1 ? '' : 's'} logged
+                      </span>
+                    </div>
+                  </div>
+
+                  {/* DG Specs Grid */}
+                  {dg && (
+                    <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(140px, 1fr))', gap: '8px', marginTop: '12px', padding: '10px', background: 'rgba(0,0,0,0.2)', borderRadius: '8px', fontSize: '0.75rem' }}>
+                      <div>
+                        <span style={{ color: 'var(--text-muted)' }}>Engine: </span>
+                        <span style={{ color: 'var(--text-primary)', fontWeight: 600 }}>{dg.engineBrand || 'N/A'}</span>
+                      </div>
+                      <div>
+                        <span style={{ color: 'var(--text-muted)' }}>DG Brand: </span>
+                        <span style={{ color: 'var(--text-primary)', fontWeight: 600 }}>{dg.dgBrand || 'N/A'}</span>
+                      </div>
+                      <div>
+                        <span style={{ color: 'var(--text-muted)' }}>Rate: </span>
+                        <span style={{ color: 'var(--accent)', fontWeight: 700 }}>{dg.consumptionFactor ? `${dg.consumptionFactor} L/hr` : 'N/A'}</span>
+                      </div>
+                      <div>
+                        <span style={{ color: 'var(--text-muted)' }}>FLM Vendor: </span>
+                        <span style={{ color: 'var(--text-primary)', fontWeight: 600 }}>{dg.flmVendor || 'N/A'}</span>
+                      </div>
+                    </div>
+                  )}
+
+                  {/* Toggle Pouring History Button */}
+                  <button
+                    onClick={() => setExpandedSiteCode(isExpanded ? null : s.siteCode)}
+                    style={{
+                      marginTop: '12px',
+                      display: 'flex',
+                      alignItems: 'center',
+                      gap: '6px',
+                      background: 'transparent',
+                      border: 'none',
+                      color: 'var(--accent)',
+                      fontSize: '0.8rem',
+                      fontWeight: 700,
+                      cursor: 'pointer',
+                      padding: 0
+                    }}
+                  >
+                    {isExpanded ? <ChevronUp size={16} /> : <ChevronDown size={16} />}
+                    {isExpanded ? 'Hide Pouring History' : `View ${s.visitsCount} Pouring Record${s.visitsCount === 1 ? '' : 's'}`}
+                  </button>
+
+                  {/* Expandable Pouring History Timeline */}
+                  {isExpanded && (
+                    <div style={{ marginTop: '12px', borderTop: '1px solid var(--border)', paddingTop: '10px', display: 'flex', flexDirection: 'column', gap: '6px' }}>
+                      {logs.length === 0 ? (
+                        <p style={{ margin: 0, fontSize: '0.78rem', color: 'var(--text-muted)' }}>No direct pouring logs recorded in August.</p>
+                      ) : (
+                        logs.map((log, lIdx) => (
+                          <div key={lIdx} style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '8px 10px', background: 'rgba(255,255,255,0.03)', borderRadius: '6px', fontSize: '0.78rem' }}>
+                            <div>
+                              <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+                                <span style={{ fontWeight: 700, color: 'var(--text-primary)' }}>{log.date}</span>
+                                <span style={{ fontSize: '0.68rem', padding: '1px 5px', borderRadius: '3px', background: log.visitNature === 'Emergency' ? 'rgba(239,68,68,0.15)' : 'rgba(0,168,107,0.15)', color: log.visitNature === 'Emergency' ? '#f87171' : '#10b981', fontWeight: 700 }}>
+                                  {log.visitNature}
+                                </span>
+                              </div>
+                              <span style={{ fontSize: '0.7rem', color: 'var(--text-muted)' }}>Veh: {log.vehicleNo || 'N/A'} • Logged by: {log.createdBy || 'Staff'}</span>
+                            </div>
+                            <div style={{ textAlign: 'right' }}>
+                              <div style={{ fontWeight: 800, color: 'var(--accent)' }}>+{log.fuelPoured} L</div>
+                              <div style={{ fontSize: '0.68rem', color: 'var(--text-muted)' }}>Bal: {log.fuelBal} L</div>
+                            </div>
+                          </div>
+                        ))
+                      )}
+                    </div>
+                  )}
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      )}
 
       {/* ── SUB-TAB 1: OVERVIEW & MBU RANKING ── */}
       {activeSubTab === 'overview' && (
@@ -244,7 +500,7 @@ export const FuelDashboard: React.FC = () => {
               <h3 style={{ fontSize: '1.05rem', fontWeight: 700, margin: 0 }}>
                 📍 MBU Fuel Pouring Distribution
               </h3>
-              <span style={{ fontSize: '0.75rem', color: 'var(--text-muted)' }}>Sorted by Liters Poured</span>
+              <span style={{ fontSize: '0.75rem', color: 'var(--text-muted)' }}>Sorted by Volume Poured</span>
             </div>
 
             <div style={{ overflowX: 'auto' }}>
@@ -261,7 +517,7 @@ export const FuelDashboard: React.FC = () => {
                 <tbody>
                   {mbuPouringTotals.map((row, idx) => {
                     const isSelected = selectedMbu === row.mbu;
-                    const share = ((row.liters / (fuelData.totalPoured || 1)) * 100).toFixed(1);
+                    const share = ((row.liters / (currentPoured || 1)) * 100).toFixed(1);
                     return (
                       <tr 
                         key={row.mbu} 
@@ -277,7 +533,7 @@ export const FuelDashboard: React.FC = () => {
                         <td style={{ padding: '12px 8px', fontWeight: 700, color: isSelected ? 'var(--accent)' : 'var(--text-primary)' }}>{row.mbu}</td>
                         <td style={{ padding: '12px 8px', fontWeight: 800, color: 'var(--accent)' }}>{row.liters.toLocaleString()} L</td>
                         <td style={{ padding: '12px 8px', color: 'var(--text-secondary)' }}>{share}%</td>
-                        <td style={{ padding: '12px 8px', textAlign: 'right', fontWeight: 600 }}>{Math.round(row.liters / 31).toLocaleString()} L/day</td>
+                        <td style={{ padding: '12px 8px', textAlign: 'right', fontWeight: 600 }}>{Math.round(row.liters / Math.max(1, filteredSummaries.length)).toLocaleString()} L/day</td>
                       </tr>
                     );
                   })}
@@ -286,17 +542,17 @@ export const FuelDashboard: React.FC = () => {
             </div>
           </div>
 
-          {/* Daily Scratching vs Pouring Timeline */}
+          {/* Daily Timeline */}
           <div className="glass" style={{ padding: '20px', borderRadius: '16px', border: '1px solid var(--border)' }}>
             <h3 style={{ fontSize: '1.05rem', fontWeight: 700, margin: '0 0 16px' }}>
-              📅 Daily Scratching vs Pouring Trend
+              📅 Daily Scratching vs Pouring Timeline ({filteredSummaries.length} Days)
             </h3>
             <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
-              {fuelData.summaryDaily.slice(0, 15).map(day => (
+              {filteredSummaries.map(day => (
                 <div key={day.date} style={{ display: 'flex', alignItems: 'center', gap: '10px', padding: '6px 0', borderBottom: '1px solid rgba(255,255,255,0.03)' }}>
                   <span style={{ width: '80px', fontSize: '0.78rem', color: 'var(--text-muted)', fontWeight: 600 }}>{day.date.slice(5)}</span>
                   
-                  {/* Scratch Bar */}
+                  {/* Scratch & Pour bars */}
                   <div style={{ flex: 1, display: 'flex', flexDirection: 'column', gap: '3px' }}>
                     <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
                       <span style={{ fontSize: '0.7rem', color: '#3b82f6', width: '60px' }}>Scratch</span>
@@ -306,7 +562,6 @@ export const FuelDashboard: React.FC = () => {
                       <span style={{ fontSize: '0.72rem', color: '#3b82f6', width: '55px', textAlign: 'right' }}>{day.scratching} L</span>
                     </div>
 
-                    {/* Pour Bar */}
                     <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
                       <span style={{ fontSize: '0.7rem', color: 'var(--accent)', width: '60px' }}>Pour</span>
                       <div style={{ flex: 1, background: 'var(--accent-bg)', height: '6px', borderRadius: '3px' }}>
@@ -360,7 +615,7 @@ export const FuelDashboard: React.FC = () => {
         </div>
       )}
 
-      {/* ── SUB-TAB 3: VEHICLE & FSO ── */}
+      {/* ── SUB-TAB 3: VEHICLES ── */}
       {activeSubTab === 'vehicles' && (
         <div className="glass" style={{ padding: '20px', borderRadius: '16px', border: '1px solid var(--border)' }}>
           <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between', alignItems: 'center', gap: '12px', marginBottom: '16px' }}>
@@ -416,7 +671,7 @@ export const FuelDashboard: React.FC = () => {
         </div>
       )}
 
-      {/* ── SUB-TAB 4: SITE POURING LOGS ── */}
+      {/* ── SUB-TAB 4: POURING LOGS ── */}
       {activeSubTab === 'pouring' && (
         <div className="glass" style={{ padding: '20px', borderRadius: '16px', border: '1px solid var(--border)' }}>
           <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between', alignItems: 'center', gap: '12px', marginBottom: '16px' }}>
@@ -471,16 +726,11 @@ export const FuelDashboard: React.FC = () => {
                 </div>
               </div>
             ))}
-            {filteredPouringLogs.length > 100 && (
-              <p style={{ textAlign: 'center', color: 'var(--text-muted)', fontSize: '0.8rem', marginTop: '8px' }}>
-                Showing first 100 entries of {filteredPouringLogs.length}. Use search to filter specific records.
-              </p>
-            )}
           </div>
         </div>
       )}
 
-      {/* ── SUB-TAB 5: SCRATCHING CARDS ── */}
+      {/* ── SUB-TAB 5: CARDS ── */}
       {activeSubTab === 'cards' && (
         <div className="glass" style={{ padding: '20px', borderRadius: '16px', border: '1px solid var(--border)' }}>
           <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between', alignItems: 'center', gap: '12px', marginBottom: '16px' }}>
@@ -539,7 +789,7 @@ export const FuelDashboard: React.FC = () => {
         </div>
       )}
 
-      {/* ── SUB-TAB 6: DG PROFILES ── */}
+      {/* ── SUB-TAB 6: DG SPECS ── */}
       {activeSubTab === 'dgProfiles' && (
         <div className="glass" style={{ padding: '20px', borderRadius: '16px', border: '1px solid var(--border)' }}>
           <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between', alignItems: 'center', gap: '12px', marginBottom: '16px' }}>

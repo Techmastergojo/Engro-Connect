@@ -104,5 +104,16 @@ export interface SiteDgProfile {
   consumptionFactor: number | null;
 }
 
+export interface SiteFuelSummary {
+  siteCode: string;
+  siteName: string;
+  mbu: string;
+  totalPoured: number;
+  visitsCount: number;
+  lastVisitDate: string;
+  lastFuelBal: number;
+  dgProfile: SiteDgProfile | null;
+}
+
 
 
