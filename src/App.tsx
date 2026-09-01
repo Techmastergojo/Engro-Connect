@@ -315,10 +315,6 @@ function App() {
         </div>
       )}
 
-      {/* Footer Branding */}
-      <footer style={{ textAlign: 'center', marginTop: '40px', padding: '16px 0', color: 'var(--text-muted)', fontSize: '0.85rem', fontWeight: 600 }}>
-        Powered by Hamza Tehseen Cheema
-      </footer>
 
 
       <SiteModal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} site={editingSite} onSave={handleAddOrUpdate} />
