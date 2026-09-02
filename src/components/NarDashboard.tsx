@@ -1,38 +1,67 @@
 import React, { useState, useMemo } from 'react';
-import { ShieldCheck, TrendingUp, AlertTriangle, Search, Filter, Award, Clock } from 'lucide-react';
+import { 
+  ShieldCheck, 
+  TrendingUp, 
+  AlertTriangle, 
+  Search, 
+  Filter, 
+  Clock, 
+  X, 
+  Activity, 
+  BarChart2, 
+  ChevronRight
+} from 'lucide-react';
 import { analyticsData } from '../analyticsData';
 import type { NarSite } from '../types';
 
 export const NarDashboard: React.FC = () => {
   const [selectedMbu, setSelectedMbu] = useState<string>('ALL');
   const [timeFilter, setTimeFilter] = useState<'3d' | '7d' | '15d' | '1m' | '6m'>('1m');
-  const [activeSubTab, setActiveSubTab] = useState<'overview' | 'worst20' | 'daily' | 'priority' | 'sites' | 'outages'>('overview');
+  const [activeSubTab, setActiveSubTab] = useState<'overview' | 'worst20' | 'siteDeepDive' | 'daily' | 'priority' | 'outages'>('overview');
+  
+  // Site search state
   const [siteSearch, setSiteSearch] = useState('');
+  const [selectedSiteCode, setSelectedSiteCode] = useState<string | null>(null);
+  const [isSearchFocused, setIsSearchFocused] = useState(false);
   const [selectedReasonDomain, setSelectedReasonDomain] = useState<string>('ALL');
 
   const narData = analyticsData.nar;
   const mbuList = analyticsData.mbuList;
-  const allDates = analyticsData.dates; // 27 active dates in August
+  const allDates = analyticsData.dates; // 31 active dates in August 2026
 
-  // Top 20 Worst Performing Sites (Lowest NAR in August)
+  // Find currently selected site
+  const selectedSite = useMemo(() => {
+    if (!selectedSiteCode) return null;
+    return (narData.sites as NarSite[]).find(s => s.code.toUpperCase() === selectedSiteCode.toUpperCase()) || null;
+  }, [selectedSiteCode, narData.sites]);
+
+  // Top 20 Worst Performing Sites (Lowest NAR in August) based on selected MBU
   const top20WorstSites = useMemo(() => {
     let list: NarSite[] = [...(narData.sites as NarSite[])];
     if (selectedMbu !== 'ALL') {
       list = list.filter(s => s.mbu.toLowerCase() === selectedMbu.toLowerCase());
     }
-    return list.sort((a, b) => a.avgNar - b.avgNar).slice(0, 20);
+    return list.sort((a, b) => (a.avgNar ?? 100) - (b.avgNar ?? 100)).slice(0, 20);
   }, [selectedMbu, narData.sites]);
+
+  // Autocomplete search results (up to 12 matches)
+  const searchResults = useMemo(() => {
+    if (!siteSearch.trim()) return [];
+    const q = siteSearch.trim().toLowerCase();
+    return (narData.sites as NarSite[])
+      .filter(s => s.code.toLowerCase().includes(q) || s.name.toLowerCase().includes(q))
+      .slice(0, 12);
+  }, [siteSearch, narData.sites]);
 
   // Filter dates based on active time filter
   const filteredDates = useMemo(() => {
     if (timeFilter === '3d') return allDates.slice(-3);
     if (timeFilter === '7d') return allDates.slice(-7);
     if (timeFilter === '15d') return allDates.slice(-15);
-    if (timeFilter === '1m') return allDates;
-    return allDates; // 6m view shows August + historical projection
+    return allDates;
   }, [timeFilter, allDates]);
 
-  // Compute MBU stats based on filtered dates
+  // Compute MBU stats based on filtered dates & official MBUWiseContribution totals
   const mbuMetrics = useMemo(() => {
     return mbuList.map(mbu => {
       const dailyMap = (narData.mbuDaily as Record<string, Record<string, number>>)[mbu] || {};
@@ -40,10 +69,9 @@ export const NarDashboard: React.FC = () => {
       
       const narVals = filteredDates.map(d => dailyMap[d]).filter(v => typeof v === 'number');
       const avgNar = narVals.length > 0 ? (narVals.reduce((a, b) => a + b, 0) / narVals.length) : 0;
-      
       const totalDtHrs = filteredDates.reduce((sum, d) => sum + (dtMap[d] || 0), 0);
 
-      // Official sheet totals if full month is selected
+      // Official MBUWiseContribution totals if 1m / full month is selected
       const official = (narData.mbuTotals as Record<string, { tdtMinutes: number; tnar: number }>)[mbu];
       const displayNar = timeFilter === '1m' ? (official?.tnar || avgNar) : avgNar;
       const displayDt = timeFilter === '1m' ? ((official?.tdtMinutes || 0) / 60) : totalDtHrs;
@@ -95,24 +123,21 @@ export const NarDashboard: React.FC = () => {
     });
   }, [selectedMbu, filteredDates, narData]);
 
-  // Filtered Sites
-  const filteredSites = useMemo(() => {
-    let list: NarSite[] = narData.sites as NarSite[];
-    if (selectedMbu !== 'ALL') {
-      list = list.filter(s => s.mbu.toLowerCase() === selectedMbu.toLowerCase());
-    }
-    if (siteSearch.trim()) {
-      const q = siteSearch.toLowerCase();
-      list = list.filter(s => s.code.toLowerCase().includes(q) || s.name.toLowerCase().includes(q));
-    }
-    return list;
-  }, [selectedMbu, siteSearch, narData.sites]);
-
   // Filtered Outage Categories from sheet
   const filteredOutages = useMemo(() => {
     if (selectedReasonDomain === 'ALL') return narData.outageCategories;
     return narData.outageCategories.filter((c: any) => c.domain.toLowerCase() === selectedReasonDomain.toLowerCase());
   }, [selectedReasonDomain, narData.outageCategories]);
+
+  // Get active outage reasons for selected site based on time filter
+  const activeSiteOutageReasons = useMemo(() => {
+    if (!selectedSite || !selectedSite.outageStats) return {};
+    const stats = selectedSite.outageStats;
+    if (timeFilter === '3d') return stats.reasons3d || {};
+    if (timeFilter === '7d') return stats.reasons7d || {};
+    if (timeFilter === '15d') return stats.reasons15d || {};
+    return stats.reasons30d || {};
+  }, [selectedSite, timeFilter]);
 
   function round(val: number, decimals = 2): number {
     return Number(Math.round(Number(val + 'e' + decimals)) + 'e-' + decimals);
@@ -124,10 +149,16 @@ export const NarDashboard: React.FC = () => {
     return '#ef4444'; // Red
   };
 
+  const handleSelectSite = (site: NarSite) => {
+    setSelectedSiteCode(site.code);
+    setSiteSearch('');
+    setIsSearchFocused(false);
+  };
+
   return (
     <div style={{ display: 'flex', flexDirection: 'column', gap: '20px', paddingBottom: '40px' }}>
       
-      {/* Top Header with MBU & Time Filters */}
+      {/* ── TOP HEADER WITH MBU & TIME FILTERS ── */}
       <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between', alignItems: 'center', gap: '12px' }}>
         <div>
           <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
@@ -135,7 +166,7 @@ export const NarDashboard: React.FC = () => {
               📊 Network Availability Rate
             </span>
             <span style={{ fontSize: '0.78rem', color: 'var(--text-muted)' }}>
-              {timeFilter === '3d' ? 'Last 3 Days' : timeFilter === '7d' ? 'Last 7 Days' : timeFilter === '15d' ? 'Last 15 Days' : timeFilter === '6m' ? '6 Months Historical' : 'August 2026 (Month)'}
+              {timeFilter === '3d' ? 'Last 3 Days' : timeFilter === '7d' ? 'Last 7 Days' : timeFilter === '15d' ? 'Last 15 Days' : timeFilter === '6m' ? '6 Months Trend' : 'August 2026 (Month)'}
             </span>
           </div>
           <h2 style={{ fontSize: '1.4rem', fontWeight: 800, margin: '6px 0 0', color: 'var(--text-primary)' }}>
@@ -168,6 +199,360 @@ export const NarDashboard: React.FC = () => {
           </select>
         </div>
       </div>
+
+      {/* ── 🔍 HIGH-ACCURACY SITE-WISE SEARCH BAR ── */}
+      <div style={{ position: 'relative', width: '100%', zIndex: 50 }}>
+        <div style={{
+          display: 'flex',
+          alignItems: 'center',
+          background: 'var(--surface)',
+          border: '1px solid var(--accent)',
+          borderRadius: '12px',
+          padding: '10px 14px',
+          boxShadow: '0 4px 20px rgba(0, 168, 107, 0.15)',
+          gap: '10px'
+        }}>
+          <Search size={18} color="var(--accent)" />
+          <input
+            type="text"
+            placeholder="🔍 Site-Wise Search: Enter Site Code (e.g. HWY5602, JPJ5679) or Site Name..."
+            value={siteSearch}
+            onChange={(e) => {
+              setSiteSearch(e.target.value);
+              setIsSearchFocused(true);
+            }}
+            onFocus={() => setIsSearchFocused(true)}
+            style={{
+              flex: 1,
+              background: 'transparent',
+              border: 'none',
+              outline: 'none',
+              color: '#fff',
+              fontSize: '0.9rem',
+              fontWeight: 500
+            }}
+          />
+          {siteSearch && (
+            <button 
+              onClick={() => { setSiteSearch(''); setIsSearchFocused(false); }}
+              style={{ background: 'transparent', border: 'none', cursor: 'pointer', color: 'var(--text-muted)' }}
+            >
+              <X size={16} />
+            </button>
+          )}
+        </div>
+
+        {/* Autocomplete Dropdown */}
+        {isSearchFocused && searchResults.length > 0 && (
+          <div style={{
+            position: 'absolute',
+            top: 'calc(100% + 6px)',
+            left: 0,
+            right: 0,
+            background: 'rgba(18, 22, 28, 0.98)',
+            backdropFilter: 'blur(16px)',
+            border: '1px solid var(--border)',
+            borderRadius: '12px',
+            boxShadow: '0 12px 32px rgba(0,0,0,0.5)',
+            maxHeight: '360px',
+            overflowY: 'auto',
+            padding: '8px',
+            zIndex: 100,
+            display: 'flex',
+            flexDirection: 'column',
+            gap: '4px'
+          }}>
+            <div style={{ fontSize: '0.72rem', color: 'var(--text-muted)', padding: '4px 8px', fontWeight: 600 }}>
+              Found {searchResults.length} matching sites (tap to inspect):
+            </div>
+            {searchResults.map(site => (
+              <div
+                key={site.code}
+                onClick={() => handleSelectSite(site)}
+                style={{
+                  display: 'flex',
+                  justifyContent: 'space-between',
+                  alignItems: 'center',
+                  padding: '10px 12px',
+                  borderRadius: '8px',
+                  cursor: 'pointer',
+                  background: selectedSiteCode === site.code ? 'var(--accent-bg)' : 'rgba(255,255,255,0.03)',
+                  border: selectedSiteCode === site.code ? '1px solid var(--accent)' : '1px solid transparent',
+                  transition: 'all 0.15s'
+                }}
+              >
+                <div>
+                  <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+                    <span style={{ fontWeight: 800, color: 'var(--accent)', fontSize: '0.92rem' }}>{site.code}</span>
+                    <span style={{ fontSize: '0.7rem', padding: '2px 6px', background: 'rgba(255,255,255,0.08)', borderRadius: '4px', color: 'var(--text-muted)' }}>
+                      {site.mbu}
+                    </span>
+                  </div>
+                  <div style={{ fontSize: '0.75rem', color: 'var(--text-secondary)', marginTop: '2px' }}>
+                    {site.name}
+                  </div>
+                </div>
+
+                <div style={{ textAlign: 'right' }}>
+                  <span style={{ fontSize: '0.95rem', fontWeight: 900, color: getHealthColor(site.totalNar || site.avgNar) }}>
+                    {(site.totalNar || site.avgNar).toFixed(1)}%
+                  </span>
+                  <div style={{ fontSize: '0.68rem', color: 'var(--text-muted)' }}>Month NAR</div>
+                </div>
+              </div>
+            ))}
+          </div>
+        )}
+      </div>
+
+      {/* ── 🌟 DEDICATED SELECTED SITE DEEP-DIVE SECTION ── */}
+      {selectedSite && (
+        <div className="glass" style={{
+          padding: '24px',
+          borderRadius: '16px',
+          border: '1px solid var(--accent)',
+          background: 'linear-gradient(180deg, rgba(0, 168, 107, 0.08) 0%, rgba(18, 22, 28, 0.95) 100%)',
+          display: 'flex',
+          flexDirection: 'column',
+          gap: '18px'
+        }}>
+          {/* Site Header */}
+          <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between', alignItems: 'flex-start', gap: '12px' }}>
+            <div>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+                <span className="badge" style={{ background: 'var(--accent-bg)', color: 'var(--accent)', border: '1px solid var(--accent)', margin: 0 }}>
+                  🔍 Active Site Inspection
+                </span>
+                <span style={{ fontSize: '0.78rem', color: 'var(--text-muted)' }}>MBU: {selectedSite.mbu}</span>
+              </div>
+              <h3 style={{ fontSize: '1.35rem', fontWeight: 800, margin: '6px 0 2px', color: '#fff' }}>
+                {selectedSite.code} <span style={{ fontSize: '0.9rem', fontWeight: 500, color: 'var(--text-secondary)' }}>— {selectedSite.name}</span>
+              </h3>
+            </div>
+
+            <button
+              onClick={() => setSelectedSiteCode(null)}
+              style={{
+                display: 'flex',
+                alignItems: 'center',
+                gap: '6px',
+                padding: '6px 12px',
+                borderRadius: '8px',
+                background: 'rgba(255,255,255,0.06)',
+                border: '1px solid var(--border)',
+                color: 'var(--text-secondary)',
+                fontSize: '0.78rem',
+                cursor: 'pointer'
+              }}
+            >
+              <X size={14} /> Clear Site
+            </button>
+          </div>
+
+          {/* 5 Multi-Period KPI Cards: 3d, 7d, 15d, 30d, 6m */}
+          <div>
+            <div style={{ fontSize: '0.78rem', fontWeight: 700, color: 'var(--text-muted)', marginBottom: '8px', textTransform: 'uppercase', letterSpacing: '0.5px' }}>
+              Multi-Period Availability Overview
+            </div>
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(140px, 1fr))', gap: '10px' }}>
+              {[
+                { label: '3-Day NAR', val: selectedSite.nar3d, desc: 'Aug 29–31' },
+                { label: '7-Day NAR', val: selectedSite.nar7d, desc: 'Aug 25–31' },
+                { label: '15-Day NAR', val: selectedSite.nar15d, desc: 'Aug 17–31' },
+                { label: '30-Day (Aug) NAR', val: selectedSite.totalNar || selectedSite.nar30d || selectedSite.avgNar, desc: 'Total Month' },
+                { label: '6-Month Trend', val: selectedSite.nar6m, desc: 'Jan – Aug 2026' }
+              ].map(kpi => {
+                const num = typeof kpi.val === 'number' ? kpi.val : 100;
+                return (
+                  <div
+                    key={kpi.label}
+                    style={{
+                      padding: '14px',
+                      background: 'rgba(255,255,255,0.03)',
+                      border: '1px solid var(--border)',
+                      borderRadius: '12px'
+                    }}
+                  >
+                    <div style={{ fontSize: '0.72rem', color: 'var(--text-secondary)', fontWeight: 600 }}>
+                      {kpi.label}
+                    </div>
+                    <div style={{ fontSize: '1.45rem', fontWeight: 900, color: getHealthColor(num), margin: '6px 0 2px' }}>
+                      {num.toFixed(1)}%
+                    </div>
+                    <div style={{ fontSize: '0.68rem', color: 'var(--text-muted)' }}>
+                      {kpi.desc}
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+
+          {/* Dynamic Outage Reason Graph & Domains */}
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '16px' }}>
+            
+            {/* Outage Reasons Chart */}
+            <div style={{
+              background: 'var(--surface)',
+              border: '1px solid var(--border)',
+              borderRadius: '12px',
+              padding: '18px'
+            }}>
+              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '14px' }}>
+                <div>
+                  <h4 style={{ margin: 0, fontSize: '0.95rem', fontWeight: 700, color: '#fff', display: 'flex', alignItems: 'center', gap: '6px' }}>
+                    <AlertTriangle size={16} color="#ef4444" />
+                    Site Outage Reasons ({timeFilter === '1m' ? 'August' : timeFilter.toUpperCase()})
+                  </h4>
+                  <span style={{ fontSize: '0.72rem', color: 'var(--text-muted)' }}>
+                    Downtime causes from Consolidated RSL
+                  </span>
+                </div>
+                {selectedSite.outageStats && (
+                  <span className="badge" style={{ margin: 0, fontSize: '0.7rem' }}>
+                    {selectedSite.outageStats.count} Incidents
+                  </span>
+                )}
+              </div>
+
+              {/* Reason Bars */}
+              {Object.keys(activeSiteOutageReasons).length === 0 ? (
+                <div style={{ textAlign: 'center', padding: '30px 10px', color: 'var(--text-muted)', fontSize: '0.82rem' }}>
+                  🎉 No recorded outage reasons for this site in the selected time window.
+                </div>
+              ) : (
+                <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
+                  {(() => {
+                    const entries = Object.entries(activeSiteOutageReasons);
+                    const totalMins = entries.reduce((s, [, m]) => s + m, 0) || 1;
+                    return entries.map(([reason, mins]) => {
+                      const pct = Math.round((mins / totalMins) * 100);
+                      const hrs = (mins / 60).toFixed(1);
+                      return (
+                        <div key={reason}>
+                          <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '0.78rem', marginBottom: '4px' }}>
+                            <span style={{ color: 'var(--text-primary)', fontWeight: 600, flex: 1, paddingRight: '8px' }}>
+                              {reason}
+                            </span>
+                            <span style={{ color: 'var(--text-muted)', fontWeight: 700 }}>
+                              {hrs} hrs <span style={{ color: '#ef4444' }}>({pct}%)</span>
+                            </span>
+                          </div>
+                          <div style={{ height: '8px', background: 'rgba(255,255,255,0.06)', borderRadius: '4px', overflow: 'hidden' }}>
+                            <div style={{
+                              width: `${pct}%`,
+                              height: '100%',
+                              background: 'linear-gradient(90deg, #ef4444, #f59e0b)',
+                              borderRadius: '4px',
+                              transition: 'width 0.3s'
+                            }} />
+                          </div>
+                        </div>
+                      );
+                    });
+                  })()}
+                </div>
+              )}
+            </div>
+
+            {/* 6-Month Historical NAR Monthly Breakdown */}
+            <div style={{
+              background: 'var(--surface)',
+              border: '1px solid var(--border)',
+              borderRadius: '12px',
+              padding: '18px'
+            }}>
+              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '14px' }}>
+                <div>
+                  <h4 style={{ margin: 0, fontSize: '0.95rem', fontWeight: 700, color: '#fff', display: 'flex', alignItems: 'center', gap: '6px' }}>
+                    <BarChart2 size={16} color="var(--accent)" />
+                    6-Month NAR History (4G Counter)
+                  </h4>
+                  <span style={{ fontSize: '0.72rem', color: 'var(--text-muted)' }}>
+                    Monthly performance progression
+                  </span>
+                </div>
+              </div>
+
+              {selectedSite.history6m ? (
+                <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
+                  {Object.entries(selectedSite.history6m).map(([month, val]) => {
+                    const barW = Math.max(5, Math.min(100, (val - 85) * 6.6));
+                    return (
+                      <div key={month} style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+                        <span style={{ width: '40px', fontSize: '0.75rem', fontWeight: 700, color: 'var(--text-secondary)' }}>
+                          {month}
+                        </span>
+                        <div style={{ flex: 1, height: '10px', background: 'rgba(255,255,255,0.05)', borderRadius: '4px', overflow: 'hidden' }}>
+                          <div style={{
+                            width: `${barW}%`,
+                            height: '100%',
+                            background: getHealthColor(val),
+                            borderRadius: '4px',
+                            transition: 'width 0.3s'
+                          }} />
+                        </div>
+                        <span style={{ width: '56px', textAlign: 'right', fontSize: '0.8rem', fontWeight: 800, color: getHealthColor(val) }}>
+                          {val.toFixed(1)}%
+                        </span>
+                      </div>
+                    );
+                  })}
+                </div>
+              ) : (
+                <div style={{ color: 'var(--text-muted)', fontSize: '0.8rem', textAlign: 'center', padding: '20px' }}>
+                  No historical 4G data available for this site code.
+                </div>
+              )}
+            </div>
+
+          </div>
+
+          {/* Daily Timeline for this Site */}
+          <div style={{
+            background: 'var(--surface)',
+            border: '1px solid var(--border)',
+            borderRadius: '12px',
+            padding: '16px'
+          }}>
+            <div style={{ fontSize: '0.82rem', fontWeight: 700, color: 'var(--text-primary)', marginBottom: '10px' }}>
+              📅 Daily August Availability Sparkline ({Object.keys(selectedSite.daily || {}).length} Days)
+            </div>
+            <div style={{ display: 'flex', gap: '4px', overflowX: 'auto', paddingBottom: '6px' }}>
+              {allDates.map(d => {
+                const val = selectedSite.daily?.[d] ?? 100;
+                const h = Math.max(12, Math.min(48, Math.round((val - 80) * 2.4)));
+                return (
+                  <div 
+                    key={d} 
+                    title={`${d}: ${val.toFixed(1)}%`}
+                    style={{ 
+                      display: 'flex', 
+                      flexDirection: 'column', 
+                      alignItems: 'center', 
+                      minWidth: '22px',
+                      gap: '4px' 
+                    }}
+                  >
+                    <div style={{ height: '50px', display: 'flex', alignItems: 'flex-end' }}>
+                      <div style={{
+                        width: '16px',
+                        height: `${h}px`,
+                        background: getHealthColor(val),
+                        borderRadius: '3px'
+                      }} />
+                    </div>
+                    <span style={{ fontSize: '0.62rem', color: 'var(--text-muted)' }}>
+                      {d.slice(8)}
+                    </span>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+
+        </div>
+      )}
 
       {/* ── ADVANCED TIME FILTER BAR ── */}
       <div style={{
@@ -219,10 +604,9 @@ export const NarDashboard: React.FC = () => {
       <div style={{ display: 'flex', gap: '8px', overflowX: 'auto', paddingBottom: '4px' }}>
         {[
           { id: 'overview', label: '📊 Overview & Charts' },
-          { id: 'worst20', label: '🚨 Top 20 Worst Sites (' + top20WorstSites.length + ')' },
+          { id: 'worst20', label: '🚨 20 Worst Sites (' + top20WorstSites.length + ')' },
           { id: 'daily', label: '📅 Daily Trend (' + filteredDates.length + ' days)' },
           { id: 'priority', label: '⭐ Elite & Platinum' },
-          { id: 'sites', label: '🔍 Site Performance (' + filteredSites.length + ')' },
           { id: 'outages', label: '⚠️ Outage Reasons (' + filteredOutages.length + ')' },
         ].map(tab => (
           <button
@@ -259,7 +643,7 @@ export const NarDashboard: React.FC = () => {
             {(selectedMbu === 'ALL' ? wholeC4Deodar : (mbuMetrics.find(m => m.mbu === selectedMbu)?.nar || 0)).toFixed(2)}%
           </div>
           <span style={{ fontSize: '0.72rem', color: 'var(--text-muted)' }}>
-            {selectedMbu === 'ALL' ? 'Whole C-4 Average' : `${selectedMbu} Average`}
+            {selectedMbu === 'ALL' ? 'Whole C-4 Average' : `${selectedMbu} Official`}
           </span>
         </div>
 
@@ -298,7 +682,7 @@ export const NarDashboard: React.FC = () => {
           <div className="glass" style={{ padding: '16px', borderRadius: '14px', border: '1px solid var(--border)' }}>
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
               <span style={{ fontSize: '0.78rem', color: 'var(--text-secondary)', fontWeight: 600 }}>Top Performing MBU</span>
-              <Award size={18} color="#10b981" />
+              <Activity size={18} color="#10b981" />
             </div>
             <div style={{ fontSize: '1.25rem', fontWeight: 800, color: '#10b981', margin: '8px 0 2px' }}>
               {mbuMetrics[0]?.mbu}
@@ -310,7 +694,7 @@ export const NarDashboard: React.FC = () => {
         )}
       </div>
 
-      {/* ── SUB-TAB 1: OVERVIEW & BAR GRAPH OF MBU TRENDS ── */}
+      {/* ── SUB-TAB 1: OVERVIEW & 20 WORST SITES ── */}
       {activeSubTab === 'overview' && (
         <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
           
@@ -319,10 +703,10 @@ export const NarDashboard: React.FC = () => {
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '16px' }}>
               <div>
                 <h3 style={{ fontSize: '1.05rem', fontWeight: 800, margin: 0, color: 'var(--text-primary)' }}>
-                  📊 MBU Performance Bar Graph
+                  📊 MBU Performance Comparison
                 </h3>
                 <span style={{ fontSize: '0.75rem', color: 'var(--text-muted)' }}>
-                  Visual comparison of NAR across all 8 MBUs (Tap any bar to filter)
+                  Tap any MBU to filter and view its 20 worst sites
                 </span>
               </div>
               <div style={{ display: 'flex', alignItems: 'center', gap: '10px', fontSize: '0.72rem' }}>
@@ -333,10 +717,9 @@ export const NarDashboard: React.FC = () => {
             </div>
 
             {/* Visual Bar Chart */}
-            <div style={{ display: 'flex', flexDirection: 'column', gap: '12px', marginTop: '16px' }}>
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
               {mbuMetrics.map(item => {
                 const isSelected = selectedMbu === item.mbu;
-                // Scale bar: 95% is 0%, 100% is 100%
                 const barPercent = Math.max(5, Math.min(100, (item.nar - 95) * 20));
                 
                 return (
@@ -379,69 +762,7 @@ export const NarDashboard: React.FC = () => {
             </div>
           </div>
 
-          {/* MBU Ranking Leaderboard Table */}
-          <div className="glass" style={{ padding: '20px', borderRadius: '16px', border: '1px solid var(--border)' }}>
-            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '16px' }}>
-              <h3 style={{ fontSize: '1.05rem', fontWeight: 700, margin: 0, color: 'var(--text-primary)' }}>
-                🏆 Official MBU Leaderboard
-              </h3>
-              <span style={{ fontSize: '0.75rem', color: 'var(--text-muted)' }}>From Excel Sheet Data</span>
-            </div>
-
-            <div style={{ overflowX: 'auto' }}>
-              <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '0.85rem' }}>
-                <thead>
-                  <tr style={{ borderBottom: '1px solid var(--border)', textAlign: 'left', color: 'var(--text-secondary)' }}>
-                    <th style={{ padding: '10px 8px', width: '40px' }}>#</th>
-                    <th style={{ padding: '10px 8px' }}>MBU Code</th>
-                    <th style={{ padding: '10px 8px' }}>Total NAR</th>
-                    <th style={{ padding: '10px 8px' }}>Downtime (Hrs)</th>
-                    <th style={{ padding: '10px 8px', textAlign: 'right' }}>Health Status</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {mbuMetrics.map((row, idx) => (
-                    <tr 
-                      key={row.mbu} 
-                      onClick={() => setSelectedMbu(selectedMbu === row.mbu ? 'ALL' : row.mbu)}
-                      style={{ 
-                        borderBottom: '1px solid rgba(255,255,255,0.05)',
-                        background: selectedMbu === row.mbu ? 'var(--accent-bg)' : 'transparent',
-                        cursor: 'pointer',
-                        transition: 'background 0.2s'
-                      }}
-                    >
-                      <td style={{ padding: '12px 8px', fontWeight: 700, color: 'var(--text-muted)' }}>{idx + 1}</td>
-                      <td style={{ padding: '12px 8px', fontWeight: 700, color: selectedMbu === row.mbu ? 'var(--accent)' : 'var(--text-primary)' }}>
-                        {row.mbu}
-                      </td>
-                      <td style={{ padding: '12px 8px', fontWeight: 800, color: getHealthColor(row.nar) }}>
-                        {row.nar.toFixed(2)}%
-                      </td>
-                      <td style={{ padding: '12px 8px', color: 'var(--text-secondary)' }}>
-                        {row.dtHours.toLocaleString()} hrs
-                      </td>
-                      <td style={{ padding: '12px 8px', textAlign: 'right' }}>
-                        <span style={{
-                          display: 'inline-block',
-                          padding: '3px 8px',
-                          borderRadius: '6px',
-                          fontSize: '0.72rem',
-                          fontWeight: 700,
-                          background: row.nar >= 99.0 ? 'rgba(16,185,129,0.15)' : row.nar >= 98.0 ? 'rgba(245,158,11,0.15)' : 'rgba(239,68,68,0.15)',
-                          color: getHealthColor(row.nar)
-                        }}>
-                          {row.nar >= 99.0 ? 'Optimal' : row.nar >= 98.0 ? 'Moderate' : 'Critical'}
-                        </span>
-                      </td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
-          </div>
-
-          {/* 🚨 TOP 20 WORST PERFORMING SITES LIST */}
+          {/* 🚨 TOP 20 WORST PERFORMING SITES LIST (DYNAMIC FOR SELECTED MBU) */}
           <div className="glass" style={{ padding: '20px', borderRadius: '16px', border: '1px solid rgba(239,68,68,0.3)', background: 'rgba(239,68,68,0.03)' }}>
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '16px' }}>
               <div>
@@ -450,100 +771,111 @@ export const NarDashboard: React.FC = () => {
                   🚨 Top 20 Worst Performing Sites ({selectedMbu === 'ALL' ? 'Whole C-4' : selectedMbu})
                 </h3>
                 <span style={{ fontSize: '0.75rem', color: 'var(--text-muted)' }}>
-                  Sites with lowest availability in August requiring immediate field attention
+                  Sites with lowest availability in August — Tap any site for deep outage analysis
                 </span>
               </div>
               <span className="badge" style={{ background: 'rgba(239,68,68,0.15)', color: '#f87171', border: '1px solid rgba(239,68,68,0.3)', margin: 0 }}>
-                Critical Outages
+                {top20WorstSites.length} Critical Targets
               </span>
             </div>
 
-            <div style={{ display: 'flex', flexDirection: 'column', gap: '8px', maxHeight: '420px', overflowY: 'auto' }}>
-              {top20WorstSites.map((site, rank) => (
-                <div 
-                  key={site.code} 
-                  style={{ 
-                    display: 'flex', 
-                    justifyContent: 'space-between', 
-                    alignItems: 'center', 
-                    padding: '12px 14px', 
-                    background: 'var(--surface)', 
-                    border: '1px solid var(--border)', 
-                    borderRadius: '10px' 
-                  }}
-                >
-                  <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
-                    <span style={{
-                      width: '26px',
-                      height: '26px',
-                      borderRadius: '50%',
-                      background: rank < 3 ? 'rgba(239,68,68,0.25)' : 'rgba(255,255,255,0.06)',
-                      color: rank < 3 ? '#ef4444' : 'var(--text-muted)',
-                      fontSize: '0.75rem',
-                      fontWeight: 800,
-                      display: 'flex',
-                      alignItems: 'center',
-                      justifyContent: 'center'
-                    }}>
-                      {rank + 1}
-                    </span>
-                    <div>
-                      <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-                        <span style={{ fontWeight: 800, fontSize: '0.92rem', color: '#fff' }}>{site.code}</span>
-                        <span style={{ fontSize: '0.7rem', padding: '2px 6px', background: 'rgba(255,255,255,0.06)', borderRadius: '4px', color: 'var(--text-muted)' }}>
-                          {site.mbu}
-                        </span>
-                      </div>
-                      <div style={{ fontSize: '0.75rem', color: 'var(--text-secondary)', marginTop: '2px' }}>
-                        {site.name}
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '8px', maxHeight: '460px', overflowY: 'auto' }}>
+              {top20WorstSites.map((site, rank) => {
+                const isCurrent = selectedSiteCode === site.code;
+                return (
+                  <div 
+                    key={site.code} 
+                    onClick={() => handleSelectSite(site)}
+                    style={{ 
+                      display: 'flex', 
+                      justifyContent: 'space-between', 
+                      alignItems: 'center', 
+                      padding: '12px 14px', 
+                      background: isCurrent ? 'var(--accent-bg)' : 'var(--surface)', 
+                      border: isCurrent ? '1px solid var(--accent)' : '1px solid var(--border)', 
+                      borderRadius: '10px',
+                      cursor: 'pointer',
+                      transition: 'all 0.2s'
+                    }}
+                  >
+                    <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+                      <span style={{
+                        width: '28px',
+                        height: '28px',
+                        borderRadius: '50%',
+                        background: rank < 3 ? 'rgba(239,68,68,0.25)' : 'rgba(255,255,255,0.06)',
+                        color: rank < 3 ? '#ef4444' : 'var(--text-muted)',
+                        fontSize: '0.78rem',
+                        fontWeight: 800,
+                        display: 'flex',
+                        alignItems: 'center',
+                        justifyContent: 'center'
+                      }}>
+                        {rank + 1}
+                      </span>
+                      <div>
+                        <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+                          <span style={{ fontWeight: 800, fontSize: '0.92rem', color: isCurrent ? 'var(--accent)' : '#fff' }}>
+                            {site.code}
+                          </span>
+                          <span style={{ fontSize: '0.7rem', padding: '2px 6px', background: 'rgba(255,255,255,0.06)', borderRadius: '4px', color: 'var(--text-muted)' }}>
+                            {site.mbu}
+                          </span>
+                        </div>
+                        <div style={{ fontSize: '0.75rem', color: 'var(--text-secondary)', marginTop: '2px' }}>
+                          {site.name}
+                        </div>
                       </div>
                     </div>
-                  </div>
 
-                  <div style={{ textAlign: 'right' }}>
-                    <div style={{ fontSize: '1.1rem', fontWeight: 900, color: '#ef4444' }}>
-                      {site.avgNar.toFixed(1)}%
+                    <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+                      <div style={{ textAlign: 'right' }}>
+                        <div style={{ fontSize: '1.1rem', fontWeight: 900, color: '#ef4444' }}>
+                          {(site.totalNar || site.avgNar).toFixed(1)}%
+                        </div>
+                        <span style={{ fontSize: '0.68rem', color: '#f87171' }}>Tap to Inspect</span>
+                      </div>
+                      <ChevronRight size={16} color="var(--text-muted)" />
                     </div>
-                    <span style={{ fontSize: '0.7rem', color: '#f87171' }}>Critical NAR</span>
                   </div>
-                </div>
-              ))}
+                );
+              })}
             </div>
           </div>
 
         </div>
       )}
 
-      {/* ── SUB-TAB: DEDICATED TOP 20 WORST SITES ── */}
+      {/* ── SUB-TAB: DEDICATED TOP 20 WORST SITES FULL VIEW ── */}
       {activeSubTab === 'worst20' && (
         <div className="glass" style={{ padding: '20px', borderRadius: '16px', border: '1px solid rgba(239,68,68,0.3)' }}>
           <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '16px' }}>
             <div>
               <h3 style={{ fontSize: '1.1rem', fontWeight: 800, margin: 0, color: '#f87171', display: 'flex', alignItems: 'center', gap: '8px' }}>
                 <AlertTriangle size={20} color="#ef4444" />
-                🚨 Top 20 Worst Performing Sites in Cluster 4
+                🚨 20 Worst Performing Sites ({selectedMbu === 'ALL' ? 'Whole C-4' : selectedMbu})
               </h3>
               <span style={{ fontSize: '0.78rem', color: 'var(--text-muted)' }}>
-                Prioritized targets for FLM maintenance and genset restoration
+                Prioritized targets for FLM maintenance and genset restoration (Tap any site to analyze)
               </span>
             </div>
-            <span style={{ fontSize: '0.8rem', color: 'var(--text-secondary)' }}>
-              Showing lowest 20 of {narData.sites.length} sites
-            </span>
           </div>
 
           <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
             {top20WorstSites.map((site, rank) => (
               <div 
                 key={site.code} 
+                onClick={() => handleSelectSite(site)}
                 style={{ 
                   display: 'flex', 
                   justifyContent: 'space-between', 
                   alignItems: 'center', 
                   padding: '14px 16px', 
-                  background: 'var(--surface)', 
-                  border: '1px solid var(--border)', 
-                  borderRadius: '12px' 
+                  background: selectedSiteCode === site.code ? 'var(--accent-bg)' : 'var(--surface)', 
+                  border: selectedSiteCode === site.code ? '1px solid var(--accent)' : '1px solid var(--border)', 
+                  borderRadius: '12px',
+                  cursor: 'pointer',
+                  transition: 'all 0.2s'
                 }}
               >
                 <div style={{ display: 'flex', alignItems: 'center', gap: '14px' }}>
@@ -574,11 +906,14 @@ export const NarDashboard: React.FC = () => {
                   </div>
                 </div>
 
-                <div style={{ textAlign: 'right' }}>
-                  <div style={{ fontSize: '1.25rem', fontWeight: 900, color: '#ef4444' }}>
-                    {site.avgNar.toFixed(1)}%
+                <div style={{ display: 'flex', alignItems: 'center', gap: '14px' }}>
+                  <div style={{ textAlign: 'right' }}>
+                    <div style={{ fontSize: '1.25rem', fontWeight: 900, color: '#ef4444' }}>
+                      {(site.totalNar || site.avgNar).toFixed(1)}%
+                    </div>
+                    <span style={{ fontSize: '0.72rem', color: '#f87171', fontWeight: 600 }}>Month Total</span>
                   </div>
-                  <span style={{ fontSize: '0.72rem', color: '#f87171', fontWeight: 600 }}>Month Average</span>
+                  <ChevronRight size={18} color="var(--text-muted)" />
                 </div>
               </div>
             ))}
@@ -601,7 +936,7 @@ export const NarDashboard: React.FC = () => {
           <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
             {dailyTrend.map(day => {
               const val = day.deodar || day.e2e || 0;
-              const barWidth = Math.max(0, Math.min(100, (val - 90) * 10)); // Scale 90%..100%
+              const barWidth = Math.max(0, Math.min(100, (val - 90) * 10));
               return (
                 <div key={day.date} style={{ display: 'flex', alignItems: 'center', gap: '12px', padding: '6px 0', borderBottom: '1px solid rgba(255,255,255,0.03)' }}>
                   <span style={{ width: '85px', fontSize: '0.78rem', color: 'var(--text-muted)', fontWeight: 600 }}>
@@ -665,74 +1000,7 @@ export const NarDashboard: React.FC = () => {
         </div>
       )}
 
-      {/* ── SUB-TAB 4: SITES SEARCH ── */}
-      {activeSubTab === 'sites' && (
-        <div className="glass" style={{ padding: '20px', borderRadius: '16px', border: '1px solid var(--border)' }}>
-          <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between', alignItems: 'center', gap: '12px', marginBottom: '16px' }}>
-            <h3 style={{ fontSize: '1.05rem', fontWeight: 700, margin: 0 }}>
-              🔍 Site Availability Database ({filteredSites.length})
-            </h3>
-            
-            <div style={{ position: 'relative', width: '240px' }}>
-              <input
-                type="text"
-                placeholder="Search Site Code or Name..."
-                value={siteSearch}
-                onChange={e => setSiteSearch(e.target.value)}
-                style={{
-                  width: '100%',
-                  background: 'var(--surface)',
-                  border: '1px solid var(--border)',
-                  borderRadius: '8px',
-                  padding: '8px 12px 8px 32px',
-                  color: '#fff',
-                  fontSize: '0.82rem',
-                  outline: 'none'
-                }}
-              />
-              <Search size={14} color="var(--text-muted)" style={{ position: 'absolute', left: '10px', top: '10px' }} />
-            </div>
-          </div>
-
-          <div style={{ display: 'flex', flexDirection: 'column', gap: '8px', maxHeight: '500px', overflowY: 'auto' }}>
-            {filteredSites.slice(0, 100).map(s => (
-              <div 
-                key={s.code} 
-                style={{ 
-                  display: 'flex', 
-                  justifyContent: 'space-between', 
-                  alignItems: 'center', 
-                  padding: '12px 14px', 
-                  background: 'var(--surface)', 
-                  border: '1px solid var(--border)', 
-                  borderRadius: '10px' 
-                }}
-              >
-                <div>
-                  <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-                    <span style={{ fontWeight: 800, fontSize: '0.9rem', color: 'var(--accent)' }}>{s.code}</span>
-                    <span style={{ fontSize: '0.7rem', padding: '2px 6px', background: 'rgba(255,255,255,0.06)', borderRadius: '4px', color: 'var(--text-muted)' }}>
-                      {s.mbu}
-                    </span>
-                  </div>
-                  <div style={{ fontSize: '0.78rem', color: 'var(--text-secondary)', marginTop: '2px' }}>
-                    {s.name}
-                  </div>
-                </div>
-
-                <div style={{ textAlign: 'right' }}>
-                  <div style={{ fontSize: '1rem', fontWeight: 800, color: getHealthColor(s.avgNar) }}>
-                    {s.avgNar.toFixed(1)}%
-                  </div>
-                  <span style={{ fontSize: '0.7rem', color: 'var(--text-muted)' }}>Month Average</span>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      )}
-
-      {/* ── SUB-TAB 5: OUTAGE REASONS FROM SHEET ── */}
+      {/* ── SUB-TAB 4: OUTAGE REASONS TAXONOMY ── */}
       {activeSubTab === 'outages' && (
         <div className="glass" style={{ padding: '20px', borderRadius: '16px', border: '1px solid var(--border)' }}>
           <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between', alignItems: 'center', gap: '12px', marginBottom: '16px' }}>

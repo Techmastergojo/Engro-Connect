@@ -40,6 +40,22 @@ export interface NarSite {
   name: string;
   mbu: string;
   avgNar: number;
+  totalNar?: number;
+  nar3d?: number;
+  nar7d?: number;
+  nar15d?: number;
+  nar30d?: number;
+  nar6m?: number;
+  history6m?: Record<string, number>;
+  outageStats?: {
+    totalDt: number;
+    count: number;
+    reasons3d: Record<string, number>;
+    reasons7d: Record<string, number>;
+    reasons15d: Record<string, number>;
+    reasons30d: Record<string, number>;
+    domains: Record<string, number>;
+  } | null;
   daily: Record<string, number>;
 }
 

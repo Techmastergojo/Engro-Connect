@@ -45,7 +45,7 @@ function App() {
     SplashScreen.hide().catch(console.warn);
 
     // Show changelog if not seen yet
-    const hasSeenChangelog = localStorage.getItem('has_seen_changelog_v4');
+    const hasSeenChangelog = localStorage.getItem('has_seen_changelog_v5');
     if (!hasSeenChangelog) {
       setIsChangelogOpen(true);
     }

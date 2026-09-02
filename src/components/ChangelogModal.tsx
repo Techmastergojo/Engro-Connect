@@ -62,19 +62,19 @@ export const ChangelogModal: React.FC<Props> = ({ isOpen, onClose }) => {
           </button>
 
           <h2 style={{ fontSize: '1.25rem', fontWeight: 700, margin: '0 0 8px', color: 'var(--text-primary)', letterSpacing: '-0.02em' }}>
-            Release Notes V2
+            Release Notes V3
           </h2>
           <p style={{ color: 'var(--text-secondary)', fontSize: '0.85rem', marginBottom: '24px', lineHeight: 1.5 }}>
-            Engro Enfrashare has been updated with enterprise-grade features to streamline operations.
+            Engro Enfrashare updated with official August 2026 performance analytics and advanced site outage intelligence.
           </p>
 
           <div style={{ display: 'flex', flexDirection: 'column', gap: '20px', marginBottom: '32px' }}>
             <div style={{ display: 'flex', gap: '12px' }}>
               <div style={{ color: 'var(--accent)', marginTop: '2px' }}><Zap size={18} /></div>
               <div>
-                <h4 style={{ fontWeight: 600, margin: '0 0 2px', fontSize: '0.9rem', color: 'var(--text-primary)' }}>Automated Provisioning</h4>
+                <h4 style={{ fontWeight: 600, margin: '0 0 2px', fontSize: '0.9rem', color: 'var(--text-primary)' }}>August 2026 Performance Data</h4>
                 <p style={{ color: 'var(--text-muted)', margin: 0, fontSize: '0.8rem', lineHeight: 1.4 }}>
-                  Seamless background installation of the latest software updates via OTA deployment.
+                  Full 31-day NAR, official MBU contributions, 6-month historical trends, and Deodar fuel activities.
                 </p>
               </div>
             </div>
@@ -82,9 +82,9 @@ export const ChangelogModal: React.FC<Props> = ({ isOpen, onClose }) => {
             <div style={{ display: 'flex', gap: '12px' }}>
               <div style={{ color: 'var(--accent)', marginTop: '2px' }}><Settings2 size={18} /></div>
               <div>
-                <h4 style={{ fontWeight: 600, margin: '0 0 2px', fontSize: '0.9rem', color: 'var(--text-primary)' }}>Interface Customization</h4>
+                <h4 style={{ fontWeight: 600, margin: '0 0 2px', fontSize: '0.9rem', color: 'var(--text-primary)' }}>Site-Wise Search & Multi-Period NAR</h4>
                 <p style={{ color: 'var(--text-muted)', margin: 0, fontSize: '0.8rem', lineHeight: 1.4 }}>
-                  Support for comprehensive UI personalization with 10 corporate color pallets.
+                  Instant autocomplete search by site code with 3-Day, 7-Day, 15-Day, 30-Day, and 6-Month NAR breakdown.
                 </p>
               </div>
             </div>
@@ -92,9 +92,9 @@ export const ChangelogModal: React.FC<Props> = ({ isOpen, onClose }) => {
             <div style={{ display: 'flex', gap: '12px' }}>
               <div style={{ color: 'var(--accent)', marginTop: '2px' }}><ShieldCheck size={18} /></div>
               <div>
-                <h4 style={{ fontWeight: 600, margin: '0 0 2px', fontSize: '0.9rem', color: 'var(--text-primary)' }}>Telemetry & Redundancy</h4>
+                <h4 style={{ fontWeight: 600, margin: '0 0 2px', fontSize: '0.9rem', color: 'var(--text-primary)' }}>Dynamic Outage Graphs & Worst 20</h4>
                 <p style={{ color: 'var(--text-muted)', margin: 0, fontSize: '0.8rem', lineHeight: 1.4 }}>
-                  Integrated issue reporting architecture and automated local database backups.
+                  Site-specific outage fault root causes with dynamic graphs, plus MBU-filtered Top 20 worst sites.
                 </p>
               </div>
             </div>
