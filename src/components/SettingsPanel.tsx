@@ -77,7 +77,23 @@ interface Props {
 }
 
 export const SettingsPanel: React.FC<Props> = ({ isOpen, onClose, hasNewBugs, onBugsViewed, onForceUpdateCheck }) => {
-  const [activeTab, setActiveTab] = useState<'theme' | 'bugs'>('theme');
+  const [activeTab, setActiveTab] = useState<'theme' | 'bugs' | 'sync'>('theme');
+  const [portalUrl, setPortalUrl] = useState(() => {
+    try {
+      const cfg = localStorage.getItem('engro_portal_api_config');
+      if (cfg) return JSON.parse(cfg).endpoint || 'http://localhost:3001/api/v1/sync';
+    } catch (_) {}
+    return 'http://localhost:3001/api/v1/sync';
+  });
+  const [portalKey, setPortalKey] = useState(() => {
+    try {
+      const cfg = localStorage.getItem('engro_portal_api_config');
+      if (cfg) return JSON.parse(cfg).apiKey || 'engro_live_c4_telecom_secret_2026';
+    } catch (_) {}
+    return 'engro_live_c4_telecom_secret_2026';
+  });
+  const [syncStatus, setSyncStatus] = useState<string | null>(null);
+  const [isSyncing, setIsSyncing] = useState(false);
   const [currentTheme, setCurrentTheme] = useState(() => localStorage.getItem('app_theme') || 'sunset-orange');
   
   // Bug report state
@@ -183,6 +199,18 @@ export const SettingsPanel: React.FC<Props> = ({ isOpen, onClose, hasNewBugs, on
                 width: '8px', height: '8px', borderRadius: '50%', background: '#eab308'
               }} />
             )}
+          </button>
+          <button 
+            onClick={() => setActiveTab('sync')}
+            style={{ 
+              flex: 1, padding: '10px', borderRadius: 'var(--radius-sm)', fontWeight: 600, fontSize: '0.88rem',
+              background: activeTab === 'sync' ? 'var(--accent-bg)' : 'transparent',
+              color: activeTab === 'sync' ? 'var(--accent)' : 'var(--text-secondary)',
+              border: `1px solid ${activeTab === 'sync' ? 'var(--border-hover)' : 'transparent'}`,
+              display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '6px'
+            }}
+          >
+            <RefreshCw size={16} /> Data Portal
           </button>
         </div>
 
@@ -317,6 +345,94 @@ export const SettingsPanel: React.FC<Props> = ({ isOpen, onClose, hasNewBugs, on
                   ))}
                 </div>
               )}
+            </div>
+          )}
+
+          {/* ── Data Portal Sync Tab ── */}
+          {activeTab === 'sync' && (
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
+              <div>
+                <h3 style={{ fontWeight: 700, fontSize: '1rem', color: 'var(--text-primary)' }}>
+                  Cloud Data Portal & Telemetry Sync
+                </h3>
+                <p style={{ color: 'var(--text-secondary)', fontSize: '0.82rem', marginTop: '4px', lineHeight: 1.4 }}>
+                  Connects to the standalone Engro Data Portal to pull the latest daily NAR, Fueling, and Site Master telemetry without requiring app updates.
+                </p>
+              </div>
+
+              <div className="glass" style={{ padding: '16px', display: 'flex', flexDirection: 'column', gap: '12px' }}>
+                <div>
+                  <label style={{ fontSize: '0.78rem', fontWeight: 600, color: 'var(--text-secondary)', display: 'block', marginBottom: '6px' }}>
+                    Portal API Endpoint
+                  </label>
+                  <input
+                    className="input"
+                    value={portalUrl}
+                    onChange={e => {
+                      setPortalUrl(e.target.value);
+                      localStorage.setItem('engro_portal_api_config', JSON.stringify({ endpoint: e.target.value, apiKey: portalKey, autoSync: true }));
+                    }}
+                    placeholder="https://your-portal.vercel.app/api/v1/sync"
+                    style={{ fontSize: '0.82rem', fontFamily: 'monospace' }}
+                  />
+                </div>
+
+                <div>
+                  <label style={{ fontSize: '0.78rem', fontWeight: 600, color: 'var(--text-secondary)', display: 'block', marginBottom: '6px' }}>
+                    Enterprise API Key (x-engro-api-key)
+                  </label>
+                  <input
+                    className="input"
+                    type="password"
+                    value={portalKey}
+                    onChange={e => {
+                      setPortalKey(e.target.value);
+                      localStorage.setItem('engro_portal_api_config', JSON.stringify({ endpoint: portalUrl, apiKey: e.target.value, autoSync: true }));
+                    }}
+                    placeholder="engro_live_..."
+                    style={{ fontSize: '0.82rem', fontFamily: 'monospace' }}
+                  />
+                </div>
+
+                <button
+                  className="btn-accent"
+                  disabled={isSyncing}
+                  onClick={async () => {
+                    setIsSyncing(true);
+                    setSyncStatus('Connecting to Data Portal SQL...');
+                    try {
+                      const res = await fetch(portalUrl, {
+                        headers: { 'x-engro-api-key': portalKey }
+                      });
+                      if (!res.ok) throw new Error(`Server returned HTTP ${res.status}`);
+                      const data = await res.json();
+                      localStorage.setItem('engro_telemetry_cache_v1', JSON.stringify(data));
+                      setSyncStatus(`✓ Successfully synchronized ${data.summary?.totalSites || 0} sites & ${data.summary?.lastNarDate || 'latest'} telemetry!`);
+                      setTimeout(() => window.location.reload(), 1500);
+                    } catch (err: any) {
+                      setSyncStatus(`✗ Sync failed: ${err.message}`);
+                    } finally {
+                      setIsSyncing(false);
+                    }
+                  }}
+                  style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '8px', marginTop: '4px' }}
+                >
+                  {isSyncing ? <><Loader2 size={16} className="animate-spin" /> Fetching Live Telemetry...</> : <><RefreshCw size={16} /> Sync Live Data Now</>}
+                </button>
+
+                {syncStatus && (
+                  <div style={{
+                    fontSize: '0.8rem',
+                    padding: '10px 12px',
+                    borderRadius: 'var(--radius-sm)',
+                    background: syncStatus.startsWith('✓') ? 'rgba(16, 185, 129, 0.15)' : 'rgba(239, 68, 68, 0.15)',
+                    color: syncStatus.startsWith('✓') ? '#34d399' : '#f87171',
+                    border: `1px solid ${syncStatus.startsWith('✓') ? 'rgba(16, 185, 129, 0.3)' : 'rgba(239, 68, 68, 0.3)'}`
+                  }}>
+                    {syncStatus}
+                  </div>
+                )}
+              </div>
             </div>
           )}
         </div>
