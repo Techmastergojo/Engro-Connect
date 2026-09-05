@@ -44,12 +44,6 @@ function App() {
   useEffect(() => {
     SplashScreen.hide().catch(console.warn);
 
-    // Show changelog if not seen yet
-    const hasSeenChangelog = localStorage.getItem('has_seen_changelog_v5');
-    if (!hasSeenChangelog) {
-      setIsChangelogOpen(true);
-    }
-
     // Apply saved theme on startup
     const savedTheme = localStorage.getItem('app_theme') || 'sunset-orange';
     applyTheme(savedTheme);
