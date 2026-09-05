@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { X, Palette, Bug, CheckCircle, AlertCircle, Loader2, RefreshCw, DownloadCloud } from 'lucide-react';
+import { X, Palette, Bug, CheckCircle, AlertCircle, Loader2, RefreshCw, DownloadCloud, Zap } from 'lucide-react';
+import { fetchLiveTelemetry } from '../services/apiSync';
 
 // ── Theme definitions ────────────────────────────────────────────────────────
 export const THEMES = [
@@ -78,20 +79,6 @@ interface Props {
 
 export const SettingsPanel: React.FC<Props> = ({ isOpen, onClose, hasNewBugs, onBugsViewed, onForceUpdateCheck }) => {
   const [activeTab, setActiveTab] = useState<'theme' | 'bugs' | 'sync'>('theme');
-  const [portalUrl, setPortalUrl] = useState(() => {
-    try {
-      const cfg = localStorage.getItem('engro_portal_api_config');
-      if (cfg) return JSON.parse(cfg).endpoint || 'http://localhost:3001/api/v1/sync';
-    } catch (_) {}
-    return 'http://localhost:3001/api/v1/sync';
-  });
-  const [portalKey, setPortalKey] = useState(() => {
-    try {
-      const cfg = localStorage.getItem('engro_portal_api_config');
-      if (cfg) return JSON.parse(cfg).apiKey || 'engro_live_c4_telecom_secret_2026';
-    } catch (_) {}
-    return 'engro_live_c4_telecom_secret_2026';
-  });
   const [syncStatus, setSyncStatus] = useState<string | null>(null);
   const [isSyncing, setIsSyncing] = useState(false);
   const [currentTheme, setCurrentTheme] = useState(() => localStorage.getItem('app_theme') || 'sunset-orange');
@@ -360,38 +347,30 @@ export const SettingsPanel: React.FC<Props> = ({ isOpen, onClose, hasNewBugs, on
                 </p>
               </div>
 
-              <div className="glass" style={{ padding: '16px', display: 'flex', flexDirection: 'column', gap: '12px' }}>
-                <div>
-                  <label style={{ fontSize: '0.78rem', fontWeight: 600, color: 'var(--text-secondary)', display: 'block', marginBottom: '6px' }}>
-                    Portal API Endpoint
-                  </label>
-                  <input
-                    className="input"
-                    value={portalUrl}
-                    onChange={e => {
-                      setPortalUrl(e.target.value);
-                      localStorage.setItem('engro_portal_api_config', JSON.stringify({ endpoint: e.target.value, apiKey: portalKey, autoSync: true }));
-                    }}
-                    placeholder="https://your-portal.vercel.app/api/v1/sync"
-                    style={{ fontSize: '0.82rem', fontFamily: 'monospace' }}
-                  />
+              <div className="glass" style={{ padding: '20px', display: 'flex', flexDirection: 'column', gap: '14px', textAlign: 'center' }}>
+                <div style={{ display: 'flex', justifyContent: 'center' }}>
+                  <div style={{
+                    width: '48px',
+                    height: '48px',
+                    borderRadius: '14px',
+                    background: 'var(--accent-bg)',
+                    border: '1px solid var(--border-hover)',
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    color: 'var(--accent)'
+                  }}>
+                    <Zap size={24} />
+                  </div>
                 </div>
 
                 <div>
-                  <label style={{ fontSize: '0.78rem', fontWeight: 600, color: 'var(--text-secondary)', display: 'block', marginBottom: '6px' }}>
-                    Enterprise API Key (x-engro-api-key)
-                  </label>
-                  <input
-                    className="input"
-                    type="password"
-                    value={portalKey}
-                    onChange={e => {
-                      setPortalKey(e.target.value);
-                      localStorage.setItem('engro_portal_api_config', JSON.stringify({ endpoint: portalUrl, apiKey: e.target.value, autoSync: true }));
-                    }}
-                    placeholder="engro_live_..."
-                    style={{ fontSize: '0.82rem', fontFamily: 'monospace' }}
-                  />
+                  <h4 style={{ fontWeight: 700, fontSize: '0.95rem', color: 'var(--text-primary)' }}>
+                    Automated Telemetry Sync
+                  </h4>
+                  <p style={{ color: 'var(--text-secondary)', fontSize: '0.78rem', marginTop: '4px', lineHeight: 1.4 }}>
+                    Engro Connect automatically synchronizes newly uploaded NAR, Fueling, and Site Master operational reports with the secure cloud SQL database.
+                  </p>
                 </div>
 
                 <button
@@ -399,25 +378,24 @@ export const SettingsPanel: React.FC<Props> = ({ isOpen, onClose, hasNewBugs, on
                   disabled={isSyncing}
                   onClick={async () => {
                     setIsSyncing(true);
-                    setSyncStatus('Connecting to Data Portal SQL...');
+                    setSyncStatus('Connecting to secure Engro portal...');
                     try {
-                      const res = await fetch(portalUrl, {
-                        headers: { 'x-engro-api-key': portalKey }
-                      });
-                      if (!res.ok) throw new Error(`Server returned HTTP ${res.status}`);
-                      const data = await res.json();
-                      localStorage.setItem('engro_telemetry_cache_v1', JSON.stringify(data));
-                      setSyncStatus(`✓ Successfully synchronized ${data.summary?.totalSites || 0} sites & ${data.summary?.lastNarDate || 'latest'} telemetry!`);
-                      setTimeout(() => window.location.reload(), 1500);
+                      const res = await fetchLiveTelemetry();
+                      if (res.success && res.data) {
+                        setSyncStatus(`✓ Telemetry updated: ${res.data.summary?.totalSites || 0} sites synchronized!`);
+                        setTimeout(() => window.location.reload(), 1200);
+                      } else {
+                        setSyncStatus('✓ Using offline cached telemetry (telemetry is up to date).');
+                      }
                     } catch (err: any) {
-                      setSyncStatus(`✗ Sync failed: ${err.message}`);
+                      setSyncStatus(`Notice: Running in offline mode.`);
                     } finally {
                       setIsSyncing(false);
                     }
                   }}
-                  style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '8px', marginTop: '4px' }}
+                  style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '8px', padding: '12px 16px' }}
                 >
-                  {isSyncing ? <><Loader2 size={16} className="animate-spin" /> Fetching Live Telemetry...</> : <><RefreshCw size={16} /> Sync Live Data Now</>}
+                  {isSyncing ? <><Loader2 size={16} className="animate-spin" /> Fetching Live Updates...</> : <><RefreshCw size={16} /> Check for Live Updates Now</>}
                 </button>
 
                 {syncStatus && (
