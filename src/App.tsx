@@ -10,6 +10,7 @@ import { ChangelogModal } from './components/ChangelogModal';
 import { NarDashboard } from './components/NarDashboard';
 import { FuelDashboard } from './components/FuelDashboard';
 import { SplashScreen } from '@capacitor/splash-screen';
+import { fetchLiveTelemetry } from './services/apiSync';
 
 // Website URL — update once Vercel deploys
 const WEBSITE_URL = 'https://engro-enfrashare.vercel.app';
@@ -51,6 +52,9 @@ function App() {
     // Load sites
     initializeDb().then(loadedSites => setSites(loadedSites));
 
+    // Fetch latest telemetry silently in background
+    fetchLiveTelemetry().catch(console.warn);
+
     // Check for new bug reports (silent background check)
     checkForNewBugs();
 
@@ -61,6 +65,7 @@ function App() {
     const handleVisibilityChange = () => {
       if (document.visibilityState === 'visible') {
         setTimeout(() => {
+          fetchLiveTelemetry().catch(console.warn);
           checkForNewApk();
           checkForNewBugs();
         }, 1000);

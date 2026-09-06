@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import { 
   ShieldCheck, 
   AlertTriangle, 
@@ -6,21 +6,56 @@ import {
   Filter, 
   X, 
   ChevronRight,
-  Radio
+  Radio,
+  RefreshCw
 } from 'lucide-react';
-import { analyticsData } from '../analyticsData';
+import { getCachedTelemetry, subscribeTelemetry, fetchLiveTelemetry } from '../services/apiSync';
 import type { NarSite } from '../types';
 
 export const NarDashboard: React.FC = () => {
+  const [telemetry, setTelemetry] = useState(() => getCachedTelemetry());
   const [selectedMbu, setSelectedMbu] = useState<string>('ALL');
   const [siteSearch, setSiteSearch] = useState('');
   const [selectedSiteCode, setSelectedSiteCode] = useState<string | null>(null);
   const [isSearchFocused, setIsSearchFocused] = useState(false);
+  const [isSyncing, setIsSyncing] = useState(false);
+  const [syncStatusMsg, setSyncStatusMsg] = useState<string | null>(null);
 
-  const narData = analyticsData.nar;
-  const mbuList = analyticsData.mbuList;
-  const mbuTotals = narData.mbuTotals as Record<string, { tdtMinutes: number; tdtHours: number; tnar: number }>;
-  const c4Total = narData.c4Total as { avgNar: number; totalDtHours: number; totalSites: number };
+  useEffect(() => {
+    const unsubscribe = subscribeTelemetry((data, info) => {
+      setTelemetry(data);
+      if (info.isLive) {
+        setSyncStatusMsg(`✨ Fresh data synced! Latest NAR Date: ${data.summary?.lastNarDate || 'Live'}`);
+        setTimeout(() => setSyncStatusMsg(null), 5000);
+      }
+    });
+    return unsubscribe;
+  }, []);
+
+  const handleManualSync = async () => {
+    setIsSyncing(true);
+    setSyncStatusMsg(null);
+    try {
+      const res = await fetchLiveTelemetry();
+      if (res.success) {
+        setTelemetry(res.data);
+        setSyncStatusMsg(`✅ Live sync complete! (${res.data.summary?.lastNarDate || 'Latest'})`);
+      } else {
+        setSyncStatusMsg(`📡 Offline: Using cached telemetry (${res.syncTime ? new Date(res.syncTime).toLocaleTimeString() : 'offline'})`);
+      }
+    } catch (e: any) {
+      setSyncStatusMsg(`⚠️ Sync failed: ${e?.message || 'Network error'}`);
+    } finally {
+      setIsSyncing(false);
+      setTimeout(() => setSyncStatusMsg(null), 5000);
+    }
+  };
+
+  const narData = telemetry.nar || {};
+  const mbuList = telemetry.mbuList || [];
+  const mbuTotals = (narData.mbuTotals || {}) as Record<string, { tdtMinutes: number; tdtHours: number; tnar: number }>;
+  const c4Total = (narData.c4Total || { avgNar: 98.43, totalDtHours: 54429.8, totalSites: 2015 }) as { avgNar: number; totalDtHours: number; totalSites: number };
+  const lastNarDate = telemetry.summary?.lastNarDate || '2026-08-30';
 
   // Currently selected site for deep dive
   const selectedSite = useMemo(() => {
@@ -54,7 +89,7 @@ export const NarDashboard: React.FC = () => {
 
   // Official MBU contribution list sorted by NAR (highest to lowest)
   const sortedMbuContributions = useMemo(() => {
-    return mbuList.map(mbu => {
+    return mbuList.map((mbu: string) => {
       const info = mbuTotals[mbu] || { tnar: 0, tdtHours: 0, tdtMinutes: 0 };
       return {
         mbu,
@@ -62,7 +97,7 @@ export const NarDashboard: React.FC = () => {
         dtHours: info.tdtHours,
         dtMinutes: info.tdtMinutes
       };
-    }).sort((a, b) => b.nar - a.nar);
+    }).sort((a: any, b: any) => b.nar - a.nar);
   }, [mbuList, mbuTotals]);
 
   // Active metrics for top cards
@@ -91,6 +126,70 @@ export const NarDashboard: React.FC = () => {
   return (
     <div style={{ display: 'flex', flexDirection: 'column', gap: '20px', paddingBottom: '40px' }}>
       
+      {/* ── LIVE SYNC STATUS & DATE BANNER ── */}
+      <div style={{
+        display: 'flex',
+        flexWrap: 'wrap',
+        alignItems: 'center',
+        justifyContent: 'space-between',
+        gap: '8px',
+        padding: '8px 14px',
+        borderRadius: '10px',
+        background: 'rgba(16, 185, 129, 0.08)',
+        border: '1px solid rgba(16, 185, 129, 0.25)',
+        fontSize: '0.8rem'
+      }}>
+        <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+          <span style={{
+            width: '8px',
+            height: '8px',
+            borderRadius: '50%',
+            background: '#10b981',
+            boxShadow: '0 0 8px #10b981',
+            display: 'inline-block'
+          }} />
+          <span style={{ fontWeight: 700, color: 'var(--text-primary)' }}>Live Cloud Sync</span>
+          <span style={{ color: 'var(--text-muted)' }}>•</span>
+          <span style={{ color: '#10b981', fontWeight: 600 }}>Latest NAR Date: {lastNarDate}</span>
+        </div>
+
+        <button
+          onClick={handleManualSync}
+          disabled={isSyncing}
+          style={{
+            display: 'flex',
+            alignItems: 'center',
+            gap: '6px',
+            background: 'var(--surface)',
+            border: '1px solid var(--border)',
+            borderRadius: '6px',
+            padding: '4px 10px',
+            fontSize: '0.75rem',
+            fontWeight: 600,
+            color: 'var(--text-primary)',
+            cursor: isSyncing ? 'not-allowed' : 'pointer'
+          }}
+        >
+          <RefreshCw size={13} className={isSyncing ? 'animate-spin' : ''} color="#10b981" />
+          <span>{isSyncing ? 'Syncing...' : 'Sync Now'}</span>
+        </button>
+      </div>
+
+      {/* Sync Status Toast/Notification */}
+      {syncStatusMsg && (
+        <div style={{
+          padding: '8px 12px',
+          borderRadius: '8px',
+          background: syncStatusMsg.includes('failed') ? 'rgba(239, 68, 68, 0.15)' : 'rgba(16, 185, 129, 0.15)',
+          border: syncStatusMsg.includes('failed') ? '1px solid rgba(239, 68, 68, 0.3)' : '1px solid rgba(16, 185, 129, 0.3)',
+          color: syncStatusMsg.includes('failed') ? '#ef4444' : '#10b981',
+          fontSize: '0.8rem',
+          fontWeight: 600
+        }}>
+          {syncStatusMsg}
+        </div>
+      )}
+
       {/* ── HEADER WITH MBU FILTER ── */}
       <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between', alignItems: 'center', gap: '12px' }}>
         <div>
@@ -99,7 +198,7 @@ export const NarDashboard: React.FC = () => {
               📊 Network Availability Rate
             </span>
             <span style={{ fontSize: '0.78rem', color: 'var(--text-muted)' }}>
-              August 2026 Performance Data
+              Period: Up to {lastNarDate}
             </span>
           </div>
           <h2 style={{ fontSize: '1.4rem', fontWeight: 800, margin: '6px 0 0', color: 'var(--text-primary)' }}>
@@ -126,7 +225,7 @@ export const NarDashboard: React.FC = () => {
             }}
           >
             <option value="ALL">🌐 Whole C-4 Region</option>
-            {mbuList.map(mbu => (
+            {mbuList.map((mbu: string) => (
               <option key={mbu} value={mbu}>📍 {mbu}</option>
             ))}
           </select>
@@ -464,7 +563,7 @@ export const NarDashboard: React.FC = () => {
 
         {/* Visual Bar Graph for each MBU */}
         <div style={{ display: 'flex', flexDirection: 'column', gap: '14px' }}>
-          {sortedMbuContributions.map((item, index) => {
+          {sortedMbuContributions.map((item: any, index: number) => {
             const isSelected = selectedMbu === item.mbu;
             // Visual scale: 96% is 0%, 100% is 100%
             const barPercent = Math.max(8, Math.min(100, (item.nar - 96) * 25));

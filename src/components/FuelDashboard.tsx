@@ -1,18 +1,52 @@
-import React, { useState, useMemo } from 'react';
-import { Fuel, Layers, Search, Filter, Droplet, CreditCard, Clock, ChevronDown, ChevronUp } from 'lucide-react';
-import { analyticsData } from '../analyticsData';
+import React, { useState, useEffect, useMemo } from 'react';
+import { Fuel, Layers, Search, Filter, Droplet, CreditCard, Clock, ChevronDown, ChevronUp, RefreshCw } from 'lucide-react';
+import { getCachedTelemetry, subscribeTelemetry, fetchLiveTelemetry } from '../services/apiSync';
 import type { PouringLog, ScratchingLog, VehicleFuel, SiteDgProfile, SiteFuelSummary } from '../types';
 
 export const FuelDashboard: React.FC = () => {
+  const [telemetry, setTelemetry] = useState(() => getCachedTelemetry());
   const [selectedMbu, setSelectedMbu] = useState<string>('ALL');
   const [timeFilter, setTimeFilter] = useState<'3d' | '7d' | '15d' | '1m' | '6m'>('1m');
   const [activeSubTab, setActiveSubTab] = useState<'overview' | 'siteSearch' | 'mbu' | 'vehicles' | 'pouring' | 'cards' | 'dgProfiles'>('overview');
   const [searchQuery, setSearchQuery] = useState('');
   const [expandedSiteCode, setExpandedSiteCode] = useState<string | null>(null);
+  const [isSyncing, setIsSyncing] = useState(false);
+  const [syncStatusMsg, setSyncStatusMsg] = useState<string | null>(null);
 
-  const fuelData = analyticsData.fuel;
-  const mbuList = analyticsData.mbuList;
-  const allDailySummaries = fuelData.summaryDaily; // 31 days
+  useEffect(() => {
+    const unsubscribe = subscribeTelemetry((data, info) => {
+      setTelemetry(data);
+      if (info.isLive) {
+        setSyncStatusMsg(`✨ Fresh data synced! Latest Fuel Date: ${data.summary?.lastFuelDate || 'Live'}`);
+        setTimeout(() => setSyncStatusMsg(null), 5000);
+      }
+    });
+    return unsubscribe;
+  }, []);
+
+  const handleManualSync = async () => {
+    setIsSyncing(true);
+    setSyncStatusMsg(null);
+    try {
+      const res = await fetchLiveTelemetry();
+      if (res.success) {
+        setTelemetry(res.data);
+        setSyncStatusMsg(`✅ Live sync complete! (${res.data.summary?.lastFuelDate || 'Latest'})`);
+      } else {
+        setSyncStatusMsg(`📡 Offline: Using cached telemetry (${res.syncTime ? new Date(res.syncTime).toLocaleTimeString() : 'offline'})`);
+      }
+    } catch (e: any) {
+      setSyncStatusMsg(`⚠️ Sync failed: ${e?.message || 'Network error'}`);
+    } finally {
+      setIsSyncing(false);
+      setTimeout(() => setSyncStatusMsg(null), 5000);
+    }
+  };
+
+  const fuelData = telemetry.fuel || {};
+  const mbuList = telemetry.mbuList || [];
+  const allDailySummaries = fuelData.summaryDaily || []; // daily logs
+  const lastFuelDate = telemetry.summary?.lastFuelDate || '2026-08-30';
 
   // Filter daily summaries by time horizon
   const filteredSummaries = useMemo(() => {
@@ -24,17 +58,17 @@ export const FuelDashboard: React.FC = () => {
 
   // Compute Scratched & Poured based on time filter
   const currentScratched = useMemo(() => {
-    return filteredSummaries.reduce((sum, d) => sum + d.scratching, 0);
+    return filteredSummaries.reduce((sum: number, d: any) => sum + d.scratching, 0);
   }, [filteredSummaries]);
 
   const currentPoured = useMemo(() => {
     if (selectedMbu === 'ALL') {
-      return filteredSummaries.reduce((sum, d) => sum + d.pouring, 0);
+      return filteredSummaries.reduce((sum: number, d: any) => sum + d.pouring, 0);
     }
     // Sum for selected MBU across filtered dates
-    const dateSet = new Set(filteredSummaries.map(d => d.date));
+    const dateSet = new Set(filteredSummaries.map((d: any) => d.date));
     let total = 0;
-    fuelData.mbuDaily.forEach(row => {
+    (fuelData.mbuDaily || []).forEach((row: any) => {
       if (dateSet.has(row.date)) {
         total += (row as Record<string, any>)[selectedMbu] || 0;
       }
@@ -45,13 +79,13 @@ export const FuelDashboard: React.FC = () => {
   // Calculate MBU Pouring Totals for time filter
   const mbuPouringTotals = useMemo(() => {
     const totals: Record<string, number> = {};
-    mbuList.forEach(m => totals[m] = 0);
-    const dateSet = new Set(filteredSummaries.map(d => d.date));
+    mbuList.forEach((m: string) => totals[m] = 0);
+    const dateSet = new Set(filteredSummaries.map((d: any) => d.date));
 
-    fuelData.mbuDaily.forEach(row => {
+    (fuelData.mbuDaily || []).forEach((row: any) => {
       if (dateSet.has(row.date)) {
         const rowMap = row as Record<string, any>;
-        mbuList.forEach(m => {
+        mbuList.forEach((m: string) => {
           if (rowMap[m]) totals[m] += rowMap[m];
         });
       }
@@ -60,7 +94,7 @@ export const FuelDashboard: React.FC = () => {
     return Object.entries(totals).map(([mbu, liters]) => ({
       mbu,
       liters: Math.round(liters),
-    })).sort((a, b) => b.liters - a.liters);
+    })).sort((a: any, b: any) => b.liters - a.liters);
   }, [fuelData.mbuDaily, mbuList, filteredSummaries]);
 
   // Filtered Site Fuel Summaries (For Site-Wise Fuel Search Explorer)
@@ -158,6 +192,70 @@ export const FuelDashboard: React.FC = () => {
   return (
     <div style={{ display: 'flex', flexDirection: 'column', gap: '20px', paddingBottom: '40px' }}>
       
+      {/* ── LIVE SYNC STATUS & DATE BANNER ── */}
+      <div style={{
+        display: 'flex',
+        flexWrap: 'wrap',
+        alignItems: 'center',
+        justifyContent: 'space-between',
+        gap: '8px',
+        padding: '8px 14px',
+        borderRadius: '10px',
+        background: 'rgba(249, 115, 22, 0.08)',
+        border: '1px solid rgba(249, 115, 22, 0.25)',
+        fontSize: '0.8rem'
+      }}>
+        <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+          <span style={{
+            width: '8px',
+            height: '8px',
+            borderRadius: '50%',
+            background: '#f97316',
+            boxShadow: '0 0 8px #f97316',
+            display: 'inline-block'
+          }} />
+          <span style={{ fontWeight: 700, color: 'var(--text-primary)' }}>Live Cloud Sync</span>
+          <span style={{ color: 'var(--text-muted)' }}>•</span>
+          <span style={{ color: '#f97316', fontWeight: 600 }}>Latest Fuel Date: {lastFuelDate}</span>
+        </div>
+
+        <button
+          onClick={handleManualSync}
+          disabled={isSyncing}
+          style={{
+            display: 'flex',
+            alignItems: 'center',
+            gap: '6px',
+            background: 'var(--surface)',
+            border: '1px solid var(--border)',
+            borderRadius: '6px',
+            padding: '4px 10px',
+            fontSize: '0.75rem',
+            fontWeight: 600,
+            color: 'var(--text-primary)',
+            cursor: isSyncing ? 'not-allowed' : 'pointer'
+          }}
+        >
+          <RefreshCw size={13} className={isSyncing ? 'animate-spin' : ''} color="#f97316" />
+          <span>{isSyncing ? 'Syncing...' : 'Sync Now'}</span>
+        </button>
+      </div>
+
+      {/* Sync Status Notification Toast */}
+      {syncStatusMsg && (
+        <div style={{
+          padding: '8px 12px',
+          borderRadius: '8px',
+          background: syncStatusMsg.includes('failed') ? 'rgba(239, 68, 68, 0.15)' : 'rgba(249, 115, 22, 0.15)',
+          border: syncStatusMsg.includes('failed') ? '1px solid rgba(239, 68, 68, 0.3)' : '1px solid rgba(249, 115, 22, 0.3)',
+          color: syncStatusMsg.includes('failed') ? '#ef4444' : '#f97316',
+          fontSize: '0.8rem',
+          fontWeight: 600
+        }}>
+          {syncStatusMsg}
+        </div>
+      )}
+
       {/* Top Header */}
       <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between', alignItems: 'center', gap: '12px' }}>
         <div>
@@ -166,7 +264,7 @@ export const FuelDashboard: React.FC = () => {
               ⛽ Deodar Fuel Activity
             </span>
             <span style={{ fontSize: '0.78rem', color: 'var(--text-muted)' }}>
-              {timeFilter === '3d' ? 'Last 3 Days' : timeFilter === '7d' ? 'Last 7 Days' : timeFilter === '15d' ? 'Last 15 Days' : timeFilter === '6m' ? '6 Months View' : 'August 2026'}
+              Period: Up to {lastFuelDate} ({timeFilter === '3d' ? 'Last 3 Days' : timeFilter === '7d' ? 'Last 7 Days' : timeFilter === '15d' ? 'Last 15 Days' : timeFilter === '6m' ? '6 Months View' : 'Full Month'})
             </span>
           </div>
           <h2 style={{ fontSize: '1.4rem', fontWeight: 800, margin: '6px 0 0', color: 'var(--text-primary)' }}>
@@ -193,7 +291,7 @@ export const FuelDashboard: React.FC = () => {
             }}
           >
             <option value="ALL">🌐 Whole C-4 Region</option>
-            {mbuList.map(mbu => (
+            {mbuList.map((mbu: string) => (
               <option key={mbu} value={mbu}>📍 {mbu}</option>
             ))}
           </select>
@@ -597,7 +695,7 @@ export const FuelDashboard: React.FC = () => {
               📅 Daily Scratching vs Pouring Timeline ({filteredSummaries.length} Days)
             </h3>
             <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
-              {filteredSummaries.map(day => (
+              {filteredSummaries.map((day: any) => (
                 <div key={day.date} style={{ display: 'flex', alignItems: 'center', gap: '10px', padding: '6px 0', borderBottom: '1px solid rgba(255,255,255,0.03)' }}>
                   <span style={{ width: '80px', fontSize: '0.78rem', color: 'var(--text-muted)', fontWeight: 600 }}>{day.date.slice(5)}</span>
                   
@@ -638,17 +736,17 @@ export const FuelDashboard: React.FC = () => {
               <thead>
                 <tr style={{ borderBottom: '1px solid var(--border)', textAlign: 'left', color: 'var(--text-secondary)' }}>
                   <th style={{ padding: '8px' }}>Date</th>
-                  {mbuList.map(m => (
+                  {mbuList.map((m: string) => (
                     <th key={m} style={{ padding: '8px', textAlign: 'right' }}>{m.slice(3)}</th>
                   ))}
                   <th style={{ padding: '8px', textAlign: 'right' }}>Total</th>
                 </tr>
               </thead>
               <tbody>
-                {fuelData.mbuDaily.map((row: any) => (
+                {(fuelData.mbuDaily || []).map((row: any) => (
                   <tr key={row.date} style={{ borderBottom: '1px solid rgba(255,255,255,0.03)' }}>
                     <td style={{ padding: '8px', fontWeight: 600, color: 'var(--text-muted)' }}>{row.date.slice(5)}</td>
-                    {mbuList.map(m => (
+                    {mbuList.map((m: string) => (
                       <td key={m} style={{ padding: '8px', textAlign: 'right', color: row[m] ? 'var(--text-primary)' : 'var(--text-muted)' }}>
                         {row[m] ? row[m].toLocaleString() : '-'}
                       </td>
