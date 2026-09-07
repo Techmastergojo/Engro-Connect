@@ -343,7 +343,7 @@ export const SettingsPanel: React.FC<Props> = ({ isOpen, onClose, hasNewBugs, on
                   Cloud Data Portal & Telemetry Sync
                 </h3>
                 <p style={{ color: 'var(--text-secondary)', fontSize: '0.82rem', marginTop: '4px', lineHeight: 1.4 }}>
-                  Connects to the standalone Engro Data Portal to pull the latest daily NAR, Fueling, and Site Master telemetry without requiring app updates.
+                  Connects to the standalone Engro Data Portal &amp; Cloud Database to pull the latest daily NAR, Fueling, and Site Master telemetry without requiring app updates.
                 </p>
               </div>
 
@@ -369,8 +369,33 @@ export const SettingsPanel: React.FC<Props> = ({ isOpen, onClose, hasNewBugs, on
                     Automated Telemetry Sync
                   </h4>
                   <p style={{ color: 'var(--text-secondary)', fontSize: '0.78rem', marginTop: '4px', lineHeight: 1.4 }}>
-                    Engro Connect automatically synchronizes newly uploaded NAR, Fueling, and Site Master operational reports with the secure cloud SQL database.
+                    Engro Connect synchronizes newly uploaded NAR, Fueling, and Site Master operational reports directly with Cloud Storage &amp; GitHub CDN.
                   </p>
+                </div>
+
+                {/* Custom Portal URL Input */}
+                <div style={{ textAlign: 'left', marginTop: '4px' }}>
+                  <label style={{ fontSize: '0.78rem', fontWeight: 600, color: 'var(--text-secondary)', marginBottom: '4px', display: 'block' }}>
+                    Custom Portal URL (Optional):
+                  </label>
+                  <input
+                    type="text"
+                    className="input"
+                    placeholder="e.g. https://your-portal.vercel.app"
+                    defaultValue={localStorage.getItem('engro_custom_portal_url') || ''}
+                    onChange={(e) => {
+                      const val = e.target.value.trim();
+                      if (val) {
+                        localStorage.setItem('engro_custom_portal_url', val.startsWith('http') ? val : `https://${val}`);
+                      } else {
+                        localStorage.removeItem('engro_custom_portal_url');
+                      }
+                    }}
+                    style={{ fontSize: '0.8rem', padding: '8px 12px', width: '100%' }}
+                  />
+                  <span style={{ fontSize: '0.72rem', color: 'var(--text-muted)', marginTop: '4px', display: 'block' }}>
+                    Leave blank to use the High-Speed Cloud CDN automatically.
+                  </span>
                 </div>
 
                 <button
@@ -378,12 +403,13 @@ export const SettingsPanel: React.FC<Props> = ({ isOpen, onClose, hasNewBugs, on
                   disabled={isSyncing}
                   onClick={async () => {
                     setIsSyncing(true);
-                    setSyncStatus('Connecting to secure Engro portal...');
+                    setSyncStatus('Connecting to secure Engro Cloud database...');
                     try {
                       const res = await fetchLiveTelemetry();
                       if (res.success && res.data) {
-                        setSyncStatus(`✓ Telemetry updated: ${res.data.summary?.totalSites || 0} sites synchronized!`);
-                        setTimeout(() => window.location.reload(), 1200);
+                        const siteCount = res.data.summary?.totalSites || res.data.nar?.sites?.length || 0;
+                        setSyncStatus(`✓ Telemetry updated: ${siteCount} sites synchronized via ${res.source}!`);
+                        setTimeout(() => window.location.reload(), 1400);
                       } else {
                         setSyncStatus('✓ Using offline cached telemetry (telemetry is up to date).');
                       }
