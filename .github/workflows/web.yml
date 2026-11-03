@@ -101,26 +101,36 @@ jobs:
           cd ..
 
       - name: Create Release on Engro-Connect-Web
-        uses: softprops/action-gh-release@v2
-        with:
-          tag_name: ${{ steps.version.outputs.TAG }}
-          name: "Engro Enfrashare Web ${{ steps.version.outputs.TAG }}"
-          body: |
-            **Version:** ${{ steps.version.outputs.VERSION }}
+        run: |
+          VERSION="${{ steps.version.outputs.VERSION }}"
+          TAG="${{ steps.version.outputs.TAG }}"
+          APK="android/app/build/outputs/apk/debug/app-debug.apk"
 
-            ### 📱 Android APK
-            Download below and tap to install. Replaces existing app — no uninstall needed.
+          # Create the release via GitHub REST API
+          RELEASE=$(curl -s -X POST \
+            -H "Authorization: token ${{ secrets.WEB_DEPLOY_TOKEN }}" \
+            -H "Accept: application/vnd.github.v3+json" \
+            https://api.github.com/repos/Techmastergojo/Engro-Connect-Web/releases \
+            -d "{
+              \"tag_name\": \"$TAG\",
+              \"name\": \"Engro Enfrashare Web $TAG\",
+              \"body\": \"**Version:** $VERSION\n\n### Android APK\nDownload below and tap to install.\n\n### Whats New\n- Map search auto-zooms to matching sites\n- Autocomplete dropdown with instant results\n- DG Report tab fully enabled\",
+              \"draft\": false,
+              \"prerelease\": false
+            }")
 
-            ### 🌐 Web App
-            Live at: https://techmastergojo.github.io/Engro-Connect-Web/
+          echo "Release response: $RELEASE"
+          UPLOAD_URL=$(echo "$RELEASE" | python3 -c "import sys,json; r=json.load(sys.stdin); print(r.get('upload_url','').split('{')[0])")
+          echo "Upload URL: $UPLOAD_URL"
 
-            ### ✅ What's new
-            - Map: Search auto-zooms to matching sites, surrounding sites stay visible
-            - Map: Autocomplete dropdown with up to 8 instant results
-            - DG Report tab fully enabled
-            - NAR, Fuel, and DG dashboards all active
-          files: |
-            android/app/build/outputs/apk/debug/app-debug.apk
-        env:
-          GITHUB_TOKEN: ${{ secrets.WEB_DEPLOY_TOKEN }}
-          REPOSITORY: Techmastergojo/Engro-Connect-Web
+          if [ -n "$UPLOAD_URL" ] && [ "$UPLOAD_URL" != "None" ]; then
+            curl -s -X POST \
+              -H "Authorization: token ${{ secrets.WEB_DEPLOY_TOKEN }}" \
+              -H "Content-Type: application/vnd.android.package-archive" \
+              "${UPLOAD_URL}?name=app-debug.apk&label=Download+APK" \
+              --data-binary @"$APK"
+            echo "APK uploaded successfully"
+          else
+            echo "Failed to get upload URL from release response"
+            exit 1
+          fi
