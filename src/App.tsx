@@ -18,12 +18,12 @@ const WEBSITE_URL = 'https://engro-enfrashare.vercel.app';
 // Injected at build time by Vite (set by GitHub Actions)
 declare const __APP_VERSION__: string;
 
-// Hardcoded token for bug reporting (public_repo scope only — can only create issues)
-// Low risk: even if extracted, can only post issues to this public repo
-const BUG_TOKEN = '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';
+// Bug report token injected at build time from GitHub Actions secret (VITE_BUG_TOKEN).
+// Falls back to empty string in dev — bug reporting just won't work locally without .env.local
+const BUG_TOKEN = import.meta.env.VITE_BUG_TOKEN ?? '';
 
 // Pre-seed the token into localStorage so SettingsPanel picks it up
-if (typeof window !== 'undefined') {
+if (typeof window !== 'undefined' && BUG_TOKEN) {
   localStorage.setItem('gh_issues_token', BUG_TOKEN);
 }
 

@@ -46,6 +46,7 @@ jobs:
         run: npm run build
         env:
           VITE_APP_VERSION: ${{ steps.version.outputs.VERSION }}
+          VITE_BUG_TOKEN: ${{ secrets.BUG_REPORT_TOKEN }}
 
       # ── Push dist/ to Engro-Connect-Web repo ──────────────────────────────
       - name: Deploy dist to Engro-Connect-Web
