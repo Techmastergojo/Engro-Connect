@@ -3,11 +3,17 @@ import { Fuel, Layers, Search, Filter, Droplet, CreditCard, Clock, ChevronDown, 
 import { getCachedTelemetry, subscribeTelemetry, fetchLiveTelemetry } from '../services/apiSync';
 import type { PouringLog, ScratchingLog, VehicleFuel, SiteDgProfile, SiteFuelSummary } from '../types';
 
-export const FuelDashboard: React.FC = () => {
+type SubTabId = 'overview' | 'siteSearch' | 'mbu' | 'vehicles' | 'pouring' | 'cards' | 'dgProfiles';
+
+interface FuelDashboardProps {
+  initialSubTab?: SubTabId;
+}
+
+export const FuelDashboard: React.FC<FuelDashboardProps> = ({ initialSubTab }) => {
   const [telemetry, setTelemetry] = useState(() => getCachedTelemetry());
   const [selectedMbu, setSelectedMbu] = useState<string>('ALL');
   const [timeFilter, setTimeFilter] = useState<'3d' | '7d' | '15d' | '1m' | '6m'>('1m');
-  const [activeSubTab, setActiveSubTab] = useState<'overview' | 'siteSearch' | 'mbu' | 'vehicles' | 'pouring' | 'cards' | 'dgProfiles'>('overview');
+  const [activeSubTab, setActiveSubTab] = useState<SubTabId>(initialSubTab || 'overview');
   const [searchQuery, setSearchQuery] = useState('');
   const [expandedSiteCode, setExpandedSiteCode] = useState<string | null>(null);
   const [isSyncing, setIsSyncing] = useState(false);

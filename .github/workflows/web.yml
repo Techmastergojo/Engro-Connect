@@ -1,0 +1,125 @@
+name: Deploy Web Build to Engro-Connect-Web
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  deploy-web:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: read
+
+    steps:
+      - name: Checkout source repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Generate build version
+        id: version
+        run: |
+          VERSION="1.0.$(date +%Y%m%d%H%M)"
+          TAG="v$VERSION"
+          echo "VERSION=$VERSION" >> "$GITHUB_OUTPUT"
+          echo "TAG=$TAG" >> "$GITHUB_OUTPUT"
+          echo "Building web version: $VERSION"
+
+      - name: Run data scripts (non-fatal)
+        run: |
+          python update_script.py || echo "update_script.py skipped"
+          python parse_analytics_data.py || echo "parse_analytics_data.py skipped"
+
+      - name: Build web app
+        run: npm run build
+        env:
+          VITE_APP_VERSION: ${{ steps.version.outputs.VERSION }}
+
+      # ── Push dist/ to Engro-Connect-Web repo ──────────────────────────────
+      - name: Deploy dist to Engro-Connect-Web
+        run: |
+          VERSION="${{ steps.version.outputs.VERSION }}"
+
+          # Clone the web repo using the PAT
+          git clone https://x-access-token:${{ secrets.WEB_DEPLOY_TOKEN }}@github.com/Techmastergojo/Engro-Connect-Web.git web-repo
+
+          # Wipe everything except .git
+          find web-repo -mindepth 1 -maxdepth 1 ! -name '.git' -exec rm -rf {} +
+
+          # Copy fresh build
+          cp -r dist/. web-repo/
+
+          # Add a simple .nojekyll so GitHub Pages serves assets with underscores
+          touch web-repo/.nojekyll
+
+          # Write version.json for the web repo too
+          printf '{"version":"%s","apkUrl":"https://github.com/Techmastergojo/Engro-Connect-Web/releases/download/v%s/app-debug.apk"}\n' "$VERSION" "$VERSION" > web-repo/version.json
+
+          cd web-repo
+          git config user.email "github-actions@github.com"
+          git config user.name "GitHub Actions"
+          git add -A
+
+          if git diff --staged --quiet; then
+            echo "No changes to deploy"
+          else
+            git commit -m "chore: deploy web build $VERSION [skip ci]"
+            git push
+          fi
+
+      # ── Also build APK and release it on Engro-Connect-Web ──────────────
+      - name: Setup Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: zulu
+          java-version: "21"
+
+      - name: Setup Gradle
+        uses: gradle/actions/setup-gradle@v4
+
+      - name: Sync Capacitor
+        run: npx cap sync android
+
+      - name: Build APK
+        run: |
+          cd android
+          chmod +x ./gradlew
+          ./gradlew assembleDebug --no-daemon
+          cd ..
+
+      - name: Create Release on Engro-Connect-Web
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ steps.version.outputs.TAG }}
+          name: "Engro Enfrashare Web ${{ steps.version.outputs.TAG }}"
+          body: |
+            **Version:** ${{ steps.version.outputs.VERSION }}
+
+            ### 📱 Android APK
+            Download below and tap to install. Replaces existing app — no uninstall needed.
+
+            ### 🌐 Web App
+            Live at: https://techmastergojo.github.io/Engro-Connect-Web/
+
+            ### ✅ What's new
+            - Map: Search auto-zooms to matching sites, surrounding sites stay visible
+            - Map: Autocomplete dropdown with up to 8 instant results
+            - DG Report tab fully enabled
+            - NAR, Fuel, and DG dashboards all active
+          files: |
+            android/app/build/outputs/apk/debug/app-debug.apk
+        env:
+          GITHUB_TOKEN: ${{ secrets.WEB_DEPLOY_TOKEN }}
+          REPOSITORY: Techmastergojo/Engro-Connect-Web

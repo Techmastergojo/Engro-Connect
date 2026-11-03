@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { X, Palette, Bug, CheckCircle, AlertCircle, Loader2, RefreshCw, DownloadCloud, Zap } from 'lucide-react';
-import { fetchLiveTelemetry } from '../services/apiSync';
+import { X, Palette, Bug, CheckCircle, AlertCircle, Loader2, RefreshCw, DownloadCloud } from 'lucide-react';
 
 // ── Theme definitions ────────────────────────────────────────────────────────
 export const THEMES = [
@@ -16,11 +15,10 @@ export const THEMES = [
   { id: 'matrix-green',   name: 'Matrix',        accent: '#00ff41', bg: '#000000', surface: 'rgba(0,20,5,0.92)',    text: '#00ff41', secondary: '#00cc33' },
   { id: 'sunset-orange',  name: '🌅 Sunset',     accent: '#ff6b35', bg: '#0d0704', surface: 'rgba(30,14,6,0.90)',   text: '#ffffff', secondary: '#ffc4a8' },
   { id: 'ocean-deep',     name: '🌊 Ocean Deep',    accent: '#0891b2', bg: '#020b0e', surface: 'rgba(2,20,30,0.92)',   text: '#ffffff', secondary: '#7dd3fc' },
-  { id: 'neon-pink',      name: '💜 Neon Pink',     accent: '#e879f9', bg: '#0d0210', surface: 'rgba(25,5,35,0.92)',   text: '#ffffff', secondary: '#f0abfc' },
+  { id: 'neon-pink',      name: '💜 Neon Pink',     accent: '#e879f9', bg: '#0d0210', surface: 'rgba(255,5,35,0.92)',   text: '#ffffff', secondary: '#f0abfc' },
   { id: 'cyberpunk',      name: '🤖 Cyberpunk',     accent: '#fde047', bg: '#020617', surface: 'rgba(10,15,30,0.92)',  text: '#ffffff', secondary: '#facc15' },
   { id: 'forest-night',   name: '🍃 Forest Night',  accent: '#4ade80', bg: '#030a05', surface: 'rgba(5,18,8,0.92)',   text: '#ffffff', secondary: '#86efac' },
 ];
-
 
 export const applyTheme = (themeId: string) => {
   const theme = THEMES.find(t => t.id === themeId) || THEMES[0];
@@ -54,10 +52,7 @@ export const applyTheme = (themeId: string) => {
 };
 
 // ── GitHub config ─────────────────────────────────────────────────────────────
-// Public repo — anyone can READ issues without auth
-// Token only needed to WRITE (create) issues — public_repo scope only (low risk)
 const GITHUB_REPO = 'Techmastergojo/Engro-Connect';
-
 
 interface BugReport {
   id: number;
@@ -78,9 +73,7 @@ interface Props {
 }
 
 export const SettingsPanel: React.FC<Props> = ({ isOpen, onClose, hasNewBugs, onBugsViewed, onForceUpdateCheck }) => {
-  const [activeTab, setActiveTab] = useState<'theme' | 'bugs' | 'sync'>('theme');
-  const [syncStatus, setSyncStatus] = useState<string | null>(null);
-  const [isSyncing, setIsSyncing] = useState(false);
+  const [activeTab, setActiveTab] = useState<'theme' | 'bugs'>('theme');
   const [currentTheme, setCurrentTheme] = useState(() => localStorage.getItem('app_theme') || 'sunset-orange');
   
   // Bug report state
@@ -139,7 +132,6 @@ export const SettingsPanel: React.FC<Props> = ({ isOpen, onClose, hasNewBugs, on
     setSubmitting(false);
   };
 
-
   if (!isOpen) return null;
 
   return (
@@ -187,18 +179,6 @@ export const SettingsPanel: React.FC<Props> = ({ isOpen, onClose, hasNewBugs, on
               }} />
             )}
           </button>
-          <button 
-            onClick={() => setActiveTab('sync')}
-            style={{ 
-              flex: 1, padding: '10px', borderRadius: 'var(--radius-sm)', fontWeight: 600, fontSize: '0.88rem',
-              background: activeTab === 'sync' ? 'var(--accent-bg)' : 'transparent',
-              color: activeTab === 'sync' ? 'var(--accent)' : 'var(--text-secondary)',
-              border: `1px solid ${activeTab === 'sync' ? 'var(--border-hover)' : 'transparent'}`,
-              display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '6px'
-            }}
-          >
-            <RefreshCw size={16} /> Data Portal
-          </button>
         </div>
 
         {/* Content */}
@@ -237,20 +217,20 @@ export const SettingsPanel: React.FC<Props> = ({ isOpen, onClose, hasNewBugs, on
                 ))}
               </div>
 
-                {/* Manual Update Check */}
-                <div style={{ marginTop: '32px', paddingTop: '20px', borderTop: '1px solid var(--border)' }}>
-                  <h3 style={{ fontWeight: 700, fontSize: '1rem', marginBottom: '8px' }}>App Updates</h3>
-                  <p style={{ color: 'var(--text-secondary)', fontSize: '0.85rem', marginBottom: '12px' }}>
-                    Auto-updates usually happen in the background. If you're stuck, you can force a check.
-                  </p>
-                  <button
-                    className="btn-accent"
-                    style={{ width: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '8px' }}
-                    onClick={onForceUpdateCheck}
-                  >
-                    <DownloadCloud size={18} /> Check for Updates
-                  </button>
-                </div>
+              {/* Manual Update Check */}
+              <div style={{ marginTop: '32px', paddingTop: '20px', borderTop: '1px solid var(--border)' }}>
+                <h3 style={{ fontWeight: 700, fontSize: '1rem', marginBottom: '8px' }}>App Updates</h3>
+                <p style={{ color: 'var(--text-secondary)', fontSize: '0.85rem', marginBottom: '12px' }}>
+                  Auto-updates usually happen in the background. If you're stuck, you can force a check.
+                </p>
+                <button
+                  className="btn-accent"
+                  style={{ width: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '8px' }}
+                  onClick={onForceUpdateCheck}
+                >
+                  <DownloadCloud size={18} /> Check for Updates
+                </button>
+              </div>
             </div>
           )}
 
@@ -332,111 +312,6 @@ export const SettingsPanel: React.FC<Props> = ({ isOpen, onClose, hasNewBugs, on
                   ))}
                 </div>
               )}
-            </div>
-          )}
-
-          {/* ── Data Portal Sync Tab ── */}
-          {activeTab === 'sync' && (
-            <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
-              <div>
-                <h3 style={{ fontWeight: 700, fontSize: '1rem', color: 'var(--text-primary)' }}>
-                  Cloud Data Portal & Telemetry Sync
-                </h3>
-                <p style={{ color: 'var(--text-secondary)', fontSize: '0.82rem', marginTop: '4px', lineHeight: 1.4 }}>
-                  Connects to the standalone Engro Data Portal &amp; Cloud Database to pull the latest daily NAR, Fueling, and Site Master telemetry without requiring app updates.
-                </p>
-              </div>
-
-              <div className="glass" style={{ padding: '20px', display: 'flex', flexDirection: 'column', gap: '14px', textAlign: 'center' }}>
-                <div style={{ display: 'flex', justifyContent: 'center' }}>
-                  <div style={{
-                    width: '48px',
-                    height: '48px',
-                    borderRadius: '14px',
-                    background: 'var(--accent-bg)',
-                    border: '1px solid var(--border-hover)',
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'center',
-                    color: 'var(--accent)'
-                  }}>
-                    <Zap size={24} />
-                  </div>
-                </div>
-
-                <div>
-                  <h4 style={{ fontWeight: 700, fontSize: '0.95rem', color: 'var(--text-primary)' }}>
-                    Automated Telemetry Sync
-                  </h4>
-                  <p style={{ color: 'var(--text-secondary)', fontSize: '0.78rem', marginTop: '4px', lineHeight: 1.4 }}>
-                    Engro Connect synchronizes newly uploaded NAR, Fueling, and Site Master operational reports directly with Cloud Storage &amp; GitHub CDN.
-                  </p>
-                </div>
-
-                {/* Custom Portal URL Input */}
-                <div style={{ textAlign: 'left', marginTop: '4px' }}>
-                  <label style={{ fontSize: '0.78rem', fontWeight: 600, color: 'var(--text-secondary)', marginBottom: '4px', display: 'block' }}>
-                    Custom Portal URL (Optional):
-                  </label>
-                  <input
-                    type="text"
-                    className="input"
-                    placeholder="e.g. https://your-portal.vercel.app"
-                    defaultValue={localStorage.getItem('engro_custom_portal_url') || ''}
-                    onChange={(e) => {
-                      const val = e.target.value.trim();
-                      if (val) {
-                        localStorage.setItem('engro_custom_portal_url', val.startsWith('http') ? val : `https://${val}`);
-                      } else {
-                        localStorage.removeItem('engro_custom_portal_url');
-                      }
-                    }}
-                    style={{ fontSize: '0.8rem', padding: '8px 12px', width: '100%' }}
-                  />
-                  <span style={{ fontSize: '0.72rem', color: 'var(--text-muted)', marginTop: '4px', display: 'block' }}>
-                    Leave blank to use the High-Speed Cloud CDN automatically.
-                  </span>
-                </div>
-
-                <button
-                  className="btn-accent"
-                  disabled={isSyncing}
-                  onClick={async () => {
-                    setIsSyncing(true);
-                    setSyncStatus('Connecting to secure Engro Cloud database...');
-                    try {
-                      const res = await fetchLiveTelemetry();
-                      if (res.success && res.data) {
-                        const siteCount = res.data.summary?.totalSites || res.data.nar?.sites?.length || 0;
-                        setSyncStatus(`✓ Telemetry updated: ${siteCount} sites synchronized via ${res.source}!`);
-                        setTimeout(() => window.location.reload(), 1400);
-                      } else {
-                        setSyncStatus('✓ Using offline cached telemetry (telemetry is up to date).');
-                      }
-                    } catch (err: any) {
-                      setSyncStatus(`Notice: Running in offline mode.`);
-                    } finally {
-                      setIsSyncing(false);
-                    }
-                  }}
-                  style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '8px', padding: '12px 16px' }}
-                >
-                  {isSyncing ? <><Loader2 size={16} className="animate-spin" /> Fetching Live Updates...</> : <><RefreshCw size={16} /> Check for Live Updates Now</>}
-                </button>
-
-                {syncStatus && (
-                  <div style={{
-                    fontSize: '0.8rem',
-                    padding: '10px 12px',
-                    borderRadius: 'var(--radius-sm)',
-                    background: syncStatus.startsWith('✓') ? 'rgba(16, 185, 129, 0.15)' : 'rgba(239, 68, 68, 0.15)',
-                    color: syncStatus.startsWith('✓') ? '#34d399' : '#f87171',
-                    border: `1px solid ${syncStatus.startsWith('✓') ? 'rgba(16, 185, 129, 0.3)' : 'rgba(239, 68, 68, 0.3)'}`
-                  }}>
-                    {syncStatus}
-                  </div>
-                )}
-              </div>
             </div>
           )}
         </div>

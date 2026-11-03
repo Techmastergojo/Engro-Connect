@@ -1,16 +1,16 @@
 import React, { useState, useEffect, useRef } from 'react';
 import Papa from 'papaparse';
-import { Search, Plus, Upload, Settings, ExternalLink, Radio, BarChart2, Fuel } from 'lucide-react';
+import { Search, Plus, Upload, Settings, ExternalLink, List, Map as MapIcon, Radio, Fuel, Zap } from 'lucide-react';
 import type { Site } from './types';
 import { getSites, addSite, updateSite, deleteSite, saveSites, initializeDb } from './db';
 import { SiteCard } from './components/SiteCard';
 import { SiteModal } from './components/SiteModal';
+import { SiteMap } from './components/SiteMap';
 import { SettingsPanel, applyTheme, THEMES } from './components/SettingsPanel';
 import { ChangelogModal } from './components/ChangelogModal';
 import { NarDashboard } from './components/NarDashboard';
 import { FuelDashboard } from './components/FuelDashboard';
 import { SplashScreen } from '@capacitor/splash-screen';
-import { fetchLiveTelemetry } from './services/apiSync';
 
 // Website URL — update once Vercel deploys
 const WEBSITE_URL = 'https://engro-enfrashare.vercel.app';
@@ -36,7 +36,8 @@ function App() {
   const [hasNewBugs, setHasNewBugs] = useState(false);
   const [isChangelogOpen, setIsChangelogOpen] = useState(false);
   const [updateBanner, setUpdateBanner] = useState<{version: string; msg: string; downloadUrl?: string} | null>(null);
-  const [currentView, setCurrentView] = useState<'sites' | 'nar' | 'fuel'>('sites');
+  const [activeView, setActiveView] = useState<'list' | 'map' | 'nar' | 'fuel' | 'dg'>('list');
+  const [focusSiteOnMap, setFocusSiteOnMap] = useState<Site | null>(null);
   const fileInputRef = useRef<HTMLInputElement>(null);
 
   // Version baked in at build time by GitHub Actions via Vite define
@@ -52,9 +53,6 @@ function App() {
     // Load sites
     initializeDb().then(loadedSites => setSites(loadedSites));
 
-    // Fetch latest telemetry silently in background
-    fetchLiveTelemetry().catch(console.warn);
-
     // Check for new bug reports (silent background check)
     checkForNewBugs();
 
@@ -65,7 +63,6 @@ function App() {
     const handleVisibilityChange = () => {
       if (document.visibilityState === 'visible') {
         setTimeout(() => {
-          fetchLiveTelemetry().catch(console.warn);
           checkForNewApk();
           checkForNewBugs();
         }, 1000);
@@ -141,7 +138,6 @@ function App() {
       }
     }
   };
-
 
   const checkForNewBugs = async () => {
     try {
@@ -233,8 +229,6 @@ function App() {
         if (newSites.length > 0) {
           saveSites(newSites);
           setSites(newSites);
-        } else {
-          // no valid rows parsed — silently ignore
         }
         if (fileInputRef.current) fileInputRef.current.value = '';
       }
@@ -249,7 +243,9 @@ function App() {
       (s.jazzId && s.jazzId.toLowerCase().includes(query)) ||
       (s.telenorId && s.telenorId.toLowerCase().includes(query)) ||
       (s.zongId && s.zongId.toLowerCase().includes(query)) ||
-      (s.ufoneId && s.ufoneId.toLowerCase().includes(query))
+      (s.ufoneId && s.ufoneId.toLowerCase().includes(query)) ||
+      (s.mbuNumber && s.mbuNumber.toLowerCase().includes(query)) ||
+      (s.mbuName && s.mbuName.toLowerCase().includes(query))
     );
   });
 
@@ -258,20 +254,20 @@ function App() {
   const themeAccent = THEMES.find(t => t.id === savedTheme)?.accent || '#00a86b';
 
   return (
-    <div style={{ maxWidth: currentView === 'sites' ? '600px' : '840px', margin: '0 auto', padding: '32px 16px', position: 'relative', transition: 'max-width 0.3s ease' }}>
-      <header style={{ marginBottom: '24px', position: 'relative', display: 'flex', alignItems: 'center', gap: '14px', minHeight: '72px' }}>
+    <div style={{ maxWidth: activeView === 'map' ? '1200px' : activeView === 'list' ? '640px' : '960px', margin: '0 auto', padding: '24px 16px', position: 'relative', transition: 'max-width 0.3s ease' }}>
+      <header style={{ marginBottom: '20px', position: 'relative', display: 'flex', alignItems: 'center', gap: '14px', minHeight: '68px' }}>
 
         {/* Logo — fixed width on left */}
         <img
           src="/logo.png"
           alt="Engro Enfrashare Logo"
-          style={{ height: '60px', width: 'auto', objectFit: 'contain', flexShrink: 0, filter: `drop-shadow(0 4px 16px ${themeAccent}55)` }}
+          style={{ height: '56px', width: 'auto', objectFit: 'contain', flexShrink: 0, filter: `drop-shadow(0 4px 16px ${themeAccent}55)` }}
         />
 
         {/* Heading — centred in remaining space */}
         <div style={{ flex: 1, textAlign: 'center' }}>
-          <h1 style={{ fontSize: '1.9rem', fontWeight: 800, marginBottom: '4px', letterSpacing: '-0.03em', background: 'linear-gradient(180deg, #fff, var(--text-secondary))', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', lineHeight: 1.1 }}>Engro Enfrashare</h1>
-          <p style={{ color: 'var(--text-secondary)', fontSize: '0.85rem', fontWeight: 600, letterSpacing: '0.01em', margin: 0 }}>Pakistan Leading Tower Co.</p>
+          <h1 style={{ fontSize: '1.85rem', fontWeight: 800, marginBottom: '2px', letterSpacing: '-0.03em', background: 'linear-gradient(180deg, #fff, var(--text-secondary))', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', lineHeight: 1.1 }}>Engro Enfrashare</h1>
+          <p style={{ color: 'var(--text-secondary)', fontSize: '0.82rem', fontWeight: 600, letterSpacing: '0.01em', margin: 0 }}>Pakistan Leading Tower Co.</p>
         </div>
 
         {/* ⚙ Settings gear top-right */}
@@ -300,94 +296,62 @@ function App() {
         </button>
       </header>
 
-      {/* Main Feature View Navigation Bar */}
-      <nav style={{
+      {/* ── VIEW SWITCHER (5 Tabs) ── */}
+      <div style={{
         display: 'flex',
+        flexWrap: 'wrap',
         background: 'var(--surface)',
         border: '1px solid var(--border)',
         borderRadius: '12px',
         padding: '4px',
-        marginBottom: '24px',
+        marginBottom: '20px',
         gap: '4px',
-        boxShadow: '0 4px 20px rgba(0,0,0,0.2)'
+        boxShadow: '0 4px 16px rgba(0,0,0,0.2)'
       }}>
-        <button
-          onClick={() => setCurrentView('sites')}
-          style={{
-            flex: 1,
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            gap: '8px',
-            padding: '10px 12px',
-            borderRadius: '8px',
-            fontSize: '0.88rem',
-            fontWeight: 700,
-            border: 'none',
-            cursor: 'pointer',
-            transition: 'all 0.2s',
-            background: currentView === 'sites' ? 'var(--accent)' : 'transparent',
-            color: currentView === 'sites' ? '#fff' : 'var(--text-secondary)'
-          }}
-        >
-          <Radio size={16} /> Sites
-        </button>
+        {([
+          { id: 'list',  icon: <List size={16} />,   label: `Sites (${filteredSites.length})` },
+          { id: 'map',   icon: <MapIcon size={16} />, label: 'Map & MBUs' },
+          { id: 'nar',   icon: <Radio size={16} />,   label: 'NAR Report' },
+          { id: 'fuel',  icon: <Fuel size={16} />,    label: 'Fuel Report' },
+          { id: 'dg',    icon: <Zap size={16} />,     label: 'DG Report' },
+        ] as const).map(tab => (
+          <button
+            key={tab.id}
+            onClick={() => setActiveView(tab.id)}
+            style={{
+              flex: '1 1 auto',
+              minWidth: '80px',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              gap: '6px',
+              padding: '10px 12px',
+              borderRadius: '8px',
+              fontSize: '0.82rem',
+              fontWeight: 700,
+              border: 'none',
+              cursor: 'pointer',
+              transition: 'all 0.2s',
+              whiteSpace: 'nowrap',
+              background: activeView === tab.id ? 'var(--accent)' : 'transparent',
+              color: activeView === tab.id ? '#fff' : 'var(--text-secondary)'
+            }}
+          >
+            {tab.icon} {tab.label}
+          </button>
+        ))}
+      </div>
 
-        <button
-          onClick={() => setCurrentView('nar')}
-          style={{
-            flex: 1,
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            gap: '8px',
-            padding: '10px 12px',
-            borderRadius: '8px',
-            fontSize: '0.88rem',
-            fontWeight: 700,
-            border: 'none',
-            cursor: 'pointer',
-            transition: 'all 0.2s',
-            background: currentView === 'nar' ? 'var(--accent)' : 'transparent',
-            color: currentView === 'nar' ? '#fff' : 'var(--text-secondary)'
-          }}
-        >
-          <BarChart2 size={16} /> NAR Intelligence
-        </button>
-
-        <button
-          onClick={() => setCurrentView('fuel')}
-          style={{
-            flex: 1,
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            gap: '8px',
-            padding: '10px 12px',
-            borderRadius: '8px',
-            fontSize: '0.88rem',
-            fontWeight: 700,
-            border: 'none',
-            cursor: 'pointer',
-            transition: 'all 0.2s',
-            background: currentView === 'fuel' ? 'var(--accent)' : 'transparent',
-            color: currentView === 'fuel' ? '#fff' : 'var(--text-secondary)'
-          }}
-        >
-          <Fuel size={16} /> Fuel Activity
-        </button>
-      </nav>
-
-      {/* ── VIEW 1: SITES DATABASE ── */}
-      {currentView === 'sites' && (
+      {/* ── 1. SITES LIST VIEW ── */}
+      {activeView === 'list' && (
         <div>
-          <div style={{ display: 'flex', gap: '10px', marginBottom: '24px' }}>
+          <div style={{ display: 'flex', gap: '10px', marginBottom: '20px' }}>
             <div style={{ position: 'relative', flex: 1 }}>
               <Search size={18} style={{ position: 'absolute', left: '16px', top: '50%', transform: 'translateY(-50%)', color: 'var(--text-muted)' }} />
               <input
                 className="input"
                 style={{ paddingLeft: '48px' }}
-                placeholder="Search by Site ID or OMO ID (Jazz, Zong...)"
+                placeholder="Search by Site ID, MBU, or Operator (Jazz, Zong...)"
                 value={searchQuery}
                 onChange={e => setSearchQuery(e.target.value)}
               />
@@ -419,7 +383,16 @@ function App() {
           ) : (
             <div style={{ display: 'flex', flexDirection: 'column', gap: '4px' }}>
               {filteredSites.slice(0, 100).map(site => (
-                <SiteCard key={site.id} site={site} onEdit={(s) => { setEditingSite(s); setIsModalOpen(true); }} onDelete={handleDelete} />
+                <SiteCard
+                  key={site.id}
+                  site={site}
+                  onEdit={(s) => { setEditingSite(s); setIsModalOpen(true); }}
+                  onDelete={handleDelete}
+                  onLocateOnMap={(s) => {
+                    setFocusSiteOnMap(s);
+                    setActiveView('map');
+                  }}
+                />
               ))}
               {filteredSites.length > 100 && (
                 <p style={{ textAlign: 'center', color: 'var(--text-muted)', fontSize: '0.85rem', marginTop: '12px' }}>
@@ -431,16 +404,32 @@ function App() {
         </div>
       )}
 
-      {/* ── VIEW 2: NAR ANALYTICS ── */}
-      {currentView === 'nar' && <NarDashboard />}
+      {/* ── 2. INTERACTIVE MAP VIEW ── */}
+      {activeView === 'map' && (
+        <SiteMap
+          sites={sites}
+          initialFocusSite={focusSiteOnMap}
+          onClearFocusSite={() => setFocusSiteOnMap(null)}
+        />
+      )}
 
-      {/* ── VIEW 3: FUEL ACTIVITY ── */}
-      {currentView === 'fuel' && <FuelDashboard />}
+      {/* ── 3. NAR REPORT VIEW ── */}
+      {activeView === 'nar' && (
+        <NarDashboard />
+      )}
 
+      {/* ── 4. FUEL REPORT VIEW ── */}
+      {activeView === 'fuel' && (
+        <FuelDashboard />
+      )}
 
-
+      {/* ── 5. DG REPORT VIEW (Fuel Dashboard pre-opened on DG Profiles sub-tab) ── */}
+      {activeView === 'dg' && (
+        <FuelDashboard initialSubTab="dgProfiles" />
+      )}
 
       <SiteModal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} site={editingSite} onSave={handleAddOrUpdate} />
+
 
       <SettingsPanel
         isOpen={isSettingsOpen}
