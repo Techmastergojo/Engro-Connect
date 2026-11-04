@@ -48,6 +48,7 @@ jobs:
         env:
           VITE_APP_VERSION: ${{ steps.version.outputs.VERSION }}
           VITE_BUG_TOKEN: ${{ secrets.BUG_REPORT_TOKEN }}
+          VITE_MAPBOX_TOKEN: ${{ secrets.MAPBOX_TOKEN }}
 
       - name: Setup Java
         uses: actions/setup-java@v4

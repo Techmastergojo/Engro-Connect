@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import Papa from 'papaparse';
-import { Search, Plus, Upload, Settings, ExternalLink, List, Map as MapIcon, Radio, Fuel, Zap } from 'lucide-react';
+import { Search, Plus, Upload, Settings, ExternalLink, List, Map as MapIcon, Zap } from 'lucide-react';
 import type { Site } from './types';
 import { getSites, addSite, updateSite, deleteSite, saveSites, initializeDb } from './db';
 import { SiteCard } from './components/SiteCard';
@@ -8,7 +8,6 @@ import { SiteModal } from './components/SiteModal';
 import { SiteMap } from './components/SiteMap';
 import { SettingsPanel, applyTheme, THEMES } from './components/SettingsPanel';
 import { ChangelogModal } from './components/ChangelogModal';
-import { NarDashboard } from './components/NarDashboard';
 import { FuelDashboard } from './components/FuelDashboard';
 import { SplashScreen } from '@capacitor/splash-screen';
 
@@ -36,7 +35,7 @@ function App() {
   const [hasNewBugs, setHasNewBugs] = useState(false);
   const [isChangelogOpen, setIsChangelogOpen] = useState(false);
   const [updateBanner, setUpdateBanner] = useState<{version: string; msg: string; downloadUrl?: string} | null>(null);
-  const [activeView, setActiveView] = useState<'list' | 'map' | 'nar' | 'fuel' | 'dg'>('list');
+  const [activeView, setActiveView] = useState<'list' | 'map' | 'dg'>('list');
   const [focusSiteOnMap, setFocusSiteOnMap] = useState<Site | null>(null);
   const fileInputRef = useRef<HTMLInputElement>(null);
 
@@ -311,8 +310,6 @@ function App() {
         {([
           { id: 'list',  icon: <List size={16} />,   label: `Sites (${filteredSites.length})` },
           { id: 'map',   icon: <MapIcon size={16} />, label: 'Map & MBUs' },
-          { id: 'nar',   icon: <Radio size={16} />,   label: 'NAR Report' },
-          { id: 'fuel',  icon: <Fuel size={16} />,    label: 'Fuel Report' },
           { id: 'dg',    icon: <Zap size={16} />,     label: 'DG Report' },
         ] as const).map(tab => (
           <button
@@ -413,17 +410,7 @@ function App() {
         />
       )}
 
-      {/* ── 3. NAR REPORT VIEW ── */}
-      {activeView === 'nar' && (
-        <NarDashboard />
-      )}
-
-      {/* ── 4. FUEL REPORT VIEW ── */}
-      {activeView === 'fuel' && (
-        <FuelDashboard />
-      )}
-
-      {/* ── 5. DG REPORT VIEW (Fuel Dashboard pre-opened on DG Profiles sub-tab) ── */}
+      {/* ── 3. DG REPORT VIEW (Fuel Dashboard pre-opened on DG Profiles sub-tab) ── */}
       {activeView === 'dg' && (
         <FuelDashboard initialSubTab="dgProfiles" />
       )}

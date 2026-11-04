@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Map, Edit2, Trash2, MessageSquare, ChevronDown, ChevronUp, Sun, Radio } from 'lucide-react';
+import { Map, Edit2, Trash2, MessageSquare, ChevronDown, ChevronUp, Sun, Radio, Zap } from 'lucide-react';
 import type { Site } from '../types';
 
 interface Props {
@@ -88,6 +88,11 @@ export const SiteCard: React.FC<Props> = ({ site, onEdit, onDelete, onLocateOnMa
                 <Sun size={12} /> Solar
               </span>
             )}
+            {site.dgStatus && site.dgStatus !== '-' && (
+              <span className="badge" style={{ background: 'rgba(99, 102, 241, 0.15)', color: '#a5b4fc', border: '1px solid rgba(99, 102, 241, 0.3)', display: 'inline-flex', alignItems: 'center', gap: '4px' }}>
+                <Zap size={11} /> DG: {site.dgStatus}
+              </span>
+            )}
           </div>
 
           <h3 style={{ fontSize: '1.25rem', fontWeight: 700, letterSpacing: '-0.02em', color: 'var(--text-primary)' }}>{site.name}</h3>
@@ -138,6 +143,22 @@ export const SiteCard: React.FC<Props> = ({ site, onEdit, onDelete, onLocateOnMa
           <div className="detail-item">
             <div className="detail-label">Solar KWA</div>
             <div className="detail-value">{v(site.solarKwa)}</div>
+          </div>
+          <div className="detail-item">
+            <div className="detail-label" style={{ color: '#a5b4fc', display: 'flex', alignItems: 'center', gap: '4px' }}><Zap size={13} color="#a5b4fc" /> DG Status</div>
+            <div className="detail-value">{v(site.dgStatus)}</div>
+          </div>
+          <div className="detail-item">
+            <div className="detail-label" style={{ color: '#a5b4fc', display: 'flex', alignItems: 'center', gap: '4px' }}><Zap size={13} color="#a5b4fc" /> DG Shared</div>
+            <div className="detail-value">{v(site.dgShared)}</div>
+          </div>
+          <div className="detail-item">
+            <div className="detail-label">Power Status</div>
+            <div className="detail-value">{v(site.powerStatus)}</div>
+          </div>
+          <div className="detail-item">
+            <div className="detail-label">DC Shared</div>
+            <div className="detail-value">{v(site.dcShared)}</div>
           </div>
           <div className="detail-item">
             <div className="detail-label">Dependent Sites</div>

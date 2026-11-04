@@ -47,6 +47,7 @@ jobs:
         env:
           VITE_APP_VERSION: ${{ steps.version.outputs.VERSION }}
           VITE_BUG_TOKEN: ${{ secrets.BUG_REPORT_TOKEN }}
+          VITE_MAPBOX_TOKEN: ${{ secrets.MAPBOX_TOKEN }}
 
       # ── Push dist/ to Engro-Connect-Web repo ──────────────────────────────
       - name: Deploy dist to Engro-Connect-Web
